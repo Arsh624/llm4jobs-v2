@@ -1,0 +1,288 @@
+# llm4jobs v2 configuration.
+# Disable a source with `enabled = false` (or delete the block).
+
+[settings]
+max_age_days = 3            # only consider jobs posted in the last N days
+max_years = 2               # drop jobs requiring more than this many years
+us_only = true
+remote_counts_as_us = true  # a bare "Remote" location counts as US
+include_internships = false
+llm_fallback = true         # ask gpt-4o-mini only when no "N years" is found in the text
+llm_model = "gpt-4o-mini"
+llm_max_calls = 60          # hard cap per run (cost guard)
+
+# A title must contain one of these to be kept. Empty list = keep every role type.
+role_keywords = [
+  "engineer", "engineering", "developer", "software", "swe", "sde", "programmer",
+  "data", "analytics", "analyst", "machine learning", "ml", "ai", "scientist", "research",
+  "researcher", "sre", "reliability", "devops", "security", "infrastructure", "platform",
+  "backend", "back end", "back-end", "frontend", "front end", "front-end", "full stack",
+  "full-stack", "fullstack", "mobile", "ios", "android", "cloud", "systems", "firmware",
+  "embedded", "hardware", "quant", "quantitative", "product manager", "technical program",
+  "solutions", "forward deployed", "new grad", "graduate", "early career", "university",
+]
+# A title containing any of these is dropped even if it matched above.
+role_exclude = [
+  "recruiter", "recruiting", "sourcer", "talent acquisition", "account executive",
+  "sales development", "business development", "legal", "counsel", "paralegal", "attorney",
+  "accountant", "payroll", "executive assistant",
+]
+
+# ---------------------------------------------------------------- aggregator
+# Community new-grad list: covers Google, Meta, Apple, Microsoft and hundreds more.
+[[source]]
+type = "simplify"
+company = "SimplifyJobs (new grad list)"
+
+# ------------------------------------------------- from your v1 companies.csv
+[[source]]
+type = "amazon"
+company = "Amazon"
+search = "software engineer"
+
+[[source]]
+type = "workday"
+company = "NVIDIA"
+host = "nvidia.wd5.myworkdayjobs.com"
+tenant = "nvidia"
+site = "NVIDIAExternalCareerSite"
+
+[[source]]
+type = "workday"
+company = "Visa"
+host = "visa.wd5.myworkdayjobs.com"
+tenant = "visa"
+site = "Visa"
+
+[[source]]
+type = "workday"
+company = "KLA"
+host = "kla.wd1.myworkdayjobs.com"
+tenant = "kla"
+site = "Search"
+
+[[source]]
+type = "workday"
+company = "Salesforce"
+host = "salesforce.wd12.myworkdayjobs.com"
+tenant = "salesforce"
+site = "External_Career_Site"
+
+[[source]]
+type = "smartrecruiters"
+company = "ServiceNow"
+slug = "ServiceNow"
+
+[[source]]
+type = "greenhouse"
+company = "DoorDash"
+slug = "doordashusa"
+
+[[source]]
+type = "greenhouse"
+company = "Airbnb"
+slug = "airbnb"
+
+[[source]]
+type = "greenhouse"
+company = "Cloudflare"
+slug = "cloudflare"
+
+[[source]]
+type = "greenhouse"
+company = "Scale AI"
+slug = "scaleai"
+
+[[source]]
+type = "greenhouse"
+company = "xAI"
+slug = "xai"
+
+[[source]]
+type = "greenhouse"
+company = "Together AI"
+slug = "togetherai"
+
+[[source]]
+type = "greenhouse"
+company = "Fivetran"
+slug = "fivetran"
+
+[[source]]
+type = "greenhouse"
+company = "Elastic"
+slug = "elastic"
+
+[[source]]
+type = "greenhouse"
+company = "Databricks"
+slug = "databricks"
+
+[[source]]
+type = "greenhouse"
+company = "CoreWeave"
+slug = "coreweave"
+
+[[source]]
+type = "greenhouse"
+company = "Arize AI"
+slug = "arizeai"
+
+[[source]]
+type = "ashby"
+company = "OpenAI"
+slug = "openai"
+
+[[source]]
+type = "ashby"
+company = "Snowflake"
+slug = "snowflake"
+
+[[source]]
+type = "ashby"
+company = "ClickHouse"
+slug = "clickhouse"
+
+[[source]]
+type = "ashby"
+company = "LangChain"
+slug = "langchain"
+
+[[source]]
+type = "ashby"
+company = "Baseten"
+slug = "baseten"
+
+[[source]]
+type = "ashby"
+company = "Modal"
+slug = "modal"
+
+[[source]]
+type = "ashby"
+company = "Anyscale"
+slug = "anyscale"
+
+[[source]]
+type = "ashby"
+company = "Braintrust"
+slug = "braintrust"
+
+[[source]]
+type = "ashby"
+company = "LanceDB"
+slug = "lancedb"
+
+[[source]]
+type = "ashby"
+company = "Atlan"
+slug = "atlan"
+
+[[source]]
+type = "ashby"
+company = "Pinecone"
+slug = "pinecone"
+
+[[source]]
+type = "ashby"
+company = "Weaviate"
+slug = "weaviate"
+
+# Not available via a public API (still covered by v1's scraper): Goldman Sachs, Lenovo,
+# Bayview. Google / Meta / Apple / Microsoft come through the Simplify list above.
+
+# --------------------------------------- EXTRA companies (new in v2, delete freely)
+[[source]]
+type = "greenhouse"
+company = "Pinterest"
+slug = "pinterest"
+
+[[source]]
+type = "greenhouse"
+company = "Stripe"
+slug = "stripe"
+
+[[source]]
+type = "greenhouse"
+company = "Anthropic"
+slug = "anthropic"
+
+[[source]]
+type = "greenhouse"
+company = "Figma"
+slug = "figma"
+
+[[source]]
+type = "greenhouse"
+company = "Robinhood"
+slug = "robinhood"
+
+[[source]]
+type = "greenhouse"
+company = "Reddit"
+slug = "reddit"
+
+[[source]]
+type = "greenhouse"
+company = "Roblox"
+slug = "roblox"
+
+[[source]]
+type = "greenhouse"
+company = "Discord"
+slug = "discord"
+
+[[source]]
+type = "greenhouse"
+company = "Instacart"
+slug = "instacart"
+
+[[source]]
+type = "greenhouse"
+company = "Lyft"
+slug = "lyft"
+
+[[source]]
+type = "greenhouse"
+company = "Brex"
+slug = "brex"
+
+[[source]]
+type = "greenhouse"
+company = "Vercel"
+slug = "vercel"
+
+[[source]]
+type = "ashby"
+company = "Notion"
+slug = "notion"
+
+[[source]]
+type = "ashby"
+company = "Ramp"
+slug = "ramp"
+
+[[source]]
+type = "ashby"
+company = "Plaid"
+slug = "plaid"
+
+[[source]]
+type = "ashby"
+company = "Perplexity"
+slug = "perplexity"
+
+[[source]]
+type = "ashby"
+company = "Cohere"
+slug = "cohere"
+
+[[source]]
+type = "ashby"
+company = "Supabase"
+slug = "supabase"
+
+[[source]]
+type = "lever"
+company = "Palantir"
+slug = "palantir"

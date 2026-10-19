@@ -1,0 +1,15 @@
+# Local fallback (only if you DON'T use GitHub Actions). Project name differs from v1,
+# so this never touches the v1 containers.
+name: llm4jobs-v2
+services:
+  radar:
+    build: .
+    env_file: .env
+    environment:
+      TZ: America/Denver
+      INTERVAL_SECONDS: "900"
+    volumes:
+      - ./state:/app/state
+      - ./out:/app/out
+      - ./config:/app/config:ro
+    restart: unless-stopped
