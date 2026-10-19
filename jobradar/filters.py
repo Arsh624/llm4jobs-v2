@@ -19,7 +19,9 @@ def is_senior(title: str) -> bool:
     return bool(SENIOR.search(t))
 
 
-INTERN = re.compile(r"\b(intern|internship|co-?op|apprentice(ship)?)\b", re.I)
+INTERN = re.compile(
+    r"\b(intern|internship|co-?op|apprentice(ship)?|undergraduates?)\b"
+    r"|\b(summer|fall|winter|spring)\s+20\d\d\b", re.I)   # "Spring 2027" = term-based co-op/intern
 
 
 def is_intern(title: str) -> bool:
@@ -59,7 +61,10 @@ NON_US = re.compile(
     r"argentina|buenos aires|costa rica|switzerland|zurich|sweden|stockholm|denmark|copenhagen|"
     r"italy|milan|portugal|lisbon|romania|bucharest|czech|prague|hungary|budapest|serbia|belgrade|"
     r"emea|apac|latam|europe|asia|uae|dubai|vietnam|thailand|indonesia|malaysia|new zealand|"
-    r"chile|peru|uruguay|estonia|lithuania|ukraine|turkey|istanbul|egypt|nigeria|kenya|south africa",
+    r"chile|peru|uruguay|estonia|lithuania|ukraine|turkey|istanbul|egypt|nigeria|kenya|south africa|"
+    r"saudi|riyadh|jeddah|king abdullah|\bksa\b|qatar|doha|abu dhabi|kuwait|bahrain|oman|jordan|"
+    r"pakistan|bangladesh|sri lanka|morocco|greece|athens|austria|vienna|belgium|brussels|finland|"
+    r"helsinki|norway|oslo|scotland|edinburgh|wales|luxembourg|slovakia|croatia|bulgaria|cyprus|malta",
     re.I)
 _STATE_ABBR = re.compile(r"(?:,|\b)\s*([A-Z]{2})\b")
 _SPLIT = re.compile(r";|\||/| or |\n")

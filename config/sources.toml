@@ -26,6 +26,7 @@ role_exclude = [
   "recruiter", "recruiting", "sourcer", "talent acquisition", "account executive",
   "sales development", "business development", "legal", "counsel", "paralegal", "attorney",
   "accountant", "payroll", "executive assistant",
+  "sales", "retail", "store", "customer service", "representative",
 ]
 
 # ---------------------------------------------------------------- aggregator
@@ -419,3 +420,79 @@ slug = "loadsmart"
 type = "lever"
 company = "Hive"
 slug = "hive"
+
+# ------------------- From v1's original (Varun) list, US companies only
+[[source]]
+type = "greenhouse"
+company = "Lucid Motors"
+slug = "lucidmotors"
+
+[[source]]
+type = "ashby"
+company = "Replit"
+slug = "replit"
+
+[[source]]
+type = "ashby"
+company = "Valon"
+slug = "Valon"
+
+[[source]]
+type = "lever"
+company = "Spotify"
+slug = "spotify"
+
+[[source]]
+type = "ashby"
+company = "Handshake"
+slug = "handshake"
+
+[[source]]
+type = "workday"
+company = "Red Hat"
+host = "redhat.wd5.myworkdayjobs.com"
+tenant = "redhat"
+site = "jobs"
+
+[[source]]
+type = "workday"
+company = "Medtronic"
+host = "medtronic.wd1.myworkdayjobs.com"
+tenant = "medtronic"
+site = "MedtronicCareers"
+
+[[source]]
+type = "workday"
+company = "Analog Devices"
+host = "analogdevices.wd1.myworkdayjobs.com"
+tenant = "analogdevices"
+site = "External"
+
+[[source]]
+type = "workday"
+company = "Applied Materials"
+host = "amat.wd1.myworkdayjobs.com"
+tenant = "amat"
+site = "External"
+
+[[source]]
+type = "workday"
+company = "Micron"
+host = "micron.wd1.myworkdayjobs.com"
+tenant = "micron"
+site = "External"
+
+[[source]]
+type = "workday"
+company = "HP"
+host = "hp.wd5.myworkdayjobs.com"
+tenant = "hp"
+site = "ExternalCareerSite"
+
+[[source]]
+type = "workday"
+company = "T-Mobile"
+host = "tmobile.wd1.myworkdayjobs.com"
+tenant = "tmobile"
+site = "External"
+# Not reachable via a public API yet: Uber, Oracle, IBM, Accenture, KPMG, Moody's, GitHub.

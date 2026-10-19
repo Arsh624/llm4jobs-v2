@@ -110,8 +110,8 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     keep: list[Job] = []
     llm_calls = 0
     for j in cands:
-        if settings["us_only"] and not (j.extra.get("wd_us_facet") or
-                                        filters.is_us(j.location, settings["remote_counts_as_us"])):
+        # Always check location ourselves: some Workday tenants silently ignore the US facet.
+        if settings["us_only"] and not filters.is_us(j.location, settings["remote_counts_as_us"]):
             stats["drop_non_us"] += 1
             state.mark_seen(j.key)
             continue
