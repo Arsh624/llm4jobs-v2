@@ -11,7 +11,7 @@ from pathlib import Path
 
 from . import filters
 from .digest import send_email, write_outputs
-from .llm import llm_min_years
+from .llm import llm_available, llm_min_years
 from .models import Job
 from .sources import ADAPTERS, fetch_detail
 from .store import State
@@ -122,10 +122,11 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
                 hit, cached = state.cached_years(j.key)
                 if hit:
                     j.min_years = cached
-                elif llm_calls < settings["llm_max_calls"]:
+                elif llm_available() and llm_calls < settings["llm_max_calls"]:
                     llm_calls += 1
-                    j.min_years = llm_min_years(j.description, settings["llm_model"])
-                    state.cache_years(j.key, j.min_years)
+                    ok, j.min_years = llm_min_years(j.description, settings["llm_model"])
+                    if ok:
+                        state.cache_years(j.key, j.min_years)
                 if j.min_years is not None:
                     j.years_basis = "llm"
         if j.min_years is not None and j.min_years > settings["max_years"]:

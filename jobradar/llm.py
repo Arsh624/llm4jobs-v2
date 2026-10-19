@@ -17,10 +17,15 @@ PROMPT = (
 )
 
 
-def llm_min_years(description: str, model: str = "gpt-4o-mini") -> int | None:
+def llm_available() -> bool:
+    return bool(os.environ.get("OPENAI_API_KEY", "").strip())
+
+
+def llm_min_years(description: str, model: str = "gpt-4o-mini") -> tuple[bool, int | None]:
+    """Returns (ok, min_years). ok=False means the call failed and must not be cached."""
     key = os.environ.get("OPENAI_API_KEY", "").strip()
     if not key or not description.strip():
-        return None
+        return False, None
     body = {
         "model": model,
         "temperature": 0,
@@ -35,7 +40,7 @@ def llm_min_years(description: str, model: str = "gpt-4o-mini") -> int | None:
         d = request_json("https://api.openai.com/v1/chat/completions", body,
                          headers={"Authorization": f"Bearer {key}"}, timeout=40, retries=2)
         v = json.loads(d["choices"][0]["message"]["content"]).get("min_years")
-        return int(v) if v is not None else None
+        return True, (int(v) if v is not None else None)
     except Exception as e:
         LOG.warning("llm_min_years failed: %s", e)
-        return None
+        return False, None
