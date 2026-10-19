@@ -1,6 +1,7 @@
 """fetch -> date/seen -> title filters -> details -> location -> years -> dedupe -> digest."""
 from __future__ import annotations
 
+import json
 import logging
 import os
 import tomllib
@@ -58,14 +59,17 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
 
     # 1. fetch every source in parallel
     all_jobs: list[Job] = []
+    health: dict[str, dict] = {}
     with ThreadPoolExecutor(max_workers=8) as ex:
         for src, jobs, err in ex.map(lambda s: _fetch_one(s, settings), sources):
             label = src.get("company", src["type"])
             if err:
                 errors[label] = err
                 LOG.warning("source failed: %s (%s) %s", label, src["type"], err)
+            health[label] = {"type": src["type"], "jobs": len(jobs), "error": err}
             stats["fetched"] += len(jobs)
             all_jobs.extend(jobs)
+    _write_health(state_path.parent / "health.json", health)
     LOG.info("fetched %d jobs from %d sources (%d failed)", len(all_jobs), len(sources), len(errors))
 
     # 2. cheap filters: already seen, too old, title rules
@@ -162,6 +166,13 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
 
     stats.update({"new_jobs": len(final), "llm_calls": llm_calls})
     return {"stats": dict(stats), "errors": errors, "jobs": final, "bootstrap": state.is_bootstrap}
+
+
+def _write_health(path: Path, health: dict) -> None:
+    """Per-source result of the latest run, so a broken feed is visible at a glance."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                "sources": dict(sorted(health.items()))}, indent=1), "utf-8")
 
 
 def email_enabled() -> bool:
