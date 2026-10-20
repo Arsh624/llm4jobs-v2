@@ -28,6 +28,7 @@ EMBED = {
     "lever": re.compile(r"jobs\.lever\.co/([A-Za-z0-9_-]+)"),
 }
 SKIP_SLUGS = {"embed", "js", "api", "v1", "jobs", "job_board"}
+FAST = "--fast" in sys.argv   # bulk mode: only the 2 most likely slugs per company
 
 
 def _get(url: str, as_json: bool):
@@ -36,14 +37,51 @@ def _get(url: str, as_json: bool):
         return json.load(r) if as_json else r.read(800_000).decode("utf-8", "ignore")
 
 
-def job_count(platform: str, slug: str) -> int:
+def _board(platform: str, slug: str):
     try:
-        d = _get(API[platform].format(s=slug), as_json=True)
+        return _get(API[platform].format(s=slug), as_json=True)
     except Exception:
-        return 0
+        return None
+
+
+def _jobs(platform: str, d) -> list:
     if platform == "lever":
-        return len(d) if isinstance(d, list) else 0
-    return len(d.get("jobs", [])) if isinstance(d, dict) else 0
+        return d if isinstance(d, list) else []
+    return d.get("jobs", []) if isinstance(d, dict) else []
+
+
+def job_count(platform: str, slug: str) -> int:
+    return len(_jobs(platform, _board(platform, slug)))
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+
+def belongs_to(name: str, platform: str, slug: str) -> bool:
+    """Guard against same-slug, different-company boards (e.g. 'fleet' = Fleet Data Centers)."""
+    key = _norm(re.sub(r"\b(inc|llc|corp|corporation|company|technologies|technology)\b\.?", "", name, flags=re.I))
+    words = key.split()
+    # Match the full name; fall back to the first word only if it is distinctive (>= 6 chars),
+    # so "Fleet AI" can't match "Fleet Data Centers" via the word "fleet".
+    probes = [key] + ([words[0]] if len(words) > 1 and len(words[0]) >= 6 else [])
+    if platform == "greenhouse":
+        try:
+            board_name = _norm(_get(f"https://boards-api.greenhouse.io/v1/boards/{slug}", as_json=True).get("name", ""))
+            if key and (key in board_name or board_name in key):
+                return True
+        except Exception:
+            pass
+        try:
+            jobs = _get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true", as_json=True).get("jobs", [])[:5]
+            texts = [j.get("content", "") for j in jobs]
+        except Exception:
+            return False
+    else:
+        jobs = _jobs(platform, _board(platform, slug))[:5]
+        texts = [(j.get("descriptionPlain") or j.get("descriptionHtml") or "") for j in jobs]
+    blob = f" {_norm(' '.join(texts))} "
+    return any(p and f" {p} " in blob for p in probes)
 
 
 def slug_guesses(name: str) -> list[str]:
@@ -79,7 +117,8 @@ def discover(item: tuple[str, str | None]):
         except Exception:
             pass
     if not hits:
-        for slug in slug_guesses(name):
+        guesses = slug_guesses(name)
+        for slug in (guesses[:2] if FAST else guesses):
             for platform in API:
                 n = job_count(platform, slug)
                 if n:
@@ -97,17 +136,30 @@ def main(path: str) -> None:
             continue
         name, _, url = line.partition("|")
         items.append((name.strip(), url.strip() or None))
-    found, missed = [], []
+    found, unverified, missed = [], [], []
+
+    def run(item):
+        name, hits = discover(item)
+        if not hits:
+            return name, None, False
+        (platform, slug), n = max(hits.items(), key=lambda kv: kv[1])
+        return name, (platform, slug, n), belongs_to(name, platform, slug)
+
     with ThreadPoolExecutor(max_workers=10) as ex:
-        for name, hits in ex.map(discover, items):
-            if hits:
-                (platform, slug), n = max(hits.items(), key=lambda kv: kv[1])
-                found.append((name, platform, slug, n))
-            else:
+        for name, hit, ok in ex.map(run, items):
+            if not hit:
                 missed.append(name)
+            elif ok:
+                found.append((name, *hit))
+            else:
+                unverified.append((name, *hit))
     for name, platform, slug, n in found:
         print(f'[[source]]\ntype = "{platform}"\ncompany = "{name}"\nslug = "{slug}"   # {n} open jobs\n')
-    print(f"# found {len(found)}, missed {len(missed)}: {', '.join(missed) or '-'}")
+    for name, platform, slug, n in unverified:
+        print(f"# UNVERIFIED (board may belong to another company): {name} -> {platform}:{slug} ({n} jobs)")
+    print(f"# found {len(found)}, unverified {len(unverified)}, missed {len(missed)}")
+    if "-v" in sys.argv:
+        print(f"# missed: {', '.join(missed)}")
 
 
 if __name__ == "__main__":

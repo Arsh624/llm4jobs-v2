@@ -17,7 +17,7 @@ role_keywords = [
   "data", "analytics", "analyst", "machine learning", "ml", "ai", "scientist", "research",
   "researcher", "sre", "reliability", "devops", "security", "infrastructure", "platform",
   "backend", "back end", "back-end", "frontend", "front end", "front-end", "full stack",
-  "full-stack", "fullstack", "mobile", "ios", "android", "cloud", "systems", "firmware",
+  "full-stack", "fullstack", "ios", "android", "cloud", "systems", "firmware",
   "embedded", "hardware", "quant", "quantitative", "product manager", "technical program",
   "solutions", "forward deployed", "new grad", "graduate", "early career", "university",
 ]
@@ -27,6 +27,8 @@ role_exclude = [
   "sales development", "business development", "legal", "counsel", "paralegal", "attorney",
   "accountant", "payroll", "executive assistant",
   "sales", "retail", "store", "customer service", "representative",
+  "nurse", "physician", "clinical", "medical assistant", "veterinary", "veterinarian", "pharmacist",
+  "therapist", "dental", "technician", "ae", "grant", "grants",
 ]
 
 # ---------------------------------------------------------------- aggregator
@@ -496,3 +498,1045 @@ host = "tmobile.wd1.myworkdayjobs.com"
 tenant = "tmobile"
 site = "External"
 # Not reachable via a public API yet: Uber, Oracle, IBM, Accenture, KPMG, Moody's, GitHub.
+
+# ------------------- Bay Area companies (Oct 2026): Wikipedia 'Companies based in <city>' for 30 cities
+# + semiconductor lists via Firecrawl. Found with tools/discover.py (identity-checked) and
+# tools/probe_workday.py; ambiguous one-word names checked by hand and relabeled.
+
+[[source]]
+type = "greenhouse"
+company = "31st Union"
+slug = "31stunion"
+
+[[source]]
+type = "greenhouse"
+company = "Accela"
+slug = "accela"
+
+[[source]]
+type = "lever"
+company = "Actian"
+slug = "actian"
+
+[[source]]
+type = "lever"
+company = "Agiloft"
+slug = "agiloft"
+
+[[source]]
+type = "greenhouse"
+company = "Airtable"
+slug = "airtable"
+
+[[source]]
+type = "ashby"
+company = "Amplitude"
+slug = "amplitude"
+
+[[source]]
+type = "lever"
+company = "AngelList"
+slug = "angellist"
+
+[[source]]
+type = "lever"
+company = "Anomali"
+slug = "anomali"
+
+[[source]]
+type = "greenhouse"
+company = "AppLovin"
+slug = "applovin"
+
+[[source]]
+type = "greenhouse"
+company = "AppsFlyer"
+slug = "appsflyer"
+
+[[source]]
+type = "greenhouse"
+company = "Aptos Labs"
+slug = "aptoslabs"
+
+[[source]]
+type = "ashby"
+company = "Arlo Technologies"
+slug = "arlo"
+
+[[source]]
+type = "greenhouse"
+company = "Asana"
+slug = "asana"
+
+[[source]]
+type = "ashby"
+company = "Astera Labs"
+slug = "astera"
+
+[[source]]
+type = "greenhouse"
+company = "Atari"
+slug = "atariinc"
+
+[[source]]
+type = "ashby"
+company = "Aven"
+slug = "aven"
+
+[[source]]
+type = "greenhouse"
+company = "Backblaze"
+slug = "backblaze"
+
+[[source]]
+type = "ashby"
+company = "Benchling"
+slug = "benchling"
+
+[[source]]
+type = "greenhouse"
+company = "BetterHelp"
+slug = "betterhelp"
+
+[[source]]
+type = "greenhouse"
+company = "Bill.com"
+slug = "billcom"
+
+[[source]]
+type = "greenhouse"
+company = "BitGo"
+slug = "bitgo"
+
+[[source]]
+type = "greenhouse"
+company = "Block"
+slug = "block"
+
+[[source]]
+type = "greenhouse"
+company = "Boku"
+slug = "boku"
+
+[[source]]
+type = "greenhouse"
+company = "Box"
+slug = "boxinc"
+
+[[source]]
+type = "greenhouse"
+company = "Branch"
+slug = "branch"
+
+[[source]]
+type = "greenhouse"
+company = "Brilliant Earth"
+slug = "brilliantearth"
+
+[[source]]
+type = "greenhouse"
+company = "Bugcrowd"
+slug = "bugcrowd"
+
+[[source]]
+type = "lever"
+company = "Business Wire"
+slug = "businesswire"
+
+[[source]]
+type = "greenhouse"
+company = "Calm"
+slug = "calm"
+
+[[source]]
+type = "greenhouse"
+company = "Carta"
+slug = "carta"
+
+[[source]]
+type = "ashby"
+company = "Cerebras"
+slug = "cerebras"
+
+[[source]]
+type = "greenhouse"
+company = "ChargePoint"
+slug = "chargepoint"
+
+[[source]]
+type = "ashby"
+company = "Chariot"
+slug = "chariot"
+
+[[source]]
+type = "greenhouse"
+company = "Chime"
+slug = "chime"
+
+[[source]]
+type = "ashby"
+company = "ClassDojo"
+slug = "classdojo"
+
+[[source]]
+type = "ashby"
+company = "ClickUp"
+slug = "clickup"
+
+[[source]]
+type = "lever"
+company = "Cloudinary"
+slug = "cloudinary"
+
+[[source]]
+type = "ashby"
+company = "Cluely"
+slug = "cluely"
+
+[[source]]
+type = "ashby"
+company = "Color Health"
+slug = "color-health"
+
+[[source]]
+type = "greenhouse"
+company = "Contentful"
+slug = "contentful"
+
+[[source]]
+type = "lever"
+company = "Conversica"
+slug = "conversica"
+
+[[source]]
+type = "greenhouse"
+company = "Couchbase"
+slug = "couchbaseinc"
+
+[[source]]
+type = "lever"
+company = "Coupa"
+slug = "coupa"
+
+[[source]]
+type = "greenhouse"
+company = "Coursera"
+slug = "coursera"
+
+[[source]]
+type = "greenhouse"
+company = "Credible"
+slug = "credible"
+
+[[source]]
+type = "greenhouse"
+company = "Crunchyroll"
+slug = "crunchyroll"
+
+[[source]]
+type = "ashby"
+company = "Cursor"
+slug = "cursor"
+
+[[source]]
+type = "greenhouse"
+company = "Dataiku"
+slug = "dataiku"
+
+[[source]]
+type = "ashby"
+company = "Decagon"
+slug = "decagon"
+
+[[source]]
+type = "greenhouse"
+company = "Degreed"
+slug = "degreed"
+
+[[source]]
+type = "lever"
+company = "DELFI Diagnostics"
+slug = "delfidiagnostics"
+
+[[source]]
+type = "ashby"
+company = "Delinea"
+slug = "delinea"
+
+[[source]]
+type = "lever"
+company = "Diamond Foundry"
+slug = "diamondfoundry"
+
+[[source]]
+type = "ashby"
+company = "Ditto"
+slug = "ditto"
+
+[[source]]
+type = "lever"
+company = "Dolls Kill"
+slug = "dollskill"
+
+[[source]]
+type = "greenhouse"
+company = "Donorbox"
+slug = "donorbox"
+
+[[source]]
+type = "greenhouse"
+company = "Doximity"
+slug = "doximity"
+
+[[source]]
+type = "greenhouse"
+company = "Dropbox"
+slug = "dropbox"
+
+[[source]]
+type = "greenhouse"
+company = "Druva"
+slug = "druva"
+
+[[source]]
+type = "lever"
+company = "Dutch"
+slug = "dutch"
+
+[[source]]
+type = "greenhouse"
+company = "Earnest"
+slug = "earnest"
+
+[[source]]
+type = "greenhouse"
+company = "EarnIn"
+slug = "earnin"
+
+[[source]]
+type = "ashby"
+company = "Etched"
+slug = "etched"
+
+[[source]]
+type = "greenhouse"
+company = "Eudia"
+slug = "eudia"
+
+[[source]]
+type = "greenhouse"
+company = "Everlane"
+slug = "everlane"
+
+[[source]]
+type = "lever"
+company = "Extreme Networks"
+slug = "extremenetworks"
+
+[[source]]
+type = "greenhouse"
+company = "Fandom"
+slug = "fandom"
+
+[[source]]
+type = "greenhouse"
+company = "Fastly"
+slug = "fastly"
+
+[[source]]
+type = "greenhouse"
+company = "Figure AI"
+slug = "figureai"
+
+[[source]]
+type = "ashby"
+company = "Fin (payments)"
+slug = "fin"
+
+[[source]]
+type = "lever"
+company = "Firstup"
+slug = "firstup"
+
+[[source]]
+type = "greenhouse"
+company = "Forward Networks"
+slug = "forwardnetworks"
+
+[[source]]
+type = "greenhouse"
+company = "Gillig"
+slug = "gillig"
+
+[[source]]
+type = "greenhouse"
+company = "GoFundMe"
+slug = "gofundme"
+
+[[source]]
+type = "lever"
+company = "GoodLeap"
+slug = "goodleap"
+
+[[source]]
+type = "greenhouse"
+company = "Google Fiber"
+slug = "googlefiber"
+
+[[source]]
+type = "ashby"
+company = "HackerOne"
+slug = "hackerone"
+
+[[source]]
+type = "ashby"
+company = "Harmonic (math AI)"
+slug = "harmonic"
+
+[[source]]
+type = "ashby"
+company = "Homebase"
+slug = "homebase"
+
+[[source]]
+type = "ashby"
+company = "HoneyBook"
+slug = "honeybook"
+
+[[source]]
+type = "lever"
+company = "Houzz"
+slug = "houzz"
+
+[[source]]
+type = "greenhouse"
+company = "IDEO"
+slug = "ideo"
+
+[[source]]
+type = "ashby"
+company = "Impossible Foods"
+slug = "impossible-foods"
+
+[[source]]
+type = "greenhouse"
+company = "Inflection AI"
+slug = "inflectionai"
+
+[[source]]
+type = "lever"
+company = "Iru (formerly Kandji)"
+slug = "iru"
+
+[[source]]
+type = "greenhouse"
+company = "Isomorphic Labs"
+slug = "isomorphiclabs"
+
+[[source]]
+type = "greenhouse"
+company = "Jumio"
+slug = "jumio"
+
+[[source]]
+type = "greenhouse"
+company = "Kikoff"
+slug = "kikoff"
+
+[[source]]
+type = "ashby"
+company = "Kindred"
+slug = "kindred"
+
+[[source]]
+type = "greenhouse"
+company = "Legalist"
+slug = "legalist"
+
+[[source]]
+type = "greenhouse"
+company = "Levanta"
+slug = "levanta"
+
+[[source]]
+type = "greenhouse"
+company = "Life360"
+slug = "life360"
+
+[[source]]
+type = "ashby"
+company = "Light (energy)"
+slug = "light"
+
+[[source]]
+type = "greenhouse"
+company = "Lightmatter"
+slug = "lightmatter"
+
+[[source]]
+type = "greenhouse"
+company = "Linden Lab"
+slug = "lindenlab"
+
+[[source]]
+type = "ashby"
+company = "LiveKit"
+slug = "livekit"
+
+[[source]]
+type = "greenhouse"
+company = "MasterClass"
+slug = "masterclass"
+
+[[source]]
+type = "ashby"
+company = "Mercor"
+slug = "mercor"
+
+[[source]]
+type = "greenhouse"
+company = "Mercury Technologies"
+slug = "mercury"
+
+[[source]]
+type = "ashby"
+company = "Method Financial"
+slug = "method"
+
+[[source]]
+type = "lever"
+company = "Minted"
+slug = "minted"
+
+[[source]]
+type = "greenhouse"
+company = "Mixpanel"
+slug = "mixpanel"
+
+[[source]]
+type = "lever"
+company = "Model N"
+slug = "modeln"
+
+[[source]]
+type = "ashby"
+company = "Mosaic (deal modeling)"
+slug = "mosaic"
+
+[[source]]
+type = "ashby"
+company = "NerdWallet"
+slug = "nerdwallet"
+
+[[source]]
+type = "ashby"
+company = "Netgear"
+slug = "netgear"
+
+[[source]]
+type = "greenhouse"
+company = "Netlify"
+slug = "netlify"
+
+[[source]]
+type = "lever"
+company = "Netomi"
+slug = "netomi"
+
+[[source]]
+type = "greenhouse"
+company = "Netskope"
+slug = "netskope"
+
+[[source]]
+type = "greenhouse"
+company = "Neuralink"
+slug = "neuralink"
+
+[[source]]
+type = "greenhouse"
+company = "New Relic"
+slug = "newrelic"
+
+[[source]]
+type = "greenhouse"
+company = "NewsBreak"
+slug = "newsbreak"
+
+[[source]]
+type = "greenhouse"
+company = "Nextdoor"
+slug = "nextdoor"
+
+[[source]]
+type = "ashby"
+company = "Nexxen"
+slug = "nexxen"
+
+[[source]]
+type = "greenhouse"
+company = "Nuro"
+slug = "nuro"
+
+[[source]]
+type = "greenhouse"
+company = "Oklo"
+slug = "oklo"
+
+[[source]]
+type = "greenhouse"
+company = "Okta"
+slug = "okta"
+
+[[source]]
+type = "greenhouse"
+company = "Olly"
+slug = "olly"
+
+[[source]]
+type = "ashby"
+company = "Omni Analytics"
+slug = "omni"
+
+[[source]]
+type = "greenhouse"
+company = "One Medical"
+slug = "onemedical"
+
+[[source]]
+type = "greenhouse"
+company = "Ooma"
+slug = "ooma"
+
+[[source]]
+type = "ashby"
+company = "OpenGov"
+slug = "opengov"
+
+[[source]]
+type = "greenhouse"
+company = "OpenTable"
+slug = "opentable"
+
+[[source]]
+type = "ashby"
+company = "Orb"
+slug = "orb"
+
+[[source]]
+type = "greenhouse"
+company = "Otter.ai"
+slug = "otterai"
+
+[[source]]
+type = "ashby"
+company = "Outschool"
+slug = "outschool"
+
+[[source]]
+type = "greenhouse"
+company = "Pacaso"
+slug = "pacaso"
+
+[[source]]
+type = "ashby"
+company = "Padlet"
+slug = "padlet"
+
+[[source]]
+type = "greenhouse"
+company = "PagerDuty"
+slug = "pagerduty"
+
+[[source]]
+type = "greenhouse"
+company = "PandaDoc"
+slug = "pandadoc"
+
+[[source]]
+type = "ashby"
+company = "Patreon"
+slug = "patreon"
+
+[[source]]
+type = "greenhouse"
+company = "Pax Labs"
+slug = "paxlabs"
+
+[[source]]
+type = "ashby"
+company = "Philo"
+slug = "philo"
+
+[[source]]
+type = "greenhouse"
+company = "Planet Labs"
+slug = "planetlabs"
+
+[[source]]
+type = "ashby"
+company = "Poshmark"
+slug = "poshmark"
+
+[[source]]
+type = "ashby"
+company = "Prime Intellect"
+slug = "primeintellect"
+
+[[source]]
+type = "greenhouse"
+company = "PsiQuantum"
+slug = "psiquantum"
+
+[[source]]
+type = "greenhouse"
+company = "PubNub"
+slug = "pubnub"
+
+[[source]]
+type = "greenhouse"
+company = "Pure Storage"
+slug = "purestorage"
+
+[[source]]
+type = "ashby"
+company = "Quantcast"
+slug = "quantcast"
+
+[[source]]
+type = "greenhouse"
+company = "Quantifind"
+slug = "quantifind"
+
+[[source]]
+type = "greenhouse"
+company = "QuinStreet"
+slug = "quinstreet"
+
+[[source]]
+type = "greenhouse"
+company = "Quip"
+slug = "quip"
+
+[[source]]
+type = "ashby"
+company = "Quora"
+slug = "quora"
+
+[[source]]
+type = "ashby"
+company = "Redis"
+slug = "redis"
+
+[[source]]
+type = "ashby"
+company = "Rev"
+slug = "rev"
+
+[[source]]
+type = "greenhouse"
+company = "Ripple Labs"
+slug = "ripple"
+
+[[source]]
+type = "greenhouse"
+company = "Rocket Lawyer"
+slug = "rocketlawyer"
+
+[[source]]
+type = "greenhouse"
+company = "Roku"
+slug = "roku"
+
+[[source]]
+type = "greenhouse"
+company = "Roofstock"
+slug = "roofstock"
+
+[[source]]
+type = "greenhouse"
+company = "Rubrik"
+slug = "rubrik"
+
+[[source]]
+type = "greenhouse"
+company = "SafeBreach"
+slug = "safebreach"
+
+[[source]]
+type = "greenhouse"
+company = "SambaNova Systems"
+slug = "sambanovasystems"
+
+[[source]]
+type = "greenhouse"
+company = "Samsara"
+slug = "samsara"
+
+[[source]]
+type = "greenhouse"
+company = "Samsung Semiconductor"
+slug = "samsungsemiconductor"
+
+[[source]]
+type = "lever"
+company = "Sandbox VR"
+slug = "sandboxvr"
+
+[[source]]
+type = "greenhouse"
+company = "Sauce Labs"
+slug = "saucelabs"
+
+[[source]]
+type = "lever"
+company = "Scality"
+slug = "scality"
+
+[[source]]
+type = "ashby"
+company = "Serve Robotics"
+slug = "serverobotics"
+
+[[source]]
+type = "ashby"
+company = "Skip"
+slug = "skip"
+
+[[source]]
+type = "ashby"
+company = "Skydio"
+slug = "skydio"
+
+[[source]]
+type = "lever"
+company = "Snappr"
+slug = "snappr"
+
+[[source]]
+type = "greenhouse"
+company = "SoFi"
+slug = "sofi"
+
+[[source]]
+type = "greenhouse"
+company = "Sonatus"
+slug = "sonatus"
+
+[[source]]
+type = "ashby"
+company = "Sonder (AI lab)"
+slug = "sonder"
+
+[[source]]
+type = "greenhouse"
+company = "SonicWall"
+slug = "sonicwall"
+
+[[source]]
+type = "greenhouse"
+company = "Stitch Fix"
+slug = "stitchfix"
+
+[[source]]
+type = "ashby"
+company = "Strava"
+slug = "strava"
+
+[[source]]
+type = "ashby"
+company = "Substack"
+slug = "substack"
+
+[[source]]
+type = "greenhouse"
+company = "Sumo Logic"
+slug = "sumologic"
+
+[[source]]
+type = "ashby"
+company = "Surge AI"
+slug = "surge-ai"
+
+[[source]]
+type = "ashby"
+company = "SurveyMonkey"
+slug = "surveymonkey"
+
+[[source]]
+type = "greenhouse"
+company = "Synack"
+slug = "synack"
+
+[[source]]
+type = "greenhouse"
+company = "Tanium"
+slug = "tanium"
+
+[[source]]
+type = "ashby"
+company = "Tekion"
+slug = "tekion"
+
+[[source]]
+type = "ashby"
+company = "Tenor (AI coaching)"
+slug = "tenor"
+
+[[source]]
+type = "greenhouse"
+company = "Tenstorrent"
+slug = "tenstorrent"
+
+[[source]]
+type = "lever"
+company = "The Athletic"
+slug = "theathletic"
+
+[[source]]
+type = "greenhouse"
+company = "ThirdLove"
+slug = "thirdlove"
+
+[[source]]
+type = "ashby"
+company = "Thumbtack"
+slug = "thumbtack"
+
+[[source]]
+type = "lever"
+company = "Treering"
+slug = "treering"
+
+[[source]]
+type = "greenhouse"
+company = "Twilio"
+slug = "twilio"
+
+[[source]]
+type = "greenhouse"
+company = "Twist Bioscience"
+slug = "twistbioscience"
+
+[[source]]
+type = "greenhouse"
+company = "Udemy"
+slug = "udemy"
+
+[[source]]
+type = "greenhouse"
+company = "Ultima Genomics"
+slug = "ultimagenomics"
+
+[[source]]
+type = "greenhouse"
+company = "Unison Home Ownership Investors"
+slug = "unisonhomeownershipinvestors"
+
+[[source]]
+type = "greenhouse"
+company = "Upwork"
+slug = "upwork"
+
+[[source]]
+type = "ashby"
+company = "Vanta"
+slug = "vanta"
+
+[[source]]
+type = "greenhouse"
+company = "Verifone"
+slug = "verifone"
+
+[[source]]
+type = "greenhouse"
+company = "Verkada"
+slug = "verkada"
+
+[[source]]
+type = "greenhouse"
+company = "Viz Media"
+slug = "vizmedia"
+
+[[source]]
+type = "lever"
+company = "WalkMe"
+slug = "walkme"
+
+[[source]]
+type = "greenhouse"
+company = "Waymo"
+slug = "waymo"
+
+[[source]]
+type = "lever"
+company = "Wealthfront"
+slug = "wealthfront"
+
+[[source]]
+type = "ashby"
+company = "Webflow"
+slug = "webflow"
+
+[[source]]
+type = "greenhouse"
+company = "Wrike"
+slug = "wrike"
+
+[[source]]
+type = "ashby"
+company = "Yotta Labs"
+slug = "yotta"
+
+[[source]]
+type = "ashby"
+company = "Zapier"
+slug = "zapier"
+
+[[source]]
+type = "lever"
+company = "Zimperium"
+slug = "zimperium"
+
+[[source]]
+type = "lever"
+company = "Zoox"
+slug = "zoox"
+
+[[source]]
+type = "greenhouse"
+company = "Zscaler"
+slug = "zscaler"
+
+[[source]]
+type = "greenhouse"
+company = "Zuora"
+slug = "zuora"
+
+[[source]]
+type = "workday"
+company = "Intel"
+host = "intel.wd1.myworkdayjobs.com"
+tenant = "intel"
+site = "External"
+
+[[source]]
+type = "workday"
+company = "Marvell"
+host = "marvell.wd1.myworkdayjobs.com"
+tenant = "marvell"
+site = "MarvellCareers"
+
+[[source]]
+type = "workday"
+company = "SiFive"
+host = "sifive.wd1.myworkdayjobs.com"
+tenant = "sifive"
+site = "sifiveCareers"
+
+[[source]]
+type = "workday"
+company = "Cisco"
+host = "cisco.wd5.myworkdayjobs.com"
+tenant = "cisco"
+site = "Cisco_Careers"
