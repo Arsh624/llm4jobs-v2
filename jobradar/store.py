@@ -3,6 +3,9 @@
 seen:  job keys already finished with (rejected, or emailed) -> date first seen
 sent:  dedupe key (company|title) of every job we emailed -> date, to skip cross-source duplicates
 years: cached LLM answers, key -> [min_years or null, date], so re-checks never cost twice
+ai:    cached AI assessments, key -> [{"min_years", "level", "note"}, date]
+usage: AI calls made today, {"date": ..., "calls": n} -- enforces the daily cost cap
+feeds: per-source failure streaks for the broken-feed alert
 """
 from __future__ import annotations
 
@@ -20,7 +23,27 @@ class State:
         self.seen: dict[str, str] = data.get("seen", {})
         self.sent: dict[str, str] = data.get("sent", {})
         self.years: dict[str, list] = data.get("years", {})
+        self.ai: dict[str, list] = data.get("ai", {})
+        self.usage: dict = data.get("usage", {})
+        self.feeds: dict[str, dict] = data.get("feeds", {})
         self.is_bootstrap = not self.seen
+
+    # ---- AI cache + daily budget
+    def cached_ai(self, key: str) -> dict | None:
+        v = self.ai.get(key)
+        return v[0] if v else None
+
+    def cache_ai(self, key: str, result: dict) -> None:
+        self.ai[key] = [result, date.today().isoformat()]
+
+    def ai_calls_today(self) -> int:
+        return self.usage.get("calls", 0) if self.usage.get("date") == date.today().isoformat() else 0
+
+    def count_ai_call(self) -> None:
+        today = date.today().isoformat()
+        if self.usage.get("date") != today:
+            self.usage = {"date": today, "calls": 0}
+        self.usage["calls"] += 1
 
     def mark_seen(self, key: str) -> None:
         self.seen.setdefault(key, date.today().isoformat())
@@ -41,8 +64,10 @@ class State:
         self.seen = {k: v for k, v in self.seen.items() if v >= cutoff}
         self.sent = {k: v for k, v in self.sent.items() if v >= cutoff}
         self.years = {k: v for k, v in self.years.items() if v[1] >= cutoff}
+        self.ai = {k: v for k, v in self.ai.items() if v[1] >= cutoff}
         self.path.parent.mkdir(parents=True, exist_ok=True)
         tmp = self.path.with_suffix(".tmp")
-        tmp.write_text(json.dumps({"seen": self.seen, "sent": self.sent, "years": self.years},
+        tmp.write_text(json.dumps({"seen": self.seen, "sent": self.sent, "years": self.years, "ai": self.ai,
+                                   "usage": self.usage, "feeds": self.feeds},
                                   indent=0, sort_keys=True), "utf-8")
         tmp.replace(self.path)

@@ -7,9 +7,11 @@ max_years = 2               # drop jobs requiring more than this many years
 us_only = true
 remote_counts_as_us = true  # a bare "Remote" location counts as US
 include_internships = false
-llm_fallback = true         # ask gpt-4o-mini only when no "N years" is found in the text
+llm_fallback = true         # gpt-4o-mini checks every job that passes the cheap filters
 llm_model = "gpt-4o-mini"
-llm_max_calls = 60          # hard cap per run (cost guard)
+llm_max_calls = 150         # AI checks per run
+llm_daily_cap = 600         # AI checks per day (~$0.18/day max with gpt-4o-mini)
+alert_after_runs = 4        # email an alert when a feed fails this many runs in a row (~1h)
 
 # A title must contain one of these to be kept. Empty list = keep every role type.
 role_keywords = [

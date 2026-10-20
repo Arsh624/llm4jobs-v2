@@ -14,6 +14,8 @@ JUNIOR_MANAGER = re.compile(r"\b(associate|rotational|apm|new\s*grad|university|
 
 def is_senior(title: str) -> bool:
     t = title.replace("Sr.", "Sr ")
+    # "Member of Technical Staff" is the standard all-levels title at AI labs, not a Staff-level role.
+    t = re.sub(r"(?i)\bmembers?\s+of\s+(the\s+)?technical\s+staff\b", "MTS", t)
     if JUNIOR_MANAGER.search(t):
         t = re.sub(r"(?i)\bmanager\b", "", t)
     return bool(SENIOR.search(t))

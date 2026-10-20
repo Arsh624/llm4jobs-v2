@@ -1,4 +1,5 @@
-"""fetch -> date/seen -> title filters -> details -> location -> years -> dedupe -> digest."""
+"""fetch -> date/seen -> title filters -> details -> location -> years (regex) -> AI check
+-> dedupe -> digest, plus a broken-feed alert."""
 from __future__ import annotations
 
 import json
@@ -11,8 +12,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import filters
-from .digest import send_email, write_outputs
-from .llm import llm_available, llm_min_years
+from .digest import send_alert, send_email, write_alert, write_outputs
+from .llm import llm_assess, llm_available
 from .models import Job
 from .sources import ADAPTERS, AGE_AWARE, fetch_detail
 from .store import State
@@ -29,7 +30,10 @@ DEFAULTS = {
     "role_exclude": [],
     "llm_fallback": True,
     "llm_model": "gpt-4o-mini",
-    "llm_max_calls": 60,
+    "llm_max_calls": 150,       # per run
+    "llm_daily_cap": 600,       # per day (~$0.18/day worst case with gpt-4o-mini)
+    "alert_after_runs": 4,      # consecutive failed runs before a feed is reported broken (~1h)
+    "alert_min_typical_jobs": 20,  # a feed that usually has >= this many jobs and suddenly has 0 = broken
 }
 # When the same job shows up twice, keep the direct-from-company copy over the aggregator.
 SOURCE_PRIORITY = {"simplify": 9}
@@ -56,6 +60,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     state = State(state_path)
     stats = Counter()
     errors: dict[str, str] = {}
+    max_years = settings["max_years"]
 
     # 1. fetch every source in parallel
     all_jobs: list[Job] = []
@@ -70,6 +75,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             stats["fetched"] += len(jobs)
             all_jobs.extend(jobs)
     _write_health(state_path.parent / "health.json", health)
+    broken, recovered = _update_feed_health(state, health, settings)
     LOG.info("fetched %d jobs from %d sources (%d failed)", len(all_jobs), len(sources), len(errors))
 
     # 2. cheap filters: already seen, too old, title rules
@@ -103,7 +109,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             continue
         cands.append(j)
 
-    # 3. lazy detail fetch (Workday / SmartRecruiters descriptions), only for survivors
+    # 3. lazy detail fetch (descriptions / dates), only for survivors
     def _detail(j: Job):
         try:
             fetch_detail(j)
@@ -112,9 +118,8 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     with ThreadPoolExecutor(max_workers=4) as ex:
         list(ex.map(_detail, cands))
 
-    # 4. location + years
-    keep: list[Job] = []
-    llm_calls = 0
+    # 4a. date (for date-less lists), location, regex years -- all free
+    pre: list[Job] = []
     for j in cands:
         if j.extra.get("date_from_detail"):
             if j.posted_at is None:           # detail fetch failed: retry next run, don't mark seen
@@ -130,21 +135,56 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             state.mark_seen(j.key)
             continue
         if j.min_years is None:
-            j.min_years = filters.extract_min_years(j.description)
-            j.years_basis = "regex" if j.min_years is not None else "not stated"
-            if j.min_years is None and settings["llm_fallback"] and j.description:
-                hit, cached = state.cached_years(j.key)
-                if hit:
-                    j.min_years = cached
-                elif llm_available() and llm_calls < settings["llm_max_calls"]:
-                    llm_calls += 1
-                    ok, j.min_years = llm_min_years(j.description, settings["llm_model"])
-                    if ok:
-                        state.cache_years(j.key, j.min_years)
-                if j.min_years is not None:
-                    j.years_basis = "llm"
-        if j.min_years is not None and j.min_years > settings["max_years"]:
+            regex = filters.extract_min_years(j.description)
+            if regex is not None:
+                j.min_years, j.years_basis = regex, "regex"
+        if j.min_years is not None and j.min_years > max_years:
             stats["drop_years"] += 1
+            state.mark_seen(j.key)
+            continue
+        pre.append(j)
+
+    # 4b. AI assessment of every survivor: parallel, cached, within the daily cap
+    llm_calls = 0
+    if settings["llm_fallback"]:
+        need = []
+        for j in pre:
+            if not j.description:
+                continue
+            cached = state.cached_ai(j.key)
+            if cached is not None:
+                j.extra["ai"] = cached
+            else:
+                need.append(j)
+        budget = 0
+        if llm_available():
+            budget = min(settings["llm_max_calls"], max(0, settings["llm_daily_cap"] - state.ai_calls_today()))
+        to_call = need[:budget]
+        if len(need) > len(to_call):
+            stats["ai_skipped_cap"] = len(need) - len(to_call)
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            for j, (ok, res) in zip(to_call, ex.map(
+                    lambda j: llm_assess(j.title, j.company, j.description, settings["llm_model"]), to_call)):
+                state.count_ai_call()
+                llm_calls += 1
+                if ok:
+                    state.cache_ai(j.key, res)
+                    j.extra["ai"] = res
+
+    # 4c. decide. The AI only rejects on clear evidence; unclear postings are kept.
+    keep: list[Job] = []
+    for j in pre:
+        ai = j.extra.get("ai")
+        if ai and j.min_years is None and ai.get("min_years") is not None:
+            j.min_years, j.years_basis = ai["min_years"], "ai"
+        if j.min_years is None:
+            j.years_basis = j.years_basis or "not stated"
+        if j.min_years is not None and j.min_years > max_years:
+            stats["drop_years_ai"] += 1
+            state.mark_seen(j.key)
+            continue
+        if ai and (ai.get("level") == "senior" or (ai.get("level") == "mid" and j.min_years is None)):
+            stats["drop_ai_level"] += 1
             state.mark_seen(j.key)
             continue
         keep.append(j)   # marked seen only once actually emailed (see step 6)
@@ -161,7 +201,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
         final.append(j)
     final.sort(key=lambda j: -(j.posted_at.timestamp() if j.posted_at else 0))
 
-    # 6. output -- state is saved only after a successful send, so a failed email retries next run
+    # 6. output -- state is saved only after a successful send, so a failed email retries next run.
     # In dry-run, qualifying jobs are NOT marked seen/sent, so they still arrive in the first
     # real email once EMAIL_ENABLED is turned on (as long as they're within max_age_days).
     write_outputs(final, out_dir)
@@ -172,10 +212,41 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             state.mark_seen(j.key)
         for j in final:
             state.mark_sent(j.dedupe_key)
+
+    # 7. broken-feed alert (sent once per incident; "recovered" notes when they come back)
+    if broken or recovered:
+        write_alert(broken, recovered, out_dir)
+        if send:
+            try:
+                send_alert(broken, recovered)
+                for label, _ in broken:
+                    state.feeds[label]["alerted"] = True
+                stats["feed_alert_sent"] = len(broken) + len(recovered)
+            except Exception as e:
+                LOG.warning("feed alert email failed: %s", e)
     state.save()
 
-    stats.update({"new_jobs": len(final), "llm_calls": llm_calls})
+    stats.update({"new_jobs": len(final), "llm_calls": llm_calls, "ai_calls_today": state.ai_calls_today()})
     return {"stats": dict(stats), "errors": errors, "jobs": final, "bootstrap": state.is_bootstrap}
+
+
+def _update_feed_health(state: State, health: dict, settings: dict) -> tuple[list, list]:
+    """Track failure streaks per source. Returns (newly broken [(label, reason)], recovered [label])."""
+    broken, recovered = [], []
+    for label, h in health.items():
+        f = state.feeds.get(label, {"streak": 0, "alerted": False, "typical": 0})
+        sudden_empty = h["jobs"] == 0 and f.get("typical", 0) >= settings["alert_min_typical_jobs"]
+        if h["error"] or sudden_empty:
+            f["streak"] = f.get("streak", 0) + 1
+            f["reason"] = h["error"] or f"returned 0 jobs (usually ~{f['typical']})"
+            if f["streak"] >= settings["alert_after_runs"] and not f.get("alerted"):
+                broken.append((label, f["reason"]))
+        else:
+            if f.get("alerted"):
+                recovered.append(label)
+            f = {"streak": 0, "alerted": False, "typical": h["jobs"] or f.get("typical", 0)}
+        state.feeds[label] = f
+    return broken, recovered
 
 
 def _write_health(path: Path, health: dict) -> None:
