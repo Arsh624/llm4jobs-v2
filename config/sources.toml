@@ -10,7 +10,7 @@ include_internships = false
 llm_fallback = true         # gpt-4o-mini checks every job that passes the cheap filters
 llm_model = "gpt-4o-mini"
 llm_max_calls = 150         # AI checks per run
-llm_rescue_max = 60         # AI second looks at ambiguous 'Lead/Staff/Manager' titles per run
+llm_rescue_max = 150        # AI second looks at ambiguous 'Lead/Staff/Manager' titles per run
 llm_daily_usd_cap = 0.20    # HARD daily AI spend limit from real token usage (~$6/month max)
 home_area = "the San Francisco Bay Area"   # small hire-chance bonus for roles here or remote
 alert_after_runs = 4        # email an alert when a feed fails this many runs in a row (~1h)
@@ -1612,4 +1612,34 @@ host = "careers.docusign.com"
 type = "jibe"
 company = "Keysight"
 host = "careers.keysight.com"
-# Not working yet (different variants): NetApp, PayPal (Eightfold), Palo Alto Networks, Intuit (TalentBrew).
+# NetApp: Eightfold board blocks the API and its site layout isn't supported -- not covered.
+
+[[source]]
+type = "eightfold"
+company = "PayPal"
+host = "paypal.eightfold.ai"
+domain = "paypal.com"
+
+[[source]]
+type = "talentbrew"
+company = "Palo Alto Networks"
+host = "jobs.paloaltonetworks.com"
+
+[[source]]
+type = "talentbrew"
+company = "Intuit"
+host = "jobs.intuit.com"
+
+# ------------------- Oracle Recruiting Cloud (public REST API)
+[[source]]
+type = "oracle_hcm"
+company = "Oracle"
+host = "eeho.fa.us2.oraclecloud.com"
+site = "CX_45001"
+job_url_base = "https://careers.oracle.com/en/sites/jobsearch/job/"
+
+[[source]]
+type = "oracle_hcm"
+company = "Uber"
+host = "iaziqy.fa.ocs.oraclecloud.com"
+site = "CX_1"

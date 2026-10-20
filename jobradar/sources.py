@@ -306,8 +306,21 @@ def _eightfold_detail(job: Job) -> None:
 
 
 # -------------------------------------------------- Radancy / TalentBrew
-_TB_ITEM = re.compile(r'<a class="sr-job-link" href="(/job/[^"]+)"[^>]*data-job-id="(\d+)".*?<h2>(.*?)<'
-                      r'.*?class="job-location">(?:<img[^>]*>)?\s*(.*?)</span>', re.S)
+def _tb_items(results_html: str) -> list[tuple[str, str, str, str, str]]:
+    """Parse TalentBrew result markup, which varies by company. Returns (path, id, title, location, date)."""
+    items = []
+    for chunk in re.split(r"(?=<a\s)", results_html):
+        m = re.match(r'<a\s[^>]*href="(/(?:[^"]*?/)?job/[^"]+)"[^>]*>', chunk)   # "/job/..." or "/en/job/..."
+        if not m:
+            continue
+        tag, path = m.group(0), m.group(1)
+        jid = path.rstrip("/").rsplit("/", 1)[-1]
+        t = re.search(r'data-title="([^"]+)"', tag) or re.search(r"<h2[^>]*>(.*?)</h2>", chunk, re.S)
+        loc = re.search(r'class="[^"]*job-location[^"]*"[^>]*>(.*?)</span>', chunk, re.S)
+        date = re.search(r'class="[^"]*job-date-posted[^"]*"[^>]*>(.*?)</span>', chunk, re.S)
+        if t:
+            items.append((path, jid, t.group(1), loc.group(1) if loc else "", date.group(1).strip() if date else ""))
+    return items
 
 
 def talentbrew(cfg, pages: int = 15) -> list[Job]:
@@ -323,14 +336,21 @@ def talentbrew(cfg, pages: int = 15) -> list[Job]:
             "&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results"
             "&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=1&SearchType=5",
             headers={"X-Requested-With": "XMLHttpRequest"})
-        items = _TB_ITEM.findall(d.get("results") or "")
+        items = _tb_items(d.get("results") or "")
         if not items:
             break
-        for path, jid, title, loc in items:
+        for path, jid, title, loc, date in items:
+            posted = None
+            if date:                                    # some sites (Palo Alto) list the date: "10/19/2026"
+                try:
+                    posted = datetime.strptime(date, "%m/%d/%Y").replace(tzinfo=UTC)
+                except ValueError:
+                    posted = None
             out.append(Job(
                 source="talentbrew", source_id=f"{host}:{jid}", company=cfg["company"],
                 title=html_to_text(title), url=f"https://{host}{path}", location=html_to_text(loc),
-                extra={"tb_detail": f"https://{host}{path}", "date_from_detail": True},
+                posted_at=posted,
+                extra={"tb_detail": f"https://{host}{path}", "date_from_detail": posted is None},
             ))
     return out
 
@@ -353,6 +373,52 @@ def _talentbrew_detail(job: Job) -> None:
             if countries - {""}:
                 job.location = f"{job.location} ({', '.join(sorted(countries - {''}))})"
             return
+
+
+# ---------------------------------------------------- Oracle Recruiting Cloud
+def oracle_hcm(cfg, max_age_days: int = 3, max_pages: int = 10) -> list[Job]:
+    """Oracle Recruiting Cloud (Oracle, Uber, ...): public recruitingCEJobRequisitions REST API,
+    newest first."""
+    host, site = cfg["host"], cfg["site"]
+    job_base = cfg.get("job_url_base") or f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/"
+    cutoff = datetime.now(UTC) - timedelta(days=max_age_days)
+    out = []
+    for page in range(max_pages):
+        d = request_json(
+            f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true"
+            f"&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber={site},"
+            f"limit=50,offset={page * 50},sortBy=POSTING_DATES_DESC")
+        reqs = ((d.get("items") or [{}])[0].get("requisitionList")) or []
+        if not reqs:
+            break
+        for r in reqs:
+            posted = _iso(f"{r['PostedDate']}T00:00:00+00:00") if r.get("PostedDate") else None
+            locs = [r.get("PrimaryLocation") or ""] + [s.get("Name", "") for s in r.get("secondaryLocations") or []]
+            out.append(Job(
+                source="oracle_hcm", source_id=f"{host}:{r['Id']}", company=cfg["company"],
+                title=r.get("Title", ""), url=f"{job_base}{r['Id']}", location="; ".join(x for x in locs if x),
+                posted_at=posted,
+                description=html_to_text("\n".join(r.get(k) or "" for k in (
+                    "ShortDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr"))),
+                extra={"orc": (host, site, r["Id"])},
+            ))
+        last = _iso(f"{reqs[-1]['PostedDate']}T00:00:00+00:00") if reqs[-1].get("PostedDate") else None
+        if last and last < cutoff:
+            break
+    return out
+
+
+def _oracle_hcm_detail(job: Job) -> None:
+    """The list only has short summaries; fetch the full description for the AI check."""
+    host, site, rid = job.extra["orc"]
+    d = request_json(
+        f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all"
+        f'&onlyData=true&finder=ById;Id="{rid}",siteNumber={site}')
+    item = (d.get("items") or [{}])[0]
+    full = html_to_text("\n".join(item.get(k) or "" for k in (
+        "ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr")))
+    if len(full) > len(job.description):
+        job.description = full
 
 
 # ------------------------------------------------------------ SimplifyJobs
@@ -380,16 +446,19 @@ def simplify(cfg) -> list[Job]:
 ADAPTERS = {
     "greenhouse": greenhouse, "ashby": ashby, "lever": lever, "workday": workday,
     "smartrecruiters": smartrecruiters, "amazon": amazon, "simplify": simplify,
-    "jibe": jibe, "eightfold": eightfold, "talentbrew": talentbrew,
+    "jibe": jibe, "eightfold": eightfold, "talentbrew": talentbrew, "oracle_hcm": oracle_hcm,
 }
 # Adapters that stop paging once jobs get older than max_age_days.
-AGE_AWARE = {"workday", "jibe", "eightfold"}
+AGE_AWARE = {"workday", "jibe", "eightfold", "oracle_hcm"}
 
 DETAIL = {"workday": _workday_detail, "smartrecruiters": _smartrecruiters_detail,
-          "eightfold": _eightfold_detail, "talentbrew": _talentbrew_detail}
+          "eightfold": _eightfold_detail, "talentbrew": _talentbrew_detail,
+          "oracle_hcm": _oracle_hcm_detail}
+# Sources whose list already has a description, but only a short one worth upgrading.
+ALWAYS_DETAIL = {"oracle_hcm"}
 
 
 def fetch_detail(job: Job) -> None:
     fn = DETAIL.get(job.source)
-    if fn and not job.description:
+    if fn and (not job.description or job.source in ALWAYS_DETAIL):
         fn(job)

@@ -33,7 +33,7 @@ DEFAULTS = {
     "llm_fallback": True,
     "llm_model": "gpt-4o-mini",
     "llm_max_calls": 150,       # full AI checks per run
-    "llm_rescue_max": 60,       # AI second looks at ambiguous "senior" titles per run
+    "llm_rescue_max": 150,      # AI second looks at ambiguous "senior" titles per run
     "llm_daily_usd_cap": 0.20,  # hard daily spend limit, measured from real token usage (~$6/month max)
     "home_area": "the San Francisco Bay Area",   # small hire-chance bonus for nearby/remote roles
     "alert_after_runs": 4,      # consecutive failed runs before a feed is reported broken (~1h)
