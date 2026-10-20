@@ -14,7 +14,7 @@ from . import filters
 from .digest import send_email, write_outputs
 from .llm import llm_available, llm_min_years
 from .models import Job
-from .sources import ADAPTERS, fetch_detail
+from .sources import ADAPTERS, AGE_AWARE, fetch_detail
 from .store import State
 
 LOG = logging.getLogger(__name__)
@@ -45,7 +45,7 @@ def load_config(path: Path) -> tuple[dict, list[dict]]:
 def _fetch_one(src: dict, settings: dict) -> tuple[dict, list[Job], str | None]:
     fn = ADAPTERS[src["type"]]
     try:
-        jobs = fn(src, max_age_days=settings["max_age_days"]) if src["type"] == "workday" else fn(src)
+        jobs = fn(src, max_age_days=settings["max_age_days"]) if src["type"] in AGE_AWARE else fn(src)
         return src, jobs, None
     except Exception as e:
         return src, [], f"{type(e).__name__}: {str(e)[:150]}"
@@ -79,7 +79,9 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
         if j.key in state.seen:
             stats["already_seen"] += 1
             continue
-        if j.posted_at is None:
+        if j.posted_at is None and j.extra.get("date_from_detail"):
+            pass                              # dated after the detail fetch (step 4)
+        elif j.posted_at is None:
             if state.is_bootstrap:            # first run: don't flood with undated jobs
                 state.mark_seen(j.key)
                 stats["undated_bootstrap"] += 1
@@ -114,6 +116,14 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     keep: list[Job] = []
     llm_calls = 0
     for j in cands:
+        if j.extra.get("date_from_detail"):
+            if j.posted_at is None:           # detail fetch failed: retry next run, don't mark seen
+                stats["detail_failed_retry"] += 1
+                continue
+            if j.posted_at < cutoff:          # first time we see an old job on a date-less list
+                stats["too_old"] += 1
+                state.mark_seen(j.key)
+                continue
         # Always check location ourselves: some Workday tenants silently ignore the US facet.
         if settings["us_only"] and not filters.is_us(j.location, settings["remote_counts_as_us"]):
             stats["drop_non_us"] += 1

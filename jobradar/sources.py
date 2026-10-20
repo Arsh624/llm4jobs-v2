@@ -16,6 +16,7 @@ from .net import request_json
 
 LOG = logging.getLogger(__name__)
 UTC = timezone.utc
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
 
 def _iso(s) -> datetime | None:
@@ -209,6 +210,151 @@ def amazon(cfg, pages: int = 3) -> list[Job]:
     return out
 
 
+# ------------------------------------------------------------- iCIMS Jibe
+def _jibe_dt(s):
+    # "2026-10-19T23:03:00+0000" -> make the offset ISO-compatible on every Python version
+    return _iso(re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", s or ""))
+
+
+def jibe(cfg, max_age_days: int = 3, max_pages: int = 10) -> list[Job]:
+    """iCIMS Jibe career sites (AMD, GitHub, ...): /api/jobs, newest first."""
+    host = cfg["host"]
+    cutoff = datetime.now(UTC) - timedelta(days=max_age_days)
+    out = []
+    for page in range(1, max_pages + 1):
+        d = request_json(f"https://{host}/api/jobs?page={page}&limit=100&sortBy=posted_date"
+                         "&descending=true&internal=false")
+        jobs = [x.get("data") or {} for x in d.get("jobs") or []]
+        if not jobs:
+            break
+        for j in jobs:
+            posted = _jibe_dt(j.get("posted_date"))
+            loc = j.get("full_location") or j.get("location_name") or ""
+            if j.get("country_code") and j.get("country_code") not in loc:
+                loc = f"{loc} ({j['country_code']})"
+            out.append(Job(
+                source="jibe", source_id=f"{host}:{j.get('req_id') or j.get('slug')}", company=cfg["company"],
+                title=j.get("title", ""), location=loc, posted_at=posted,
+                url=(j.get("meta_data") or {}).get("canonical_url") or f"https://{host}/jobs/{j.get('slug')}",
+                description=html_to_text("\n".join(j.get(k) or "" for k in ("description", "qualifications", "responsibilities"))),
+            ))
+        last = _jibe_dt(jobs[-1].get("posted_date"))
+        if last and last < cutoff:              # newest-first: everything after this is older
+            break
+    return out
+
+
+# ---------------------------------------------------------- Eightfold PCSX
+_EF_SESSIONS: dict[str, tuple] = {}
+
+
+def _eightfold_session(host: str):
+    """Eightfold's PCSX API needs the site's cookies + CSRF token, like their own page uses."""
+    if host not in _EF_SESSIONS:
+        import http.cookiejar
+        import urllib.request
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        req = urllib.request.Request(f"https://{host}/careers", headers={"User-Agent": BROWSER_UA, "Accept": "text/html"})
+        page = opener.open(req, timeout=30).read().decode("utf-8", "ignore")
+        m = re.search(r'name="_csrf" content="([^"]+)"', page)
+        headers = {"User-Agent": BROWSER_UA, "Accept": "application/json", "X-Requested-With": "XMLHttpRequest",
+                   "Referer": f"https://{host}/careers"}
+        if m:
+            headers["X-CSRFToken"] = m.group(1)
+        _EF_SESSIONS[host] = (opener, headers)
+    return _EF_SESSIONS[host]
+
+
+def _eightfold_get(host: str, path: str) -> dict:
+    import json as _json
+    import urllib.request
+    opener, headers = _eightfold_session(host)
+    with opener.open(urllib.request.Request(f"https://{host}{path}", headers=headers), timeout=30) as r:
+        return _json.load(r)
+
+
+def eightfold(cfg, max_age_days: int = 3, max_pages: int = 40) -> list[Job]:
+    """Eightfold PCSX career sites (Qualcomm, Microsoft, ...): 10 per page, newest first."""
+    host, domain = cfg["host"], cfg["domain"]
+    cutoff = datetime.now(UTC) - timedelta(days=max_age_days)
+    out = []
+    for page in range(max_pages):
+        d = _eightfold_get(host, f"/api/pcsx/search?domain={domain}&query=&location=United%20States"
+                                 f"&start={page * 10}&sort_by=timestamp")
+        pos = (d.get("data") or {}).get("positions") or []
+        if not pos:
+            break
+        for p in pos:
+            out.append(Job(
+                source="eightfold", source_id=f"{domain}:{p['id']}", company=cfg["company"],
+                title=p.get("name", ""), url=f"https://{host}/careers/job/{p['id']}",
+                location="; ".join(p.get("locations") or p.get("standardizedLocations") or []),
+                posted_at=_epoch(p.get("postedTs") or p.get("creationTs")),
+                extra={"ef": (host, domain, p["id"])},
+            ))
+        last = _epoch(pos[-1].get("postedTs") or pos[-1].get("creationTs"))
+        if last and last < cutoff:
+            break
+    return out
+
+
+def _eightfold_detail(job: Job) -> None:
+    host, domain, pid = job.extra["ef"]
+    det = _eightfold_get(host, f"/api/pcsx/position_details?position_id={pid}&domain={domain}&hl=en").get("data") or {}
+    job.description = html_to_text(det.get("jobDescription", ""))
+    job.url = det.get("publicUrl") or job.url
+
+
+# -------------------------------------------------- Radancy / TalentBrew
+_TB_ITEM = re.compile(r'<a class="sr-job-link" href="(/job/[^"]+)"[^>]*data-job-id="(\d+)".*?<h2>(.*?)<'
+                      r'.*?class="job-location">(?:<img[^>]*>)?\s*(.*?)</span>', re.S)
+
+
+def talentbrew(cfg, pages: int = 15) -> list[Job]:
+    """Radancy/TalentBrew career sites (Synopsys, ...). The list has no dates and isn't strictly
+    newest-first, so we read every page (cheap: 100 per page) and take the date, description and
+    exact location from each new job's JSON-LD (fetched lazily, once per job)."""
+    host = cfg["host"]
+    out = []
+    for page in range(1, pages + 1):
+        d = request_json(
+            f"https://{host}/search-jobs/results?ActiveFacetID=0&CurrentPage={page}&RecordsPerPage=100"
+            "&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=False"
+            "&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results"
+            "&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=1&SearchType=5",
+            headers={"X-Requested-With": "XMLHttpRequest"})
+        items = _TB_ITEM.findall(d.get("results") or "")
+        if not items:
+            break
+        for path, jid, title, loc in items:
+            out.append(Job(
+                source="talentbrew", source_id=f"{host}:{jid}", company=cfg["company"],
+                title=html_to_text(title), url=f"https://{host}{path}", location=html_to_text(loc),
+                extra={"tb_detail": f"https://{host}{path}", "date_from_detail": True},
+            ))
+    return out
+
+
+def _talentbrew_detail(job: Job) -> None:
+    import json as _json
+    import urllib.request
+    req = urllib.request.Request(job.extra["tb_detail"], headers={"User-Agent": BROWSER_UA, "Accept": "text/html"})
+    page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
+    for blk in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
+        try:
+            data = _json.loads(blk)
+        except ValueError:
+            continue
+        if isinstance(data, dict) and data.get("@type") == "JobPosting":
+            job.posted_at = _iso(f"{data.get('datePosted')}T00:00:00+00:00") if data.get("datePosted") else None
+            job.description = html_to_text(data.get("description", ""))
+            locs = data.get("jobLocation") or []
+            countries = {((l.get("address") or {}).get("addressCountry") or "") for l in (locs if isinstance(locs, list) else [locs])}
+            if countries - {""}:
+                job.location = f"{job.location} ({', '.join(sorted(countries - {''}))})"
+            return
+
+
 # ------------------------------------------------------------ SimplifyJobs
 SIMPLIFY_URL = "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json"
 
@@ -234,9 +380,13 @@ def simplify(cfg) -> list[Job]:
 ADAPTERS = {
     "greenhouse": greenhouse, "ashby": ashby, "lever": lever, "workday": workday,
     "smartrecruiters": smartrecruiters, "amazon": amazon, "simplify": simplify,
+    "jibe": jibe, "eightfold": eightfold, "talentbrew": talentbrew,
 }
+# Adapters that stop paging once jobs get older than max_age_days.
+AGE_AWARE = {"workday", "jibe", "eightfold"}
 
-DETAIL = {"workday": _workday_detail, "smartrecruiters": _smartrecruiters_detail}
+DETAIL = {"workday": _workday_detail, "smartrecruiters": _smartrecruiters_detail,
+          "eightfold": _eightfold_detail, "talentbrew": _talentbrew_detail}
 
 
 def fetch_detail(job: Job) -> None:

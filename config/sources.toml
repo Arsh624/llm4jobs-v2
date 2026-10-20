@@ -28,7 +28,7 @@ role_exclude = [
   "accountant", "payroll", "executive assistant",
   "sales", "retail", "store", "customer service", "representative",
   "nurse", "physician", "clinical", "medical assistant", "veterinary", "veterinarian", "pharmacist",
-  "therapist", "dental", "technician", "ae", "grant", "grants",
+  "therapist", "dental", "technician", "ae", "grant", "grants", "vehicle operator", "driver",
 ]
 
 # ---------------------------------------------------------------- aggregator
@@ -472,6 +472,7 @@ site = "External"
 
 [[source]]
 type = "workday"
+enabled = false   # Workday feed returns no recent jobs; Eightfold source below works
 company = "Applied Materials"
 host = "amat.wd1.myworkdayjobs.com"
 tenant = "amat"
@@ -1540,3 +1541,71 @@ company = "Cisco"
 host = "cisco.wd5.myworkdayjobs.com"
 tenant = "cisco"
 site = "Cisco_Careers"
+
+# ------------------- Extra job systems (Oct 2026): iCIMS Jibe, Eightfold PCSX, Radancy/TalentBrew
+[[source]]
+type = "jibe"
+company = "AMD"
+host = "careers.amd.com"
+
+[[source]]
+type = "jibe"
+company = "GitHub"
+host = "github.careers"
+
+[[source]]
+type = "eightfold"
+company = "Qualcomm"
+host = "careers.qualcomm.com"
+domain = "qualcomm.com"
+
+[[source]]
+type = "eightfold"
+company = "Microsoft"
+host = "apply.careers.microsoft.com"
+domain = "microsoft.com"
+
+[[source]]
+type = "talentbrew"
+company = "Synopsys"
+host = "careers.synopsys.com"
+
+[[source]]
+type = "eightfold"
+company = "Applied Materials"
+host = "careers.appliedmaterials.com"
+domain = "appliedmaterials.com"
+
+[[source]]
+type = "eightfold"
+company = "Lam Research"
+host = "careers.lamresearch.com"
+domain = "lamresearch.com"
+
+[[source]]
+type = "eightfold"
+company = "Autodesk"
+host = "jobs.autodesk.com"
+domain = "autodesk.com"
+
+[[source]]
+type = "eightfold"
+company = "Infineon"
+host = "jobs.infineon.com"
+domain = "infineon.com"
+
+[[source]]
+type = "jibe"
+company = "Rivian"
+host = "careers.rivian.com"
+
+[[source]]
+type = "jibe"
+company = "DocuSign"
+host = "careers.docusign.com"
+
+[[source]]
+type = "jibe"
+company = "Keysight"
+host = "careers.keysight.com"
+# Not working yet (different variants): NetApp, PayPal (Eightfold), Palo Alto Networks, Intuit (TalentBrew).
