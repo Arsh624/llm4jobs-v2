@@ -2,7 +2,7 @@
 pipeline can enforce a hard daily dollar cap.
 
 - llm_assess: full check of a job that passed the free filters -- years, level, US
-  eligibility, fit for the user's profile, one-line note.
+  eligibility, hire chance for a new grad (profile-free), one-line note.
 - llm_rescue: cheap second look at a title the seniority rule rejected on an ambiguous word
   ("Lead", "Staff", "Manager", ...), so mislabeled entry-level roles aren't lost.
 """
@@ -20,11 +20,13 @@ LOG = logging.getLogger(__name__)
 PRICE = {"input": 0.15, "output": 0.60}
 
 ASSESS_PROMPT = (
-    "You screen job postings for a new graduate (0-2 years of experience) looking for work in the US.\n"
+    "You screen job postings for a new graduate (0-2 years of experience) looking for work in the US. "
+    "The candidate tailors their resume for every application and tries to get a referral, so do NOT "
+    "judge against any specific person's skills.\n"
     "Return JSON only:\n"
     '{"min_years": <integer or null>, "level": "entry" | "mid" | "senior" | "unknown", '
-    '"us_ok": true | false | null, "fit": <integer 0-10 or null>, '
-    '"note": "<max 12 words: why it does or doesn\'t fit>"}\n'
+    '"us_ok": true | false | null, "chance": <integer 0-10>, '
+    '"note": "<max 12 words: the main reason for the chance score>"}\n'
     "Rules:\n"
     "- min_years: MINIMUM professional experience required; with several paths use the lowest "
     "(\"5 yrs, or 3 with a PhD\" -> 3). Degrees and internships are not years. null if not stated.\n"
@@ -33,7 +35,12 @@ ASSESS_PROMPT = (
     "- \"Member of Technical Staff\" is an all-levels title; judge it by the description.\n"
     "- us_ok: false ONLY if the role clearly must be performed outside the US (e.g. 'must be based "
     "in Canada', EU-only remote). true if US-based or US-remote. null if unclear.\n"
-    "- fit: how well the candidate profile matches this role (10 = excellent). null if no profile given."
+    "- chance: how likely a new grad with a well-tailored resume and a referral gets an interview "
+    "(10 = very likely). Higher when the posting explicitly targets new grads / early career / "
+    "university hires, and when fewer years are asked (0 > 1 > 2). Lower for hard barriers a resume "
+    "can't fix: required hands-on experience with a specific niche tool/process, security clearance, "
+    "PhD required, professional licenses. Give +1 if the role is in or near {home_area} or remote. "
+    "Never lower it just because the field is specialized if a strong new grad could learn it."
 )
 
 RESCUE_PROMPT = (
@@ -70,23 +77,23 @@ def _call(system: str, user: str, model: str, max_tokens: int) -> tuple[bool, di
         return False, None, 0.0
 
 
-def llm_assess(title: str, company: str, location: str, description: str, profile: str = "",
+def llm_assess(title: str, company: str, location: str, description: str,
+               home_area: str = "the San Francisco Bay Area",
                model: str = "gpt-4o-mini") -> tuple[bool, dict | None, float]:
     if not description.strip():
         return False, None, 0.0
-    user = (f"Candidate profile:\n{profile.strip() or '(none given)'}\n\n"
-            f"Title: {title}\nCompany: {company}\nListed location: {location}\n\n{description[:6000]}")
-    ok, out, cost = _call(ASSESS_PROMPT, user, model, 100)
+    user = f"Title: {title}\nCompany: {company}\nListed location: {location}\n\n{description[:6000]}"
+    ok, out, cost = _call(ASSESS_PROMPT.replace("{home_area}", home_area), user, model, 100)
     if not ok:
         return False, None, cost
-    my, fit = out.get("min_years"), out.get("fit")
+    my, chance = out.get("min_years"), out.get("chance")
     level = str(out.get("level") or "unknown").lower()
     us_ok = out.get("us_ok")
     return True, {
         "min_years": int(my) if isinstance(my, (int, float)) else None,
         "level": level if level in ("entry", "mid", "senior") else "unknown",
         "us_ok": us_ok if isinstance(us_ok, bool) else None,
-        "fit": max(0, min(10, int(fit))) if isinstance(fit, (int, float)) and profile.strip() else None,
+        "chance": max(0, min(10, int(chance))) if isinstance(chance, (int, float)) else None,
         "note": str(out.get("note") or "")[:120],
     }, cost
 

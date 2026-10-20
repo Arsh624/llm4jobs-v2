@@ -54,13 +54,11 @@ docker compose up -d --build     # project "llm4jobs-v2", separate from v1
 
 ## AI checks
 gpt-4o-mini runs on every job that passes the free filters: min years, level (entry/mid/senior),
-US eligibility for unclear locations, a 0-10 fit score against your profile, and a one-line note
-(the "Fit" and "AI check" columns). Titles rejected only on an ambiguous word (Lead, Staff,
+US eligibility for unclear locations, a 0-10 hire chance for a new grad who tailors their resume
+and gets a referral (no profile needed), and a one-line note (the "Hire chance" and "AI check"
+columns). Emails are sorted by hire chance; nothing is dropped by it. Titles rejected only on an ambiguous word (Lead, Staff,
 Manager, Head, Architect, Principal) get a cheap AI second look so mislabeled entry roles aren't
 lost. The AI only removes jobs on clear evidence; calls are parallel and cached per job.
-
-Fit ranking needs your background: add it as the repository secret `JOBRADAR_PROFILE`
-(the repo is public, so don't put it in config/profile.md).
 
 ## Alerts
 A feed that errors 4 runs in a row (~1h), or a normally busy feed that suddenly returns 0 jobs,

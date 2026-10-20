@@ -6,6 +6,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 import tomllib
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -34,12 +35,14 @@ DEFAULTS = {
     "llm_max_calls": 150,       # full AI checks per run
     "llm_rescue_max": 60,       # AI second looks at ambiguous "senior" titles per run
     "llm_daily_usd_cap": 0.20,  # hard daily spend limit, measured from real token usage (~$6/month max)
-    "profile_path": "config/profile.md",
+    "home_area": "the San Francisco Bay Area",   # small hire-chance bonus for nearby/remote roles
     "alert_after_runs": 4,      # consecutive failed runs before a feed is reported broken (~1h)
     "alert_min_typical_jobs": 20,  # a feed that usually has >= this many jobs and suddenly has 0 = broken
 }
 # When the same job shows up twice, keep the direct-from-company copy over the aggregator.
 SOURCE_PRIORITY = {"simplify": 9}
+NEW_GRAD_TITLE = re.compile(r"new\s*grad|new\s*college|early\s*career|university|entry[\s-]*level|"
+                            r"graduate|junior|associate|\bI\b|\b1\b", re.I)
 
 
 def load_config(path: Path) -> tuple[dict, list[dict]]:
@@ -61,30 +64,14 @@ def _fetch_one(src: dict, settings: dict) -> tuple[dict, list[Job], str | None]:
 EST_COST = {"assess": 0.0004, "rescue": 0.00012}   # USD, conservative upper estimates per call
 
 
-def load_profile(config_path: Path, settings: dict) -> str:
-    """The user's background for fit ranking. Prefers the JOBRADAR_PROFILE env var (a GitHub
-    secret, so it stays private on a public repo); the profile file is a local fallback and is
-    ignored until its template has been filled in."""
-    env = os.environ.get("JOBRADAR_PROFILE", "").strip()
-    if env:
-        return env[:3000]
-    p = Path(settings["profile_path"])
-    p = p if p.is_absolute() else config_path.parent.parent / p
-    if not p.exists():
-        return ""
-    text = p.read_text("utf-8")
-    return "" if "REPLACE_ME" in text else text.strip()[:3000]
-
-
 def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> dict:
     settings, sources = load_config(config_path)
     state = State(state_path)
     stats = Counter()
     errors: dict[str, str] = {}
     max_years = settings["max_years"]
-    profile = load_profile(config_path, settings)
-    # Re-score jobs when the profile changes: the cache key carries a fingerprint of it.
-    ptag = ("|p" + hashlib.sha1(profile.encode()).hexdigest()[:8]) if profile else ""
+    # Cache key carries the scoring version + home area, so changing either re-scores jobs once.
+    ptag = "|v3|" + hashlib.sha1(settings["home_area"].encode()).hexdigest()[:6]
 
     def ai_budget(kind: str, wanted: int, run_cap: int) -> int:
         """How many AI calls of this kind we may still make (daily dollar cap + per-run cap)."""
@@ -213,7 +200,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             continue
         pre.append(j)
 
-    # 4b. AI check of every survivor (years, level, US eligibility, fit): parallel, cached,
+    # 4b. AI check of every survivor (years, level, US eligibility, hire chance): parallel, cached,
     # within the daily dollar cap.
     need = []
     for j in pre:
@@ -229,7 +216,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
         stats["ai_skipped_cap"] = len(need) - len(to_call)
     with ThreadPoolExecutor(max_workers=6) as ex:
         for j, (ok, res, cost) in zip(to_call, ex.map(
-                lambda j: llm_assess(j.title, j.company, j.location, j.description, profile,
+                lambda j: llm_assess(j.title, j.company, j.location, j.description, settings["home_area"],
                                      settings["llm_model"]), to_call)):
             state.count_ai_call(cost)
             llm_calls += 1
@@ -269,8 +256,15 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             continue
         batch_keys.add(j.dedupe_key)
         final.append(j)
-    # Best fit first (when a profile is set), then newest.
-    final.sort(key=lambda j: (-((j.extra.get("ai") or {}).get("fit") or -1),
+    # Jobs without a description (SimplifyJobs) get no AI score; estimate one so curated new-grad
+    # roles don't sink to the bottom. Shown with "~" in the email.
+    for j in final:
+        if (j.extra.get("ai") or {}).get("chance") is None:
+            est = 8 if NEW_GRAD_TITLE.search(j.title) else (6 if j.source == "simplify" else 5)
+            j.extra.setdefault("ai", {})
+            j.extra["ai"] = {**j.extra["ai"], "chance": est, "chance_estimated": True}
+    # Best hire chance first, then newest. Ordering only: nothing is dropped by this score.
+    final.sort(key=lambda j: (-((j.extra.get("ai") or {}).get("chance") or -1),
                               -(j.posted_at.timestamp() if j.posted_at else 0)))
 
     # 6. output -- state is saved only after a successful send, so a failed email retries next run.
@@ -299,7 +293,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     state.save()
 
     stats.update({"new_jobs": len(final), "llm_calls": llm_calls, "ai_calls_today": state.ai_calls_today(),
-                  "ai_usd_today": round(state.ai_usd_today(), 4), "fit_ranking": bool(profile)})
+                  "ai_usd_today": round(state.ai_usd_today(), 4)})
     return {"stats": dict(stats), "errors": errors, "jobs": final, "bootstrap": state.is_bootstrap}
 
 
