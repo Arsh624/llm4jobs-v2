@@ -210,6 +210,26 @@
 },
 "2026-10-20"
 ],
+"ashby:openrouter:7bff9169-ffb2-4a03-a0ee-2a5e73c0c0dd|v3|73908d": [
+{
+"chance": 2,
+"level": "senior",
+"min_years": 5,
+"note": "Requires 5+ years of experience in financial systems.",
+"us_ok": true
+},
+"2026-10-20"
+],
+"ashby:openrouter:8930eaba-071f-4b08-b598-306cb691b0d4|v3|73908d": [
+{
+"chance": 0,
+"level": "senior",
+"min_years": 5,
+"note": "Requires 5+ years of experience in identity systems.",
+"us_ok": true
+},
+"2026-10-20"
+],
 "ashby:pinecone:4433b308-1ff4-4b5f-9184-810e5d9844f6|v3|73908d": [
 {
 "chance": 3,
@@ -476,6 +496,16 @@
 "level": "entry",
 "min_years": 1,
 "note": "Targets new grads; requires only 1 year of experience.",
+"us_ok": true
+},
+"2026-10-20"
+],
+"eightfold:microsoft.com:1970393557043718|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years experience in industry or research.",
 "us_ok": true
 },
 "2026-10-20"
@@ -1611,6 +1641,13 @@
 "rescue:smartrecruiters:ServiceNow:744000156574956": [
 {
 "note": "Staff roles typically require significant experience.",
+"senior": true
+},
+"2026-10-20"
+],
+"rescue:smartrecruiters:ServiceNow:744000156604309": [
+{
+"note": "Staff implies a higher experience level required.",
 "senior": true
 },
 "2026-10-20"
@@ -3709,7 +3746,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 213
+"typical": 212
 },
 "Boku": {
 "alerted": false,
@@ -3854,7 +3891,7 @@
 "Coursera": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 28
 },
 "Credible": {
 "alerted": false,
@@ -4284,7 +4321,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 136
+"typical": 137
 },
 "Mercor": {
 "alerted": false,
@@ -4309,7 +4346,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 220
+"typical": 230
 },
 "Minted": {
 "alerted": false,
@@ -4459,7 +4496,7 @@
 "OpenRouter": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 28
 },
 "OpenTable": {
 "alerted": false,
@@ -4754,7 +4791,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 398
+"typical": 399
 },
 "SiFive": {
 "alerted": false,
@@ -4764,7 +4801,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3017
+"typical": 3030
 },
 "Skip": {
 "alerted": false,
@@ -5271,6 +5308,8 @@
 "ashby:opengov:6a835bf9-6a4b-4744-8d4e-d8963cfe47bf": "2026-10-20",
 "ashby:opengov:6bf81f49-bbe6-4699-a070-c77f9412efc4": "2026-10-20",
 "ashby:opengov:ac260e97-d544-4198-9bcf-cf96c4f5104b": "2026-10-20",
+"ashby:openrouter:7bff9169-ffb2-4a03-a0ee-2a5e73c0c0dd": "2026-10-20",
+"ashby:openrouter:8930eaba-071f-4b08-b598-306cb691b0d4": "2026-10-20",
 "ashby:patreon:2c79ab4b-6479-451d-bbac-e2e2fb0dc911": "2026-10-20",
 "ashby:patreon:37b9ae12-b503-42b7-b16e-ee6281c6a0c5": "2026-10-20",
 "ashby:patreon:71f644bc-0873-4d62-a599-bd64405d6587": "2026-10-20",
@@ -5650,6 +5689,7 @@
 "eightfold:microsoft.com:1970393557040424": "2026-10-20",
 "eightfold:microsoft.com:1970393557040458": "2026-10-20",
 "eightfold:microsoft.com:1970393557040464": "2026-10-20",
+"eightfold:microsoft.com:1970393557040466": "2026-10-20",
 "eightfold:microsoft.com:1970393557040508": "2026-10-20",
 "eightfold:microsoft.com:1970393557040547": "2026-10-20",
 "eightfold:microsoft.com:1970393557040563": "2026-10-20",
@@ -5690,6 +5730,7 @@
 "eightfold:microsoft.com:1970393557041573": "2026-10-20",
 "eightfold:microsoft.com:1970393557041574": "2026-10-20",
 "eightfold:microsoft.com:1970393557041576": "2026-10-20",
+"eightfold:microsoft.com:1970393557041632": "2026-10-20",
 "eightfold:microsoft.com:1970393557041643": "2026-10-20",
 "eightfold:microsoft.com:1970393557041647": "2026-10-20",
 "eightfold:microsoft.com:1970393557041667": "2026-10-20",
@@ -5724,6 +5765,7 @@
 "eightfold:microsoft.com:1970393557043525": "2026-10-20",
 "eightfold:microsoft.com:1970393557043616": "2026-10-20",
 "eightfold:microsoft.com:1970393557043629": "2026-10-20",
+"eightfold:microsoft.com:1970393557043718": "2026-10-20",
 "eightfold:microsoft.com:1970393557043740": "2026-10-20",
 "eightfold:microsoft.com:1970393557043754": "2026-10-20",
 "eightfold:microsoft.com:1970393557044183": "2026-10-20",
@@ -6678,9 +6720,11 @@
 "simplify:0a4cd2e5-65b4-4298-ab71-d0c7705a376c": "2026-10-19",
 "simplify:0aa1aad3-c8e3-4cd8-975d-9e1028f0fed2": "2026-10-19",
 "simplify:0e39c9af-f732-4abd-8bb3-748e1b3a781c": "2026-10-19",
+"simplify:10eac9c2-af0e-47ec-a3cd-13e7a4211fac": "2026-10-20",
 "simplify:1263fc11-5d1d-4a5e-ab93-529941e4abcb": "2026-10-19",
 "simplify:14dca508-6481-402d-a5d6-943f5efb9a58": "2026-10-20",
 "simplify:1583766b-60b6-44e5-b135-0ebadcdcaee0": "2026-10-20",
+"simplify:1b1e3c23-f9df-47e3-a82a-4d854e26869c": "2026-10-20",
 "simplify:1e99ce76-876f-4aad-ac27-ba16227e5aaf": "2026-10-20",
 "simplify:1fac2631-0a51-44d0-9af9-209c670e1742": "2026-10-20",
 "simplify:22a0a05d-ff1a-4abe-a1be-ef55d7b01fa9": "2026-10-19",
@@ -6693,20 +6737,25 @@
 "simplify:33da640d-5eb4-4a66-b577-c2ec5f60bcf3": "2026-10-20",
 "simplify:33f5563b-6820-4803-bd8e-45014015ac0c": "2026-10-19",
 "simplify:35669be8-a2d4-451a-b732-d404c89defe7": "2026-10-20",
+"simplify:3784a35f-9e75-4176-b34c-5290343fb01c": "2026-10-20",
 "simplify:3c3ebea2-2295-48b9-9150-700414ddb4e5": "2026-10-20",
 "simplify:3c77f02f-7923-4b6b-8141-fd3a96423118": "2026-10-19",
 "simplify:3e8ba698-cb5b-4c12-a0af-8d7cb8171be7": "2026-10-20",
 "simplify:3f07161b-0b55-4770-8ab2-f2bb4ae5a2c9": "2026-10-19",
+"simplify:434274bf-c21e-42e0-9be3-e519740dc6b7": "2026-10-20",
 "simplify:47e8f9c4-77b2-4538-8f65-ffcd067d9d37": "2026-10-19",
 "simplify:4b7d9212-ac43-4c9a-8377-465403c23615": "2026-10-19",
 "simplify:50e54046-7978-470b-a5b3-7f2786a8c4d4": "2026-10-20",
 "simplify:511298c0-51b4-4e6a-b652-7668b948d3c8": "2026-10-20",
 "simplify:54259fd2-233d-466f-894e-f3c91ea9159e": "2026-10-20",
+"simplify:58185ccc-7583-4e95-856b-92ede737ff0a": "2026-10-20",
 "simplify:58d87a8c-c43e-45b4-ae0a-af7f7a6421eb": "2026-10-19",
 "simplify:5a59f0ee-1571-4abb-9f4a-04fb4914313a": "2026-10-19",
 "simplify:5b918ad5-6661-46c0-8542-0b0aacd40eb4": "2026-10-19",
+"simplify:5bcf76e1-8922-42c9-b214-7dcc84b48603": "2026-10-20",
 "simplify:5d914152-b9b5-4947-beba-e7d6c0cced5e": "2026-10-19",
 "simplify:6396db23-aa49-4c70-b941-411baa6626f6": "2026-10-19",
+"simplify:67888ef7-a5e8-4e01-85c3-36bde3b6e814": "2026-10-20",
 "simplify:685e432a-5583-46a1-a7ac-d9819bab8f8d": "2026-10-19",
 "simplify:6a4a325c-d8f4-4b7b-b22d-35978c737229": "2026-10-20",
 "simplify:6b020294-dd07-4368-8e44-a6ec90bcb635": "2026-10-19",
@@ -6739,11 +6788,14 @@
 "simplify:8df87a27-5493-456e-a7b5-d96eed5e09e2": "2026-10-20",
 "simplify:945d226f-b0df-4b79-adae-78707211dc8e": "2026-10-19",
 "simplify:95b3dfd1-411e-4ccf-bb03-ce35e28541c5": "2026-10-20",
+"simplify:963252de-9a8b-4252-96fc-c23cf2666ba3": "2026-10-20",
 "simplify:9682b9f6-49b4-4232-b676-470ac9b9e96f": "2026-10-19",
 "simplify:968f8a3e-1bbb-49f8-863e-2988ccbb3cd3": "2026-10-20",
 "simplify:9897d006-923a-4988-aae8-83b9f1e09d7f": "2026-10-19",
+"simplify:98a3e335-f0b6-4ecd-b464-77ef59962136": "2026-10-20",
 "simplify:9c9ff27f-75fd-4c1b-b076-e687f7e08f74": "2026-10-19",
 "simplify:a2a16702-d4f6-4606-8b38-ff0306553401": "2026-10-19",
+"simplify:a5683c5a-9b84-4ff9-972e-b22ba427faed": "2026-10-20",
 "simplify:a7309900-70f4-42e4-a032-fd7570013f54": "2026-10-20",
 "simplify:a825c8d7-1e39-4708-9801-836e7394951c": "2026-10-19",
 "simplify:a864bebf-e087-4574-860e-29229283a0fd": "2026-10-20",
@@ -6761,6 +6813,8 @@
 "simplify:c2c36dd3-83d2-4c9e-90e4-adea9272ec4c": "2026-10-19",
 "simplify:c56673b6-42e9-4903-859f-b36ea78629cf": "2026-10-19",
 "simplify:c6d19a4b-fa35-4981-b784-fbf8ddccd957": "2026-10-20",
+"simplify:c8e180cd-1a33-4993-bbdc-6e76286d9dd1": "2026-10-20",
+"simplify:c9cd9528-eef5-450b-a4a9-a48811038ce6": "2026-10-20",
 "simplify:c9d6c211-6f65-4b53-ac71-6b1b9aeaff36": "2026-10-20",
 "simplify:ca7b6f2d-22c2-4d9a-baab-b5e91077acc8": "2026-10-20",
 "simplify:caed4dae-1871-4dfa-b062-58a5944c98e0": "2026-10-19",
@@ -6807,6 +6861,7 @@
 "smartrecruiters:ServiceNow:744000156569294": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156574956": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156579079": "2026-10-20",
+"smartrecruiters:ServiceNow:744000156604309": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156619374": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156622794": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156628380": "2026-10-20",
@@ -8446,6 +8501,7 @@
 "workday:medtronic:R79905-1": "2026-10-20",
 "workday:medtronic:R79907": "2026-10-20",
 "workday:medtronic:R79914-1": "2026-10-20",
+"workday:medtronic:R79918": "2026-10-20",
 "workday:medtronic:R79957": "2026-10-20",
 "workday:medtronic:R79981-1": "2026-10-20",
 "workday:medtronic:R79995": "2026-10-20",
@@ -9272,6 +9328,7 @@
 "sent": {
 "acxiom|associate solution developer": "2026-10-19",
 "akamai technologies|software engineer": "2026-10-19",
+"all lines technology|application developer": "2026-10-20",
 "amazon|embedded software development engineer ii aws hardware engineering services": "2026-10-20",
 "amazon|ml compiler engineer neuron kernel interface": "2026-10-19",
 "amazon|sde ii aws firmware builder services": "2026-10-20",
@@ -9348,6 +9405,7 @@
 "coursera|commissions analyst": "2026-10-20",
 "cursor|software engineer research tooling": "2026-10-20",
 "cvs health|full stack engineer training program": "2026-10-20",
+"cvs health|software development engineer conversion": "2026-10-20",
 "daimler truck|software developer 1": "2026-10-19",
 "diamond foundry|materials process engineer": "2026-10-20",
 "docusign|software engineer": "2026-10-20",
@@ -9363,6 +9421,7 @@
 "hntb|geospatial systems developer 1": "2026-10-19",
 "hp inc|software applications engineer": "2026-10-19",
 "hp|software applications engineer": "2026-10-20",
+"humana|software engineer 2": "2026-10-20",
 "humble robotics|hardware integration engineer": "2026-10-20",
 "huntington ingalls industries|software engineer 1": "2026-10-19",
 "icapital network|alternative data management analyst": "2026-10-20",
@@ -9377,6 +9436,7 @@
 "intel|packaging module equipment development engineer": "2026-10-20",
 "intel|soc design verification engineer": "2026-10-20",
 "intel|sort interface pathfinding and development engineer": "2026-10-20",
+"intuitive surgical|full stack engineer": "2026-10-20",
 "intuit|forward deployed engineer": "2026-10-20",
 "intuit|forward deployed engineer mtv": "2026-10-20",
 "jerry|product manager in training": "2026-10-20",
@@ -9389,6 +9449,7 @@
 "kla|product installation engineer fast 90 travel required": "2026-10-19",
 "kla|research scientist": "2026-10-19",
 "kla|software engineer 1": "2026-10-19",
+"l3harris technologies|associate software engineer": "2026-10-20",
 "l3harris technologies|software engineer": "2026-10-19",
 "lam research|electrical engineer 2": "2026-10-20",
 "lam research|laboratory service engineer 2": "2026-10-20",
@@ -9400,6 +9461,7 @@
 "lyft|software engineer": "2026-10-19",
 "lyft|ux researcher": "2026-10-19",
 "magna|junior ai engineer": "2026-10-20",
+"mass general brigham|statistical programmer data analyst": "2026-10-20",
 "medtronic|crm field inventory analyst eastern pa buffalo ny": "2026-10-20",
 "medtronic|embedded software engineer ii": "2026-10-20",
 "medtronic|field inventory analyst charlotte nc": "2026-10-20",
@@ -9434,6 +9496,7 @@
 "microsoft|mechanical engineer cloud operations innovation": "2026-10-20",
 "microsoft|member of technical staff microsoft robotics platform": "2026-10-20",
 "microsoft|member of technical staff platform": "2026-10-20",
+"microsoft|quantum systems operations engineer": "2026-10-20",
 "microsoft|quantum systems stability sensitivity engineer": "2026-10-20",
 "microsoft|renewable energy analyst": "2026-10-20",
 "microsoft|signal and power integrity engineer": "2026-10-20",
@@ -9472,6 +9535,7 @@
 "oshkosh|software engineer": "2026-10-20",
 "palantir|software engineer new grad query engines": "2026-10-20",
 "pinecone|developer advocate": "2026-10-20",
+"pnc financial services|business analytics specialist data modeling analytics": "2026-10-20",
 "popstroke holdings llc|business analyst": "2026-10-20",
 "prime intellect|applied research agentic rl": "2026-10-20",
 "prime intellect|applied research chip design": "2026-10-20",
@@ -9528,12 +9592,14 @@
 "visa|analyst payment ecosystem risk compliance": "2026-10-19",
 "visa|financial analyst resource led planning coe": "2026-10-20",
 "vtg|junior software engineer": "2026-10-19",
-"waymo|product data scientist marketplace logistics": "2026-10-20"
+"waymo|product data scientist marketplace logistics": "2026-10-20",
+"wsp|junior data analyst": "2026-10-20",
+"zebra technologies|software engineer": "2026-10-20"
 },
 "usage": {
-"calls": 461,
+"calls": 465,
 "date": "2026-10-20",
-"usd": 0.048704
+"usd": 0.049549
 },
 "years": {
 "amazon:10583340": [
