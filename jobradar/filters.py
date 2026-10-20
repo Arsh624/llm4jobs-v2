@@ -19,9 +19,8 @@ def is_senior(title: str) -> bool:
     return bool(SENIOR.search(t))
 
 
-INTERN = re.compile(
-    r"\b(intern|internship|co-?op|apprentice(ship)?|undergraduates?)\b"
-    r"|\b(summer|fall|winter|spring)\s+20\d\d\b", re.I)   # "Spring 2027" = term-based co-op/intern
+# Season-term titles ("New Grad, Summer 2027") are kept on purpose: many are full-time start dates.
+INTERN = re.compile(r"\b(intern|internship|co-?op|apprentice(ship)?|undergraduates?)\b", re.I)
 
 
 def is_intern(title: str) -> bool:
