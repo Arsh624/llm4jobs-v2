@@ -1,0 +1,440 @@
+{
+ "run_at": "2026-10-20T00:27:36+00:00",
+ "sources": {
+  "Airbnb": {
+   "type": "greenhouse",
+   "jobs": 177,
+   "error": null
+  },
+  "Amazon": {
+   "type": "amazon",
+   "jobs": 300,
+   "error": null
+  },
+  "Analog Devices": {
+   "type": "workday",
+   "jobs": 14,
+   "error": null
+  },
+  "Andromeda": {
+   "type": "ashby",
+   "jobs": 20,
+   "error": null
+  },
+  "Anthropic": {
+   "type": "greenhouse",
+   "jobs": 667,
+   "error": null
+  },
+  "Anyscale": {
+   "type": "ashby",
+   "jobs": 20,
+   "error": null
+  },
+  "Applied Materials": {
+   "type": "workday",
+   "jobs": 0,
+   "error": null
+  },
+  "Arize AI": {
+   "type": "greenhouse",
+   "jobs": 25,
+   "error": null
+  },
+  "Atlan": {
+   "type": "ashby",
+   "jobs": 7,
+   "error": null
+  },
+  "Baseten": {
+   "type": "ashby",
+   "jobs": 104,
+   "error": null
+  },
+  "Braintrust": {
+   "type": "ashby",
+   "jobs": 28,
+   "error": null
+  },
+  "Brex": {
+   "type": "greenhouse",
+   "jobs": 261,
+   "error": null
+  },
+  "ClickHouse": {
+   "type": "ashby",
+   "jobs": 200,
+   "error": null
+  },
+  "Cloudflare": {
+   "type": "greenhouse",
+   "jobs": 436,
+   "error": null
+  },
+  "Cohere": {
+   "type": "ashby",
+   "jobs": 115,
+   "error": null
+  },
+  "CoreWeave": {
+   "type": "greenhouse",
+   "jobs": 315,
+   "error": null
+  },
+  "Crusoe": {
+   "type": "ashby",
+   "jobs": 348,
+   "error": null
+  },
+  "Curri": {
+   "type": "ashby",
+   "jobs": 25,
+   "error": null
+  },
+  "Databricks": {
+   "type": "greenhouse",
+   "jobs": 899,
+   "error": null
+  },
+  "Discord": {
+   "type": "greenhouse",
+   "jobs": 46,
+   "error": null
+  },
+  "DoorDash": {
+   "type": "greenhouse",
+   "jobs": 453,
+   "error": null
+  },
+  "E2B": {
+   "type": "ashby",
+   "jobs": 14,
+   "error": null
+  },
+  "Elastic": {
+   "type": "greenhouse",
+   "jobs": 377,
+   "error": null
+  },
+  "Figma": {
+   "type": "greenhouse",
+   "jobs": 141,
+   "error": null
+  },
+  "Fivetran": {
+   "type": "greenhouse",
+   "jobs": 177,
+   "error": null
+  },
+  "Flexport": {
+   "type": "greenhouse",
+   "jobs": 209,
+   "error": null
+  },
+  "Gather AI": {
+   "type": "greenhouse",
+   "jobs": 9,
+   "error": null
+  },
+  "Gimlet Labs": {
+   "type": "ashby",
+   "jobs": 18,
+   "error": null
+  },
+  "HP": {
+   "type": "workday",
+   "jobs": 57,
+   "error": null
+  },
+  "Handshake": {
+   "type": "ashby",
+   "jobs": 89,
+   "error": null
+  },
+  "Hive": {
+   "type": "lever",
+   "jobs": 74,
+   "error": null
+  },
+  "Instacart": {
+   "type": "greenhouse",
+   "jobs": 123,
+   "error": null
+  },
+  "KLA": {
+   "type": "workday",
+   "jobs": 8,
+   "error": null
+  },
+  "LanceDB": {
+   "type": "ashby",
+   "jobs": 13,
+   "error": null
+  },
+  "LangChain": {
+   "type": "ashby",
+   "jobs": 103,
+   "error": null
+  },
+  "Lightning AI": {
+   "type": "greenhouse",
+   "jobs": 52,
+   "error": null
+  },
+  "Loadsmart": {
+   "type": "lever",
+   "jobs": 13,
+   "error": null
+  },
+  "Lucid Motors": {
+   "type": "greenhouse",
+   "jobs": 448,
+   "error": null
+  },
+  "Lyft": {
+   "type": "greenhouse",
+   "jobs": 183,
+   "error": null
+  },
+  "MatX": {
+   "type": "ashby",
+   "jobs": 43,
+   "error": null
+  },
+  "Medtronic": {
+   "type": "workday",
+   "jobs": 124,
+   "error": null
+  },
+  "Micron": {
+   "type": "workday",
+   "jobs": 146,
+   "error": null
+  },
+  "Modal": {
+   "type": "ashby",
+   "jobs": 43,
+   "error": null
+  },
+  "Motive": {
+   "type": "greenhouse",
+   "jobs": 146,
+   "error": null
+  },
+  "NVIDIA": {
+   "type": "workday",
+   "jobs": 202,
+   "error": null
+  },
+  "Netradyne": {
+   "type": "greenhouse",
+   "jobs": 29,
+   "error": null
+  },
+  "Notion": {
+   "type": "ashby",
+   "jobs": 133,
+   "error": null
+  },
+  "Nous Research": {
+   "type": "ashby",
+   "jobs": 15,
+   "error": null
+  },
+  "OpenAI": {
+   "type": "ashby",
+   "jobs": 808,
+   "error": null
+  },
+  "OpenRouter": {
+   "type": "ashby",
+   "jobs": 27,
+   "error": null
+  },
+  "Palantir": {
+   "type": "lever",
+   "jobs": 309,
+   "error": null
+  },
+  "Perplexity": {
+   "type": "ashby",
+   "jobs": 134,
+   "error": null
+  },
+  "Physical Intelligence": {
+   "type": "ashby",
+   "jobs": 44,
+   "error": null
+  },
+  "Pinecone": {
+   "type": "ashby",
+   "jobs": 5,
+   "error": null
+  },
+  "Pinterest": {
+   "type": "greenhouse",
+   "jobs": 155,
+   "error": null
+  },
+  "Plaid": {
+   "type": "ashby",
+   "jobs": 132,
+   "error": null
+  },
+  "Ramp": {
+   "type": "ashby",
+   "jobs": 167,
+   "error": null
+  },
+  "Red Hat": {
+   "type": "workday",
+   "jobs": 17,
+   "error": null
+  },
+  "Reddit": {
+   "type": "greenhouse",
+   "jobs": 152,
+   "error": null
+  },
+  "Reflection AI": {
+   "type": "ashby",
+   "jobs": 47,
+   "error": null
+  },
+  "Replit": {
+   "type": "ashby",
+   "jobs": 64,
+   "error": null
+  },
+  "Robinhood": {
+   "type": "greenhouse",
+   "jobs": 151,
+   "error": null
+  },
+  "Roblox": {
+   "type": "greenhouse",
+   "jobs": 262,
+   "error": null
+  },
+  "Runpod": {
+   "type": "ashby",
+   "jobs": 28,
+   "error": null
+  },
+  "Salesforce": {
+   "type": "workday",
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  "Scale AI": {
+   "type": "greenhouse",
+   "jobs": 181,
+   "error": null
+  },
+  "ServiceNow": {
+   "type": "smartrecruiters",
+   "jobs": 404,
+   "error": null
+  },
+  "SimplifyJobs (new grad list)": {
+   "type": "simplify",
+   "jobs": 3015,
+   "error": null
+  },
+  "Snowflake": {
+   "type": "ashby",
+   "jobs": 361,
+   "error": null
+  },
+  "Spotify": {
+   "type": "lever",
+   "jobs": 82,
+   "error": null
+  },
+  "Stack AV": {
+   "type": "greenhouse",
+   "jobs": 14,
+   "error": null
+  },
+  "Stripe": {
+   "type": "greenhouse",
+   "jobs": 726,
+   "error": null
+  },
+  "Supabase": {
+   "type": "ashby",
+   "jobs": 53,
+   "error": null
+  },
+  "T-Mobile": {
+   "type": "workday",
+   "jobs": 184,
+   "error": null
+  },
+  "Tagup": {
+   "type": "lever",
+   "jobs": 8,
+   "error": null
+  },
+  "Thinking Machines Lab": {
+   "type": "ashby",
+   "jobs": 54,
+   "error": null
+  },
+  "Third Wave Automation": {
+   "type": "greenhouse",
+   "jobs": 2,
+   "error": null
+  },
+  "Together AI": {
+   "type": "greenhouse",
+   "jobs": 78,
+   "error": null
+  },
+  "Valon": {
+   "type": "ashby",
+   "jobs": 26,
+   "error": null
+  },
+  "Vercel": {
+   "type": "greenhouse",
+   "jobs": 93,
+   "error": null
+  },
+  "Visa": {
+   "type": "workday",
+   "jobs": 32,
+   "error": null
+  },
+  "Weaviate": {
+   "type": "ashby",
+   "jobs": 3,
+   "error": null
+  },
+  "Zyphra": {
+   "type": "ashby",
+   "jobs": 16,
+   "error": null
+  },
+  "fal": {
+   "type": "ashby",
+   "jobs": 44,
+   "error": null
+  },
+  "project44": {
+   "type": "greenhouse",
+   "jobs": 27,
+   "error": null
+  },
+  "webAI": {
+   "type": "ashby",
+   "jobs": 20,
+   "error": null
+  },
+  "xAI": {
+   "type": "greenhouse",
+   "jobs": 307,
+   "error": null
+  }
+ }
+}
