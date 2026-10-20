@@ -52,6 +52,21 @@ If the repo is ever made private, change the cron to `*/30` to stay within the 2
 docker compose up -d --build     # project "llm4jobs-v2", separate from v1
 ```
 
+## AI checks
+gpt-4o-mini runs on every job that passes the free filters: min years, level (entry/mid/senior),
+US eligibility for unclear locations, a 0-10 fit score against your profile, and a one-line note
+(the "Fit" and "AI check" columns). Titles rejected only on an ambiguous word (Lead, Staff,
+Manager, Head, Architect, Principal) get a cheap AI second look so mislabeled entry roles aren't
+lost. The AI only removes jobs on clear evidence; calls are parallel and cached per job.
+
+Fit ranking needs your background: add it as the repository secret `JOBRADAR_PROFILE`
+(the repo is public, so don't put it in config/profile.md).
+
+## Alerts
+A feed that errors 4 runs in a row (~1h), or a normally busy feed that suddenly returns 0 jobs,
+triggers one "Job Radar v2 ALERT" email, and a "recovered" note when it works again.
+Per-source results of every run: state/health.json.
+
 ## Cost
-APIs $0 · GitHub Actions $0 · OpenAI: regex handles most jobs, LLM only for the rest, capped at
-60 calls/run (~$0.0002 each) → typically well under $1/month.
+APIs $0 · GitHub Actions $0 · OpenAI: hard daily cap of $0.20 measured from real token usage
+(`llm_daily_usd_cap`) => at most ~$6/month; typical use is ~$1-3/month.

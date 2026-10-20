@@ -12,13 +12,32 @@ SENIOR = re.compile(
 JUNIOR_MANAGER = re.compile(r"\b(associate|rotational|apm|new\s*grad|university|early\s*career)\b.*\bmanager\b", re.I)
 
 
-def is_senior(title: str) -> bool:
+# Unambiguous seniority words: always dropped. The rest of SENIOR ("lead", "staff", "manager",
+# "head", "architect", "principal", ...) can be misleading, so those titles get an AI second look.
+STRONG_SENIOR = re.compile(
+    r"\b(senior|sr|director|vp|svp|evp|vice\s+president|chief|distinguished|fellow|president|"
+    r"partner|iii|iv|level\s*[3-9]|l[5-9]|smts|lmts|pmts)\b", re.I)   # Senior/Lead/Principal MTS
+
+
+def _normalize_title(title: str) -> str:
     t = title.replace("Sr.", "Sr ")
     # "Member of Technical Staff" is the standard all-levels title at AI labs, not a Staff-level role.
     t = re.sub(r"(?i)\bmembers?\s+of\s+(the\s+)?technical\s+staff\b", "MTS", t)
     if JUNIOR_MANAGER.search(t):
         t = re.sub(r"(?i)\bmanager\b", "", t)
-    return bool(SENIOR.search(t))
+    return t
+
+
+def senior_strength(title: str) -> str | None:
+    """'strong' (definitely senior), 'weak' (ambiguous word only) or None (not senior)."""
+    t = _normalize_title(title)
+    if STRONG_SENIOR.search(t):
+        return "strong"
+    return "weak" if SENIOR.search(t) else None
+
+
+def is_senior(title: str) -> bool:
+    return senior_strength(title) is not None
 
 
 # Season-term titles ("New Grad, Summer 2027") are kept on purpose: many are full-time start dates.
@@ -84,14 +103,20 @@ def _segment_is_us(seg: str, remote_counts: bool) -> bool | None:
     return None
 
 
-def is_us(location: str, remote_counts: bool = True) -> bool:
-    """True if any listed location is in the US. Unknown/empty locations are kept."""
+def us_status(location: str, remote_counts: bool = True) -> bool | None:
+    """True = a US location is listed, False = only non-US locations, None = can't tell
+    ("2 Locations", empty, bare "Remote" when remote_counts is False)."""
     verdicts = [_segment_is_us(s, remote_counts) for s in _SPLIT.split(location or "")]
     if any(v is True for v in verdicts):
         return True
     if any(v is False for v in verdicts):
         return False
-    return True
+    return None
+
+
+def is_us(location: str, remote_counts: bool = True) -> bool:
+    """True if any listed location is in the US. Unknown/empty locations are kept."""
+    return us_status(location, remote_counts) is not False
 
 
 # ---------------------------------------------------------------------- years

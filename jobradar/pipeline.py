@@ -2,6 +2,7 @@
 -> dedupe -> digest, plus a broken-feed alert."""
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 import os
@@ -13,7 +14,7 @@ from pathlib import Path
 
 from . import filters
 from .digest import send_alert, send_email, write_alert, write_outputs
-from .llm import llm_assess, llm_available
+from .llm import llm_assess, llm_available, llm_rescue
 from .models import Job
 from .sources import ADAPTERS, AGE_AWARE, fetch_detail
 from .store import State
@@ -30,8 +31,10 @@ DEFAULTS = {
     "role_exclude": [],
     "llm_fallback": True,
     "llm_model": "gpt-4o-mini",
-    "llm_max_calls": 150,       # per run
-    "llm_daily_cap": 600,       # per day (~$0.18/day worst case with gpt-4o-mini)
+    "llm_max_calls": 150,       # full AI checks per run
+    "llm_rescue_max": 60,       # AI second looks at ambiguous "senior" titles per run
+    "llm_daily_usd_cap": 0.20,  # hard daily spend limit, measured from real token usage (~$6/month max)
+    "profile_path": "config/profile.md",
     "alert_after_runs": 4,      # consecutive failed runs before a feed is reported broken (~1h)
     "alert_min_typical_jobs": 20,  # a feed that usually has >= this many jobs and suddenly has 0 = broken
 }
@@ -55,12 +58,40 @@ def _fetch_one(src: dict, settings: dict) -> tuple[dict, list[Job], str | None]:
         return src, [], f"{type(e).__name__}: {str(e)[:150]}"
 
 
+EST_COST = {"assess": 0.0004, "rescue": 0.00012}   # USD, conservative upper estimates per call
+
+
+def load_profile(config_path: Path, settings: dict) -> str:
+    """The user's background for fit ranking. Prefers the JOBRADAR_PROFILE env var (a GitHub
+    secret, so it stays private on a public repo); the profile file is a local fallback and is
+    ignored until its template has been filled in."""
+    env = os.environ.get("JOBRADAR_PROFILE", "").strip()
+    if env:
+        return env[:3000]
+    p = Path(settings["profile_path"])
+    p = p if p.is_absolute() else config_path.parent.parent / p
+    if not p.exists():
+        return ""
+    text = p.read_text("utf-8")
+    return "" if "REPLACE_ME" in text else text.strip()[:3000]
+
+
 def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> dict:
     settings, sources = load_config(config_path)
     state = State(state_path)
     stats = Counter()
     errors: dict[str, str] = {}
     max_years = settings["max_years"]
+    profile = load_profile(config_path, settings)
+    # Re-score jobs when the profile changes: the cache key carries a fingerprint of it.
+    ptag = ("|p" + hashlib.sha1(profile.encode()).hexdigest()[:8]) if profile else ""
+
+    def ai_budget(kind: str, wanted: int, run_cap: int) -> int:
+        """How many AI calls of this kind we may still make (daily dollar cap + per-run cap)."""
+        if not (settings["llm_fallback"] and llm_available()):
+            return 0
+        left_usd = max(0.0, settings["llm_daily_usd_cap"] - state.ai_usd_today())
+        return min(wanted, run_cap, int(left_usd / EST_COST[kind]))
 
     # 1. fetch every source in parallel
     all_jobs: list[Job] = []
@@ -81,6 +112,7 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     # 2. cheap filters: already seen, too old, title rules
     cutoff = datetime.now(timezone.utc) - timedelta(days=settings["max_age_days"])
     cands: list[Job] = []
+    rescue: list[Job] = []       # titles rejected only on an ambiguous word -> AI second look
     for j in all_jobs:
         if j.key in state.seen:
             stats["already_seen"] += 1
@@ -96,27 +128,61 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             stats["too_old"] += 1
             continue
         reason = None
+        strength = filters.senior_strength(j.title)
         if not settings["include_internships"] and filters.is_intern(j.title):
             reason = "intern"
-        elif filters.is_senior(j.title):
-            reason = "senior_title"
         elif (not filters.matches_role(j.title, settings["role_keywords"])
               or (settings["role_exclude"] and filters.matches_role(j.title, settings["role_exclude"]))):
             reason = "role"
+        elif strength == "strong":
+            reason = "senior_title"
+        elif strength == "weak":
+            rescue.append(j)
+            continue
         if reason:
             stats[f"drop_{reason}"] += 1
             state.mark_seen(j.key)
             continue
         cands.append(j)
 
-    # 3. lazy detail fetch (descriptions / dates), only for survivors
+    # 3. lazy detail fetch (descriptions / dates), only for survivors and rescue candidates
     def _detail(j: Job):
         try:
             fetch_detail(j)
         except Exception as e:
             LOG.debug("detail failed %s: %s", j.url, e)
     with ThreadPoolExecutor(max_workers=4) as ex:
-        list(ex.map(_detail, cands))
+        list(ex.map(_detail, cands + rescue))
+
+    # 3b. AI second look at ambiguous "senior" titles (Lead / Staff / Manager / Architect ...)
+    llm_calls = 0
+    to_rescue = []
+    for j in rescue:
+        cached = state.cached_ai("rescue:" + j.key)
+        if cached is not None:
+            j.extra["rescue"] = cached
+        else:
+            to_rescue.append(j)
+    allowed = ai_budget("rescue", len(to_rescue), settings["llm_rescue_max"])
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        calls = to_rescue[:allowed]
+        for j, (ok, res, cost) in zip(calls, ex.map(
+                lambda j: llm_rescue(j.title, j.company, j.description, settings["llm_model"]), calls)):
+            state.count_ai_call(cost)
+            llm_calls += 1
+            if ok:
+                state.cache_ai("rescue:" + j.key, res)
+                j.extra["rescue"] = res
+    for j in rescue:
+        r = j.extra.get("rescue")
+        if r is None:                       # over budget / failed: try again next run, don't mark seen
+            stats["rescue_deferred"] += 1
+        elif r["senior"]:
+            stats["drop_senior_title"] += 1
+            state.mark_seen(j.key)
+        else:
+            stats["rescued_by_ai"] += 1
+            cands.append(j)
 
     # 4a. date (for date-less lists), location, regex years -- all free
     pre: list[Job] = []
@@ -130,10 +196,13 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
                 state.mark_seen(j.key)
                 continue
         # Always check location ourselves: some Workday tenants silently ignore the US facet.
-        if settings["us_only"] and not filters.is_us(j.location, settings["remote_counts_as_us"]):
-            stats["drop_non_us"] += 1
-            state.mark_seen(j.key)
-            continue
+        if settings["us_only"]:
+            if not filters.is_us(j.location, settings["remote_counts_as_us"]):
+                stats["drop_non_us"] += 1
+                state.mark_seen(j.key)
+                continue
+            # "2 Locations", empty or bare "Remote": kept, and the AI check confirms from the text.
+            j.extra["loc_unclear"] = filters.us_status(j.location, remote_counts=False) is None
         if j.min_years is None:
             regex = filters.extract_min_years(j.description)
             if regex is not None:
@@ -144,32 +213,29 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             continue
         pre.append(j)
 
-    # 4b. AI assessment of every survivor: parallel, cached, within the daily cap
-    llm_calls = 0
-    if settings["llm_fallback"]:
-        need = []
-        for j in pre:
-            if not j.description:
-                continue
-            cached = state.cached_ai(j.key)
-            if cached is not None:
-                j.extra["ai"] = cached
-            else:
-                need.append(j)
-        budget = 0
-        if llm_available():
-            budget = min(settings["llm_max_calls"], max(0, settings["llm_daily_cap"] - state.ai_calls_today()))
-        to_call = need[:budget]
-        if len(need) > len(to_call):
-            stats["ai_skipped_cap"] = len(need) - len(to_call)
-        with ThreadPoolExecutor(max_workers=6) as ex:
-            for j, (ok, res) in zip(to_call, ex.map(
-                    lambda j: llm_assess(j.title, j.company, j.description, settings["llm_model"]), to_call)):
-                state.count_ai_call()
-                llm_calls += 1
-                if ok:
-                    state.cache_ai(j.key, res)
-                    j.extra["ai"] = res
+    # 4b. AI check of every survivor (years, level, US eligibility, fit): parallel, cached,
+    # within the daily dollar cap.
+    need = []
+    for j in pre:
+        if not j.description:
+            continue
+        cached = state.cached_ai(j.key + ptag)
+        if cached is not None:
+            j.extra["ai"] = cached
+        else:
+            need.append(j)
+    to_call = need[:ai_budget("assess", len(need), settings["llm_max_calls"])]
+    if len(need) > len(to_call):
+        stats["ai_skipped_cap"] = len(need) - len(to_call)
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for j, (ok, res, cost) in zip(to_call, ex.map(
+                lambda j: llm_assess(j.title, j.company, j.location, j.description, profile,
+                                     settings["llm_model"]), to_call)):
+            state.count_ai_call(cost)
+            llm_calls += 1
+            if ok:
+                state.cache_ai(j.key + ptag, res)
+                j.extra["ai"] = res
 
     # 4c. decide. The AI only rejects on clear evidence; unclear postings are kept.
     keep: list[Job] = []
@@ -187,6 +253,10 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             stats["drop_ai_level"] += 1
             state.mark_seen(j.key)
             continue
+        if settings["us_only"] and ai and ai.get("us_ok") is False:
+            stats["drop_non_us_ai"] += 1
+            state.mark_seen(j.key)
+            continue
         keep.append(j)   # marked seen only once actually emailed (see step 6)
 
     # 5. dedupe across sources and against everything already emailed
@@ -199,7 +269,9 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             continue
         batch_keys.add(j.dedupe_key)
         final.append(j)
-    final.sort(key=lambda j: -(j.posted_at.timestamp() if j.posted_at else 0))
+    # Best fit first (when a profile is set), then newest.
+    final.sort(key=lambda j: (-((j.extra.get("ai") or {}).get("fit") or -1),
+                              -(j.posted_at.timestamp() if j.posted_at else 0)))
 
     # 6. output -- state is saved only after a successful send, so a failed email retries next run.
     # In dry-run, qualifying jobs are NOT marked seen/sent, so they still arrive in the first
@@ -226,7 +298,8 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
                 LOG.warning("feed alert email failed: %s", e)
     state.save()
 
-    stats.update({"new_jobs": len(final), "llm_calls": llm_calls, "ai_calls_today": state.ai_calls_today()})
+    stats.update({"new_jobs": len(final), "llm_calls": llm_calls, "ai_calls_today": state.ai_calls_today(),
+                  "ai_usd_today": round(state.ai_usd_today(), 4), "fit_ranking": bool(profile)})
     return {"stats": dict(stats), "errors": errors, "jobs": final, "bootstrap": state.is_bootstrap}
 
 

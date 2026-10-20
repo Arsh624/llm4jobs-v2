@@ -33,6 +33,7 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_ENABLED: ${{ vars.EMAIL_ENABLED || 'false' }}
+          JOBRADAR_PROFILE: ${{ secrets.JOBRADAR_PROFILE }}
         run: python -m jobradar
 
       - name: Save state (so the next run skips jobs already seen)

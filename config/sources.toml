@@ -10,7 +10,9 @@ include_internships = false
 llm_fallback = true         # gpt-4o-mini checks every job that passes the cheap filters
 llm_model = "gpt-4o-mini"
 llm_max_calls = 150         # AI checks per run
-llm_daily_cap = 600         # AI checks per day (~$0.18/day max with gpt-4o-mini)
+llm_rescue_max = 60         # AI second looks at ambiguous 'Lead/Staff/Manager' titles per run
+llm_daily_usd_cap = 0.20    # HARD daily AI spend limit from real token usage (~$6/month max)
+profile_path = "config/profile.md"   # your background, used to rank jobs by fit
 alert_after_runs = 4        # email an alert when a feed fails this many runs in a row (~1h)
 
 # A title must contain one of these to be kept. Empty list = keep every role type.

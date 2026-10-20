@@ -36,14 +36,22 @@ class State:
     def cache_ai(self, key: str, result: dict) -> None:
         self.ai[key] = [result, date.today().isoformat()]
 
-    def ai_calls_today(self) -> int:
-        return self.usage.get("calls", 0) if self.usage.get("date") == date.today().isoformat() else 0
-
-    def count_ai_call(self) -> None:
+    def _today_usage(self) -> dict:
         today = date.today().isoformat()
         if self.usage.get("date") != today:
-            self.usage = {"date": today, "calls": 0}
-        self.usage["calls"] += 1
+            self.usage = {"date": today, "calls": 0, "usd": 0.0}
+        return self.usage
+
+    def ai_calls_today(self) -> int:
+        return self._today_usage().get("calls", 0)
+
+    def ai_usd_today(self) -> float:
+        return self._today_usage().get("usd", 0.0)
+
+    def count_ai_call(self, cost_usd: float = 0.0) -> None:
+        u = self._today_usage()
+        u["calls"] = u.get("calls", 0) + 1
+        u["usd"] = round(u.get("usd", 0.0) + cost_usd, 6)
 
     def mark_seen(self, key: str) -> None:
         self.seen.setdefault(key, date.today().isoformat())

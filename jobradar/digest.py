@@ -25,6 +25,11 @@ def _years(j: Job) -> str:
     return "not stated" if j.min_years is None else str(j.min_years)
 
 
+def _fit(j: Job) -> str:
+    f = (j.extra.get("ai") or {}).get("fit")
+    return "" if f is None else f"{f}/10"
+
+
 def _ai_note(j: Job) -> str:
     ai = j.extra.get("ai") or {}
     if not ai:
@@ -39,6 +44,7 @@ def render_html(jobs: list[Job]) -> str:
         f"<td>{html.escape(j.company)}</td>"
         f"<td><a href=\"{html.escape(j.url)}\">{html.escape(j.title)}</a></td>"
         f"<td>{html.escape(j.location[:60])}</td>"
+        f"<td><b>{_fit(j)}</b></td>"
         f"<td>{_years(j)}</td>"
         f"<td>{_ago(j.posted_at)}</td>"
         f"<td style=\"font-size:12px\">{html.escape(_ai_note(j))}</td>"
@@ -50,16 +56,16 @@ def render_html(jobs: list[Job]) -> str:
         f"<h2>Job Radar v2: {len(jobs)} new</h2>"
         "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\">"
         "<tr style=\"background:#f2f2f2\"><th>Company</th><th>Title</th><th>Location</th>"
-        "<th>Min yrs</th><th>Posted</th><th>AI check</th><th>Sponsorship</th><th>Source</th></tr>"
+        "<th>Fit</th><th>Min yrs</th><th>Posted</th><th>AI check</th><th>Sponsorship</th><th>Source</th></tr>"
         f"{rows}</table></body></html>")
 
 
 def render_csv(jobs: list[Job]) -> str:
     buf = io.StringIO()
     w = csv.writer(buf)
-    w.writerow(["company", "title", "location", "min_years", "posted_at", "ai_check", "sponsorship", "source", "url"])
+    w.writerow(["company", "title", "location", "fit", "min_years", "posted_at", "ai_check", "sponsorship", "source", "url"])
     for j in jobs:
-        w.writerow([j.company, j.title, j.location, _years(j),
+        w.writerow([j.company, j.title, j.location, _fit(j), _years(j),
                     j.posted_at.isoformat() if j.posted_at else "", _ai_note(j), j.sponsorship, j.source, j.url])
     return buf.getvalue()
 
@@ -76,7 +82,7 @@ def write_outputs(jobs: list[Job], out_dir: Path) -> None:
         "company": j.company, "title": j.title, "url": j.url, "location": j.location,
         "min_years": j.min_years, "years_basis": j.years_basis, "sponsorship": j.sponsorship,
         "source": j.source, "posted_at": j.posted_at.isoformat() if j.posted_at else None,
-        "ai_check": _ai_note(j),
+        "ai_check": _ai_note(j), "fit": (j.extra.get("ai") or {}).get("fit"),
         "found_at": now, "description": j.description[:8000],
     } for j in jobs] + feed
     seen_urls, unique = set(), []
