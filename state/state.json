@@ -402,6 +402,13 @@
 },
 "2026-10-20"
 ],
+"rescue:ashby:snowflake:22e84b77-4bc4-4a31-99fb-f325ed9a9590": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-10-20"
+],
 "rescue:ashby:snowflake:97f6fdcf-c8ce-4125-a59c-c152bab6351d": [
 {
 "note": "Requires significant leadership experience.",
@@ -412,6 +419,13 @@
 "rescue:ashby:snowflake:bf4bfa34-8f2b-4af4-b94e-5fb70d99ec15": [
 {
 "note": "Requires deep technical expertise and experience.",
+"senior": true
+},
+"2026-10-20"
+],
+"rescue:ashby:strava:94066748-5305-478c-9794-21a9be3da299": [
+{
+"note": "Requires significant experience in security engineering.",
 "senior": true
 },
 "2026-10-20"
@@ -3065,7 +3079,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 215
+"typical": 212
 },
 "Boku": {
 "alerted": false,
@@ -3660,7 +3674,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 162
+"typical": 163
 },
 "Microsoft": {
 "alerted": false,
@@ -3995,7 +4009,7 @@
 "Redis": {
 "alerted": false,
 "streak": 0,
-"typical": 29
+"typical": 30
 },
 "Reflection AI": {
 "alerted": false,
@@ -4065,7 +4079,7 @@
 "Salesforce": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 429: Too Many Requests",
-"streak": 2,
+"streak": 3,
 "typical": 156
 },
 "SambaNova Systems": {
@@ -4141,7 +4155,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 359
+"typical": 360
 },
 "SoFi": {
 "alerted": false,
@@ -4181,7 +4195,7 @@
 "Strava": {
 "alerted": false,
 "streak": 0,
-"typical": 33
+"typical": 34
 },
 "Stripe": {
 "alerted": false,
@@ -4291,7 +4305,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 133
+"typical": 132
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -4653,6 +4667,7 @@
 "ashby:redis:2aba447c-c6f9-4015-8b60-49bef7f9bd91": "2026-10-20",
 "ashby:redis:4a268133-b302-44fb-ba95-ab5c99a851b7": "2026-10-20",
 "ashby:redis:5abb3d7f-cb29-47e2-b011-d01ae96ee714": "2026-10-20",
+"ashby:redis:ec27a483-6d4f-4bd9-b5ab-76278021d562": "2026-10-20",
 "ashby:redis:f2824628-ca39-41f0-9a1e-8b98fa7a018a": "2026-10-20",
 "ashby:reflectionai:7e27f7f5-27da-49aa-b10f-2f5de1de1162": "2026-10-20",
 "ashby:runpod:04f76112-abc3-4327-b1ed-9cde3cc1c404": "2026-10-20",
@@ -4663,6 +4678,7 @@
 "ashby:skydio:8b79b158-2805-4a5f-b2de-e054850b1f62": "2026-10-20",
 "ashby:skydio:bee8ad98-8b08-4d3c-b2ea-c581e52f91ea": "2026-10-20",
 "ashby:snowflake:08614077-49b6-44a4-a659-3bda16b102d4": "2026-10-19",
+"ashby:snowflake:22e84b77-4bc4-4a31-99fb-f325ed9a9590": "2026-10-20",
 "ashby:snowflake:2c5d5816-8a14-49b8-b6d7-6ec66b3595b0": "2026-10-19",
 "ashby:snowflake:33a598d7-b970-4958-b1b9-4d548777f286": "2026-10-19",
 "ashby:snowflake:36626c35-afdd-4618-b116-ae983abd3c10": "2026-10-19",
@@ -4678,6 +4694,7 @@
 "ashby:snowflake:d3d801b9-74a5-4e58-9d8f-1e2a79b22890": "2026-10-19",
 "ashby:snowflake:f162dafb-fad5-488b-9865-e5adea8dcdcf": "2026-10-19",
 "ashby:snowflake:fd243b3a-c1ec-4af9-a829-75bbe961cfe9": "2026-10-20",
+"ashby:strava:94066748-5305-478c-9794-21a9be3da299": "2026-10-20",
 "ashby:substack:be1ebf8e-e04d-4745-b66a-c9ac4acde94a": "2026-10-20",
 "ashby:supabase:62dfb104-ae18-46ce-a9ef-836f024c3d6d": "2026-10-20",
 "ashby:supabase:d6af503b-acc4-40c9-83d8-d4fe0dcc2dd5": "2026-10-20",
@@ -4848,6 +4865,7 @@
 "eightfold:microsoft.com:1970393556990540": "2026-10-20",
 "eightfold:microsoft.com:1970393556990954": "2026-10-20",
 "eightfold:microsoft.com:1970393556991347": "2026-10-20",
+"eightfold:microsoft.com:1970393556991354": "2026-10-20",
 "eightfold:microsoft.com:1970393556992026": "2026-10-20",
 "eightfold:microsoft.com:1970393556992141": "2026-10-20",
 "eightfold:microsoft.com:1970393556992236": "2026-10-20",
@@ -4958,6 +4976,7 @@
 "eightfold:microsoft.com:1970393557041543": "2026-10-20",
 "eightfold:microsoft.com:1970393557041557": "2026-10-20",
 "eightfold:microsoft.com:1970393557041563": "2026-10-20",
+"eightfold:microsoft.com:1970393557041565": "2026-10-20",
 "eightfold:microsoft.com:1970393557041576": "2026-10-20",
 "eightfold:microsoft.com:1970393557041643": "2026-10-20",
 "eightfold:microsoft.com:1970393557041647": "2026-10-20",
@@ -7639,6 +7658,7 @@
 "workday:micron:JR114337": "2026-10-20",
 "workday:micron:JR114338": "2026-10-20",
 "workday:micron:JR114366": "2026-10-20",
+"workday:micron:JR114402": "2026-10-20",
 "workday:micron:JR114438": "2026-10-20",
 "workday:micron:JR114440": "2026-10-20",
 "workday:micron:JR114479": "2026-10-20",
@@ -8465,9 +8485,9 @@
 "waymo|product data scientist marketplace logistics": "2026-10-20"
 },
 "usage": {
-"calls": 384,
+"calls": 386,
 "date": "2026-10-20",
-"usd": 0.037575
+"usd": 0.037717
 },
 "years": {
 "amazon:10583340": [
