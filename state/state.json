@@ -800,6 +800,16 @@
 },
 "2026-10-21"
 ],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347624|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 0,
+"note": "Entry-level role with broad responsibilities and US locations",
+"us_ok": true
+},
+"2026-10-21"
+],
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347995|v3|73908d": [
 {
 "chance": 2,
@@ -882,6 +892,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:ashby:reflectionai:90f44c78-5612-40ca-91b8-71575d774cf9": [
+{
+"note": "Requires leadership and technical expertise.",
+"senior": true
+},
+"2026-10-21"
 ],
 "rescue:ashby:snowflake:22e84b77-4bc4-4a31-99fb-f325ed9a9590": [
 {
@@ -1506,6 +1523,13 @@
 },
 "2026-10-20"
 ],
+"rescue:greenhouse:reddit:8289345": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-10-21"
+],
 "rescue:greenhouse:robinhood:8301728": [
 {
 "note": "Requires collaboration with senior leaders.",
@@ -2020,6 +2044,13 @@
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:348081": [
 {
 "note": "Requires extensive experience in system architecture.",
+"senior": true
+},
+"2026-10-21"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:348085": [
+{
+"note": "Requires significant experience and technical leadership.",
 "senior": true
 },
 "2026-10-21"
@@ -3578,6 +3609,13 @@
 },
 "2026-10-20"
 ],
+"rescue:workday:kla:2641698": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-10-21"
+],
 "rescue:workday:marvell:2604521": [
 {
 "note": "Requires significant experience in validation engineering.",
@@ -4444,7 +4482,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 675
+"typical": 674
 },
 "Anyscale": {
 "alerted": false,
@@ -4574,7 +4612,7 @@
 "Brilliant Earth": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 70
 },
 "Bugcrowd": {
 "alerted": false,
@@ -4724,7 +4762,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 898
+"typical": 899
 },
 "Dataiku": {
 "alerted": false,
@@ -4779,7 +4817,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 457
+"typical": 458
 },
 "Doximity": {
 "alerted": false,
@@ -4924,7 +4962,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 96
 },
 "HackerOne": {
 "alerted": false,
@@ -4989,12 +5027,11 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 103
 },
 "Intuit": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(825660 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 608
 },
 "Iru (formerly Kandji)": {
@@ -5015,7 +5052,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 22
+"typical": 23
 },
 "Keysight": {
 "alerted": false,
@@ -5120,7 +5157,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 149
 },
 "Mercor": {
 "alerted": false,
@@ -5175,7 +5212,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 145
 },
 "NVIDIA": {
 "alerted": false,
@@ -5290,7 +5327,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 78
+"typical": 79
 },
 "OpenRouter": {
 "alerted": false,
@@ -5425,7 +5462,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 372
 },
 "Qualcomm": {
 "alerted": false,
@@ -5470,7 +5507,7 @@
 "Reddit": {
 "alerted": false,
 "streak": 0,
-"typical": 154
+"typical": 155
 },
 "Redis": {
 "alerted": false,
@@ -5480,7 +5517,7 @@
 "Reflection AI": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Replit": {
 "alerted": false,
@@ -5545,7 +5582,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 235
+"typical": 234
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -5590,7 +5627,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 431
+"typical": 430
 },
 "SiFive": {
 "alerted": false,
@@ -5665,7 +5702,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 730
+"typical": 731
 },
 "Substack": {
 "alerted": false,
@@ -5705,7 +5742,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 198
+"typical": 199
 },
 "Tagup": {
 "alerted": false,
@@ -6116,6 +6153,7 @@
 "ashby:openai:fd0a10a9-80e5-48c4-b313-c2403f009761": "2026-10-20",
 "ashby:opengov:0532d568-c9cd-4ef3-8d85-2a97d78fc28f": "2026-10-20",
 "ashby:opengov:37c16897-c961-407b-80cb-cb554364cac6": "2026-10-20",
+"ashby:opengov:3f4c68e2-abfb-4f50-861d-f6c079371f12": "2026-10-21",
 "ashby:opengov:52285a69-3fa2-42b5-b47e-5663db81fed0": "2026-10-20",
 "ashby:opengov:57dc31aa-15a4-4ccf-8b02-56026b5f3279": "2026-10-20",
 "ashby:opengov:6a835bf9-6a4b-4744-8d4e-d8963cfe47bf": "2026-10-20",
@@ -6172,6 +6210,7 @@
 "ashby:redis:ec27a483-6d4f-4bd9-b5ab-76278021d562": "2026-10-20",
 "ashby:redis:f2824628-ca39-41f0-9a1e-8b98fa7a018a": "2026-10-20",
 "ashby:reflectionai:7e27f7f5-27da-49aa-b10f-2f5de1de1162": "2026-10-20",
+"ashby:reflectionai:90f44c78-5612-40ca-91b8-71575d774cf9": "2026-10-21",
 "ashby:runpod:04f76112-abc3-4327-b1ed-9cde3cc1c404": "2026-10-20",
 "ashby:runpod:8c9d5163-1069-4a72-9cfd-c44ce3851a80": "2026-10-20",
 "ashby:serverobotics:d1928ef2-6088-4c69-9894-5ca3b6aaff76": "2026-10-20",
@@ -6414,6 +6453,7 @@
 "eightfold:microsoft.com:1970393556958087": "2026-10-20",
 "eightfold:microsoft.com:1970393556958336": "2026-10-20",
 "eightfold:microsoft.com:1970393556960283": "2026-10-20",
+"eightfold:microsoft.com:1970393556962135": "2026-10-21",
 "eightfold:microsoft.com:1970393556962252": "2026-10-20",
 "eightfold:microsoft.com:1970393556962700": "2026-10-20",
 "eightfold:microsoft.com:1970393556978013": "2026-10-20",
@@ -6431,6 +6471,7 @@
 "eightfold:microsoft.com:1970393556983241": "2026-10-20",
 "eightfold:microsoft.com:1970393556984731": "2026-10-20",
 "eightfold:microsoft.com:1970393556986255": "2026-10-20",
+"eightfold:microsoft.com:1970393556986891": "2026-10-21",
 "eightfold:microsoft.com:1970393556988111": "2026-10-20",
 "eightfold:microsoft.com:1970393556988725": "2026-10-20",
 "eightfold:microsoft.com:1970393556988934": "2026-10-20",
@@ -6869,6 +6910,7 @@
 "greenhouse:databricks:8899929002": "2026-10-19",
 "greenhouse:databricks:8900134002": "2026-10-19",
 "greenhouse:databricks:8902939002": "2026-10-20",
+"greenhouse:databricks:8905967002": "2026-10-21",
 "greenhouse:dataiku:6228420004": "2026-10-20",
 "greenhouse:doordashusa:7859605": "2026-10-19",
 "greenhouse:doordashusa:8286794": "2026-10-19",
@@ -6886,6 +6928,7 @@
 "greenhouse:doordashusa:8304190": "2026-10-20",
 "greenhouse:doordashusa:8304373": "2026-10-20",
 "greenhouse:doordashusa:8304878": "2026-10-21",
+"greenhouse:doordashusa:8305939": "2026-10-21",
 "greenhouse:dropbox:8285045": "2026-10-20",
 "greenhouse:dropbox:8286535": "2026-10-20",
 "greenhouse:dropbox:8286536": "2026-10-20",
@@ -6925,9 +6968,11 @@
 "greenhouse:gatherai:5268357007": "2026-10-20",
 "greenhouse:gofundme:8304644": "2026-10-21",
 "greenhouse:gomotive:8776678002": "2026-10-20",
+"greenhouse:gomotive:8811944002": "2026-10-21",
 "greenhouse:gomotive:8891542002": "2026-10-21",
 "greenhouse:gomotive:8893977002": "2026-10-20",
 "greenhouse:gomotive:8899725002": "2026-10-20",
+"greenhouse:gomotive:8900088002": "2026-10-21",
 "greenhouse:gomotive:8900270002": "2026-10-20",
 "greenhouse:gomotive:8905869002": "2026-10-21",
 "greenhouse:googlefiber:6210675004": "2026-10-20",
@@ -6949,6 +6994,7 @@
 "greenhouse:lucidmotors:5213585007": "2026-10-20",
 "greenhouse:lucidmotors:5216637007": "2026-10-20",
 "greenhouse:lucidmotors:5242351007": "2026-10-20",
+"greenhouse:lucidmotors:5244176007": "2026-10-21",
 "greenhouse:lucidmotors:5246723007": "2026-10-20",
 "greenhouse:lucidmotors:5260429007": "2026-10-20",
 "greenhouse:lucidmotors:5263142007": "2026-10-20",
@@ -7108,6 +7154,7 @@
 "greenhouse:reddit:8275745": "2026-10-19",
 "greenhouse:reddit:8282563": "2026-10-19",
 "greenhouse:reddit:8288965": "2026-10-19",
+"greenhouse:reddit:8289345": "2026-10-21",
 "greenhouse:reddit:8293700": "2026-10-19",
 "greenhouse:reddit:8299781": "2026-10-19",
 "greenhouse:reddit:8301736": "2026-10-19",
@@ -7541,6 +7588,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342917": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342975": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343032": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:343149": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343351": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343785": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344227": "2026-10-20",
@@ -7576,6 +7624,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347520": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347529": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347612": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347624": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347642": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347643": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347648": "2026-10-20",
@@ -7649,6 +7698,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348076": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348080": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348081": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348085": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348095": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348097": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348102": "2026-10-21",
@@ -9422,6 +9472,8 @@
 "workday:hp:3170168-1": "2026-10-20",
 "workday:hp:3170183-1": "2026-10-20",
 "workday:hp:3170188-1": "2026-10-20",
+"workday:hp:3170256-1": "2026-10-21",
+"workday:hp:3170257-1": "2026-10-21",
 "workday:hp:IST0100": "2026-10-20",
 "workday:hp:JET0104-1": "2026-10-20",
 "workday:hp:JET0134-1": "2026-10-20",
@@ -9433,6 +9485,7 @@
 "workday:hp:UNI4190-1": "2026-10-20",
 "workday:hp:UNI4485-1": "2026-10-20",
 "workday:hp:UNI4508-2": "2026-10-20",
+"workday:hp:UNI4786-1": "2026-10-21",
 "workday:hp:UNI4899-2": "2026-10-21",
 "workday:intel:JR0282540": "2026-10-20",
 "workday:intel:JR0284432-1": "2026-10-20",
@@ -9463,6 +9516,7 @@
 "workday:intel:JR0287651": "2026-10-20",
 "workday:intel:JR0287741-1": "2026-10-21",
 "workday:intel:JR0287753": "2026-10-20",
+"workday:intel:JR0287758": "2026-10-21",
 "workday:intel:JR0287763": "2026-10-20",
 "workday:intel:JR0287800-1": "2026-10-20",
 "workday:intel:JR0287936-1": "2026-10-20",
@@ -9502,6 +9556,7 @@
 "workday:intel:JR0288231-1": "2026-10-21",
 "workday:intel:JR0288234-1": "2026-10-20",
 "workday:intel:JR0288236": "2026-10-21",
+"workday:intel:JR0288239": "2026-10-21",
 "workday:intel:JR0288253": "2026-10-20",
 "workday:intel:JR0288254": "2026-10-20",
 "workday:intel:JR0288255": "2026-10-20",
@@ -9559,6 +9614,7 @@
 "workday:kla:2640642": "2026-10-20",
 "workday:kla:2641341-1": "2026-10-21",
 "workday:kla:2641599": "2026-10-21",
+"workday:kla:2641698": "2026-10-21",
 "workday:kla:2641706-2": "2026-10-21",
 "workday:kla:2641921-1": "2026-10-20",
 "workday:kla:2642058": "2026-10-21",
@@ -9646,6 +9702,7 @@
 "workday:medtronic:R77911-1": "2026-10-20",
 "workday:medtronic:R77960-1": "2026-10-20",
 "workday:medtronic:R77993-1": "2026-10-20",
+"workday:medtronic:R78011-1": "2026-10-21",
 "workday:medtronic:R78076-2": "2026-10-20",
 "workday:medtronic:R78144-1": "2026-10-20",
 "workday:medtronic:R78147-1": "2026-10-20",
@@ -10518,6 +10575,7 @@
 "workday:tmobile:REQ378111-1": "2026-10-20",
 "workday:tmobile:REQ378238-1": "2026-10-20",
 "workday:tmobile:REQ378269-2": "2026-10-20",
+"workday:tmobile:REQ378288-2": "2026-10-21",
 "workday:tmobile:REQ378353-1": "2026-10-20",
 "workday:tmobile:REQ378390-2": "2026-10-20",
 "workday:tmobile:REQ378407-2": "2026-10-20",
@@ -10916,6 +10974,7 @@
 "openai|software engineer full stack dots": "2026-10-19",
 "openai|software engineer mobile web dots": "2026-10-19",
 "openai|software engineer tpu compilers": "2026-10-20",
+"oracle|product marketing analyst 5": "2026-10-21",
 "oracle|support engineer 1": "2026-10-21",
 "osf healthcare|data engineer 1": "2026-10-19",
 "oshkosh|software engineer": "2026-10-20",
@@ -10993,9 +11052,9 @@
 "zebra technologies|software engineer": "2026-10-20"
 },
 "usage": {
-"calls": 91,
+"calls": 96,
 "date": "2026-10-21",
-"usd": 0.009695
+"usd": 0.010171
 },
 "years": {
 "amazon:10583340": [
