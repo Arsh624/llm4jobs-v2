@@ -3694,6 +3694,20 @@
 },
 "2026-10-20"
 ],
+"rescue:workday:salesforce:JR353330": [
+{
+"note": "Requires production experience, not entry-level.",
+"senior": true
+},
+"2026-10-21"
+],
+"rescue:workday:salesforce:JR353428": [
+{
+"note": "Requires significant technical experience.",
+"senior": true
+},
+"2026-10-21"
+],
 "rescue:workday:salesforce:JR360223": [
 {
 "note": "Requires significant experience in migration projects.",
@@ -4347,7 +4361,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 676
+"typical": 675
 },
 "Anyscale": {
 "alerted": false,
@@ -4892,7 +4906,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 96
 },
 "Intuit": {
 "alerted": false,
@@ -4917,7 +4931,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 21
 },
 "Keysight": {
 "alerted": false,
@@ -4947,7 +4961,7 @@
 "LangChain": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 103
 },
 "Legalist": {
 "alerted": false,
@@ -5007,7 +5021,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 21
 },
 "MasterClass": {
 "alerted": false,
@@ -5082,7 +5096,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 212
+"typical": 215
 },
 "NerdWallet": {
 "alerted": false,
@@ -5447,7 +5461,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 224
+"typical": 231
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -5502,7 +5516,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3019
+"typical": 3016
 },
 "Skip": {
 "alerted": false,
@@ -5672,7 +5686,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 132
+"typical": 131
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -9384,6 +9398,7 @@
 "workday:intel:JR0288363": "2026-10-20",
 "workday:intel:JR0288383": "2026-10-21",
 "workday:intel:JR0288389": "2026-10-21",
+"workday:intel:JR0288392": "2026-10-21",
 "workday:intel:JR0288415-1": "2026-10-21",
 "workday:intel:JR0288426": "2026-10-21",
 "workday:intel:JR0288434": "2026-10-21",
@@ -9407,6 +9422,7 @@
 "workday:kla:2640555-1": "2026-10-20",
 "workday:kla:2640642": "2026-10-20",
 "workday:kla:2641341-1": "2026-10-21",
+"workday:kla:2641706-2": "2026-10-21",
 "workday:kla:2641921-1": "2026-10-20",
 "workday:kla:2642058": "2026-10-21",
 "workday:kla:2642122": "2026-10-19",
@@ -9416,9 +9432,12 @@
 "workday:marvell:2603941": "2026-10-20",
 "workday:marvell:2604150": "2026-10-20",
 "workday:marvell:2604319": "2026-10-20",
+"workday:marvell:2604444": "2026-10-21",
 "workday:marvell:2604491": "2026-10-21",
 "workday:marvell:2604521": "2026-10-21",
+"workday:marvell:2604617": "2026-10-21",
 "workday:marvell:2604622": "2026-10-20",
+"workday:marvell:2604625": "2026-10-21",
 "workday:marvell:2604877": "2026-10-20",
 "workday:marvell:2604880": "2026-10-20",
 "workday:marvell:2604903": "2026-10-20",
@@ -9800,6 +9819,7 @@
 "workday:nvidia:JR2003570": "2026-10-19",
 "workday:nvidia:JR2005814-1": "2026-10-19",
 "workday:nvidia:JR2006812": "2026-10-19",
+"workday:nvidia:JR2007464": "2026-10-21",
 "workday:nvidia:JR2007944": "2026-10-19",
 "workday:nvidia:JR2008022": "2026-10-19",
 "workday:nvidia:JR2008166": "2026-10-20",
@@ -10044,6 +10064,7 @@
 "workday:salesforce:JR336862": "2026-10-19",
 "workday:salesforce:JR338172-1": "2026-10-21",
 "workday:salesforce:JR338174": "2026-10-20",
+"workday:salesforce:JR338247": "2026-10-21",
 "workday:salesforce:JR338925": "2026-10-19",
 "workday:salesforce:JR339837-1": "2026-10-21",
 "workday:salesforce:JR341439": "2026-10-19",
@@ -10065,6 +10086,9 @@
 "workday:salesforce:JR352243": "2026-10-19",
 "workday:salesforce:JR352789": "2026-10-19",
 "workday:salesforce:JR352790": "2026-10-19",
+"workday:salesforce:JR353330": "2026-10-21",
+"workday:salesforce:JR353428": "2026-10-21",
+"workday:salesforce:JR353446": "2026-10-21",
 "workday:salesforce:JR353836": "2026-10-20",
 "workday:salesforce:JR353970": "2026-10-19",
 "workday:salesforce:JR354108": "2026-10-21",
@@ -10104,6 +10128,7 @@
 "workday:salesforce:JR360103": "2026-10-20",
 "workday:salesforce:JR360223": "2026-10-21",
 "workday:salesforce:JR360367": "2026-10-19",
+"workday:salesforce:JR360467": "2026-10-21",
 "workday:salesforce:JR360475-2": "2026-10-19",
 "workday:salesforce:JR360828": "2026-10-21",
 "workday:salesforce:JR360843": "2026-10-19",
@@ -10156,6 +10181,7 @@
 "workday:salesforce:JR362826": "2026-10-20",
 "workday:salesforce:JR362833": "2026-10-20",
 "workday:salesforce:JR362853": "2026-10-20",
+"workday:salesforce:JR362936": "2026-10-21",
 "workday:salesforce:JR362947": "2026-10-19",
 "workday:salesforce:JR362981": "2026-10-20",
 "workday:salesforce:JR362982": "2026-10-20",
@@ -10163,6 +10189,7 @@
 "workday:salesforce:JR362987": "2026-10-20",
 "workday:salesforce:JR363002": "2026-10-20",
 "workday:salesforce:JR363023": "2026-10-20",
+"workday:salesforce:JR363024": "2026-10-21",
 "workday:salesforce:JR363191": "2026-10-20",
 "workday:salesforce:JR363206": "2026-10-20",
 "workday:salesforce:JR363213-1": "2026-10-21",
@@ -10798,9 +10825,9 @@
 "zebra technologies|software engineer": "2026-10-20"
 },
 "usage": {
-"calls": 78,
+"calls": 80,
 "date": "2026-10-21",
-"usd": 0.008445
+"usd": 0.008588
 },
 "years": {
 "amazon:10583340": [
