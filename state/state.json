@@ -670,6 +670,16 @@
 },
 "2026-10-20"
 ],
+"greenhouse:doordashusa:8304878|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-10-21"
+],
 "greenhouse:elastic:8303806|v3|73908d": [
 {
 "chance": 3,
@@ -776,6 +786,16 @@
 "level": "entry",
 "min_years": null,
 "note": "Role explicitly targets new grads and entry-level candidates.",
+"us_ok": true
+},
+"2026-10-21"
+],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347995|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 5,
+"note": "Requires significant experience and leadership skills.",
 "us_ok": true
 },
 "2026-10-21"
@@ -4157,7 +4177,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 673
+"typical": 674
 },
 "Anyscale": {
 "alerted": false,
@@ -4492,7 +4512,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 457
+"typical": 458
 },
 "Doximity": {
 "alerted": false,
@@ -4642,7 +4662,7 @@
 "HackerOne": {
 "alerted": false,
 "streak": 0,
-"typical": 7
+"typical": 8
 },
 "Handshake": {
 "alerted": false,
@@ -4727,7 +4747,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "Keysight": {
 "alerted": false,
@@ -4832,7 +4852,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 136
+"typical": 137
 },
 "Mercor": {
 "alerted": false,
@@ -4852,7 +4872,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 195
+"typical": 197
 },
 "Microsoft": {
 "alerted": false,
@@ -4972,7 +4992,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 395
+"typical": 396
 },
 "Olly": {
 "alerted": false,
@@ -5132,7 +5152,7 @@
 "PubNub": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 4
 },
 "Pure Storage": {
 "alerted": false,
@@ -5257,7 +5277,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 204
+"typical": 203
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -5302,7 +5322,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 432
+"typical": 430
 },
 "SiFive": {
 "alerted": false,
@@ -5312,7 +5332,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3024
+"typical": 3025
 },
 "Skip": {
 "alerted": false,
@@ -5764,6 +5784,7 @@
 "ashby:gimlet:6810acd3-a0ed-4b60-bcf1-dc1b24f7d2aa": "2026-10-20",
 "ashby:gimlet:6f72461f-ab81-4852-818b-a9784519b1ce": "2026-10-20",
 "ashby:hackerone:6af1868c-0cca-447e-b468-aeb37ac0437a": "2026-10-20",
+"ashby:hackerone:f323570e-5924-4502-8344-e75beddf1c29": "2026-10-21",
 "ashby:handshake:647c13c6-1329-4e5f-a6d9-bea653605d86": "2026-10-20",
 "ashby:handshake:d55015aa-6b91-447e-8fc5-707d86bc19aa": "2026-10-20",
 "ashby:homebase:87cb8e2f-41bc-4be6-bb2c-8f6bc375c464": "2026-10-20",
@@ -6566,6 +6587,7 @@
 "greenhouse:doordashusa:8303882": "2026-10-20",
 "greenhouse:doordashusa:8304190": "2026-10-20",
 "greenhouse:doordashusa:8304373": "2026-10-20",
+"greenhouse:doordashusa:8304878": "2026-10-21",
 "greenhouse:dropbox:8285045": "2026-10-20",
 "greenhouse:dropbox:8286535": "2026-10-20",
 "greenhouse:dropbox:8286536": "2026-10-20",
@@ -6672,6 +6694,7 @@
 "greenhouse:okta:8303758": "2026-10-20",
 "greenhouse:okta:8303765": "2026-10-20",
 "greenhouse:okta:8304001": "2026-10-20",
+"greenhouse:okta:8304868": "2026-10-21",
 "greenhouse:okta:8305257": "2026-10-21",
 "greenhouse:onemedical:8292737": "2026-10-20",
 "greenhouse:onemedical:8292776": "2026-10-20",
@@ -7231,6 +7254,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347982": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347992": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347993": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347995": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347998": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348001": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348002": "2026-10-20",
@@ -7352,6 +7376,7 @@
 "simplify:062331a8-f84b-4a25-9c39-ccabcb6a0371": "2026-10-20",
 "simplify:0a4cd2e5-65b4-4298-ab71-d0c7705a376c": "2026-10-19",
 "simplify:0aa1aad3-c8e3-4cd8-975d-9e1028f0fed2": "2026-10-19",
+"simplify:0e335514-6e0b-4932-bba0-5e2e0d8c9375": "2026-10-21",
 "simplify:0e39c9af-f732-4abd-8bb3-748e1b3a781c": "2026-10-19",
 "simplify:10eac9c2-af0e-47ec-a3cd-13e7a4211fac": "2026-10-20",
 "simplify:1263fc11-5d1d-4a5e-ab93-529941e4abcb": "2026-10-19",
@@ -7532,6 +7557,7 @@
 "smartrecruiters:ServiceNow:744000156579079": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156592815": "2026-10-21",
 "smartrecruiters:ServiceNow:744000156604309": "2026-10-20",
+"smartrecruiters:ServiceNow:744000156609039": "2026-10-21",
 "smartrecruiters:ServiceNow:744000156617679": "2026-10-21",
 "smartrecruiters:ServiceNow:744000156619374": "2026-10-20",
 "smartrecruiters:ServiceNow:744000156622794": "2026-10-20",
@@ -9097,6 +9123,7 @@
 "workday:kla:2639574-1": "2026-10-20",
 "workday:kla:2639633": "2026-10-20",
 "workday:kla:2640021-1": "2026-10-19",
+"workday:kla:2640180": "2026-10-21",
 "workday:kla:2640190-2": "2026-10-19",
 "workday:kla:2640555-1": "2026-10-20",
 "workday:kla:2640642": "2026-10-20",
@@ -9354,11 +9381,13 @@
 "workday:micron:JR113508": "2026-10-20",
 "workday:micron:JR113629": "2026-10-20",
 "workday:micron:JR113659": "2026-10-20",
+"workday:micron:JR113697": "2026-10-21",
 "workday:micron:JR113756": "2026-10-20",
 "workday:micron:JR113764": "2026-10-20",
 "workday:micron:JR113779-1": "2026-10-20",
 "workday:micron:JR113815": "2026-10-21",
 "workday:micron:JR113816": "2026-10-21",
+"workday:micron:JR113819": "2026-10-21",
 "workday:micron:JR113820": "2026-10-21",
 "workday:micron:JR113824": "2026-10-20",
 "workday:micron:JR113846": "2026-10-20",
@@ -10234,6 +10263,7 @@
 "daimler truck|software developer 1": "2026-10-19",
 "diamond foundry|materials process engineer": "2026-10-20",
 "docusign|software engineer": "2026-10-20",
+"doordash|software engineer reliability platform": "2026-10-21",
 "eclerx|software engineer": "2026-10-19",
 "elastic|software engineer ii networking platform infra": "2026-10-21",
 "electronic arts|software engineer 1": "2026-10-19",
@@ -10291,6 +10321,7 @@
 "lyft|data scientist": "2026-10-19",
 "lyft|software engineer": "2026-10-19",
 "lyft|ux researcher": "2026-10-19",
+"mach9|software engineer 3d graphics": "2026-10-21",
 "magna|junior ai engineer": "2026-10-20",
 "mass general brigham|statistical programmer data analyst": "2026-10-20",
 "medtronic|crm field inventory analyst eastern pa buffalo ny": "2026-10-20",
@@ -10441,9 +10472,9 @@
 "zebra technologies|software engineer": "2026-10-20"
 },
 "usage": {
-"calls": 53,
+"calls": 55,
 "date": "2026-10-21",
-"usd": 0.005895
+"usd": 0.00629
 },
 "years": {
 "amazon:10583340": [
