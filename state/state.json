@@ -310,6 +310,16 @@
 },
 "2026-10-21"
 ],
+"amazon:10585712|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-10-21"
+],
 "ashby:cerebras:c6f607ce-306c-4deb-8825-4175201a7cd4|v3|73908d": [
 {
 "chance": 8,
@@ -370,6 +380,16 @@
 },
 "2026-10-20"
 ],
+"ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9|v3|73908d": [
+{
+"chance": 5,
+"level": "unknown",
+"min_years": null,
+"note": "Role lacks clear experience requirements for new grads.",
+"us_ok": true
+},
+"2026-10-21"
+],
 "ashby:openai:1f148786-2e00-472a-96b9-0b29015980e1|v3|73908d": [
 {
 "chance": 8,
@@ -379,6 +399,16 @@
 "us_ok": true
 },
 "2026-10-20"
+],
+"ashby:openai:5ef10e09-2b3f-41de-b77c-829787302101|v3|73908d": [
+{
+"chance": 4,
+"level": "unknown",
+"min_years": null,
+"note": "Requires deep experience in specific integrity problems.",
+"us_ok": true
+},
+"2026-10-21"
 ],
 "ashby:openai:6ef9babb-e210-496f-a004-fed919a9ed2d|v3|73908d": [
 {
@@ -1090,6 +1120,16 @@
 },
 "2026-10-21"
 ],
+"greenhouse:xai:5271634007|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience in compliance roles.",
+"us_ok": true
+},
+"2026-10-21"
+],
 "jibe:careers.amd.com:86587|v3|73908d": [
 {
 "chance": 3,
@@ -1109,6 +1149,16 @@
 "us_ok": true
 },
 "2026-10-20"
+],
+"jibe:careers.amd.com:93678|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 2,
+"note": "Requires PhD or significant industrial experience.",
+"us_ok": false
+},
+"2026-10-21"
 ],
 "jibe:careers.amd.com:93875|v3|73908d": [
 {
@@ -1660,6 +1710,13 @@
 "rescue:eightfold:microsoft.com:1970393557037468": [
 {
 "note": "Requires significant experience in engineering management.",
+"senior": true
+},
+"2026-10-21"
+],
+"rescue:eightfold:microsoft.com:1970393557037893": [
+{
+"note": "Requires significant management experience.",
 "senior": true
 },
 "2026-10-21"
@@ -5485,6 +5542,16 @@
 },
 "2026-10-20"
 ],
+"workday:micron:JR115599|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 1,
+"note": "Accepts Master's with 12 months experience, good entry role.",
+"us_ok": true
+},
+"2026-10-21"
+],
 "workday:micron:JR89926-1|v3|73908d": [
 {
 "chance": 3,
@@ -5552,6 +5619,16 @@
 "min_years": 5,
 "note": "Requires advanced experience with specific technologies",
 "us_ok": false
+},
+"2026-10-21"
+],
+"workday:redhat:R-060145-1|v3|73908d": [
+{
+"chance": 2,
+"level": "entry",
+"min_years": 0,
+"note": "Top Secret Clearance requirement limits candidate pool significantly.",
+"us_ok": true
 },
 "2026-10-21"
 ],
@@ -5750,7 +5827,7 @@
 "Anomali": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Anthropic": {
 "alerted": false,
@@ -5845,7 +5922,7 @@
 "Bill.com": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 46
 },
 "BitGo": {
 "alerted": false,
@@ -5855,7 +5932,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 210
+"typical": 209
 },
 "Boku": {
 "alerted": false,
@@ -5865,7 +5942,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 116
 },
 "Braintrust": {
 "alerted": false,
@@ -5880,7 +5957,7 @@
 "Brex": {
 "alerted": false,
 "streak": 0,
-"typical": 263
+"typical": 265
 },
 "Brilliant Earth": {
 "alerted": false,
@@ -5910,7 +5987,7 @@
 "Cerebras": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 123
 },
 "ChargePoint": {
 "alerted": false,
@@ -6055,7 +6132,7 @@
 "Delinea": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 69
 },
 "Diamond Foundry": {
 "alerted": false,
@@ -6065,7 +6142,7 @@
 "Discord": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 44
 },
 "Ditto": {
 "alerted": false,
@@ -6185,7 +6262,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 173
+"typical": 168
 },
 "Flexport": {
 "alerted": false,
@@ -6310,7 +6387,7 @@
 "Iru (formerly Kandji)": {
 "alerted": false,
 "streak": 0,
-"typical": 24
+"typical": 23
 },
 "Isomorphic Labs": {
 "alerted": false,
@@ -6430,7 +6507,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 171
+"typical": 170
 },
 "Mercor": {
 "alerted": false,
@@ -6450,7 +6527,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 234
+"typical": 237
 },
 "Microsoft": {
 "alerted": false,
@@ -6570,7 +6647,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 399
+"typical": 400
 },
 "Olly": {
 "alerted": false,
@@ -6595,12 +6672,12 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 807
+"typical": 809
 },
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 81
 },
 "OpenRouter": {
 "alerted": false,
@@ -6720,7 +6797,7 @@
 "Prime Intellect": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 40
 },
 "PsiQuantum": {
 "alerted": false,
@@ -6775,7 +6852,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 18
 },
 "Reddit": {
 "alerted": false,
@@ -6790,7 +6867,7 @@
 "Reflection AI": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 44
 },
 "Replit": {
 "alerted": false,
@@ -6855,7 +6932,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 265
+"typical": 267
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -6865,7 +6942,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 270
+"typical": 273
 },
 "Samsung Semiconductor": {
 "alerted": false,
@@ -6900,7 +6977,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 432
+"typical": 431
 },
 "SiFive": {
 "alerted": false,
@@ -6910,7 +6987,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2981
+"typical": 2980
 },
 "Skip": {
 "alerted": false,
@@ -6920,7 +6997,7 @@
 "Skydio": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 162
 },
 "Snappr": {
 "alerted": false,
@@ -6975,7 +7052,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 728
+"typical": 727
 },
 "Substack": {
 "alerted": false,
@@ -7125,7 +7202,7 @@
 "Vercel": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 96
 },
 "Verifone": {
 "alerted": false,
@@ -7230,7 +7307,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 }
 },
 "seen": {
@@ -7305,6 +7382,8 @@
 "amazon:10585475": "2026-10-21",
 "amazon:10585658": "2026-10-21",
 "amazon:10585682": "2026-10-21",
+"amazon:10585694": "2026-10-21",
+"amazon:10585712": "2026-10-21",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
@@ -7323,6 +7402,7 @@
 "ashby:benchling:33c6c504-9ca4-4cae-8ebc-cfc55127b2bf": "2026-10-20",
 "ashby:benchling:e3c5a5f9-66f4-4763-864f-569caa5bf2c8": "2026-10-21",
 "ashby:cerebras:08ffd14b-cb60-4916-9946-735e49594308": "2026-10-20",
+"ashby:cerebras:315e96ea-e64d-4096-b9ba-c0025cf796f6": "2026-10-21",
 "ashby:cerebras:b418fbca-9a33-4ac5-adb3-24dd57b1c678": "2026-10-21",
 "ashby:cerebras:c6f607ce-306c-4deb-8825-4175201a7cd4": "2026-10-21",
 "ashby:cerebras:dbb21f89-1e93-4142-99da-8fe7c5d62e8b": "2026-10-20",
@@ -7435,6 +7515,7 @@
 "ashby:openai:0a6f6736-8743-4528-b17c-4e1f4f8ea45c": "2026-10-20",
 "ashby:openai:0b80474f-6438-4b41-94e4-0e653c7e3457": "2026-10-21",
 "ashby:openai:112e34f2-45da-4a08-adf4-cc29398938df": "2026-10-20",
+"ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9": "2026-10-21",
 "ashby:openai:1bdc3943-94e8-4479-b1ee-9e2c903a5487": "2026-10-21",
 "ashby:openai:1f148786-2e00-472a-96b9-0b29015980e1": "2026-10-20",
 "ashby:openai:230d7d77-133e-4b87-a7a4-3e8d4e9fdab3": "2026-10-19",
@@ -7448,6 +7529,7 @@
 "ashby:openai:3b34eb10-25b0-4a97-bd6d-05fc90ad4981": "2026-10-19",
 "ashby:openai:502fcf97-75b2-4e54-9957-a29cee8eb1ca": "2026-10-19",
 "ashby:openai:5ad8c21c-dbfe-4e04-9826-7f52aaf0ddc3": "2026-10-19",
+"ashby:openai:5ef10e09-2b3f-41de-b77c-829787302101": "2026-10-21",
 "ashby:openai:5f094405-1b54-419b-88b2-df1d7eb16af0": "2026-10-20",
 "ashby:openai:6224a72e-16cc-49c2-8b8c-b87b001e6c61": "2026-10-19",
 "ashby:openai:625d8018-a39e-4fec-913d-8bd319537e5c": "2026-10-20",
@@ -7475,8 +7557,11 @@
 "ashby:opengov:57dc31aa-15a4-4ccf-8b02-56026b5f3279": "2026-10-20",
 "ashby:opengov:6a835bf9-6a4b-4744-8d4e-d8963cfe47bf": "2026-10-20",
 "ashby:opengov:6bf81f49-bbe6-4699-a070-c77f9412efc4": "2026-10-20",
+"ashby:opengov:7dfffb79-579e-4aa2-b72b-b785fca86ed9": "2026-10-21",
 "ashby:opengov:ac260e97-d544-4198-9bcf-cf96c4f5104b": "2026-10-20",
 "ashby:opengov:b407652d-36d0-4ee4-8757-71b76085a95a": "2026-10-21",
+"ashby:opengov:d19cd3b8-c6af-4cc1-8e2c-1824ecd1a1aa": "2026-10-21",
+"ashby:opengov:d96ddd46-db2b-47d8-8ca5-97cdf6728338": "2026-10-21",
 "ashby:openrouter:7bff9169-ffb2-4a03-a0ee-2a5e73c0c0dd": "2026-10-20",
 "ashby:openrouter:8930eaba-071f-4b08-b598-306cb691b0d4": "2026-10-20",
 "ashby:patreon:2c79ab4b-6479-451d-bbac-e2e2fb0dc911": "2026-10-20",
@@ -7543,7 +7628,9 @@
 "ashby:skydio:8a237302-3fe8-4403-b32b-7690f333ba52": "2026-10-20",
 "ashby:skydio:8b79b158-2805-4a5f-b2de-e054850b1f62": "2026-10-20",
 "ashby:skydio:9b3b3e0c-8697-4a14-b021-759886b60225": "2026-10-21",
+"ashby:skydio:aa60ab83-6552-4c9a-afec-4ed4bc254b2c": "2026-10-21",
 "ashby:skydio:b4cda67d-0af5-4de1-bc2b-7409751ea6bc": "2026-10-21",
+"ashby:skydio:bbcc2c8a-14fb-455a-901f-cea760e35484": "2026-10-21",
 "ashby:skydio:bee8ad98-8b08-4d3c-b2ea-c581e52f91ea": "2026-10-20",
 "ashby:skydio:ebb59c8f-5231-4461-a8c1-f991723f0ed2": "2026-10-21",
 "ashby:snowflake:08614077-49b6-44a4-a659-3bda16b102d4": "2026-10-19",
@@ -7599,6 +7686,7 @@
 "eightfold:appliedmaterials.com:790317557496": "2026-10-20",
 "eightfold:appliedmaterials.com:790317561345": "2026-10-20",
 "eightfold:appliedmaterials.com:790317756085": "2026-10-21",
+"eightfold:appliedmaterials.com:790317860275": "2026-10-21",
 "eightfold:appliedmaterials.com:790318161750": "2026-10-20",
 "eightfold:appliedmaterials.com:790318196154": "2026-10-20",
 "eightfold:appliedmaterials.com:790318308945": "2026-10-20",
@@ -7613,9 +7701,11 @@
 "eightfold:appliedmaterials.com:790318430509": "2026-10-21",
 "eightfold:appliedmaterials.com:790318445078": "2026-10-20",
 "eightfold:appliedmaterials.com:790318448096": "2026-10-20",
+"eightfold:appliedmaterials.com:790318511811": "2026-10-21",
 "eightfold:appliedmaterials.com:790318511918": "2026-10-20",
 "eightfold:appliedmaterials.com:790318541709": "2026-10-20",
 "eightfold:appliedmaterials.com:790318588351": "2026-10-20",
+"eightfold:appliedmaterials.com:790318616168": "2026-10-21",
 "eightfold:appliedmaterials.com:790318622231": "2026-10-20",
 "eightfold:appliedmaterials.com:790318675878": "2026-10-21",
 "eightfold:appliedmaterials.com:790318703507": "2026-10-20",
@@ -7941,6 +8031,7 @@
 "eightfold:microsoft.com:1970393557037801": "2026-10-20",
 "eightfold:microsoft.com:1970393557037860": "2026-10-20",
 "eightfold:microsoft.com:1970393557037862": "2026-10-20",
+"eightfold:microsoft.com:1970393557037893": "2026-10-21",
 "eightfold:microsoft.com:1970393557037896": "2026-10-20",
 "eightfold:microsoft.com:1970393557037897": "2026-10-20",
 "eightfold:microsoft.com:1970393557037907": "2026-10-20",
@@ -7976,6 +8067,7 @@
 "eightfold:microsoft.com:1970393557040547": "2026-10-20",
 "eightfold:microsoft.com:1970393557040563": "2026-10-20",
 "eightfold:microsoft.com:1970393557040573": "2026-10-20",
+"eightfold:microsoft.com:1970393557040608": "2026-10-21",
 "eightfold:microsoft.com:1970393557040780": "2026-10-21",
 "eightfold:microsoft.com:1970393557040803": "2026-10-20",
 "eightfold:microsoft.com:1970393557040867": "2026-10-20",
@@ -8077,6 +8169,7 @@
 "eightfold:microsoft.com:1970393557044211": "2026-10-21",
 "eightfold:microsoft.com:1970393557044219": "2026-10-20",
 "eightfold:microsoft.com:1970393557044221": "2026-10-21",
+"eightfold:microsoft.com:1970393557044222": "2026-10-21",
 "eightfold:microsoft.com:1970393557044227": "2026-10-21",
 "eightfold:microsoft.com:1970393557044234": "2026-10-21",
 "eightfold:microsoft.com:1970393557044275": "2026-10-20",
@@ -8084,6 +8177,7 @@
 "eightfold:microsoft.com:1970393557044561": "2026-10-21",
 "eightfold:microsoft.com:1970393557044608": "2026-10-21",
 "eightfold:microsoft.com:1970393557044636": "2026-10-21",
+"eightfold:microsoft.com:1970393557044670": "2026-10-21",
 "eightfold:paypal.com:274920471114": "2026-10-20",
 "eightfold:paypal.com:274922258164": "2026-10-20",
 "eightfold:paypal.com:274922258310": "2026-10-20",
@@ -8273,6 +8367,8 @@
 "greenhouse:brex:8907499002": "2026-10-21",
 "greenhouse:brex:8907553002": "2026-10-21",
 "greenhouse:brex:8907563002": "2026-10-21",
+"greenhouse:brex:8907584002": "2026-10-21",
+"greenhouse:brex:8907623002": "2026-10-21",
 "greenhouse:brilliantearth:4456163009": "2026-10-20",
 "greenhouse:brilliantearth:4460023009": "2026-10-20",
 "greenhouse:brilliantearth:4462354009": "2026-10-21",
@@ -8586,6 +8682,7 @@
 "greenhouse:okta:8305392": "2026-10-21",
 "greenhouse:okta:8305423": "2026-10-21",
 "greenhouse:okta:8306330": "2026-10-21",
+"greenhouse:okta:8311034": "2026-10-21",
 "greenhouse:onemedical:8292737": "2026-10-20",
 "greenhouse:onemedical:8292776": "2026-10-20",
 "greenhouse:onemedical:8294442": "2026-10-20",
@@ -8867,6 +8964,7 @@
 "greenhouse:vercel:6228758004": "2026-10-20",
 "greenhouse:vercel:6230763004": "2026-10-21",
 "greenhouse:vercel:6231045004": "2026-10-21",
+"greenhouse:vercel:6231047004": "2026-10-21",
 "greenhouse:verkada:5253495007": "2026-10-20",
 "greenhouse:verkada:5265322007": "2026-10-20",
 "greenhouse:verkada:5266076007": "2026-10-20",
@@ -8921,6 +9019,7 @@
 "greenhouse:xai:5268262007": "2026-10-19",
 "greenhouse:xai:5269037007": "2026-10-20",
 "greenhouse:xai:5270340007": "2026-10-21",
+"greenhouse:xai:5271634007": "2026-10-21",
 "greenhouse:zscaler:5200278007": "2026-10-20",
 "greenhouse:zscaler:5200385007": "2026-10-20",
 "greenhouse:zscaler:5235796007": "2026-10-21",
@@ -8988,6 +9087,7 @@
 "jibe:careers.amd.com:93583": "2026-10-21",
 "jibe:careers.amd.com:93597": "2026-10-21",
 "jibe:careers.amd.com:93661": "2026-10-20",
+"jibe:careers.amd.com:93678": "2026-10-21",
 "jibe:careers.amd.com:93683": "2026-10-20",
 "jibe:careers.amd.com:93684": "2026-10-20",
 "jibe:careers.amd.com:93695": "2026-10-20",
@@ -8998,6 +9098,7 @@
 "jibe:careers.amd.com:93727": "2026-10-20",
 "jibe:careers.amd.com:93738": "2026-10-20",
 "jibe:careers.amd.com:93739": "2026-10-20",
+"jibe:careers.amd.com:93791": "2026-10-21",
 "jibe:careers.amd.com:93798": "2026-10-20",
 "jibe:careers.amd.com:93799": "2026-10-20",
 "jibe:careers.amd.com:93804": "2026-10-21",
@@ -9172,6 +9273,7 @@
 "jibe:careers.rivian.com:34944": "2026-10-21",
 "jibe:github.careers:6060": "2026-10-20",
 "jibe:github.careers:6126": "2026-10-20",
+"lever:anomali:d35cf24d-86d5-42c7-86e8-6e3541b9c0ce": "2026-10-21",
 "lever:cloudinary:58464bf0-84a9-4b6a-91e1-9b0844475583": "2026-10-21",
 "lever:cloudinary:d797b9c7-5fe7-45f7-a80e-9bbc7db82ef3": "2026-10-21",
 "lever:coupa:0b9ed48d-3d0a-4609-ad9c-450cb8a43eac": "2026-10-21",
@@ -9192,6 +9294,7 @@
 "lever:houzz:d620a83d-b49a-4e59-bd1d-8103580c427b": "2026-10-21",
 "lever:iru:2e739059-4de0-41d4-bde8-59ae8e05780e": "2026-10-20",
 "lever:iru:398c755e-e910-4bb9-a9c2-13a2cc3453d9": "2026-10-21",
+"lever:iru:70746531-8895-48ab-9343-8fa0bc11ee28": "2026-10-21",
 "lever:loadsmart:2a4d0def-e98e-44e3-8793-c54a31b23218": "2026-10-20",
 "lever:palantir:0f7d1e01-1f74-4786-944d-910208d390fa": "2026-10-20",
 "lever:palantir:3e59369e-1392-42f2-8d03-86648e87e963": "2026-10-20",
@@ -9721,6 +9824,7 @@
 "smartrecruiters:ServiceNow:744000156886178": "2026-10-21",
 "smartrecruiters:ServiceNow:744000156887739": "2026-10-21",
 "smartrecruiters:ServiceNow:744000156890160": "2026-10-21",
+"smartrecruiters:ServiceNow:744000156894349": "2026-10-21",
 "talentbrew:careers.synopsys.com:100006719648": "2026-10-20",
 "talentbrew:careers.synopsys.com:100006719728": "2026-10-20",
 "talentbrew:careers.synopsys.com:100006720096": "2026-10-20",
@@ -11638,6 +11742,7 @@
 "workday:micron:JR102649": "2026-10-21",
 "workday:micron:JR102845": "2026-10-21",
 "workday:micron:JR103171": "2026-10-21",
+"workday:micron:JR103443": "2026-10-21",
 "workday:micron:JR103802": "2026-10-20",
 "workday:micron:JR104242": "2026-10-20",
 "workday:micron:JR104296": "2026-10-20",
@@ -11856,6 +11961,8 @@
 "workday:micron:JR115563": "2026-10-20",
 "workday:micron:JR115572": "2026-10-20",
 "workday:micron:JR115577": "2026-10-21",
+"workday:micron:JR115599": "2026-10-21",
+"workday:micron:JR115604": "2026-10-21",
 "workday:micron:JR115611": "2026-10-21",
 "workday:micron:JR115619": "2026-10-21",
 "workday:micron:JR115673": "2026-10-21",
@@ -12150,6 +12257,7 @@
 "workday:redhat:R-059980-2": "2026-10-20",
 "workday:redhat:R-060084-1": "2026-10-21",
 "workday:redhat:R-060128-1": "2026-10-21",
+"workday:redhat:R-060145-1": "2026-10-21",
 "workday:salesforce:JR273146": "2026-10-19",
 "workday:salesforce:JR292909": "2026-10-19",
 "workday:salesforce:JR298830": "2026-10-19",
@@ -12328,6 +12436,7 @@
 "workday:salesforce:JR363371": "2026-10-20",
 "workday:salesforce:JR363386-1": "2026-10-20",
 "workday:salesforce:JR363422-1": "2026-10-20",
+"workday:salesforce:JR363432": "2026-10-21",
 "workday:salesforce:JR363499-1": "2026-10-21",
 "workday:salesforce:JR363519": "2026-10-19",
 "workday:salesforce:JR363523": "2026-10-19",
@@ -12347,6 +12456,7 @@
 "workday:salesforce:JR363941-1": "2026-10-21",
 "workday:salesforce:JR363959": "2026-10-20",
 "workday:salesforce:JR363960": "2026-10-20",
+"workday:salesforce:JR363968": "2026-10-21",
 "workday:salesforce:JR363981": "2026-10-20",
 "workday:salesforce:JR364000-1": "2026-10-19",
 "workday:salesforce:JR364013": "2026-10-19",
@@ -12773,6 +12883,7 @@
 "amazon|software development engineer ii": "2026-10-20",
 "amazon|software development engineer ii amazon leo fulfillment technology": "2026-10-19",
 "amazon|software development engineer ii amazon vulnerability management service avms": "2026-10-20",
+"amazon|software development engineer ii aws": "2026-10-21",
 "amazon|software development engineer ii aws emerging planning solutions": "2026-10-20",
 "amazon|software development engineer ii aws support": "2026-10-19",
 "amazon|software development engineer ii data nexus": "2026-10-19",
@@ -12952,6 +13063,7 @@
 "micron|process engineer": "2026-10-20",
 "micron|product yield enhancement development failure analysis engineer high bandwidth memory": "2026-10-21",
 "micron|semiconductor equipment engineer equipment owner": "2026-10-20",
+"micron|thin films equipment engineer": "2026-10-21",
 "micron|total productive maintenance tpm engineer": "2026-10-20",
 "microsoft|ai business process solution specialist microsoft elevate": "2026-10-20",
 "microsoft|construction project engineer": "2026-10-21",
@@ -13005,6 +13117,8 @@
 "openai|mechanical engineer pcba test infrastructure robotics": "2026-10-19",
 "openai|product data scientist youth families and learning": "2026-10-20",
 "openai|product reliability engineer": "2026-10-19",
+"openai|research scientist research engineer search integrity": "2026-10-21",
+"openai|research scientist research engineer search knowledge graphs": "2026-10-21",
 "openai|software engineer backend dots": "2026-10-19",
 "openai|software engineer ci cd ml infrastructure": "2026-10-19",
 "openai|software engineer full stack dots": "2026-10-19",
@@ -13050,6 +13164,7 @@
 "qualcomm|wireless software engineer": "2026-10-20",
 "quora|full stack software engineer new grad": "2026-10-20",
 "quora|full stack software engineer new grad quora remote": "2026-10-20",
+"red hat|consultant openshift ai top secret clearance required": "2026-10-21",
 "renesas electronics|application engineer": "2026-10-21",
 "rhoda ai|software engineer rhoda platform": "2026-10-21",
 "rivian|software engineer": "2026-10-20",
@@ -13099,13 +13214,14 @@
 "waymo|software engineer": "2026-10-21",
 "wellmark|data wrangler": "2026-10-21",
 "wsp|junior data analyst": "2026-10-20",
+"xai|security engineer grc federal frameworks": "2026-10-21",
 "zebra technologies|software engineer": "2026-10-20",
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 250,
+"calls": 258,
 "date": "2026-10-21",
-"usd": 0.03156
+"usd": 0.033364
 },
 "years": {
 "amazon:10583340": [
