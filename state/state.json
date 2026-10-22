@@ -50,6 +50,16 @@
 },
 "2026-10-20"
 ],
+"amazon:10584166|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-10-22"
+],
 "amazon:10584215|v3|73908d": [
 {
 "chance": 2,
@@ -259,6 +269,16 @@
 "us_ok": true
 },
 "2026-10-21"
+],
+"amazon:10585330|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-10-22"
 ],
 "amazon:10585335|v3|73908d": [
 {
@@ -3342,6 +3362,13 @@
 "senior": true
 },
 "2026-10-21"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:348425": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-10-22"
 ],
 "rescue:oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:300434": [
 {
@@ -6507,7 +6534,7 @@
 "Cisco": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 19
 },
 "ClassDojo": {
 "alerted": false,
@@ -6542,7 +6569,7 @@
 "Cohere": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 113
 },
 "Color Health": {
 "alerted": false,
@@ -6881,7 +6908,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(813754 bytes read)",
+"streak": 1,
 "typical": 600
 },
 "Iru (formerly Kandji)": {
@@ -7007,7 +7035,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 175
+"typical": 170
 },
 "Mercor": {
 "alerted": false,
@@ -7027,7 +7055,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 244
+"typical": 245
 },
 "Microsoft": {
 "alerted": false,
@@ -7147,7 +7175,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 398
+"typical": 397
 },
 "Olly": {
 "alerted": false,
@@ -7172,7 +7200,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 814
+"typical": 813
 },
 "OpenGov": {
 "alerted": false,
@@ -7187,7 +7215,7 @@
 "OpenTable": {
 "alerted": false,
 "streak": 0,
-"typical": 114
+"typical": 115
 },
 "Oracle": {
 "alerted": false,
@@ -7232,7 +7260,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1310
+"typical": 1309
 },
 "PandaDoc": {
 "alerted": false,
@@ -7432,7 +7460,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 271
+"typical": 272
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -7487,7 +7515,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3014
+"typical": 3011
 },
 "Skip": {
 "alerted": false,
@@ -7592,7 +7620,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 265
+"typical": 264
 },
 "Tagup": {
 "alerted": false,
@@ -7851,6 +7879,7 @@
 "amazon:10584070": "2026-10-20",
 "amazon:10584155": "2026-10-20",
 "amazon:10584162": "2026-10-20",
+"amazon:10584166": "2026-10-22",
 "amazon:10584215": "2026-10-20",
 "amazon:10584217": "2026-10-20",
 "amazon:10584229": "2026-10-20",
@@ -7878,6 +7907,7 @@
 "amazon:10585267": "2026-10-21",
 "amazon:10585268": "2026-10-21",
 "amazon:10585326": "2026-10-21",
+"amazon:10585330": "2026-10-22",
 "amazon:10585335": "2026-10-21",
 "amazon:10585474": "2026-10-21",
 "amazon:10585475": "2026-10-21",
@@ -8036,6 +8066,7 @@
 "ashby:openai:0867dab4-ed8e-46d5-92ce-a769ebda7c03": "2026-10-19",
 "ashby:openai:0a6f6736-8743-4528-b17c-4e1f4f8ea45c": "2026-10-20",
 "ashby:openai:0b80474f-6438-4b41-94e4-0e653c7e3457": "2026-10-21",
+"ashby:openai:0ca02747-5c97-432b-95c5-4b9099bce992": "2026-10-22",
 "ashby:openai:112e34f2-45da-4a08-adf4-cc29398938df": "2026-10-20",
 "ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9": "2026-10-21",
 "ashby:openai:1bdc3943-94e8-4479-b1ee-9e2c903a5487": "2026-10-21",
@@ -8401,6 +8432,7 @@
 "eightfold:lamresearch.com:1099556168281": "2026-10-20",
 "eightfold:lamresearch.com:1099556276153": "2026-10-20",
 "eightfold:lamresearch.com:1099556358932": "2026-10-20",
+"eightfold:lamresearch.com:1099556359895": "2026-10-22",
 "eightfold:lamresearch.com:1099556394873": "2026-10-20",
 "eightfold:lamresearch.com:1099556404744": "2026-10-20",
 "eightfold:lamresearch.com:1099556405685": "2026-10-20",
@@ -9390,6 +9422,7 @@
 "greenhouse:opentable:8902659002": "2026-10-20",
 "greenhouse:opentable:8902668002": "2026-10-20",
 "greenhouse:opentable:8903756002": "2026-10-21",
+"greenhouse:opentable:8906060002": "2026-10-22",
 "greenhouse:pacaso:6229670004": "2026-10-20",
 "greenhouse:pagerduty:6220984004": "2026-10-20",
 "greenhouse:pagerduty:6225139004": "2026-10-20",
@@ -10169,6 +10202,8 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348276": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348281": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348296": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348424": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348425": "2026-10-22",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152548": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153378": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153698": "2026-10-20",
@@ -12571,6 +12606,7 @@
 "workday:micron:JR109015-1": "2026-10-20",
 "workday:micron:JR109127": "2026-10-20",
 "workday:micron:JR109314": "2026-10-20",
+"workday:micron:JR109409-1": "2026-10-22",
 "workday:micron:JR109798": "2026-10-21",
 "workday:micron:JR110271": "2026-10-20",
 "workday:micron:JR110272": "2026-10-20",
@@ -13367,6 +13403,7 @@
 "workday:salesforce:JR365265-1": "2026-10-21",
 "workday:salesforce:JR365285": "2026-10-21",
 "workday:salesforce:JR365288": "2026-10-21",
+"workday:salesforce:JR365325": "2026-10-22",
 "workday:tmobile:REQ359042": "2026-10-21",
 "workday:tmobile:REQ362440-2": "2026-10-21",
 "workday:tmobile:REQ363156": "2026-10-20",
@@ -13695,6 +13732,7 @@
 "amazon|embedded software development engineer ii aws hardware engineering services": "2026-10-20",
 "amazon|embedded software engineer ec2 nitro networking ec2 nitro networking": "2026-10-21",
 "amazon|ml compiler engineer neuron kernel interface": "2026-10-19",
+"amazon|sde aws opensearch service opensearch": "2026-10-22",
 "amazon|sde ii aws firmware builder services": "2026-10-20",
 "amazon|software dev engineer": "2026-10-21",
 "amazon|software dev engineer antenna system validation": "2026-10-20",
@@ -13731,6 +13769,7 @@
 "amazon|software development engineer ii ec2 blackfoot peering team": "2026-10-20",
 "amazon|software development engineer ii elastic load balancing elb": "2026-10-19",
 "amazon|software development engineer international seller growth": "2026-10-19",
+"amazon|software development engineer inventory accounting": "2026-10-22",
 "amazon|software development engineer leo ignition": "2026-10-20",
 "amazon|software development engineer leo space security": "2026-10-21",
 "amazon|software development engineer measurement ad tech and data science mads foundations traffic": "2026-10-19",
@@ -14110,9 +14149,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 24,
+"calls": 27,
 "date": "2026-10-22",
-"usd": 0.003227
+"usd": 0.003622
 },
 "years": {
 "amazon:10583340": [
