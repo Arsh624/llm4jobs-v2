@@ -5360,6 +5360,13 @@
 },
 "2026-10-20"
 ],
+"rescue:workday:nvidia:JR2024290": [
+{
+"note": "Requires deep technical expertise and experience.",
+"senior": true
+},
+"2026-10-22"
+],
 "rescue:workday:nvidia:JR2024421": [
 {
 "note": "Requires extensive experience in software engineering.",
@@ -5401,6 +5408,13 @@
 "senior": false
 },
 "2026-10-20"
+],
+"rescue:workday:nvidia:JR2027786": [
+{
+"note": "Requires 8+ years of experience.",
+"senior": true
+},
+"2026-10-22"
 ],
 "rescue:workday:nvidia:JR2028173": [
 {
@@ -6749,7 +6763,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 896
+"typical": 897
 },
 "Dataiku": {
 "alerted": false,
@@ -6949,7 +6963,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 137
+"typical": 136
 },
 "HackerOne": {
 "alerted": false,
@@ -7014,7 +7028,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "Intuit": {
 "alerted": false,
@@ -7029,7 +7043,7 @@
 "Isomorphic Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 29
 },
 "Jumio": {
 "alerted": false,
@@ -7204,7 +7218,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 233
+"typical": 237
 },
 "NerdWallet": {
 "alerted": false,
@@ -7284,7 +7298,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 398
+"typical": 397
 },
 "Olly": {
 "alerted": false,
@@ -7499,7 +7513,7 @@
 "Redis": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 29
 },
 "Reflection AI": {
 "alerted": false,
@@ -7614,7 +7628,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 430
+"typical": 429
 },
 "SiFive": {
 "alerted": false,
@@ -7689,7 +7703,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 728
+"typical": 726
 },
 "Substack": {
 "alerted": false,
@@ -7914,7 +7928,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 359
+"typical": 361
 },
 "Zuora": {
 "alerted": false,
@@ -7944,7 +7958,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 294
+"typical": 293
 }
 },
 "seen": {
@@ -8283,6 +8297,7 @@
 "ashby:redis:15f98a8f-20cc-4a1d-86c0-2fe28c52bc9f": "2026-10-20",
 "ashby:redis:2aba447c-c6f9-4015-8b60-49bef7f9bd91": "2026-10-20",
 "ashby:redis:4a268133-b302-44fb-ba95-ab5c99a851b7": "2026-10-20",
+"ashby:redis:551b3656-59af-4ee5-b511-c0fc01fdf524": "2026-10-22",
 "ashby:redis:5abb3d7f-cb29-47e2-b011-d01ae96ee714": "2026-10-20",
 "ashby:redis:5cce24aa-dbff-4685-858e-66d169e179ed": "2026-10-20",
 "ashby:redis:ec27a483-6d4f-4bd9-b5ab-76278021d562": "2026-10-20",
@@ -9260,6 +9275,7 @@
 "greenhouse:databricks:8899929002": "2026-10-19",
 "greenhouse:databricks:8900134002": "2026-10-19",
 "greenhouse:databricks:8902939002": "2026-10-20",
+"greenhouse:databricks:8903089002": "2026-10-22",
 "greenhouse:databricks:8905967002": "2026-10-21",
 "greenhouse:dataiku:6228420004": "2026-10-20",
 "greenhouse:discord:8904389002": "2026-10-21",
@@ -9846,6 +9862,8 @@
 "greenhouse:zscaler:5255300007": "2026-10-21",
 "greenhouse:zscaler:5255854007": "2026-10-20",
 "greenhouse:zscaler:5260488007": "2026-10-20",
+"greenhouse:zscaler:5263563007": "2026-10-22",
+"greenhouse:zscaler:5263567007": "2026-10-22",
 "greenhouse:zscaler:5263573007": "2026-10-20",
 "greenhouse:zscaler:5266825007": "2026-10-20",
 "greenhouse:zscaler:5267159007": "2026-10-20",
@@ -12362,6 +12380,7 @@
 "workday:intel:JR0286908": "2026-10-21",
 "workday:intel:JR0286914": "2026-10-21",
 "workday:intel:JR0286923": "2026-10-20",
+"workday:intel:JR0286973": "2026-10-22",
 "workday:intel:JR0286980": "2026-10-20",
 "workday:intel:JR0287022-1": "2026-10-20",
 "workday:intel:JR0287056": "2026-10-20",
@@ -12778,6 +12797,7 @@
 "workday:micron:JR108394": "2026-10-22",
 "workday:micron:JR108466": "2026-10-20",
 "workday:micron:JR108493": "2026-10-20",
+"workday:micron:JR108590": "2026-10-22",
 "workday:micron:JR109015-1": "2026-10-20",
 "workday:micron:JR109127": "2026-10-20",
 "workday:micron:JR109314": "2026-10-20",
@@ -13052,6 +13072,7 @@
 "workday:nvidia:JR2016436": "2026-10-19",
 "workday:nvidia:JR2016506": "2026-10-19",
 "workday:nvidia:JR2016759": "2026-10-20",
+"workday:nvidia:JR2017130": "2026-10-22",
 "workday:nvidia:JR2017261": "2026-10-21",
 "workday:nvidia:JR2017806-1": "2026-10-19",
 "workday:nvidia:JR2017966": "2026-10-19",
@@ -13106,6 +13127,7 @@
 "workday:nvidia:JR2024067": "2026-10-19",
 "workday:nvidia:JR2024077": "2026-10-21",
 "workday:nvidia:JR2024283": "2026-10-21",
+"workday:nvidia:JR2024290": "2026-10-22",
 "workday:nvidia:JR2024314": "2026-10-21",
 "workday:nvidia:JR2024331": "2026-10-19",
 "workday:nvidia:JR2024402": "2026-10-19",
@@ -13197,6 +13219,8 @@
 "workday:nvidia:JR2027720": "2026-10-19",
 "workday:nvidia:JR2027726-1": "2026-10-19",
 "workday:nvidia:JR2027742": "2026-10-19",
+"workday:nvidia:JR2027785": "2026-10-22",
+"workday:nvidia:JR2027786": "2026-10-22",
 "workday:nvidia:JR2027796": "2026-10-19",
 "workday:nvidia:JR2027806": "2026-10-19",
 "workday:nvidia:JR2027810": "2026-10-19",
@@ -13234,6 +13258,7 @@
 "workday:nvidia:JR2028109": "2026-10-19",
 "workday:nvidia:JR2028112": "2026-10-21",
 "workday:nvidia:JR2028114": "2026-10-19",
+"workday:nvidia:JR2028119-1": "2026-10-22",
 "workday:nvidia:JR2028121-1": "2026-10-19",
 "workday:nvidia:JR2028122": "2026-10-19",
 "workday:nvidia:JR2028139": "2026-10-20",
@@ -14341,9 +14366,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 41,
+"calls": 43,
 "date": "2026-10-22",
-"usd": 0.005268
+"usd": 0.005407
 },
 "years": {
 "amazon:10583340": [
