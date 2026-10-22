@@ -360,6 +360,16 @@
 },
 "2026-10-21"
 ],
+"amazon:10585856|v3|73908d": [
+{
+"chance": 0,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-10-22"
+],
 "ashby:baseten:7428d7cc-36d7-4d02-b19a-bd558fba6751|v3|73908d": [
 {
 "chance": 8,
@@ -1079,6 +1089,26 @@
 "us_ok": true
 },
 "2026-10-21"
+],
+"eightfold:qualcomm.com:446721645804|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 1,
+"note": "Requires 1+ years of experience in RTL design.",
+"us_ok": true
+},
+"2026-10-22"
+],
+"eightfold:qualcomm.com:446721645906|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 1,
+"note": "Requires 1+ years of experience in RTL design.",
+"us_ok": true
+},
+"2026-10-22"
 ],
 "eightfold:qualcomm.com:446721649720|v3|73908d": [
 {
@@ -2249,6 +2279,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:eightfold:qualcomm.com:446721645902": [
+{
+"note": "Requires 7-8 years of experience.",
+"senior": true
+},
+"2026-10-22"
 ],
 "rescue:eightfold:qualcomm.com:446721646579": [
 {
@@ -6469,7 +6506,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 120
 },
 "Braintrust": {
 "alerted": false,
@@ -6764,7 +6801,7 @@
 "Fastly": {
 "alerted": false,
 "streak": 0,
-"typical": 53
+"typical": 54
 },
 "Figma": {
 "alerted": false,
@@ -6839,7 +6876,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 132
+"typical": 133
 },
 "HackerOne": {
 "alerted": false,
@@ -6904,12 +6941,11 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 123
+"typical": 127
 },
 "Intuit": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(813754 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 600
 },
 "Iru (formerly Kandji)": {
@@ -7035,7 +7071,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 171
 },
 "Mercor": {
 "alerted": false,
@@ -7055,7 +7091,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 245
+"typical": 246
 },
 "Microsoft": {
 "alerted": false,
@@ -7125,7 +7161,7 @@
 "Netskope": {
 "alerted": false,
 "streak": 0,
-"typical": 128
+"typical": 129
 },
 "Neuralink": {
 "alerted": false,
@@ -7215,7 +7251,7 @@
 "OpenTable": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 116
 },
 "Oracle": {
 "alerted": false,
@@ -7460,7 +7496,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 272
+"typical": 274
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -7470,7 +7506,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 265
+"typical": 266
 },
 "Samsung Semiconductor": {
 "alerted": false,
@@ -7580,7 +7616,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 728
+"typical": 729
 },
 "Substack": {
 "alerted": false,
@@ -7630,7 +7666,7 @@
 "Tanium": {
 "alerted": false,
 "streak": 0,
-"typical": 75
+"typical": 72
 },
 "Tekion": {
 "alerted": false,
@@ -7917,6 +7953,7 @@
 "amazon:10585712": "2026-10-21",
 "amazon:10585831": "2026-10-21",
 "amazon:10585852": "2026-10-21",
+"amazon:10585856": "2026-10-22",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
@@ -8860,6 +8897,9 @@
 "eightfold:qualcomm.com:446721638548": "2026-10-20",
 "eightfold:qualcomm.com:446721638793": "2026-10-20",
 "eightfold:qualcomm.com:446721639069": "2026-10-21",
+"eightfold:qualcomm.com:446721645804": "2026-10-22",
+"eightfold:qualcomm.com:446721645902": "2026-10-22",
+"eightfold:qualcomm.com:446721645906": "2026-10-22",
 "eightfold:qualcomm.com:446721646579": "2026-10-20",
 "eightfold:qualcomm.com:446721646674": "2026-10-20",
 "eightfold:qualcomm.com:446721646685": "2026-10-20",
@@ -8999,6 +9039,7 @@
 "greenhouse:boxinc:8229375": "2026-10-21",
 "greenhouse:boxinc:8236513": "2026-10-20",
 "greenhouse:boxinc:8248145": "2026-10-21",
+"greenhouse:boxinc:8255671": "2026-10-22",
 "greenhouse:boxinc:8258842": "2026-10-20",
 "greenhouse:boxinc:8302300": "2026-10-21",
 "greenhouse:brex:8877364002": "2026-10-20",
@@ -9417,6 +9458,7 @@
 "greenhouse:opentable:8902504002": "2026-10-20",
 "greenhouse:opentable:8902506002": "2026-10-20",
 "greenhouse:opentable:8902509002": "2026-10-21",
+"greenhouse:opentable:8902516002": "2026-10-22",
 "greenhouse:opentable:8902522002": "2026-10-20",
 "greenhouse:opentable:8902527002": "2026-10-20",
 "greenhouse:opentable:8902659002": "2026-10-20",
@@ -9543,6 +9585,7 @@
 "greenhouse:sambanovasystems:6224936004": "2026-10-20",
 "greenhouse:samsara:8205198": "2026-10-21",
 "greenhouse:samsara:8268030": "2026-10-20",
+"greenhouse:samsara:8278293": "2026-10-22",
 "greenhouse:samsara:8287417": "2026-10-20",
 "greenhouse:samsara:8300580": "2026-10-21",
 "greenhouse:samsara:8302004": "2026-10-20",
@@ -9606,6 +9649,7 @@
 "greenhouse:stripe:8284974": "2026-10-21",
 "greenhouse:stripe:8286649": "2026-10-19",
 "greenhouse:stripe:8287912": "2026-10-20",
+"greenhouse:stripe:8287916": "2026-10-22",
 "greenhouse:stripe:8288334": "2026-10-22",
 "greenhouse:stripe:8299647": "2026-10-20",
 "greenhouse:stripe:8300616": "2026-10-21",
@@ -10183,6 +10227,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348118": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348144": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348155": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348157": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348158": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348159": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348161": "2026-10-22",
@@ -10258,6 +10303,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303234": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303242": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303244": "2026-10-20",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303257": "2026-10-22",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303259": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303270": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303276": "2026-10-21",
@@ -12180,6 +12226,7 @@
 "workday:hp:UNI4787-1": "2026-10-21",
 "workday:hp:UNI4791-1": "2026-10-21",
 "workday:hp:UNI4899-2": "2026-10-21",
+"workday:hp:UNI4914-2": "2026-10-22",
 "workday:intel:JR0281246": "2026-10-22",
 "workday:intel:JR0282540": "2026-10-20",
 "workday:intel:JR0283073": "2026-10-21",
@@ -12226,6 +12273,7 @@
 "workday:intel:JR0287800-1": "2026-10-20",
 "workday:intel:JR0287830": "2026-10-21",
 "workday:intel:JR0287936-1": "2026-10-20",
+"workday:intel:JR0287938": "2026-10-22",
 "workday:intel:JR0287962": "2026-10-21",
 "workday:intel:JR0287980": "2026-10-20",
 "workday:intel:JR0287983": "2026-10-20",
@@ -12238,6 +12286,7 @@
 "workday:intel:JR0288104-1": "2026-10-21",
 "workday:intel:JR0288106": "2026-10-20",
 "workday:intel:JR0288127-1": "2026-10-20",
+"workday:intel:JR0288132": "2026-10-22",
 "workday:intel:JR0288136": "2026-10-20",
 "workday:intel:JR0288138": "2026-10-20",
 "workday:intel:JR0288139": "2026-10-20",
@@ -12273,6 +12322,7 @@
 "workday:intel:JR0288265-1": "2026-10-21",
 "workday:intel:JR0288277": "2026-10-20",
 "workday:intel:JR0288282": "2026-10-21",
+"workday:intel:JR0288284": "2026-10-22",
 "workday:intel:JR0288288": "2026-10-21",
 "workday:intel:JR0288289": "2026-10-20",
 "workday:intel:JR0288291": "2026-10-20",
@@ -12293,6 +12343,7 @@
 "workday:intel:JR0288320": "2026-10-20",
 "workday:intel:JR0288321": "2026-10-20",
 "workday:intel:JR0288346": "2026-10-20",
+"workday:intel:JR0288347-1": "2026-10-22",
 "workday:intel:JR0288353": "2026-10-20",
 "workday:intel:JR0288354": "2026-10-20",
 "workday:intel:JR0288355": "2026-10-20",
@@ -12601,6 +12652,7 @@
 "workday:micron:JR108056": "2026-10-20",
 "workday:micron:JR108154": "2026-10-20",
 "workday:micron:JR108388": "2026-10-20",
+"workday:micron:JR108394": "2026-10-22",
 "workday:micron:JR108466": "2026-10-20",
 "workday:micron:JR108493": "2026-10-20",
 "workday:micron:JR109015-1": "2026-10-20",
@@ -13186,6 +13238,7 @@
 "workday:salesforce:JR356735": "2026-10-19",
 "workday:salesforce:JR356805": "2026-10-21",
 "workday:salesforce:JR356839": "2026-10-19",
+"workday:salesforce:JR357138": "2026-10-22",
 "workday:salesforce:JR357199-1": "2026-10-20",
 "workday:salesforce:JR357256": "2026-10-21",
 "workday:salesforce:JR357291-1": "2026-10-21",
@@ -13222,6 +13275,7 @@
 "workday:salesforce:JR360959-1": "2026-10-19",
 "workday:salesforce:JR360963": "2026-10-21",
 "workday:salesforce:JR361065": "2026-10-21",
+"workday:salesforce:JR361157": "2026-10-22",
 "workday:salesforce:JR361160": "2026-10-20",
 "workday:salesforce:JR361210": "2026-10-21",
 "workday:salesforce:JR361238": "2026-10-21",
@@ -13352,6 +13406,7 @@
 "workday:salesforce:JR364784": "2026-10-21",
 "workday:salesforce:JR364789": "2026-10-19",
 "workday:salesforce:JR364790": "2026-10-19",
+"workday:salesforce:JR364792": "2026-10-22",
 "workday:salesforce:JR364793": "2026-10-19",
 "workday:salesforce:JR364808-1": "2026-10-21",
 "workday:salesforce:JR364817": "2026-10-21",
@@ -13771,6 +13826,7 @@
 "amazon|software development engineer international seller growth": "2026-10-19",
 "amazon|software development engineer inventory accounting": "2026-10-22",
 "amazon|software development engineer leo ignition": "2026-10-20",
+"amazon|software development engineer leo secure communications team": "2026-10-22",
 "amazon|software development engineer leo space security": "2026-10-21",
 "amazon|software development engineer measurement ad tech and data science mads foundations traffic": "2026-10-19",
 "amazon|software engineer early career": "2026-10-19",
@@ -14077,6 +14133,7 @@
 "qualcomm|hardware support engineer qualcomm government technologies": "2026-10-21",
 "qualcomm|ips hardware support engineer": "2026-10-21",
 "qualcomm|ips hardware support engineer support engineering": "2026-10-21",
+"qualcomm|rtl core processor microarchitecture engineer": "2026-10-22",
 "qualcomm|soc power design engineer": "2026-10-21",
 "qualcomm|software engineer camera": "2026-10-20",
 "qualcomm|software engineer san diego boulder": "2026-10-20",
@@ -14149,9 +14206,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 27,
+"calls": 31,
 "date": "2026-10-22",
-"usd": 0.003622
+"usd": 0.004368
 },
 "years": {
 "amazon:10583340": [
