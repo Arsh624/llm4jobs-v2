@@ -1790,6 +1790,16 @@
 },
 "2026-10-21"
 ],
+"greenhouse:waymo:8212626|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 1,
+"note": "Requires hands-on experience in ML systems.",
+"us_ok": true
+},
+"2026-10-22"
+],
 "greenhouse:waymo:8286842|v3|73908d": [
 {
 "chance": 4,
@@ -2566,6 +2576,13 @@
 "rescue:eightfold:microsoft.com:1970393556979077": [
 {
 "note": "Principal roles require significant experience.",
+"senior": true
+},
+"2026-10-22"
+],
+"rescue:eightfold:microsoft.com:1970393556982604": [
+{
+"note": "Requires extensive experience in product management.",
 "senior": true
 },
 "2026-10-22"
@@ -8777,7 +8794,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 447
+"typical": 446
 },
 "Lyft": {
 "alerted": false,
@@ -8787,7 +8804,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 35
 },
 "MasterClass": {
 "alerted": false,
@@ -8902,7 +8919,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 58
+"typical": 57
 },
 "NewsBreak": {
 "alerted": false,
@@ -8942,7 +8959,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 397
+"typical": 396
 },
 "Olly": {
 "alerted": false,
@@ -9247,7 +9264,7 @@
 "Sandbox VR": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 41
 },
 "Sauce Labs": {
 "alerted": false,
@@ -9282,7 +9299,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2984
+"typical": 2973
 },
 "Skip": {
 "alerted": false,
@@ -9387,7 +9404,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 },
 "Tagup": {
 "alerted": false,
@@ -9527,7 +9544,7 @@
 "Waymo": {
 "alerted": false,
 "streak": 0,
-"typical": 364
+"typical": 365
 },
 "Wealthfront": {
 "alerted": false,
@@ -10128,6 +10145,7 @@
 "eightfold:appliedmaterials.com:790317756085": "2026-10-21",
 "eightfold:appliedmaterials.com:790317860275": "2026-10-21",
 "eightfold:appliedmaterials.com:790318017719": "2026-10-21",
+"eightfold:appliedmaterials.com:790318063025": "2026-10-22",
 "eightfold:appliedmaterials.com:790318161750": "2026-10-20",
 "eightfold:appliedmaterials.com:790318194116": "2026-10-22",
 "eightfold:appliedmaterials.com:790318196154": "2026-10-20",
@@ -10338,6 +10356,7 @@
 "eightfold:lamresearch.com:1099556405789": "2026-10-20",
 "eightfold:lamresearch.com:1099556480043": "2026-10-22",
 "eightfold:lamresearch.com:1099556521602": "2026-10-22",
+"eightfold:lamresearch.com:1099556521831": "2026-10-22",
 "eightfold:lamresearch.com:1099556522526": "2026-10-20",
 "eightfold:lamresearch.com:1099556522533": "2026-10-20",
 "eightfold:lamresearch.com:1099556522551": "2026-10-20",
@@ -10369,10 +10388,12 @@
 "eightfold:lamresearch.com:1099556623409": "2026-10-20",
 "eightfold:lamresearch.com:1099556623430": "2026-10-20",
 "eightfold:lamresearch.com:1099556627453": "2026-10-20",
+"eightfold:lamresearch.com:1099556645169": "2026-10-22",
 "eightfold:lamresearch.com:1099556655763": "2026-10-21",
 "eightfold:lamresearch.com:1099556655774": "2026-10-21",
 "eightfold:lamresearch.com:1099556666750": "2026-10-22",
 "eightfold:lamresearch.com:1099556667151": "2026-10-20",
+"eightfold:lamresearch.com:1099556687193": "2026-10-22",
 "eightfold:lamresearch.com:1099556716257": "2026-10-22",
 "eightfold:microsoft.com:1970393556847376": "2026-10-22",
 "eightfold:microsoft.com:1970393556866166": "2026-10-21",
@@ -10437,6 +10458,7 @@
 "eightfold:microsoft.com:1970393556982282": "2026-10-20",
 "eightfold:microsoft.com:1970393556982470": "2026-10-21",
 "eightfold:microsoft.com:1970393556982568": "2026-10-20",
+"eightfold:microsoft.com:1970393556982604": "2026-10-22",
 "eightfold:microsoft.com:1970393556982606": "2026-10-20",
 "eightfold:microsoft.com:1970393556982639": "2026-10-20",
 "eightfold:microsoft.com:1970393556982881": "2026-10-22",
@@ -11863,6 +11885,7 @@
 "greenhouse:verkada:5273085007": "2026-10-22",
 "greenhouse:waymo:8104309": "2026-10-21",
 "greenhouse:waymo:8157161": "2026-10-20",
+"greenhouse:waymo:8212626": "2026-10-22",
 "greenhouse:waymo:8227762": "2026-10-21",
 "greenhouse:waymo:8281938": "2026-10-20",
 "greenhouse:waymo:8283558": "2026-10-20",
@@ -14887,6 +14910,7 @@
 "workday:kla:2642122": "2026-10-19",
 "workday:kla:2642177": "2026-10-21",
 "workday:marvell:2601285": "2026-10-20",
+"workday:marvell:2602214-1": "2026-10-22",
 "workday:marvell:2602755-1": "2026-10-21",
 "workday:marvell:2603119": "2026-10-22",
 "workday:marvell:2603621": "2026-10-20",
@@ -16240,6 +16264,7 @@
 "workday:tmobile:REQ378465-1": "2026-10-22",
 "workday:tmobile:REQ378468-2": "2026-10-22",
 "workday:tmobile:REQ378474-1": "2026-10-21",
+"workday:tmobile:REQ378486-1": "2026-10-22",
 "workday:tmobile:REQ378512-1": "2026-10-22",
 "workday:tmobile:REQ378533-1": "2026-10-22",
 "workday:tmobile:REQ378545-2": "2026-10-21",
@@ -16424,6 +16449,7 @@
 "workday:tmobile:REQ379797-1": "2026-10-22",
 "workday:tmobile:REQ379809-1": "2026-10-21",
 "workday:tmobile:REQ379811-1": "2026-10-21",
+"workday:tmobile:REQ379814-1": "2026-10-22",
 "workday:tmobile:REQ379840-1": "2026-10-22",
 "workday:tmobile:REQ379843-1": "2026-10-21",
 "workday:tmobile:REQ379864": "2026-10-22",
@@ -16996,6 +17022,7 @@
 "visa|sw engineer oracle erp": "2026-10-22",
 "vizient|associate software engineer": "2026-10-21",
 "vtg|junior software engineer": "2026-10-19",
+"waymo|machine learning engineer scenes": "2026-10-22",
 "waymo|product data scientist marketplace logistics": "2026-10-20",
 "waymo|software engineer": "2026-10-21",
 "wellmark|data wrangler": "2026-10-21",
@@ -17006,9 +17033,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 238,
+"calls": 240,
 "date": "2026-10-22",
-"usd": 0.033635
+"usd": 0.033897
 },
 "years": {
 "amazon:10583340": [
