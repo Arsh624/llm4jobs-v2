@@ -390,6 +390,16 @@
 },
 "2026-10-21"
 ],
+"ashby:clickhouse:40a07d4e-3b7e-49c0-afd4-2f4dff005d1a|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3-5 years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-10-22"
+],
 "ashby:cursor:fa7a821b-ca2b-43fe-8942-07f215a060c7|v3|73908d": [
 {
 "chance": 8,
@@ -820,6 +830,16 @@
 },
 "2026-10-21"
 ],
+"eightfold:microsoft.com:1970393556983343|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-10-22"
+],
 "eightfold:microsoft.com:1970393556988108|v3|73908d": [
 {
 "chance": 4,
@@ -1249,6 +1269,16 @@
 "us_ok": true
 },
 "2026-10-21"
+],
+"greenhouse:gomotive:8686675002|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3-5 years of experience, not entry-level.",
+"us_ok": false
+},
+"2026-10-22"
 ],
 "greenhouse:lightmatter:5408439008|v3|73908d": [
 {
@@ -2572,6 +2602,13 @@
 "rescue:greenhouse:doordashusa:8312492": [
 {
 "note": "Requires significant experience in engineering management.",
+"senior": true
+},
+"2026-10-22"
+],
+"rescue:greenhouse:elastic:8281506": [
+{
+"note": "Requires extensive experience and mentorship role.",
 "senior": true
 },
 "2026-10-22"
@@ -5075,6 +5112,13 @@
 },
 "2026-10-20"
 ],
+"rescue:workday:analogdevices:R263257": [
+{
+"note": "Requires hands-on experience in medical devices.",
+"senior": true
+},
+"2026-10-22"
+],
 "rescue:workday:analogdevices:R267602": [
 {
 "note": "Requires significant experience and expertise.",
@@ -5704,6 +5748,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:workday:visa:REF088495W": [
+{
+"note": "Requires significant experience in software engineering.",
+"senior": true
+},
+"2026-10-22"
 ],
 "smartrecruiters:ServiceNow:744000156619374|v3|73908d": [
 {
@@ -6625,7 +6676,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 20
 },
 "Andromeda": {
 "alerted": false,
@@ -6745,7 +6796,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 208
+"typical": 207
 },
 "Boku": {
 "alerted": false,
@@ -6760,7 +6811,7 @@
 "Braintrust": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 29
 },
 "Branch": {
 "alerted": false,
@@ -6830,7 +6881,7 @@
 "ClickHouse": {
 "alerted": false,
 "streak": 0,
-"typical": 200
+"typical": 202
 },
 "ClickUp": {
 "alerted": false,
@@ -7020,7 +7071,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 386
+"typical": 387
 },
 "Etched": {
 "alerted": false,
@@ -7375,12 +7426,12 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 139
+"typical": 140
 },
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 240
+"typical": 241
 },
 "NerdWallet": {
 "alerted": false,
@@ -7460,7 +7511,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 394
+"typical": 393
 },
 "Olly": {
 "alerted": false,
@@ -7545,7 +7596,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1309
+"typical": 1308
 },
 "PandaDoc": {
 "alerted": false,
@@ -7625,7 +7676,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 367
+"typical": 366
 },
 "Qualcomm": {
 "alerted": false,
@@ -7755,7 +7806,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 275
+"typical": 274
 },
 "Samsung Semiconductor": {
 "alerted": false,
@@ -7800,7 +7851,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3000
+"typical": 3004
 },
 "Skip": {
 "alerted": false,
@@ -7905,7 +7956,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 273
+"typical": 275
 },
 "Tagup": {
 "alerted": false,
@@ -8030,7 +8081,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Viz Media": {
 "alerted": false,
@@ -8090,7 +8141,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 360
+"typical": 359
 },
 "Zuora": {
 "alerted": false,
@@ -8223,6 +8274,7 @@
 "ashby:baseten:976f89ef-1065-45a7-8b51-31fecd1ef1e6": "2026-10-22",
 "ashby:benchling:33c6c504-9ca4-4cae-8ebc-cfc55127b2bf": "2026-10-20",
 "ashby:benchling:e3c5a5f9-66f4-4763-864f-569caa5bf2c8": "2026-10-21",
+"ashby:braintrust:f6b07ffd-a793-49df-8815-6230735f482a": "2026-10-22",
 "ashby:cerebras:08ffd14b-cb60-4916-9946-735e49594308": "2026-10-20",
 "ashby:cerebras:315e96ea-e64d-4096-b9ba-c0025cf796f6": "2026-10-21",
 "ashby:cerebras:b418fbca-9a33-4ac5-adb3-24dd57b1c678": "2026-10-21",
@@ -8234,12 +8286,14 @@
 "ashby:clickhouse:2137b19e-a226-4e3c-8c8d-0e0ca30415e6": "2026-10-20",
 "ashby:clickhouse:2a98187a-f3e2-43b5-bee9-2218751a53da": "2026-10-22",
 "ashby:clickhouse:31f21f5f-1922-484d-9a38-d565c02b1fc4": "2026-10-20",
+"ashby:clickhouse:40a07d4e-3b7e-49c0-afd4-2f4dff005d1a": "2026-10-22",
 "ashby:clickhouse:4c3c0f54-e955-47e2-8629-8e0c1df347a9": "2026-10-20",
 "ashby:clickhouse:4ca8a241-1f09-498a-b8cc-09c9bcce1fd3": "2026-10-20",
 "ashby:clickhouse:512881ed-777f-4696-bcf9-cda2269aee70": "2026-10-22",
 "ashby:clickhouse:558c0c16-5fde-407a-966b-7a2255d3531b": "2026-10-21",
 "ashby:clickhouse:66b11644-d1d7-4cbb-9351-194b81ad34aa": "2026-10-19",
 "ashby:clickhouse:76810230-09bb-41e7-9afe-7e18e9611816": "2026-10-22",
+"ashby:clickhouse:7cc3bb05-168b-47e3-ad0e-606cf7e64b8b": "2026-10-22",
 "ashby:clickhouse:8053823a-c5f3-4c00-9aae-15439f08cf6d": "2026-10-19",
 "ashby:clickhouse:870b82b7-6550-45b4-90a3-4019226b0470": "2026-10-19",
 "ashby:clickhouse:8bad579f-818e-4409-9269-b012b82b2064": "2026-10-20",
@@ -8830,6 +8884,7 @@
 "eightfold:microsoft.com:1970393556983228": "2026-10-20",
 "eightfold:microsoft.com:1970393556983241": "2026-10-20",
 "eightfold:microsoft.com:1970393556983261": "2026-10-21",
+"eightfold:microsoft.com:1970393556983343": "2026-10-22",
 "eightfold:microsoft.com:1970393556984731": "2026-10-20",
 "eightfold:microsoft.com:1970393556986255": "2026-10-20",
 "eightfold:microsoft.com:1970393556986891": "2026-10-21",
@@ -8856,6 +8911,7 @@
 "eightfold:microsoft.com:1970393556999283": "2026-10-20",
 "eightfold:microsoft.com:1970393556999329": "2026-10-20",
 "eightfold:microsoft.com:1970393556999396": "2026-10-21",
+"eightfold:microsoft.com:1970393557000061": "2026-10-22",
 "eightfold:microsoft.com:1970393557000188": "2026-10-22",
 "eightfold:microsoft.com:1970393557000192": "2026-10-21",
 "eightfold:microsoft.com:1970393557000193": "2026-10-22",
@@ -9515,6 +9571,7 @@
 "greenhouse:elastic:8274391": "2026-10-21",
 "greenhouse:elastic:8274400": "2026-10-21",
 "greenhouse:elastic:8281119": "2026-10-21",
+"greenhouse:elastic:8281506": "2026-10-22",
 "greenhouse:elastic:8285461": "2026-10-19",
 "greenhouse:elastic:8285463": "2026-10-19",
 "greenhouse:elastic:8285465": "2026-10-20",
@@ -9575,6 +9632,7 @@
 "greenhouse:flexport:8311799": "2026-10-22",
 "greenhouse:gatherai:5268357007": "2026-10-20",
 "greenhouse:gofundme:8304644": "2026-10-21",
+"greenhouse:gomotive:8686675002": "2026-10-22",
 "greenhouse:gomotive:8776678002": "2026-10-20",
 "greenhouse:gomotive:8811944002": "2026-10-21",
 "greenhouse:gomotive:8891542002": "2026-10-21",
@@ -10618,6 +10676,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348276": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348281": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348296": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348301": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348420": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348423": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348424": "2026-10-22",
@@ -10790,6 +10849,7 @@
 "simplify:2c4c9dd7-7c52-418f-abff-10a4c150329e": "2026-10-21",
 "simplify:2d82eac7-1903-473d-8ae7-53561c77688c": "2026-10-20",
 "simplify:316c2d00-0f12-44d3-a120-dec7324caeff": "2026-10-19",
+"simplify:319cbcee-d50c-4be3-965d-86b2c09bdc4a": "2026-10-22",
 "simplify:33da640d-5eb4-4a66-b577-c2ec5f60bcf3": "2026-10-20",
 "simplify:33f5563b-6820-4803-bd8e-45014015ac0c": "2026-10-19",
 "simplify:35669be8-a2d4-451a-b732-d404c89defe7": "2026-10-20",
@@ -10814,6 +10874,7 @@
 "simplify:50e54046-7978-470b-a5b3-7f2786a8c4d4": "2026-10-20",
 "simplify:511298c0-51b4-4e6a-b652-7668b948d3c8": "2026-10-20",
 "simplify:54259fd2-233d-466f-894e-f3c91ea9159e": "2026-10-20",
+"simplify:57c3e597-0998-4bdd-93ed-9ff2e7e67cee": "2026-10-22",
 "simplify:58185ccc-7583-4e95-856b-92ede737ff0a": "2026-10-20",
 "simplify:58d87a8c-c43e-45b4-ae0a-af7f7a6421eb": "2026-10-19",
 "simplify:5a59f0ee-1571-4abb-9f4a-04fb4914313a": "2026-10-19",
@@ -10863,6 +10924,7 @@
 "simplify:8982c276-3471-4e45-b3d4-15d35b2c5de3": "2026-10-19",
 "simplify:8ccf1424-6b62-470f-93e0-ad607c1f232d": "2026-10-19",
 "simplify:8df87a27-5493-456e-a7b5-d96eed5e09e2": "2026-10-20",
+"simplify:90126943-996a-4235-bb88-26c2405d1cde": "2026-10-22",
 "simplify:918d30c3-15c3-40d4-9b7e-046d5b46152c": "2026-10-21",
 "simplify:9283a980-98e0-4f9f-af72-d7087c27870c": "2026-10-21",
 "simplify:92a80010-86da-474e-b0da-0b7d1a8b556c": "2026-10-21",
@@ -10895,6 +10957,7 @@
 "simplify:b3dc0fe4-e07d-4a79-ac44-eddaf4d4abd0": "2026-10-21",
 "simplify:b57d46f0-383f-4fd8-a530-e5e1c2bb0424": "2026-10-21",
 "simplify:b607ca14-0423-4f94-b891-30982d05f168": "2026-10-20",
+"simplify:b81f0d85-3704-4a61-ba56-733b528bd6ba": "2026-10-22",
 "simplify:b8b208fc-1a24-46b3-a41b-b69249a8b359": "2026-10-20",
 "simplify:ba94ebcb-0a90-49ae-a618-acf2b2c015b8": "2026-10-20",
 "simplify:bada8fff-3e65-4d24-96d8-d438f022b5fe": "2026-10-20",
@@ -10949,6 +11012,7 @@
 "simplify:f1044ef9-7da2-4a5b-a8e5-c26f1e2efd68": "2026-10-20",
 "simplify:f1d22398-ec8e-4424-a78c-79bb14eaf463": "2026-10-21",
 "simplify:f2c4d7fa-fb4e-4a8a-8c49-31f4d2cc9e03": "2026-10-20",
+"simplify:f584c833-524b-45c1-916a-90515c42559c": "2026-10-22",
 "simplify:f5b840f2-1240-4f45-bc1d-c7c23fe1e24d": "2026-10-20",
 "simplify:f66d4e14-621c-44d2-b1e7-0b554b3f9993": "2026-10-20",
 "simplify:f699a7ca-d227-4c2b-9b7b-57a806b3100c": "2026-10-21",
@@ -12359,6 +12423,7 @@
 "talentbrew:jobs.paloaltonetworks.com:100484643184": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:100654449632": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:100760531536": "2026-10-20",
+"talentbrew:jobs.paloaltonetworks.com:100905884384": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:100929994496": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:101339992784": "2026-10-21",
 "talentbrew:jobs.paloaltonetworks.com:101426101840": "2026-10-21",
@@ -12433,12 +12498,15 @@
 "talentbrew:jobs.paloaltonetworks.com:102278721536": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:102278721760": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:102278723312": "2026-10-22",
+"talentbrew:jobs.paloaltonetworks.com:102288159664": "2026-10-22",
+"talentbrew:jobs.paloaltonetworks.com:102288160192": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:96174875952": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:96174877760": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:96174881392": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:96275938992": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:97159219952": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:97442358944": "2026-10-20",
+"talentbrew:jobs.paloaltonetworks.com:97609092672": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:97907025248": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:98426404160": "2026-10-21",
 "talentbrew:jobs.paloaltonetworks.com:98452105488": "2026-10-21",
@@ -12448,6 +12516,7 @@
 "talentbrew:jobs.paloaltonetworks.com:99829027808": "2026-10-22",
 "talentbrew:jobs.paloaltonetworks.com:99985549264": "2026-10-20",
 "workday:analogdevices:R254213": "2026-10-21",
+"workday:analogdevices:R263257": "2026-10-22",
 "workday:analogdevices:R263273-1": "2026-10-20",
 "workday:analogdevices:R264206": "2026-10-20",
 "workday:analogdevices:R264224": "2026-10-20",
@@ -14092,6 +14161,7 @@
 "workday:tmobile:REQ378985-2": "2026-10-20",
 "workday:tmobile:REQ378988-1": "2026-10-21",
 "workday:tmobile:REQ379005": "2026-10-21",
+"workday:tmobile:REQ379007-1": "2026-10-22",
 "workday:tmobile:REQ379014": "2026-10-20",
 "workday:tmobile:REQ379015-1": "2026-10-20",
 "workday:tmobile:REQ379019": "2026-10-20",
@@ -14241,6 +14311,7 @@
 "workday:tmobile:REQ379866-1": "2026-10-22",
 "workday:tmobile:REQ379924-1": "2026-10-22",
 "workday:tmobile:REQ379933": "2026-10-21",
+"workday:tmobile:REQ379935-1": "2026-10-22",
 "workday:tmobile:REQ379981-2": "2026-10-22",
 "workday:tmobile:REQ379997": "2026-10-22",
 "workday:tmobile:REQ379998-1": "2026-10-21",
@@ -14256,6 +14327,7 @@
 "workday:visa:REF088214W": "2026-10-21",
 "workday:visa:REF088340W": "2026-10-19",
 "workday:visa:REF088349W": "2026-10-20",
+"workday:visa:REF088495W": "2026-10-22",
 "workday:visa:REF088672W": "2026-10-19",
 "workday:visa:REF088676W-1": "2026-10-20",
 "workday:visa:REF088943W": "2026-10-21",
@@ -14513,6 +14585,7 @@
 "mach9|software engineer 3d graphics": "2026-10-21",
 "magna|junior ai engineer": "2026-10-20",
 "mass general brigham|statistical programmer data analyst": "2026-10-20",
+"mayo clinic|associate data science analyst": "2026-10-22",
 "medtronic|contract analyst pricing and contracts minneapolis mn": "2026-10-21",
 "medtronic|crm field inventory analyst eastern pa buffalo ny": "2026-10-20",
 "medtronic|electrical engineer neuromodulation pelvic health minneapolis mn on site": "2026-10-21",
@@ -14577,11 +14650,13 @@
 "microsoft|software engineer ii ctj ts sci": "2026-10-20",
 "microsoft|software engineer ii top secret": "2026-10-20",
 "microsoft|software engineer ii windows servicing and delivery": "2026-10-20",
+"microsoft|software engineer ii wssi": "2026-10-22",
 "microsoft|software engineering ic2": "2026-10-20",
 "microsoft|solution engineering ic2": "2026-10-20",
 "microsoft|technical program manager ii fde": "2026-10-22",
 "microsoft|technical support engineer": "2026-10-20",
 "motorola solutions|embedded software engineer": "2026-10-21",
+"n1 health|associate data ops engineer": "2026-10-22",
 "ncr voyix|software engineer 1": "2026-10-21",
 "node digital|junior ai ml engineer": "2026-10-19",
 "northrop grumman|associate digital engineer": "2026-10-21",
@@ -14726,9 +14801,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 64,
+"calls": 70,
 "date": "2026-10-22",
-"usd": 0.007645
+"usd": 0.008537
 },
 "years": {
 "amazon:10583340": [
