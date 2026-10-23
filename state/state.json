@@ -520,6 +520,16 @@
 },
 "2026-10-23"
 ],
+"amazon:10587403|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-10-23"
+],
 "ashby:baseten:34fd4416-49f3-4ef7-b9f8-5883f8d0710c|v3|73908d": [
 {
 "chance": 7,
@@ -3789,6 +3799,20 @@
 },
 "2026-10-22"
 ],
+"rescue:greenhouse:elastic:8317778": [
+{
+"note": "Requires leadership experience and team management.",
+"senior": true
+},
+"2026-10-23"
+],
+"rescue:greenhouse:elastic:8317779": [
+{
+"note": "Requires leadership experience and team management.",
+"senior": true
+},
+"2026-10-23"
+],
 "rescue:greenhouse:fastly:8302211": [
 {
 "note": "Role likely requires significant experience.",
@@ -4278,6 +4302,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:jibe:careers.amd.com:93929": [
+{
+"note": "Requires significant experience in business development.",
+"senior": true
+},
+"2026-10-23"
 ],
 "rescue:jibe:careers.amd.com:94068": [
 {
@@ -6715,6 +6746,13 @@
 },
 "2026-10-20"
 ],
+"rescue:workday:kla:2634336-1": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-10-23"
+],
 "rescue:workday:kla:2640696-1": [
 {
 "note": "Principal roles typically require extensive experience.",
@@ -7561,6 +7599,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:workday:salesforce:JR354838": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-10-23"
 ],
 "rescue:workday:salesforce:JR356148": [
 {
@@ -9307,7 +9352,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 346
+"typical": 347
 },
 "Curri": {
 "alerted": false,
@@ -9422,7 +9467,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 393
+"typical": 395
 },
 "Etched": {
 "alerted": false,
@@ -9617,7 +9662,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Keysight": {
 "alerted": false,
@@ -9862,7 +9907,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 392
+"typical": 391
 },
 "Olly": {
 "alerted": false,
@@ -10147,7 +10192,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 248
+"typical": 252
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -10202,7 +10247,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3024
+"typical": 3029
 },
 "Skip": {
 "alerted": false,
@@ -10267,7 +10312,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 726
+"typical": 727
 },
 "Substack": {
 "alerted": false,
@@ -10317,7 +10362,7 @@
 "Tanium": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 70
 },
 "Tekion": {
 "alerted": false,
@@ -10627,6 +10672,7 @@
 "amazon:10587131": "2026-10-23",
 "amazon:10587138": "2026-10-23",
 "amazon:10587257": "2026-10-23",
+"amazon:10587403": "2026-10-23",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
@@ -10709,6 +10755,7 @@
 "ashby:crusoe:52ebf84d-a113-40c1-9bd3-0a626fbe2efe": "2026-10-21",
 "ashby:crusoe:52fe1c4b-d319-40be-b672-0f09a2cc72a6": "2026-10-22",
 "ashby:crusoe:59824ec7-64a5-433f-894f-e488613b5fca": "2026-10-20",
+"ashby:crusoe:6321b0c6-702d-4f61-891e-c07b9e9b591f": "2026-10-23",
 "ashby:crusoe:679035bb-1787-4f1e-a942-b3a28a23626e": "2026-10-21",
 "ashby:crusoe:690d374c-c23e-4e91-9c1a-2a675fa37ed0": "2026-10-21",
 "ashby:crusoe:6e872818-3bce-4931-8791-07c2d5d05dd4": "2026-10-20",
@@ -12296,6 +12343,8 @@
 "greenhouse:elastic:8314830": "2026-10-22",
 "greenhouse:elastic:8314855": "2026-10-22",
 "greenhouse:elastic:8315564": "2026-10-22",
+"greenhouse:elastic:8317778": "2026-10-23",
+"greenhouse:elastic:8317779": "2026-10-23",
 "greenhouse:everlane:8038059003": "2026-10-20",
 "greenhouse:everlane:8040847003": "2026-10-21",
 "greenhouse:fandom:8246122": "2026-10-21",
@@ -13115,6 +13164,7 @@
 "jibe:careers.amd.com:93907": "2026-10-20",
 "jibe:careers.amd.com:93908": "2026-10-20",
 "jibe:careers.amd.com:93909": "2026-10-20",
+"jibe:careers.amd.com:93929": "2026-10-23",
 "jibe:careers.amd.com:93955": "2026-10-20",
 "jibe:careers.amd.com:94063": "2026-10-23",
 "jibe:careers.amd.com:94065": "2026-10-22",
@@ -13420,6 +13470,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339070": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339440": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:340057": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:340151": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:340481": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:340918": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:341018": "2026-10-20",
@@ -16107,10 +16158,12 @@
 "workday:intel:JR0288473": "2026-10-23",
 "workday:intel:JR0288483-1": "2026-10-22",
 "workday:intel:JR0288494": "2026-10-22",
+"workday:intel:JR0288498": "2026-10-23",
 "workday:intel:JR0288527": "2026-10-23",
 "workday:intel:JR0288600": "2026-10-22",
 "workday:kla:2530503": "2026-10-20",
 "workday:kla:2633993": "2026-10-20",
+"workday:kla:2634336-1": "2026-10-23",
 "workday:kla:2634998": "2026-10-22",
 "workday:kla:2636468": "2026-10-20",
 "workday:kla:2636814-1": "2026-10-22",
@@ -17440,6 +17493,7 @@
 "workday:salesforce:JR354571": "2026-10-21",
 "workday:salesforce:JR354598": "2026-10-19",
 "workday:salesforce:JR354599": "2026-10-19",
+"workday:salesforce:JR354838": "2026-10-23",
 "workday:salesforce:JR355098": "2026-10-23",
 "workday:salesforce:JR355122": "2026-10-21",
 "workday:salesforce:JR355160-1": "2026-10-20",
@@ -17555,6 +17609,7 @@
 "workday:salesforce:JR362487": "2026-10-19",
 "workday:salesforce:JR362497": "2026-10-20",
 "workday:salesforce:JR362499-1": "2026-10-20",
+"workday:salesforce:JR362507": "2026-10-23",
 "workday:salesforce:JR362508-1": "2026-10-20",
 "workday:salesforce:JR362509-1": "2026-10-20",
 "workday:salesforce:JR362550-1": "2026-10-19",
@@ -17664,6 +17719,7 @@
 "workday:salesforce:JR364793": "2026-10-19",
 "workday:salesforce:JR364794-1": "2026-10-22",
 "workday:salesforce:JR364808-1": "2026-10-21",
+"workday:salesforce:JR364810": "2026-10-23",
 "workday:salesforce:JR364817": "2026-10-21",
 "workday:salesforce:JR364828": "2026-10-19",
 "workday:salesforce:JR364834": "2026-10-21",
@@ -17732,6 +17788,7 @@
 "workday:salesforce:JR365450-1": "2026-10-22",
 "workday:salesforce:JR365511-1": "2026-10-23",
 "workday:salesforce:JR365531": "2026-10-23",
+"workday:salesforce:JR365534": "2026-10-23",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ350330-1": "2026-10-22",
 "workday:tmobile:REQ353911-1": "2026-10-22",
@@ -18159,6 +18216,7 @@
 "amazon|software development engineer": "2026-10-19",
 "amazon|software development engineer 1 ai ml network infrastructure": "2026-10-21",
 "amazon|software development engineer 1 early career annapurna labs": "2026-10-23",
+"amazon|software development engineer agentic ai velocity labs": "2026-10-23",
 "amazon|software development engineer amazon java runtime": "2026-10-20",
 "amazon|software development engineer amazon leo network services leo pop": "2026-10-19",
 "amazon|software development engineer amazon msk managed streaming for kafka": "2026-10-19",
@@ -18691,9 +18749,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 98,
+"calls": 104,
 "date": "2026-10-23",
-"usd": 0.009726
+"usd": 0.010246
 },
 "years": {
 "amazon:10583340": [
