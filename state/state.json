@@ -510,6 +510,16 @@
 },
 "2026-10-22"
 ],
+"amazon:10587131|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience",
+"us_ok": true
+},
+"2026-10-23"
+],
 "ashby:baseten:34fd4416-49f3-4ef7-b9f8-5883f8d0710c|v3|73908d": [
 {
 "chance": 7,
@@ -8054,6 +8064,16 @@
 },
 "2026-10-22"
 ],
+"workday:nvidia:JR2027335|v3|73908d": [
+{
+"chance": 9,
+"level": "entry",
+"min_years": 0,
+"note": "Explicitly targets new grads; strong company reputation.",
+"us_ok": true
+},
+"2026-10-23"
+],
 "workday:nvidia:JR2028039|v3|73908d": [
 {
 "chance": 0,
@@ -8964,7 +8984,7 @@
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 50
 },
 "LanceDB": {
 "alerted": false,
@@ -9069,7 +9089,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 281
+"typical": 283
 },
 "Microsoft": {
 "alerted": false,
@@ -9109,7 +9129,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 277
+"typical": 279
 },
 "NerdWallet": {
 "alerted": false,
@@ -9229,7 +9249,7 @@
 "OpenTable": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 120
 },
 "Oracle": {
 "alerted": false,
@@ -9424,7 +9444,7 @@
 "Ripple Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 97
 },
 "Rivian": {
 "alerted": false,
@@ -9484,12 +9504,12 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 279
+"typical": 278
 },
 "Samsung Semiconductor": {
 "alerted": false,
 "streak": 0,
-"typical": 65
+"typical": 64
 },
 "Sandbox VR": {
 "alerted": false,
@@ -9951,6 +9971,8 @@
 "amazon:10587056": "2026-10-22",
 "amazon:10587106": "2026-10-22",
 "amazon:10587107": "2026-10-22",
+"amazon:10587131": "2026-10-23",
+"amazon:10587138": "2026-10-23",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
@@ -10646,6 +10668,8 @@
 "eightfold:lamresearch.com:1099556655774": "2026-10-21",
 "eightfold:lamresearch.com:1099556666750": "2026-10-22",
 "eightfold:lamresearch.com:1099556667151": "2026-10-20",
+"eightfold:lamresearch.com:1099556667817": "2026-10-23",
+"eightfold:lamresearch.com:1099556667823": "2026-10-23",
 "eightfold:lamresearch.com:1099556687193": "2026-10-22",
 "eightfold:lamresearch.com:1099556716257": "2026-10-22",
 "eightfold:microsoft.com:1970393556847376": "2026-10-22",
@@ -11859,6 +11883,7 @@
 "greenhouse:opentable:8902668002": "2026-10-20",
 "greenhouse:opentable:8903747002": "2026-10-22",
 "greenhouse:opentable:8903756002": "2026-10-21",
+"greenhouse:opentable:8904767002": "2026-10-23",
 "greenhouse:opentable:8906060002": "2026-10-22",
 "greenhouse:opentable:8908474002": "2026-10-22",
 "greenhouse:otterai:8040078003": "2026-10-22",
@@ -11944,6 +11969,7 @@
 "greenhouse:reddit:8304463": "2026-10-20",
 "greenhouse:reddit:8311209": "2026-10-21",
 "greenhouse:ripple:8180206": "2026-10-20",
+"greenhouse:ripple:8244768": "2026-10-23",
 "greenhouse:ripple:8267588": "2026-10-20",
 "greenhouse:ripple:8267600": "2026-10-20",
 "greenhouse:ripple:8267610": "2026-10-20",
@@ -12884,6 +12910,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348557": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348568": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348570": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348617": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152548": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153378": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153698": "2026-10-20",
@@ -15766,6 +15793,7 @@
 "workday:micron:JR115209": "2026-10-20",
 "workday:micron:JR115210": "2026-10-20",
 "workday:micron:JR115220": "2026-10-21",
+"workday:micron:JR115234": "2026-10-23",
 "workday:micron:JR115242": "2026-10-21",
 "workday:micron:JR115246": "2026-10-21",
 "workday:micron:JR115262": "2026-10-20",
@@ -15780,6 +15808,7 @@
 "workday:micron:JR115388": "2026-10-22",
 "workday:micron:JR115491": "2026-10-20",
 "workday:micron:JR115495": "2026-10-20",
+"workday:micron:JR115499": "2026-10-23",
 "workday:micron:JR115509": "2026-10-22",
 "workday:micron:JR115510": "2026-10-22",
 "workday:micron:JR115563": "2026-10-20",
@@ -15899,6 +15928,7 @@
 "workday:nvidia:JR2020319": "2026-10-19",
 "workday:nvidia:JR2020320": "2026-10-22",
 "workday:nvidia:JR2020326": "2026-10-21",
+"workday:nvidia:JR2020354": "2026-10-23",
 "workday:nvidia:JR2020731": "2026-10-20",
 "workday:nvidia:JR2020980": "2026-10-20",
 "workday:nvidia:JR2021098-1": "2026-10-23",
@@ -15980,6 +16010,7 @@
 "workday:nvidia:JR2025486": "2026-10-19",
 "workday:nvidia:JR2025560": "2026-10-22",
 "workday:nvidia:JR2025580": "2026-10-19",
+"workday:nvidia:JR2025616": "2026-10-23",
 "workday:nvidia:JR2025665": "2026-10-19",
 "workday:nvidia:JR2025689": "2026-10-19",
 "workday:nvidia:JR2025698": "2026-10-19",
@@ -16025,6 +16056,7 @@
 "workday:nvidia:JR2027109": "2026-10-21",
 "workday:nvidia:JR2027112": "2026-10-21",
 "workday:nvidia:JR2027311": "2026-10-19",
+"workday:nvidia:JR2027335": "2026-10-23",
 "workday:nvidia:JR2027359": "2026-10-19",
 "workday:nvidia:JR2027377": "2026-10-20",
 "workday:nvidia:JR2027392": "2026-10-19",
@@ -16956,6 +16988,7 @@
 "amazon|software development engineer ii data nexus": "2026-10-19",
 "amazon|software development engineer ii ec2 blackfoot peering team": "2026-10-20",
 "amazon|software development engineer ii elastic load balancing elb": "2026-10-19",
+"amazon|software development engineer ii leo space engineering applications": "2026-10-23",
 "amazon|software development engineer international seller growth": "2026-10-19",
 "amazon|software development engineer inventory accounting": "2026-10-22",
 "amazon|software development engineer leo ignition": "2026-10-20",
@@ -17284,6 +17317,7 @@
 "nvidia|nvidia 2027 internships hardware verification": "2026-10-22",
 "nvidia|nvidia 2027 internships systems software engineering": "2026-10-22",
 "nvidia|power validation engineer": "2026-10-22",
+"nvidia|silicon co design engineer new college grad 2026": "2026-10-23",
 "nvidia|software engineer agent performance modeling new college grad 2026": "2026-10-21",
 "nvidia|software engineer new grad agent performance modeling": "2026-10-21",
 "nvidia|system software engineer data center gpu compute diagnostics": "2026-10-21",
@@ -17446,9 +17480,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 7,
+"calls": 9,
 "date": "2026-10-23",
-"usd": 0.001414
+"usd": 0.001778
 },
 "years": {
 "amazon:10583340": [
