@@ -8312,6 +8312,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:marvell:2604753": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-10-24"
+],
 "rescue:workday:marvell:2605018": [
 {
 "note": "Requires extensive experience in engineering.",
@@ -11340,9 +11347,8 @@
 },
 "Analog Devices": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 28
+"streak": 0,
+"typical": 21
 },
 "Andromeda": {
 "alerted": false,
@@ -11535,9 +11541,9 @@
 "typical": 73
 },
 "Cisco": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 27
 },
 "ClassDojo": {
@@ -11841,9 +11847,9 @@
 "typical": 60
 },
 "HP": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 140
 },
 "HackerOne": {
@@ -11908,9 +11914,8 @@
 },
 "Intel": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 172
+"streak": 0,
+"typical": 134
 },
 "Intuit": {
 "alerted": false,
@@ -11934,9 +11939,8 @@
 },
 "KLA": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 50
+"streak": 0,
+"typical": 39
 },
 "Keysight": {
 "alerted": false,
@@ -12025,9 +12029,8 @@
 },
 "Marvell": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 35
+"streak": 0,
+"typical": 29
 },
 "MasterClass": {
 "alerted": false,
@@ -12041,9 +12044,8 @@
 },
 "Medtronic": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 157
+"streak": 0,
+"typical": 112
 },
 "Mercor": {
 "alerted": false,
@@ -12062,8 +12064,7 @@
 },
 "Micron": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 0,
 "typical": 298
 },
 "Microsoft": {
@@ -12102,9 +12103,9 @@
 "typical": 157
 },
 "NVIDIA": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 280
 },
 "NerdWallet": {
@@ -12388,9 +12389,9 @@
 "typical": 167
 },
 "Red Hat": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 24
 },
 "Reddit": {
@@ -12520,14 +12521,13 @@
 },
 "SiFive": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 0,
 "typical": 0
 },
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3077
+"typical": 3072
 },
 "Skip": {
 "alerted": false,
@@ -12547,7 +12547,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 354
+"typical": 355
 },
 "SoFi": {
 "alerted": false,
@@ -12631,9 +12631,8 @@
 },
 "T-Mobile": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 278
+"streak": 0,
+"typical": 187
 },
 "Tagup": {
 "alerted": false,
@@ -12756,9 +12755,9 @@
 "typical": 331
 },
 "Visa": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 43
 },
 "Viz Media": {
@@ -13451,6 +13450,7 @@
 "ashby:snowflake:2f1fa81b-78ac-4b86-bd7c-48a3c2d3ab97": "2026-10-22",
 "ashby:snowflake:33a598d7-b970-4958-b1b9-4d548777f286": "2026-10-19",
 "ashby:snowflake:36626c35-afdd-4618-b116-ae983abd3c10": "2026-10-19",
+"ashby:snowflake:43c2b225-e3fd-4706-a66f-154dd6a23025": "2026-10-24",
 "ashby:snowflake:46834516-7f0d-4b7d-be43-39c2852a9c83": "2026-10-19",
 "ashby:snowflake:5aa98590-e2bf-4f0a-a3b9-1795c6e22509": "2026-10-22",
 "ashby:snowflake:65d47abb-7532-4769-ab44-8e925b2a2356": "2026-10-21",
@@ -19454,6 +19454,7 @@
 "workday:marvell:2604622": "2026-10-20",
 "workday:marvell:2604625": "2026-10-21",
 "workday:marvell:2604713": "2026-10-21",
+"workday:marvell:2604753": "2026-10-24",
 "workday:marvell:2604843-1": "2026-10-22",
 "workday:marvell:2604877": "2026-10-20",
 "workday:marvell:2604880": "2026-10-20",
@@ -22593,9 +22594,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 22,
+"calls": 23,
 "date": "2026-10-24",
-"usd": 0.001777
+"usd": 0.001849
 },
 "years": {
 "amazon:10583340": [
