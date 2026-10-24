@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-24T20:01:08+00:00",
+ "run_at": "2026-10-24T20:30:51+00:00",
  "sources": {
   "31st Union": {
    "type": "greenhouse",
@@ -803,7 +803,7 @@
   },
   "NVIDIA": {
    "type": "workday",
-   "jobs": 210,
+   "jobs": 213,
    "error": null
   },
   "NerdWallet": {
@@ -988,8 +988,8 @@
   },
   "PayPal": {
    "type": "eightfold",
-   "jobs": 10,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 429: TOO MANY REQUESTS"
   },
   "Perplexity": {
    "type": "ashby",
