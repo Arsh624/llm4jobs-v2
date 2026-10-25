@@ -1130,6 +1130,26 @@
 },
 "2026-10-21"
 ],
+"eightfold:appliedmaterials.com:790314859974|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 1,
+"note": "Entry-level role with some experience preferred.",
+"us_ok": true
+},
+"2026-10-25"
+],
+"eightfold:appliedmaterials.com:790315002462|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 1,
+"note": "Role targets early career with training provided.",
+"us_ok": true
+},
+"2026-10-25"
+],
 "eightfold:appliedmaterials.com:790317913273|v3|73908d": [
 {
 "chance": 9,
@@ -11426,7 +11446,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 19
 },
 "Andromeda": {
 "alerted": false,
@@ -11621,7 +11641,7 @@
 "Cisco": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 12
 },
 "ClassDojo": {
 "alerted": false,
@@ -11926,7 +11946,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 105
+"typical": 48
 },
 "HackerOne": {
 "alerted": false,
@@ -11990,7 +12010,8 @@
 },
 "Intel": {
 "alerted": false,
-"streak": 0,
+"reason": "returned 0 jobs (usually ~134)",
+"streak": 1,
 "typical": 134
 },
 "Intuit": {
@@ -12016,7 +12037,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 26
 },
 "Keysight": {
 "alerted": false,
@@ -12106,7 +12127,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 29
+"typical": 14
 },
 "MasterClass": {
 "alerted": false,
@@ -12121,7 +12142,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 74
 },
 "Mercor": {
 "alerted": false,
@@ -12146,7 +12167,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 220
+"typical": 210
 },
 "Minted": {
 "alerted": false,
@@ -12181,7 +12202,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 236
+"typical": 182
 },
 "NerdWallet": {
 "alerted": false,
@@ -12466,7 +12487,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 14
 },
 "Reddit": {
 "alerted": false,
@@ -12546,7 +12567,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 212
+"typical": 153
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -12601,7 +12622,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2934
+"typical": 2932
 },
 "Skip": {
 "alerted": false,
@@ -12706,7 +12727,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 188
+"typical": 117
 },
 "Tagup": {
 "alerted": false,
@@ -12831,7 +12852,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 21
 },
 "Viz Media": {
 "alerted": false,
@@ -13593,6 +13614,9 @@
 "ashby:zapier:7683bf9a-cb86-47de-a15b-4bcc0b70e2e2": "2026-10-21",
 "ashby:zapier:904eb3dd-2cc0-48af-bb54-8ade5f7db686": "2026-10-20",
 "eightfold:appliedmaterials.com:790314546291": "2026-10-21",
+"eightfold:appliedmaterials.com:790314859974": "2026-10-25",
+"eightfold:appliedmaterials.com:790315002462": "2026-10-25",
+"eightfold:appliedmaterials.com:790315002826": "2026-10-25",
 "eightfold:appliedmaterials.com:790315648766": "2026-10-22",
 "eightfold:appliedmaterials.com:790315937977": "2026-10-20",
 "eightfold:appliedmaterials.com:790316056163": "2026-10-21",
@@ -22182,6 +22206,8 @@
 "applied materials|algorithm developer masters degree new college grad santa clara": "2026-10-20",
 "applied materials|algorithm developer new grad": "2026-10-20",
 "applied materials|business intelligence analyst i new college grad bachelor s santa clara ca": "2026-10-20",
+"applied materials|field service engineer ii c2": "2026-10-25",
+"applied materials|field service engineer ii c2 chandler az": "2026-10-25",
 "applied materials|fp a analyst new college grad mba austin tx": "2026-10-20",
 "applied materials|global software support engineer i": "2026-10-20",
 "applied materials|global software support engineer ii": "2026-10-21",
@@ -22731,9 +22757,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 3,
+"calls": 5,
 "date": "2026-10-25",
-"usd": 0.000396
+"usd": 0.000936
 },
 "years": {
 "amazon:10583340": [
