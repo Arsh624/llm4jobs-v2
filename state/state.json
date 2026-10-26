@@ -2970,6 +2970,16 @@
 },
 "2026-10-21"
 ],
+"greenhouse:verkada:5275159007|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads and offers in-office training.",
+"us_ok": true
+},
+"2026-10-26"
+],
 "greenhouse:waymo:8212626|v3|73908d": [
 {
 "chance": 4,
@@ -9928,6 +9938,13 @@
 },
 "2026-10-23"
 ],
+"rescue:workday:micron:JR100911": [
+{
+"note": "Requires extensive experience in security architecture.",
+"senior": true
+},
+"2026-10-26"
+],
 "rescue:workday:micron:JR101004-1": [
 {
 "note": "Requires extensive hardware design experience.",
@@ -13512,7 +13529,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 348
+"typical": 347
 },
 "Curri": {
 "alerted": false,
@@ -13797,7 +13814,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~134)",
-"streak": 87,
+"streak": 88,
 "typical": 134
 },
 "Intuit": {
@@ -13918,7 +13935,7 @@
 "MasterClass": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 5
 },
 "MatX": {
 "alerted": false,
@@ -13988,7 +14005,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 168
+"typical": 169
 },
 "NerdWallet": {
 "alerted": false,
@@ -14083,7 +14100,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 394
+"typical": 395
 },
 "Ooma": {
 "alerted": false,
@@ -14353,7 +14370,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 185
+"typical": 184
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -14513,7 +14530,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 141
+"typical": 143
 },
 "Tagup": {
 "alerted": false,
@@ -14633,7 +14650,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 330
+"typical": 331
 },
 "Visa": {
 "alerted": false,
@@ -18202,6 +18219,7 @@
 "greenhouse:verkada:5273993007": "2026-10-26",
 "greenhouse:verkada:5273995007": "2026-10-26",
 "greenhouse:verkada:5274927007": "2026-10-26",
+"greenhouse:verkada:5275159007": "2026-10-26",
 "greenhouse:verkada:5275655007": "2026-10-26",
 "greenhouse:waymo:8104309": "2026-10-21",
 "greenhouse:waymo:8157161": "2026-10-20",
@@ -22656,6 +22674,7 @@
 "workday:micron:JR100843": "2026-10-23",
 "workday:micron:JR100845": "2026-10-23",
 "workday:micron:JR100883": "2026-10-23",
+"workday:micron:JR100911": "2026-10-26",
 "workday:micron:JR100916": "2026-10-23",
 "workday:micron:JR101004-1": "2026-10-22",
 "workday:micron:JR101095": "2026-10-23",
@@ -23983,6 +24002,7 @@
 "workday:nvidia:JR2028501": "2026-10-23",
 "workday:nvidia:JR2028502-1": "2026-10-26",
 "workday:nvidia:JR2028506": "2026-10-26",
+"workday:nvidia:JR2028509": "2026-10-26",
 "workday:nvidia:JR2028518": "2026-10-26",
 "workday:nvidia:JR2028519": "2026-10-22",
 "workday:nvidia:JR2028521": "2026-10-25",
@@ -25032,6 +25052,8 @@
 "workday:tmobile:REQ380309-1": "2026-10-26",
 "workday:tmobile:REQ380313": "2026-10-26",
 "workday:tmobile:REQ380372-2": "2026-10-26",
+"workday:tmobile:REQ380392-1": "2026-10-26",
+"workday:tmobile:REQ380408-1": "2026-10-26",
 "workday:visa:REF079334W": "2026-10-20",
 "workday:visa:REF082972W": "2026-10-19",
 "workday:visa:REF083479W": "2026-10-19",
@@ -25814,6 +25836,7 @@
 "university of arkansas|research analyst": "2026-10-24",
 "university of southern california|programmer analyst 1": "2026-10-21",
 "varian|systems engineer 1 robotics automation": "2026-10-21",
+"verkada|it engineer": "2026-10-26",
 "verkada|researcher customer experience": "2026-10-20",
 "visa|analyst global social impact programs": "2026-10-21",
 "visa|analyst payment ecosystem risk compliance": "2026-10-19",
@@ -25842,9 +25865,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 212,
+"calls": 214,
 "date": "2026-10-26",
-"usd": 0.027818
+"usd": 0.028152
 },
 "years": {
 "amazon:10583340": [
