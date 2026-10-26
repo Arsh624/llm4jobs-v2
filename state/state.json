@@ -1040,6 +1040,16 @@
 },
 "2026-10-24"
 ],
+"ashby:perplexity:d865c821-9a27-416c-9c6a-14132a86f760|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Role targets energetic engineers; no strict experience required.",
+"us_ok": true
+},
+"2026-10-26"
+],
 "ashby:perplexity:d89a3cad-50d5-47fd-8f87-be55285ee2b1|v3|73908d": [
 {
 "chance": 0,
@@ -3239,6 +3249,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:ashby:openai:c8eda1e9-10f9-4fc8-b88a-042ea6751d5b": [
+{
+"note": "Requires significant technical expertise and leadership.",
+"senior": true
+},
+"2026-10-26"
 ],
 "rescue:ashby:openai:c955617d-f465-4f7a-b57c-98284fd14777": [
 {
@@ -5808,6 +5825,20 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:342933": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-10-26"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:344194": [
+{
+"note": "Requires extensive experience and technical leadership.",
+"senior": true
+},
+"2026-10-26"
 ],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:344638": [
 {
@@ -12199,7 +12230,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~134)",
-"streak": 54,
+"streak": 55,
 "typical": 134
 },
 "Intuit": {
@@ -12430,7 +12461,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 51
 },
 "NewsBreak": {
 "alerted": false,
@@ -12495,7 +12526,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 790
+"typical": 791
 },
 "OpenGov": {
 "alerted": false,
@@ -12515,7 +12546,7 @@
 "Oracle": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 150
 },
 "Orb": {
 "alerted": false,
@@ -12730,7 +12761,7 @@
 "Roku": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 86
 },
 "Roofstock": {
 "alerted": false,
@@ -12755,7 +12786,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 161
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -12810,7 +12841,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2931
+"typical": 2927
 },
 "Skip": {
 "alerted": false,
@@ -12875,7 +12906,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 720
+"typical": 721
 },
 "Substack": {
 "alerted": false,
@@ -13574,6 +13605,7 @@
 "ashby:openai:bc80a3ae-1e69-4a8d-8366-77fcdd56ff61": "2026-10-19",
 "ashby:openai:c2921990-3fff-469a-a117-f6a8f2a3d50c": "2026-10-24",
 "ashby:openai:c857b732-3556-4b65-8ae9-f64b92091729": "2026-10-19",
+"ashby:openai:c8eda1e9-10f9-4fc8-b88a-042ea6751d5b": "2026-10-26",
 "ashby:openai:c955617d-f465-4f7a-b57c-98284fd14777": "2026-10-22",
 "ashby:openai:c9832989-edc1-4f2f-8a79-8fa29f5623e2": "2026-10-24",
 "ashby:openai:cec9ba9a-0b2d-4e90-8482-01ccc72234fb": "2026-10-22",
@@ -13633,6 +13665,7 @@
 "ashby:perplexity:bf978d98-404d-48a5-bcf2-a1f70f195c2b": "2026-10-23",
 "ashby:perplexity:c23c4d82-3c53-432b-8a00-2e400ccdf3ea": "2026-10-23",
 "ashby:perplexity:cc22684f-b419-4ab8-8aa0-b4a393d3beb9": "2026-10-24",
+"ashby:perplexity:d865c821-9a27-416c-9c6a-14132a86f760": "2026-10-26",
 "ashby:perplexity:d89a3cad-50d5-47fd-8f87-be55285ee2b1": "2026-10-22",
 "ashby:perplexity:da212c9c-3c11-4e8e-8f97-e176b4876bea": "2026-10-19",
 "ashby:perplexity:f3814af2-55a3-49a5-b0cb-67199a2a45fb": "2026-10-19",
@@ -15869,6 +15902,7 @@
 "greenhouse:roblox:8293671": "2026-10-21",
 "greenhouse:roblox:8304526": "2026-10-24",
 "greenhouse:roblox:8304814": "2026-10-22",
+"greenhouse:roku:8067115": "2026-10-26",
 "greenhouse:roku:8300125": "2026-10-20",
 "greenhouse:roku:8305420": "2026-10-22",
 "greenhouse:roku:8311256": "2026-10-21",
@@ -16755,9 +16789,12 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:341644": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:341665": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:341842": "2026-10-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:341986": "2026-10-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:342332": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342438": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342694": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342695": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:342725": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342777": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342811": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342815": "2026-10-22",
@@ -16766,7 +16803,9 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342867": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342868": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342917": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:342929": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342932": "2026-10-24",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:342933": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342961": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342973": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:342975": "2026-10-21",
@@ -16779,11 +16818,13 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343785": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343810": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:343811": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:344194": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344227": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344251": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344441": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344566": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344597": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:344626": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344627": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344638": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344640": "2026-10-26",
@@ -16880,6 +16921,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347178": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347249": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347268": "2026-10-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347286": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347287": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347345": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347346": "2026-10-20",
@@ -16902,6 +16944,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347624": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347642": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347643": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347645": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347648": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347650": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347675": "2026-10-24",
@@ -20381,6 +20424,7 @@
 "workday:micron:JR109015-1": "2026-10-20",
 "workday:micron:JR109059": "2026-10-23",
 "workday:micron:JR109106": "2026-10-23",
+"workday:micron:JR109126": "2026-10-26",
 "workday:micron:JR109127": "2026-10-20",
 "workday:micron:JR109144": "2026-10-23",
 "workday:micron:JR109213": "2026-10-23",
@@ -21576,6 +21620,7 @@
 "workday:salesforce:JR298937": "2026-10-19",
 "workday:salesforce:JR299522-1": "2026-10-20",
 "workday:salesforce:JR302317": "2026-10-20",
+"workday:salesforce:JR313065": "2026-10-26",
 "workday:salesforce:JR314531": "2026-10-23",
 "workday:salesforce:JR318479": "2026-10-19",
 "workday:salesforce:JR321330": "2026-10-19",
@@ -21996,6 +22041,7 @@
 "workday:salesforce:JR365519-1": "2026-10-23",
 "workday:salesforce:JR365531": "2026-10-23",
 "workday:salesforce:JR365534": "2026-10-23",
+"workday:salesforce:JR365550": "2026-10-26",
 "workday:salesforce:JR365557": "2026-10-23",
 "workday:salesforce:JR365562": "2026-10-23",
 "workday:salesforce:JR365563": "2026-10-23",
@@ -22974,6 +23020,7 @@
 "performance software|software engineer": "2026-10-22",
 "perplexity ai|member of technical staff ai policy and strategic initiatives": "2026-10-23",
 "perplexity|member of technical staff ai policy and strategic initiatives": "2026-10-23",
+"perplexity|member of technical staff ai software engineer agent engine": "2026-10-26",
 "perplexity|member of technical staff ai software engineer agents": "2026-10-24",
 "perplexity|member of technical staff software engineer experience": "2026-10-22",
 "perplexity|member of technical staff software engineer training infrastructure": "2026-10-24",
@@ -23132,9 +23179,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 18,
+"calls": 22,
 "date": "2026-10-26",
-"usd": 0.001545
+"usd": 0.001888
 },
 "years": {
 "amazon:10583340": [
