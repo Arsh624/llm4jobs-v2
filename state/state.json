@@ -2150,6 +2150,16 @@
 },
 "2026-10-21"
 ],
+"greenhouse:anthropic:5461863008|v3|73908d": [
+{
+"chance": 3,
+"level": "entry",
+"min_years": 0,
+"note": "PhD required, limiting chances for new grads.",
+"us_ok": true
+},
+"2026-10-26"
+],
 "greenhouse:anthropic:5462893008|v3|73908d": [
 {
 "chance": 6,
@@ -11522,7 +11532,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 681
+"typical": 682
 },
 "Anyscale": {
 "alerted": false,
@@ -12067,7 +12077,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~134)",
-"streak": 41,
+"streak": 42,
 "typical": 134
 },
 "Intuit": {
@@ -12423,7 +12433,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1301
+"typical": 1299
 },
 "PandaDoc": {
 "alerted": false,
@@ -12678,7 +12688,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2930
+"typical": 2931
 },
 "Skip": {
 "alerted": false,
@@ -12743,7 +12753,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 718
+"typical": 719
 },
 "Substack": {
 "alerted": false,
@@ -14754,6 +14764,7 @@
 "greenhouse:anthropic:5460956008": "2026-10-23",
 "greenhouse:anthropic:5461534008": "2026-10-22",
 "greenhouse:anthropic:5461663008": "2026-10-22",
+"greenhouse:anthropic:5461863008": "2026-10-26",
 "greenhouse:anthropic:5461873008": "2026-10-23",
 "greenhouse:anthropic:5462413008": "2026-10-23",
 "greenhouse:anthropic:5462557008": "2026-10-24",
@@ -15887,6 +15898,7 @@
 "greenhouse:stripe:8314210": "2026-10-22",
 "greenhouse:stripe:8314235": "2026-10-22",
 "greenhouse:stripe:8314283": "2026-10-22",
+"greenhouse:stripe:8323732": "2026-10-26",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
 "greenhouse:sumologic:8305995": "2026-10-22",
@@ -22328,6 +22340,7 @@
 "anthropic|enforcement analyst agentic alignment": "2026-10-25",
 "anthropic|it systems engineer client platform engineer chromeos": "2026-10-19",
 "anthropic|research engineer chip design rl": "2026-10-21",
+"anthropic|research scientist life sciences computational chemistry": "2026-10-26",
 "anthropic|security engineer research engineer rl security": "2026-10-20",
 "apple|soc physical design engineer place and route": "2026-10-21",
 "apple|software engineer is t": "2026-10-19",
@@ -22888,9 +22901,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 0,
+"calls": 1,
 "date": "2026-10-26",
-"usd": 0.0
+"usd": 0.000257
 },
 "years": {
 "amazon:10583340": [
