@@ -5433,6 +5433,13 @@
 },
 "2026-10-21"
 ],
+"rescue:greenhouse:tenstorrent:5273421007": [
+{
+"note": "Open to various experience levels.",
+"senior": false
+},
+"2026-10-26"
+],
 "rescue:greenhouse:twilio:8258589": [
 {
 "note": "Requires significant experience in ML engineering.",
@@ -12031,7 +12038,7 @@
 "BitGo": {
 "alerted": false,
 "streak": 0,
-"typical": 52
+"typical": 53
 },
 "Block": {
 "alerted": false,
@@ -12096,7 +12103,7 @@
 "ChargePoint": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 39
 },
 "Chariot": {
 "alerted": false,
@@ -12131,7 +12138,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 455
+"typical": 453
 },
 "Cloudinary": {
 "alerted": false,
@@ -12191,7 +12198,7 @@
 "Crunchyroll": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 100
 },
 "Crusoe": {
 "alerted": false,
@@ -12216,7 +12223,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 892
+"typical": 893
 },
 "Dataiku": {
 "alerted": false,
@@ -12481,7 +12488,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~134)",
-"streak": 65,
+"streak": 66,
 "typical": 134
 },
 "Intuit": {
@@ -12612,7 +12619,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 49
 },
 "Mercor": {
 "alerted": false,
@@ -12672,7 +12679,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 151
 },
 "NerdWallet": {
 "alerted": false,
@@ -12712,7 +12719,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 49
 },
 "NewsBreak": {
 "alerted": false,
@@ -12917,7 +12924,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 368
+"typical": 367
 },
 "Qualcomm": {
 "alerted": false,
@@ -13022,7 +13029,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 147
+"typical": 146
 },
 "Runpod": {
 "alerted": false,
@@ -13157,7 +13164,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 720
+"typical": 719
 },
 "Substack": {
 "alerted": false,
@@ -13222,7 +13229,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 121
 },
 "The Athletic": {
 "alerted": false,
@@ -13252,7 +13259,7 @@
 "Together AI": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 84
 },
 "Treering": {
 "alerted": false,
@@ -13297,7 +13304,7 @@
 "Valon": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 27
 },
 "Vanta": {
 "alerted": false,
@@ -13317,7 +13324,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 331
+"typical": 330
 },
 "Visa": {
 "alerted": false,
@@ -13547,6 +13554,7 @@
 "ashby:Valon:9e7b4bb4-04c8-498f-b399-fa749a35b39d": "2026-10-23",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
+"ashby:amplitude:1031ce70-90e7-446d-be99-123a8058e686": "2026-10-26",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
 "ashby:amplitude:54d5b37c-9c8f-4804-a655-df8a54e03892": "2026-10-20",
 "ashby:amplitude:5feed6cb-cb3e-473b-a593-637def813587": "2026-10-21",
@@ -15473,6 +15481,7 @@
 "greenhouse:databricks:8899929002": "2026-10-19",
 "greenhouse:databricks:8899931002": "2026-10-22",
 "greenhouse:databricks:8900134002": "2026-10-19",
+"greenhouse:databricks:8902290002": "2026-10-26",
 "greenhouse:databricks:8902939002": "2026-10-20",
 "greenhouse:databricks:8903089002": "2026-10-22",
 "greenhouse:databricks:8903091002": "2026-10-22",
@@ -16354,6 +16363,8 @@
 "greenhouse:tanium:8301342": "2026-10-20",
 "greenhouse:tenstorrent:5227982007": "2026-10-22",
 "greenhouse:tenstorrent:5270577007": "2026-10-21",
+"greenhouse:tenstorrent:5273420007": "2026-10-26",
+"greenhouse:tenstorrent:5273421007": "2026-10-26",
 "greenhouse:togetherai:5266079007": "2026-10-20",
 "greenhouse:togetherai:5267197007": "2026-10-19",
 "greenhouse:togetherai:5267198007": "2026-10-19",
@@ -21564,6 +21575,7 @@
 "workday:nvidia:JR2017417": "2026-10-23",
 "workday:nvidia:JR2017625": "2026-10-26",
 "workday:nvidia:JR2017806-1": "2026-10-19",
+"workday:nvidia:JR2017811": "2026-10-26",
 "workday:nvidia:JR2017966": "2026-10-19",
 "workday:nvidia:JR2018037": "2026-10-21",
 "workday:nvidia:JR2018113": "2026-10-19",
@@ -23557,9 +23569,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 54,
+"calls": 55,
 "date": "2026-10-26",
-"usd": 0.005453
+"usd": 0.005524
 },
 "years": {
 "amazon:10583340": [
