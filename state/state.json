@@ -11080,6 +11080,16 @@
 },
 "2026-10-23"
 ],
+"workday:nvidia:JR2022759|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of hands-on experience.",
+"us_ok": true
+},
+"2026-10-26"
+],
 "workday:nvidia:JR2023486|v3|73908d": [
 {
 "chance": 9,
@@ -11840,7 +11850,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 896
+"typical": 895
 },
 "Dataiku": {
 "alerted": false,
@@ -12040,7 +12050,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 51
+"typical": 53
 },
 "HackerOne": {
 "alerted": false,
@@ -12105,7 +12115,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~134)",
-"streak": 48,
+"streak": 49,
 "typical": 134
 },
 "Intuit": {
@@ -12236,7 +12246,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 74
+"typical": 70
 },
 "Mercor": {
 "alerted": false,
@@ -12296,7 +12306,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 207
+"typical": 208
 },
 "NerdWallet": {
 "alerted": false,
@@ -12626,7 +12636,7 @@
 "Roblox": {
 "alerted": false,
 "streak": 0,
-"typical": 269
+"typical": 268
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -12646,7 +12656,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 149
 },
 "Runpod": {
 "alerted": false,
@@ -12661,7 +12671,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 158
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -15796,6 +15806,7 @@
 "greenhouse:rubrik:8303160": "2026-10-21",
 "greenhouse:rubrik:8303682": "2026-10-20",
 "greenhouse:rubrik:8304669": "2026-10-21",
+"greenhouse:rubrik:8305308": "2026-10-26",
 "greenhouse:rubrik:8306164": "2026-10-21",
 "greenhouse:rubrik:8306452": "2026-10-22",
 "greenhouse:rubrik:8310713": "2026-10-23",
@@ -17134,6 +17145,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303333": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303338": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303346": "2026-10-20",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303348": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303349": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303350": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303354": "2026-10-23",
@@ -17175,6 +17187,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303621": "2026-10-22",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303629": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303633": "2026-10-23",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303641": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303650": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303657": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303669": "2026-10-21",
@@ -19269,6 +19282,7 @@
 "workday:cisco:2028928": "2026-10-21",
 "workday:cisco:2028929": "2026-10-20",
 "workday:cisco:2029584-1": "2026-10-23",
+"workday:hp:3141247": "2026-10-26",
 "workday:hp:3152106-2": "2026-10-22",
 "workday:hp:3155225-1": "2026-10-21",
 "workday:hp:3156552-2": "2026-10-21",
@@ -19321,6 +19335,7 @@
 "workday:hp:3167317-2": "2026-10-22",
 "workday:hp:3167379-2": "2026-10-23",
 "workday:hp:3167485-1": "2026-10-22",
+"workday:hp:3167556-1": "2026-10-26",
 "workday:hp:3167611-1": "2026-10-20",
 "workday:hp:3167640-1": "2026-10-20",
 "workday:hp:3167641-1": "2026-10-20",
@@ -20621,6 +20636,7 @@
 "workday:micron:JR114841": "2026-10-23",
 "workday:micron:JR114848": "2026-10-23",
 "workday:micron:JR114852": "2026-10-22",
+"workday:micron:JR114855": "2026-10-26",
 "workday:micron:JR114856": "2026-10-20",
 "workday:micron:JR114893": "2026-10-23",
 "workday:micron:JR114913": "2026-10-20",
@@ -21078,6 +21094,7 @@
 "workday:nvidia:JR2022681": "2026-10-23",
 "workday:nvidia:JR2022702": "2026-10-19",
 "workday:nvidia:JR2022721": "2026-10-19",
+"workday:nvidia:JR2022759": "2026-10-26",
 "workday:nvidia:JR2022763": "2026-10-22",
 "workday:nvidia:JR2022775": "2026-10-20",
 "workday:nvidia:JR2022783": "2026-10-22",
@@ -22763,6 +22780,7 @@
 "nvidia|silicon co design engineer new grad": "2026-10-23",
 "nvidia|software engineer agent performance modeling new college grad 2026": "2026-10-21",
 "nvidia|software engineer new grad agent performance modeling": "2026-10-21",
+"nvidia|software verification engineer networking": "2026-10-26",
 "nvidia|system software engineer data center gpu compute diagnostics": "2026-10-21",
 "nvidia|system software engineer robotics simulation": "2026-10-23",
 "nvidia|technical product marketing engineer robotics simulation": "2026-10-19",
@@ -22963,9 +22981,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 5,
+"calls": 6,
 "date": "2026-10-26",
-"usd": 0.000541
+"usd": 0.000735
 },
 "years": {
 "amazon:10583340": [
