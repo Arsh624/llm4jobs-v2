@@ -4348,6 +4348,13 @@
 },
 "2026-10-20"
 ],
+"rescue:eightfold:microsoft.com:1970393556933856": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-10-27"
+],
 "rescue:eightfold:microsoft.com:1970393556937162": [
 {
 "note": "Requires extensive experience in security engineering.",
@@ -13795,7 +13802,7 @@
 "Chime": {
 "alerted": false,
 "streak": 0,
-"typical": 74
+"typical": 75
 },
 "Cisco": {
 "alerted": false,
@@ -13820,7 +13827,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 460
+"typical": 461
 },
 "Cloudinary": {
 "alerted": false,
@@ -14040,7 +14047,7 @@
 "Figure AI": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 103
 },
 "Fin (payments)": {
 "alerted": false,
@@ -14170,12 +14177,12 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 75
+"typical": 76
 },
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 600
+"typical": 599
 },
 "Iru (formerly Kandji)": {
 "alerted": false,
@@ -14310,7 +14317,7 @@
 "Mercury Technologies": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 76
 },
 "Method Financial": {
 "alerted": false,
@@ -14320,7 +14327,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 },
 "Microsoft": {
 "alerted": false,
@@ -14524,9 +14531,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(348116 bytes read)",
-"streak": 1,
-"typical": 1289
+"streak": 0,
+"typical": 1288
 },
 "PandaDoc": {
 "alerted": false,
@@ -14581,7 +14587,7 @@
 "Planet Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 122
 },
 "Poshmark": {
 "alerted": false,
@@ -14781,7 +14787,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2934
+"typical": 2933
 },
 "Skip": {
 "alerted": false,
@@ -15026,7 +15032,7 @@
 "Waymo": {
 "alerted": false,
 "streak": 0,
-"typical": 369
+"typical": 368
 },
 "Wealthfront": {
 "alerted": false,
@@ -15086,7 +15092,7 @@
 "fal": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 46
 },
 "project44": {
 "alerted": false,
@@ -16318,6 +16324,7 @@
 "eightfold:microsoft.com:1970393556933263": "2026-10-20",
 "eightfold:microsoft.com:1970393556933333": "2026-10-26",
 "eightfold:microsoft.com:1970393556933528": "2026-10-23",
+"eightfold:microsoft.com:1970393556933856": "2026-10-27",
 "eightfold:microsoft.com:1970393556937162": "2026-10-20",
 "eightfold:microsoft.com:1970393556937249": "2026-10-23",
 "eightfold:microsoft.com:1970393556938012": "2026-10-21",
@@ -16873,6 +16880,7 @@
 "eightfold:microsoft.com:1970393557045376": "2026-10-23",
 "eightfold:microsoft.com:1970393557045408": "2026-10-26",
 "eightfold:microsoft.com:1970393557045412": "2026-10-26",
+"eightfold:microsoft.com:1970393557045415": "2026-10-27",
 "eightfold:microsoft.com:1970393557045417": "2026-10-26",
 "eightfold:microsoft.com:1970393557045445": "2026-10-22",
 "eightfold:microsoft.com:1970393557045536": "2026-10-23",
@@ -17320,6 +17328,7 @@
 "greenhouse:chime:8900582002": "2026-10-26",
 "greenhouse:chime:8907786002": "2026-10-22",
 "greenhouse:chime:8907828002": "2026-10-22",
+"greenhouse:chime:8917560002": "2026-10-27",
 "greenhouse:cloudflare:7421848": "2026-10-20",
 "greenhouse:cloudflare:8242481": "2026-10-19",
 "greenhouse:cloudflare:8256872": "2026-10-22",
@@ -17340,6 +17349,7 @@
 "greenhouse:cloudflare:8300941": "2026-10-20",
 "greenhouse:cloudflare:8301509": "2026-10-21",
 "greenhouse:cloudflare:8301592": "2026-10-21",
+"greenhouse:cloudflare:8303150": "2026-10-27",
 "greenhouse:cloudflare:8303996": "2026-10-20",
 "greenhouse:cloudflare:8304060": "2026-10-20",
 "greenhouse:cloudflare:8304122": "2026-10-21",
@@ -19110,6 +19120,7 @@
 "jibe:careers.keysight.com:55224": "2026-10-22",
 "jibe:careers.keysight.com:55230": "2026-10-26",
 "jibe:careers.keysight.com:55232": "2026-10-22",
+"jibe:careers.keysight.com:55236": "2026-10-27",
 "jibe:careers.keysight.com:55239": "2026-10-23",
 "jibe:careers.keysight.com:55246": "2026-10-26",
 "jibe:careers.keysight.com:55251": "2026-10-23",
@@ -22178,6 +22189,8 @@
 "talentbrew:jobs.paloaltonetworks.com:102480656800": "2026-10-26",
 "talentbrew:jobs.paloaltonetworks.com:102480658272": "2026-10-26",
 "talentbrew:jobs.paloaltonetworks.com:102480658288": "2026-10-26",
+"talentbrew:jobs.paloaltonetworks.com:102486197584": "2026-10-27",
+"talentbrew:jobs.paloaltonetworks.com:102486199232": "2026-10-27",
 "talentbrew:jobs.paloaltonetworks.com:96174875952": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:96174877760": "2026-10-20",
 "talentbrew:jobs.paloaltonetworks.com:96174880080": "2026-10-26",
@@ -22746,6 +22759,7 @@
 "workday:intel:JR0288420-1": "2026-10-23",
 "workday:intel:JR0288422": "2026-10-21",
 "workday:intel:JR0288426": "2026-10-21",
+"workday:intel:JR0288427": "2026-10-27",
 "workday:intel:JR0288434": "2026-10-21",
 "workday:intel:JR0288437-1": "2026-10-23",
 "workday:intel:JR0288441": "2026-10-21",
@@ -23910,6 +23924,7 @@
 "workday:micron:JR116010": "2026-10-26",
 "workday:micron:JR116017": "2026-10-26",
 "workday:micron:JR116034": "2026-10-26",
+"workday:micron:JR116066": "2026-10-27",
 "workday:micron:JR72632": "2026-10-23",
 "workday:micron:JR75038-1": "2026-10-23",
 "workday:micron:JR78935": "2026-10-23",
@@ -26505,9 +26520,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 16,
+"calls": 17,
 "date": "2026-10-27",
-"usd": 0.003166
+"usd": 0.003233
 },
 "years": {
 "amazon:10583340": [
