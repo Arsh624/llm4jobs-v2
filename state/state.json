@@ -10440,6 +10440,13 @@
 },
 "2026-10-23"
 ],
+"rescue:workday:micron:JR104745": [
+{
+"note": "Requires significant experience in firmware validation.",
+"senior": true
+},
+"2026-10-27"
+],
 "rescue:workday:micron:JR104923": [
 {
 "note": "Staff implies higher experience level required.",
@@ -14366,7 +14373,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 188
+"typical": 189
 },
 "Forward Networks": {
 "alerted": false,
@@ -14411,7 +14418,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 51
 },
 "HackerOne": {
 "alerted": false,
@@ -14476,7 +14483,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "Intuit": {
 "alerted": false,
@@ -14581,7 +14588,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 447
+"typical": 448
 },
 "Lyft": {
 "alerted": false,
@@ -14886,7 +14893,7 @@
 "Planet Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 124
 },
 "Poshmark": {
 "alerted": false,
@@ -15031,7 +15038,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 125
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -15316,7 +15323,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 8
+"typical": 13
 },
 "Viz Media": {
 "alerted": false,
@@ -15381,7 +15388,7 @@
 "Zuora": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "Zyphra": {
 "alerted": false,
@@ -19142,6 +19149,7 @@
 "greenhouse:zuora:8281561": "2026-10-22",
 "greenhouse:zuora:8281565": "2026-10-26",
 "greenhouse:zuora:8302183": "2026-10-23",
+"greenhouse:zuora:8302895": "2026-10-27",
 "greenhouse:zuora:8302897": "2026-10-20",
 "jibe:careers.amd.com:80063": "2026-10-22",
 "jibe:careers.amd.com:84338": "2026-10-21",
@@ -20278,6 +20286,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153698": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:156028": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:156955": "2026-10-21",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:157630": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:157676": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:158153": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:158936": "2026-10-26",
@@ -22892,6 +22901,7 @@
 "workday:hp:3170139-1": "2026-10-20",
 "workday:hp:3170143": "2026-10-20",
 "workday:hp:3170145-1": "2026-10-27",
+"workday:hp:3170151-1": "2026-10-27",
 "workday:hp:3170168-1": "2026-10-20",
 "workday:hp:3170183-1": "2026-10-20",
 "workday:hp:3170188-1": "2026-10-20",
@@ -23199,6 +23209,7 @@
 "workday:intel:JR0288507": "2026-10-23",
 "workday:intel:JR0288512": "2026-10-27",
 "workday:intel:JR0288513": "2026-10-27",
+"workday:intel:JR0288521": "2026-10-27",
 "workday:intel:JR0288527": "2026-10-23",
 "workday:intel:JR0288531": "2026-10-27",
 "workday:intel:JR0288534": "2026-10-27",
@@ -23716,6 +23727,7 @@
 "workday:micron:JR104418": "2026-10-21",
 "workday:micron:JR104599": "2026-10-20",
 "workday:micron:JR104652": "2026-10-21",
+"workday:micron:JR104745": "2026-10-27",
 "workday:micron:JR104802": "2026-10-22",
 "workday:micron:JR104923": "2026-10-27",
 "workday:micron:JR105088": "2026-10-20",
@@ -25664,6 +25676,7 @@
 "workday:salesforce:JR365814-1": "2026-10-26",
 "workday:salesforce:JR365820-1": "2026-10-26",
 "workday:salesforce:JR365826": "2026-10-27",
+"workday:salesforce:JR365839": "2026-10-27",
 "workday:salesforce:JR365865": "2026-10-27",
 "workday:salesforce:JR365872-1": "2026-10-27",
 "workday:salesforce:JR365875": "2026-10-27",
@@ -26234,7 +26247,12 @@
 "workday:visa:REF089720W": "2026-10-21",
 "workday:visa:REF089768W": "2026-10-26",
 "workday:visa:REF089830W": "2026-10-23",
-"workday:visa:REF089900W": "2026-10-27"
+"workday:visa:REF089881W-1": "2026-10-27",
+"workday:visa:REF089883W-1": "2026-10-27",
+"workday:visa:REF089884W-2": "2026-10-27",
+"workday:visa:REF089900W": "2026-10-27",
+"workday:visa:REF089901W-2": "2026-10-27",
+"workday:visa:REF089902W": "2026-10-27"
 },
 "sent": {
 "abacus insights|associate data engineer": "2026-10-27",
@@ -27021,9 +27039,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 58,
+"calls": 59,
 "date": "2026-10-27",
-"usd": 0.006712
+"usd": 0.006781
 },
 "years": {
 "amazon:10583340": [
