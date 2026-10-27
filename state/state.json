@@ -14031,7 +14031,8 @@
 },
 "Analog Devices": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 9
 },
 "Andromeda": {
@@ -14332,7 +14333,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 896
+"typical": 897
 },
 "Dataiku": {
 "alerted": false,
@@ -14597,7 +14598,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 52
 },
 "Intuit": {
 "alerted": false,
@@ -14727,7 +14728,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 68
+"typical": 69
 },
 "Mercor": {
 "alerted": false,
@@ -14892,7 +14893,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 796
+"typical": 797
 },
 "OpenGov": {
 "alerted": false,
@@ -15197,7 +15198,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 410
+"typical": 411
 },
 "SiFive": {
 "alerted": false,
@@ -15207,7 +15208,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 2940
+"typical": 2938
 },
 "Skip": {
 "alerted": false,
@@ -16008,6 +16009,7 @@
 "ashby:openai:2c646ef9-6f93-4124-9d51-964d2c5aa783": "2026-10-26",
 "ashby:openai:2ffdcfea-7a7c-46a1-a3d7-e9a2c598258b": "2026-10-19",
 "ashby:openai:30a1d941-f12c-4589-a7a0-dad116b9aa33": "2026-10-19",
+"ashby:openai:30e3b7b2-1fe4-49a4-a82f-9c34626f0441": "2026-10-27",
 "ashby:openai:3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19",
 "ashby:openai:341a5ad4-9134-4bad-88e1-2ce0f70bf519": "2026-10-19",
 "ashby:openai:34c2ed3f-840f-4a68-9a00-0a0606660abf": "2026-10-19",
@@ -17911,6 +17913,7 @@
 "greenhouse:databricks:8855539002": "2026-10-21",
 "greenhouse:databricks:8860657002": "2026-10-19",
 "greenhouse:databricks:8869256002": "2026-10-21",
+"greenhouse:databricks:8870720002": "2026-10-27",
 "greenhouse:databricks:8872760002": "2026-10-20",
 "greenhouse:databricks:8876613002": "2026-10-19",
 "greenhouse:databricks:8876680002": "2026-10-19",
@@ -18166,6 +18169,7 @@
 "greenhouse:gomotive:8913113002": "2026-10-26",
 "greenhouse:gomotive:8913574002": "2026-10-26",
 "greenhouse:gomotive:8915912002": "2026-10-26",
+"greenhouse:gomotive:8916786002": "2026-10-27",
 "greenhouse:googlefiber:6210675004": "2026-10-20",
 "greenhouse:googlefiber:6222969004": "2026-10-27",
 "greenhouse:googlefiber:6223655004": "2026-10-27",
@@ -23358,7 +23362,9 @@
 "workday:intel:JR0288322": "2026-10-27",
 "workday:intel:JR0288324": "2026-10-22",
 "workday:intel:JR0288325": "2026-10-22",
+"workday:intel:JR0288327": "2026-10-27",
 "workday:intel:JR0288328-1": "2026-10-22",
+"workday:intel:JR0288329-1": "2026-10-27",
 "workday:intel:JR0288330": "2026-10-23",
 "workday:intel:JR0288331": "2026-10-23",
 "workday:intel:JR0288336": "2026-10-22",
@@ -23874,6 +23880,7 @@
 "workday:medtronic:R80597-1": "2026-10-26",
 "workday:medtronic:R80599": "2026-10-26",
 "workday:medtronic:R80605-1": "2026-10-23",
+"workday:medtronic:R80613-1": "2026-10-27",
 "workday:medtronic:R80676": "2026-10-26",
 "workday:medtronic:R80683-1": "2026-10-27",
 "workday:medtronic:R80693-2": "2026-10-26",
