@@ -5778,6 +5778,13 @@
 },
 "2026-10-20"
 ],
+"rescue:greenhouse:databricks:8902815002": [
+{
+"note": "Requires significant experience and technical expertise.",
+"senior": true
+},
+"2026-10-27"
+],
 "rescue:greenhouse:databricks:8910850002": [
 {
 "note": "Requires significant management experience.",
@@ -6022,6 +6029,13 @@
 "senior": true
 },
 "2026-10-21"
+],
+"rescue:greenhouse:newrelic:5459404008": [
+{
+"note": "Requires significant experience and leadership skills.",
+"senior": true
+},
+"2026-10-27"
 ],
 "rescue:greenhouse:okta:8299852": [
 {
@@ -14070,7 +14084,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 461
+"typical": 460
 },
 "Cloudinary": {
 "alerted": false,
@@ -14155,7 +14169,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 897
+"typical": 898
 },
 "Dataiku": {
 "alerted": false,
@@ -14305,7 +14319,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 171
+"typical": 172
 },
 "Flexport": {
 "alerted": false,
@@ -14650,7 +14664,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 49
 },
 "NewsBreak": {
 "alerted": false,
@@ -14975,7 +14989,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 205
+"typical": 210
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -15020,7 +15034,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 411
+"typical": 412
 },
 "SiFive": {
 "alerted": false,
@@ -17744,6 +17758,7 @@
 "greenhouse:databricks:8899931002": "2026-10-22",
 "greenhouse:databricks:8900134002": "2026-10-19",
 "greenhouse:databricks:8902290002": "2026-10-26",
+"greenhouse:databricks:8902815002": "2026-10-27",
 "greenhouse:databricks:8902939002": "2026-10-20",
 "greenhouse:databricks:8903089002": "2026-10-22",
 "greenhouse:databricks:8903091002": "2026-10-22",
@@ -17915,6 +17930,7 @@
 "greenhouse:fivetran:8040028003": "2026-10-22",
 "greenhouse:fivetran:8042288003": "2026-10-23",
 "greenhouse:fivetran:8042380003": "2026-10-26",
+"greenhouse:fivetran:8044038003": "2026-10-27",
 "greenhouse:fivetran:8045175003": "2026-10-26",
 "greenhouse:flexport:8260171": "2026-10-20",
 "greenhouse:flexport:8263322": "2026-10-20",
@@ -18115,6 +18131,7 @@
 "greenhouse:newrelic:5458286008": "2026-10-22",
 "greenhouse:newrelic:5459391008": "2026-10-21",
 "greenhouse:newrelic:5459398008": "2026-10-26",
+"greenhouse:newrelic:5459404008": "2026-10-27",
 "greenhouse:newrelic:5461059008": "2026-10-23",
 "greenhouse:newrelic:5463259008": "2026-10-26",
 "greenhouse:nextdoor:8259945": "2026-10-20",
@@ -19798,8 +19815,11 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346181": "2026-10-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346183": "2026-10-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346188": "2026-10-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346190": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346192": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346194": "2026-10-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346202": "2026-10-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346205": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346206": "2026-10-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346207": "2026-10-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346214": "2026-10-24",
@@ -25160,6 +25180,7 @@
 "workday:salesforce:JR355122": "2026-10-21",
 "workday:salesforce:JR355160-1": "2026-10-20",
 "workday:salesforce:JR355204": "2026-10-25",
+"workday:salesforce:JR355530": "2026-10-27",
 "workday:salesforce:JR355551": "2026-10-22",
 "workday:salesforce:JR355616": "2026-10-21",
 "workday:salesforce:JR355677": "2026-10-19",
@@ -25231,6 +25252,7 @@
 "workday:salesforce:JR359585": "2026-10-21",
 "workday:salesforce:JR359830": "2026-10-22",
 "workday:salesforce:JR359859-1": "2026-10-21",
+"workday:salesforce:JR360032": "2026-10-27",
 "workday:salesforce:JR360062": "2026-10-26",
 "workday:salesforce:JR360103": "2026-10-20",
 "workday:salesforce:JR360223": "2026-10-21",
@@ -25323,6 +25345,9 @@
 "workday:salesforce:JR362697-1": "2026-10-19",
 "workday:salesforce:JR362712": "2026-10-23",
 "workday:salesforce:JR362718": "2026-10-22",
+"workday:salesforce:JR362753": "2026-10-27",
+"workday:salesforce:JR362757": "2026-10-27",
+"workday:salesforce:JR362758": "2026-10-27",
 "workday:salesforce:JR362825": "2026-10-21",
 "workday:salesforce:JR362826": "2026-10-20",
 "workday:salesforce:JR362833": "2026-10-20",
@@ -26935,9 +26960,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 50,
+"calls": 52,
 "date": "2026-10-27",
-"usd": 0.006153
+"usd": 0.006289
 },
 "years": {
 "amazon:10583340": [
