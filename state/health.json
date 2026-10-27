@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-27T00:00:58+00:00",
+ "run_at": "2026-10-27T00:30:52+00:00",
  "sources": {
   "31st Union": {
    "type": "greenhouse",
@@ -63,7 +63,7 @@
   },
   "Anomali": {
    "type": "lever",
-   "jobs": 8,
+   "jobs": 9,
    "error": null
   },
   "Anthropic": {
@@ -78,7 +78,7 @@
   },
   "AppLovin": {
    "type": "greenhouse",
-   "jobs": 41,
+   "jobs": 43,
    "error": null
   },
   "Applied Materials": {
@@ -143,7 +143,7 @@
   },
   "Baseten": {
    "type": "ashby",
-   "jobs": 108,
+   "jobs": 109,
    "error": null
   },
   "Benchling": {
@@ -223,7 +223,7 @@
   },
   "Cerebras": {
    "type": "ashby",
-   "jobs": 120,
+   "jobs": 119,
    "error": null
   },
   "ChargePoint": {
@@ -323,12 +323,12 @@
   },
   "Crunchyroll": {
    "type": "greenhouse",
-   "jobs": 99,
+   "jobs": 100,
    "error": null
   },
   "Crusoe": {
    "type": "ashby",
-   "jobs": 348,
+   "jobs": 349,
    "error": null
   },
   "Curri": {
@@ -403,7 +403,7 @@
   },
   "DoorDash": {
    "type": "greenhouse",
-   "jobs": 448,
+   "jobs": 447,
    "error": null
   },
   "Doximity": {
@@ -538,7 +538,7 @@
   },
   "GoodLeap": {
    "type": "lever",
-   "jobs": 28,
+   "jobs": 27,
    "error": null
   },
   "Google Fiber": {
@@ -613,7 +613,7 @@
   },
   "Intel": {
    "type": "workday",
-   "jobs": 0,
+   "jobs": 75,
    "error": null
   },
   "Intuit": {
@@ -803,7 +803,7 @@
   },
   "NVIDIA": {
    "type": "workday",
-   "jobs": 183,
+   "jobs": 184,
    "error": null
   },
   "NerdWallet": {
@@ -898,7 +898,7 @@
   },
   "One Medical": {
    "type": "greenhouse",
-   "jobs": 393,
+   "jobs": 394,
    "error": null
   },
   "Ooma": {
@@ -908,7 +908,7 @@
   },
   "OpenAI": {
    "type": "ashby",
-   "jobs": 797,
+   "jobs": 796,
    "error": null
   },
   "OpenGov": {
@@ -968,8 +968,8 @@
   },
   "Palo Alto Networks": {
    "type": "talentbrew",
-   "jobs": 1289,
-   "error": null
+   "jobs": 0,
+   "error": "IncompleteRead: IncompleteRead(348116 bytes read)"
   },
   "PandaDoc": {
    "type": "greenhouse",
@@ -1098,7 +1098,7 @@
   },
   "Redis": {
    "type": "ashby",
-   "jobs": 27,
+   "jobs": 28,
    "error": null
   },
   "Reflection AI": {
@@ -1168,7 +1168,7 @@
   },
   "Salesforce": {
    "type": "workday",
-   "jobs": 192,
+   "jobs": 193,
    "error": null
   },
   "SambaNova Systems": {
@@ -1213,7 +1213,7 @@
   },
   "ServiceNow": {
    "type": "smartrecruiters",
-   "jobs": 418,
+   "jobs": 415,
    "error": null
   },
   "SiFive": {
@@ -1543,7 +1543,7 @@
   },
   "xAI": {
    "type": "greenhouse",
-   "jobs": 307,
+   "jobs": 306,
    "error": null
   }
  }
