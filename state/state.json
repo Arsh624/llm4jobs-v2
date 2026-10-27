@@ -2970,6 +2970,16 @@
 },
 "2026-10-27"
 ],
+"greenhouse:accela:8318577|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 1,
+"note": "Role targets candidates with 1-3 years of experience.",
+"us_ok": true
+},
+"2026-10-27"
+],
 "greenhouse:airbnb:8280222|v3|73908d": [
 {
 "chance": 3,
@@ -3720,6 +3730,16 @@
 },
 "2026-10-23"
 ],
+"jibe:careers.amd.com:93263|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads; location boosts chances.",
+"us_ok": true
+},
+"2026-10-27"
+],
 "jibe:careers.amd.com:93331|v3|73908d": [
 {
 "chance": 7,
@@ -4246,6 +4266,13 @@
 "senior": true
 },
 "2026-10-23"
+],
+"rescue:amazon:10586568": [
+{
+"note": "Requires extensive management experience.",
+"senior": true
+},
+"2026-10-27"
 ],
 "rescue:amazon:10587257": [
 {
@@ -5951,6 +5978,13 @@
 "rescue:eightfold:qualcomm.com:446721376067": [
 {
 "note": "Requires 7+ years of experience.",
+"senior": true
+},
+"2026-10-27"
+],
+"rescue:eightfold:qualcomm.com:446721489412": [
+{
+"note": "Requires 4+ years of experience.",
 "senior": true
 },
 "2026-10-27"
@@ -12318,6 +12352,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:nvidia:JR2002944": [
+{
+"note": "Requires deep expertise in AI solutions.",
+"senior": true
+},
+"2026-10-27"
+],
 "rescue:workday:nvidia:JR2010147": [
 {
 "note": "Requires significant technical expertise and experience.",
@@ -12331,6 +12372,13 @@
 "senior": true
 },
 "2026-10-21"
+],
+"rescue:workday:nvidia:JR2014105": [
+{
+"note": "Requires significant technical expertise and leadership.",
+"senior": true
+},
+"2026-10-27"
 ],
 "rescue:workday:nvidia:JR2016645": [
 {
@@ -12422,6 +12470,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:workday:nvidia:JR2024361": [
+{
+"note": "Requires significant experience in solutions architecture.",
+"senior": true
+},
+"2026-10-27"
 ],
 "rescue:workday:nvidia:JR2024421": [
 {
@@ -12751,6 +12806,13 @@
 "senior": true
 },
 "2026-10-23"
+],
+"rescue:workday:salesforce:JR358501": [
+{
+"note": "Requires significant technical expertise.",
+"senior": true
+},
+"2026-10-27"
 ],
 "rescue:workday:salesforce:JR358756": [
 {
@@ -13512,6 +13574,16 @@
 "us_ok": true
 },
 "2026-10-20"
+],
+"workday:intel:JR0287144|v3|73908d": [
+{
+"chance": 5,
+"level": "entry",
+"min_years": null,
+"note": "PhD required, but entry-level position listed.",
+"us_ok": true
+},
+"2026-10-27"
 ],
 "workday:intel:JR0287217|v3|73908d": [
 {
@@ -15118,7 +15190,7 @@
 "Accela": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Actian": {
 "alerted": false,
@@ -15153,7 +15225,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 13
 },
 "Andromeda": {
 "alerted": false,
@@ -15248,7 +15320,7 @@
 "Baseten": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 108
 },
 "Benchling": {
 "alerted": false,
@@ -15263,7 +15335,7 @@
 "Bill.com": {
 "alerted": false,
 "streak": 0,
-"typical": 43
+"typical": 44
 },
 "BitGo": {
 "alerted": false,
@@ -15273,7 +15345,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 203
 },
 "Boku": {
 "alerted": false,
@@ -15303,7 +15375,7 @@
 "Brilliant Earth": {
 "alerted": false,
 "streak": 0,
-"typical": 72
+"typical": 73
 },
 "Bugcrowd": {
 "alerted": false,
@@ -15328,7 +15400,7 @@
 "Cerebras": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 118
 },
 "ChargePoint": {
 "alerted": false,
@@ -15343,7 +15415,7 @@
 "Chime": {
 "alerted": false,
 "streak": 0,
-"typical": 73
+"typical": 72
 },
 "Cisco": {
 "alerted": false,
@@ -15428,7 +15500,7 @@
 "Crunchyroll": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 102
 },
 "Crusoe": {
 "alerted": false,
@@ -15453,7 +15525,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 893
+"typical": 894
 },
 "Dataiku": {
 "alerted": false,
@@ -15508,7 +15580,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 445
+"typical": 446
 },
 "Doximity": {
 "alerted": false,
@@ -15603,12 +15675,12 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 166
 },
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 192
+"typical": 191
 },
 "Forward Networks": {
 "alerted": false,
@@ -15653,7 +15725,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 76
+"typical": 77
 },
 "HackerOne": {
 "alerted": false,
@@ -15713,12 +15785,12 @@
 "Instacart": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 98
 },
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 63
+"typical": 64
 },
 "Intuit": {
 "alerted": false,
@@ -15743,7 +15815,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Keysight": {
 "alerted": false,
@@ -15773,7 +15845,7 @@
 "LangChain": {
 "alerted": false,
 "streak": 0,
-"typical": 102
+"typical": 101
 },
 "Legalist": {
 "alerted": false,
@@ -15788,7 +15860,7 @@
 "Life360": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 22
 },
 "Light (energy)": {
 "alerted": false,
@@ -15848,7 +15920,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 107
 },
 "Mercor": {
 "alerted": false,
@@ -15873,7 +15945,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 120
 },
 "Minted": {
 "alerted": false,
@@ -15883,7 +15955,7 @@
 "Mixpanel": {
 "alerted": false,
 "streak": 0,
-"typical": 46
+"typical": 45
 },
 "Modal": {
 "alerted": false,
@@ -15908,7 +15980,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 158
+"typical": 181
 },
 "NerdWallet": {
 "alerted": false,
@@ -16118,7 +16190,7 @@
 "Pinterest": {
 "alerted": false,
 "streak": 0,
-"typical": 159
+"typical": 160
 },
 "Plaid": {
 "alerted": false,
@@ -16153,7 +16225,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 369
+"typical": 368
 },
 "Qualcomm": {
 "alerted": false,
@@ -16233,7 +16305,7 @@
 "Robinhood": {
 "alerted": false,
 "streak": 0,
-"typical": 156
+"typical": 155
 },
 "Roblox": {
 "alerted": false,
@@ -16273,7 +16345,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 174
+"typical": 179
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -16383,7 +16455,7 @@
 "Stitch Fix": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 14
 },
 "Strava": {
 "alerted": false,
@@ -16433,7 +16505,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 147
+"typical": 149
 },
 "Tagup": {
 "alerted": false,
@@ -16488,7 +16560,7 @@
 "Together AI": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 87
 },
 "Treering": {
 "alerted": false,
@@ -16573,7 +16645,7 @@
 "Waymo": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 370
 },
 "Wealthfront": {
 "alerted": false,
@@ -16749,6 +16821,7 @@
 "amazon:10586533": "2026-10-22",
 "amazon:10586542": "2026-10-22",
 "amazon:10586548": "2026-10-22",
+"amazon:10586568": "2026-10-27",
 "amazon:10586709": "2026-10-22",
 "amazon:10586756": "2026-10-27",
 "amazon:10586770": "2026-10-27",
@@ -16896,6 +16969,7 @@
 "ashby:cerebras:b418fbca-9a33-4ac5-adb3-24dd57b1c678": "2026-10-21",
 "ashby:cerebras:c6f607ce-306c-4deb-8825-4175201a7cd4": "2026-10-21",
 "ashby:cerebras:dbb21f89-1e93-4142-99da-8fe7c5d62e8b": "2026-10-20",
+"ashby:cerebras:e391dd3c-5908-4533-93f3-fe471187dfa9": "2026-10-27",
 "ashby:chariot:a364a127-6d7f-4a76-95b4-3649f4d039e9": "2026-10-22",
 "ashby:classdojo:3b16dba9-1012-4821-8647-cd5b43f67f75": "2026-10-20",
 "ashby:classdojo:cf5c86ce-495e-4480-872c-3de50b8b4fd5": "2026-10-21",
@@ -17615,6 +17689,7 @@
 "eightfold:appliedmaterials.com:790318873265": "2026-10-20",
 "eightfold:appliedmaterials.com:790318873835": "2026-10-21",
 "eightfold:appliedmaterials.com:790318874252": "2026-10-20",
+"eightfold:appliedmaterials.com:790318902991": "2026-10-27",
 "eightfold:appliedmaterials.com:790318907981": "2026-10-21",
 "eightfold:appliedmaterials.com:790318929515": "2026-10-20",
 "eightfold:appliedmaterials.com:790318930044": "2026-10-20",
@@ -18556,6 +18631,7 @@
 "eightfold:microsoft.com:1970393557045536": "2026-10-23",
 "eightfold:microsoft.com:1970393557045539": "2026-10-23",
 "eightfold:microsoft.com:1970393557045541": "2026-10-26",
+"eightfold:microsoft.com:1970393557045543": "2026-10-27",
 "eightfold:microsoft.com:1970393557045546": "2026-10-26",
 "eightfold:microsoft.com:1970393557045747": "2026-10-23",
 "eightfold:microsoft.com:1970393557045772": "2026-10-27",
@@ -18596,8 +18672,10 @@
 "eightfold:paypal.com:274922450309": "2026-10-23",
 "eightfold:paypal.com:274922461769": "2026-10-22",
 "eightfold:paypal.com:274922525283": "2026-10-21",
+"eightfold:paypal.com:274922637052": "2026-10-27",
 "eightfold:paypal.com:274922652798": "2026-10-21",
 "eightfold:paypal.com:274922653220": "2026-10-26",
+"eightfold:paypal.com:274922681028": "2026-10-27",
 "eightfold:paypal.com:274922801598": "2026-10-20",
 "eightfold:paypal.com:274922832096": "2026-10-26",
 "eightfold:paypal.com:274922832145": "2026-10-20",
@@ -18679,6 +18757,7 @@
 "eightfold:qualcomm.com:446721432288": "2026-10-22",
 "eightfold:qualcomm.com:446721432310": "2026-10-22",
 "eightfold:qualcomm.com:446721452593": "2026-10-24",
+"eightfold:qualcomm.com:446721489412": "2026-10-27",
 "eightfold:qualcomm.com:446721490537": "2026-10-20",
 "eightfold:qualcomm.com:446721519437": "2026-10-23",
 "eightfold:qualcomm.com:446721519446": "2026-10-23",
@@ -18751,6 +18830,7 @@
 "greenhouse:31stunion:8034993003": "2026-10-22",
 "greenhouse:accela:8304518": "2026-10-21",
 "greenhouse:accela:8306548": "2026-10-23",
+"greenhouse:accela:8318577": "2026-10-27",
 "greenhouse:airbnb:7763610": "2026-10-20",
 "greenhouse:airbnb:7978040": "2026-10-23",
 "greenhouse:airbnb:8052792": "2026-10-23",
@@ -18928,6 +19008,7 @@
 "greenhouse:backblaze:5456403008": "2026-10-20",
 "greenhouse:backblaze:5456433008": "2026-10-23",
 "greenhouse:backblaze:5462456008": "2026-10-27",
+"greenhouse:billcom:6223028004": "2026-10-27",
 "greenhouse:billcom:6227085004": "2026-10-21",
 "greenhouse:billcom:6228374004": "2026-10-23",
 "greenhouse:billcom:6228778004": "2026-10-20",
@@ -18951,6 +19032,7 @@
 "greenhouse:block:5456569008": "2026-10-20",
 "greenhouse:block:5456921008": "2026-10-22",
 "greenhouse:block:5457599008": "2026-10-20",
+"greenhouse:block:5458383008": "2026-10-27",
 "greenhouse:block:5459471008": "2026-10-22",
 "greenhouse:block:5460078008": "2026-10-21",
 "greenhouse:block:5461047008": "2026-10-22",
@@ -19038,6 +19120,7 @@
 "greenhouse:brilliantearth:4462481009": "2026-10-21",
 "greenhouse:brilliantearth:4462487009": "2026-10-21",
 "greenhouse:brilliantearth:4462489009": "2026-10-21",
+"greenhouse:brilliantearth:4467087009": "2026-10-27",
 "greenhouse:bugcrowd:8279420": "2026-10-26",
 "greenhouse:bugcrowd:8288958": "2026-10-22",
 "greenhouse:bugcrowd:8288959": "2026-10-22",
@@ -19178,6 +19261,7 @@
 "greenhouse:crunchyroll:8306661": "2026-10-22",
 "greenhouse:crunchyroll:8310701": "2026-10-23",
 "greenhouse:crunchyroll:8328077": "2026-10-27",
+"greenhouse:crunchyroll:8328731": "2026-10-27",
 "greenhouse:databricks:8684079002": "2026-10-22",
 "greenhouse:databricks:8723918002": "2026-10-21",
 "greenhouse:databricks:8771702002": "2026-10-26",
@@ -19503,6 +19587,7 @@
 "greenhouse:life360:8910158002": "2026-10-22",
 "greenhouse:life360:8918180002": "2026-10-26",
 "greenhouse:life360:8919899002": "2026-10-27",
+"greenhouse:life360:8920175002": "2026-10-27",
 "greenhouse:lightmatter:5408439008": "2026-10-22",
 "greenhouse:lightmatter:5459233008": "2026-10-22",
 "greenhouse:lindenlab:8043452003": "2026-10-24",
@@ -20022,6 +20107,7 @@
 "greenhouse:pinterest:8268348": "2026-10-23",
 "greenhouse:pinterest:8273738": "2026-10-20",
 "greenhouse:pinterest:8278887": "2026-10-19",
+"greenhouse:pinterest:8280111": "2026-10-27",
 "greenhouse:pinterest:8280238": "2026-10-20",
 "greenhouse:pinterest:8282844": "2026-10-24",
 "greenhouse:pinterest:8282903": "2026-10-21",
@@ -20385,6 +20471,7 @@
 "greenhouse:stitchfix:8287356": "2026-10-20",
 "greenhouse:stitchfix:8289597": "2026-10-23",
 "greenhouse:stitchfix:8300918": "2026-10-20",
+"greenhouse:stitchfix:8326108": "2026-10-27",
 "greenhouse:stripe:8064171": "2026-10-19",
 "greenhouse:stripe:8098866": "2026-10-20",
 "greenhouse:stripe:8163540": "2026-10-20",
@@ -20471,6 +20558,7 @@
 "greenhouse:togetherai:5266079007": "2026-10-20",
 "greenhouse:togetherai:5267197007": "2026-10-19",
 "greenhouse:togetherai:5267198007": "2026-10-19",
+"greenhouse:togetherai:5268939007": "2026-10-27",
 "greenhouse:togetherai:5270409007": "2026-10-22",
 "greenhouse:togetherai:5271149007": "2026-10-26",
 "greenhouse:togetherai:5271692007": "2026-10-22",
@@ -20622,6 +20710,7 @@
 "greenhouse:xai:5273897007": "2026-10-23",
 "greenhouse:xai:5274048007": "2026-10-23",
 "greenhouse:xai:5275197007": "2026-10-26",
+"greenhouse:xai:5275741007": "2026-10-27",
 "greenhouse:xai:5277343007": "2026-10-27",
 "greenhouse:zscaler:5200278007": "2026-10-20",
 "greenhouse:zscaler:5200385007": "2026-10-20",
@@ -20740,6 +20829,7 @@
 "jibe:careers.amd.com:93231": "2026-10-20",
 "jibe:careers.amd.com:93243": "2026-10-21",
 "jibe:careers.amd.com:93244": "2026-10-23",
+"jibe:careers.amd.com:93263": "2026-10-27",
 "jibe:careers.amd.com:93264": "2026-10-21",
 "jibe:careers.amd.com:93318": "2026-10-20",
 "jibe:careers.amd.com:93331": "2026-10-20",
@@ -20870,6 +20960,7 @@
 "jibe:careers.amd.com:94436": "2026-10-22",
 "jibe:careers.amd.com:94443": "2026-10-27",
 "jibe:careers.amd.com:94459": "2026-10-26",
+"jibe:careers.amd.com:94468": "2026-10-27",
 "jibe:careers.amd.com:94474": "2026-10-23",
 "jibe:careers.amd.com:94477": "2026-10-23",
 "jibe:careers.amd.com:94485": "2026-10-26",
@@ -20916,6 +21007,7 @@
 "jibe:careers.docusign.com:30580": "2026-10-21",
 "jibe:careers.docusign.com:30582": "2026-10-26",
 "jibe:careers.docusign.com:30583": "2026-10-22",
+"jibe:careers.docusign.com:30584": "2026-10-27",
 "jibe:careers.docusign.com:30586": "2026-10-22",
 "jibe:careers.docusign.com:30587": "2026-10-23",
 "jibe:careers.docusign.com:30588": "2026-10-22",
@@ -21027,6 +21119,7 @@
 "jibe:careers.keysight.com:55182": "2026-10-26",
 "jibe:careers.keysight.com:55183": "2026-10-27",
 "jibe:careers.keysight.com:55184": "2026-10-23",
+"jibe:careers.keysight.com:55185": "2026-10-27",
 "jibe:careers.keysight.com:55186": "2026-10-22",
 "jibe:careers.keysight.com:55196": "2026-10-27",
 "jibe:careers.keysight.com:55200": "2026-10-23",
@@ -21180,6 +21273,7 @@
 "jibe:careers.rivian.com:35248": "2026-10-26",
 "jibe:careers.rivian.com:35249": "2026-10-27",
 "jibe:careers.rivian.com:35251": "2026-10-27",
+"jibe:careers.rivian.com:35295": "2026-10-27",
 "jibe:github.careers:5833": "2026-10-27",
 "jibe:github.careers:5834": "2026-10-26",
 "jibe:github.careers:6060": "2026-10-20",
@@ -21439,6 +21533,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344905": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344975": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:344980": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:344982": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345073": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345182": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345207": "2026-10-22",
@@ -21552,6 +21647,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347032": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347044": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347045": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347047": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347058": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347083": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347109": "2026-10-21",
@@ -24583,6 +24679,7 @@
 "workday:hp:3169281-1": "2026-10-26",
 "workday:hp:3169312-2": "2026-10-20",
 "workday:hp:3169324-1": "2026-10-27",
+"workday:hp:3169340-1": "2026-10-27",
 "workday:hp:3169347": "2026-10-20",
 "workday:hp:3169353-1": "2026-10-20",
 "workday:hp:3169367-1": "2026-10-23",
@@ -24780,6 +24877,7 @@
 "workday:intel:JR0286980": "2026-10-20",
 "workday:intel:JR0287022-1": "2026-10-20",
 "workday:intel:JR0287056": "2026-10-20",
+"workday:intel:JR0287144": "2026-10-27",
 "workday:intel:JR0287184": "2026-10-20",
 "workday:intel:JR0287199": "2026-10-20",
 "workday:intel:JR0287217": "2026-10-22",
@@ -25234,6 +25332,7 @@
 "workday:medtronic:R77591-1": "2026-10-26",
 "workday:medtronic:R77592-1": "2026-10-21",
 "workday:medtronic:R77664-1": "2026-10-22",
+"workday:medtronic:R77666-1": "2026-10-27",
 "workday:medtronic:R77691-1": "2026-10-26",
 "workday:medtronic:R77788-1": "2026-10-22",
 "workday:medtronic:R77845-1": "2026-10-20",
@@ -25488,6 +25587,7 @@
 "workday:medtronic:R80791-1": "2026-10-27",
 "workday:medtronic:R80792-1": "2026-10-27",
 "workday:medtronic:R80806-1": "2026-10-27",
+"workday:medtronic:R80836-1": "2026-10-27",
 "workday:micron:JR100037": "2026-10-23",
 "workday:micron:JR100276": "2026-10-26",
 "workday:micron:JR100338": "2026-10-23",
@@ -26496,6 +26596,7 @@
 "workday:nvidia:JR1980109": "2026-10-22",
 "workday:nvidia:JR1983620": "2026-10-19",
 "workday:nvidia:JR1994007": "2026-10-25",
+"workday:nvidia:JR1995134": "2026-10-27",
 "workday:nvidia:JR1996363": "2026-10-19",
 "workday:nvidia:JR1996987": "2026-10-19",
 "workday:nvidia:JR1997186": "2026-10-21",
@@ -26517,6 +26618,7 @@
 "workday:nvidia:JR2001996": "2026-10-21",
 "workday:nvidia:JR2002387-2": "2026-10-19",
 "workday:nvidia:JR2002691-1": "2026-10-22",
+"workday:nvidia:JR2002944": "2026-10-27",
 "workday:nvidia:JR2003389": "2026-10-20",
 "workday:nvidia:JR2003570": "2026-10-19",
 "workday:nvidia:JR2005386": "2026-10-22",
@@ -26527,6 +26629,7 @@
 "workday:nvidia:JR2007944": "2026-10-19",
 "workday:nvidia:JR2008022": "2026-10-19",
 "workday:nvidia:JR2008166": "2026-10-20",
+"workday:nvidia:JR2008719": "2026-10-27",
 "workday:nvidia:JR2008755": "2026-10-19",
 "workday:nvidia:JR2009350": "2026-10-19",
 "workday:nvidia:JR2010147": "2026-10-26",
@@ -26554,6 +26657,7 @@
 "workday:nvidia:JR2013956": "2026-10-19",
 "workday:nvidia:JR2013973": "2026-10-23",
 "workday:nvidia:JR2014015": "2026-10-21",
+"workday:nvidia:JR2014105": "2026-10-27",
 "workday:nvidia:JR2014127": "2026-10-21",
 "workday:nvidia:JR2014178": "2026-10-20",
 "workday:nvidia:JR2014215": "2026-10-19",
@@ -26566,9 +26670,13 @@
 "workday:nvidia:JR2015123": "2026-10-19",
 "workday:nvidia:JR2015287": "2026-10-19",
 "workday:nvidia:JR2015659": "2026-10-21",
+"workday:nvidia:JR2015676": "2026-10-27",
 "workday:nvidia:JR2015832": "2026-10-21",
 "workday:nvidia:JR2015873": "2026-10-23",
+"workday:nvidia:JR2015890": "2026-10-27",
+"workday:nvidia:JR2015936": "2026-10-27",
 "workday:nvidia:JR2016209": "2026-10-21",
+"workday:nvidia:JR2016261-1": "2026-10-27",
 "workday:nvidia:JR2016341": "2026-10-19",
 "workday:nvidia:JR2016350": "2026-10-19",
 "workday:nvidia:JR2016396": "2026-10-26",
@@ -26576,6 +26684,7 @@
 "workday:nvidia:JR2016469": "2026-10-27",
 "workday:nvidia:JR2016506": "2026-10-19",
 "workday:nvidia:JR2016645": "2026-10-27",
+"workday:nvidia:JR2016690": "2026-10-27",
 "workday:nvidia:JR2016759": "2026-10-20",
 "workday:nvidia:JR2016842": "2026-10-23",
 "workday:nvidia:JR2016845": "2026-10-23",
@@ -26600,6 +26709,7 @@
 "workday:nvidia:JR2018931": "2026-10-19",
 "workday:nvidia:JR2019010": "2026-10-19",
 "workday:nvidia:JR2019011": "2026-10-20",
+"workday:nvidia:JR2019035": "2026-10-27",
 "workday:nvidia:JR2019101": "2026-10-24",
 "workday:nvidia:JR2019124": "2026-10-22",
 "workday:nvidia:JR2019127": "2026-10-19",
@@ -26635,11 +26745,13 @@
 "workday:nvidia:JR2021098-1": "2026-10-23",
 "workday:nvidia:JR2021099": "2026-10-23",
 "workday:nvidia:JR2021170": "2026-10-26",
+"workday:nvidia:JR2021199": "2026-10-27",
 "workday:nvidia:JR2021329": "2026-10-22",
 "workday:nvidia:JR2021335": "2026-10-21",
 "workday:nvidia:JR2021345": "2026-10-22",
 "workday:nvidia:JR2021377": "2026-10-21",
 "workday:nvidia:JR2021384": "2026-10-19",
+"workday:nvidia:JR2021466": "2026-10-27",
 "workday:nvidia:JR2021476": "2026-10-20",
 "workday:nvidia:JR2021512": "2026-10-21",
 "workday:nvidia:JR2021549": "2026-10-19",
@@ -26667,6 +26779,7 @@
 "workday:nvidia:JR2022876": "2026-10-22",
 "workday:nvidia:JR2022912": "2026-10-23",
 "workday:nvidia:JR2022960": "2026-10-19",
+"workday:nvidia:JR2022978": "2026-10-27",
 "workday:nvidia:JR2022998": "2026-10-22",
 "workday:nvidia:JR2023060": "2026-10-27",
 "workday:nvidia:JR2023068": "2026-10-21",
@@ -26688,7 +26801,9 @@
 "workday:nvidia:JR2023502": "2026-10-22",
 "workday:nvidia:JR2023503": "2026-10-23",
 "workday:nvidia:JR2023504": "2026-10-22",
+"workday:nvidia:JR2023533": "2026-10-27",
 "workday:nvidia:JR2023566": "2026-10-20",
+"workday:nvidia:JR2023582": "2026-10-27",
 "workday:nvidia:JR2023758": "2026-10-19",
 "workday:nvidia:JR2023940": "2026-10-19",
 "workday:nvidia:JR2023946": "2026-10-22",
@@ -26703,6 +26818,8 @@
 "workday:nvidia:JR2024290": "2026-10-22",
 "workday:nvidia:JR2024314": "2026-10-21",
 "workday:nvidia:JR2024331": "2026-10-19",
+"workday:nvidia:JR2024339": "2026-10-27",
+"workday:nvidia:JR2024361": "2026-10-27",
 "workday:nvidia:JR2024402": "2026-10-19",
 "workday:nvidia:JR2024411": "2026-10-23",
 "workday:nvidia:JR2024413": "2026-10-26",
@@ -26856,6 +26973,7 @@
 "workday:nvidia:JR2027933-1": "2026-10-20",
 "workday:nvidia:JR2027939": "2026-10-27",
 "workday:nvidia:JR2027942": "2026-10-27",
+"workday:nvidia:JR2027945": "2026-10-27",
 "workday:nvidia:JR2027958-1": "2026-10-19",
 "workday:nvidia:JR2027966": "2026-10-22",
 "workday:nvidia:JR2027982": "2026-10-19",
@@ -26891,6 +27009,7 @@
 "workday:nvidia:JR2028170": "2026-10-23",
 "workday:nvidia:JR2028171-1": "2026-10-21",
 "workday:nvidia:JR2028173": "2026-10-20",
+"workday:nvidia:JR2028177": "2026-10-27",
 "workday:nvidia:JR2028178": "2026-10-22",
 "workday:nvidia:JR2028182": "2026-10-19",
 "workday:nvidia:JR2028186": "2026-10-23",
@@ -26927,6 +27046,8 @@
 "workday:nvidia:JR2028315": "2026-10-22",
 "workday:nvidia:JR2028318": "2026-10-23",
 "workday:nvidia:JR2028319": "2026-10-21",
+"workday:nvidia:JR2028322": "2026-10-27",
+"workday:nvidia:JR2028328": "2026-10-27",
 "workday:nvidia:JR2028331": "2026-10-23",
 "workday:nvidia:JR2028332": "2026-10-19",
 "workday:nvidia:JR2028334-1": "2026-10-23",
@@ -26978,6 +27099,7 @@
 "workday:nvidia:JR2028533": "2026-10-23",
 "workday:nvidia:JR2028539-1": "2026-10-24",
 "workday:nvidia:JR2028544": "2026-10-27",
+"workday:nvidia:JR2028553-1": "2026-10-27",
 "workday:nvidia:JR2028579-1": "2026-10-23",
 "workday:nvidia:JR2028585-1": "2026-10-22",
 "workday:nvidia:JR2028590": "2026-10-26",
@@ -27173,6 +27295,7 @@
 "workday:salesforce:JR353660-1": "2026-10-21",
 "workday:salesforce:JR353734": "2026-10-23",
 "workday:salesforce:JR353836": "2026-10-20",
+"workday:salesforce:JR353846": "2026-10-27",
 "workday:salesforce:JR353933-1": "2026-10-26",
 "workday:salesforce:JR353944-1": "2026-10-22",
 "workday:salesforce:JR353970": "2026-10-19",
@@ -27244,6 +27367,7 @@
 "workday:salesforce:JR358324": "2026-10-23",
 "workday:salesforce:JR358360-1": "2026-10-22",
 "workday:salesforce:JR358437": "2026-10-27",
+"workday:salesforce:JR358501": "2026-10-27",
 "workday:salesforce:JR358508": "2026-10-22",
 "workday:salesforce:JR358659": "2026-10-19",
 "workday:salesforce:JR358677": "2026-10-20",
@@ -27431,6 +27555,7 @@
 "workday:salesforce:JR363642": "2026-10-27",
 "workday:salesforce:JR363681": "2026-10-21",
 "workday:salesforce:JR363690-1": "2026-10-26",
+"workday:salesforce:JR363692": "2026-10-27",
 "workday:salesforce:JR363709": "2026-10-20",
 "workday:salesforce:JR363730": "2026-10-21",
 "workday:salesforce:JR363778": "2026-10-19",
@@ -27627,6 +27752,7 @@
 "workday:salesforce:JR365568": "2026-10-23",
 "workday:salesforce:JR365584": "2026-10-23",
 "workday:salesforce:JR365605": "2026-10-26",
+"workday:salesforce:JR365617": "2026-10-27",
 "workday:salesforce:JR365621": "2026-10-23",
 "workday:salesforce:JR365626": "2026-10-23",
 "workday:salesforce:JR365629": "2026-10-23",
@@ -27659,6 +27785,7 @@
 "workday:salesforce:JR365954": "2026-10-27",
 "workday:salesforce:JR365961-1": "2026-10-27",
 "workday:tmobile:REQ346692": "2026-10-22",
+"workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
 "workday:tmobile:REQ350330-1": "2026-10-22",
 "workday:tmobile:REQ353911-1": "2026-10-22",
@@ -28081,6 +28208,7 @@
 "workday:tmobile:REQ379770-1": "2026-10-22",
 "workday:tmobile:REQ379780": "2026-10-22",
 "workday:tmobile:REQ379783": "2026-10-27",
+"workday:tmobile:REQ379784": "2026-10-27",
 "workday:tmobile:REQ379787-1": "2026-10-26",
 "workday:tmobile:REQ379789": "2026-10-21",
 "workday:tmobile:REQ379796-1": "2026-10-21",
@@ -28293,6 +28421,7 @@
 },
 "sent": {
 "abacus insights|associate data engineer": "2026-10-27",
+"accela|technical support engineer": "2026-10-27",
 "acxiom|associate solution developer": "2026-10-19",
 "addepar|product manager early career ai platform": "2026-10-23",
 "aerotech|software engineer embedded development": "2026-10-22",
@@ -28416,6 +28545,7 @@
 "amd|product development engineer": "2026-10-20",
 "amd|rtl design engineer": "2026-10-27",
 "amd|silicon diagnosis dft engineer": "2026-10-22",
+"amd|software development engineer in test ai platform": "2026-10-27",
 "amd|system design engineer": "2026-10-22",
 "amentum|entry level software engineer": "2026-10-26",
 "amentum|programmer analyst": "2026-10-20",
@@ -29131,9 +29261,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 209,
+"calls": 218,
 "date": "2026-10-27",
-"usd": 0.027135
+"usd": 0.02831
 },
 "years": {
 "amazon:10583340": [
