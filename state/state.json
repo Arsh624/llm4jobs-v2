@@ -16447,7 +16447,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 119
 },
 "Braintrust": {
 "alerted": false,
@@ -16512,7 +16512,7 @@
 "Cisco": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 19
 },
 "ClassDojo": {
 "alerted": false,
@@ -16817,7 +16817,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 100
 },
 "HackerOne": {
 "alerted": false,
@@ -17067,7 +17067,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 164
+"typical": 165
 },
 "NVIDIA": {
 "alerted": false,
@@ -17236,8 +17236,7 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(349206 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 1292
 },
 "PandaDoc": {
@@ -17283,7 +17282,7 @@
 "Pinterest": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 161
 },
 "Plaid": {
 "alerted": false,
@@ -17358,12 +17357,12 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 9
+"typical": 10
 },
 "Reddit": {
 "alerted": false,
 "streak": 0,
-"typical": 163
+"typical": 162
 },
 "Redis": {
 "alerted": false,
@@ -17438,7 +17437,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 216
+"typical": 221
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -17723,7 +17722,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 31
 },
 "Viz Media": {
 "alerted": false,
@@ -20285,6 +20284,8 @@
 "greenhouse:boxinc:8306056": "2026-10-22",
 "greenhouse:boxinc:8306366": "2026-10-27",
 "greenhouse:boxinc:8315974": "2026-10-22",
+"greenhouse:boxinc:8318469": "2026-10-28",
+"greenhouse:boxinc:8318471": "2026-10-28",
 "greenhouse:boxinc:8319340": "2026-10-27",
 "greenhouse:boxinc:8326907": "2026-10-27",
 "greenhouse:boxinc:8328005": "2026-10-27",
@@ -21440,6 +21441,7 @@
 "greenhouse:pinterest:8287192": "2026-10-23",
 "greenhouse:pinterest:8287196": "2026-10-22",
 "greenhouse:pinterest:8300202": "2026-10-19",
+"greenhouse:pinterest:8300852": "2026-10-28",
 "greenhouse:pinterest:8300884": "2026-10-23",
 "greenhouse:pinterest:8301413": "2026-10-26",
 "greenhouse:pinterest:8304896": "2026-10-22",
@@ -23517,6 +23519,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349070": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349071": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349075": "2026-10-28",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349080": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:149797": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152258": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152548": "2026-10-20",
@@ -26162,6 +26165,7 @@
 "workday:cisco:2022755-1": "2026-10-21",
 "workday:cisco:2023187": "2026-10-27",
 "workday:cisco:2023202": "2026-10-20",
+"workday:cisco:2023452": "2026-10-28",
 "workday:cisco:2023453": "2026-10-27",
 "workday:cisco:2025551": "2026-10-20",
 "workday:cisco:2025798": "2026-10-21",
@@ -26380,6 +26384,7 @@
 "workday:hp:3169652-1": "2026-10-27",
 "workday:hp:3169680-1": "2026-10-26",
 "workday:hp:3169691-1": "2026-10-20",
+"workday:hp:3169701-1": "2026-10-28",
 "workday:hp:3169719": "2026-10-22",
 "workday:hp:3169720-1": "2026-10-21",
 "workday:hp:3169734-1": "2026-10-27",
@@ -28935,6 +28940,7 @@
 "workday:redhat:R-059839-2": "2026-10-20",
 "workday:redhat:R-059854-1": "2026-10-20",
 "workday:redhat:R-059864-1": "2026-10-27",
+"workday:redhat:R-059922-2": "2026-10-28",
 "workday:redhat:R-059926-2": "2026-10-21",
 "workday:redhat:R-059980-2": "2026-10-20",
 "workday:redhat:R-059995": "2026-10-23",
@@ -29080,6 +29086,7 @@
 "workday:salesforce:JR353944-1": "2026-10-22",
 "workday:salesforce:JR353970": "2026-10-19",
 "workday:salesforce:JR354108": "2026-10-21",
+"workday:salesforce:JR354194": "2026-10-28",
 "workday:salesforce:JR354198": "2026-10-20",
 "workday:salesforce:JR354366": "2026-10-21",
 "workday:salesforce:JR354370": "2026-10-22",
@@ -29172,6 +29179,7 @@
 "workday:salesforce:JR359321": "2026-10-27",
 "workday:salesforce:JR359326": "2026-10-23",
 "workday:salesforce:JR359373": "2026-10-23",
+"workday:salesforce:JR359385": "2026-10-28",
 "workday:salesforce:JR359410": "2026-10-20",
 "workday:salesforce:JR359437-1": "2026-10-20",
 "workday:salesforce:JR359453": "2026-10-27",
@@ -29221,6 +29229,7 @@
 "workday:salesforce:JR361310": "2026-10-20",
 "workday:salesforce:JR361319": "2026-10-27",
 "workday:salesforce:JR361343": "2026-10-27",
+"workday:salesforce:JR361370": "2026-10-28",
 "workday:salesforce:JR361371": "2026-10-20",
 "workday:salesforce:JR361396": "2026-10-21",
 "workday:salesforce:JR361402": "2026-10-20",
@@ -29475,6 +29484,7 @@
 "workday:salesforce:JR365006": "2026-10-20",
 "workday:salesforce:JR365009-1": "2026-10-20",
 "workday:salesforce:JR365010": "2026-10-20",
+"workday:salesforce:JR365013": "2026-10-28",
 "workday:salesforce:JR365028-1": "2026-10-26",
 "workday:salesforce:JR365033": "2026-10-20",
 "workday:salesforce:JR365042": "2026-10-20",
@@ -30182,6 +30192,7 @@
 "workday:visa:REF088672W": "2026-10-19",
 "workday:visa:REF088676W-1": "2026-10-20",
 "workday:visa:REF088772W-1": "2026-10-26",
+"workday:visa:REF088825W": "2026-10-28",
 "workday:visa:REF088943W": "2026-10-21",
 "workday:visa:REF089040W": "2026-10-20",
 "workday:visa:REF089177W": "2026-10-20",
