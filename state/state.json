@@ -1410,6 +1410,16 @@
 },
 "2026-10-22"
 ],
+"ashby:openai:9878a31f-423b-43cc-b169-8bb7e55b8fc7|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 5,
+"note": "Requires strong experience in commercial real estate development.",
+"us_ok": true
+},
+"2026-10-28"
+],
 "ashby:openai:b73e46a6-881a-4413-835a-94b9d5f35d2f|v3|73908d": [
 {
 "chance": 4,
@@ -12943,6 +12953,13 @@
 },
 "2026-10-23"
 ],
+"rescue:workday:micron:JR96451": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-10-28"
+],
 "rescue:workday:micron:JR96586": [
 {
 "note": "Requires significant technical expertise and experience.",
@@ -16377,7 +16394,7 @@
 "Crunchyroll": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 100
 },
 "Crusoe": {
 "alerted": false,
@@ -16392,7 +16409,7 @@
 "Cursor": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 121
 },
 "DELFI Diagnostics": {
 "alerted": false,
@@ -16402,7 +16419,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 895
+"typical": 893
 },
 "Dataiku": {
 "alerted": false,
@@ -16557,7 +16574,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 192
+"typical": 191
 },
 "Forward Networks": {
 "alerted": false,
@@ -16797,7 +16814,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 126
+"typical": 124
 },
 "Mercor": {
 "alerted": false,
@@ -16937,7 +16954,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 387
+"typical": 386
 },
 "Olly": {
 "alerted": false,
@@ -16962,7 +16979,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 804
+"typical": 805
 },
 "OpenGov": {
 "alerted": false,
@@ -17021,7 +17038,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(348577 bytes read)",
+"streak": 1,
 "typical": 1292
 },
 "PandaDoc": {
@@ -17297,7 +17315,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 362
+"typical": 363
 },
 "SoFi": {
 "alerted": false,
@@ -17382,7 +17400,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 165
+"typical": 166
 },
 "Tagup": {
 "alerted": false,
@@ -17567,7 +17585,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 357
+"typical": 356
 },
 "Zuora": {
 "alerted": false,
@@ -18193,6 +18211,7 @@
 "ashby:openai:916fa6f6-f441-43c6-9769-27e4bf0b2cc9": "2026-10-26",
 "ashby:openai:92ecf75c-86ec-442d-bdfa-078789ce9579": "2026-10-27",
 "ashby:openai:9711a982-851c-4f55-a5ae-080ea4bad520": "2026-10-26",
+"ashby:openai:9878a31f-423b-43cc-b169-8bb7e55b8fc7": "2026-10-28",
 "ashby:openai:98cdff28-940d-48e8-b1d7-a0df38dd16d8": "2026-10-22",
 "ashby:openai:a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3": "2026-10-21",
 "ashby:openai:a5136d9d-c22a-4c12-a776-483f63ef1120": "2026-10-19",
@@ -18421,6 +18440,7 @@
 "ashby:snowflake:0f2d263b-37c1-4e5c-92b7-007818fbc0d5": "2026-10-22",
 "ashby:snowflake:143a2248-564b-4cfa-85f5-d47bac911d74": "2026-10-21",
 "ashby:snowflake:14b031ca-fbd3-41c4-8c37-62e2c72ffd76": "2026-10-28",
+"ashby:snowflake:1af751fb-d53e-43b0-a3bc-6fcc4004cafb": "2026-10-28",
 "ashby:snowflake:1e128d1a-b3d5-4ff3-8b34-60a81165d27f": "2026-10-21",
 "ashby:snowflake:21c400dc-12fc-4962-813b-3f19becfbefb": "2026-10-23",
 "ashby:snowflake:22e84b77-4bc4-4a31-99fb-f325ed9a9590": "2026-10-20",
@@ -22840,6 +22860,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347411": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347414": "2026-10-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347420": "2026-10-21",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347485": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347492": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347515": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347520": "2026-10-20",
@@ -27920,6 +27941,7 @@
 "workday:micron:JR96429": "2026-10-23",
 "workday:micron:JR96430": "2026-10-23",
 "workday:micron:JR96433": "2026-10-23",
+"workday:micron:JR96451": "2026-10-28",
 "workday:micron:JR96462": "2026-10-23",
 "workday:micron:JR96470": "2026-10-23",
 "workday:micron:JR96479": "2026-10-23",
@@ -29542,6 +29564,7 @@
 "workday:tmobile:REQ379421-2": "2026-10-20",
 "workday:tmobile:REQ379426": "2026-10-21",
 "workday:tmobile:REQ379428": "2026-10-28",
+"workday:tmobile:REQ379435": "2026-10-28",
 "workday:tmobile:REQ379437": "2026-10-27",
 "workday:tmobile:REQ379439-1": "2026-10-20",
 "workday:tmobile:REQ379442": "2026-10-22",
@@ -30779,9 +30802,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 36,
+"calls": 38,
 "date": "2026-10-28",
-"usd": 0.004648
+"usd": 0.004968
 },
 "years": {
 "amazon:10583340": [
