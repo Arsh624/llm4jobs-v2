@@ -742,6 +742,7 @@ slug = "crunchyroll"
 type = "ashby"
 company = "Cursor"
 slug = "cursor"
+job_url_template = "https://cursor.com/careers/{title_slug}"   # Ashby-hosted pages are off
 
 [[source]]
 type = "greenhouse"
@@ -1145,6 +1146,7 @@ slug = "pacaso"
 
 [[source]]
 type = "ashby"
+enabled = false   # hosted job pages removed, no public careers page
 company = "Padlet"
 slug = "padlet"
 
@@ -2769,9 +2771,9 @@ company = "Wrapbook"
 slug = "wrapbook"   # West Hollywood
 
 [[source]]
-type = "lever"
+type = "ashby"
 company = "Zus Health"
-slug = "zushealth"   # Boston
+slug = "zus-health"   # moved from Lever   # Boston
 
 [[source]]
 type = "workday"

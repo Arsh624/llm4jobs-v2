@@ -56,6 +56,11 @@ def _fetch_one(src: dict, settings: dict) -> tuple[dict, list[Job], str | None]:
     fn = ADAPTERS[src["type"]]
     try:
         jobs = fn(src, max_age_days=settings["max_age_days"]) if src["type"] in AGE_AWARE else fn(src)
+        if src.get("job_url_template"):          # board's own pages are off; link to the company site
+            for j in jobs:
+                j.url = src["job_url_template"].format(
+                    title_slug=re.sub(r"[^a-z0-9]+", "-", j.title.lower()).strip("-"),
+                    id=j.source_id.split(":")[-1])
         return src, jobs, None
     except Exception as e:
         return src, [], f"{type(e).__name__}: {str(e)[:150]}"
