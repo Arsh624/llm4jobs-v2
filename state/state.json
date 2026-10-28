@@ -16312,7 +16312,7 @@
 "Amplitude": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 42
 },
 "Analog Devices": {
 "alerted": false,
@@ -16447,7 +16447,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 118
 },
 "Braintrust": {
 "alerted": false,
@@ -16572,7 +16572,7 @@
 "Couchbase": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 15
 },
 "Coupa": {
 "alerted": false,
@@ -16886,7 +16886,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(814221 bytes read)",
+"streak": 1,
 "typical": 602
 },
 "Iru (formerly Kandji)": {
@@ -17012,7 +17013,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 120
 },
 "Mercor": {
 "alerted": false,
@@ -17102,7 +17103,7 @@
 "Netskope": {
 "alerted": false,
 "streak": 0,
-"typical": 130
+"typical": 131
 },
 "Neuralink": {
 "alerted": false,
@@ -17437,7 +17438,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 221
+"typical": 223
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -17492,7 +17493,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3012
+"typical": 3011
 },
 "Skip": {
 "alerted": false,
@@ -17557,7 +17558,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 716
+"typical": 715
 },
 "Substack": {
 "alerted": false,
@@ -17567,7 +17568,7 @@
 "Sumo Logic": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 12
 },
 "Supabase": {
 "alerted": false,
@@ -17597,7 +17598,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 169
+"typical": 173
 },
 "Tagup": {
 "alerted": false,
@@ -17702,7 +17703,7 @@
 "Vanta": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 78
 },
 "Vercel": {
 "alerted": false,
@@ -18016,6 +18017,7 @@
 "ashby:amplitude:1031ce70-90e7-446d-be99-123a8058e686": "2026-10-26",
 "ashby:amplitude:227ebdc6-1384-4c5b-84de-19d996eeca28": "2026-10-20",
 "ashby:amplitude:54d5b37c-9c8f-4804-a655-df8a54e03892": "2026-10-20",
+"ashby:amplitude:5be2be8e-c1e4-4f85-bab6-e8c11e14d603": "2026-10-28",
 "ashby:amplitude:5feed6cb-cb3e-473b-a593-637def813587": "2026-10-21",
 "ashby:amplitude:76b5c221-b12d-42ac-b710-2f8ea3b7bf6f": "2026-10-20",
 "ashby:amplitude:7e773392-9aaf-4c56-b289-8083c2ea96de": "2026-10-27",
@@ -18023,6 +18025,7 @@
 "ashby:amplitude:b49044b9-dba6-4852-83f5-749bcadbe79d": "2026-10-21",
 "ashby:amplitude:ec63eb92-bea0-4bc6-a61a-59617c7d93ba": "2026-10-27",
 "ashby:amplitude:efa1d22a-de50-438c-8b6f-a65702241fa9": "2026-10-20",
+"ashby:amplitude:fb0db5a8-37c7-43cb-a6f8-2c8741bdd14e": "2026-10-28",
 "ashby:anyscale:a5141b79-8c23-48b9-8ea7-a11fd129c8d3": "2026-10-21",
 "ashby:anyscale:c1eaa6cb-86ef-416d-a452-8031b8ba9e15": "2026-10-27",
 "ashby:anyscale:f6845640-e1d7-42f6-82a1-ebfa8967e00d": "2026-10-27",
@@ -18552,6 +18555,7 @@
 "ashby:primeintellect:d45f07a8-a506-4e54-8640-23ad76cc9a2e": "2026-10-20",
 "ashby:primeintellect:d63b3277-651e-4a81-85d8-888f0aef14f5": "2026-10-20",
 "ashby:primeintellect:e6430d82-f266-475e-a273-255c5b2bd521": "2026-10-20",
+"ashby:primeintellect:f15310dd-0b01-4976-87de-5d82af00acac": "2026-10-28",
 "ashby:quantcast:155c6e9b-d122-40ab-bd72-c901470340b7": "2026-10-23",
 "ashby:quantcast:6570f050-d78b-4a77-9bde-3466c8edcfaf": "2026-10-22",
 "ashby:quora:1027c20b-ae70-4455-91be-73aac13610b6": "2026-10-22",
@@ -20464,6 +20468,7 @@
 "greenhouse:couchbaseinc:4723140006": "2026-10-28",
 "greenhouse:couchbaseinc:4723144006": "2026-10-23",
 "greenhouse:couchbaseinc:4723164006": "2026-10-27",
+"greenhouse:couchbaseinc:4723365006": "2026-10-28",
 "greenhouse:coursera:6219592004": "2026-10-27",
 "greenhouse:coursera:6222291004": "2026-10-20",
 "greenhouse:coursera:6223709004": "2026-10-20",
@@ -20976,6 +20981,7 @@
 "greenhouse:netskope:8326073": "2026-10-26",
 "greenhouse:netskope:8329332": "2026-10-27",
 "greenhouse:netskope:8329534": "2026-10-27",
+"greenhouse:netskope:8330614": "2026-10-28",
 "greenhouse:neuralink:8042285003": "2026-10-22",
 "greenhouse:neuralink:8044955003": "2026-10-26",
 "greenhouse:newrelic:5430127008": "2026-10-22",
@@ -21911,6 +21917,7 @@
 "greenhouse:stripe:8324207": "2026-10-26",
 "greenhouse:stripe:8325807": "2026-10-27",
 "greenhouse:stripe:8329718": "2026-10-28",
+"greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
 "greenhouse:sumologic:8305995": "2026-10-22",
@@ -29237,6 +29244,7 @@
 "workday:salesforce:JR361371": "2026-10-20",
 "workday:salesforce:JR361396": "2026-10-21",
 "workday:salesforce:JR361402": "2026-10-20",
+"workday:salesforce:JR361417": "2026-10-28",
 "workday:salesforce:JR361440-1": "2026-10-20",
 "workday:salesforce:JR361441": "2026-10-20",
 "workday:salesforce:JR361445": "2026-10-26",
@@ -29612,6 +29620,7 @@
 "workday:salesforce:JR366046": "2026-10-28",
 "workday:salesforce:JR366068": "2026-10-28",
 "workday:salesforce:JR366082": "2026-10-28",
+"workday:salesforce:JR366116": "2026-10-28",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
@@ -29649,6 +29658,7 @@
 "workday:tmobile:REQ371750-1": "2026-10-20",
 "workday:tmobile:REQ371754": "2026-10-27",
 "workday:tmobile:REQ371840-1": "2026-10-21",
+"workday:tmobile:REQ371891": "2026-10-28",
 "workday:tmobile:REQ371908": "2026-10-20",
 "workday:tmobile:REQ372043-1": "2026-10-20",
 "workday:tmobile:REQ372213-1": "2026-10-20",
@@ -29811,6 +29821,7 @@
 "workday:tmobile:REQ378590": "2026-10-21",
 "workday:tmobile:REQ378597-1": "2026-10-20",
 "workday:tmobile:REQ378601-1": "2026-10-26",
+"workday:tmobile:REQ378648": "2026-10-28",
 "workday:tmobile:REQ378651": "2026-10-20",
 "workday:tmobile:REQ378668-1": "2026-10-20",
 "workday:tmobile:REQ378676-1": "2026-10-27",
@@ -30150,6 +30161,7 @@
 "workday:tmobile:REQ380207-1": "2026-10-27",
 "workday:tmobile:REQ380208": "2026-10-23",
 "workday:tmobile:REQ380211": "2026-10-26",
+"workday:tmobile:REQ380214": "2026-10-28",
 "workday:tmobile:REQ380216": "2026-10-26",
 "workday:tmobile:REQ380219-1": "2026-10-26",
 "workday:tmobile:REQ380231": "2026-10-23",
@@ -30166,6 +30178,7 @@
 "workday:tmobile:REQ380308": "2026-10-26",
 "workday:tmobile:REQ380309-1": "2026-10-26",
 "workday:tmobile:REQ380313": "2026-10-26",
+"workday:tmobile:REQ380368": "2026-10-28",
 "workday:tmobile:REQ380372-2": "2026-10-26",
 "workday:tmobile:REQ380390-2": "2026-10-27",
 "workday:tmobile:REQ380392-1": "2026-10-26",
