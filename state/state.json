@@ -1040,6 +1040,16 @@
 },
 "2026-10-27"
 ],
+"amazon:10590870|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-10-28"
+],
 "ashby:astera:80e3f654-0be6-431f-8c1e-7a7d317b7591|v3|73908d": [
 {
 "chance": 6,
@@ -16347,7 +16357,7 @@
 "AppsFlyer": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 47
 },
 "Aptos Labs": {
 "alerted": false,
@@ -16547,7 +16557,7 @@
 "Contentful": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 29
 },
 "Conversica": {
 "alerted": false,
@@ -16607,7 +16617,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 894
+"typical": 893
 },
 "Dataiku": {
 "alerted": false,
@@ -16702,7 +16712,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 407
+"typical": 406
 },
 "Etched": {
 "alerted": false,
@@ -16807,7 +16817,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 99
 },
 "HackerOne": {
 "alerted": false,
@@ -16872,7 +16882,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 80
+"typical": 81
 },
 "Intuit": {
 "alerted": false,
@@ -16887,7 +16897,7 @@
 "Isomorphic Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "Jumio": {
 "alerted": false,
@@ -16977,7 +16987,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 440
+"typical": 438
 },
 "Lyft": {
 "alerted": false,
@@ -17047,7 +17057,7 @@
 "Model N": {
 "alerted": false,
 "streak": 0,
-"typical": 9
+"typical": 8
 },
 "Mosaic (deal modeling)": {
 "alerted": false,
@@ -17057,7 +17067,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 163
+"typical": 164
 },
 "NVIDIA": {
 "alerted": false,
@@ -17226,7 +17236,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(349206 bytes read)",
+"streak": 1,
 "typical": 1292
 },
 "PandaDoc": {
@@ -17307,7 +17318,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 364
+"typical": 362
 },
 "Qualcomm": {
 "alerted": false,
@@ -17352,7 +17363,7 @@
 "Reddit": {
 "alerted": false,
 "streak": 0,
-"typical": 162
+"typical": 163
 },
 "Redis": {
 "alerted": false,
@@ -17427,7 +17438,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 214
+"typical": 216
 },
 "SambaNova Systems": {
 "alerted": false,
@@ -17437,7 +17448,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 321
+"typical": 320
 },
 "Samsung Semiconductor": {
 "alerted": false,
@@ -17482,7 +17493,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3016
+"typical": 3014
 },
 "Skip": {
 "alerted": false,
@@ -17999,6 +18010,7 @@
 "amazon:10590386": "2026-10-27",
 "amazon:10590486": "2026-10-27",
 "amazon:10590794": "2026-10-28",
+"amazon:10590870": "2026-10-28",
 "ashby:Valon:9e7b4bb4-04c8-498f-b399-fa749a35b39d": "2026-10-23",
 "ashby:Valon:bef72038-2483-4c8c-b062-70b3c5c09593": "2026-10-20",
 "ashby:Valon:f2944056-7092-4951-86b1-bd3418ecddef": "2026-10-20",
@@ -20422,6 +20434,9 @@
 "greenhouse:contentful:8327853": "2026-10-27",
 "greenhouse:contentful:8327876": "2026-10-27",
 "greenhouse:contentful:8328031": "2026-10-27",
+"greenhouse:contentful:8330428": "2026-10-28",
+"greenhouse:contentful:8330477": "2026-10-28",
+"greenhouse:contentful:8330490": "2026-10-28",
 "greenhouse:coreweave:4720649006": "2026-10-20",
 "greenhouse:coreweave:4721930006": "2026-10-19",
 "greenhouse:coreweave:4722343006": "2026-10-20",
@@ -20811,6 +20826,7 @@
 "greenhouse:isomorphiclabs:6231897004": "2026-10-23",
 "greenhouse:isomorphiclabs:6232044004": "2026-10-23",
 "greenhouse:isomorphiclabs:6235913004": "2026-10-27",
+"greenhouse:isomorphiclabs:6237340004": "2026-10-28",
 "greenhouse:jumio:4743628005": "2026-10-26",
 "greenhouse:jumio:4743664005": "2026-10-20",
 "greenhouse:kikoff:4458616009": "2026-10-20",
@@ -21541,6 +21557,7 @@
 "greenhouse:reddit:8318010": "2026-10-23",
 "greenhouse:reddit:8319536": "2026-10-26",
 "greenhouse:reddit:8319655": "2026-10-24",
+"greenhouse:reddit:8328083": "2026-10-28",
 "greenhouse:reddit:8330450": "2026-10-28",
 "greenhouse:reddit:8330469": "2026-10-28",
 "greenhouse:ripple:8180206": "2026-10-20",
@@ -23559,6 +23576,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302459": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302466": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302501": "2026-10-20",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302512": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302516": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302534": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302553": "2026-10-20",
@@ -23756,6 +23774,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304044": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304048": "2026-10-22",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304061": "2026-10-28",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304065": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304084": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304088": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304094": "2026-10-26",
@@ -26536,6 +26555,7 @@
 "workday:intel:JR0287056": "2026-10-20",
 "workday:intel:JR0287144": "2026-10-27",
 "workday:intel:JR0287156": "2026-10-28",
+"workday:intel:JR0287181": "2026-10-28",
 "workday:intel:JR0287184": "2026-10-20",
 "workday:intel:JR0287199": "2026-10-20",
 "workday:intel:JR0287217": "2026-10-22",
@@ -29113,6 +29133,7 @@
 "workday:salesforce:JR357256": "2026-10-21",
 "workday:salesforce:JR357291-1": "2026-10-21",
 "workday:salesforce:JR357356": "2026-10-23",
+"workday:salesforce:JR357412": "2026-10-28",
 "workday:salesforce:JR357575": "2026-10-19",
 "workday:salesforce:JR357577": "2026-10-21",
 "workday:salesforce:JR357826": "2026-10-23",
@@ -29549,6 +29570,7 @@
 "workday:salesforce:JR365740": "2026-10-27",
 "workday:salesforce:JR365774": "2026-10-26",
 "workday:salesforce:JR365778": "2026-10-26",
+"workday:salesforce:JR365782": "2026-10-28",
 "workday:salesforce:JR365810": "2026-10-27",
 "workday:salesforce:JR365813-1": "2026-10-27",
 "workday:salesforce:JR365814-1": "2026-10-26",
@@ -30317,6 +30339,7 @@
 "amazon|software development engineer core relations": "2026-10-22",
 "amazon|software development engineer creative asset library creativex": "2026-10-19",
 "amazon|software development engineer creator marketplace": "2026-10-26",
+"amazon|software development engineer devices software services": "2026-10-28",
 "amazon|software development engineer dynamodb": "2026-10-22",
 "amazon|software development engineer early career 2027 us": "2026-10-19",
 "amazon|software development engineer embedded systems": "2026-10-23",
@@ -31146,9 +31169,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 64,
+"calls": 65,
 "date": "2026-10-28",
-"usd": 0.007108
+"usd": 0.007288
 },
 "years": {
 "amazon:10583340": [
