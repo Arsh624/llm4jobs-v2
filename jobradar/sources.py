@@ -54,7 +54,7 @@ def greenhouse(cfg) -> list[Job]:
 # --------------------------------------------------------------------- Ashby
 def ashby(cfg) -> list[Job]:
     slug = cfg["slug"]
-    d = request_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+    d = request_json(f"https://api.ashbyhq.com/posting-api/job-board/{quote(slug)}")   # some slugs have spaces
     out = []
     for j in d.get("jobs", []):
         if j.get("isListed") is False:
@@ -78,7 +78,8 @@ def ashby(cfg) -> list[Job]:
 # --------------------------------------------------------------------- Lever
 def lever(cfg) -> list[Job]:
     slug = cfg["slug"]
-    d = request_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
+    api = "api.eu.lever.co" if cfg.get("region") == "eu" else "api.lever.co"   # EU-hosted boards
+    d = request_json(f"https://{api}/v0/postings/{slug}?mode=json")
     out = []
     for j in d if isinstance(d, list) else []:
         cats = j.get("categories") or {}

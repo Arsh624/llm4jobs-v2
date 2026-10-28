@@ -2786,3 +2786,376 @@ company = "Workday"
 host = "workday.wd5.myworkdayjobs.com"
 tenant = "workday"
 site = "workday"   # Pleasanton
+
+# ------------------- Significant + mid-tier companies with Bay Area offices (Oct 2026)
+# Found via tools/detect_ats.py (board read from the company's own careers page) and known
+# board names; same-name boards checked by hand (Flock/Boom/ASI/Zoom wrong matches dropped).
+
+[[source]]
+type = "ashby"
+company = "Applied Intuition"
+slug = "applied"
+
+[[source]]
+type = "greenhouse"
+company = "Ai2"
+slug = "thealleninstitute"
+
+[[source]]
+type = "greenhouse"
+company = "Sourcegraph"
+slug = "sourcegraph91"
+
+[[source]]
+type = "lever"
+company = "Anchorage Digital"
+slug = "anchorage"
+
+[[source]]
+type = "lever"
+company = "Rigetti Computing"
+slug = "rigetti"
+
+[[source]]
+type = "ashby"
+company = "Apex Space"
+slug = "apex-technology-inc"
+
+[[source]]
+type = "greenhouse"
+company = "Pave"
+slug = "paveakatroveinformationtechnologies"
+
+[[source]]
+type = "ashby"
+company = "Convex"
+slug = "convex-dev"
+
+[[source]]
+type = "greenhouse"
+company = "Five Rings"
+slug = "fiveringsllc"
+
+[[source]]
+type = "greenhouse"
+company = "Headlands Technologies"
+slug = "headlandstechnologiesllc"
+
+[[source]]
+type = "greenhouse"
+company = "Walleye Capital"
+slug = "walleyecapital-external-fulltime"
+
+[[source]]
+type = "workday"
+company = "Cadence Design Systems"
+host = "cadence.wd1.myworkdayjobs.com"
+tenant = "cadence"
+site = "External_Careers"
+
+[[source]]
+type = "workday"
+company = "Lumentum"
+host = "lumentum.wd5.myworkdayjobs.com"
+tenant = "lumentum"
+site = "LITE"
+
+[[source]]
+type = "workday"
+company = "Zillow"
+host = "zillow.wd5.myworkdayjobs.com"
+tenant = "zillow"
+site = "Zillow_Group_External"
+
+[[source]]
+type = "workday"
+company = "HPE / Juniper Networks"
+host = "hpe.wd5.myworkdayjobs.com"
+tenant = "hpe"
+site = "Jobsathpe"
+
+[[source]]
+type = "oracle_hcm"
+company = "Fortinet"
+host = "edel.fa.us2.oraclecloud.com"
+site = "CX_2001"
+
+[[source]]
+type = "ashby"
+company = "Kraken"
+slug = "kraken.com"
+
+[[source]]
+type = "greenhouse"
+company = "Affirm"
+slug = "affirm"
+
+[[source]]
+type = "greenhouse"
+company = "Duolingo"
+slug = "duolingo"
+
+[[source]]
+type = "greenhouse"
+company = "Motional"
+slug = "motional"
+
+[[source]]
+type = "smartrecruiters"
+company = "LinkedIn"
+slug = "LinkedIn3"
+
+[[source]]
+type = "greenhouse"
+company = "GitLab"
+slug = "gitlab"
+
+[[source]]
+type = "greenhouse"
+company = "Sony Interactive (PlayStation)"
+slug = "sonyinteractiveentertainmentglobal"
+
+[[source]]
+type = "smartrecruiters"
+company = "Bosch"
+slug = "BoschGroup"
+
+[[source]]
+type = "jibe"
+company = "Panasonic North America"
+host = "careers.na.panasonic.com"
+
+[[source]]
+type = "workday"
+company = "Mastercard"
+host = "mastercard.wd1.myworkdayjobs.com"
+tenant = "mastercard"
+site = "CorporateCareers"
+
+[[source]]
+type = "greenhouse"
+company = "ZoomInfo"
+slug = "zoominfo"
+
+[[source]]
+type = "greenhouse"
+company = "Anduril"
+slug = "andurilindustries"
+
+[[source]]
+type = "greenhouse"
+company = "Zipline"
+slug = "flyzipline"
+
+[[source]]
+type = "lever"
+company = "Toyota Research Institute"
+slug = "tri"
+
+[[source]]
+type = "greenhouse"
+company = "Pindrop"
+slug = "pindropsecurity"
+
+[[source]]
+type = "ashby"
+company = "HappyRobot"
+slug = "happyrobot.ai"
+
+[[source]]
+type = "ashby"
+company = "Talos"
+slug = "talos-trading"
+
+[[source]]
+type = "ashby"
+company = "Hadrian"
+slug = "hadrian-automation"
+
+[[source]]
+type = "ashby"
+company = "Infinitus Systems"
+slug = "infinitus"
+
+[[source]]
+type = "greenhouse"
+company = "Hudson River Trading"
+slug = "wehrtyou"
+
+[[source]]
+type = "greenhouse"
+company = "DRW"
+slug = "drweng"
+
+[[source]]
+type = "greenhouse"
+company = "Optiver"
+slug = "optiverus"
+
+[[source]]
+type = "greenhouse"
+company = "Coinbase"
+slug = "coinbase"
+
+[[source]]
+type = "greenhouse"
+company = "Gusto"
+slug = "gusto"
+
+[[source]]
+type = "greenhouse"
+company = "MongoDB"
+slug = "mongodb"
+
+[[source]]
+type = "greenhouse"
+company = "Gong"
+slug = "gongio"
+
+[[source]]
+type = "greenhouse"
+company = "Riot Games"
+slug = "riotgames"
+
+[[source]]
+type = "lever"
+company = "Veeva Systems"
+slug = "veeva"
+
+# ------------------- Big / mid-tier names found by web search, each verified with a live fetch
+[[source]]
+type = "workday"
+company = "eBay"
+host = "ebay.wd5.myworkdayjobs.com"
+tenant = "ebay"
+site = "apply"
+
+[[source]]
+type = "workday"
+company = "Etsy"
+host = "etsy.wd5.myworkdayjobs.com"
+tenant = "etsy"
+site = "Etsy_Careers"
+
+[[source]]
+type = "workday"
+company = "Broadcom"
+host = "broadcom.wd1.myworkdayjobs.com"
+tenant = "broadcom"
+site = "External_Career"
+
+[[source]]
+type = "workday"
+company = "NXP Semiconductors"
+host = "nxp.wd3.myworkdayjobs.com"
+tenant = "nxp"
+site = "careers"
+
+[[source]]
+type = "workday"
+company = "Microchip Technology"
+host = "microchiphr.wd5.myworkdayjobs.com"
+tenant = "microchiphr"
+site = "External"
+
+[[source]]
+type = "workday"
+company = "Illumina"
+host = "illumina.wd1.myworkdayjobs.com"
+tenant = "illumina"
+site = "illumina-careers"
+
+[[source]]
+type = "workday"
+company = "Capital One"
+host = "capitalone.wd12.myworkdayjobs.com"
+tenant = "capitalone"
+site = "Capital_One"
+
+[[source]]
+type = "workday"
+company = "Wells Fargo"
+host = "wf.wd1.myworkdayjobs.com"
+tenant = "wf"
+site = "WellsFargoJobs"
+
+[[source]]
+type = "workday"
+company = "Adobe"
+host = "adobe.wd5.myworkdayjobs.com"
+tenant = "adobe"
+site = "external_experienced"
+
+[[source]]
+type = "workday"
+company = "Arrowstreet Capital"
+host = "arrowstreetcapital.wd5.myworkdayjobs.com"
+tenant = "arrowstreetcapital"
+site = "Arrowstreet"
+
+[[source]]
+type = "workday"
+company = "Ambarella"
+host = "ambarella.wd108.myworkdayjobs.com"
+tenant = "ambarella"
+site = "Ambarella"
+
+[[source]]
+type = "workday"
+company = "Monolithic Power Systems"
+host = "monolithicpower.wd12.myworkdayjobs.com"
+tenant = "monolithicpower"
+site = "MPS_Careers"
+
+[[source]]
+type = "greenhouse"
+company = "SK hynix America"
+slug = "skhynixamerica"
+
+[[source]]
+type = "greenhouse"
+company = "Skild AI"
+slug = "skildai-careers"
+
+[[source]]
+type = "ashby"
+company = "Hippocratic AI"
+slug = "hippocratic ai"
+
+[[source]]
+type = "ashby"
+company = "Niantic Spatial"
+slug = "niantic-spatial"
+
+[[source]]
+type = "lever"
+company = "QuantCo"
+slug = "quantco-"
+
+[[source]]
+type = "lever"
+company = "Cirrus Logic"
+slug = "cirrus"
+region = "eu"
+
+[[source]]
+type = "smartrecruiters"
+company = "Arista Networks"
+slug = "aristanetworks"
+
+[[source]]
+type = "smartrecruiters"
+company = "Renesas"
+slug = "renesaselectronics"
+
+[[source]]
+type = "oracle_hcm"
+company = "Texas Instruments"
+host = "edbz.fa.us2.oraclecloud.com"
+site = "CX"
+
+[[source]]
+type = "oracle_hcm"
+company = "Dell Technologies"
+host = "enterpriseplatform.dell.com"
+site = "careers"
