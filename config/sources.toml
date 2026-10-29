@@ -3182,3 +3182,27 @@ company = "Activision Blizzard"
 host = "xboxgaming.wd1.myworkdayjobs.com"
 tenant = "xboxgaming"
 site = "External"
+
+# ------------------- Booking Holdings brands (OpenTable already above). Mostly non-US jobs;
+# the US-only filter keeps just their US roles.
+[[source]]
+type = "jibe"
+company = "Booking.com"
+host = "jobs.booking.com"
+
+[[source]]
+type = "greenhouse"
+company = "Agoda"
+slug = "agoda"
+
+[[source]]
+type = "ashby"
+company = "KAYAK"
+slug = "kayak"
+
+[[source]]
+type = "workday"
+company = "Priceline"
+host = "priceline.wd1.myworkdayjobs.com"
+tenant = "priceline"
+site = "priceline"
