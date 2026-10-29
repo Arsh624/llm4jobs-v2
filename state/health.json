@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-29T00:01:16+00:00",
+ "run_at": "2026-10-29T00:27:49+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -43,6 +43,11 @@
   },
   "Actian": {
    "type": "lever",
+   "jobs": 2,
+   "error": null
+  },
+  "Activision Blizzard": {
+   "type": "workday",
    "jobs": 2,
    "error": null
   },
@@ -173,7 +178,7 @@
   },
   "Apex Space": {
    "type": "ashby",
-   "jobs": 134,
+   "jobs": 133,
    "error": null
   },
   "Apollo GraphQL": {
@@ -193,7 +198,7 @@
   },
   "Applied Materials": {
    "type": "eightfold",
-   "jobs": 70,
+   "jobs": 80,
    "error": null
   },
   "AppsFlyer": {
@@ -323,7 +328,7 @@
   },
   "Benchling": {
    "type": "ashby",
-   "jobs": 56,
+   "jobs": 55,
    "error": null
   },
   "BetterHelp": {
@@ -523,7 +528,7 @@
   },
   "Cisco": {
    "type": "workday",
-   "jobs": 31,
+   "jobs": 33,
    "error": null
   },
   "ClassDojo": {
@@ -823,7 +828,7 @@
   },
   "ElevenLabs": {
    "type": "ashby",
-   "jobs": 154,
+   "jobs": 153,
    "error": null
   },
   "EliseAI": {
@@ -928,7 +933,7 @@
   },
   "Figma": {
    "type": "greenhouse",
-   "jobs": 141,
+   "jobs": 142,
    "error": null
   },
   "Figure AI": {
@@ -1016,6 +1021,11 @@
    "jobs": 30,
    "error": null
   },
+  "Genentech": {
+   "type": "workday",
+   "jobs": 28,
+   "error": null
+  },
   "Genesis Molecular AI": {
    "type": "ashby",
    "jobs": 11,
@@ -1043,7 +1053,7 @@
   },
   "GitLab": {
    "type": "greenhouse",
-   "jobs": 234,
+   "jobs": 232,
    "error": null
   },
   "Glimpse": {
@@ -1083,12 +1093,12 @@
   },
   "Gusto": {
    "type": "greenhouse",
-   "jobs": 89,
+   "jobs": 88,
    "error": null
   },
   "HP": {
    "type": "workday",
-   "jobs": 125,
+   "jobs": 126,
    "error": null
   },
   "HPE / Juniper Networks": {
@@ -1533,12 +1543,12 @@
   },
   "Medtronic": {
    "type": "workday",
-   "jobs": 164,
+   "jobs": 167,
    "error": null
   },
   "Mercor": {
    "type": "ashby",
-   "jobs": 109,
+   "jobs": 108,
    "error": null
   },
   "Mercury Technologies": {
@@ -1668,7 +1678,7 @@
   },
   "NVIDIA": {
    "type": "workday",
-   "jobs": 240,
+   "jobs": 241,
    "error": null
   },
   "NXP Semiconductors": {
@@ -1753,7 +1763,7 @@
   },
   "Northwood Space": {
    "type": "ashby",
-   "jobs": 60,
+   "jobs": 58,
    "error": null
   },
   "Notion": {
@@ -2088,7 +2098,7 @@
   },
   "Qualcomm": {
    "type": "eightfold",
-   "jobs": 50,
+   "jobs": 60,
    "error": null
   },
   "QuantCo": {
@@ -2203,7 +2213,7 @@
   },
   "Ripple Labs": {
    "type": "greenhouse",
-   "jobs": 110,
+   "jobs": 111,
    "error": null
   },
   "Rivian": {
@@ -2218,12 +2228,12 @@
   },
   "Roblox": {
    "type": "greenhouse",
-   "jobs": 270,
+   "jobs": 269,
    "error": null
   },
   "Rocket Lab": {
    "type": "greenhouse",
-   "jobs": 555,
+   "jobs": 556,
    "error": null
   },
   "Rocket Lawyer": {
@@ -2253,7 +2263,7 @@
   },
   "Runway ML": {
    "type": "ashby",
-   "jobs": 46,
+   "jobs": 47,
    "error": null
   },
   "SK hynix America": {
@@ -2283,7 +2293,7 @@
   },
   "Samsara": {
    "type": "greenhouse",
-   "jobs": 318,
+   "jobs": 322,
    "error": null
   },
   "Samsung Research America": {
@@ -2398,7 +2408,7 @@
   },
   "Skydio": {
    "type": "ashby",
-   "jobs": 174,
+   "jobs": 175,
    "error": null
   },
   "Sleeper": {
@@ -2458,7 +2468,7 @@
   },
   "Sony Interactive (PlayStation)": {
    "type": "greenhouse",
-   "jobs": 202,
+   "jobs": 201,
    "error": null
   },
   "Sourcegraph": {
@@ -2523,7 +2533,7 @@
   },
   "Stripe": {
    "type": "greenhouse",
-   "jobs": 719,
+   "jobs": 721,
    "error": null
   },
   "Stuut": {
@@ -2573,8 +2583,8 @@
   },
   "Synopsys": {
    "type": "talentbrew",
-   "jobs": 682,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "T-Mobile": {
    "type": "workday",
@@ -2668,7 +2678,7 @@
   },
   "Thumbtack": {
    "type": "ashby",
-   "jobs": 45,
+   "jobs": 44,
    "error": null
   },
   "Titan": {
@@ -2903,7 +2913,7 @@
   },
   "Workday": {
    "type": "workday",
-   "jobs": 77,
+   "jobs": 79,
    "error": null
   },
   "World Labs": {
@@ -2921,6 +2931,11 @@
    "jobs": 68,
    "error": null
   },
+  "Yelp": {
+   "type": "phenom",
+   "jobs": 24,
+   "error": null
+  },
   "Yotta Labs": {
    "type": "ashby",
    "jobs": 4,
@@ -2933,7 +2948,7 @@
   },
   "Zillow": {
    "type": "workday",
-   "jobs": 19,
+   "jobs": 20,
    "error": null
   },
   "Zimperium": {
@@ -2958,7 +2973,7 @@
   },
   "Zscaler": {
    "type": "greenhouse",
-   "jobs": 351,
+   "jobs": 352,
    "error": null
   },
   "Zuora": {
