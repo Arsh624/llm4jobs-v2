@@ -15,8 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from jobradar.pipeline import load_config  # noqa: E402
-from jobradar.sources import ADAPTERS, AGE_AWARE  # noqa: E402
+from jobradar.pipeline import DEFAULTS, _fetch_one, load_config  # noqa: E402
+from jobradar.sources import AGE_AWARE  # noqa: E402
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/130.0 Safari/537.36", "Accept": "text/html"}
@@ -35,11 +35,10 @@ def link_ok(url: str) -> tuple[bool, str]:
 
 def audit(src: dict) -> dict:
     label = src.get("company", src["type"])
-    try:
-        fn = ADAPTERS[src["type"]]
-        jobs = fn(src, max_age_days=7) if src["type"] in AGE_AWARE else fn(src)
-    except Exception as e:
-        return {"source": label, "type": src["type"], "status": "FEED_ERROR", "detail": f"{type(e).__name__}: {str(e)[:80]}"}
+    # Same code path as a real run (incl. job_url_template rewrites), with a 7-day window.
+    _, jobs, err = _fetch_one(src, {**DEFAULTS, "max_age_days": 7})
+    if err:
+        return {"source": label, "type": src["type"], "status": "FEED_ERROR", "detail": err[:90]}
     if not jobs:
         status = "QUIET" if src["type"] in AGE_AWARE else "EMPTY"
         return {"source": label, "type": src["type"], "status": status, "jobs": 0}

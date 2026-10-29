@@ -376,6 +376,59 @@ def _talentbrew_detail(job: Job) -> None:
             return
 
 
+# ------------------------------------------------------------------ Phenom
+def phenom(cfg, max_pages: int = 10) -> list[Job]:
+    """Phenom career sites (Yelp, ...). Uses the site's own /widgets search endpoint, which needs
+    the site's refNum (read from the search page). If a Phenom site just fronts Workday, prefer
+    the Workday adapter instead (e.g. Genentech -> roche, Activision -> xboxgaming)."""
+    import http.cookiejar
+    import json as _json
+    import urllib.request
+    base, loc = cfg["host"].rstrip("/"), cfg.get("locale_path", "/us/en")
+    base = base if base.startswith("http") else f"https://{base}"
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    search = f"{base}{loc}/search-results"
+    page = opener.open(urllib.request.Request(search, headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}),
+                       timeout=30).read().decode("utf-8", "ignore")
+    ref = re.search(r'"refNum"\s*:\s*"([^"]+)"', page)
+    if not ref:
+        raise RuntimeError("phenom: refNum not found on search page")
+    lang = re.search(r'"locale"\s*:\s*"([^"]+)"', page)
+    country = re.search(r'"country"\s*:\s*"([^"]+)"', page)
+    out, offset = [], 0
+    for _ in range(max_pages):
+        body = {"lang": lang.group(1) if lang else "en_us", "deviceType": "desktop",
+                "country": country.group(1) if country else "us", "pageName": "search-results",
+                "ddoKey": "refineSearch", "sortBy": "Most recent", "subsearch": "", "from": offset, "jobs": True,
+                "counts": False, "size": 100, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
+                "pageId": "page20", "siteType": "external", "keywords": "", "global": True,
+                "selected_fields": {}, "locationData": {}, "refNum": ref.group(1)}
+        req = urllib.request.Request(f"{base}/widgets", data=_json.dumps(body).encode(), headers={
+            "User-Agent": BROWSER_UA, "Content-Type": "application/json", "Accept": "application/json",
+            "Referer": search})
+        rs = _json.load(opener.open(req, timeout=30)).get("refineSearch") or {}
+        jobs = (rs.get("data") or {}).get("jobs") or []
+        for j in jobs:
+            link = f"{base}{loc}/job/{j.get('jobId')}"
+            out.append(Job(
+                source="phenom", source_id=f"{ref.group(1)}:{j.get('jobId') or j.get('jobSeqNo')}",
+                company=cfg["company"], title=j.get("title", ""), url=link,
+                location=j.get("cityStateCountry") or j.get("location") or "",
+                posted_at=_iso(j.get("dateCreated") or j.get("postedDate")),
+                extra={"tb_detail": link},
+            ))
+        offset += len(jobs)
+        if not jobs or offset >= (rs.get("totalHits") or 0):
+            break
+    return out
+
+
+def _phenom_detail(job: Job) -> None:
+    posted = job.posted_at
+    _talentbrew_detail(job)          # same JSON-LD JobPosting reader
+    job.posted_at = posted or job.posted_at
+
+
 # ---------------------------------------------------- Oracle Recruiting Cloud
 def oracle_hcm(cfg, max_age_days: int = 3, max_pages: int = 10) -> list[Job]:
     """Oracle Recruiting Cloud (Oracle, Uber, ...): public recruitingCEJobRequisitions REST API,
@@ -448,13 +501,14 @@ ADAPTERS = {
     "greenhouse": greenhouse, "ashby": ashby, "lever": lever, "workday": workday,
     "smartrecruiters": smartrecruiters, "amazon": amazon, "simplify": simplify,
     "jibe": jibe, "eightfold": eightfold, "talentbrew": talentbrew, "oracle_hcm": oracle_hcm,
+    "phenom": phenom,
 }
 # Adapters that stop paging once jobs get older than max_age_days.
 AGE_AWARE = {"workday", "jibe", "eightfold", "oracle_hcm"}
 
 DETAIL = {"workday": _workday_detail, "smartrecruiters": _smartrecruiters_detail,
           "eightfold": _eightfold_detail, "talentbrew": _talentbrew_detail,
-          "oracle_hcm": _oracle_hcm_detail}
+          "oracle_hcm": _oracle_hcm_detail, "phenom": _phenom_detail}
 # Sources whose list already has a description, but only a short one worth upgrading.
 ALWAYS_DETAIL = {"oracle_hcm"}
 

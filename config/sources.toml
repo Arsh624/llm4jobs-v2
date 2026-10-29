@@ -3161,3 +3161,24 @@ type = "oracle_hcm"
 company = "Dell Technologies"
 host = "enterpriseplatform.dell.com"
 site = "careers"
+
+# ------------------- Phenom career sites (Oct 2026)
+[[source]]
+type = "phenom"
+company = "Yelp"
+host = "www.yelp.careers"
+
+# Phenom front ends that sit on Workday -> read the Workday board directly (already-tested adapter)
+[[source]]
+type = "workday"
+company = "Genentech"
+host = "roche.wd3.myworkdayjobs.com"
+tenant = "roche"
+site = "ROG-A2O-GENE"
+
+[[source]]
+type = "workday"
+company = "Activision Blizzard"
+host = "xboxgaming.wd1.myworkdayjobs.com"
+tenant = "xboxgaming"
+site = "External"
