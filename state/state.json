@@ -1200,6 +1200,16 @@
 },
 "2026-10-29"
 ],
+"amazon:10591988|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-10-29"
+],
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30|v3|73908d": [
 {
 "chance": 2,
@@ -2160,6 +2170,16 @@
 },
 "2026-10-28"
 ],
+"ashby:shieldai:6b5da15b-b34e-4771-bc6c-a05892ae87e9|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets early-career developers with relevant skills and education.",
+"us_ok": true
+},
+"2026-10-29"
+],
 "ashby:shieldai:6d47a056-8e71-4ffc-80d1-2ac8206325f1|v3|73908d": [
 {
 "chance": 4,
@@ -2199,6 +2219,16 @@
 "us_ok": true
 },
 "2026-10-28"
+],
+"ashby:shieldai:a9e2509c-fa35-4bf7-b50d-a557666b629d|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Targets early-career engineers; security clearance required.",
+"us_ok": true
+},
+"2026-10-29"
 ],
 "ashby:shieldai:ad864afa-eb47-4f0e-8f0a-fea72f6b1fe3|v3|73908d": [
 {
@@ -2279,6 +2309,16 @@
 "us_ok": true
 },
 "2026-10-28"
+],
+"ashby:shieldai:f5ea96c5-7d70-4058-adec-16be606f5ad3|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets early-career engineers with relevant skills",
+"us_ok": true
+},
+"2026-10-29"
 ],
 "ashby:substack:32cbda9c-7783-45d1-83b9-73274f2311ba|v3|73908d": [
 {
@@ -6661,6 +6701,13 @@
 },
 "2026-10-28"
 ],
+"rescue:ashby:shieldai:2f56291a-7f4e-492f-86ea-a75097347754": [
+{
+"note": "Requires significant technical expertise and ownership.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:ashby:shieldai:30e4180e-ca74-4874-823f-8227d2ad0d7e": [
 {
 "note": "Requires significant experience in avionics engineering.",
@@ -6675,12 +6722,26 @@
 },
 "2026-10-28"
 ],
+"rescue:ashby:shieldai:490bcf1a-897a-458a-a155-4640fc87568c": [
+{
+"note": "Requires significant engineering experience.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:ashby:shieldai:4dc1a1fc-c675-44e6-9f07-7195ffd94fbb": [
 {
 "note": "Requires significant experience in engineering.",
 "senior": true
 },
 "2026-10-28"
+],
+"rescue:ashby:shieldai:5105e173-eb44-4590-92c3-c6d5567976d7": [
+{
+"note": "Requires significant experience in aerostructures.",
+"senior": true
+},
+"2026-10-29"
 ],
 "rescue:ashby:shieldai:51620677-860f-46cf-9830-8b663da8cc2f": [
 {
@@ -6724,6 +6785,20 @@
 },
 "2026-10-28"
 ],
+"rescue:ashby:shieldai:b544c82e-c1d5-4e1b-ad24-46904cd3eafe": [
+{
+"note": "Requires significant engineering experience.",
+"senior": true
+},
+"2026-10-29"
+],
+"rescue:ashby:shieldai:b5b01871-fe49-4c74-b6a4-e01a5a930654": [
+{
+"note": "Requires leadership and technical expertise.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:ashby:shieldai:c23b718b-3461-4096-b01e-44e4beec42f4": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -6738,12 +6813,26 @@
 },
 "2026-10-28"
 ],
+"rescue:ashby:shieldai:e795d07d-c0b1-4577-b752-540230ca2c2b": [
+{
+"note": "Requires significant technical experience and ownership.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:ashby:shieldai:ecb2be67-1842-4e45-8dee-dfbfd9bf00da": [
 {
 "note": "Requires hands-on deep learning experience.",
 "senior": true
 },
 "2026-10-28"
+],
+"rescue:ashby:shieldai:edb2b033-748c-44a1-869b-a3e0d55ae20b": [
+{
+"note": "Requires significant technical ownership and experience.",
+"senior": true
+},
+"2026-10-29"
 ],
 "rescue:ashby:skydio:d7bfd417-401a-43b6-b59d-fa2a69f5e128": [
 {
@@ -15565,6 +15654,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:marvell:2605101": [
+{
+"note": "Requires significant experience in CAD engineering.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:workday:marvell:2605107": [
 {
 "note": "Requires significant experience and expertise.",
@@ -22010,7 +22106,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2549
+"typical": 2548
 },
 "AngelList": {
 "alerted": false,
@@ -22285,7 +22381,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 25
+"typical": 26
 },
 "Calm": {
 "alerted": false,
@@ -22410,7 +22506,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 459
+"typical": 460
 },
 "Cloudinary": {
 "alerted": false,
@@ -22550,7 +22646,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 903
+"typical": 902
 },
 "Dataiku": {
 "alerted": false,
@@ -22905,7 +23001,7 @@
 "GitHub": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 87
 },
 "GitLab": {
 "alerted": false,
@@ -23145,7 +23241,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 102
+"typical": 103
 },
 "Intro": {
 "alerted": false,
@@ -23365,7 +23461,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "MasterClass": {
 "alerted": false,
@@ -23535,12 +23631,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 252
+"typical": 256
 },
 "NXP Semiconductors": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "Nash": {
 "alerted": false,
@@ -23690,7 +23786,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 809
+"typical": 811
 },
 "OpenEvidence": {
 "alerted": false,
@@ -24095,7 +24191,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 552
+"typical": 551
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -24725,7 +24821,7 @@
 "Waymark": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 18
 },
 "Waymo": {
 "alerted": false,
@@ -24810,7 +24906,7 @@
 "Zillow": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 19
 },
 "Zimperium": {
 "alerted": false,
@@ -25101,6 +25197,7 @@
 "amazon:10591904": "2026-10-29",
 "amazon:10591944": "2026-10-29",
 "amazon:10591945": "2026-10-29",
+"amazon:10591988": "2026-10-29",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
 "ashby:1x:670062fb-edc6-4bd4-be07-63049e5d9134": "2026-10-28",
 "ashby:1x:73739950-4a8b-49b5-9f9f-3ccc17882098": "2026-10-28",
@@ -25701,6 +25798,7 @@
 "ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9": "2026-10-21",
 "ashby:openai:191e42f8-cd62-4082-8f72-505c26505e67": "2026-10-23",
 "ashby:openai:1bdc3943-94e8-4479-b1ee-9e2c903a5487": "2026-10-21",
+"ashby:openai:1d386acc-5fe0-44ed-b288-a6b1b891c9a8": "2026-10-29",
 "ashby:openai:1eb6ef0f-0e51-46d3-b888-c1a4c22c190a": "2026-10-22",
 "ashby:openai:1f148786-2e00-472a-96b9-0b29015980e1": "2026-10-20",
 "ashby:openai:20b2d81c-943b-4be7-a304-39c29bf33923": "2026-10-23",
@@ -25772,6 +25870,7 @@
 "ashby:openai:a5dd77a2-9ab1-4165-98aa-c7bb0260985b": "2026-10-19",
 "ashby:openai:aaf9aa75-e782-49a0-8820-79b96f343bb0": "2026-10-27",
 "ashby:openai:ad6b55f9-fa63-4860-b852-d90592e49d1c": "2026-10-28",
+"ashby:openai:b6e0d9c6-a5ad-4d27-ad67-fde760e277b6": "2026-10-29",
 "ashby:openai:b6ec6e9e-e134-47b3-b413-05eca151396c": "2026-10-20",
 "ashby:openai:b73e46a6-881a-4413-835a-94b9d5f35d2f": "2026-10-23",
 "ashby:openai:b82699a2-5819-4276-a402-fd88f56f9246": "2026-10-28",
@@ -26014,11 +26113,14 @@
 "ashby:shieldai:1434a027-14fd-4419-9da7-14a951436c6f": "2026-10-28",
 "ashby:shieldai:170ee995-2607-4130-bd54-17718a605a9f": "2026-10-28",
 "ashby:shieldai:172efcd7-b4a6-49a7-8d49-9c75cc174e2f": "2026-10-28",
+"ashby:shieldai:1d3fb7b4-75d4-43fb-9265-a9cd7c44fb77": "2026-10-29",
 "ashby:shieldai:1ecb2a62-28a4-405b-86cd-7a889996e989": "2026-10-28",
 "ashby:shieldai:2019081b-b7fc-4188-8c8b-d6663b9724e3": "2026-10-28",
 "ashby:shieldai:230bee64-13c7-48a2-b12b-55ed1488d0b0": "2026-10-28",
+"ashby:shieldai:257d81db-5eca-4f01-9ee1-e019a4d6a9f4": "2026-10-29",
 "ashby:shieldai:28107211-92fb-478d-9f5a-444bab63daa1": "2026-10-28",
 "ashby:shieldai:2c1b81e5-fb5e-4b08-a77b-e18d3b6ceb98": "2026-10-28",
+"ashby:shieldai:2f56291a-7f4e-492f-86ea-a75097347754": "2026-10-29",
 "ashby:shieldai:300f9c70-bbb4-40a3-a37e-dd224fd9c4bc": "2026-10-28",
 "ashby:shieldai:30e4180e-ca74-4874-823f-8227d2ad0d7e": "2026-10-28",
 "ashby:shieldai:32d8f4a9-ec01-444d-8986-cbd1ab831b1b": "2026-10-28",
@@ -26029,9 +26131,11 @@
 "ashby:shieldai:3fe76139-6112-4ff1-a337-5034dcd45942": "2026-10-28",
 "ashby:shieldai:40a64edd-dd5a-4d7a-a7c3-86fad8496eff": "2026-10-28",
 "ashby:shieldai:425e4087-a1b2-4f41-8fff-3dcd275a11e8": "2026-10-28",
+"ashby:shieldai:490bcf1a-897a-458a-a155-4640fc87568c": "2026-10-29",
 "ashby:shieldai:4d12eced-80cd-4faa-8190-fc7d5d878917": "2026-10-28",
 "ashby:shieldai:4d8006c7-781b-4fd3-ac3d-102a857e4351": "2026-10-28",
 "ashby:shieldai:4dc1a1fc-c675-44e6-9f07-7195ffd94fbb": "2026-10-28",
+"ashby:shieldai:5105e173-eb44-4590-92c3-c6d5567976d7": "2026-10-29",
 "ashby:shieldai:51620677-860f-46cf-9830-8b663da8cc2f": "2026-10-28",
 "ashby:shieldai:5297867d-518f-431f-825e-ba030902f302": "2026-10-28",
 "ashby:shieldai:5301dadb-adce-4f5a-b715-3a0e0251c491": "2026-10-28",
@@ -26039,6 +26143,7 @@
 "ashby:shieldai:563f5837-b99e-49e5-82ad-b4602352af82": "2026-10-28",
 "ashby:shieldai:596dd745-67e3-4a12-becb-7d6480261bf7": "2026-10-28",
 "ashby:shieldai:5a8fe2b5-9159-4380-92f9-98c2d6cc6a23": "2026-10-28",
+"ashby:shieldai:5b29a5c8-c3ac-4733-b0c3-6946ceb08a41": "2026-10-29",
 "ashby:shieldai:5c586daf-5186-4be5-8357-b21d9ad809be": "2026-10-28",
 "ashby:shieldai:62243e58-d998-4df6-8f96-318b30bfd3f4": "2026-10-28",
 "ashby:shieldai:622c6ee1-d865-46b3-83ea-87656568d932": "2026-10-28",
@@ -26046,6 +26151,7 @@
 "ashby:shieldai:64ad2aa9-0fc0-4125-87e1-5272d8270cb2": "2026-10-28",
 "ashby:shieldai:6767dc59-5767-4cda-9b5d-65e9cda7e2ab": "2026-10-28",
 "ashby:shieldai:69c5316d-cacf-4c9e-bfd1-e34a2334ec0e": "2026-10-28",
+"ashby:shieldai:6b5da15b-b34e-4771-bc6c-a05892ae87e9": "2026-10-29",
 "ashby:shieldai:6d47a056-8e71-4ffc-80d1-2ac8206325f1": "2026-10-28",
 "ashby:shieldai:6daa027a-903b-43d5-9ad7-14c09f2928d4": "2026-10-28",
 "ashby:shieldai:70aa4009-7c76-4d8b-9425-c8895f8f236e": "2026-10-28",
@@ -26056,6 +26162,7 @@
 "ashby:shieldai:820c5280-846e-4e09-8bbd-8ef0e0a1101a": "2026-10-28",
 "ashby:shieldai:82927b9a-ea69-48e5-b191-66749d5f29fa": "2026-10-28",
 "ashby:shieldai:82934dbb-37f1-4450-937f-12f3027c2f70": "2026-10-28",
+"ashby:shieldai:861f8133-fe90-41fc-b029-4fa43c75051a": "2026-10-29",
 "ashby:shieldai:87c9be77-e95f-4c25-8e79-97bef049e63c": "2026-10-28",
 "ashby:shieldai:8c93cf3d-25ba-4d41-b8ee-3a4b6a77769c": "2026-10-28",
 "ashby:shieldai:93929aeb-9c90-448e-af15-54204d906cad": "2026-10-28",
@@ -26064,12 +26171,16 @@
 "ashby:shieldai:99726ac8-75b2-4719-b0ea-e470cda3148b": "2026-10-28",
 "ashby:shieldai:a0ea5b02-79ed-48e8-b2a6-e31443dd5411": "2026-10-28",
 "ashby:shieldai:a2083814-9c20-4d07-9a16-88febbb009d6": "2026-10-28",
+"ashby:shieldai:a9e2509c-fa35-4bf7-b50d-a557666b629d": "2026-10-29",
 "ashby:shieldai:aa079589-0a90-4de9-8d39-84ee960f2efe": "2026-10-28",
 "ashby:shieldai:abea19fb-df2c-4c3b-ae6a-f30db2c33683": "2026-10-28",
 "ashby:shieldai:ad864afa-eb47-4f0e-8f0a-fea72f6b1fe3": "2026-10-28",
 "ashby:shieldai:b2209a76-3f07-4c8b-83f5-dc78ad02a744": "2026-10-28",
 "ashby:shieldai:b2660259-a5db-4530-95e6-20e48a41068d": "2026-10-28",
+"ashby:shieldai:b544c82e-c1d5-4e1b-ad24-46904cd3eafe": "2026-10-29",
 "ashby:shieldai:b5a7b7cd-f553-42ad-8f97-cafb3e74a8b5": "2026-10-28",
+"ashby:shieldai:b5b01871-fe49-4c74-b6a4-e01a5a930654": "2026-10-29",
+"ashby:shieldai:bbe1b07a-8820-4503-ab63-5a6e04dc6dbb": "2026-10-29",
 "ashby:shieldai:bc9e0e7c-c073-47c1-8fe7-a9c38edfaa41": "2026-10-28",
 "ashby:shieldai:bdaa8ae3-d3e9-47b2-8b7b-06f1ebb8acb4": "2026-10-28",
 "ashby:shieldai:be1430ea-f612-4271-ae5b-29e653b043b6": "2026-10-28",
@@ -26077,23 +26188,31 @@
 "ashby:shieldai:bffebf59-65b7-4f4f-805e-a9cdf0d2b252": "2026-10-28",
 "ashby:shieldai:c0735824-2b3c-46a2-a888-99e7376a9606": "2026-10-28",
 "ashby:shieldai:c23b718b-3461-4096-b01e-44e4beec42f4": "2026-10-28",
+"ashby:shieldai:c3083d29-c6da-4564-8401-7df201e7117f": "2026-10-29",
 "ashby:shieldai:c37a86ed-37bf-4b14-9a09-60bdc9c49ffb": "2026-10-28",
 "ashby:shieldai:c409404e-33dd-42f8-90ae-3f29264cdb54": "2026-10-28",
 "ashby:shieldai:c4d44a29-0cc0-4452-858c-ce66bb174e7a": "2026-10-28",
 "ashby:shieldai:c9c68cb4-a07b-4150-87bf-9eed690feb90": "2026-10-28",
 "ashby:shieldai:cac792e3-85d6-441c-8dea-f9415ddc38c3": "2026-10-28",
 "ashby:shieldai:ce505a4c-bd19-4be4-89e3-1859b276bf5f": "2026-10-28",
+"ashby:shieldai:ce9f5ea9-e334-455a-9b84-ea3cd6ad8990": "2026-10-29",
+"ashby:shieldai:d0dbdf00-64c2-465d-8a34-55ee9df428c0": "2026-10-29",
+"ashby:shieldai:d2657bc0-ea4c-4d77-8bf4-29efff70d1f5": "2026-10-29",
 "ashby:shieldai:d4b19c5c-ace7-4b6b-820e-1ad3e667b43b": "2026-10-28",
 "ashby:shieldai:d4bf2c19-e804-4911-b93a-a5bff315cfac": "2026-10-28",
 "ashby:shieldai:db04c516-d21a-449c-8bfd-1cf830eafb5a": "2026-10-28",
 "ashby:shieldai:dbe70971-7610-4622-a9e1-5ed112ac55b6": "2026-10-28",
 "ashby:shieldai:dc460b4f-171f-482b-a42f-09c3bbb0e0a1": "2026-10-28",
 "ashby:shieldai:de8009fb-b6fa-4642-8c7a-b5f81274eb34": "2026-10-28",
+"ashby:shieldai:deb7c6fe-c422-44f3-908b-e28263f3f513": "2026-10-29",
+"ashby:shieldai:e795d07d-c0b1-4577-b752-540230ca2c2b": "2026-10-29",
 "ashby:shieldai:eb5a1e9b-680d-4fb1-b58c-96bf709099f2": "2026-10-28",
 "ashby:shieldai:ecb2be67-1842-4e45-8dee-dfbfd9bf00da": "2026-10-28",
 "ashby:shieldai:ed77eb19-77e0-429a-949a-067b0a5d93b2": "2026-10-28",
+"ashby:shieldai:edb2b033-748c-44a1-869b-a3e0d55ae20b": "2026-10-29",
 "ashby:shieldai:f3b10e8f-51b7-42e6-94d1-075934eeb716": "2026-10-28",
 "ashby:shieldai:f4a78c1a-6650-4346-a83a-55315d03d563": "2026-10-28",
+"ashby:shieldai:f5ea96c5-7d70-4058-adec-16be606f5ad3": "2026-10-29",
 "ashby:shieldai:fcfb76dc-60ac-4416-9ec4-5a21789808c9": "2026-10-28",
 "ashby:shieldai:fe8d16f9-53a0-49f9-9014-73f0c93253e4": "2026-10-28",
 "ashby:skydio:05f020b1-9023-49c5-bac4-42dbd8552d3a": "2026-10-26",
@@ -28414,6 +28533,7 @@
 "greenhouse:cloudflare:8325821": "2026-10-28",
 "greenhouse:cloudflare:8327153": "2026-10-27",
 "greenhouse:cloudflare:8327965": "2026-10-28",
+"greenhouse:cloudflare:8329671": "2026-10-29",
 "greenhouse:cloudflare:8332012": "2026-10-28",
 "greenhouse:coinbase:8311341": "2026-10-29",
 "greenhouse:coinbase:8312623": "2026-10-29",
@@ -30375,6 +30495,7 @@
 "greenhouse:verkada:5278670007": "2026-10-28",
 "greenhouse:waymark:4747532005": "2026-10-28",
 "greenhouse:waymark:4747610005": "2026-10-28",
+"greenhouse:waymark:4748732005": "2026-10-29",
 "greenhouse:waymo:8104309": "2026-10-21",
 "greenhouse:waymo:8125600": "2026-10-28",
 "greenhouse:waymo:8157161": "2026-10-20",
@@ -30768,6 +30889,7 @@
 "jibe:careers.amd.com:94477": "2026-10-23",
 "jibe:careers.amd.com:94485": "2026-10-26",
 "jibe:careers.amd.com:94487": "2026-10-23",
+"jibe:careers.amd.com:94495": "2026-10-29",
 "jibe:careers.amd.com:94502": "2026-10-28",
 "jibe:careers.amd.com:94505": "2026-10-28",
 "jibe:careers.amd.com:94783": "2026-10-28",
@@ -31193,6 +31315,7 @@
 "jibe:github.careers:6335": "2026-10-27",
 "jibe:github.careers:6341": "2026-10-27",
 "jibe:github.careers:6342": "2026-10-27",
+"jibe:github.careers:6343": "2026-10-29",
 "jibe:github.careers:6344": "2026-10-28",
 "jibe:github.careers:6486": "2026-10-28",
 "lever:agiloft:06e4a583-b6de-4427-810d-e87eea09a257": "2026-10-23",
@@ -35177,6 +35300,7 @@
 "workday:cadence:R56894-1": "2026-10-29",
 "workday:cadence:R56933": "2026-10-29",
 "workday:cadence:R56961": "2026-10-29",
+"workday:cadence:R56967": "2026-10-29",
 "workday:cadence:R56984": "2026-10-29",
 "workday:cadence:R57082": "2026-10-29",
 "workday:capitalone:R1000005-1": "2026-10-29",
@@ -36444,6 +36568,7 @@
 "workday:intel:JR0288603": "2026-10-27",
 "workday:intel:JR0288608": "2026-10-27",
 "workday:intel:JR0288609": "2026-10-27",
+"workday:intel:JR0288611": "2026-10-29",
 "workday:intel:JR0288612": "2026-10-27",
 "workday:intel:JR0288613": "2026-10-27",
 "workday:intel:JR0288617": "2026-10-23",
@@ -36596,6 +36721,7 @@
 "workday:marvell:2605090": "2026-10-22",
 "workday:marvell:2605097": "2026-10-21",
 "workday:marvell:2605100": "2026-10-20",
+"workday:marvell:2605101": "2026-10-29",
 "workday:marvell:2605103": "2026-10-27",
 "workday:marvell:2605106": "2026-10-20",
 "workday:marvell:2605107": "2026-10-20",
@@ -38961,6 +39087,7 @@
 "workday:nvidia:JR2028502-1": "2026-10-26",
 "workday:nvidia:JR2028506": "2026-10-26",
 "workday:nvidia:JR2028509": "2026-10-26",
+"workday:nvidia:JR2028511": "2026-10-29",
 "workday:nvidia:JR2028512": "2026-10-26",
 "workday:nvidia:JR2028518": "2026-10-26",
 "workday:nvidia:JR2028519": "2026-10-22",
@@ -39059,6 +39186,7 @@
 "workday:nxp:R-10067293": "2026-10-29",
 "workday:nxp:R-10067301": "2026-10-29",
 "workday:nxp:R-10067302": "2026-10-29",
+"workday:nxp:R-10067312": "2026-10-29",
 "workday:nxp:R-10067367": "2026-10-29",
 "workday:nxp:R-10067376": "2026-10-29",
 "workday:nxp:R-10067397": "2026-10-29",
@@ -41186,6 +41314,7 @@
 "amazon|software development engineer trust cx ai innovation and policies": "2026-10-27",
 "amazon|software development engineer us adc security": "2026-10-27",
 "amazon|software engineer early career": "2026-10-19",
+"amazon|software engineer worldwide amazon stores finance technology controllership engineering": "2026-10-29",
 "amazon|system development engineer nw adc software operations naso": "2026-10-23",
 "amazon|system development engineer region reliability engineering": "2026-10-23",
 "amazon|systems development engineer early career": "2026-10-19",
@@ -42044,11 +42173,14 @@
 "shield ai|electrical engineer 1 new grad": "2026-10-28",
 "shield ai|electrical engineer i new grad": "2026-10-28",
 "shield ai|engineer i flight test r6219 new grad": "2026-10-28",
+"shield ai|engineer i simulation framework r6203": "2026-10-29",
+"shield ai|engineer i software factory team r6235": "2026-10-29",
 "shield ai|engineer i software integration r6214 new grad": "2026-10-28",
 "shield ai|engineer i software test and automation r6216 new grad": "2026-10-28",
 "shield ai|engineer ii automated test r6288": "2026-10-28",
 "shield ai|engineer ii flight test r6222 new grad": "2026-10-28",
 "shield ai|engineer ii integration r6202 new grad": "2026-10-28",
+"shield ai|engineer ii simulation framework r6204": "2026-10-29",
 "shield ai|engineer ii software factory r6217 new grad": "2026-10-28",
 "shield ai|engineer ii software test and automation r6221 new grad": "2026-10-28",
 "shield ai|engineer ii structural analysis r5166": "2026-10-28",
@@ -42198,9 +42330,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 369,
+"calls": 381,
 "date": "2026-10-29",
-"usd": 0.052419
+"usd": 0.053942
 },
 "years": {
 "amazon:10583340": [
