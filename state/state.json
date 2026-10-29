@@ -1730,6 +1730,16 @@
 },
 "2026-10-26"
 ],
+"ashby:openai:33acf0e2-5c11-46d7-9dc9-417f5537139b|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets new grads; strong Python skills emphasized.",
+"us_ok": true
+},
+"2026-10-29"
+],
 "ashby:openai:551b0d0d-46c2-42fb-bb05-46e2fba8d4db|v3|73908d": [
 {
 "chance": 6,
@@ -8114,6 +8124,13 @@
 "senior": true
 },
 "2026-10-26"
+],
+"rescue:eightfold:microsoft.com:1970393557047348": [
+{
+"note": "Requires significant experience in program management.",
+"senior": true
+},
+"2026-10-29"
 ],
 "rescue:eightfold:microsoft.com:1970393557047399": [
 {
@@ -15276,6 +15293,20 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:hpe:1216401-3": [
+{
+"note": "Requires extensive experience in networking technologies.",
+"senior": true
+},
+"2026-10-29"
+],
+"rescue:workday:hpe:1216784": [
+{
+"note": "Lead implies significant experience required.",
+"senior": true
+},
+"2026-10-29"
+],
 "rescue:workday:hpe:1216800-2": [
 {
 "note": "Requires significant program management experience.",
@@ -15307,6 +15338,13 @@
 "rescue:workday:hpe:1217601-2": [
 {
 "note": "Requires significant experience in cybersecurity.",
+"senior": true
+},
+"2026-10-29"
+],
+"rescue:workday:hpe:1218036": [
+{
+"note": "Requires dynamic and experienced leadership.",
 "senior": true
 },
 "2026-10-29"
@@ -18866,6 +18904,26 @@
 },
 "2026-10-29"
 ],
+"workday:capitalone:R1004415-1|v3|73908d": [
+{
+"chance": 0,
+"level": "senior",
+"min_years": 6,
+"note": "Requires 6 years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-10-29"
+],
+"workday:capitalone:R1004419-1|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 4,
+"note": "Requires 4 years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-10-29"
+],
 "workday:capitalone:R1004432-1|v3|73908d": [
 {
 "chance": 0,
@@ -19272,6 +19330,16 @@
 "level": "entry",
 "min_years": null,
 "note": "Targets new grads; no specific experience required.",
+"us_ok": true
+},
+"2026-10-29"
+],
+"workday:hpe:1218456-1|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2-4 years experience, not targeting new grads.",
 "us_ok": true
 },
 "2026-10-29"
@@ -21836,7 +21904,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 189
+"typical": 190
 },
 "Airtable": {
 "alerted": false,
@@ -22031,7 +22099,7 @@
 "Autodesk": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 40
 },
 "Ava Labs": {
 "alerted": false,
@@ -22101,7 +22169,7 @@
 "Block": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 203
 },
 "Boku": {
 "alerted": false,
@@ -22201,7 +22269,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 257
+"typical": 259
 },
 "Carta": {
 "alerted": false,
@@ -22366,7 +22434,7 @@
 "Convex": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 11
 },
 "CoreWeave": {
 "alerted": false,
@@ -22846,12 +22914,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 224
+"typical": 227
 },
 "HackerOne": {
 "alerted": false,
@@ -23211,7 +23279,7 @@
 "LinkedIn": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 108
 },
 "Liquid AI": {
 "alerted": false,
@@ -23291,7 +23359,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 168
+"typical": 171
 },
 "Mercor": {
 "alerted": false,
@@ -23321,7 +23389,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 228
+"typical": 227
 },
 "Microsoft": {
 "alerted": false,
@@ -23581,7 +23649,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 807
+"typical": 808
 },
 "OpenEvidence": {
 "alerted": false,
@@ -23591,7 +23659,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 76
+"typical": 79
 },
 "OpenRouter": {
 "alerted": false,
@@ -24111,7 +24179,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 450
+"typical": 449
 },
 "Sesame": {
 "alerted": false,
@@ -24141,7 +24209,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3029
+"typical": 3052
 },
 "Simular": {
 "alerted": false,
@@ -24186,7 +24254,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 362
+"typical": 361
 },
 "SoFi": {
 "alerted": false,
@@ -24411,7 +24479,7 @@
 "The Trade Desk": {
 "alerted": false,
 "streak": 0,
-"typical": 111
+"typical": 112
 },
 "Thinking Machines Lab": {
 "alerted": false,
@@ -24481,7 +24549,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 133
+"typical": 132
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -24666,7 +24734,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 80
 },
 "World Labs": {
 "alerted": false,
@@ -25324,6 +25392,7 @@
 "ashby:etched:5cc3e04b-d19e-40cb-ac86-a71017365448": "2026-10-28",
 "ashby:etched:5e24c2af-4911-43be-b961-9396d40ad473": "2026-10-21",
 "ashby:etched:79b51baf-67eb-4857-a1ae-abcb649feab8": "2026-10-20",
+"ashby:etched:8bce52ad-2934-4c74-a2aa-aced867f1c19": "2026-10-29",
 "ashby:etched:9a1abdd3-47fb-4dab-9023-5ccf0601e9a9": "2026-10-23",
 "ashby:etched:c5c989ba-020e-4690-a14b-1f5cf85219ba": "2026-10-20",
 "ashby:fal-ai:219e4c26-f848-4c7d-8590-860a810e12a4": "2026-10-26",
@@ -25601,6 +25670,7 @@
 "ashby:openai:30b0a80b-8421-4847-a670-5bd09920c4ce": "2026-10-28",
 "ashby:openai:30e3b7b2-1fe4-49a4-a82f-9c34626f0441": "2026-10-27",
 "ashby:openai:3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19",
+"ashby:openai:33acf0e2-5c11-46d7-9dc9-417f5537139b": "2026-10-29",
 "ashby:openai:341a5ad4-9134-4bad-88e1-2ce0f70bf519": "2026-10-19",
 "ashby:openai:34c2ed3f-840f-4a68-9a00-0a0606660abf": "2026-10-19",
 "ashby:openai:3874db80-f3ec-4dd1-8d56-6441e8f7299d": "2026-10-21",
@@ -25711,11 +25781,14 @@
 "ashby:opengov:6bf81f49-bbe6-4699-a070-c77f9412efc4": "2026-10-20",
 "ashby:opengov:7c7db169-9933-4604-a065-b91081435a28": "2026-10-23",
 "ashby:opengov:7dfffb79-579e-4aa2-b72b-b785fca86ed9": "2026-10-21",
+"ashby:opengov:98322709-c21b-4782-8b70-a8fc2514c964": "2026-10-29",
 "ashby:opengov:9c75e993-060a-49da-b720-e23162ff6388": "2026-10-23",
+"ashby:opengov:a47e43d2-3296-49fc-8521-11645bab73b3": "2026-10-29",
 "ashby:opengov:ac260e97-d544-4198-9bcf-cf96c4f5104b": "2026-10-20",
 "ashby:opengov:adc0a15e-ab30-48eb-a565-6c7e2b168494": "2026-10-23",
 "ashby:opengov:b1fb46e0-36f4-49e4-bb9e-0340a4624d9d": "2026-10-26",
 "ashby:opengov:b407652d-36d0-4ee4-8757-71b76085a95a": "2026-10-21",
+"ashby:opengov:b79d7d11-1caf-4adf-9a4f-8da1fc8216c0": "2026-10-29",
 "ashby:opengov:d19cd3b8-c6af-4cc1-8e2c-1824ecd1a1aa": "2026-10-21",
 "ashby:opengov:d96ddd46-db2b-47d8-8ca5-97cdf6728338": "2026-10-21",
 "ashby:opengov:f0142f7b-3117-4c6f-9834-6f9c3dd37765": "2026-10-23",
@@ -26524,23 +26597,36 @@
 "eightfold:appliedmaterials.com:790319215317": "2026-10-28",
 "eightfold:appliedmaterials.com:790319215450": "2026-10-28",
 "eightfold:autodesk.com:1443152973589": "2026-10-26",
+"eightfold:autodesk.com:1443152973824": "2026-10-29",
+"eightfold:autodesk.com:1443152973984": "2026-10-29",
+"eightfold:autodesk.com:1443152973987": "2026-10-29",
 "eightfold:autodesk.com:1443152973997": "2026-10-29",
 "eightfold:autodesk.com:1443152974026": "2026-10-20",
+"eightfold:autodesk.com:1443152974040": "2026-10-29",
 "eightfold:autodesk.com:1443152974044": "2026-10-21",
 "eightfold:autodesk.com:1443152974110": "2026-10-29",
+"eightfold:autodesk.com:1443152974171": "2026-10-29",
 "eightfold:autodesk.com:1443152974172": "2026-10-26",
 "eightfold:autodesk.com:1443152974326": "2026-10-28",
 "eightfold:autodesk.com:1443152974344": "2026-10-29",
 "eightfold:autodesk.com:1443152974393": "2026-10-20",
+"eightfold:autodesk.com:1443152974413": "2026-10-29",
+"eightfold:autodesk.com:1443152974706": "2026-10-29",
 "eightfold:autodesk.com:1443152975270": "2026-10-20",
+"eightfold:autodesk.com:1443152976804": "2026-10-29",
 "eightfold:autodesk.com:1443153040334": "2026-10-26",
+"eightfold:autodesk.com:1443153475101": "2026-10-29",
 "eightfold:autodesk.com:1443153475138": "2026-10-20",
 "eightfold:autodesk.com:1443153475143": "2026-10-20",
 "eightfold:autodesk.com:1443153475168": "2026-10-20",
+"eightfold:autodesk.com:1443153475181": "2026-10-29",
 "eightfold:autodesk.com:1443153475559": "2026-10-20",
+"eightfold:autodesk.com:1443153475651": "2026-10-29",
 "eightfold:autodesk.com:1443153475655": "2026-10-28",
+"eightfold:autodesk.com:1443153475667": "2026-10-29",
 "eightfold:autodesk.com:1443153475672": "2026-10-26",
 "eightfold:autodesk.com:1443153475695": "2026-10-20",
+"eightfold:autodesk.com:1443153475734": "2026-10-29",
 "eightfold:autodesk.com:1443153475765": "2026-10-29",
 "eightfold:autodesk.com:1443153498004": "2026-10-21",
 "eightfold:autodesk.com:1443153519659": "2026-10-20",
@@ -27459,6 +27545,7 @@
 "eightfold:microsoft.com:1970393557047226": "2026-10-28",
 "eightfold:microsoft.com:1970393557047239": "2026-10-28",
 "eightfold:microsoft.com:1970393557047331": "2026-10-26",
+"eightfold:microsoft.com:1970393557047348": "2026-10-29",
 "eightfold:microsoft.com:1970393557047350": "2026-10-26",
 "eightfold:microsoft.com:1970393557047362": "2026-10-28",
 "eightfold:microsoft.com:1970393557047379": "2026-10-27",
@@ -27768,6 +27855,7 @@
 "greenhouse:airbnb:8327822": "2026-10-27",
 "greenhouse:airbnb:8329612": "2026-10-28",
 "greenhouse:airbnb:8332157": "2026-10-28",
+"greenhouse:airbnb:8332540": "2026-10-29",
 "greenhouse:airtable:8905022002": "2026-10-28",
 "greenhouse:airtable:8916370002": "2026-10-26",
 "greenhouse:airtable:8916372002": "2026-10-26",
@@ -28063,6 +28151,7 @@
 "greenhouse:block:5463428008": "2026-10-26",
 "greenhouse:block:5463933008": "2026-10-26",
 "greenhouse:block:5463976008": "2026-10-27",
+"greenhouse:block:5465180008": "2026-10-29",
 "greenhouse:block:5465286008": "2026-10-28",
 "greenhouse:block:5466269008": "2026-10-28",
 "greenhouse:block:5466280008": "2026-10-28",
@@ -29747,6 +29836,9 @@
 "greenhouse:rocketlab:8058356003": "2026-10-29",
 "greenhouse:rocketlab:8058455003": "2026-10-29",
 "greenhouse:rocketlab:8058688003": "2026-10-29",
+"greenhouse:rocketlab:8059448003": "2026-10-29",
+"greenhouse:rocketlab:8059636003": "2026-10-29",
+"greenhouse:rocketlab:8059770003": "2026-10-29",
 "greenhouse:roku:8067115": "2026-10-26",
 "greenhouse:roku:8300125": "2026-10-20",
 "greenhouse:roku:8305420": "2026-10-22",
@@ -30112,6 +30204,7 @@
 "greenhouse:thetradedesk:5275868007": "2026-10-28",
 "greenhouse:thetradedesk:5277417007": "2026-10-28",
 "greenhouse:thetradedesk:5277481007": "2026-10-28",
+"greenhouse:thetradedesk:5277887007": "2026-10-29",
 "greenhouse:thetradedesk:5277905007": "2026-10-29",
 "greenhouse:thetradedesk:5278873007": "2026-10-29",
 "greenhouse:thirdlove:8919546002": "2026-10-27",
@@ -31787,6 +31880,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348362": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348363": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348366": "2026-10-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348368": "2026-10-29",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348374": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348376": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348377": "2026-10-23",
@@ -32121,6 +32215,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302457": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302459": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302466": "2026-10-21",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302467": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302501": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302512": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302516": "2026-10-21",
@@ -32431,6 +32526,7 @@
 "simplify:1dca2d55-0ffe-4943-b1b6-9911806d1614": "2026-10-27",
 "simplify:1e71617d-f970-4f87-8869-2169d3adc052": "2026-10-26",
 "simplify:1e99ce76-876f-4aad-ac27-ba16227e5aaf": "2026-10-20",
+"simplify:1edcd461-c4f7-41b5-99da-49416607380e": "2026-10-29",
 "simplify:1f07993a-5e6f-4e09-8236-942da5e6d9e3": "2026-10-26",
 "simplify:1f9e540a-3a0e-499f-b89a-4d9b45b9f7f8": "2026-10-28",
 "simplify:1fac2631-0a51-44d0-9af9-209c670e1742": "2026-10-20",
@@ -32906,6 +33002,7 @@
 "simplify:f62e793a-1644-4b8d-a76d-ed67face4722": "2026-10-27",
 "simplify:f66d4e14-621c-44d2-b1e7-0b554b3f9993": "2026-10-20",
 "simplify:f699a7ca-d227-4c2b-9b7b-57a806b3100c": "2026-10-21",
+"simplify:f74e8641-8f84-4868-a3c2-04dc73eff8a9": "2026-10-29",
 "simplify:f7981568-cea1-46d1-a9bc-e93bccdbe4c3": "2026-10-23",
 "simplify:f85253cb-dca3-4867-ab55-198869bfb119": "2026-10-20",
 "simplify:f91a0d47-23a3-425d-936c-c7bd159b2053": "2026-10-27",
@@ -35135,7 +35232,9 @@
 "workday:capitalone:R1004411-1": "2026-10-29",
 "workday:capitalone:R1004413-1": "2026-10-29",
 "workday:capitalone:R1004414-1": "2026-10-29",
+"workday:capitalone:R1004415-1": "2026-10-29",
 "workday:capitalone:R1004416-1": "2026-10-29",
+"workday:capitalone:R1004419-1": "2026-10-29",
 "workday:capitalone:R1004421-1": "2026-10-29",
 "workday:capitalone:R1004432-1": "2026-10-29",
 "workday:capitalone:R1004433-1": "2026-10-29",
@@ -35730,6 +35829,7 @@
 "workday:hp:UNI4802-1": "2026-10-29",
 "workday:hp:UNI4806-1": "2026-10-29",
 "workday:hp:UNI4810-2": "2026-10-29",
+"workday:hp:UNI4812-1": "2026-10-29",
 "workday:hp:UNI4899-2": "2026-10-21",
 "workday:hp:UNI4914-2": "2026-10-22",
 "workday:hp:UNI5128-1": "2026-10-28",
@@ -35743,6 +35843,7 @@
 "workday:hpe:1201290-2": "2026-10-29",
 "workday:hpe:1204833-3": "2026-10-29",
 "workday:hpe:1205824-2": "2026-10-29",
+"workday:hpe:1206712-2": "2026-10-29",
 "workday:hpe:1206800-2": "2026-10-29",
 "workday:hpe:1207266-2": "2026-10-29",
 "workday:hpe:1207376-2": "2026-10-29",
@@ -35807,6 +35908,7 @@
 "workday:hpe:1214885-2": "2026-10-29",
 "workday:hpe:1214894-2": "2026-10-29",
 "workday:hpe:1214932-2": "2026-10-29",
+"workday:hpe:1214944-2": "2026-10-29",
 "workday:hpe:1215086": "2026-10-29",
 "workday:hpe:1215090-2": "2026-10-29",
 "workday:hpe:1215139-2": "2026-10-29",
@@ -35887,6 +35989,7 @@
 "workday:hpe:1216328-2": "2026-10-29",
 "workday:hpe:1216338-1": "2026-10-29",
 "workday:hpe:1216388-3": "2026-10-29",
+"workday:hpe:1216401-3": "2026-10-29",
 "workday:hpe:1216484-3": "2026-10-29",
 "workday:hpe:1216487-3": "2026-10-29",
 "workday:hpe:1216489-2": "2026-10-29",
@@ -35903,6 +36006,7 @@
 "workday:hpe:1216757": "2026-10-29",
 "workday:hpe:1216765": "2026-10-29",
 "workday:hpe:1216771": "2026-10-29",
+"workday:hpe:1216784": "2026-10-29",
 "workday:hpe:1216800-2": "2026-10-29",
 "workday:hpe:1216802": "2026-10-29",
 "workday:hpe:1216822-2": "2026-10-29",
@@ -35937,15 +36041,19 @@
 "workday:hpe:1217458-1": "2026-10-29",
 "workday:hpe:1217486-3": "2026-10-29",
 "workday:hpe:1217506-2": "2026-10-29",
+"workday:hpe:1217538-2": "2026-10-29",
 "workday:hpe:1217592-3": "2026-10-29",
 "workday:hpe:1217601-2": "2026-10-29",
 "workday:hpe:1217733-2": "2026-10-29",
 "workday:hpe:1217833-3": "2026-10-29",
 "workday:hpe:1217845-6": "2026-10-29",
+"workday:hpe:1218036": "2026-10-29",
 "workday:hpe:1218144-2": "2026-10-29",
+"workday:hpe:1218147-1": "2026-10-29",
 "workday:hpe:1218189-2": "2026-10-29",
 "workday:hpe:1218194-1": "2026-10-29",
 "workday:hpe:1218262-2": "2026-10-29",
+"workday:hpe:1218456-1": "2026-10-29",
 "workday:illumina:43317-JOB": "2026-10-29",
 "workday:illumina:43424-JOB": "2026-10-29",
 "workday:illumina:43575-JOB-1": "2026-10-29",
@@ -37080,6 +37188,7 @@
 "workday:medtronic:R80599": "2026-10-26",
 "workday:medtronic:R80605-1": "2026-10-23",
 "workday:medtronic:R80613-1": "2026-10-27",
+"workday:medtronic:R80617": "2026-10-29",
 "workday:medtronic:R80673": "2026-10-28",
 "workday:medtronic:R80676": "2026-10-26",
 "workday:medtronic:R80679": "2026-10-27",
@@ -39050,6 +39159,7 @@
 "workday:salesforce:JR344030": "2026-10-23",
 "workday:salesforce:JR344060": "2026-10-23",
 "workday:salesforce:JR344352": "2026-10-27",
+"workday:salesforce:JR344392": "2026-10-29",
 "workday:salesforce:JR344430": "2026-10-19",
 "workday:salesforce:JR344578": "2026-10-26",
 "workday:salesforce:JR344986": "2026-10-23",
@@ -39171,6 +39281,7 @@
 "workday:salesforce:JR356839": "2026-10-19",
 "workday:salesforce:JR356841": "2026-10-23",
 "workday:salesforce:JR356918": "2026-10-27",
+"workday:salesforce:JR357009": "2026-10-29",
 "workday:salesforce:JR357138": "2026-10-22",
 "workday:salesforce:JR357199-1": "2026-10-20",
 "workday:salesforce:JR357221": "2026-10-26",
@@ -39395,6 +39506,7 @@
 "workday:salesforce:JR363166": "2026-10-26",
 "workday:salesforce:JR363188": "2026-10-22",
 "workday:salesforce:JR363191": "2026-10-20",
+"workday:salesforce:JR363198-1": "2026-10-29",
 "workday:salesforce:JR363200": "2026-10-28",
 "workday:salesforce:JR363206": "2026-10-20",
 "workday:salesforce:JR363213-1": "2026-10-21",
@@ -40486,6 +40598,7 @@
 "workday:wf:R-577686-1": "2026-10-29",
 "workday:wf:R-577752-1": "2026-10-29",
 "workday:wf:R-577776": "2026-10-29",
+"workday:wf:R-577830": "2026-10-29",
 "workday:wf:R-577891": "2026-10-29",
 "workday:wf:R-578208": "2026-10-29",
 "workday:wf:R-578240": "2026-10-29",
@@ -40690,6 +40803,7 @@
 "workday:wf:R-584301": "2026-10-29",
 "workday:wf:R-584302": "2026-10-29",
 "workday:wf:R-584308": "2026-10-29",
+"workday:wf:R-584309": "2026-10-29",
 "workday:wf:R-584312-1": "2026-10-29",
 "workday:wf:R-584314": "2026-10-29",
 "workday:wf:R-584316": "2026-10-29",
@@ -40800,6 +40914,7 @@
 "workday:workday:JR-0110883": "2026-10-28",
 "workday:workday:JR-0110886-1": "2026-10-28",
 "workday:workday:JR-0110887-1": "2026-10-28",
+"workday:workday:JR-0110941": "2026-10-29",
 "workday:workday:JR-0110956": "2026-10-28",
 "workday:workday:JR-0110989": "2026-10-28",
 "workday:workday:JR-0110995": "2026-10-28",
@@ -41254,6 +41369,7 @@
 "generate capital|software engineer data": "2026-10-27",
 "github|revenue planning analyst": "2026-10-26",
 "glean|software engineer": "2026-10-28",
+"globalfoundries|ai enabled device modeling": "2026-10-29",
 "globalfoundries|ai ml systems engineer new grad": "2026-10-19",
 "globalfoundries|ai software engineer new grad": "2026-10-21",
 "globalfoundries|cpu ip design verification engineer risc v": "2026-10-23",
@@ -41273,6 +41389,7 @@
 "hntb|software engineer 1 new grad": "2026-10-26",
 "hp inc|software applications engineer": "2026-10-19",
 "hpe juniper networks|ai ml software engineer": "2026-10-29",
+"hpe juniper networks|business planning analyst": "2026-10-29",
 "hpe juniper networks|cloud software developer": "2026-10-29",
 "hpe juniper networks|quality assurance customer support engineer": "2026-10-29",
 "hpe juniper networks|site planning engineer onsite in chippewa falls wi": "2026-10-29",
@@ -41650,6 +41767,7 @@
 "openai|software engineer ci cd ml infrastructure": "2026-10-19",
 "openai|software engineer full stack dots": "2026-10-19",
 "openai|software engineer identity infrastructure": "2026-10-22",
+"openai|software engineer ip infrastructure": "2026-10-29",
 "openai|software engineer mobile web dots": "2026-10-19",
 "openai|software engineer physical engineering": "2026-10-26",
 "openai|software engineer privacy engineering lawful access": "2026-10-21",
@@ -41989,9 +42107,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 356,
+"calls": 364,
 "date": "2026-10-29",
-"usd": 0.050406
+"usd": 0.051723
 },
 "years": {
 "amazon:10583340": [
