@@ -9948,6 +9948,13 @@
 },
 "2026-10-29"
 ],
+"rescue:greenhouse:affirm:8098803003": [
+{
+"note": "Requires significant experience and leadership skills.",
+"senior": true
+},
+"2026-10-30"
+],
 "rescue:greenhouse:agoda:8312187": [
 {
 "note": "Requires significant experience in DevOps.",
@@ -12558,6 +12565,13 @@
 "senior": true
 },
 "2026-10-28"
+],
+"rescue:jibe:jobs.booking.com:30370": [
+{
+"note": "Role likely open to early career candidates.",
+"senior": false
+},
+"2026-10-30"
 ],
 "rescue:jibe:jobs.booking.com:30418": [
 {
@@ -25871,7 +25885,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 237
+"typical": 238
 },
 "Agiloft": {
 "alerted": false,
@@ -25881,7 +25895,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 310
+"typical": 307
 },
 "Ai2": {
 "alerted": false,
@@ -25976,7 +25990,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 669
+"typical": 670
 },
 "Anyscale": {
 "alerted": false,
@@ -26011,7 +26025,7 @@
 "AppsFlyer": {
 "alerted": false,
 "streak": 0,
-"typical": 51
+"typical": 50
 },
 "Aptos Labs": {
 "alerted": false,
@@ -26636,7 +26650,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 402
+"typical": 403
 },
 "ElevenLabs": {
 "alerted": false,
@@ -26761,7 +26775,7 @@
 "Firetiger": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 1,
+"streak": 2,
 "typical": 4
 },
 "Firstup": {
@@ -26912,7 +26926,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 130
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -27112,7 +27126,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 600
+"typical": 601
 },
 "Iru (formerly Kandji)": {
 "alerted": false,
@@ -27327,7 +27341,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 24
+"typical": 25
 },
 "MasterClass": {
 "alerted": false,
@@ -27977,7 +27991,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 20
 },
 "Reddit": {
 "alerted": false,
@@ -28157,7 +28171,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 169
+"typical": 168
 },
 "Scality": {
 "alerted": false,
@@ -32247,6 +32261,7 @@
 "greenhouse:affirm:8043029003": "2026-10-29",
 "greenhouse:affirm:8044928003": "2026-10-29",
 "greenhouse:affirm:8045395003": "2026-10-29",
+"greenhouse:affirm:8098803003": "2026-10-30",
 "greenhouse:agoda:8203488": "2026-10-29",
 "greenhouse:agoda:8281417": "2026-10-29",
 "greenhouse:agoda:8281748": "2026-10-29",
@@ -32264,6 +32279,8 @@
 "greenhouse:agoda:8333893": "2026-10-29",
 "greenhouse:agoda:8335889": "2026-10-30",
 "greenhouse:agoda:8335894": "2026-10-30",
+"greenhouse:agoda:8336238": "2026-10-30",
+"greenhouse:agoda:8336241": "2026-10-30",
 "greenhouse:airbnb:7763610": "2026-10-20",
 "greenhouse:airbnb:7978040": "2026-10-23",
 "greenhouse:airbnb:8052792": "2026-10-23",
@@ -32547,6 +32564,7 @@
 "greenhouse:anthropic:5461663008": "2026-10-22",
 "greenhouse:anthropic:5461863008": "2026-10-26",
 "greenhouse:anthropic:5461873008": "2026-10-23",
+"greenhouse:anthropic:5462040008": "2026-10-30",
 "greenhouse:anthropic:5462413008": "2026-10-23",
 "greenhouse:anthropic:5462557008": "2026-10-24",
 "greenhouse:anthropic:5462718008": "2026-10-23",
@@ -36087,12 +36105,15 @@
 "jibe:github.careers:6486": "2026-10-28",
 "jibe:github.careers:6489": "2026-10-29",
 "jibe:github.careers:6491": "2026-10-29",
+"jibe:jobs.booking.com:19984": "2026-10-30",
+"jibe:jobs.booking.com:19985": "2026-10-30",
 "jibe:jobs.booking.com:29609": "2026-10-30",
 "jibe:jobs.booking.com:29752": "2026-10-29",
 "jibe:jobs.booking.com:29968": "2026-10-29",
 "jibe:jobs.booking.com:30080": "2026-10-29",
 "jibe:jobs.booking.com:30238": "2026-10-29",
 "jibe:jobs.booking.com:30275": "2026-10-29",
+"jibe:jobs.booking.com:30370": "2026-10-30",
 "jibe:jobs.booking.com:30387": "2026-10-29",
 "jibe:jobs.booking.com:30402": "2026-10-29",
 "jibe:jobs.booking.com:30418": "2026-10-29",
@@ -37631,6 +37652,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304175": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304178": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304182": "2026-10-28",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304200": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304211": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304212": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304214": "2026-10-28",
@@ -41133,6 +41155,7 @@
 "workday:hp:3166569-1": "2026-10-20",
 "workday:hp:3166591-1": "2026-10-20",
 "workday:hp:3166674-2": "2026-10-26",
+"workday:hp:3166693-2": "2026-10-30",
 "workday:hp:3166740-1": "2026-10-30",
 "workday:hp:3166854": "2026-10-25",
 "workday:hp:3166957-2": "2026-10-20",
@@ -41145,6 +41168,7 @@
 "workday:hp:3167354-1": "2026-10-29",
 "workday:hp:3167379-2": "2026-10-23",
 "workday:hp:3167485-1": "2026-10-22",
+"workday:hp:3167508": "2026-10-30",
 "workday:hp:3167515-2": "2026-10-26",
 "workday:hp:3167556-1": "2026-10-26",
 "workday:hp:3167611-1": "2026-10-20",
@@ -41350,6 +41374,7 @@
 "workday:hp:3170192-1": "2026-10-27",
 "workday:hp:3170198-1": "2026-10-27",
 "workday:hp:3170207-1": "2026-10-26",
+"workday:hp:3170208-1": "2026-10-30",
 "workday:hp:3170222-1": "2026-10-28",
 "workday:hp:3170226-1": "2026-10-28",
 "workday:hp:3170248-2": "2026-10-27",
@@ -42299,6 +42324,7 @@
 "workday:marvell:2605124": "2026-10-21",
 "workday:marvell:2605126": "2026-10-27",
 "workday:marvell:2605155": "2026-10-27",
+"workday:marvell:2605171": "2026-10-30",
 "workday:marvell:2605174": "2026-10-30",
 "workday:marvell:2605177": "2026-10-29",
 "workday:marvell:2605183": "2026-10-28",
@@ -42584,6 +42610,7 @@
 "workday:mastercard:R-293700": "2026-10-29",
 "workday:mastercard:R-293705": "2026-10-29",
 "workday:mastercard:R-293708": "2026-10-29",
+"workday:mastercard:R-293758": "2026-10-30",
 "workday:mastercard:R-293774": "2026-10-29",
 "workday:mastercard:R-293784": "2026-10-29",
 "workday:mastercard:R-293789": "2026-10-29",
@@ -45207,6 +45234,7 @@
 "workday:salesforce:JR333947": "2026-10-26",
 "workday:salesforce:JR334118": "2026-10-29",
 "workday:salesforce:JR334734-1": "2026-10-29",
+"workday:salesforce:JR334858": "2026-10-30",
 "workday:salesforce:JR335020-1": "2026-10-23",
 "workday:salesforce:JR335757": "2026-10-19",
 "workday:salesforce:JR336099": "2026-10-29",
@@ -45321,6 +45349,7 @@
 "workday:salesforce:JR351402": "2026-10-26",
 "workday:salesforce:JR351410": "2026-10-30",
 "workday:salesforce:JR351543": "2026-10-29",
+"workday:salesforce:JR351557-1": "2026-10-30",
 "workday:salesforce:JR351573": "2026-10-30",
 "workday:salesforce:JR351592": "2026-10-30",
 "workday:salesforce:JR351609": "2026-10-22",
@@ -45526,6 +45555,7 @@
 "workday:salesforce:JR359919": "2026-10-29",
 "workday:salesforce:JR359944": "2026-10-27",
 "workday:salesforce:JR360032": "2026-10-27",
+"workday:salesforce:JR360040": "2026-10-30",
 "workday:salesforce:JR360062": "2026-10-26",
 "workday:salesforce:JR360079-1": "2026-10-29",
 "workday:salesforce:JR360080-1": "2026-10-29",
@@ -45555,6 +45585,7 @@
 "workday:salesforce:JR360493-1": "2026-10-26",
 "workday:salesforce:JR360508": "2026-10-29",
 "workday:salesforce:JR360509-1": "2026-10-29",
+"workday:salesforce:JR360696": "2026-10-30",
 "workday:salesforce:JR360698": "2026-10-22",
 "workday:salesforce:JR360743": "2026-10-23",
 "workday:salesforce:JR360755-1": "2026-10-29",
@@ -45579,6 +45610,7 @@
 "workday:salesforce:JR361159": "2026-10-29",
 "workday:salesforce:JR361160": "2026-10-20",
 "workday:salesforce:JR361162": "2026-10-29",
+"workday:salesforce:JR361164-1": "2026-10-30",
 "workday:salesforce:JR361170": "2026-10-29",
 "workday:salesforce:JR361172": "2026-10-29",
 "workday:salesforce:JR361182": "2026-10-27",
@@ -45627,6 +45659,7 @@
 "workday:salesforce:JR362037": "2026-10-22",
 "workday:salesforce:JR362048": "2026-10-28",
 "workday:salesforce:JR362056": "2026-10-29",
+"workday:salesforce:JR362071": "2026-10-30",
 "workday:salesforce:JR362074": "2026-10-23",
 "workday:salesforce:JR362089": "2026-10-29",
 "workday:salesforce:JR362101": "2026-10-26",
@@ -46025,6 +46058,7 @@
 "workday:salesforce:JR365707": "2026-10-26",
 "workday:salesforce:JR365708": "2026-10-26",
 "workday:salesforce:JR365711": "2026-10-28",
+"workday:salesforce:JR365716-1": "2026-10-30",
 "workday:salesforce:JR365719": "2026-10-28",
 "workday:salesforce:JR365723": "2026-10-26",
 "workday:salesforce:JR365739": "2026-10-27",
@@ -47254,6 +47288,7 @@
 "workday:wf:R-583970-1": "2026-10-30",
 "workday:wf:R-583975": "2026-10-29",
 "workday:wf:R-583976": "2026-10-29",
+"workday:wf:R-583977": "2026-10-30",
 "workday:wf:R-583983": "2026-10-29",
 "workday:wf:R-583995": "2026-10-29",
 "workday:wf:R-583999": "2026-10-29",
@@ -48941,9 +48976,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 74,
+"calls": 76,
 "date": "2026-10-30",
-"usd": 0.007966
+"usd": 0.008113
 },
 "years": {
 "amazon:10583340": [
