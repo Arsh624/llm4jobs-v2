@@ -18075,6 +18075,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:intel:JR0287736-1": [
+{
+"note": "Requires significant technical depth and responsibility.",
+"senior": true
+},
+"2026-10-30"
+],
 "rescue:workday:intel:JR0287881": [
 {
 "note": "Requires extensive experience and expertise.",
@@ -18193,6 +18200,13 @@
 "senior": true
 },
 "2026-10-27"
+],
+"rescue:workday:marvell:2602936": [
+{
+"note": "Requires significant experience in product engineering.",
+"senior": true
+},
+"2026-10-30"
 ],
 "rescue:workday:marvell:2604521": [
 {
@@ -26492,7 +26506,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 903
+"typical": 901
 },
 "Dataiku": {
 "alerted": false,
@@ -26746,7 +26760,8 @@
 },
 "Firetiger": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 404: Not Found",
+"streak": 1,
 "typical": 4
 },
 "Firstup": {
@@ -26897,7 +26912,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 127
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -27087,7 +27102,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 109
 },
 "Intro": {
 "alerted": false,
@@ -27097,7 +27112,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 601
+"typical": 600
 },
 "Iru (formerly Kandji)": {
 "alerted": false,
@@ -27302,7 +27317,7 @@
 "Lyft": {
 "alerted": false,
 "streak": 0,
-"typical": 179
+"typical": 173
 },
 "Mariana Minerals": {
 "alerted": false,
@@ -27312,7 +27327,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 22
+"typical": 24
 },
 "MasterClass": {
 "alerted": false,
@@ -27647,7 +27662,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 94
 },
 "OpenRouter": {
 "alerted": false,
@@ -27662,7 +27677,7 @@
 "Optiver": {
 "alerted": false,
 "streak": 0,
-"typical": 159
+"typical": 158
 },
 "OpusClip": {
 "alerted": false,
@@ -27897,7 +27912,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 370
 },
 "Pylon": {
 "alerted": false,
@@ -28202,7 +28217,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3130
+"typical": 3135
 },
 "Simular": {
 "alerted": false,
@@ -28777,7 +28792,7 @@
 "ZoomInfo": {
 "alerted": false,
 "streak": 0,
-"typical": 103
+"typical": 101
 },
 "Zoox": {
 "alerted": false,
@@ -28807,7 +28822,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 32
 },
 "fal": {
 "alerted": false,
@@ -35605,6 +35620,7 @@
 "jibe:careers.amd.com:96112": "2026-10-28",
 "jibe:careers.amd.com:96116": "2026-10-30",
 "jibe:careers.amd.com:96254": "2026-10-29",
+"jibe:careers.amd.com:96301": "2026-10-30",
 "jibe:careers.docusign.com:29549": "2026-10-29",
 "jibe:careers.docusign.com:29590": "2026-10-26",
 "jibe:careers.docusign.com:29784": "2026-10-26",
@@ -35828,6 +35844,7 @@
 "jibe:careers.keysight.com:55314": "2026-10-28",
 "jibe:careers.keysight.com:55325": "2026-10-30",
 "jibe:careers.na.panasonic.com:42951": "2026-10-30",
+"jibe:careers.na.panasonic.com:43685": "2026-10-30",
 "jibe:careers.na.panasonic.com:43686": "2026-10-30",
 "jibe:careers.na.panasonic.com:46273": "2026-10-29",
 "jibe:careers.na.panasonic.com:48523": "2026-10-29",
@@ -37730,6 +37747,7 @@
 "simplify:23c417dd-4a2d-4c26-a7d1-380d2a7f24fe": "2026-10-22",
 "simplify:23cf3ad6-7391-418f-9eec-82833c40f699": "2026-10-19",
 "simplify:23e3ed13-41f7-4c8c-a7d9-7a33e6a92987": "2026-10-21",
+"simplify:23eb3ce6-e1fc-472c-a546-e4b2a19212cd": "2026-10-30",
 "simplify:24bb49cb-168e-4f7f-aef6-fc5fe1503447": "2026-10-28",
 "simplify:2504b83a-b236-4dd0-a755-bd49281455a5": "2026-10-27",
 "simplify:25115fb6-4bb1-46eb-ab39-f687bd30e62e": "2026-10-21",
@@ -37934,6 +37952,7 @@
 "simplify:7349b535-e74c-4eca-b0ec-668b3058e6ad": "2026-10-28",
 "simplify:7354d862-cc19-489e-b25d-901c28817e47": "2026-10-27",
 "simplify:73c8f420-9a45-49d7-863d-bae17cdc6640": "2026-10-26",
+"simplify:744cbad0-fb7b-4d61-bd7e-98bb423c0513": "2026-10-30",
 "simplify:74737e11-7997-42ce-8911-1628466217e5": "2026-10-27",
 "simplify:74dc3dd1-a7a3-430d-a340-025e265ab79a": "2026-10-19",
 "simplify:7542fc46-25db-40d4-96fc-04043253138d": "2026-10-28",
@@ -40963,6 +40982,7 @@
 "workday:ebay:R0076353": "2026-10-29",
 "workday:ebay:R0076387": "2026-10-30",
 "workday:ebay:R0076463": "2026-10-29",
+"workday:ebay:R0076576": "2026-10-30",
 "workday:ebay:R0076601": "2026-10-29",
 "workday:ebay:R0076663": "2026-10-29",
 "workday:ebay:R0076925": "2026-10-30",
@@ -40985,6 +41005,7 @@
 "workday:ebay:R0077273": "2026-10-30",
 "workday:ebay:R0077275-1": "2026-10-30",
 "workday:ebay:R0077276": "2026-10-30",
+"workday:ebay:R0077311": "2026-10-30",
 "workday:etsy:JR5680-1": "2026-10-29",
 "workday:etsy:JR5681-1": "2026-10-29",
 "workday:etsy:JR5970-1": "2026-10-29",
@@ -41197,6 +41218,12 @@
 "workday:hp:3169252-1": "2026-10-21",
 "workday:hp:3169278-1": "2026-10-27",
 "workday:hp:3169281-1": "2026-10-26",
+"workday:hp:3169283-1": "2026-10-30",
+"workday:hp:3169284-1": "2026-10-30",
+"workday:hp:3169285": "2026-10-30",
+"workday:hp:3169286-1": "2026-10-30",
+"workday:hp:3169288-1": "2026-10-30",
+"workday:hp:3169289": "2026-10-30",
 "workday:hp:3169290-1": "2026-10-28",
 "workday:hp:3169291-1": "2026-10-28",
 "workday:hp:3169294-1": "2026-10-28",
@@ -41822,6 +41849,7 @@
 "workday:intel:JR0287691": "2026-10-30",
 "workday:intel:JR0287698-1": "2026-10-22",
 "workday:intel:JR0287726": "2026-10-21",
+"workday:intel:JR0287736-1": "2026-10-30",
 "workday:intel:JR0287741-1": "2026-10-21",
 "workday:intel:JR0287743": "2026-10-29",
 "workday:intel:JR0287753": "2026-10-20",
@@ -42209,10 +42237,12 @@
 "workday:marvell:2602755-1": "2026-10-21",
 "workday:marvell:2602787": "2026-10-30",
 "workday:marvell:2602930": "2026-10-27",
+"workday:marvell:2602936": "2026-10-30",
 "workday:marvell:2602977": "2026-10-22",
 "workday:marvell:2603119": "2026-10-22",
 "workday:marvell:2603605": "2026-10-30",
 "workday:marvell:2603621": "2026-10-20",
+"workday:marvell:2603825": "2026-10-30",
 "workday:marvell:2603840": "2026-10-27",
 "workday:marvell:2603846-1": "2026-10-20",
 "workday:marvell:2603850-1": "2026-10-21",
@@ -42277,6 +42307,7 @@
 "workday:marvell:2605200": "2026-10-29",
 "workday:marvell:2605201": "2026-10-29",
 "workday:marvell:2605202": "2026-10-29",
+"workday:mastercard:R-269034": "2026-10-30",
 "workday:mastercard:R-276668": "2026-10-29",
 "workday:mastercard:R-277822": "2026-10-29",
 "workday:mastercard:R-277857": "2026-10-29",
@@ -42307,7 +42338,9 @@
 "workday:mastercard:R-284513": "2026-10-29",
 "workday:mastercard:R-284573": "2026-10-30",
 "workday:mastercard:R-286148-1": "2026-10-29",
+"workday:mastercard:R-286286": "2026-10-30",
 "workday:mastercard:R-286353": "2026-10-29",
+"workday:mastercard:R-286372": "2026-10-30",
 "workday:mastercard:R-286492": "2026-10-29",
 "workday:mastercard:R-286580": "2026-10-29",
 "workday:mastercard:R-286584": "2026-10-29",
@@ -42316,6 +42349,7 @@
 "workday:mastercard:R-286709": "2026-10-29",
 "workday:mastercard:R-286876": "2026-10-29",
 "workday:mastercard:R-286980-1": "2026-10-29",
+"workday:mastercard:R-287032": "2026-10-30",
 "workday:mastercard:R-287256": "2026-10-29",
 "workday:mastercard:R-287487": "2026-10-29",
 "workday:mastercard:R-287561": "2026-10-30",
@@ -42399,6 +42433,7 @@
 "workday:mastercard:R-290952-1": "2026-10-29",
 "workday:mastercard:R-291009-1": "2026-10-29",
 "workday:mastercard:R-291013": "2026-10-29",
+"workday:mastercard:R-291043": "2026-10-30",
 "workday:mastercard:R-291044": "2026-10-29",
 "workday:mastercard:R-291048": "2026-10-29",
 "workday:mastercard:R-291094-1": "2026-10-29",
@@ -42491,6 +42526,7 @@
 "workday:mastercard:R-292665": "2026-10-29",
 "workday:mastercard:R-292684-1": "2026-10-29",
 "workday:mastercard:R-292732": "2026-10-29",
+"workday:mastercard:R-292757": "2026-10-30",
 "workday:mastercard:R-292773": "2026-10-29",
 "workday:mastercard:R-292789": "2026-10-29",
 "workday:mastercard:R-292793": "2026-10-29",
@@ -45224,6 +45260,7 @@
 "workday:salesforce:JR345648-1": "2026-10-19",
 "workday:salesforce:JR345988": "2026-10-30",
 "workday:salesforce:JR346225": "2026-10-19",
+"workday:salesforce:JR346280": "2026-10-30",
 "workday:salesforce:JR346360": "2026-10-30",
 "workday:salesforce:JR346496-1": "2026-10-27",
 "workday:salesforce:JR346848": "2026-10-29",
@@ -45370,6 +45407,7 @@
 "workday:salesforce:JR355774-1": "2026-10-26",
 "workday:salesforce:JR355775-1": "2026-10-20",
 "workday:salesforce:JR355838": "2026-10-22",
+"workday:salesforce:JR355896": "2026-10-30",
 "workday:salesforce:JR355941": "2026-10-22",
 "workday:salesforce:JR355954": "2026-10-20",
 "workday:salesforce:JR355955": "2026-10-20",
@@ -45403,6 +45441,7 @@
 "workday:salesforce:JR357199-1": "2026-10-20",
 "workday:salesforce:JR357221": "2026-10-26",
 "workday:salesforce:JR357256": "2026-10-21",
+"workday:salesforce:JR357266": "2026-10-30",
 "workday:salesforce:JR357291-1": "2026-10-21",
 "workday:salesforce:JR357356": "2026-10-23",
 "workday:salesforce:JR357399": "2026-10-28",
@@ -45481,6 +45520,7 @@
 "workday:salesforce:JR359834": "2026-10-29",
 "workday:salesforce:JR359840": "2026-10-28",
 "workday:salesforce:JR359859-1": "2026-10-21",
+"workday:salesforce:JR359864": "2026-10-30",
 "workday:salesforce:JR359875": "2026-10-29",
 "workday:salesforce:JR359891": "2026-10-29",
 "workday:salesforce:JR359919": "2026-10-29",
@@ -47211,6 +47251,7 @@
 "workday:wf:R-583957-1": "2026-10-29",
 "workday:wf:R-583960": "2026-10-29",
 "workday:wf:R-583966": "2026-10-29",
+"workday:wf:R-583970-1": "2026-10-30",
 "workday:wf:R-583975": "2026-10-29",
 "workday:wf:R-583976": "2026-10-29",
 "workday:wf:R-583983": "2026-10-29",
@@ -48341,6 +48382,7 @@
 "microsoft|design for manufacturing engineer ii": "2026-10-26",
 "microsoft|design verification engineer": "2026-10-23",
 "microsoft|electrical engineer": "2026-10-20",
+"microsoft|firmware engineer": "2026-10-30",
 "microsoft|firmware engineer ii": "2026-10-20",
 "microsoft|firmware engineer schie": "2026-10-30",
 "microsoft|logic design engineer": "2026-10-21",
@@ -48834,6 +48876,7 @@
 "utilisave|forensic regulatory data analyst": "2026-10-29",
 "vantor|entry level geospatial analyst": "2026-10-29",
 "varian|systems engineer 1 robotics automation": "2026-10-21",
+"verizon communications|engineer 1 systems engineering generative ai agentic systems": "2026-10-30",
 "verkada|it engineer": "2026-10-26",
 "verkada|researcher customer experience": "2026-10-20",
 "visa|analyst global social impact programs": "2026-10-21",
@@ -48898,9 +48941,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 72,
+"calls": 74,
 "date": "2026-10-30",
-"usd": 0.007829
+"usd": 0.007966
 },
 "years": {
 "amazon:10583340": [
