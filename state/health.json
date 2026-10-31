@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-31T04:01:25+00:00",
+ "run_at": "2026-10-31T04:32:17+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -463,8 +463,8 @@
   },
   "Capital One": {
    "type": "workday",
-   "jobs": 300,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Carta": {
    "type": "greenhouse",
@@ -2603,7 +2603,7 @@
   },
   "Synopsys": {
    "type": "talentbrew",
-   "jobs": 682,
+   "jobs": 667,
    "error": null
   },
   "T-Mobile": {
