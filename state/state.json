@@ -11922,6 +11922,13 @@
 },
 "2026-10-30"
 ],
+"rescue:greenhouse:gatherai:5280050007": [
+{
+"note": "Requires significant experience in hardware engineering.",
+"senior": true
+},
+"2026-10-31"
+],
 "rescue:greenhouse:gitlab:8921380002": [
 {
 "note": "Requires significant experience in engineering management.",
@@ -30196,7 +30203,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 69,
+"streak": 70,
 "typical": 4
 },
 "Firstup": {
@@ -30262,7 +30269,7 @@
 "Gather AI": {
 "alerted": false,
 "streak": 0,
-"typical": 3
+"typical": 4
 },
 "Gemini": {
 "alerted": false,
@@ -30537,7 +30544,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 103
+"typical": 104
 },
 "Intro": {
 "alerted": false,
@@ -30827,7 +30834,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 183
+"typical": 184
 },
 "Microsoft": {
 "alerted": false,
@@ -31077,7 +31084,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 370
+"typical": 371
 },
 "Ooma": {
 "alerted": false,
@@ -31582,7 +31589,7 @@
 "Saronic": {
 "alerted": false,
 "streak": 0,
-"typical": 253
+"typical": 255
 },
 "Sauce Labs": {
 "alerted": false,
@@ -31652,7 +31659,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3153
+"typical": 3154
 },
 "Simular": {
 "alerted": false,
@@ -33762,9 +33769,11 @@
 "ashby:saronic:44d4d728-5ca8-4290-85b4-e014e450fcf4": "2026-10-30",
 "ashby:saronic:4698c615-f807-48cb-9917-17260a50c2ec": "2026-10-29",
 "ashby:saronic:5b545800-62cf-4616-9e8b-e9a6a18ac5f9": "2026-10-30",
+"ashby:saronic:79bc48c9-f5ab-4b84-8ca2-93793ded820b": "2026-10-31",
 "ashby:saronic:8a61cd97-e868-412d-ab90-19126e3965d7": "2026-10-28",
 "ashby:saronic:96c1f534-bd49-481c-88c5-85d344b20c82": "2026-10-29",
 "ashby:saronic:9d94810e-e470-48a7-809e-80d7ba7537de": "2026-10-28",
+"ashby:saronic:aa28b824-d9fb-4ea8-9db4-2892537abc08": "2026-10-31",
 "ashby:saronic:b73f699c-62fe-43f6-8ff4-d08b437fe4cd": "2026-10-28",
 "ashby:saronic:b9071149-dae3-4363-adca-d0974fdfd03d": "2026-10-28",
 "ashby:saronic:b9ab6d2d-4139-4b1a-aad3-b3d3611b1478": "2026-10-28",
@@ -37319,6 +37328,7 @@
 "greenhouse:freenome:8919753002": "2026-10-29",
 "greenhouse:freenome:8920670002": "2026-10-29",
 "greenhouse:gatherai:5268357007": "2026-10-20",
+"greenhouse:gatherai:5280050007": "2026-10-31",
 "greenhouse:gitlab:8838394002": "2026-10-29",
 "greenhouse:gitlab:8887401002": "2026-10-29",
 "greenhouse:gitlab:8891673002": "2026-10-30",
@@ -38146,6 +38156,7 @@
 "greenhouse:onemedical:8337933": "2026-10-30",
 "greenhouse:onemedical:8338174": "2026-10-30",
 "greenhouse:onemedical:8338178": "2026-10-30",
+"greenhouse:onemedical:8340689": "2026-10-31",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -42721,6 +42732,7 @@
 "simplify:f74e8641-8f84-4868-a3c2-04dc73eff8a9": "2026-10-29",
 "simplify:f7888bad-462c-451b-a9e7-6c7506eea223": "2026-10-30",
 "simplify:f7981568-cea1-46d1-a9bc-e93bccdbe4c3": "2026-10-23",
+"simplify:f8132bd9-b6f0-40a3-8199-b5d339caac61": "2026-10-31",
 "simplify:f85253cb-dca3-4867-ab55-198869bfb119": "2026-10-20",
 "simplify:f91a0d47-23a3-425d-936c-c7bd159b2053": "2026-10-27",
 "simplify:f9362869-73aa-4cd5-a7a1-de352622465b": "2026-10-23",
@@ -46436,6 +46448,7 @@
 "workday:intel:JR0286111-1": "2026-10-27",
 "workday:intel:JR0286124": "2026-10-27",
 "workday:intel:JR0286145": "2026-10-20",
+"workday:intel:JR0286164-1": "2026-10-31",
 "workday:intel:JR0286323-1": "2026-10-27",
 "workday:intel:JR0286403": "2026-10-23",
 "workday:intel:JR0286445": "2026-10-20",
@@ -48211,6 +48224,7 @@
 "workday:micron:JR110949": "2026-10-23",
 "workday:micron:JR110950": "2026-10-23",
 "workday:micron:JR110956": "2026-10-23",
+"workday:micron:JR110958-1": "2026-10-31",
 "workday:micron:JR110960": "2026-10-23",
 "workday:micron:JR110962": "2026-10-23",
 "workday:micron:JR110967-1": "2026-10-20",
@@ -50285,6 +50299,7 @@
 "workday:nvidia:JR2028160": "2026-10-31",
 "workday:nvidia:JR2028162": "2026-10-21",
 "workday:nvidia:JR2028164": "2026-10-31",
+"workday:nvidia:JR2028168": "2026-10-31",
 "workday:nvidia:JR2028170": "2026-10-23",
 "workday:nvidia:JR2028171-1": "2026-10-21",
 "workday:nvidia:JR2028173": "2026-10-20",
@@ -55195,9 +55210,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 135,
+"calls": 136,
 "date": "2026-10-31",
-"usd": 0.015868
+"usd": 0.015937
 },
 "years": {
 "amazon:10583340": [
