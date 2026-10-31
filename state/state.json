@@ -1550,6 +1550,16 @@
 },
 "2026-10-30"
 ],
+"amazon:10593929|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-10-31"
+],
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30|v3|73908d": [
 {
 "chance": 2,
@@ -5119,6 +5129,16 @@
 "us_ok": true
 },
 "2026-10-29"
+],
+"greenhouse:andurilindustries:5268869007|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads and emphasizes learning and support.",
+"us_ok": true
+},
+"2026-10-31"
 ],
 "greenhouse:andurilindustries:5270855007|v3|73908d": [
 {
@@ -13852,6 +13872,13 @@
 "senior": true
 },
 "2026-10-28"
+],
+"rescue:lever:angellist:7260c876-9b92-496d-9f21-13203148c68c": [
+{
+"note": "Requires deep partnership tax review experience.",
+"senior": true
+},
+"2026-10-31"
 ],
 "rescue:lever:goodleap:e5909011-8f57-4a50-a0e2-578e31b6f114": [
 {
@@ -29111,7 +29138,7 @@
 "AMD": {
 "alerted": false,
 "streak": 0,
-"typical": 200
+"typical": 100
 },
 "Abridge": {
 "alerted": false,
@@ -29246,12 +29273,12 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2566
+"typical": 2567
 },
 "AngelList": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 33
 },
 "Anomali": {
 "alerted": false,
@@ -29271,7 +29298,7 @@
 "Apex Space": {
 "alerted": false,
 "streak": 0,
-"typical": 130
+"typical": 129
 },
 "Apollo GraphQL": {
 "alerted": false,
@@ -29736,7 +29763,7 @@
 "Coursera": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 30
 },
 "Creatify Lab": {
 "alerted": false,
@@ -30046,7 +30073,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 40,
+"streak": 41,
 "typical": 4
 },
 "Firstup": {
@@ -30232,7 +30259,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 386
+"typical": 382
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -30602,7 +30629,7 @@
 "Lyft": {
 "alerted": false,
 "streak": 0,
-"typical": 168
+"typical": 170
 },
 "Mariana Minerals": {
 "alerted": false,
@@ -30677,12 +30704,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 262
+"typical": 263
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 200
 },
 "Mind Robotics": {
 "alerted": false,
@@ -31502,7 +31529,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3146
+"typical": 3143
 },
 "Simular": {
 "alerted": false,
@@ -31697,7 +31724,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 682
+"typical": 664
 },
 "T-Mobile": {
 "alerted": false,
@@ -31747,7 +31774,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 126
 },
 "Terranova": {
 "alerted": false,
@@ -32403,6 +32430,7 @@
 "amazon:10593741": "2026-10-30",
 "amazon:10593872": "2026-10-30",
 "amazon:10593902": "2026-10-30",
+"amazon:10593929": "2026-10-31",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
 "ashby:1x:4cb3ef10-8755-4050-b5f1-309591626d1c": "2026-10-30",
 "ashby:1x:670062fb-edc6-4bd4-be07-63049e5d9134": "2026-10-28",
@@ -35574,6 +35602,7 @@
 "eightfold:microsoft.com:1970393557050056": "2026-10-30",
 "eightfold:microsoft.com:1970393557050150": "2026-10-29",
 "eightfold:microsoft.com:1970393557050154": "2026-10-29",
+"eightfold:microsoft.com:1970393557050159": "2026-10-31",
 "eightfold:microsoft.com:1970393557050258": "2026-10-30",
 "eightfold:microsoft.com:1970393557050368": "2026-10-30",
 "eightfold:microsoft.com:1970393557050564": "2026-10-30",
@@ -35999,6 +36028,7 @@
 "greenhouse:andurilindustries:5265431007": "2026-10-29",
 "greenhouse:andurilindustries:5266125007": "2026-10-29",
 "greenhouse:andurilindustries:5266558007": "2026-10-29",
+"greenhouse:andurilindustries:5268869007": "2026-10-31",
 "greenhouse:andurilindustries:5270179007": "2026-10-29",
 "greenhouse:andurilindustries:5270855007": "2026-10-29",
 "greenhouse:andurilindustries:5271116007": "2026-10-30",
@@ -38936,6 +38966,8 @@
 "greenhouse:tenstorrent:5277430007": "2026-10-28",
 "greenhouse:tenstorrent:5277434007": "2026-10-28",
 "greenhouse:tenstorrent:5278000007": "2026-10-28",
+"greenhouse:tenstorrent:5280667007": "2026-10-31",
+"greenhouse:tenstorrent:5280714007": "2026-10-31",
 "greenhouse:thatch:5378215008": "2026-10-29",
 "greenhouse:thatch:5462155008": "2026-10-28",
 "greenhouse:thatch:5465868008": "2026-10-28",
@@ -40156,9 +40188,11 @@
 "lever:angellist:58e7ed23-a1a7-4e65-8fe9-52279f634755": "2026-10-31",
 "lever:angellist:5b5ccb5b-9316-4051-a29d-eb2b7ec25f45": "2026-10-31",
 "lever:angellist:6c7be240-0211-4d9a-a329-0766d18eafb1": "2026-10-31",
+"lever:angellist:7260c876-9b92-496d-9f21-13203148c68c": "2026-10-31",
 "lever:angellist:88ed20e1-81fd-4ecb-aede-68bfb7738d2c": "2026-10-31",
 "lever:angellist:ab1be5ed-ac5d-4781-a51d-fb2587fe9f24": "2026-10-29",
 "lever:angellist:ce696994-cb43-4a93-871a-6994ea0c73c2": "2026-10-31",
+"lever:angellist:ecad3736-26f7-4cbb-b48a-dc093f3df8c6": "2026-10-31",
 "lever:anomali:82cb2200-7b9c-45be-8a22-d8e4bd105515": "2026-10-26",
 "lever:anomali:d35cf24d-86d5-42c7-86e8-6e3541b9c0ce": "2026-10-21",
 "lever:businesswire:e40b7add-5e44-4988-8af5-6dfec33ee3b2": "2026-10-22",
@@ -45208,6 +45242,7 @@
 "workday:capitalone:R1004791": "2026-10-29",
 "workday:capitalone:R1004800-1": "2026-10-30",
 "workday:capitalone:R1004801-1": "2026-10-29",
+"workday:capitalone:R1004821-2": "2026-10-31",
 "workday:capitalone:R1004833": "2026-10-29",
 "workday:capitalone:R1004834-2": "2026-10-30",
 "workday:capitalone:R1004840-1": "2026-10-30",
@@ -48623,6 +48658,7 @@
 "workday:micron:JR116243": "2026-10-30",
 "workday:micron:JR116269": "2026-10-28",
 "workday:micron:JR116307": "2026-10-29",
+"workday:micron:JR116342": "2026-10-31",
 "workday:micron:JR116368": "2026-10-30",
 "workday:micron:JR116369": "2026-10-30",
 "workday:micron:JR116377": "2026-10-29",
@@ -53704,6 +53740,7 @@
 "anduril|information system security officer": "2026-10-30",
 "anduril|manufacturing engineer composites development": "2026-10-29",
 "anduril|materials and process engineer air dominance and strike": "2026-10-29",
+"anduril|mission operations engineer connected warfare": "2026-10-31",
 "anduril|mission software engineer": "2026-10-29",
 "anduril|product operations analyst": "2026-10-29",
 "anduril|program assistant intelligence systems": "2026-10-29",
@@ -54967,9 +55004,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 117,
+"calls": 120,
 "date": "2026-10-31",
-"usd": 0.013479
+"usd": 0.014007
 },
 "years": {
 "amazon:10583340": [
