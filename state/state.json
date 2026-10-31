@@ -10411,6 +10411,13 @@
 },
 "2026-10-27"
 ],
+"rescue:eightfold:microsoft.com:1970393557048183": [
+{
+"note": "Requires significant expertise in AI solutions.",
+"senior": true
+},
+"2026-10-31"
+],
 "rescue:eightfold:microsoft.com:1970393557048230": [
 {
 "note": "Requires significant experience and security clearance.",
@@ -11397,6 +11404,13 @@
 "senior": true
 },
 "2026-10-30"
+],
+"rescue:greenhouse:coinbase:8047150": [
+{
+"note": "Requires significant experience and technical direction.",
+"senior": true
+},
+"2026-10-31"
 ],
 "rescue:greenhouse:coinbase:8311341": [
 {
@@ -29749,7 +29763,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 249
+"typical": 250
 },
 "Color Health": {
 "alerted": false,
@@ -30114,7 +30128,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 43,
+"streak": 44,
 "typical": 4
 },
 "Firstup": {
@@ -31005,7 +31019,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 815
+"typical": 813
 },
 "OpenEvidence": {
 "alerted": false,
@@ -31420,7 +31434,7 @@
 "Rocket Lawyer": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Roku": {
 "alerted": false,
@@ -31570,7 +31584,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3152
+"typical": 3151
 },
 "Simular": {
 "alerted": false,
@@ -31770,7 +31784,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 278
+"typical": 279
 },
 "TENEX.AI": {
 "alerted": false,
@@ -32095,7 +32109,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 94
 },
 "World Labs": {
 "alerted": false,
@@ -35632,6 +35646,7 @@
 "eightfold:microsoft.com:1970393557048058": "2026-10-28",
 "eightfold:microsoft.com:1970393557048110": "2026-10-27",
 "eightfold:microsoft.com:1970393557048169": "2026-10-28",
+"eightfold:microsoft.com:1970393557048183": "2026-10-31",
 "eightfold:microsoft.com:1970393557048230": "2026-10-29",
 "eightfold:microsoft.com:1970393557048765": "2026-10-30",
 "eightfold:microsoft.com:1970393557048766": "2026-10-28",
@@ -36683,6 +36698,7 @@
 "greenhouse:cloudflare:8335468": "2026-10-30",
 "greenhouse:cloudflare:8335469": "2026-10-30",
 "greenhouse:cloudflare:8338018": "2026-10-30",
+"greenhouse:coinbase:8047150": "2026-10-31",
 "greenhouse:coinbase:8311341": "2026-10-29",
 "greenhouse:coinbase:8312623": "2026-10-29",
 "greenhouse:coinbase:8318557": "2026-10-29",
@@ -52381,6 +52397,7 @@
 "workday:tmobile:REQ380218-1": "2026-10-28",
 "workday:tmobile:REQ380219-1": "2026-10-26",
 "workday:tmobile:REQ380227-1": "2026-10-28",
+"workday:tmobile:REQ380228-1": "2026-10-31",
 "workday:tmobile:REQ380231": "2026-10-23",
 "workday:tmobile:REQ380236-1": "2026-10-26",
 "workday:tmobile:REQ380240-1": "2026-10-28",
@@ -52728,6 +52745,7 @@
 "workday:wf:R-577830": "2026-10-29",
 "workday:wf:R-577891": "2026-10-29",
 "workday:wf:R-577966": "2026-10-29",
+"workday:wf:R-577982": "2026-10-31",
 "workday:wf:R-578040": "2026-10-30",
 "workday:wf:R-578179": "2026-10-30",
 "workday:wf:R-578208": "2026-10-29",
@@ -53409,6 +53427,7 @@
 "workday:workday:JR-0110618": "2026-10-28",
 "workday:workday:JR-0110622": "2026-10-28",
 "workday:workday:JR-0110644": "2026-10-29",
+"workday:workday:JR-0110688": "2026-10-31",
 "workday:workday:JR-0110691-1": "2026-10-30",
 "workday:workday:JR-0110768": "2026-10-30",
 "workday:workday:JR-0110774-1": "2026-10-28",
@@ -55066,9 +55085,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 125,
+"calls": 127,
 "date": "2026-10-31",
-"usd": 0.014688
+"usd": 0.014831
 },
 "years": {
 "amazon:10583340": [
