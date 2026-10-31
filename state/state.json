@@ -21624,6 +21624,13 @@
 },
 "2026-10-27"
 ],
+"rescue:workday:micron:JR115899": [
+{
+"note": "Requires significant engineering experience.",
+"senior": true
+},
+"2026-10-31"
+],
 "rescue:workday:micron:JR115949-1": [
 {
 "note": "Requires extensive experience in ASIC design.",
@@ -30210,7 +30217,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 71,
+"streak": 72,
 "typical": 4
 },
 "Firstup": {
@@ -30841,7 +30848,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 184
+"typical": 185
 },
 "Microsoft": {
 "alerted": false,
@@ -31091,7 +31098,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 372
 },
 "Ooma": {
 "alerted": false,
@@ -31221,7 +31228,7 @@
 "PayPal": {
 "alerted": false,
 "streak": 0,
-"typical": 10
+"typical": 20
 },
 "Pearl Health": {
 "alerted": false,
@@ -32251,7 +32258,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 365
+"typical": 364
 },
 "Zuora": {
 "alerted": false,
@@ -32826,6 +32833,7 @@
 "ashby:cohere:be14b338-eac9-4099-9599-1e15cfdd11be": "2026-10-22",
 "ashby:cohere:be48aafc-9610-4ebd-8414-a0722a3cd59a": "2026-10-30",
 "ashby:cohere:bfa95525-f25f-4445-947e-c36308c1fc83": "2026-10-29",
+"ashby:cohere:cb981ecd-a161-482c-8d8e-5f19bb6e7fdd": "2026-10-31",
 "ashby:cohere:dca93d1a-9ab8-442b-aa76-950595e8b9c3": "2026-10-23",
 "ashby:cohere:e49063ea-b829-4718-be74-02f36fa3d983": "2026-10-19",
 "ashby:cohere:f3290fb2-66f1-44c7-9824-3f416f44af5a": "2026-10-26",
@@ -35765,6 +35773,7 @@
 "eightfold:paypal.com:274922258233": "2026-10-30",
 "eightfold:paypal.com:274922258310": "2026-10-20",
 "eightfold:paypal.com:274922258421": "2026-10-21",
+"eightfold:paypal.com:274922258428": "2026-10-31",
 "eightfold:paypal.com:274922258429": "2026-10-28",
 "eightfold:paypal.com:274922258435": "2026-10-28",
 "eightfold:paypal.com:274922421535": "2026-10-21",
@@ -38164,6 +38173,7 @@
 "greenhouse:onemedical:8338174": "2026-10-30",
 "greenhouse:onemedical:8338178": "2026-10-30",
 "greenhouse:onemedical:8340689": "2026-10-31",
+"greenhouse:onemedical:8340724": "2026-10-31",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -48789,6 +48799,7 @@
 "workday:micron:JR115878": "2026-10-23",
 "workday:micron:JR115888": "2026-10-27",
 "workday:micron:JR115889": "2026-10-27",
+"workday:micron:JR115899": "2026-10-31",
 "workday:micron:JR115905": "2026-10-23",
 "workday:micron:JR115926": "2026-10-23",
 "workday:micron:JR115933": "2026-10-27",
@@ -55218,9 +55229,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 137,
+"calls": 138,
 "date": "2026-10-31",
-"usd": 0.016001
+"usd": 0.016068
 },
 "years": {
 "amazon:10583340": [
