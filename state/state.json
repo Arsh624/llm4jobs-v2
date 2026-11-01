@@ -21533,6 +21533,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:micron:JR115046-1": [
+{
+"note": "Requires extensive experience and technical leadership.",
+"senior": true
+},
+"2026-11-01"
+],
 "rescue:workday:micron:JR115059": [
 {
 "note": "Requires significant experience and expertise.",
@@ -21700,6 +21707,13 @@
 "senior": true
 },
 "2026-10-27"
+],
+"rescue:workday:micron:JR115897": [
+{
+"note": "Requires extensive experience in engineering.",
+"senior": true
+},
+"2026-11-01"
 ],
 "rescue:workday:micron:JR115899": [
 {
@@ -23107,6 +23121,13 @@
 "senior": true
 },
 "2026-10-30"
+],
+"rescue:workday:nvidia:JR2028899": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-01"
 ],
 "rescue:workday:nvidia:JR2029009": [
 {
@@ -29971,7 +29992,7 @@
 "Cohere": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 120
 },
 "Coinbase": {
 "alerted": false,
@@ -30086,7 +30107,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 908
+"typical": 909
 },
 "Dataiku": {
 "alerted": false,
@@ -30341,7 +30362,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 124,
+"streak": 125,
 "typical": 4
 },
 "Firstup": {
@@ -30492,7 +30513,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 78
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -30972,7 +30993,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 126
 },
 "Microsoft": {
 "alerted": false,
@@ -31797,7 +31818,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3117
+"typical": 3120
 },
 "Simular": {
 "alerted": false,
@@ -37160,6 +37181,7 @@
 "greenhouse:databricks:8910850002": "2026-10-26",
 "greenhouse:databricks:8910854002": "2026-11-01",
 "greenhouse:databricks:8910860002": "2026-10-27",
+"greenhouse:databricks:8910864002": "2026-11-01",
 "greenhouse:databricks:8910988002": "2026-10-23",
 "greenhouse:databricks:8912711002": "2026-10-28",
 "greenhouse:databricks:8916466002": "2026-11-01",
@@ -42239,6 +42261,7 @@
 "simplify:062331a8-f84b-4a25-9c39-ccabcb6a0371": "2026-10-20",
 "simplify:07094ae9-493c-4bbc-a623-42555d77865c": "2026-10-29",
 "simplify:0727f717-7671-410b-a2ce-72856c4f8adb": "2026-10-28",
+"simplify:076e4d7b-c105-4b49-866b-5ac1f12ec7b3": "2026-11-01",
 "simplify:07a8cdea-4601-41cb-a9f8-fed8d444f0df": "2026-10-29",
 "simplify:07e8db57-fe7c-4076-83fc-01a3b6f9b55b": "2026-10-30",
 "simplify:08793a1b-056f-4a21-9867-6c550f09d1d5": "2026-10-27",
@@ -42492,6 +42515,7 @@
 "simplify:5f5642d8-8973-4b72-8adb-bce8f7de7ef9": "2026-10-29",
 "simplify:5f761cf2-ff4a-483d-81fe-021419690c6c": "2026-10-23",
 "simplify:5fa0e4c8-c585-463e-975c-51d7b01f666d": "2026-10-30",
+"simplify:61e56b29-9b9f-481a-926e-c653983f3ff8": "2026-11-01",
 "simplify:62139b4b-4989-4dbd-9408-c58649080617": "2026-10-22",
 "simplify:6229e804-43a5-47a4-882c-c7bf3dc4968f": "2026-10-27",
 "simplify:623e89d8-861a-4ddb-a378-91c8f5ea36c5": "2026-10-28",
@@ -42617,6 +42641,7 @@
 "simplify:8982c276-3471-4e45-b3d4-15d35b2c5de3": "2026-10-19",
 "simplify:8a45df0f-a34d-4f7f-8489-65afb38cd04e": "2026-10-29",
 "simplify:8acaba1b-7236-409b-b936-aa2cfe23469a": "2026-10-23",
+"simplify:8b78e2f8-35f6-4abc-bada-954fe7cc7779": "2026-11-01",
 "simplify:8cbf8bd8-ce20-44af-a4c4-233cb9eb144e": "2026-10-26",
 "simplify:8ccf1424-6b62-470f-93e0-ad607c1f232d": "2026-10-19",
 "simplify:8d8c7ddb-0cfd-453f-9bb6-33cc705ca846": "2026-10-29",
@@ -46795,6 +46820,7 @@
 "workday:intel:JR0288179": "2026-10-20",
 "workday:intel:JR0288191": "2026-11-01",
 "workday:intel:JR0288192": "2026-10-27",
+"workday:intel:JR0288200-1": "2026-11-01",
 "workday:intel:JR0288205": "2026-10-20",
 "workday:intel:JR0288206": "2026-10-20",
 "workday:intel:JR0288207": "2026-10-21",
@@ -48641,6 +48667,8 @@
 "workday:micron:JR113403": "2026-10-23",
 "workday:micron:JR113407": "2026-10-23",
 "workday:micron:JR113412": "2026-10-23",
+"workday:micron:JR113463": "2026-11-01",
+"workday:micron:JR113464": "2026-11-01",
 "workday:micron:JR113468": "2026-10-20",
 "workday:micron:JR113489": "2026-10-20",
 "workday:micron:JR113490": "2026-10-20",
@@ -48865,6 +48893,7 @@
 "workday:micron:JR115037": "2026-10-28",
 "workday:micron:JR115039-1": "2026-10-30",
 "workday:micron:JR115042": "2026-10-29",
+"workday:micron:JR115046-1": "2026-11-01",
 "workday:micron:JR115058": "2026-10-23",
 "workday:micron:JR115059": "2026-10-23",
 "workday:micron:JR115060": "2026-10-27",
@@ -49008,6 +49037,7 @@
 "workday:micron:JR115878": "2026-10-23",
 "workday:micron:JR115888": "2026-10-27",
 "workday:micron:JR115889": "2026-10-27",
+"workday:micron:JR115897": "2026-11-01",
 "workday:micron:JR115899": "2026-10-31",
 "workday:micron:JR115905": "2026-10-23",
 "workday:micron:JR115926": "2026-10-23",
@@ -49058,6 +49088,7 @@
 "workday:micron:JR116194": "2026-10-28",
 "workday:micron:JR116195": "2026-10-28",
 "workday:micron:JR116198": "2026-10-29",
+"workday:micron:JR116218": "2026-11-01",
 "workday:micron:JR116222": "2026-10-29",
 "workday:micron:JR116243": "2026-10-30",
 "workday:micron:JR116269": "2026-10-28",
@@ -49069,7 +49100,9 @@
 "workday:micron:JR116390-1": "2026-10-29",
 "workday:micron:JR116404": "2026-10-29",
 "workday:micron:JR116418": "2026-10-29",
+"workday:micron:JR116429": "2026-11-01",
 "workday:micron:JR116436": "2026-10-29",
+"workday:micron:JR116442": "2026-11-01",
 "workday:micron:JR116470": "2026-10-29",
 "workday:micron:JR116474": "2026-10-30",
 "workday:micron:JR116478": "2026-10-30",
@@ -50566,6 +50599,7 @@
 "workday:nvidia:JR2028274-1": "2026-10-21",
 "workday:nvidia:JR2028277-1": "2026-10-22",
 "workday:nvidia:JR2028279": "2026-10-20",
+"workday:nvidia:JR2028280": "2026-11-01",
 "workday:nvidia:JR2028283": "2026-10-22",
 "workday:nvidia:JR2028289": "2026-10-22",
 "workday:nvidia:JR2028290": "2026-10-21",
@@ -50732,6 +50766,7 @@
 "workday:nvidia:JR2028891": "2026-10-29",
 "workday:nvidia:JR2028892": "2026-10-30",
 "workday:nvidia:JR2028896-1": "2026-10-29",
+"workday:nvidia:JR2028899": "2026-11-01",
 "workday:nvidia:JR2028905": "2026-10-29",
 "workday:nvidia:JR2028915-1": "2026-10-27",
 "workday:nvidia:JR2028923": "2026-10-31",
@@ -55216,6 +55251,7 @@
 "runpod|technical support engineer l1": "2026-10-26",
 "rws|general ai data annotator brazilian portuguese": "2026-10-23",
 "rws|general ai data annotator spanish": "2026-10-23",
+"saic|geographic information systems analyst": "2026-11-01",
 "saic|software engineer associate": "2026-10-27",
 "saic|software test engineer": "2026-10-19",
 "salesforce|access ai enablement engineer mts": "2026-10-28",
@@ -55461,9 +55497,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 8,
+"calls": 11,
 "date": "2026-11-01",
-"usd": 0.001123
+"usd": 0.001331
 },
 "years": {
 "amazon:10583340": [
