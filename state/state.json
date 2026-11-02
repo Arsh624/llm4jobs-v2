@@ -1690,6 +1690,16 @@
 },
 "2026-10-29"
 ],
+"ashby:armadin:a9a8c8e2-3b1b-43fc-811a-e54a2a5a8c2b|v3|73908d": [
+{
+"chance": 4,
+"level": "unknown",
+"min_years": null,
+"note": "Requires specific experience in deployment and AI",
+"us_ok": true
+},
+"2026-11-02"
+],
 "ashby:astera:80e3f654-0be6-431f-8c1e-7a7d317b7591|v3|73908d": [
 {
 "chance": 6,
@@ -29682,7 +29692,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 310
+"typical": 312
 },
 "Ai2": {
 "alerted": false,
@@ -29847,7 +29857,7 @@
 "Armadin": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 28
 },
 "Arrowstreet Capital": {
 "alerted": false,
@@ -30562,7 +30572,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 149,
+"streak": 150,
 "typical": 4
 },
 "Firstup": {
@@ -30713,12 +30723,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 78
+"typical": 79
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 105
 },
 "HackerOne": {
 "alerted": false,
@@ -30903,7 +30913,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 89
+"typical": 95
 },
 "Intro": {
 "alerted": false,
@@ -31193,7 +31203,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 137
+"typical": 140
 },
 "Microsoft": {
 "alerted": false,
@@ -31988,7 +31998,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 430
+"typical": 422
 },
 "Sesame": {
 "alerted": false,
@@ -33020,6 +33030,7 @@
 "ashby:arlo:417e0c3c-9c44-423a-91ec-274e7a353c33": "2026-10-20",
 "ashby:armadin:41b8c1e8-8205-490d-bb69-7151806323de": "2026-10-28",
 "ashby:armadin:8044c27a-db2c-47aa-9701-d9468dbb025b": "2026-10-28",
+"ashby:armadin:a9a8c8e2-3b1b-43fc-811a-e54a2a5a8c2b": "2026-11-02",
 "ashby:asimov:0b5c0e83-7b94-4b59-b6e7-37e1c745ed3b": "2026-10-28",
 "ashby:astera:0bd392b4-d14a-462c-98ae-6730629579e7": "2026-10-20",
 "ashby:astera:2e65a347-1685-44f9-8bb8-dc66176b8e93": "2026-10-20",
@@ -36426,12 +36437,14 @@
 "greenhouse:affirm:8057950003": "2026-10-30",
 "greenhouse:affirm:8098803003": "2026-10-30",
 "greenhouse:agoda:8203488": "2026-10-29",
+"greenhouse:agoda:8239087": "2026-11-02",
 "greenhouse:agoda:8281417": "2026-10-29",
 "greenhouse:agoda:8281748": "2026-10-29",
 "greenhouse:agoda:8284247": "2026-10-30",
 "greenhouse:agoda:8288433": "2026-10-29",
 "greenhouse:agoda:8288618": "2026-10-29",
 "greenhouse:agoda:8312187": "2026-10-29",
+"greenhouse:agoda:8324060": "2026-11-02",
 "greenhouse:agoda:8324169": "2026-10-29",
 "greenhouse:agoda:8326288": "2026-10-29",
 "greenhouse:agoda:8326303": "2026-10-29",
@@ -41017,6 +41030,8 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019501": "2026-11-01",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019529": "2026-10-30",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019542": "2026-11-01",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019545": "2026-11-02",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019546": "2026-11-02",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18834": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18999": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:20081": "2026-10-29",
@@ -41614,6 +41629,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348110": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348112": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348113": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348116": "2026-11-02",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348117": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348118": "2026-10-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348119": "2026-10-22",
@@ -46265,6 +46281,7 @@
 "workday:hp:3167289-1": "2026-10-21",
 "workday:hp:3167314": "2026-10-23",
 "workday:hp:3167317-2": "2026-10-22",
+"workday:hp:3167345-1": "2026-11-02",
 "workday:hp:3167354-1": "2026-10-29",
 "workday:hp:3167359": "2026-11-01",
 "workday:hp:3167379-2": "2026-10-23",
@@ -46927,6 +46944,7 @@
 "workday:hpe:1218404-1": "2026-10-29",
 "workday:hpe:1218405-2": "2026-10-29",
 "workday:hpe:1218456-1": "2026-10-29",
+"workday:hpe:1218468": "2026-11-02",
 "workday:illumina:43317-JOB": "2026-10-29",
 "workday:illumina:43424-JOB": "2026-10-29",
 "workday:illumina:43525-JOB": "2026-10-29",
@@ -46988,6 +47006,7 @@
 "workday:intel:JR0286762": "2026-10-23",
 "workday:intel:JR0286800": "2026-10-30",
 "workday:intel:JR0286863": "2026-10-27",
+"workday:intel:JR0286865": "2026-11-02",
 "workday:intel:JR0286908": "2026-10-21",
 "workday:intel:JR0286914": "2026-10-21",
 "workday:intel:JR0286916": "2026-10-27",
@@ -47356,6 +47375,11 @@
 "workday:intel:JR0288756-1": "2026-10-30",
 "workday:intel:JR0288757": "2026-11-02",
 "workday:intel:JR0288759": "2026-10-30",
+"workday:intel:JR0288822": "2026-11-02",
+"workday:intel:JR0288823": "2026-11-02",
+"workday:intel:JR0288824": "2026-11-02",
+"workday:intel:JR0288825": "2026-11-02",
+"workday:intel:JR0288828": "2026-11-02",
 "workday:kla:2530503": "2026-10-20",
 "workday:kla:2633993": "2026-10-20",
 "workday:kla:2634336-1": "2026-10-23",
@@ -48665,15 +48689,18 @@
 "workday:micron:JR109144": "2026-10-23",
 "workday:micron:JR109213": "2026-10-23",
 "workday:micron:JR109217": "2026-10-27",
+"workday:micron:JR109238": "2026-11-02",
 "workday:micron:JR109314": "2026-10-20",
 "workday:micron:JR109320": "2026-10-28",
 "workday:micron:JR109321": "2026-10-23",
 "workday:micron:JR109409-1": "2026-10-22",
 "workday:micron:JR109432": "2026-10-23",
 "workday:micron:JR109503": "2026-10-23",
+"workday:micron:JR109539-1": "2026-11-02",
 "workday:micron:JR109566": "2026-10-23",
 "workday:micron:JR109594": "2026-10-26",
 "workday:micron:JR109599": "2026-10-23",
+"workday:micron:JR109612": "2026-11-02",
 "workday:micron:JR109625": "2026-10-23",
 "workday:micron:JR109686": "2026-10-23",
 "workday:micron:JR109688": "2026-10-23",
@@ -52321,6 +52348,7 @@
 "workday:salesforce:JR365776": "2026-11-01",
 "workday:salesforce:JR365778": "2026-10-26",
 "workday:salesforce:JR365782": "2026-10-28",
+"workday:salesforce:JR365789": "2026-11-02",
 "workday:salesforce:JR365810": "2026-10-27",
 "workday:salesforce:JR365813-1": "2026-10-27",
 "workday:salesforce:JR365814-1": "2026-10-26",
@@ -54625,6 +54653,7 @@
 "applovin|business operations analyst": "2026-10-20",
 "aqr capital management|software engineer": "2026-10-20",
 "argonne national laboratory|robotics software developer postbaccalaureate appointee rapid prototyping laboratory": "2026-10-29",
+"armadin|forward deployed engineer": "2026-11-02",
 "ascension|data analyst": "2026-10-22",
 "astera labs|full stack robotics ai engineer": "2026-10-26",
 "astera labs|mechatronics engineer": "2026-10-26",
@@ -55822,9 +55851,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 14,
+"calls": 15,
 "date": "2026-11-02",
-"usd": 0.002906
+"usd": 0.003103
 },
 "years": {
 "amazon:10583340": [
