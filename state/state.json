@@ -1590,6 +1590,16 @@
 },
 "2026-10-31"
 ],
+"amazon:10594100|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-02"
+],
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30|v3|73908d": [
 {
 "chance": 2,
@@ -29676,7 +29686,7 @@
 "Applied Materials": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 20
 },
 "AppsFlyer": {
 "alerted": false,
@@ -30431,7 +30441,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 142,
+"streak": 143,
 "typical": 4
 },
 "Firstup": {
@@ -30452,7 +30462,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 193
+"typical": 192
 },
 "Flock Homes": {
 "alerted": false,
@@ -31032,7 +31042,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 92
+"typical": 91
 },
 "Mercor": {
 "alerted": false,
@@ -31217,7 +31227,7 @@
 "Netskope": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 120
 },
 "Neuralink": {
 "alerted": false,
@@ -31357,7 +31367,7 @@
 "Oracle": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 50
 },
 "Orb": {
 "alerted": false,
@@ -31597,7 +31607,7 @@
 "Qualcomm": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 10
 },
 "QuantCo": {
 "alerted": false,
@@ -31887,7 +31897,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3122
+"typical": 3120
 },
 "Simular": {
 "alerted": false,
@@ -32032,7 +32042,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 745
+"typical": 746
 },
 "Stuut": {
 "alerted": false,
@@ -32794,6 +32804,7 @@
 "amazon:10593872": "2026-10-30",
 "amazon:10593902": "2026-10-30",
 "amazon:10593929": "2026-10-31",
+"amazon:10594100": "2026-11-02",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
 "ashby:1x:4cb3ef10-8755-4050-b5f1-309591626d1c": "2026-10-30",
 "ashby:1x:670062fb-edc6-4bd4-be07-63049e5d9134": "2026-10-28",
@@ -41858,6 +41869,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:295505": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:295656": "2026-10-31",
 "oracle_hcm:enterpriseplatform.dell.com:295716": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:296040": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:296324": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:296487": "2026-11-01",
 "oracle_hcm:enterpriseplatform.dell.com:296573": "2026-10-29",
@@ -41872,6 +41884,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:297336": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:297459": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:297775": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:297781": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:298240": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:299042": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:299194": "2026-10-29",
@@ -51683,6 +51696,7 @@
 "workday:salesforce:JR362180": "2026-10-23",
 "workday:salesforce:JR362202": "2026-10-23",
 "workday:salesforce:JR362217-1": "2026-10-28",
+"workday:salesforce:JR362218": "2026-11-02",
 "workday:salesforce:JR362231": "2026-10-19",
 "workday:salesforce:JR362237": "2026-10-30",
 "workday:salesforce:JR362238": "2026-10-30",
@@ -53847,6 +53861,7 @@
 "workday:wf:R-585132": "2026-10-30",
 "workday:wf:R-585138": "2026-10-30",
 "workday:wf:R-585154": "2026-10-30",
+"workday:wf:R-585155": "2026-11-02",
 "workday:wf:R-585160-1": "2026-10-30",
 "workday:wf:R-585168": "2026-10-30",
 "workday:wf:R-585170": "2026-10-30",
@@ -54182,6 +54197,7 @@
 "amazon|software development engineer 1 ai ml network infrastructure": "2026-10-21",
 "amazon|software development engineer 1 early career annapurna labs": "2026-10-23",
 "amazon|software development engineer adc2s": "2026-10-23",
+"amazon|software development engineer ads ai core infra aci": "2026-11-02",
 "amazon|software development engineer ads campaign management": "2026-10-26",
 "amazon|software development engineer advanced analytics lld": "2026-10-27",
 "amazon|software development engineer agentic ai velocity labs": "2026-10-23",
@@ -55600,9 +55616,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 20,
-"date": "2026-11-01",
-"usd": 0.002227
+"calls": 1,
+"date": "2026-11-02",
+"usd": 0.000132
 },
 "years": {
 "amazon:10583340": [
