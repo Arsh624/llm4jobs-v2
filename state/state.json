@@ -1230,6 +1230,16 @@
 },
 "2026-10-29"
 ],
+"amazon:10591621|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-03"
+],
 "amazon:10591622|v3|73908d": [
 {
 "chance": 2,
@@ -32771,7 +32781,7 @@
 "Activision Blizzard": {
 "alerted": false,
 "streak": 0,
-"typical": 4
+"typical": 3
 },
 "Adaptive": {
 "alerted": false,
@@ -32906,7 +32916,7 @@
 "Apex Space": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 126
 },
 "Apollo GraphQL": {
 "alerted": false,
@@ -33286,7 +33296,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 470
+"typical": 469
 },
 "Cloudinary": {
 "alerted": false,
@@ -33406,7 +33416,7 @@
 "Cursor": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 123
 },
 "DELFI Diagnostics": {
 "alerted": false,
@@ -33681,7 +33691,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 198,
+"streak": 199,
 "typical": 4
 },
 "Firstup": {
@@ -34312,7 +34322,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 138
+"typical": 139
 },
 "Microsoft": {
 "alerted": false,
@@ -35337,7 +35347,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 173
+"typical": 174
 },
 "TENEX.AI": {
 "alerted": false,
@@ -35407,7 +35417,7 @@
 "The Trade Desk": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 106
 },
 "Thinking Machines Lab": {
 "alerted": false,
@@ -35622,7 +35632,7 @@
 "Wealthfront": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 22
 },
 "Weaviate": {
 "alerted": false,
@@ -36132,6 +36142,7 @@
 "ashby:anyscale:f6845640-e1d7-42f6-82a1-ebfa8967e00d": "2026-10-27",
 "ashby:apex-technology-inc:0456dbe8-5b32-4d0d-a2ff-9325328ebf52": "2026-10-30",
 "ashby:apex-technology-inc:1f217a8b-1137-4d72-ae2d-27cd522ef964": "2026-10-31",
+"ashby:apex-technology-inc:1fc137b8-e60a-4c70-b58f-ca10beaa3bf9": "2026-11-03",
 "ashby:apex-technology-inc:2883b7ec-6c65-4432-8776-d65660bc8ada": "2026-10-29",
 "ashby:apex-technology-inc:3b633443-4106-4404-8bdb-d98cd47b5ff5": "2026-10-29",
 "ashby:apex-technology-inc:423eff3f-6577-4ee9-aed7-a7e24399833e": "2026-10-29",
@@ -44925,6 +44936,8 @@
 "lever:walkme:a1ba108a-ab97-42c5-971e-93c12f86226f": "2026-10-22",
 "lever:walkme:c96e07d4-daef-48a3-a254-2f006a898c09": "2026-10-29",
 "lever:walkme:fddad8fb-fbaf-4dad-830a-e9fa9966459b": "2026-10-30",
+"lever:wealthfront:97f51038-7c78-4a7d-ae16-e80aa758bf71": "2026-11-03",
+"lever:wealthfront:cab92a5e-7cc5-48ea-9755-5f9f2fdcfad9": "2026-11-03",
 "lever:zimperium:5b5d7e84-0776-4dfe-9ec1-4932e8f9da0e": "2026-10-20",
 "lever:zimperium:e54c8e95-94ad-45fa-b0b7-6ee4638c020d": "2026-10-26",
 "lever:zoox:008c7252-edd0-4e72-a79b-0dc021f212d5": "2026-11-02",
@@ -54096,6 +54109,7 @@
 "workday:micron:JR115934": "2026-10-27",
 "workday:micron:JR115937": "2026-10-27",
 "workday:micron:JR115941": "2026-10-27",
+"workday:micron:JR115942": "2026-11-03",
 "workday:micron:JR115949-1": "2026-10-27",
 "workday:micron:JR115950": "2026-10-27",
 "workday:micron:JR115951": "2026-10-27",
@@ -56999,6 +57013,7 @@
 "workday:salesforce:JR363874-1": "2026-10-20",
 "workday:salesforce:JR363879": "2026-10-29",
 "workday:salesforce:JR363880": "2026-10-19",
+"workday:salesforce:JR363883": "2026-11-03",
 "workday:salesforce:JR363887": "2026-10-26",
 "workday:salesforce:JR363892-1": "2026-10-23",
 "workday:salesforce:JR363898": "2026-10-29",
@@ -57391,6 +57406,7 @@
 "workday:salesforce:JR366415": "2026-10-30",
 "workday:salesforce:JR366417": "2026-10-30",
 "workday:salesforce:JR366423": "2026-10-30",
+"workday:salesforce:JR366424": "2026-11-03",
 "workday:salesforce:JR366429": "2026-10-30",
 "workday:salesforce:JR366431": "2026-10-30",
 "workday:salesforce:JR366434": "2026-10-30",
@@ -57564,6 +57580,7 @@
 "workday:tmobile:REQ375462-1": "2026-10-20",
 "workday:tmobile:REQ375463-2": "2026-10-21",
 "workday:tmobile:REQ375502": "2026-10-27",
+"workday:tmobile:REQ375520-1": "2026-11-03",
 "workday:tmobile:REQ375641-1": "2026-10-20",
 "workday:tmobile:REQ375718-1": "2026-10-20",
 "workday:tmobile:REQ375735-1": "2026-10-23",
@@ -57572,6 +57589,7 @@
 "workday:tmobile:REQ375782-1": "2026-10-24",
 "workday:tmobile:REQ375830": "2026-10-30",
 "workday:tmobile:REQ375840": "2026-10-20",
+"workday:tmobile:REQ375845-2": "2026-11-03",
 "workday:tmobile:REQ375880": "2026-10-20",
 "workday:tmobile:REQ375897": "2026-10-20",
 "workday:tmobile:REQ375928": "2026-10-21",
@@ -61319,9 +61337,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 45,
+"calls": 46,
 "date": "2026-11-03",
-"usd": 0.006524
+"usd": 0.006717
 },
 "years": {
 "amazon:10583340": [
