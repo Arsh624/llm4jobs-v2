@@ -2880,6 +2880,16 @@
 },
 "2026-10-29"
 ],
+"ashby:openai:4f2d9849-ad00-48d5-a22f-0cb943723999|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads; strong software fundamentals required.",
+"us_ok": true
+},
+"2026-11-03"
+],
 "ashby:openai:551b0d0d-46c2-42fb-bb05-46e2fba8d4db|v3|73908d": [
 {
 "chance": 6,
@@ -10010,6 +10020,13 @@
 },
 "2026-11-02"
 ],
+"rescue:ashby:shieldai:a64c8567-9735-44b6-9e6d-38e31fd12327": [
+{
+"note": "Requires minimum 5 years of experience.",
+"senior": true
+},
+"2026-11-03"
+],
 "rescue:ashby:shieldai:b2f89880-4403-42e6-9077-2cc487417000": [
 {
 "note": "Requires significant experience and leadership skills.",
@@ -10324,6 +10341,13 @@
 "senior": true
 },
 "2026-10-29"
+],
+"rescue:ashby:vanta:c752a8a1-5832-4d2a-a8c5-8b8308d6a7e2": [
+{
+"note": "Requires significant experience and leadership skills.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:ashby:webai:318c579c-92b3-43b5-b59f-4d1d48dc0026": [
 {
@@ -12369,6 +12393,20 @@
 },
 "2026-10-29"
 ],
+"rescue:greenhouse:affirm:8040271003": [
+{
+"note": "Requires significant experience and technical strategy.",
+"senior": true
+},
+"2026-11-03"
+],
+"rescue:greenhouse:affirm:8040273003": [
+{
+"note": "Requires significant experience and technical strategy.",
+"senior": true
+},
+"2026-11-03"
+],
 "rescue:greenhouse:affirm:8040396003": [
 {
 "note": "Requires significant experience and leadership skills.",
@@ -12634,6 +12672,34 @@
 "senior": true
 },
 "2026-10-31"
+],
+"rescue:greenhouse:andurilindustries:5282382007": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-03"
+],
+"rescue:greenhouse:andurilindustries:5282383007": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-03"
+],
+"rescue:greenhouse:andurilindustries:5282384007": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-03"
+],
+"rescue:greenhouse:andurilindustries:5282385007": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:greenhouse:anthropic:5173120008": [
 {
@@ -32876,7 +32942,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 235
+"typical": 237
 },
 "Agiloft": {
 "alerted": false,
@@ -32966,7 +33032,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2560
+"typical": 2559
 },
 "AngelList": {
 "alerted": false,
@@ -33201,7 +33267,7 @@
 "Brain Co": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 51
 },
 "Braintrust": {
 "alerted": false,
@@ -33401,7 +33467,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 266
+"typical": 267
 },
 "Color Health": {
 "alerted": false,
@@ -33766,7 +33832,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 200,
+"streak": 201,
 "typical": 4
 },
 "Firstup": {
@@ -34107,7 +34173,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 90
+"typical": 91
 },
 "Intro": {
 "alerted": false,
@@ -34307,7 +34373,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 449
+"typical": 450
 },
 "Luma AI": {
 "alerted": false,
@@ -34507,7 +34573,7 @@
 "NXP Semiconductors": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 36
 },
 "Nash": {
 "alerted": false,
@@ -34587,7 +34653,7 @@
 "Northwood Space": {
 "alerted": false,
 "streak": 0,
-"typical": 61
+"typical": 60
 },
 "Notion": {
 "alerted": false,
@@ -34972,7 +35038,7 @@
 "Ramp": {
 "alerted": false,
 "streak": 0,
-"typical": 171
+"typical": 170
 },
 "Rasa": {
 "alerted": false,
@@ -35222,7 +35288,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3119
+"typical": 3115
 },
 "Simular": {
 "alerted": false,
@@ -35267,7 +35333,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 367
+"typical": 368
 },
 "SoFi": {
 "alerted": false,
@@ -35422,7 +35488,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 174
+"typical": 175
 },
 "TENEX.AI": {
 "alerted": false,
@@ -35632,7 +35698,7 @@
 "Vanta": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 81
 },
 "Vantage": {
 "alerted": false,
@@ -35742,7 +35808,7 @@
 "Workato": {
 "alerted": false,
 "streak": 0,
-"typical": 52
+"typical": 53
 },
 "Workday": {
 "alerted": false,
@@ -36080,9 +36146,12 @@
 "amazon:10591537": "2026-10-29",
 "amazon:10591543": "2026-10-29",
 "amazon:10591546": "2026-10-28",
+"amazon:10591621": "2026-11-03",
 "amazon:10591622": "2026-11-03",
 "amazon:10591624": "2026-11-03",
 "amazon:10591625": "2026-10-29",
+"amazon:10591627": "2026-11-03",
+"amazon:10591629": "2026-11-03",
 "amazon:10591631": "2026-11-03",
 "amazon:10591654": "2026-10-29",
 "amazon:10591655": "2026-10-29",
@@ -36352,6 +36421,7 @@
 "ashby:brainco:090d2423-b609-47e1-a26e-4fb1dc9d32a2": "2026-11-02",
 "ashby:brainco:135184c8-1623-4ddd-890f-ef0ad8e9d4a8": "2026-10-28",
 "ashby:brainco:35b11e51-30bd-42f4-89c1-94dfe30262d4": "2026-10-28",
+"ashby:brainco:892ed5a6-5082-4445-9420-511a89483452": "2026-11-03",
 "ashby:brainco:8a7d5a94-fecd-45a7-9a64-48720976fbc0": "2026-10-28",
 "ashby:brainco:9ea966db-9893-434a-9909-a95efb2a1bf0": "2026-10-28",
 "ashby:brainco:aa460f32-c21e-4c72-b8ce-ad8bfea520c9": "2026-10-30",
@@ -37165,6 +37235,7 @@
 "ashby:openai:45a0886d-a60d-4d5a-9afa-785a75042044": "2026-11-02",
 "ashby:openai:4b7246e7-0eaf-4e35-865b-1ef693527ff4": "2026-10-22",
 "ashby:openai:4bcc25ef-cf03-47db-896c-0fd9122afab1": "2026-10-30",
+"ashby:openai:4f2d9849-ad00-48d5-a22f-0cb943723999": "2026-11-03",
 "ashby:openai:50053f7b-c154-45af-b497-3298c826a15f": "2026-11-02",
 "ashby:openai:500c16b5-26ca-46be-9280-abbfff3b5c2b": "2026-10-29",
 "ashby:openai:502fcf97-75b2-4e54-9957-a29cee8eb1ca": "2026-10-19",
@@ -37678,6 +37749,7 @@
 "ashby:shieldai:a32116cd-c683-49b9-99b8-96e5dbe8967b": "2026-10-31",
 "ashby:shieldai:a339d686-fc92-408b-8f46-303401f5bcd8": "2026-10-30",
 "ashby:shieldai:a5298cd4-1690-480e-9b35-1b58a82b9f25": "2026-11-02",
+"ashby:shieldai:a64c8567-9735-44b6-9e6d-38e31fd12327": "2026-11-03",
 "ashby:shieldai:a8dc283d-389c-47b8-845b-32aef162fbfb": "2026-10-29",
 "ashby:shieldai:a9e2509c-fa35-4bf7-b50d-a557666b629d": "2026-10-29",
 "ashby:shieldai:aa079589-0a90-4de9-8d39-84ee960f2efe": "2026-10-28",
@@ -37869,6 +37941,7 @@
 "ashby:snowflake:a77eec40-989a-4f44-ab00-f67bea608821": "2026-10-29",
 "ashby:snowflake:b071b406-6bd0-4def-ba95-380b1cbf6de5": "2026-10-20",
 "ashby:snowflake:b29ce51b-a6b7-43af-81ce-3fe882913cc4": "2026-10-26",
+"ashby:snowflake:b31da4db-b3a4-4c95-96f3-f82523f9073a": "2026-11-03",
 "ashby:snowflake:b47c2374-1a78-4356-95d8-50cf6a5c7193": "2026-10-28",
 "ashby:snowflake:b4e3fdf1-8e22-4f20-a7a3-776903c0b07d": "2026-10-29",
 "ashby:snowflake:be15bb2b-f43e-427a-9c59-9d09eab48d66": "2026-10-29",
@@ -38093,11 +38166,13 @@
 "ashby:vanta:0eb769bf-5444-491b-8721-2fc579ca4932": "2026-10-29",
 "ashby:vanta:112c82ea-5825-4121-a43f-5e1902bec35c": "2026-10-26",
 "ashby:vanta:31cdf07c-21ab-460c-912e-f288dc38090e": "2026-10-30",
+"ashby:vanta:55f57c1b-7a4b-4fb3-80c7-75f296085de2": "2026-11-03",
 "ashby:vanta:7d9922bb-2d0e-4833-bc4e-df65dc57d232": "2026-10-28",
 "ashby:vanta:b4d0919d-0001-476d-a3a9-f43f7138c2c1": "2026-10-22",
 "ashby:vanta:b64b6e72-7c71-446f-b6ce-662330b910e8": "2026-10-29",
 "ashby:vanta:bcdcc8fc-a277-43c3-98f5-2b0e536f28b2": "2026-10-26",
 "ashby:vanta:c3a34fb5-02e4-430e-83d2-b096363901aa": "2026-10-29",
+"ashby:vanta:c752a8a1-5832-4d2a-a8c5-8b8308d6a7e2": "2026-11-03",
 "ashby:vanta:cecaa30a-37a2-42aa-980e-ca44db8fdb34": "2026-10-26",
 "ashby:vanta:f4be1821-a392-47e3-8bfa-385712892f9c": "2026-10-22",
 "ashby:vanta:faab91ff-2dc5-4223-a7c6-9ed21d16f011": "2026-11-03",
@@ -40021,6 +40096,8 @@
 "greenhouse:affirm:8039805003": "2026-10-30",
 "greenhouse:affirm:8040267003": "2026-10-29",
 "greenhouse:affirm:8040269003": "2026-10-29",
+"greenhouse:affirm:8040271003": "2026-11-03",
+"greenhouse:affirm:8040273003": "2026-11-03",
 "greenhouse:affirm:8040378003": "2026-10-29",
 "greenhouse:affirm:8040380003": "2026-10-29",
 "greenhouse:affirm:8040386003": "2026-10-30",
@@ -40408,6 +40485,13 @@
 "greenhouse:andurilindustries:5282178007": "2026-11-02",
 "greenhouse:andurilindustries:5282289007": "2026-11-03",
 "greenhouse:andurilindustries:5282291007": "2026-11-03",
+"greenhouse:andurilindustries:5282376007": "2026-11-03",
+"greenhouse:andurilindustries:5282380007": "2026-11-03",
+"greenhouse:andurilindustries:5282381007": "2026-11-03",
+"greenhouse:andurilindustries:5282382007": "2026-11-03",
+"greenhouse:andurilindustries:5282383007": "2026-11-03",
+"greenhouse:andurilindustries:5282384007": "2026-11-03",
+"greenhouse:andurilindustries:5282385007": "2026-11-03",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
 "greenhouse:anthropic:5390992008": "2026-10-19",
@@ -41762,6 +41846,7 @@
 "greenhouse:lucidmotors:5244176007": "2026-10-21",
 "greenhouse:lucidmotors:5246723007": "2026-10-20",
 "greenhouse:lucidmotors:5247228007": "2026-10-26",
+"greenhouse:lucidmotors:5250789007": "2026-11-03",
 "greenhouse:lucidmotors:5252581007": "2026-10-23",
 "greenhouse:lucidmotors:5254379007": "2026-10-26",
 "greenhouse:lucidmotors:5254390007": "2026-10-23",
@@ -43755,6 +43840,7 @@
 "greenhouse:workato:8919945002": "2026-10-29",
 "greenhouse:workato:8921145002": "2026-10-28",
 "greenhouse:workato:8921187002": "2026-10-28",
+"greenhouse:workato:8924712002": "2026-11-03",
 "greenhouse:workato:8924839002": "2026-11-02",
 "greenhouse:workato:8924845002": "2026-11-02",
 "greenhouse:wrike:4745689005": "2026-10-20",
@@ -44104,6 +44190,7 @@
 "jibe:careers.amd.com:93798": "2026-10-20",
 "jibe:careers.amd.com:93799": "2026-10-20",
 "jibe:careers.amd.com:93800": "2026-10-24",
+"jibe:careers.amd.com:93802": "2026-11-03",
 "jibe:careers.amd.com:93804": "2026-10-21",
 "jibe:careers.amd.com:93811": "2026-10-27",
 "jibe:careers.amd.com:93813": "2026-10-27",
@@ -44236,6 +44323,7 @@
 "jibe:careers.amd.com:95722": "2026-10-28",
 "jibe:careers.amd.com:95725": "2026-10-28",
 "jibe:careers.amd.com:95726": "2026-10-29",
+"jibe:careers.amd.com:95730": "2026-11-03",
 "jibe:careers.amd.com:95797": "2026-10-27",
 "jibe:careers.amd.com:95819": "2026-10-29",
 "jibe:careers.amd.com:95820": "2026-10-29",
@@ -44326,6 +44414,8 @@
 "jibe:careers.docusign.com:30618": "2026-10-29",
 "jibe:careers.docusign.com:30620": "2026-11-03",
 "jibe:careers.docusign.com:30621": "2026-11-03",
+"jibe:careers.docusign.com:30627": "2026-11-03",
+"jibe:careers.docusign.com:30628": "2026-11-03",
 "jibe:careers.keysight.com:52158": "2026-10-20",
 "jibe:careers.keysight.com:53409": "2026-10-20",
 "jibe:careers.keysight.com:53410": "2026-11-02",
@@ -47300,6 +47390,7 @@
 "simplify:a509cc99-b862-4bd9-8c30-49393b371170": "2026-10-24",
 "simplify:a5683c5a-9b84-4ff9-972e-b22ba427faed": "2026-10-20",
 "simplify:a5f953d4-6f48-46be-b3ba-cc24b0333e17": "2026-10-21",
+"simplify:a6f318a0-e5c1-4146-8ce3-18d29595f8b9": "2026-11-03",
 "simplify:a7309900-70f4-42e4-a032-fd7570013f54": "2026-10-20",
 "simplify:a78b3bae-270e-40f5-888b-ab2cae4598ea": "2026-10-29",
 "simplify:a80913f5-4817-4c04-9939-019a13698d11": "2026-10-23",
@@ -51988,6 +52079,7 @@
 "workday:intel:JR0288552-1": "2026-11-02",
 "workday:intel:JR0288553-1": "2026-10-23",
 "workday:intel:JR0288554": "2026-10-30",
+"workday:intel:JR0288555": "2026-11-03",
 "workday:intel:JR0288558": "2026-10-28",
 "workday:intel:JR0288559": "2026-10-28",
 "workday:intel:JR0288561": "2026-10-28",
@@ -55130,6 +55222,7 @@
 "workday:nvidia:JR2022437": "2026-10-19",
 "workday:nvidia:JR2022438-1": "2026-10-29",
 "workday:nvidia:JR2022452": "2026-10-20",
+"workday:nvidia:JR2022474": "2026-11-03",
 "workday:nvidia:JR2022479": "2026-10-31",
 "workday:nvidia:JR2022482": "2026-10-22",
 "workday:nvidia:JR2022528": "2026-10-31",
@@ -55657,6 +55750,7 @@
 "workday:nvidia:JR2027615": "2026-10-25",
 "workday:nvidia:JR2027617": "2026-10-19",
 "workday:nvidia:JR2027619": "2026-10-19",
+"workday:nvidia:JR2027624": "2026-11-03",
 "workday:nvidia:JR2027630": "2026-10-19",
 "workday:nvidia:JR2027632": "2026-10-23",
 "workday:nvidia:JR2027634": "2026-10-31",
@@ -56061,6 +56155,7 @@
 "workday:nvidia:JR2029190": "2026-11-02",
 "workday:nvidia:JR2029198": "2026-11-02",
 "workday:nvidia:JR2029216": "2026-11-02",
+"workday:nvidia:JR2029220-1": "2026-11-03",
 "workday:nvidia:JR2029223": "2026-11-02",
 "workday:nvidia:JR2029256": "2026-11-02",
 "workday:nvidia:JR2029271": "2026-11-02",
@@ -56090,6 +56185,7 @@
 "workday:nxp:R-10065037": "2026-10-29",
 "workday:nxp:R-10065402": "2026-10-29",
 "workday:nxp:R-10065557": "2026-10-29",
+"workday:nxp:R-10065611-1": "2026-11-03",
 "workday:nxp:R-10065869": "2026-10-29",
 "workday:nxp:R-10065892": "2026-11-02",
 "workday:nxp:R-10065930-1": "2026-10-29",
@@ -56160,6 +56256,7 @@
 "workday:nxp:R-10067625": "2026-10-29",
 "workday:nxp:R-10067626": "2026-11-02",
 "workday:nxp:R-10067632": "2026-11-02",
+"workday:nxp:R-10067664": "2026-11-03",
 "workday:nxp:R-10067668": "2026-11-02",
 "workday:nxp:R-10067670": "2026-11-02",
 "workday:priceline:R5671": "2026-10-29",
@@ -58829,6 +58926,7 @@
 "workday:wf:R-580998": "2026-10-29",
 "workday:wf:R-581000": "2026-10-29",
 "workday:wf:R-581001-1": "2026-10-29",
+"workday:wf:R-581059-1": "2026-11-03",
 "workday:wf:R-581084-1": "2026-10-29",
 "workday:wf:R-581089": "2026-10-30",
 "workday:wf:R-581093": "2026-10-30",
@@ -58959,6 +59057,7 @@
 "workday:wf:R-583119": "2026-10-29",
 "workday:wf:R-583123": "2026-10-29",
 "workday:wf:R-583138-1": "2026-10-29",
+"workday:wf:R-583143": "2026-11-03",
 "workday:wf:R-583145": "2026-10-29",
 "workday:wf:R-583161": "2026-10-30",
 "workday:wf:R-583167-1": "2026-10-30",
@@ -59787,6 +59886,7 @@
 "akamai technologies|software engineer": "2026-10-19",
 "akamai technologies|software engineer 1": "2026-10-21",
 "all lines technology|application developer": "2026-10-20",
+"amax|junior system engineer": "2026-11-03",
 "amazon|applied scientist north america sort centers amazon transportation services": "2026-10-29",
 "amazon|asic engineer early career": "2026-10-23",
 "amazon|asic engineer project leo": "2026-10-23",
@@ -60925,6 +61025,7 @@
 "openai|applied scientist product policy": "2026-10-21",
 "openai|data center controls engineer bms epms": "2026-11-02",
 "openai|data scientist cloud distribution growth": "2026-10-28",
+"openai|eda cloud developer infrastructure engineer": "2026-11-03",
 "openai|global leaves and accommodations analyst": "2026-10-23",
 "openai|intelligence systems analyst": "2026-10-28",
 "openai|it systems engineer": "2026-10-23",
@@ -61432,9 +61533,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 55,
+"calls": 64,
 "date": "2026-11-03",
-"usd": 0.00796
+"usd": 0.008774
 },
 "years": {
 "amazon:10583340": [
