@@ -3790,6 +3790,26 @@
 },
 "2026-10-28"
 ],
+"ashby:terranova:ab65c694-e140-4efe-b7f7-abca43e48ba7|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": null,
+"note": "Entry-level role with a focus on new grads",
+"us_ok": true
+},
+"2026-11-03"
+],
+"ashby:terranova:b6ce03c4-07b6-45e1-94e9-24b3ec17d942|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 0,
+"note": "Role targets new grads and offers hands-on experience.",
+"us_ok": true
+},
+"2026-11-03"
+],
 "ashby:thinkingmachines:14bef671-162c-4513-bfcf-e679e41e10a8|v3|73908d": [
 {
 "chance": 4,
@@ -9524,6 +9544,13 @@
 "senior": true
 },
 "2026-10-23"
+],
+"rescue:ashby:netgear:ea350523-b391-4228-9a54-99db22f38342": [
+{
+"note": "Requires significant experience and leadership skills.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:ashby:northwoodspace:ad3d19b2-114e-4096-810e-64f289c862db": [
 {
@@ -31430,6 +31457,16 @@
 },
 "2026-10-30"
 ],
+"workday:micron:JR116433|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads with relevant academic exposure",
+"us_ok": true
+},
+"2026-11-03"
+],
 "workday:micron:JR116705|v3|73908d": [
 {
 "chance": 7,
@@ -33105,7 +33142,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 213
+"typical": 212
 },
 "Airtable": {
 "alerted": false,
@@ -33785,7 +33822,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 433
+"typical": 434
 },
 "Doppel": {
 "alerted": false,
@@ -33970,7 +34007,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 208,
+"streak": 209,
 "typical": 4
 },
 "Firstup": {
@@ -34126,7 +34163,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 78
+"typical": 79
 },
 "HackerOne": {
 "alerted": false,
@@ -34321,7 +34358,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 599
+"typical": 598
 },
 "Iru (formerly Kandji)": {
 "alerted": false,
@@ -34571,7 +34608,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 116
+"typical": 113
 },
 "Mercor": {
 "alerted": false,
@@ -34601,7 +34638,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 147
+"typical": 151
 },
 "Microsoft": {
 "alerted": false,
@@ -34711,7 +34748,7 @@
 "NXP Semiconductors": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 37
 },
 "Nash": {
 "alerted": false,
@@ -35261,12 +35298,12 @@
 "Robinhood": {
 "alerted": false,
 "streak": 0,
-"typical": 162
+"typical": 161
 },
 "Roblox": {
 "alerted": false,
 "streak": 0,
-"typical": 265
+"typical": 266
 },
 "Rocket Lab": {
 "alerted": false,
@@ -35291,7 +35328,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 158
+"typical": 157
 },
 "Runpod": {
 "alerted": false,
@@ -35426,7 +35463,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3108
+"typical": 3107
 },
 "Simular": {
 "alerted": false,
@@ -35676,7 +35713,7 @@
 "Terranova": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 13
 },
 "Texas Instruments": {
 "alerted": false,
@@ -35766,7 +35803,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 134
+"typical": 133
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -37254,6 +37291,7 @@
 "ashby:netgear:4c6665ba-bafd-442e-a0d5-688117eae050": "2026-10-23",
 "ashby:netgear:4fcc49c9-9c82-4573-8b37-f08e94b699eb": "2026-10-20",
 "ashby:netgear:8940600f-60c5-4d01-a0b9-4e46287ce6ac": "2026-11-02",
+"ashby:netgear:ea350523-b391-4228-9a54-99db22f38342": "2026-11-03",
 "ashby:netgear:ff27a2d8-7268-4eb5-9011-38b9bcdbbc5a": "2026-10-20",
 "ashby:netgear:ff47de3c-5f0c-4edd-9bd4-79914af2b5ae": "2026-10-23",
 "ashby:nexxen:0240fa9a-f638-4870-9566-e3d0c812bbe1": "2026-10-28",
@@ -38282,6 +38320,9 @@
 "ashby:tennr:10b3da1d-ddcb-4609-8567-9b06d6ab6c9b": "2026-10-30",
 "ashby:tennr:23a3b01f-a169-4608-98aa-12dc98a77221": "2026-10-28",
 "ashby:tennr:8cfdd6c5-081e-4c10-9b43-effdc91cbda6": "2026-10-28",
+"ashby:terranova:4f0e795a-d1d1-4b74-bd1b-568c223dc9c0": "2026-11-03",
+"ashby:terranova:ab65c694-e140-4efe-b7f7-abca43e48ba7": "2026-11-03",
+"ashby:terranova:b6ce03c4-07b6-45e1-94e9-24b3ec17d942": "2026-11-03",
 "ashby:thinkingmachines:14bef671-162c-4513-bfcf-e679e41e10a8": "2026-10-27",
 "ashby:thinkingmachines:3d5af57e-a67d-40be-9a81-166474d2f460": "2026-10-20",
 "ashby:thinkingmachines:5ddc26f7-f4f3-40c0-aa66-f0f04d51a218": "2026-10-29",
@@ -41532,6 +41573,7 @@
 "greenhouse:doordashusa:8346902": "2026-11-02",
 "greenhouse:doordashusa:8346914": "2026-11-02",
 "greenhouse:doordashusa:8346926": "2026-11-02",
+"greenhouse:doordashusa:8348385": "2026-11-03",
 "greenhouse:doppel:4457597009": "2026-10-28",
 "greenhouse:doppel:4460100009": "2026-10-28",
 "greenhouse:doppel:4462547009": "2026-10-28",
@@ -43157,6 +43199,7 @@
 "greenhouse:roblox:8317585": "2026-10-26",
 "greenhouse:roblox:8318426": "2026-10-27",
 "greenhouse:roblox:8323686": "2026-10-28",
+"greenhouse:roblox:8327882": "2026-11-03",
 "greenhouse:roblox:8328261": "2026-10-28",
 "greenhouse:roblox:8330559": "2026-10-28",
 "greenhouse:roblox:8338380": "2026-10-31",
@@ -44426,6 +44469,7 @@
 "jibe:careers.amd.com:94255": "2026-10-29",
 "jibe:careers.amd.com:94260": "2026-10-28",
 "jibe:careers.amd.com:94263": "2026-10-29",
+"jibe:careers.amd.com:94265": "2026-11-03",
 "jibe:careers.amd.com:94266": "2026-10-20",
 "jibe:careers.amd.com:94267": "2026-11-03",
 "jibe:careers.amd.com:94273": "2026-10-20",
@@ -44526,6 +44570,7 @@
 "jibe:careers.amd.com:96301": "2026-10-30",
 "jibe:careers.amd.com:96904": "2026-11-02",
 "jibe:careers.amd.com:96905": "2026-11-02",
+"jibe:careers.docusign.com:28780": "2026-11-03",
 "jibe:careers.docusign.com:29549": "2026-10-29",
 "jibe:careers.docusign.com:29590": "2026-10-26",
 "jibe:careers.docusign.com:29784": "2026-10-26",
@@ -53762,6 +53807,7 @@
 "workday:micron:JR106736": "2026-10-20",
 "workday:micron:JR106737": "2026-10-20",
 "workday:micron:JR106754": "2026-11-01",
+"workday:micron:JR106794": "2026-11-03",
 "workday:micron:JR106803": "2026-10-22",
 "workday:micron:JR106852-1": "2026-10-20",
 "workday:micron:JR106860": "2026-10-28",
@@ -54549,6 +54595,7 @@
 "workday:micron:JR115983-1": "2026-10-26",
 "workday:micron:JR115984": "2026-10-27",
 "workday:micron:JR115985": "2026-10-28",
+"workday:micron:JR115999": "2026-11-03",
 "workday:micron:JR116010": "2026-10-26",
 "workday:micron:JR116013": "2026-10-27",
 "workday:micron:JR116017": "2026-10-26",
@@ -54601,6 +54648,7 @@
 "workday:micron:JR116404": "2026-10-29",
 "workday:micron:JR116418": "2026-10-29",
 "workday:micron:JR116429": "2026-11-01",
+"workday:micron:JR116433": "2026-11-03",
 "workday:micron:JR116436": "2026-10-29",
 "workday:micron:JR116442": "2026-11-01",
 "workday:micron:JR116470": "2026-10-29",
@@ -55290,6 +55338,7 @@
 "workday:nvidia:JR2020416": "2026-10-31",
 "workday:nvidia:JR2020424": "2026-10-31",
 "workday:nvidia:JR2020429-1": "2026-10-28",
+"workday:nvidia:JR2020431": "2026-11-03",
 "workday:nvidia:JR2020452": "2026-10-31",
 "workday:nvidia:JR2020483-1": "2026-10-31",
 "workday:nvidia:JR2020546": "2026-10-31",
@@ -56399,6 +56448,7 @@
 "workday:nvidia:JR2029337": "2026-11-02",
 "workday:nxp:R-10061214": "2026-10-29",
 "workday:nxp:R-10061457": "2026-10-29",
+"workday:nxp:R-10061806": "2026-11-03",
 "workday:nxp:R-10061875-1": "2026-10-29",
 "workday:nxp:R-10062290-1": "2026-10-29",
 "workday:nxp:R-10062367": "2026-10-29",
@@ -57734,6 +57784,7 @@
 "workday:salesforce:JR365863-1": "2026-10-28",
 "workday:salesforce:JR365865": "2026-10-27",
 "workday:salesforce:JR365866": "2026-11-02",
+"workday:salesforce:JR365868": "2026-11-03",
 "workday:salesforce:JR365872-1": "2026-10-27",
 "workday:salesforce:JR365874": "2026-10-29",
 "workday:salesforce:JR365875": "2026-10-27",
@@ -61038,6 +61089,7 @@
 "micron|new college grad dry etch process engineer": "2026-10-20",
 "micron|new college grad engineer asic digital design": "2026-10-20",
 "micron|new college grad engineer dram product development engineer": "2026-10-22",
+"micron|new college grad engineer edge systems architecture": "2026-11-03",
 "micron|new college grad equipment engineer": "2026-10-20",
 "micron|new college grad financial analyst ii": "2026-10-22",
 "micron|new college grad id1 ate process engineer wet": "2026-10-21",
@@ -61650,6 +61702,8 @@
 "tekion|customer support engineer i": "2026-10-28",
 "teledyne|component engineer": "2026-11-03",
 "tenstorrent|forward deployed engineer": "2026-10-27",
+"terranova|ai engineer": "2026-11-03",
+"terranova|full stack web developer": "2026-11-03",
 "tesla|data collection coordinator optimus": "2026-10-26",
 "tesla|data collection operator optimus": "2026-10-29",
 "texas a m university system|programmer 1": "2026-10-20",
@@ -61786,9 +61840,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 82,
+"calls": 86,
 "date": "2026-11-03",
-"usd": 0.010524
+"usd": 0.011233
 },
 "years": {
 "amazon:10583340": [
