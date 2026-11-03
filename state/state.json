@@ -9637,6 +9637,13 @@
 },
 "2026-10-20"
 ],
+"rescue:ashby:openai:bfecbfa0-6573-4c00-8215-50e271f411bc": [
+{
+"note": "Requires strong accounting fundamentals and experience.",
+"senior": true
+},
+"2026-11-03"
+],
 "rescue:ashby:openai:c8eda1e9-10f9-4fc8-b88a-042ea6751d5b": [
 {
 "note": "Requires significant technical expertise and leadership.",
@@ -15215,6 +15222,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:jibe:careers.amd.com:93579": [
+{
+"note": "Requires extensive experience in software architecture.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:jibe:careers.amd.com:93597": [
 {
@@ -21194,6 +21208,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:cadence:R57129": [
+{
+"note": "Requires 5+ years of experience.",
+"senior": true
+},
+"2026-11-03"
+],
 "rescue:workday:capitalone:R1000665": [
 {
 "note": "Lead implies higher experience required.",
@@ -21886,6 +21907,13 @@
 "senior": true
 },
 "2026-10-26"
+],
+"rescue:workday:hp:3168287-1": [
+{
+"note": "Requires significant experience in manufacturing engineering.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:workday:hp:3168465-1": [
 {
@@ -23524,6 +23552,13 @@
 "senior": true
 },
 "2026-10-29"
+],
+"rescue:workday:micron:JR100105-1": [
+{
+"note": "Requires extensive experience in semiconductor technology.",
+"senior": true
+},
+"2026-11-03"
 ],
 "rescue:workday:micron:JR100591": [
 {
@@ -30731,6 +30766,16 @@
 },
 "2026-10-27"
 ],
+"workday:micron:JR101228|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of specific semiconductor experience.",
+"us_ok": true
+},
+"2026-11-03"
+],
 "workday:micron:JR101714|v3|73908d": [
 {
 "chance": 7,
@@ -33256,7 +33301,7 @@
 "Backblaze": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 35
 },
 "Backflip AI": {
 "alerted": false,
@@ -33391,7 +33436,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 35
+"typical": 36
 },
 "Calm": {
 "alerted": false,
@@ -33911,7 +33956,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 204,
+"streak": 205,
 "typical": 4
 },
 "Firstup": {
@@ -34062,7 +34107,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 82
+"typical": 83
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -34542,7 +34587,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 143
+"typical": 147
 },
 "Microsoft": {
 "alerted": false,
@@ -34802,7 +34847,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 804
+"typical": 805
 },
 "OpenEvidence": {
 "alerted": false,
@@ -34887,7 +34932,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1276
+"typical": 1271
 },
 "Panasonic North America": {
 "alerted": false,
@@ -35002,7 +35047,7 @@
 "Poshmark": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 25
 },
 "Post": {
 "alerted": false,
@@ -35232,7 +35277,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 157
+"typical": 158
 },
 "Runpod": {
 "alerted": false,
@@ -35892,7 +35937,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 46
 },
 "World Labs": {
 "alerted": false,
@@ -35952,7 +35997,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 359
+"typical": 360
 },
 "Zuora": {
 "alerted": false,
@@ -37386,6 +37431,7 @@
 "ashby:openai:bc019c9d-6305-4700-9175-8035636177b3": "2026-11-02",
 "ashby:openai:bc58f2d0-9b24-4205-a799-5a5d18bf64ee": "2026-11-02",
 "ashby:openai:bc80a3ae-1e69-4a8d-8366-77fcdd56ff61": "2026-10-19",
+"ashby:openai:bfecbfa0-6573-4c00-8215-50e271f411bc": "2026-11-03",
 "ashby:openai:c1241d53-0948-4f27-82fb-18192830dbf1": "2026-10-27",
 "ashby:openai:c12ea9bc-8590-4913-a213-1977296fb3db": "2026-10-28",
 "ashby:openai:c2921990-3fff-469a-a117-f6a8f2a3d50c": "2026-10-24",
@@ -37849,6 +37895,7 @@
 "ashby:shieldai:b5a7b7cd-f553-42ad-8f97-cafb3e74a8b5": "2026-10-28",
 "ashby:shieldai:b5b01871-fe49-4c74-b6a4-e01a5a930654": "2026-10-29",
 "ashby:shieldai:b6350770-fe02-4fe1-98f6-8c542e099523": "2026-10-30",
+"ashby:shieldai:b7cf3985-3419-449e-a77a-f27d2cc9e1b6": "2026-11-03",
 "ashby:shieldai:b7faa95e-b7bc-4d69-b981-f05d5c828381": "2026-10-30",
 "ashby:shieldai:b877aa67-019b-4001-8ae7-cabfba6be71c": "2026-10-29",
 "ashby:shieldai:b88c6eb6-1ec4-45e6-b4a6-10b07404b1fb": "2026-10-30",
@@ -39773,6 +39820,7 @@
 "eightfold:microsoft.com:1970393557045309": "2026-10-23",
 "eightfold:microsoft.com:1970393557045326": "2026-10-29",
 "eightfold:microsoft.com:1970393557045369": "2026-10-26",
+"eightfold:microsoft.com:1970393557045373": "2026-11-03",
 "eightfold:microsoft.com:1970393557045376": "2026-10-23",
 "eightfold:microsoft.com:1970393557045389": "2026-10-29",
 "eightfold:microsoft.com:1970393557045393": "2026-10-28",
@@ -44252,6 +44300,7 @@
 "jibe:careers.amd.com:93567": "2026-10-20",
 "jibe:careers.amd.com:93569": "2026-10-29",
 "jibe:careers.amd.com:93574": "2026-10-20",
+"jibe:careers.amd.com:93579": "2026-11-03",
 "jibe:careers.amd.com:93581": "2026-10-21",
 "jibe:careers.amd.com:93583": "2026-10-21",
 "jibe:careers.amd.com:93585": "2026-10-22",
@@ -46443,6 +46492,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349452": "2026-11-02",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349454": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349455": "2026-11-03",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349458": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349460": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349461": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:291349": "2026-10-29",
@@ -49999,6 +50049,7 @@
 "talentbrew:jobs.paloaltonetworks.com:102774303184": "2026-11-02",
 "talentbrew:jobs.paloaltonetworks.com:102781930736": "2026-11-02",
 "talentbrew:jobs.paloaltonetworks.com:102787447312": "2026-11-03",
+"talentbrew:jobs.paloaltonetworks.com:102794391520": "2026-11-03",
 "talentbrew:jobs.paloaltonetworks.com:91053594240": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:91238619968": "2026-10-29",
 "talentbrew:jobs.paloaltonetworks.com:96174866752": "2026-10-28",
@@ -50318,6 +50369,7 @@
 "workday:cadence:R57099-2": "2026-11-02",
 "workday:cadence:R57117": "2026-11-02",
 "workday:cadence:R57125": "2026-10-30",
+"workday:cadence:R57129": "2026-11-03",
 "workday:capitalone:R1000005-1": "2026-10-29",
 "workday:capitalone:R1000014-1": "2026-11-02",
 "workday:capitalone:R1000070-1": "2026-10-29",
@@ -51131,6 +51183,7 @@
 "workday:hp:3168159-1": "2026-10-22",
 "workday:hp:3168167-1": "2026-10-21",
 "workday:hp:3168182": "2026-10-20",
+"workday:hp:3168287-1": "2026-11-03",
 "workday:hp:3168321-1": "2026-11-02",
 "workday:hp:3168357-1": "2026-10-22",
 "workday:hp:3168386-2": "2026-10-26",
@@ -53495,6 +53548,7 @@
 "workday:microchiphr:R4602-26": "2026-10-30",
 "workday:microchiphr:R4607-26": "2026-11-02",
 "workday:micron:JR100037": "2026-10-23",
+"workday:micron:JR100105-1": "2026-11-03",
 "workday:micron:JR100276": "2026-10-26",
 "workday:micron:JR100338": "2026-10-23",
 "workday:micron:JR100351": "2026-10-23",
@@ -53539,6 +53593,7 @@
 "workday:micron:JR101121": "2026-10-23",
 "workday:micron:JR101124": "2026-10-23",
 "workday:micron:JR101223-1": "2026-10-29",
+"workday:micron:JR101228": "2026-11-03",
 "workday:micron:JR101256": "2026-10-23",
 "workday:micron:JR101267-1": "2026-10-23",
 "workday:micron:JR101714": "2026-10-26",
@@ -54231,6 +54286,7 @@
 "workday:micron:JR114852": "2026-10-22",
 "workday:micron:JR114855": "2026-10-26",
 "workday:micron:JR114856": "2026-10-20",
+"workday:micron:JR114880-1": "2026-11-03",
 "workday:micron:JR114891-1": "2026-10-27",
 "workday:micron:JR114893": "2026-10-23",
 "workday:micron:JR114907": "2026-10-27",
@@ -56296,6 +56352,7 @@
 "workday:nvidia:JR2029216": "2026-11-02",
 "workday:nvidia:JR2029220-1": "2026-11-03",
 "workday:nvidia:JR2029223": "2026-11-02",
+"workday:nvidia:JR2029239-1": "2026-11-03",
 "workday:nvidia:JR2029256": "2026-11-02",
 "workday:nvidia:JR2029271": "2026-11-02",
 "workday:nvidia:JR2029275": "2026-11-02",
@@ -57775,6 +57832,7 @@
 "workday:salesforce:JR366682": "2026-11-02",
 "workday:salesforce:JR366697": "2026-11-01",
 "workday:salesforce:JR366700": "2026-11-02",
+"workday:salesforce:JR366703": "2026-11-03",
 "workday:salesforce:JR366724-1": "2026-11-02",
 "workday:salesforce:JR366742": "2026-11-02",
 "workday:salesforce:JR366761": "2026-11-02",
@@ -59849,6 +59907,7 @@
 "workday:workday:JR-0110887-1": "2026-10-28",
 "workday:workday:JR-0110888": "2026-10-29",
 "workday:workday:JR-0110897": "2026-11-02",
+"workday:workday:JR-0110905-1": "2026-11-03",
 "workday:workday:JR-0110908": "2026-10-29",
 "workday:workday:JR-0110918": "2026-11-02",
 "workday:workday:JR-0110941": "2026-10-29",
@@ -60962,6 +61021,7 @@
 "micron|product quality assurance pqa engineer": "2026-10-26",
 "micron|product quality engineer": "2026-10-29",
 "micron|product yield enhancement development failure analysis engineer high bandwidth memory": "2026-10-21",
+"micron|product yield enhancement pye engineer": "2026-11-03",
 "micron|ram hardware equipment engineer": "2026-11-02",
 "micron|ram rda process engineer": "2026-10-28",
 "micron|semiconductor equipment engineer equipment owner": "2026-10-20",
@@ -61681,9 +61741,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 74,
+"calls": 80,
 "date": "2026-11-03",
-"usd": 0.00979
+"usd": 0.010378
 },
 "years": {
 "amazon:10583340": [
