@@ -18296,6 +18296,13 @@
 },
 "2026-10-20"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:345256": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-04"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:345399": [
 {
 "note": "Principal roles typically require extensive experience.",
@@ -28523,6 +28530,13 @@
 },
 "2026-11-01"
 ],
+"rescue:workday:nvidia:JR2028913": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-04"
+],
 "rescue:workday:nvidia:JR2029009": [
 {
 "note": "Requires significant experience in technical leadership.",
@@ -32835,6 +32849,16 @@
 },
 "2026-10-23"
 ],
+"workday:intel:JR0288398|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads with relevant degree and skills.",
+"us_ok": true
+},
+"2026-11-04"
+],
 "workday:intel:JR0288400|v3|73908d": [
 {
 "chance": 6,
@@ -36395,7 +36419,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 307
+"typical": 306
 },
 "Ai2": {
 "alerted": false,
@@ -36475,7 +36499,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2562
+"typical": 2563
 },
 "AngelList": {
 "alerted": false,
@@ -36520,7 +36544,7 @@
 "Applied Materials": {
 "alerted": false,
 "streak": 0,
-"typical": 80
+"typical": 90
 },
 "AppsFlyer": {
 "alerted": false,
@@ -36910,7 +36934,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 274
+"typical": 275
 },
 "Color Health": {
 "alerted": false,
@@ -37020,7 +37044,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 916
+"typical": 917
 },
 "Dataiku": {
 "alerted": false,
@@ -37090,7 +37114,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 434
+"typical": 435
 },
 "Doppel": {
 "alerted": false,
@@ -37275,7 +37299,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 255,
+"streak": 256,
 "typical": 4
 },
 "Firstup": {
@@ -37616,7 +37640,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 101
 },
 "Intro": {
 "alerted": false,
@@ -37711,7 +37735,7 @@
 "Kong": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 100
 },
 "Kraken": {
 "alerted": false,
@@ -38011,7 +38035,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 174
+"typical": 176
 },
 "NXP Semiconductors": {
 "alerted": false,
@@ -38926,7 +38950,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 668
+"typical": 669
 },
 "T-Mobile": {
 "alerted": false,
@@ -39256,7 +39280,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 49
+"typical": 51
 },
 "World Labs": {
 "alerted": false,
@@ -39361,7 +39385,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 }
 },
 "seen": {
@@ -42241,6 +42265,7 @@
 "eightfold:appliedmaterials.com:790319210612": "2026-10-28",
 "eightfold:appliedmaterials.com:790319211140": "2026-10-28",
 "eightfold:appliedmaterials.com:790319211672": "2026-10-28",
+"eightfold:appliedmaterials.com:790319212166": "2026-11-04",
 "eightfold:appliedmaterials.com:790319212724": "2026-10-30",
 "eightfold:appliedmaterials.com:790319213813": "2026-10-29",
 "eightfold:appliedmaterials.com:790319214232": "2026-10-29",
@@ -45069,6 +45094,7 @@
 "greenhouse:coinbase:8350362": "2026-11-03",
 "greenhouse:coinbase:8350367": "2026-11-04",
 "greenhouse:coinbase:8350371": "2026-11-04",
+"greenhouse:coinbase:8350374": "2026-11-04",
 "greenhouse:coinbase:8351163": "2026-11-03",
 "greenhouse:coinbase:8351419": "2026-11-04",
 "greenhouse:contentful:8301092": "2026-10-20",
@@ -45302,6 +45328,7 @@
 "greenhouse:databricks:8922730002": "2026-10-30",
 "greenhouse:databricks:8922941002": "2026-11-01",
 "greenhouse:databricks:8922943002": "2026-11-02",
+"greenhouse:databricks:8922945002": "2026-11-04",
 "greenhouse:databricks:8922951002": "2026-11-02",
 "greenhouse:databricks:8923269002": "2026-10-29",
 "greenhouse:databricks:8923831002": "2026-10-29",
@@ -45392,6 +45419,7 @@
 "greenhouse:doordashusa:8348385": "2026-11-03",
 "greenhouse:doordashusa:8348911": "2026-11-03",
 "greenhouse:doordashusa:8349525": "2026-11-03",
+"greenhouse:doordashusa:8349894": "2026-11-04",
 "greenhouse:doordashusa:8350225": "2026-11-03",
 "greenhouse:doordashusa:8350324": "2026-11-03",
 "greenhouse:doordashusa:8350408": "2026-11-03",
@@ -50069,6 +50097,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345182": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345205": "2026-11-02",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345207": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:345256": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345274": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345282": "2026-10-29",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345283": "2026-10-20",
@@ -50926,7 +50955,9 @@
 "oracle_hcm:enterpriseplatform.dell.com:295656": "2026-10-31",
 "oracle_hcm:enterpriseplatform.dell.com:295716": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:296040": "2026-11-02",
+"oracle_hcm:enterpriseplatform.dell.com:296054": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:296181": "2026-11-02",
+"oracle_hcm:enterpriseplatform.dell.com:296235": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:296324": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:296422": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:296430": "2026-11-03",
@@ -51065,6 +51096,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:302114": "2026-11-01",
 "oracle_hcm:enterpriseplatform.dell.com:302117": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:302139": "2026-11-02",
+"oracle_hcm:enterpriseplatform.dell.com:302216": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:D11402": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:D11795": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:D12362": "2026-10-29",
@@ -53437,6 +53469,7 @@
 "talentbrew:careers.synopsys.com:102828337648": "2026-11-04",
 "talentbrew:careers.synopsys.com:102828337680": "2026-11-04",
 "talentbrew:careers.synopsys.com:102828337728": "2026-11-04",
+"talentbrew:careers.synopsys.com:102835056976": "2026-11-04",
 "talentbrew:careers.synopsys.com:87085299616": "2026-10-20",
 "talentbrew:careers.synopsys.com:87868266560": "2026-10-20",
 "talentbrew:careers.synopsys.com:88126393648": "2026-10-20",
@@ -57055,6 +57088,7 @@
 "workday:intel:JR0288394": "2026-10-27",
 "workday:intel:JR0288395": "2026-10-22",
 "workday:intel:JR0288397": "2026-10-23",
+"workday:intel:JR0288398": "2026-11-04",
 "workday:intel:JR0288400": "2026-10-23",
 "workday:intel:JR0288401": "2026-10-22",
 "workday:intel:JR0288402": "2026-10-22",
@@ -57200,6 +57234,7 @@
 "workday:intel:JR0288707": "2026-11-02",
 "workday:intel:JR0288710": "2026-11-02",
 "workday:intel:JR0288712": "2026-11-02",
+"workday:intel:JR0288714": "2026-11-04",
 "workday:intel:JR0288717": "2026-10-31",
 "workday:intel:JR0288718": "2026-11-02",
 "workday:intel:JR0288721-1": "2026-11-02",
@@ -61368,6 +61403,7 @@
 "workday:nvidia:JR2028897": "2026-11-02",
 "workday:nvidia:JR2028899": "2026-11-01",
 "workday:nvidia:JR2028905": "2026-10-29",
+"workday:nvidia:JR2028913": "2026-11-04",
 "workday:nvidia:JR2028914": "2026-11-03",
 "workday:nvidia:JR2028915-1": "2026-10-27",
 "workday:nvidia:JR2028921": "2026-11-03",
@@ -65475,6 +65511,7 @@
 "workday:workday:JR-0111324": "2026-11-02",
 "workday:workday:JR-0111348": "2026-11-03",
 "workday:workday:JR-0111387": "2026-11-04",
+"workday:workday:JR-0111388": "2026-11-04",
 "workday:workday:JR-IC-000063": "2026-11-01",
 "workday:xboxgaming:R027864-1": "2026-10-29",
 "workday:xboxgaming:R027922-1": "2026-10-30",
@@ -66358,6 +66395,7 @@
 "intel|packaging module development engineer": "2026-10-21",
 "intel|packaging module equipment development engineer": "2026-10-20",
 "intel|packaging research and development engineer": "2026-10-23",
+"intel|physical design clocking engineer": "2026-11-04",
 "intel|process integration development engineer": "2026-10-21",
 "intel|process integration development engineer defect metrology": "2026-10-28",
 "intel|product marketing engineer performance marketing": "2026-11-02",
@@ -67410,9 +67448,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 52,
+"calls": 55,
 "date": "2026-11-04",
-"usd": 0.00732
+"usd": 0.007687
 },
 "years": {
 "amazon:10583340": [
