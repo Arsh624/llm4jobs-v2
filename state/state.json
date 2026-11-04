@@ -14393,6 +14393,13 @@
 },
 "2026-10-21"
 ],
+"rescue:greenhouse:anthropic:5461252008": [
+{
+"note": "Requires deep technical expertise and customer-facing skills.",
+"senior": true
+},
+"2026-11-04"
+],
 "rescue:greenhouse:anthropic:5461873008": [
 {
 "note": "Requires significant experience in enterprise security.",
@@ -14480,6 +14487,13 @@
 "rescue:greenhouse:anthropic:5472201008": [
 {
 "note": "Requires significant experience in software engineering.",
+"senior": true
+},
+"2026-11-04"
+],
+"rescue:greenhouse:anthropic:5472677008": [
+{
+"note": "Requires significant technical expertise and experience.",
 "senior": true
 },
 "2026-11-04"
@@ -36839,7 +36853,7 @@
 "Amplitude": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 49
 },
 "Analog Devices": {
 "alerted": false,
@@ -36859,7 +36873,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2567
+"typical": 2566
 },
 "AngelList": {
 "alerted": false,
@@ -36874,7 +36888,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 680
+"typical": 682
 },
 "Anyscale": {
 "alerted": false,
@@ -37089,7 +37103,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 136
+"typical": 134
 },
 "Brain Co": {
 "alerted": false,
@@ -37199,7 +37213,7 @@
 "ChargePoint": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 39
 },
 "Chariot": {
 "alerted": false,
@@ -37294,7 +37308,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 275
+"typical": 276
 },
 "Color Health": {
 "alerted": false,
@@ -37409,7 +37423,7 @@
 "Dataiku": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "Decagon": {
 "alerted": false,
@@ -37539,7 +37553,7 @@
 "ElevenLabs": {
 "alerted": false,
 "streak": 0,
-"typical": 147
+"typical": 146
 },
 "EliseAI": {
 "alerted": false,
@@ -37659,7 +37673,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 269,
+"streak": 270,
 "typical": 4
 },
 "Firstup": {
@@ -37815,7 +37829,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 123
+"typical": 126
 },
 "HackerOne": {
 "alerted": false,
@@ -37915,7 +37929,7 @@
 "Hudson River Trading": {
 "alerted": false,
 "streak": 0,
-"typical": 84
+"typical": 83
 },
 "Hume AI": {
 "alerted": false,
@@ -38235,7 +38249,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 65
+"typical": 64
 },
 "MatX": {
 "alerted": false,
@@ -38890,7 +38904,7 @@
 "Reflection AI": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 44
 },
 "Renesas": {
 "alerted": false,
@@ -38935,7 +38949,7 @@
 "Riot Games": {
 "alerted": false,
 "streak": 0,
-"typical": 184
+"typical": 185
 },
 "Ripple Labs": {
 "alerted": false,
@@ -38970,7 +38984,7 @@
 "Roku": {
 "alerted": false,
 "streak": 0,
-"typical": 87
+"typical": 89
 },
 "Roofstock": {
 "alerted": false,
@@ -39005,7 +39019,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 218
+"typical": 225
 },
 "Salient": {
 "alerted": false,
@@ -39115,7 +39129,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3100
+"typical": 3099
 },
 "Simular": {
 "alerted": false,
@@ -39260,7 +39274,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 752
+"typical": 754
 },
 "Stuut": {
 "alerted": false,
@@ -39275,7 +39289,7 @@
 "Sumo Logic": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 17
 },
 "Suno": {
 "alerted": false,
@@ -39630,7 +39644,7 @@
 "WorkBoard": {
 "alerted": false,
 "streak": 0,
-"typical": 5
+"typical": 4
 },
 "Workato": {
 "alerted": false,
@@ -39700,7 +39714,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 374
 },
 "Zuora": {
 "alerted": false,
@@ -44900,6 +44914,7 @@
 "greenhouse:anthropic:5460837008": "2026-10-23",
 "greenhouse:anthropic:5460956008": "2026-10-23",
 "greenhouse:anthropic:5461024008": "2026-10-29",
+"greenhouse:anthropic:5461252008": "2026-11-04",
 "greenhouse:anthropic:5461534008": "2026-10-22",
 "greenhouse:anthropic:5461663008": "2026-10-22",
 "greenhouse:anthropic:5461863008": "2026-10-26",
@@ -44954,6 +44969,7 @@
 "greenhouse:anthropic:5471721008": "2026-11-04",
 "greenhouse:anthropic:5471925008": "2026-11-04",
 "greenhouse:anthropic:5472201008": "2026-11-04",
+"greenhouse:anthropic:5472677008": "2026-11-04",
 "greenhouse:applovin:4723007006": "2026-10-20",
 "greenhouse:applovin:4723008006": "2026-10-20",
 "greenhouse:applovin:4723009006": "2026-10-20",
@@ -45468,6 +45484,7 @@
 "greenhouse:coinbase:8337061": "2026-11-02",
 "greenhouse:coinbase:8337064": "2026-11-02",
 "greenhouse:coinbase:8337144": "2026-10-30",
+"greenhouse:coinbase:8337149": "2026-11-04",
 "greenhouse:coinbase:8337203": "2026-10-30",
 "greenhouse:coinbase:8337206": "2026-10-30",
 "greenhouse:coinbase:8337209": "2026-10-30",
@@ -45741,6 +45758,7 @@
 "greenhouse:dataiku:6236322004": "2026-10-27",
 "greenhouse:dataiku:6237419004": "2026-10-29",
 "greenhouse:dataiku:6239283004": "2026-10-30",
+"greenhouse:dataiku:6242642004": "2026-11-04",
 "greenhouse:discord:8847080002": "2026-10-23",
 "greenhouse:discord:8904389002": "2026-10-21",
 "greenhouse:discord:8907804002": "2026-11-04",
@@ -47529,6 +47547,7 @@
 "greenhouse:riotgames:8268871": "2026-10-29",
 "greenhouse:riotgames:8275356": "2026-10-30",
 "greenhouse:riotgames:8279501": "2026-10-29",
+"greenhouse:riotgames:8287460": "2026-11-04",
 "greenhouse:riotgames:8300083": "2026-10-29",
 "greenhouse:riotgames:8302342": "2026-10-29",
 "greenhouse:riotgames:8302365": "2026-10-29",
@@ -47855,6 +47874,8 @@
 "greenhouse:roku:8330831": "2026-11-02",
 "greenhouse:roku:8345947": "2026-11-04",
 "greenhouse:roku:8345954": "2026-11-04",
+"greenhouse:roku:8345963": "2026-11-04",
+"greenhouse:roku:8345967": "2026-11-04",
 "greenhouse:roku:8350140": "2026-11-04",
 "greenhouse:roku:8351366": "2026-11-04",
 "greenhouse:roofstock:8901148002": "2026-10-20",
@@ -48301,6 +48322,7 @@
 "greenhouse:stripe:8326189": "2026-10-29",
 "greenhouse:stripe:8326191": "2026-10-29",
 "greenhouse:stripe:8326577": "2026-10-29",
+"greenhouse:stripe:8326579": "2026-11-04",
 "greenhouse:stripe:8327254": "2026-10-30",
 "greenhouse:stripe:8328118": "2026-10-30",
 "greenhouse:stripe:8328323": "2026-11-03",
@@ -48351,6 +48373,9 @@
 "greenhouse:sumologic:8349107": "2026-11-03",
 "greenhouse:sumologic:8350414": "2026-11-03",
 "greenhouse:sumologic:8350427": "2026-11-03",
+"greenhouse:sumologic:8352350": "2026-11-04",
+"greenhouse:sumologic:8352364": "2026-11-04",
+"greenhouse:sumologic:8352378": "2026-11-04",
 "greenhouse:synack:8302514": "2026-10-21",
 "greenhouse:tanium:8232146": "2026-10-21",
 "greenhouse:tanium:8259503": "2026-10-20",
@@ -48822,6 +48847,7 @@
 "greenhouse:zscaler:5279376007": "2026-10-29",
 "greenhouse:zscaler:5279380007": "2026-10-29",
 "greenhouse:zscaler:5279598007": "2026-11-03",
+"greenhouse:zscaler:5280084007": "2026-11-04",
 "greenhouse:zscaler:5281159007": "2026-11-03",
 "greenhouse:zscaler:5282931007": "2026-11-04",
 "greenhouse:zscaler:5282933007": "2026-11-04",
@@ -49880,6 +49906,7 @@
 "jibe:jobs.booking.com:30570": "2026-10-29",
 "jibe:jobs.booking.com:30571": "2026-11-03",
 "jibe:jobs.booking.com:30572": "2026-10-29",
+"jibe:jobs.booking.com:30573": "2026-11-04",
 "jibe:jobs.booking.com:30579": "2026-10-29",
 "jibe:jobs.booking.com:30583": "2026-10-29",
 "jibe:jobs.booking.com:30590": "2026-10-30",
@@ -49892,6 +49919,7 @@
 "jibe:jobs.booking.com:30658": "2026-11-03",
 "jibe:jobs.booking.com:30663": "2026-11-04",
 "jibe:jobs.booking.com:30665": "2026-11-03",
+"jibe:jobs.booking.com:30677": "2026-11-04",
 "lever:acceldata:5c7ab303-e504-4d13-9bb0-f90181dbc5cb": "2026-10-29",
 "lever:acceldata:c1d6cc81-a14e-4663-aac3-2ac21e8d2172": "2026-10-29",
 "lever:agiloft:06e4a583-b6de-4427-810d-e87eea09a257": "2026-10-23",
@@ -56973,6 +57001,7 @@
 "workday:hpe:1212243-6": "2026-10-29",
 "workday:hpe:1212404-6": "2026-10-29",
 "workday:hpe:1212406-2": "2026-11-02",
+"workday:hpe:1212475-2": "2026-11-04",
 "workday:hpe:1212920": "2026-10-29",
 "workday:hpe:1212922-2": "2026-10-29",
 "workday:hpe:1212927-3": "2026-10-29",
@@ -57216,6 +57245,7 @@
 "workday:hpe:1216949-1": "2026-10-29",
 "workday:hpe:1216950": "2026-10-29",
 "workday:hpe:1216956": "2026-10-29",
+"workday:hpe:1216969-3": "2026-11-04",
 "workday:hpe:1216994-2": "2026-10-29",
 "workday:hpe:1217002-2": "2026-10-29",
 "workday:hpe:1217003-3": "2026-10-29",
@@ -57302,6 +57332,7 @@
 "workday:hpe:1218157-2": "2026-11-03",
 "workday:hpe:1218158-2": "2026-11-03",
 "workday:hpe:1218166": "2026-10-30",
+"workday:hpe:1218172-2": "2026-11-04",
 "workday:hpe:1218176-1": "2026-10-29",
 "workday:hpe:1218185": "2026-11-03",
 "workday:hpe:1218186-2": "2026-11-03",
@@ -62914,6 +62945,7 @@
 "workday:salesforce:JR361180": "2026-11-01",
 "workday:salesforce:JR361182": "2026-10-27",
 "workday:salesforce:JR361210": "2026-10-21",
+"workday:salesforce:JR361222": "2026-11-04",
 "workday:salesforce:JR361238": "2026-10-21",
 "workday:salesforce:JR361288-1": "2026-10-20",
 "workday:salesforce:JR361292-1": "2026-10-30",
@@ -63624,6 +63656,7 @@
 "workday:salesforce:JR366705": "2026-11-03",
 "workday:salesforce:JR366724-1": "2026-11-02",
 "workday:salesforce:JR366726": "2026-11-03",
+"workday:salesforce:JR366736": "2026-11-04",
 "workday:salesforce:JR366742": "2026-11-02",
 "workday:salesforce:JR366761": "2026-11-02",
 "workday:salesforce:JR366778": "2026-11-03",
@@ -68073,9 +68106,9 @@
 "zoox|data scientist fleet orchestration algorithms": "2026-10-21"
 },
 "usage": {
-"calls": 106,
+"calls": 108,
 "date": "2026-11-04",
-"usd": 0.011414
+"usd": 0.011551
 },
 "years": {
 "amazon:10583340": [
