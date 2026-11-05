@@ -31801,6 +31801,13 @@
 },
 "2026-10-30"
 ],
+"rescue:workday:salesforce:JR348990": [
+{
+"note": "Requires significant technical experience.",
+"senior": true
+},
+"2026-11-05"
+],
 "rescue:workday:salesforce:JR348996": [
 {
 "note": "Requires experience in technical delivery.",
@@ -40525,7 +40532,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 462
+"typical": 463
 },
 "Cloudinary": {
 "alerted": false,
@@ -40920,7 +40927,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 321,
+"streak": 322,
 "typical": 4
 },
 "Firstup": {
@@ -41071,7 +41078,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 126
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -41106,7 +41113,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 367
+"typical": 368
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -41611,7 +41618,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 362
+"typical": 363
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -42266,7 +42273,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 278
+"typical": 279
 },
 "Salient": {
 "alerted": false,
@@ -42376,7 +42383,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3242
+"typical": 3240
 },
 "Simular": {
 "alerted": false,
@@ -42406,7 +42413,7 @@
 "Slingshot AI": {
 "alerted": false,
 "streak": 0,
-"typical": 5
+"typical": 4
 },
 "SnapLogic": {
 "alerted": false,
@@ -42646,7 +42653,7 @@
 "The Trade Desk": {
 "alerted": false,
 "streak": 0,
-"typical": 103
+"typical": 102
 },
 "Thinking Machines Lab": {
 "alerted": false,
@@ -44129,6 +44136,7 @@
 "ashby:harvey:7a3b9337-ac67-4255-8db5-08bb3d57541e": "2026-10-29",
 "ashby:harvey:7d5946ab-9b70-4c33-9e0f-cadbf0b892aa": "2026-10-29",
 "ashby:harvey:7e75a1a6-1884-4772-86c2-2ea4d6a7a08d": "2026-10-29",
+"ashby:harvey:811bcdd3-8f87-4f7e-9550-3f47ce3698a9": "2026-11-05",
 "ashby:harvey:8407b840-8645-471b-8bbf-f4c6c8861a2d": "2026-10-28",
 "ashby:harvey:86e675fd-51af-42f9-9e1f-e61f1dcdbe2d": "2026-10-28",
 "ashby:harvey:880c222b-faa8-4e86-8fe9-989b5cd2bd46": "2026-10-30",
@@ -49168,6 +49176,7 @@
 "greenhouse:cloudflare:8338018": "2026-10-30",
 "greenhouse:cloudflare:8345213": "2026-11-02",
 "greenhouse:cloudflare:8345223": "2026-11-02",
+"greenhouse:cloudflare:8346149": "2026-11-05",
 "greenhouse:cloudflare:8346327": "2026-11-03",
 "greenhouse:cloudflare:8349425": "2026-11-04",
 "greenhouse:cloudflare:8354678": "2026-11-05",
@@ -50490,6 +50499,7 @@
 "greenhouse:mongodb:8328355": "2026-11-03",
 "greenhouse:mongodb:8328622": "2026-10-29",
 "greenhouse:mongodb:8328627": "2026-10-29",
+"greenhouse:mongodb:8328780": "2026-11-05",
 "greenhouse:mongodb:8331143": "2026-10-29",
 "greenhouse:mongodb:8331146": "2026-10-29",
 "greenhouse:mongodb:8331447": "2026-11-04",
@@ -56375,6 +56385,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304374": "2026-11-02",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304375": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304402": "2026-11-04",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304409": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304410": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304411": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304439": "2026-11-05",
@@ -56384,6 +56395,8 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304487": "2026-11-03",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304501": "2026-11-02",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304507": "2026-11-05",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304608": "2026-11-05",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304609": "2026-11-05",
 "phenom:YELPUS:14082": "2026-10-29",
 "phenom:YELPUS:14083": "2026-10-29",
 "phenom:YELPUS:14084": "2026-10-29",
@@ -67592,6 +67605,7 @@
 "workday:salesforce:JR348983": "2026-10-21",
 "workday:salesforce:JR348988": "2026-10-30",
 "workday:salesforce:JR348989": "2026-10-21",
+"workday:salesforce:JR348990": "2026-11-05",
 "workday:salesforce:JR348996": "2026-11-01",
 "workday:salesforce:JR349110": "2026-10-27",
 "workday:salesforce:JR349251": "2026-10-29",
@@ -70094,6 +70108,7 @@
 "workday:wf:R-572466": "2026-10-29",
 "workday:wf:R-572472": "2026-11-04",
 "workday:wf:R-572520": "2026-11-02",
+"workday:wf:R-572647": "2026-11-05",
 "workday:wf:R-572677-1": "2026-10-29",
 "workday:wf:R-572679": "2026-11-02",
 "workday:wf:R-572792": "2026-10-29",
@@ -73667,9 +73682,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 99,
+"calls": 100,
 "date": "2026-11-05",
-"usd": 0.01198
+"usd": 0.012052
 },
 "years": {
 "amazon:10583340": [
