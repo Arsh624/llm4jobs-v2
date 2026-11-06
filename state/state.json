@@ -11070,6 +11070,16 @@
 },
 "2026-10-21"
 ],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:345143|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Entry-level role with no specific experience required.",
+"us_ok": true
+},
+"2026-11-06"
+],
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345852|v3|73908d": [
 {
 "chance": 2,
@@ -19563,6 +19573,13 @@
 },
 "2026-10-30"
 ],
+"rescue:greenhouse:stripe:8331445": [
+{
+"note": "Requires specialized knowledge and experience.",
+"senior": true
+},
+"2026-11-06"
+],
 "rescue:greenhouse:stripe:8331852": [
 {
 "note": "Requires significant experience in product management.",
@@ -20927,6 +20944,13 @@
 "senior": true
 },
 "2026-10-30"
+],
+"rescue:jibe:careers.rivian.com:35731": [
+{
+"note": "Requires significant technical ownership and experience.",
+"senior": true
+},
+"2026-11-06"
 ],
 "rescue:jibe:careers.rivian.com:35800": [
 {
@@ -27451,6 +27475,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:workday:analogdevices:R267671": [
+{
+"note": "Requires experienced EMC Engineer.",
+"senior": true
+},
+"2026-11-06"
 ],
 "rescue:workday:analogdevices:R268363": [
 {
@@ -34626,6 +34657,13 @@
 "senior": true
 },
 "2026-10-29"
+],
+"rescue:workday:salesforce:JR365958": [
+{
+"note": "Requires significant technical support experience.",
+"senior": true
+},
+"2026-11-06"
 ],
 "rescue:workday:salesforce:JR366176": [
 {
@@ -42991,7 +43029,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 22
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -43621,7 +43659,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 438
+"typical": 437
 },
 "Doppel": {
 "alerted": false,
@@ -43756,7 +43794,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 29
+"typical": 30
 },
 "Extreme Networks": {
 "alerted": false,
@@ -43806,7 +43844,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 372,
+"streak": 373,
 "typical": 4
 },
 "Firstup": {
@@ -43827,7 +43865,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 191
 },
 "Flock Homes": {
 "alerted": false,
@@ -43962,7 +44000,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 172
+"typical": 175
 },
 "HackerOne": {
 "alerted": false,
@@ -44147,7 +44185,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 123
 },
 "Intro": {
 "alerted": false,
@@ -44382,7 +44420,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 96
 },
 "MatX": {
 "alerted": false,
@@ -44781,8 +44819,7 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(346290 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 1235
 },
 "Panasonic North America": {
@@ -45153,7 +45190,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 242
+"typical": 244
 },
 "Salient": {
 "alerted": false,
@@ -45263,7 +45300,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3219
+"typical": 3217
 },
 "Simular": {
 "alerted": false,
@@ -45343,7 +45380,7 @@
 "Sony Interactive (PlayStation)": {
 "alerted": false,
 "streak": 0,
-"typical": 219
+"typical": 220
 },
 "Sourcegraph": {
 "alerted": false,
@@ -45408,7 +45445,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 764
+"typical": 765
 },
 "Stuut": {
 "alerted": false,
@@ -45463,7 +45500,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 297
+"typical": 296
 },
 "TENEX.AI": {
 "alerted": false,
@@ -45623,7 +45660,7 @@
 "Uber": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 150
 },
 "Udemy": {
 "alerted": false,
@@ -45718,7 +45755,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 27
 },
 "Viz Media": {
 "alerted": false,
@@ -45803,7 +45840,7 @@
 "Wrike": {
 "alerted": false,
 "streak": 0,
-"typical": 66
+"typical": 57
 },
 "Yelp": {
 "alerted": false,
@@ -55794,6 +55831,7 @@
 "greenhouse:sonyinteractiveentertainmentglobal:6242592004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6242628004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6248628004": "2026-11-04",
+"greenhouse:sonyinteractiveentertainmentglobal:6250620004": "2026-11-06",
 "greenhouse:sonyinteractiveentertainmentglobal:6250753004": "2026-11-05",
 "greenhouse:sonyinteractiveentertainmentglobal:6250762004": "2026-11-05",
 "greenhouse:sonyinteractiveentertainmentglobal:6250873004": "2026-11-05",
@@ -55961,6 +55999,7 @@
 "greenhouse:stripe:8330813": "2026-10-29",
 "greenhouse:stripe:8330815": "2026-10-30",
 "greenhouse:stripe:8331124": "2026-10-28",
+"greenhouse:stripe:8331445": "2026-11-06",
 "greenhouse:stripe:8331852": "2026-10-28",
 "greenhouse:stripe:8332676": "2026-10-29",
 "greenhouse:stripe:8332681": "2026-11-06",
@@ -57701,6 +57740,7 @@
 "jibe:careers.rivian.com:35587": "2026-11-02",
 "jibe:careers.rivian.com:35588": "2026-11-02",
 "jibe:careers.rivian.com:35596": "2026-11-05",
+"jibe:careers.rivian.com:35731": "2026-11-06",
 "jibe:careers.rivian.com:35733": "2026-11-05",
 "jibe:careers.rivian.com:35740": "2026-11-02",
 "jibe:careers.rivian.com:35741": "2026-11-02",
@@ -60259,7 +60299,9 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303996": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303997": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303999": "2026-10-22",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304008": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304009": "2026-11-05",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304011": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304013": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304014": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304015": "2026-10-26",
@@ -60294,6 +60336,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304104": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304110": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304111": "2026-10-25",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304118": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304122": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304124": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304127": "2026-11-02",
@@ -60357,7 +60400,9 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304446": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304461": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304474": "2026-11-04",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304486": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304487": "2026-11-03",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304488": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304501": "2026-11-02",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304506": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304507": "2026-11-05",
@@ -64085,6 +64130,7 @@
 "workday:analogdevices:R267572": "2026-10-28",
 "workday:analogdevices:R267602": "2026-10-22",
 "workday:analogdevices:R267634": "2026-10-22",
+"workday:analogdevices:R267671": "2026-11-06",
 "workday:analogdevices:R267674": "2026-10-28",
 "workday:analogdevices:R267689": "2026-10-26",
 "workday:analogdevices:R267690": "2026-10-26",
@@ -65268,6 +65314,7 @@
 "workday:expedia:R-110059": "2026-10-29",
 "workday:expedia:R-110073-1": "2026-10-28",
 "workday:expedia:R-110086-1": "2026-10-28",
+"workday:expedia:R-110129": "2026-11-06",
 "workday:expedia:R-110161": "2026-11-05",
 "workday:expedia:R-110203": "2026-10-29",
 "workday:expedia:R-110299-1": "2026-11-06",
@@ -65944,6 +65991,7 @@
 "workday:hpe:1208458-2": "2026-11-02",
 "workday:hpe:1208588-2": "2026-10-29",
 "workday:hpe:1208692": "2026-11-03",
+"workday:hpe:1208767-2": "2026-11-06",
 "workday:hpe:1208807-2": "2026-10-30",
 "workday:hpe:1208991-2": "2026-11-02",
 "workday:hpe:1209121": "2026-10-29",
@@ -66425,6 +66473,8 @@
 "workday:hpe:1218405-2": "2026-10-29",
 "workday:hpe:1218456-1": "2026-10-29",
 "workday:hpe:1218468": "2026-11-02",
+"workday:hpe:1218718-1": "2026-11-06",
+"workday:hpe:1218721-2": "2026-11-06",
 "workday:hpe:1218726": "2026-11-03",
 "workday:hpe:1218829-1": "2026-11-06",
 "workday:illumina:42606-JOB-1": "2026-11-04",
@@ -73129,6 +73179,7 @@
 "workday:salesforce:JR365940": "2026-10-29",
 "workday:salesforce:JR365943": "2026-10-27",
 "workday:salesforce:JR365954": "2026-10-27",
+"workday:salesforce:JR365958": "2026-11-06",
 "workday:salesforce:JR365961-1": "2026-10-27",
 "workday:salesforce:JR365975": "2026-10-28",
 "workday:salesforce:JR365984": "2026-11-05",
@@ -73355,6 +73406,7 @@
 "workday:salesforce:JR367534-2": "2026-11-05",
 "workday:salesforce:JR367539": "2026-11-06",
 "workday:salesforce:JR367588-1": "2026-11-06",
+"workday:salesforce:JR367594": "2026-11-06",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
@@ -74672,6 +74724,7 @@
 "workday:visa:REF090002W": "2026-11-02",
 "workday:visa:REF090054W": "2026-11-03",
 "workday:visa:REF090055W": "2026-11-03",
+"workday:visa:REF090079W-1": "2026-11-06",
 "workday:visa:REF090081W": "2026-11-03",
 "workday:visa:REF090088W": "2026-11-04",
 "workday:visa:REF090175W": "2026-11-05",
@@ -78646,9 +78699,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 86,
+"calls": 91,
 "date": "2026-11-06",
-"usd": 0.010721
+"usd": 0.01125
 },
 "years": {
 "amazon:10583340": [
