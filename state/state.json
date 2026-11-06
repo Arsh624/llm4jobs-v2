@@ -2000,6 +2000,16 @@
 },
 "2026-11-04"
 ],
+"amazon:10595562|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-11-06"
+],
 "amazon:10595565|v3|73908d": [
 {
 "chance": 2,
@@ -43178,6 +43188,16 @@
 },
 "2026-11-05"
 ],
+"workday:micron:JR116959|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 5,
+"note": "Requires significant experience in offensive security operations.",
+"us_ok": true
+},
+"2026-11-06"
+],
 "workday:micron:JR116974|v3|73908d": [
 {
 "chance": 3,
@@ -45188,7 +45208,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 222
+"typical": 220
 },
 "Agiloft": {
 "alerted": false,
@@ -45373,7 +45393,7 @@
 "Asana": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 108
 },
 "Asimov": {
 "alerted": false,
@@ -46078,7 +46098,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 391,
+"streak": 392,
 "typical": 4
 },
 "Firstup": {
@@ -46184,7 +46204,7 @@
 "GitLab": {
 "alerted": false,
 "streak": 0,
-"typical": 245
+"typical": 246
 },
 "Glimpse": {
 "alerted": false,
@@ -46643,8 +46663,7 @@
 },
 "Marvell": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 3,
+"streak": 0,
 "typical": 31
 },
 "MasterClass": {
@@ -46680,7 +46699,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 172
 },
 "Mercor": {
 "alerted": false,
@@ -46710,7 +46729,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 227
+"typical": 228
 },
 "Microsoft": {
 "alerted": false,
@@ -46750,7 +46769,7 @@
 "Modal": {
 "alerted": false,
 "streak": 0,
-"typical": 43
+"typical": 44
 },
 "Model N": {
 "alerted": false,
@@ -47520,7 +47539,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 8,
+"streak": 9,
 "typical": 690
 },
 "SiFive": {
@@ -47641,7 +47660,7 @@
 "Spotify": {
 "alerted": false,
 "streak": 0,
-"typical": 84
+"typical": 85
 },
 "Sprig": {
 "alerted": false,
@@ -47681,7 +47700,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 766
+"typical": 767
 },
 "Stuut": {
 "alerted": false,
@@ -47736,7 +47755,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 300
+"typical": 299
 },
 "TENEX.AI": {
 "alerted": false,
@@ -47961,7 +47980,7 @@
 "Vendelux": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 23
 },
 "Vercel": {
 "alerted": false,
@@ -48497,6 +48516,7 @@
 "amazon:10595040": "2026-11-03",
 "amazon:10595511": "2026-11-03",
 "amazon:10595515": "2026-11-04",
+"amazon:10595562": "2026-11-06",
 "amazon:10595565": "2026-11-03",
 "amazon:10595755": "2026-11-05",
 "amazon:10595761": "2026-11-03",
@@ -49793,6 +49813,7 @@
 "ashby:mirendil:86cd9196-f390-477d-bcc0-4cb5fd3fd3c6": "2026-11-05",
 "ashby:mirendil:9331140c-f137-4fdb-8524-f03ec60fea80": "2026-11-05",
 "ashby:mirendil:ff6ad813-cf78-46fe-8bea-d8244e9d1042": "2026-11-05",
+"ashby:modal:053ff040-7701-40fb-b349-2f8ea5f870d6": "2026-11-06",
 "ashby:modal:d150d29c-c23d-4611-b439-e7ccecf2a051": "2026-10-29",
 "ashby:modal:d386232b-01ee-43a9-ad19-44e107e84036": "2026-11-06",
 "ashby:morpho:ad373640-b44e-4a28-8886-013431e9cdec": "2026-10-28",
@@ -51277,12 +51298,14 @@
 "ashby:vantage:a2f1c002-5615-4d9b-a992-693f5152ce31": "2026-10-29",
 "ashby:vantage:aca3e902-0346-40bf-92e3-8d7621d87898": "2026-10-28",
 "ashby:vendelux:0a20f79f-5c44-41f5-bd29-5adb7da0fcc5": "2026-10-28",
+"ashby:vendelux:12e56f1d-e9dd-4a23-9f12-c0dd7505adf4": "2026-11-06",
 "ashby:vendelux:1414a427-8748-413f-bc4f-3b4c4df370e1": "2026-11-02",
 "ashby:vendelux:172fddbe-e63b-4970-884e-a640fb7f34e3": "2026-10-30",
 "ashby:vendelux:1b4510f3-0242-429b-98c6-98e7c42fa3b2": "2026-10-28",
 "ashby:vendelux:2c844d07-d6e3-4ad6-a696-8043c2de2830": "2026-11-02",
 "ashby:vendelux:307c46cf-103c-4cd3-ba0b-4f53d9442de6": "2026-10-29",
 "ashby:vendelux:6d1454c5-28bd-4ff6-b4ed-ecd3bb519875": "2026-11-04",
+"ashby:vendelux:9464b002-cbc8-4d2a-8796-74754bf3bdf4": "2026-11-06",
 "ashby:vendelux:b07d5289-2ba6-427f-98c6-ca2e5e5ea77e": "2026-11-02",
 "ashby:vendelux:e7bca61e-0f87-4c6e-81be-e458f6cfa6fa": "2026-11-04",
 "ashby:vesta:5ec634be-b999-4639-b8ce-725f88062ce8": "2026-11-04",
@@ -56103,6 +56126,7 @@
 "greenhouse:gitlab:8928711002": "2026-11-05",
 "greenhouse:gitlab:8928762002": "2026-11-04",
 "greenhouse:gitlab:8929004002": "2026-11-04",
+"greenhouse:gitlab:8929468002": "2026-11-06",
 "greenhouse:gitlab:8929477002": "2026-11-04",
 "greenhouse:gitlab:8929514002": "2026-11-04",
 "greenhouse:gitlab:8931298002": "2026-11-05",
@@ -58627,6 +58651,7 @@
 "greenhouse:stripe:8275558": "2026-10-28",
 "greenhouse:stripe:8279850": "2026-11-04",
 "greenhouse:stripe:8279867": "2026-10-23",
+"greenhouse:stripe:8280264": "2026-11-06",
 "greenhouse:stripe:8280266": "2026-10-28",
 "greenhouse:stripe:8282169": "2026-10-20",
 "greenhouse:stripe:8283782": "2026-10-27",
@@ -60675,6 +60700,7 @@
 "jibe:careers.rivian.com:35953": "2026-11-06",
 "jibe:careers.rivian.com:35962": "2026-11-06",
 "jibe:careers.rivian.com:36023": "2026-11-06",
+"jibe:careers.rivian.com:36041": "2026-11-06",
 "jibe:github.careers:5719": "2026-10-30",
 "jibe:github.careers:5833": "2026-10-27",
 "jibe:github.careers:5834": "2026-10-26",
@@ -72916,6 +72942,7 @@
 "workday:micron:JR116949": "2026-11-03",
 "workday:micron:JR116954": "2026-11-03",
 "workday:micron:JR116958": "2026-11-05",
+"workday:micron:JR116959": "2026-11-06",
 "workday:micron:JR116973": "2026-11-04",
 "workday:micron:JR116974": "2026-11-04",
 "workday:micron:JR116976": "2026-11-06",
@@ -80150,6 +80177,7 @@
 "amazon|frontend engineer ai business automation prime video": "2026-10-27",
 "amazon|hardware development engineer 1 drone engineering": "2026-10-31",
 "amazon|jr software development engineer detroit mi jr developer program": "2026-10-22",
+"amazon|machine learning engineer": "2026-11-06",
 "amazon|ml compiler engineer neuron kernel interface": "2026-10-19",
 "amazon|network development engineer ii alg software and network integration and test": "2026-10-22",
 "amazon|network support engineer leo networking software": "2026-10-22",
@@ -82285,9 +82313,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 354,
+"calls": 356,
 "date": "2026-11-06",
-"usd": 0.051567
+"usd": 0.051986
 },
 "years": {
 "amazon:10583340": [
