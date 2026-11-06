@@ -34921,6 +34921,13 @@
 },
 "2026-11-05"
 ],
+"rescue:workday:wf:R-574216": [
+{
+"note": "Requires significant experience and expertise.",
+"senior": true
+},
+"2026-11-06"
+],
 "rescue:workday:wf:R-575972-1": [
 {
 "note": "Requires significant experience in product management.",
@@ -42934,7 +42941,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 201
+"typical": 202
 },
 "Airtable": {
 "alerted": false,
@@ -42984,7 +42991,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 21
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -43509,7 +43516,7 @@
 "Crunchyroll": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 103
 },
 "Crusoe": {
 "alerted": false,
@@ -43774,7 +43781,7 @@
 "Fastly": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 57
 },
 "Field AI": {
 "alerted": false,
@@ -43799,7 +43806,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 371,
+"streak": 372,
 "typical": 4
 },
 "Firstup": {
@@ -43875,7 +43882,7 @@
 "Genentech": {
 "alerted": false,
 "streak": 0,
-"typical": 32
+"typical": 33
 },
 "Genesis Molecular AI": {
 "alerted": false,
@@ -43955,7 +43962,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 172
 },
 "HackerOne": {
 "alerted": false,
@@ -44140,7 +44147,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 124
 },
 "Intro": {
 "alerted": false,
@@ -44400,7 +44407,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 146
 },
 "Mercor": {
 "alerted": false,
@@ -44520,7 +44527,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 180
+"typical": 182
 },
 "Mux": {
 "alerted": false,
@@ -44690,7 +44697,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 823
+"typical": 824
 },
 "OpenEvidence": {
 "alerted": false,
@@ -44765,7 +44772,7 @@
 "Palantir": {
 "alerted": false,
 "streak": 0,
-"typical": 309
+"typical": 310
 },
 "Palmstreet": {
 "alerted": false,
@@ -44774,7 +44781,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(346290 bytes read)",
+"streak": 1,
 "typical": 1235
 },
 "Panasonic North America": {
@@ -44950,7 +44958,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 356
+"typical": 357
 },
 "Pylon": {
 "alerted": false,
@@ -45145,7 +45153,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 240
+"typical": 242
 },
 "Salient": {
 "alerted": false,
@@ -45160,7 +45168,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 306
+"typical": 305
 },
 "Samsung Research America": {
 "alerted": false,
@@ -45335,7 +45343,7 @@
 "Sony Interactive (PlayStation)": {
 "alerted": false,
 "streak": 0,
-"typical": 218
+"typical": 219
 },
 "Sourcegraph": {
 "alerted": false,
@@ -47551,6 +47559,7 @@
 "ashby:openai:0a6f6736-8743-4528-b17c-4e1f4f8ea45c": "2026-10-20",
 "ashby:openai:0b80474f-6438-4b41-94e4-0e653c7e3457": "2026-10-21",
 "ashby:openai:0ca02747-5c97-432b-95c5-4b9099bce992": "2026-10-22",
+"ashby:openai:0cf4a8f4-a57a-494b-aad8-4df8ac096939": "2026-11-06",
 "ashby:openai:0dc614c9-4eec-475f-b215-5480fe41317a": "2026-11-05",
 "ashby:openai:0ed12b35-0115-4ad3-81f5-ea1bb05c9f6b": "2026-11-02",
 "ashby:openai:0ed35971-23c6-4723-a5c6-c24ce0ca8350": "2026-10-29",
@@ -53534,6 +53543,7 @@
 "greenhouse:gomotive:8906828002": "2026-10-21",
 "greenhouse:gomotive:8908464002": "2026-10-23",
 "greenhouse:gomotive:8909273002": "2026-10-23",
+"greenhouse:gomotive:8910505002": "2026-11-06",
 "greenhouse:gomotive:8910507002": "2026-11-04",
 "greenhouse:gomotive:8912395002": "2026-10-23",
 "greenhouse:gomotive:8912428002": "2026-10-23",
@@ -53563,6 +53573,7 @@
 "greenhouse:gomotive:8926707002": "2026-11-02",
 "greenhouse:gomotive:8927928002": "2026-11-03",
 "greenhouse:gomotive:8928774002": "2026-11-03",
+"greenhouse:gomotive:8930040002": "2026-11-06",
 "greenhouse:gomotive:8930955002": "2026-11-05",
 "greenhouse:gongio:4710799006": "2026-10-29",
 "greenhouse:gongio:4713945006": "2026-10-29",
@@ -54964,6 +54975,7 @@
 "greenhouse:purestorage:8353765": "2026-11-05",
 "greenhouse:purestorage:8353767": "2026-11-05",
 "greenhouse:purestorage:8355204": "2026-11-05",
+"greenhouse:purestorage:8355255": "2026-11-06",
 "greenhouse:purestorage:8356036": "2026-11-05",
 "greenhouse:purestorage:8356257": "2026-11-05",
 "greenhouse:purestorage:8358469": "2026-11-06",
@@ -55605,6 +55617,13 @@
 "greenhouse:samsara:8358618": "2026-11-06",
 "greenhouse:samsara:8358633": "2026-11-06",
 "greenhouse:samsara:8358654": "2026-11-06",
+"greenhouse:samsara:8358663": "2026-11-06",
+"greenhouse:samsara:8358687": "2026-11-06",
+"greenhouse:samsara:8358689": "2026-11-06",
+"greenhouse:samsara:8358690": "2026-11-06",
+"greenhouse:samsara:8358704": "2026-11-06",
+"greenhouse:samsara:8358709": "2026-11-06",
+"greenhouse:samsara:8358712": "2026-11-06",
 "greenhouse:samsungresearchamerica:8924143002": "2026-10-29",
 "greenhouse:samsungsemiconductor:8013419003": "2026-10-27",
 "greenhouse:samsungsemiconductor:8027922003": "2026-10-22",
@@ -55771,6 +55790,7 @@
 "greenhouse:sonyinteractiveentertainmentglobal:6241723004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6241732004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6241733004": "2026-11-03",
+"greenhouse:sonyinteractiveentertainmentglobal:6241763004": "2026-11-06",
 "greenhouse:sonyinteractiveentertainmentglobal:6242592004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6242628004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6248628004": "2026-11-04",
@@ -58654,6 +58674,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345437": "2026-10-30",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345438": "2026-10-30",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345439": "2026-10-30",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:345457": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345471": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345473": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:345479": "2026-10-24",
@@ -59999,6 +60020,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303039": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303086": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303087": "2026-10-22",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303103": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303104": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303109": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303117": "2026-10-20",
@@ -64075,6 +64097,7 @@
 "workday:analogdevices:R268403": "2026-11-03",
 "workday:analogdevices:R268405": "2026-11-03",
 "workday:analogdevices:R268499": "2026-11-04",
+"workday:analogdevices:R268534-1": "2026-11-06",
 "workday:analogdevices:R268545": "2026-11-05",
 "workday:arrowstreetcapital:R1483": "2026-10-29",
 "workday:arrowstreetcapital:R1560": "2026-10-29",
@@ -68383,6 +68406,8 @@
 "workday:medtronic:R81453-1": "2026-11-05",
 "workday:medtronic:R81465-1": "2026-11-05",
 "workday:medtronic:R81472-1": "2026-11-04",
+"workday:medtronic:R81501-1": "2026-11-06",
+"workday:medtronic:R81502-1": "2026-11-06",
 "workday:medtronic:R81503-1": "2026-11-05",
 "workday:medtronic:R81531-1": "2026-11-05",
 "workday:medtronic:R81532-1": "2026-11-05",
@@ -71925,6 +71950,7 @@
 "workday:roche:202611-128396-1": "2026-11-04",
 "workday:roche:202611-128415": "2026-11-04",
 "workday:roche:202611-128503": "2026-11-05",
+"workday:roche:202611-128586-1": "2026-11-06",
 "workday:salesforce:JR249467-1": "2026-10-28",
 "workday:salesforce:JR252142": "2026-10-30",
 "workday:salesforce:JR253369": "2026-10-23",
@@ -74769,6 +74795,7 @@
 "workday:wf:R-574019": "2026-10-29",
 "workday:wf:R-574085-1": "2026-11-05",
 "workday:wf:R-574136": "2026-11-05",
+"workday:wf:R-574216": "2026-11-06",
 "workday:wf:R-574287": "2026-10-30",
 "workday:wf:R-574301": "2026-10-29",
 "workday:wf:R-574320": "2026-10-30",
@@ -78619,9 +78646,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 85,
+"calls": 86,
 "date": "2026-11-06",
-"usd": 0.010656
+"usd": 0.010721
 },
 "years": {
 "amazon:10583340": [
