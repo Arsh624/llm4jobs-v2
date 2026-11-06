@@ -34253,6 +34253,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:salesforce:JR362633": [
+{
+"note": "Requires extensive experience in architecture roles.",
+"senior": true
+},
+"2026-11-06"
+],
 "rescue:workday:salesforce:JR362687": [
 {
 "note": "Manager roles typically require more experience.",
@@ -43307,7 +43314,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 462
+"typical": 464
 },
 "Cloudinary": {
 "alerted": false,
@@ -43652,7 +43659,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 29
 },
 "Extreme Networks": {
 "alerted": false,
@@ -43687,7 +43694,7 @@
 "Figma": {
 "alerted": false,
 "streak": 0,
-"typical": 143
+"typical": 144
 },
 "Figure AI": {
 "alerted": false,
@@ -43702,7 +43709,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 365,
+"streak": 366,
 "typical": 4
 },
 "Firstup": {
@@ -44078,7 +44085,7 @@
 "Jump Trading": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 92
 },
 "KAYAK": {
 "alerted": false,
@@ -44333,7 +44340,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 211
+"typical": 212
 },
 "Microsoft": {
 "alerted": false,
@@ -44438,7 +44445,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 161
 },
 "NXP Semiconductors": {
 "alerted": false,
@@ -44563,7 +44570,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 383
+"typical": 382
 },
 "Olly": {
 "alerted": false,
@@ -44928,7 +44935,7 @@
 "Redis": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "Reflection AI": {
 "alerted": false,
@@ -45048,7 +45055,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 236
+"typical": 237
 },
 "Salient": {
 "alerted": false,
@@ -45098,7 +45105,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 169
+"typical": 170
 },
 "Scality": {
 "alerted": false,
@@ -45303,7 +45310,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 768
+"typical": 765
 },
 "Stuut": {
 "alerted": false,
@@ -45388,7 +45395,7 @@
 "Tekion": {
 "alerted": false,
 "streak": 0,
-"typical": 90
+"typical": 89
 },
 "Tennr": {
 "alerted": false,
@@ -45678,7 +45685,7 @@
 "Workato": {
 "alerted": false,
 "streak": 0,
-"typical": 65
+"typical": 64
 },
 "Workday": {
 "alerted": false,
@@ -47943,6 +47950,7 @@
 "ashby:redis:ec27a483-6d4f-4bd9-b5ab-76278021d562": "2026-10-20",
 "ashby:redis:f2824628-ca39-41f0-9a1e-8b98fa7a018a": "2026-10-20",
 "ashby:redis:fab671aa-78b8-46d6-be7b-196ae7a5ad37": "2026-11-02",
+"ashby:redis:ff937e95-aa8e-4f41-a8a1-11da9de029c8": "2026-11-06",
 "ashby:reflectionai:026e952c-8bdc-4feb-91be-27e29fdf9634": "2026-10-30",
 "ashby:reflectionai:129314d9-078d-46af-9ec5-62ef363493f7": "2026-11-05",
 "ashby:reflectionai:218d08cb-4838-4a96-bc6f-9d454d7b499d": "2026-11-02",
@@ -52440,8 +52448,10 @@
 "greenhouse:cloudflare:8346327": "2026-11-03",
 "greenhouse:cloudflare:8349425": "2026-11-04",
 "greenhouse:cloudflare:8350481": "2026-11-05",
+"greenhouse:cloudflare:8354632": "2026-11-06",
 "greenhouse:cloudflare:8354678": "2026-11-05",
 "greenhouse:cloudflare:8354680": "2026-11-05",
+"greenhouse:cloudflare:8354692": "2026-11-06",
 "greenhouse:cloudflare:8354857": "2026-11-05",
 "greenhouse:cloudflare:8355115": "2026-11-05",
 "greenhouse:coinbase:8047150": "2026-10-31",
@@ -53181,6 +53191,7 @@
 "greenhouse:figma:6239628004": "2026-11-03",
 "greenhouse:figma:6240900004": "2026-11-03",
 "greenhouse:figma:6241542004": "2026-11-04",
+"greenhouse:figma:6243897004": "2026-11-06",
 "greenhouse:figureai:4724194006": "2026-10-22",
 "greenhouse:figureai:4724384006": "2026-10-29",
 "greenhouse:figureai:4724521006": "2026-10-24",
@@ -53738,6 +53749,8 @@
 "greenhouse:lucidmotors:5283905007": "2026-11-06",
 "greenhouse:lucidmotors:5284608007": "2026-11-05",
 "greenhouse:lucidmotors:5286411007": "2026-11-05",
+"greenhouse:lucidmotors:5287004007": "2026-11-06",
+"greenhouse:lucidmotors:5287005007": "2026-11-06",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -55516,6 +55529,7 @@
 "greenhouse:scaleai:4750028005": "2026-11-05",
 "greenhouse:scaleai:4750929005": "2026-11-04",
 "greenhouse:scaleai:4751081005": "2026-11-04",
+"greenhouse:scaleai:4751098005": "2026-11-06",
 "greenhouse:scaleai:4751159005": "2026-11-05",
 "greenhouse:scaleai:4751635005": "2026-11-06",
 "greenhouse:scaleai:4751645005": "2026-11-06",
@@ -55854,6 +55868,7 @@
 "greenhouse:stripe:8356912": "2026-11-05",
 "greenhouse:stripe:8356916": "2026-11-05",
 "greenhouse:stripe:8356917": "2026-11-05",
+"greenhouse:stripe:8357043": "2026-11-06",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
@@ -60194,6 +60209,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304507": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304537": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304547": "2026-11-05",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304565": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304577": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304599": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304600": "2026-11-06",
@@ -70513,6 +70529,7 @@
 "workday:nvidia:JR2023962": "2026-10-21",
 "workday:nvidia:JR2023964": "2026-10-31",
 "workday:nvidia:JR2023973": "2026-10-31",
+"workday:nvidia:JR2023977": "2026-11-06",
 "workday:nvidia:JR2023984": "2026-11-02",
 "workday:nvidia:JR2024030": "2026-10-31",
 "workday:nvidia:JR2024031": "2026-10-21",
@@ -72457,6 +72474,7 @@
 "workday:salesforce:JR362625": "2026-10-20",
 "workday:salesforce:JR362626-1": "2026-10-29",
 "workday:salesforce:JR362631": "2026-10-30",
+"workday:salesforce:JR362633": "2026-11-06",
 "workday:salesforce:JR362685": "2026-10-30",
 "workday:salesforce:JR362687": "2026-10-20",
 "workday:salesforce:JR362689": "2026-10-19",
@@ -78425,9 +78443,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 72,
+"calls": 73,
 "date": "2026-11-06",
-"usd": 0.009436
+"usd": 0.009507
 },
 "years": {
 "amazon:10583340": [
