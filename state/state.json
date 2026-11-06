@@ -2350,6 +2350,16 @@
 },
 "2026-11-05"
 ],
+"amazon:10598421|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-06"
+],
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30|v3|73908d": [
 {
 "chance": 2,
@@ -8820,6 +8830,16 @@
 },
 "2026-11-03"
 ],
+"greenhouse:roblox:8357783|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets community engagement; no strict experience required.",
+"us_ok": true
+},
+"2026-11-06"
+],
 "greenhouse:rocketlab:7742289003|v3|73908d": [
 {
 "chance": 3,
@@ -9759,6 +9779,16 @@
 "us_ok": true
 },
 "2026-10-30"
+],
+"greenhouse:xai:5286889007|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience in data engineering.",
+"us_ok": true
+},
+"2026-11-06"
 ],
 "greenhouse:zoominfo:8893345002|v3|73908d": [
 {
@@ -16647,6 +16677,13 @@
 "senior": true
 },
 "2026-11-04"
+],
+"rescue:greenhouse:andurilindustries:5286897007": [
+{
+"note": "Lead role likely requires significant experience.",
+"senior": true
+},
+"2026-11-06"
 ],
 "rescue:greenhouse:anthropic:5173120008": [
 {
@@ -27358,6 +27395,20 @@
 },
 "2026-11-03"
 ],
+"rescue:workday:broadcom:R027707": [
+{
+"note": "Requires significant technical expertise.",
+"senior": true
+},
+"2026-11-06"
+],
+"rescue:workday:broadcom:R027708": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-06"
+],
 "rescue:workday:cadence:R53463": [
 {
 "note": "Requires at least 5 years of experience.",
@@ -34372,6 +34423,13 @@
 },
 "2026-11-03"
 ],
+"rescue:workday:salesforce:JR366785": [
+{
+"note": "Requires significant experience in solutions engineering.",
+"senior": true
+},
+"2026-11-06"
+],
 "rescue:workday:salesforce:JR366941": [
 {
 "note": "Requires significant technical experience.",
@@ -34777,6 +34835,13 @@
 "senior": true
 },
 "2026-11-04"
+],
+"rescue:workday:wf:R-584939": [
+{
+"note": "Requires extensive experience in engineering roles.",
+"senior": true
+},
+"2026-11-06"
 ],
 "rescue:workday:wf:R-585014": [
 {
@@ -42644,7 +42709,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2588
+"typical": 2589
 },
 "AngelList": {
 "alerted": false,
@@ -42904,7 +42969,7 @@
 "Broadcom": {
 "alerted": false,
 "streak": 0,
-"typical": 57
+"typical": 59
 },
 "Bugcrowd": {
 "alerted": false,
@@ -43444,7 +43509,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 350,
+"streak": 351,
 "typical": 4
 },
 "Firstup": {
@@ -43500,7 +43565,7 @@
 "Fundwell": {
 "alerted": false,
 "streak": 0,
-"typical": 4
+"typical": 5
 },
 "Gamma": {
 "alerted": false,
@@ -43595,7 +43660,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 147
+"typical": 148
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -44075,7 +44140,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 280
+"typical": 281
 },
 "Microsoft": {
 "alerted": false,
@@ -44180,7 +44245,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 259
+"typical": 265
 },
 "NXP Semiconductors": {
 "alerted": false,
@@ -44660,7 +44725,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 37
 },
 "Reddit": {
 "alerted": false,
@@ -44740,7 +44805,7 @@
 "Roblox": {
 "alerted": false,
 "streak": 0,
-"typical": 270
+"typical": 271
 },
 "Rocket Lab": {
 "alerted": false,
@@ -44900,7 +44965,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3251
+"typical": 3248
 },
 "Simular": {
 "alerted": false,
@@ -44945,7 +45010,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 372
+"typical": 374
 },
 "SoFi": {
 "alerted": false,
@@ -45045,7 +45110,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 768
+"typical": 767
 },
 "Stuut": {
 "alerted": false,
@@ -45530,7 +45595,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 297
+"typical": 298
 }
 },
 "seen": {
@@ -45910,6 +45975,7 @@
 "amazon:10598123": "2026-11-05",
 "amazon:10598152": "2026-11-05",
 "amazon:10598382": "2026-11-06",
+"amazon:10598421": "2026-11-06",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
 "ashby:1x:2525aec5-28d6-42b2-b4a9-e522a3273965": "2026-11-04",
 "ashby:1x:4cb3ef10-8755-4050-b5f1-309591626d1c": "2026-10-30",
@@ -46596,6 +46662,7 @@
 "ashby:fal-ai:ff7cf012-6aeb-4d31-b594-f675bf8ffd77": "2026-10-23",
 "ashby:faros-ai:117522c0-0f41-4333-b43c-024e1b5f55d9": "2026-11-02",
 "ashby:forgepoint:7d1fe5bc-87e9-4e49-a210-8c8b413d387e": "2026-11-03",
+"ashby:fundwell:d33d49bb-6951-4d6e-8cdf-a354fc7ca4e9": "2026-11-06",
 "ashby:genesis-molecular-ai:b239a6b5-40f2-41fd-93e6-3b7ca2c7eac7": "2026-10-28",
 "ashby:gimlet:0b69e361-fbb1-4627-8028-c6ce75b3ad91": "2026-10-26",
 "ashby:gimlet:6810acd3-a0ed-4b60-bcf1-dc1b24f7d2aa": "2026-10-20",
@@ -48177,7 +48244,9 @@
 "ashby:snowflake:bf452bd0-2959-4110-8cf5-c6dfe69e92fa": "2026-10-19",
 "ashby:snowflake:bf4bfa34-8f2b-4af4-b94e-5fb70d99ec15": "2026-10-20",
 "ashby:snowflake:c5753f2c-e417-47b2-86b9-45f4f9df125a": "2026-11-03",
+"ashby:snowflake:c9ce6380-f9e3-48a5-90a7-17a1722904e0": "2026-11-06",
 "ashby:snowflake:cc9171ca-56b9-4478-a11b-58405beaf97d": "2026-11-03",
+"ashby:snowflake:ce0b7fb7-c38f-486a-aeb6-d70c26f99b03": "2026-11-06",
 "ashby:snowflake:d2089f20-d05d-40e5-8b3b-c3047184cf24": "2026-10-20",
 "ashby:snowflake:d23bc607-27d8-48a9-8c12-a455b3c6a820": "2026-10-30",
 "ashby:snowflake:d3d801b9-74a5-4e58-9d8f-1e2a79b22890": "2026-10-19",
@@ -50423,6 +50492,7 @@
 "eightfold:microsoft.com:1970393557050641": "2026-10-30",
 "eightfold:microsoft.com:1970393557050658": "2026-11-03",
 "eightfold:microsoft.com:1970393557050696": "2026-11-02",
+"eightfold:microsoft.com:1970393557050714": "2026-11-06",
 "eightfold:microsoft.com:1970393557050729": "2026-11-03",
 "eightfold:microsoft.com:1970393557050760": "2026-11-03",
 "eightfold:microsoft.com:1970393557050786": "2026-11-05",
@@ -51448,6 +51518,7 @@
 "greenhouse:andurilindustries:5286797007": "2026-11-06",
 "greenhouse:andurilindustries:5286800007": "2026-11-06",
 "greenhouse:andurilindustries:5286855007": "2026-11-06",
+"greenhouse:andurilindustries:5286897007": "2026-11-06",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
 "greenhouse:anthropic:5386214008": "2026-11-04",
@@ -54746,6 +54817,7 @@
 "greenhouse:roblox:8328261": "2026-10-28",
 "greenhouse:roblox:8330559": "2026-10-28",
 "greenhouse:roblox:8331413": "2026-11-05",
+"greenhouse:roblox:8335465": "2026-11-06",
 "greenhouse:roblox:8335608": "2026-11-05",
 "greenhouse:roblox:8338120": "2026-11-05",
 "greenhouse:roblox:8338380": "2026-10-31",
@@ -54753,6 +54825,7 @@
 "greenhouse:roblox:8350727": "2026-11-03",
 "greenhouse:roblox:8351078": "2026-11-03",
 "greenhouse:roblox:8351202": "2026-11-04",
+"greenhouse:roblox:8357783": "2026-11-06",
 "greenhouse:rocketlab:7742289003": "2026-11-04",
 "greenhouse:rocketlab:7784156003": "2026-10-29",
 "greenhouse:rocketlab:7830198003": "2026-10-28",
@@ -55137,6 +55210,7 @@
 "greenhouse:samsara:8353132": "2026-11-04",
 "greenhouse:samsara:8353408": "2026-11-05",
 "greenhouse:samsara:8353530": "2026-11-04",
+"greenhouse:samsara:8354253": "2026-11-06",
 "greenhouse:samsara:8355866": "2026-11-05",
 "greenhouse:samsungresearchamerica:8924143002": "2026-10-29",
 "greenhouse:samsungsemiconductor:8013419003": "2026-10-27",
@@ -55946,6 +56020,7 @@
 "greenhouse:xai:5286865007": "2026-11-06",
 "greenhouse:xai:5286869007": "2026-11-06",
 "greenhouse:xai:5286879007": "2026-11-06",
+"greenhouse:xai:5286889007": "2026-11-06",
 "greenhouse:zoominfo:8687545002": "2026-10-29",
 "greenhouse:zoominfo:8786496002": "2026-10-29",
 "greenhouse:zoominfo:8876070002": "2026-10-29",
@@ -63645,6 +63720,8 @@
 "workday:broadcom:R027685": "2026-11-03",
 "workday:broadcom:R027697-1": "2026-11-04",
 "workday:broadcom:R027703": "2026-11-03",
+"workday:broadcom:R027707": "2026-11-06",
+"workday:broadcom:R027708": "2026-11-06",
 "workday:broadcom:R027711": "2026-11-04",
 "workday:broadcom:R027713": "2026-11-04",
 "workday:broadcom:R027760-6": "2026-11-06",
@@ -65074,6 +65151,7 @@
 "workday:hp:3169975-1": "2026-10-29",
 "workday:hp:3169977-1": "2026-11-02",
 "workday:hp:3169984-1": "2026-11-04",
+"workday:hp:3170000-1": "2026-11-06",
 "workday:hp:3170001-1": "2026-10-20",
 "workday:hp:3170008-1": "2026-10-26",
 "workday:hp:3170009-1": "2026-10-27",
@@ -69475,6 +69553,7 @@
 "workday:nvidia:JR2013956": "2026-10-19",
 "workday:nvidia:JR2013973": "2026-10-23",
 "workday:nvidia:JR2014015": "2026-10-21",
+"workday:nvidia:JR2014047": "2026-11-06",
 "workday:nvidia:JR2014055": "2026-11-05",
 "workday:nvidia:JR2014056": "2026-11-03",
 "workday:nvidia:JR2014105": "2026-10-27",
@@ -69692,6 +69771,7 @@
 "workday:nvidia:JR2020050": "2026-10-31",
 "workday:nvidia:JR2020068": "2026-10-31",
 "workday:nvidia:JR2020098": "2026-10-31",
+"workday:nvidia:JR2020101": "2026-11-06",
 "workday:nvidia:JR2020107": "2026-10-25",
 "workday:nvidia:JR2020110": "2026-10-31",
 "workday:nvidia:JR2020111": "2026-10-31",
@@ -70620,6 +70700,7 @@
 "workday:nvidia:JR2028241": "2026-10-27",
 "workday:nvidia:JR2028247": "2026-10-22",
 "workday:nvidia:JR2028259": "2026-10-19",
+"workday:nvidia:JR2028260": "2026-11-06",
 "workday:nvidia:JR2028264": "2026-10-20",
 "workday:nvidia:JR2028265": "2026-10-21",
 "workday:nvidia:JR2028267": "2026-11-05",
@@ -70811,6 +70892,7 @@
 "workday:nvidia:JR2028815-1": "2026-11-02",
 "workday:nvidia:JR2028816": "2026-10-27",
 "workday:nvidia:JR2028817": "2026-10-28",
+"workday:nvidia:JR2028818": "2026-11-06",
 "workday:nvidia:JR2028819": "2026-11-06",
 "workday:nvidia:JR2028821": "2026-10-27",
 "workday:nvidia:JR2028822": "2026-10-27",
@@ -70861,6 +70943,7 @@
 "workday:nvidia:JR2028995": "2026-11-03",
 "workday:nvidia:JR2029005": "2026-11-02",
 "workday:nvidia:JR2029006": "2026-10-29",
+"workday:nvidia:JR2029007": "2026-11-06",
 "workday:nvidia:JR2029008": "2026-10-29",
 "workday:nvidia:JR2029009": "2026-10-29",
 "workday:nvidia:JR2029015": "2026-11-02",
@@ -70922,6 +71005,7 @@
 "workday:nvidia:JR2029400": "2026-11-04",
 "workday:nvidia:JR2029416": "2026-11-05",
 "workday:nvidia:JR2029419": "2026-11-06",
+"workday:nvidia:JR2029424": "2026-11-06",
 "workday:nvidia:JR2029426-1": "2026-11-04",
 "workday:nvidia:JR2029432": "2026-11-04",
 "workday:nvidia:JR2029449": "2026-11-05",
@@ -71079,6 +71163,7 @@
 "workday:redhat:R-053304": "2026-11-04",
 "workday:redhat:R-053694-1": "2026-11-02",
 "workday:redhat:R-055739-1": "2026-10-20",
+"workday:redhat:R-056771-1": "2026-11-06",
 "workday:redhat:R-057038-1": "2026-10-20",
 "workday:redhat:R-057292-2": "2026-10-28",
 "workday:redhat:R-057603-1": "2026-10-27",
@@ -72617,6 +72702,7 @@
 "workday:salesforce:JR366761": "2026-11-02",
 "workday:salesforce:JR366778": "2026-11-03",
 "workday:salesforce:JR366779": "2026-11-05",
+"workday:salesforce:JR366785": "2026-11-06",
 "workday:salesforce:JR366792": "2026-11-06",
 "workday:salesforce:JR366798": "2026-11-06",
 "workday:salesforce:JR366799": "2026-11-06",
@@ -75095,6 +75181,7 @@
 "workday:wf:R-584932": "2026-10-30",
 "workday:wf:R-584937": "2026-11-03",
 "workday:wf:R-584938": "2026-11-04",
+"workday:wf:R-584939": "2026-11-06",
 "workday:wf:R-584943": "2026-10-30",
 "workday:wf:R-584946": "2026-10-30",
 "workday:wf:R-584947": "2026-10-30",
@@ -76043,6 +76130,7 @@
 "amazon|software development engineer ii elastic load balancing elb": "2026-10-19",
 "amazon|software development engineer ii frontier ai data tranformation": "2026-10-27",
 "amazon|software development engineer ii identity and registry aws iot core": "2026-10-29",
+"amazon|software development engineer ii kms": "2026-11-06",
 "amazon|software development engineer ii leo antenna team": "2026-11-02",
 "amazon|software development engineer ii leo space engineering applications": "2026-10-23",
 "amazon|software development engineer ii lightsail": "2026-10-31",
@@ -77525,6 +77613,7 @@
 "rivian|systems integration engineer ii automated drive": "2026-11-03",
 "robinhood|ai operations engineer": "2026-10-28",
 "robinhood|fraud investigations analyst": "2026-10-21",
+"roblox|developer engagement team contract": "2026-11-06",
 "roblox|software engineer discovery ux": "2026-10-30",
 "roblox|software engineer engine harmony": "2026-11-05",
 "roblox|software engineer notifications": "2026-10-23",
@@ -77916,6 +78005,7 @@
 "xai|ai tutor latvian": "2026-10-26",
 "xai|ai tutor oromo": "2026-10-26",
 "xai|ai tutor uzbek": "2026-10-26",
+"xai|analytics engineer x": "2026-11-06",
 "xai|kyc analyst": "2026-10-30",
 "xai|security engineer grc federal frameworks": "2026-10-21",
 "xai|supercompute operations engineering": "2026-10-23",
@@ -77941,9 +78031,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 39,
+"calls": 47,
 "date": "2026-11-06",
-"usd": 0.005823
+"usd": 0.006728
 },
 "years": {
 "amazon:10583340": [
