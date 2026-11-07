@@ -32048,6 +32048,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:marvell:2602861": [
+{
+"note": "Requires significant experience in test engineering.",
+"senior": true
+},
+"2026-11-07"
+],
 "rescue:workday:marvell:2602930": [
 {
 "note": "Principal roles typically require extensive experience.",
@@ -45954,7 +45961,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 6,
+"streak": 7,
 "typical": 28
 },
 "Asana": {
@@ -46170,7 +46177,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 221
+"typical": 224
 },
 "Carta": {
 "alerted": false,
@@ -46614,8 +46621,7 @@
 },
 "Expedia Group": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 2,
+"streak": 0,
 "typical": 33
 },
 "Extreme Networks": {
@@ -46666,7 +46672,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 418,
+"streak": 419,
 "typical": 4
 },
 "Firstup": {
@@ -47230,10 +47236,9 @@
 "typical": 98
 },
 "Marvell": {
-"alerted": true,
-"reason": "HTTPError: HTTP Error 500: Internal Server Error",
-"streak": 6,
-"typical": 33
+"alerted": false,
+"streak": 0,
+"typical": 28
 },
 "MasterClass": {
 "alerted": false,
@@ -48108,7 +48113,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 35,
+"streak": 36,
 "typical": 690
 },
 "SiFive": {
@@ -48124,7 +48129,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3245
+"typical": 3243
 },
 "Simular": {
 "alerted": false,
@@ -64395,6 +64400,7 @@
 "simplify:1aca142d-fcc8-4cfe-b6c6-d06c5b55c36f": "2026-10-23",
 "simplify:1b08972f-0916-4069-b9dd-f0b3063ba9f2": "2026-10-26",
 "simplify:1b1e3c23-f9df-47e3-a82a-4d854e26869c": "2026-10-20",
+"simplify:1b406b39-21cb-4005-bed0-9b26f1f6d539": "2026-11-07",
 "simplify:1b421ab4-b302-46be-8308-43d1bf2e970d": "2026-10-29",
 "simplify:1bcd6357-0a3e-43fb-ab53-a085d8e7ed04": "2026-11-05",
 "simplify:1c4ef7cb-dded-4a5a-b3ed-6d0089e22d5d": "2026-11-05",
@@ -71436,6 +71442,7 @@
 "workday:marvell:2602214-1": "2026-10-22",
 "workday:marvell:2602755-1": "2026-10-21",
 "workday:marvell:2602787": "2026-10-30",
+"workday:marvell:2602861": "2026-11-07",
 "workday:marvell:2602930": "2026-10-27",
 "workday:marvell:2602936": "2026-10-30",
 "workday:marvell:2602977": "2026-10-22",
@@ -83449,9 +83456,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 41,
+"calls": 42,
 "date": "2026-11-07",
-"usd": 0.005189
+"usd": 0.00526
 },
 "years": {
 "amazon:10583340": [
