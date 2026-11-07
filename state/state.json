@@ -29935,6 +29935,13 @@
 },
 "2026-11-02"
 ],
+"rescue:workday:cadence:R56287": [
+{
+"note": "Requires 5-8 years of experience.",
+"senior": true
+},
+"2026-11-07"
+],
 "rescue:workday:cadence:R56409": [
 {
 "note": "Requires deep expertise and experience.",
@@ -46039,7 +46046,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 29,
+"streak": 30,
 "typical": 28
 },
 "Asana": {
@@ -46230,7 +46237,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 31
 },
 "Calm": {
 "alerted": false,
@@ -46495,7 +46502,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 923
+"typical": 922
 },
 "Dataiku": {
 "alerted": false,
@@ -46750,7 +46757,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 441,
+"streak": 442,
 "typical": 4
 },
 "Firstup": {
@@ -47386,7 +47393,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 240
+"typical": 230
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47490,8 +47497,8 @@
 },
 "NXP Semiconductors": {
 "alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 7,
+"reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
+"streak": 8,
 "typical": 43
 },
 "Nash": {
@@ -48192,7 +48199,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 58,
+"streak": 59,
 "typical": 690
 },
 "SiFive": {
@@ -48208,7 +48215,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3233
+"typical": 3232
 },
 "Simular": {
 "alerted": false,
@@ -48578,7 +48585,7 @@
 "Ultima Genomics": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 17
 },
 "Uncountable": {
 "alerted": false,
@@ -68461,6 +68468,7 @@
 "workday:cadence:R56212": "2026-11-05",
 "workday:cadence:R56245": "2026-11-04",
 "workday:cadence:R56265": "2026-11-02",
+"workday:cadence:R56287": "2026-11-07",
 "workday:cadence:R56289": "2026-11-06",
 "workday:cadence:R56323-1": "2026-11-03",
 "workday:cadence:R56365": "2026-11-04",
@@ -83574,9 +83582,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 51,
+"calls": 52,
 "date": "2026-11-07",
-"usd": 0.006521
+"usd": 0.006596
 },
 "years": {
 "amazon:10583340": [
