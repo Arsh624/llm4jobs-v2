@@ -13045,6 +13045,13 @@
 },
 "2026-10-26"
 ],
+"rescue:ashby:baseten:67a47938-5cb8-40c9-b027-3c2879f74c00": [
+{
+"note": "Requires significant experience in management.",
+"senior": true
+},
+"2026-11-07"
+],
 "rescue:ashby:baseten:976f89ef-1065-45a7-8b51-31fecd1ef1e6": [
 {
 "note": "Requires significant technical and leadership skills.",
@@ -31168,6 +31175,13 @@
 },
 "2026-11-05"
 ],
+"rescue:workday:hp:3170607-1": [
+{
+"note": "Requires significant program management experience.",
+"senior": true
+},
+"2026-11-07"
+],
 "rescue:workday:hp:UNI4649-2": [
 {
 "note": "Requires significant experience in research.",
@@ -45041,6 +45055,16 @@
 },
 "2026-11-03"
 ],
+"workday:visa:REF082600W|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets early-career engineers with relevant coursework or experience.",
+"us_ok": true
+},
+"2026-11-07"
+],
 "workday:visa:REF087764W-1|v3|73908d": [
 {
 "chance": 3,
@@ -45851,7 +45875,7 @@
 "Baseten": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 102
 },
 "Bastion": {
 "alerted": false,
@@ -45996,7 +46020,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 295
+"typical": 296
 },
 "Carta": {
 "alerted": false,
@@ -46491,7 +46515,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 399,
+"streak": 400,
 "typical": 4
 },
 "Firstup": {
@@ -46642,7 +46666,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 130
+"typical": 131
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -47692,7 +47716,7 @@
 "Radiant (nuclear)": {
 "alerted": false,
 "streak": 0,
-"typical": 97
+"typical": 96
 },
 "Ramp": {
 "alerted": false,
@@ -47932,7 +47956,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 16,
+"streak": 17,
 "typical": 690
 },
 "SiFive": {
@@ -47968,7 +47992,7 @@
 "Skydio": {
 "alerted": false,
 "streak": 0,
-"typical": 191
+"typical": 190
 },
 "Sleeper": {
 "alerted": false,
@@ -48233,7 +48257,7 @@
 "ThirdLove": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 14
 },
 "Thumbtack": {
 "alerted": false,
@@ -48403,7 +48427,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 41
 },
 "Viz Media": {
 "alerted": false,
@@ -49244,6 +49268,7 @@
 "ashby:baseten:58e7b9c2-04a6-474e-8061-ebf47d32b94d": "2026-11-03",
 "ashby:baseten:5a1a7b6c-646b-495c-911a-8fa435c78b6f": "2026-10-26",
 "ashby:baseten:64bdba5c-8cf6-473f-814c-1e86c8c66681": "2026-10-21",
+"ashby:baseten:67a47938-5cb8-40c9-b027-3c2879f74c00": "2026-11-07",
 "ashby:baseten:7428d7cc-36d7-4d02-b19a-bd558fba6751": "2026-10-22",
 "ashby:baseten:7c0ba27d-2f09-42f2-9277-1b756076b00b": "2026-10-27",
 "ashby:baseten:84b48db9-4b3b-48f7-9ccd-ce6322d3cbf6": "2026-10-23",
@@ -68179,6 +68204,7 @@
 "workday:capitalone:R1000036": "2026-11-03",
 "workday:capitalone:R1000053-1": "2026-11-05",
 "workday:capitalone:R1000070-1": "2026-10-29",
+"workday:capitalone:R1000129-1": "2026-11-07",
 "workday:capitalone:R1000185-2": "2026-11-03",
 "workday:capitalone:R1000257-1": "2026-11-04",
 "workday:capitalone:R1000265": "2026-10-29",
@@ -69699,6 +69725,7 @@
 "workday:hp:3170537-1": "2026-11-02",
 "workday:hp:3170550-1": "2026-10-30",
 "workday:hp:3170560-1": "2026-11-04",
+"workday:hp:3170607-1": "2026-11-07",
 "workday:hp:3170651-1": "2026-11-02",
 "workday:hp:3170660-1": "2026-11-05",
 "workday:hp:3170718": "2026-11-04",
@@ -78721,6 +78748,7 @@
 "workday:visa:REF079334W": "2026-10-20",
 "workday:visa:REF081369W": "2026-10-29",
 "workday:visa:REF081637W": "2026-10-30",
+"workday:visa:REF082600W": "2026-11-07",
 "workday:visa:REF082972W": "2026-10-19",
 "workday:visa:REF083013W": "2026-11-06",
 "workday:visa:REF083479W": "2026-10-19",
@@ -78801,6 +78829,7 @@
 "workday:visa:REF089540W": "2026-10-27",
 "workday:visa:REF089541W-1": "2026-10-19",
 "workday:visa:REF089542W-1": "2026-10-19",
+"workday:visa:REF089546W": "2026-11-07",
 "workday:visa:REF089548W": "2026-10-19",
 "workday:visa:REF089559W": "2026-10-28",
 "workday:visa:REF089564W": "2026-10-19",
@@ -80561,6 +80590,7 @@
 "workday:wf:R-586555": "2026-11-06",
 "workday:wf:R-586562": "2026-11-06",
 "workday:wf:R-586564": "2026-11-06",
+"workday:wf:R-586567-1": "2026-11-07",
 "workday:wf:R-586579": "2026-11-06",
 "workday:wf:R-586585-1": "2026-11-06",
 "workday:wf:R-586588": "2026-11-06",
@@ -83062,6 +83092,7 @@
 "visa|data insights analyst": "2026-10-29",
 "visa|financial analyst resource led planning coe": "2026-10-20",
 "visa|people solutions consultant": "2026-10-23",
+"visa|software engineer operations and infrastructure": "2026-11-07",
 "visa|sw engineer oracle erp": "2026-10-22",
 "visa|treasury analyst corporate insurance": "2026-11-05",
 "visa|treasury digital assets analyst": "2026-10-29",
@@ -83148,9 +83179,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 21,
+"calls": 24,
 "date": "2026-11-07",
-"usd": 0.002114
+"usd": 0.002489
 },
 "years": {
 "amazon:10583340": [
