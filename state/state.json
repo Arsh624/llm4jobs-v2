@@ -46002,7 +46002,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 22,
+"streak": 23,
 "typical": 28
 },
 "Asana": {
@@ -46713,7 +46713,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 434,
+"streak": 435,
 "typical": 4
 },
 "Firstup": {
@@ -47349,7 +47349,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 290
+"typical": 280
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47453,7 +47453,8 @@
 },
 "NXP Semiconductors": {
 "alerted": false,
-"streak": 0,
+"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"streak": 1,
 "typical": 43
 },
 "Nash": {
@@ -48154,7 +48155,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 51,
+"streak": 52,
 "typical": 690
 },
 "SiFive": {
@@ -48365,7 +48366,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 679
+"typical": 678
 },
 "T-Mobile": {
 "alerted": false,
