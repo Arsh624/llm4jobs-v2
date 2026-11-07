@@ -45184,6 +45184,16 @@
 },
 "2026-11-03"
 ],
+"workday:tmobile:REQ380065-1|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 1,
+"note": "Targets new grads with relevant degree and experience.",
+"us_ok": true
+},
+"2026-11-07"
+],
 "workday:visa:REF082600W|v3|73908d": [
 {
 "chance": 8,
@@ -45813,7 +45823,8 @@
 },
 "Ambarella": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 401: Unauthorized",
+"streak": 1,
 "typical": 3
 },
 "Ambience Healthcare": {
@@ -46148,7 +46159,8 @@
 },
 "Capital One": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 298
 },
 "Carta": {
@@ -46593,7 +46605,8 @@
 },
 "Expedia Group": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 40
 },
 "Extreme Networks": {
@@ -46644,7 +46657,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 408,
+"streak": 409,
 "typical": 4
 },
 "Firstup": {
@@ -46800,7 +46813,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 196
+"typical": 195
 },
 "HackerOne": {
 "alerted": false,
@@ -46985,7 +46998,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 145
 },
 "Intro": {
 "alerted": false,
@@ -47280,7 +47293,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 320
+"typical": 310
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47989,7 +48002,8 @@
 },
 "Salesforce": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 270
 },
 "Salient": {
@@ -48030,7 +48044,7 @@
 "Saronic": {
 "alerted": false,
 "streak": 0,
-"typical": 271
+"typical": 269
 },
 "Sauce Labs": {
 "alerted": false,
@@ -48085,7 +48099,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 25,
+"streak": 26,
 "typical": 690
 },
 "SiFive": {
@@ -49153,6 +49167,7 @@
 "ashby:1x:83b69d9f-d72c-4509-a438-19c0c16b672e": "2026-10-28",
 "ashby:1x:962a7b2b-98d0-4513-acad-cd3008277a4a": "2026-10-28",
 "ashby:1x:b72d011c-6a38-48f7-ada7-1f7ce76e66bf": "2026-10-28",
+"ashby:Valon:0f1fbd7d-e30d-4b8c-9e3d-04ff6bfd7638": "2026-11-07",
 "ashby:Valon:57f70063-03ce-449e-a750-9944fb3bdf62": "2026-11-02",
 "ashby:Valon:68d7deeb-b40b-4ede-9144-00032f9f246d": "2026-11-06",
 "ashby:Valon:7e06aa3c-8cdc-4b3d-ab0b-d82c8c2e4911": "2026-11-05",
@@ -61056,6 +61071,7 @@
 "jibe:careers.keysight.com:56423": "2026-11-03",
 "jibe:careers.keysight.com:56425": "2026-11-05",
 "jibe:careers.keysight.com:56430": "2026-11-03",
+"jibe:careers.keysight.com:56436": "2026-11-07",
 "jibe:careers.keysight.com:56446": "2026-11-05",
 "jibe:careers.keysight.com:56447": "2026-11-05",
 "jibe:careers.keysight.com:56448": "2026-11-05",
@@ -63432,6 +63448,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349820": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349827": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349840": "2026-11-07",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349841": "2026-11-07",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349843": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349846": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349847": "2026-11-05",
@@ -63459,7 +63476,9 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349897": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349923": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349930": "2026-11-06",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349949": "2026-11-07",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349953": "2026-11-07",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349954": "2026-11-07",
 "oracle_hcm:enterpriseplatform.dell.com:291082": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:291349": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:291459": "2026-11-03",
@@ -71210,6 +71229,7 @@
 "workday:intel:JR0288945": "2026-11-05",
 "workday:intel:JR0288952": "2026-11-06",
 "workday:intel:JR0288953": "2026-11-07",
+"workday:intel:JR0288954": "2026-11-07",
 "workday:intel:JR0288955": "2026-11-07",
 "workday:intel:JR0288956": "2026-11-07",
 "workday:intel:JR0288958": "2026-11-07",
@@ -83411,9 +83431,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 39,
+"calls": 40,
 "date": "2026-11-07",
-"usd": 0.004781
+"usd": 0.005041
 },
 "years": {
 "amazon:10583340": [

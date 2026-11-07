@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-07T05:01:22+00:00",
+ "run_at": "2026-11-07T05:31:57+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -128,8 +128,8 @@
   },
   "Ambarella": {
    "type": "workday",
-   "jobs": 3,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 401: Unauthorized"
   },
   "Ambience Healthcare": {
    "type": "ashby",
@@ -463,8 +463,8 @@
   },
   "Capital One": {
    "type": "workday",
-   "jobs": 298,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Carta": {
    "type": "greenhouse",
@@ -908,8 +908,8 @@
   },
   "Expedia Group": {
    "type": "workday",
-   "jobs": 40,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Extreme Networks": {
    "type": "lever",
@@ -1113,7 +1113,7 @@
   },
   "HPE / Juniper Networks": {
    "type": "workday",
-   "jobs": 196,
+   "jobs": 195,
    "error": null
   },
   "HackerOne": {
@@ -1298,7 +1298,7 @@
   },
   "Intel": {
    "type": "workday",
-   "jobs": 144,
+   "jobs": 145,
    "error": null
   },
   "Intro": {
@@ -1593,7 +1593,7 @@
   },
   "Microsoft": {
    "type": "eightfold",
-   "jobs": 320,
+   "jobs": 310,
    "error": null
   },
   "Mind Robotics": {
@@ -2298,8 +2298,8 @@
   },
   "Salesforce": {
    "type": "workday",
-   "jobs": 270,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Salient": {
    "type": "ashby",
@@ -2338,7 +2338,7 @@
   },
   "Saronic": {
    "type": "ashby",
-   "jobs": 271,
+   "jobs": 269,
    "error": null
   },
   "Sauce Labs": {
