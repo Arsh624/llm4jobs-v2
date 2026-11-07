@@ -34329,6 +34329,20 @@
 },
 "2026-11-05"
 ],
+"rescue:workday:micron:JR116780": [
+{
+"note": "Requires significant experience in data science.",
+"senior": true
+},
+"2026-11-07"
+],
+"rescue:workday:micron:JR116900": [
+{
+"note": "Requires significant experience in AI and manufacturing.",
+"senior": true
+},
+"2026-11-07"
+],
 "rescue:workday:micron:JR116983": [
 {
 "note": "Requires significant experience and supervision.",
@@ -35042,6 +35056,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:workday:nvidia:JR2020321": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-11-07"
 ],
 "rescue:workday:nvidia:JR2020546": [
 {
@@ -45981,7 +46002,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 20,
+"streak": 21,
 "typical": 28
 },
 "Asana": {
@@ -46692,7 +46713,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 432,
+"streak": 433,
 "typical": 4
 },
 "Firstup": {
@@ -47218,7 +47239,7 @@
 "Liquid AI": {
 "alerted": false,
 "streak": 0,
-"typical": 23
+"typical": 22
 },
 "LiveKit": {
 "alerted": false,
@@ -47323,12 +47344,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 176
+"typical": 178
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 300
+"typical": 290
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47428,7 +47449,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 162
+"typical": 166
 },
 "NXP Semiconductors": {
 "alerted": false,
@@ -47573,7 +47594,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 355
+"typical": 357
 },
 "Ooma": {
 "alerted": false,
@@ -48133,7 +48154,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 49,
+"streak": 50,
 "typical": 690
 },
 "SiFive": {
@@ -48149,7 +48170,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3235
+"typical": 3234
 },
 "Simular": {
 "alerted": false,
@@ -48419,7 +48440,7 @@
 "The Trade Desk": {
 "alerted": false,
 "streak": 0,
-"typical": 102
+"typical": 101
 },
 "Thinking Machines Lab": {
 "alerted": false,
@@ -58138,6 +58159,7 @@
 "greenhouse:onemedical:8360237": "2026-11-06",
 "greenhouse:onemedical:8360311": "2026-11-06",
 "greenhouse:onemedical:8360412": "2026-11-06",
+"greenhouse:onemedical:8362989": "2026-11-07",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -73938,6 +73960,7 @@
 "workday:micron:JR116753-1": "2026-11-05",
 "workday:micron:JR116758": "2026-10-31",
 "workday:micron:JR116764": "2026-11-02",
+"workday:micron:JR116780": "2026-11-07",
 "workday:micron:JR116781": "2026-11-06",
 "workday:micron:JR116812": "2026-11-02",
 "workday:micron:JR116832": "2026-11-05",
@@ -73952,6 +73975,7 @@
 "workday:micron:JR116890": "2026-11-06",
 "workday:micron:JR116891-1": "2026-11-06",
 "workday:micron:JR116898": "2026-11-06",
+"workday:micron:JR116900": "2026-11-07",
 "workday:micron:JR116924": "2026-11-06",
 "workday:micron:JR116926": "2026-11-03",
 "workday:micron:JR116949": "2026-11-03",
@@ -74677,6 +74701,7 @@
 "workday:nvidia:JR2020316": "2026-10-24",
 "workday:nvidia:JR2020319": "2026-10-19",
 "workday:nvidia:JR2020320": "2026-10-22",
+"workday:nvidia:JR2020321": "2026-11-07",
 "workday:nvidia:JR2020326": "2026-10-21",
 "workday:nvidia:JR2020327": "2026-10-31",
 "workday:nvidia:JR2020330": "2026-10-31",
@@ -83495,9 +83520,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 44,
+"calls": 47,
 "date": "2026-11-07",
-"usd": 0.005688
+"usd": 0.005895
 },
 "years": {
 "amazon:10583340": [
