@@ -2290,6 +2290,16 @@
 },
 "2026-11-05"
 ],
+"amazon:10597677|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 1,
+"note": "Requires security clearance and 1+ years experience.",
+"us_ok": true
+},
+"2026-11-07"
+],
 "amazon:10597749|v3|73908d": [
 {
 "chance": 2,
@@ -45823,8 +45833,7 @@
 },
 "Ambarella": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 401: Unauthorized",
-"streak": 1,
+"streak": 0,
 "typical": 3
 },
 "Ambience Healthcare": {
@@ -45870,7 +45879,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 678
+"typical": 677
 },
 "Anyscale": {
 "alerted": false,
@@ -46159,9 +46168,8 @@
 },
 "Capital One": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 1,
-"typical": 298
+"streak": 0,
+"typical": 295
 },
 "Carta": {
 "alerted": false,
@@ -46605,9 +46613,8 @@
 },
 "Expedia Group": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 1,
-"typical": 40
+"streak": 0,
+"typical": 38
 },
 "Extreme Networks": {
 "alerted": false,
@@ -46657,7 +46664,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 409,
+"streak": 410,
 "typical": 4
 },
 "Firstup": {
@@ -46998,7 +47005,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 145
+"typical": 146
 },
 "Intro": {
 "alerted": false,
@@ -47258,7 +47265,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 174
+"typical": 170
 },
 "Mercor": {
 "alerted": false,
@@ -48002,9 +48009,8 @@
 },
 "Salesforce": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 1,
-"typical": 270
+"streak": 0,
+"typical": 269
 },
 "Salient": {
 "alerted": false,
@@ -48099,7 +48105,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 26,
+"streak": 27,
 "typical": 690
 },
 "SiFive": {
@@ -48115,7 +48121,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3256
+"typical": 3253
 },
 "Simular": {
 "alerted": false,
@@ -48640,7 +48646,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 95
 },
 "World Labs": {
 "alerted": false,
@@ -49117,6 +49123,7 @@
 "amazon:10597316": "2026-11-05",
 "amazon:10597320": "2026-11-05",
 "amazon:10597660": "2026-11-05",
+"amazon:10597677": "2026-11-07",
 "amazon:10597749": "2026-11-05",
 "amazon:10597754": "2026-11-05",
 "amazon:10597786": "2026-11-05",
@@ -71064,6 +71071,7 @@
 "workday:intel:JR0288572": "2026-10-29",
 "workday:intel:JR0288573": "2026-10-31",
 "workday:intel:JR0288574": "2026-10-27",
+"workday:intel:JR0288586": "2026-11-07",
 "workday:intel:JR0288587": "2026-10-29",
 "workday:intel:JR0288592-1": "2026-11-03",
 "workday:intel:JR0288593": "2026-10-28",
@@ -78434,6 +78442,7 @@
 "workday:tmobile:REQ380051": "2026-10-26",
 "workday:tmobile:REQ380056-1": "2026-10-26",
 "workday:tmobile:REQ380058-1": "2026-11-05",
+"workday:tmobile:REQ380065-1": "2026-11-07",
 "workday:tmobile:REQ380068-1": "2026-11-04",
 "workday:tmobile:REQ380074-1": "2026-10-29",
 "workday:tmobile:REQ380077-2": "2026-11-04",
@@ -81428,6 +81437,7 @@
 "amazon|software development engineer mobile app foundations builderworks": "2026-10-29",
 "amazon|software development engineer network monitoring and remediation nmr": "2026-11-05",
 "amazon|software development engineer onemhs": "2026-10-28",
+"amazon|software development engineer platform engineering emerging technology": "2026-11-07",
 "amazon|software development engineer prime video personalization discovery": "2026-10-23",
 "amazon|software development engineer promotions calculations lifecycle pcl": "2026-11-03",
 "amazon|software development engineer provisioning amazon leo": "2026-11-04",
@@ -83431,9 +83441,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 40,
+"calls": 41,
 "date": "2026-11-07",
-"usd": 0.005041
+"usd": 0.005189
 },
 "years": {
 "amazon:10583340": [
