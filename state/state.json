@@ -45954,7 +45954,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 5,
+"streak": 6,
 "typical": 28
 },
 "Asana": {
@@ -46615,7 +46615,7 @@
 "Expedia Group": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 1,
+"streak": 2,
 "typical": 33
 },
 "Extreme Networks": {
@@ -46666,7 +46666,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 417,
+"streak": 418,
 "typical": 4
 },
 "Firstup": {
@@ -47231,8 +47231,8 @@
 },
 "Marvell": {
 "alerted": true,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 5,
+"reason": "HTTPError: HTTP Error 500: Internal Server Error",
+"streak": 6,
 "typical": 33
 },
 "MasterClass": {
@@ -48108,7 +48108,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 34,
+"streak": 35,
 "typical": 690
 },
 "SiFive": {
@@ -48622,9 +48622,8 @@
 "typical": 22
 },
 "Wells Fargo": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 5,
+"alerted": false,
+"streak": 0,
 "typical": 300
 },
 "Wingspan": {

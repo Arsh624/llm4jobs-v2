@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-07T09:02:14+00:00",
+ "run_at": "2026-11-07T09:31:53+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -1524,7 +1524,7 @@
   "Marvell": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   },
   "MasterClass": {
    "type": "greenhouse",
@@ -2908,8 +2908,8 @@
   },
   "Wells Fargo": {
    "type": "workday",
-   "jobs": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "jobs": 300,
+   "error": null
   },
   "Wingspan": {
    "type": "greenhouse",
