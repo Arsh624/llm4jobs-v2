@@ -2760,6 +2760,16 @@
 },
 "2026-11-06"
 ],
+"ashby:base-power:02ca6e34-9827-4183-b05c-b73d06038640|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads; strong systems design focus.",
+"us_ok": true
+},
+"2026-11-08"
+],
 "ashby:base-power:1f8c559e-cf28-44a0-83be-f7845a13cf94|v3|73908d": [
 {
 "chance": 6,
@@ -8420,6 +8430,16 @@
 },
 "2026-10-21"
 ],
+"greenhouse:anthropic:5459191008|v3|73908d": [
+{
+"chance": 6,
+"level": "unknown",
+"min_years": null,
+"note": "Role encourages applications from diverse candidates, including new grads.",
+"us_ok": true
+},
+"2026-11-08"
+],
 "greenhouse:anthropic:5461863008|v3|73908d": [
 {
 "chance": 3,
@@ -12379,6 +12399,26 @@
 "us_ok": true
 },
 "2026-11-03"
+],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346427|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Role explicitly targets new grads and entry-level candidates.",
+"us_ok": true
+},
+"2026-11-08"
+],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346429|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Role explicitly targets new grads and entry-level candidates.",
+"us_ok": true
+},
+"2026-11-08"
 ],
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346440|v3|73908d": [
 {
@@ -45504,6 +45544,16 @@
 },
 "2026-11-05"
 ],
+"workday:visa:REF090240W|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Entry-level role with no specific experience required.",
+"us_ok": true
+},
+"2026-11-08"
+],
 "workday:wf:R-571558|v3|73908d": [
 {
 "chance": 3,
@@ -46114,7 +46164,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 78,
+"streak": 79,
 "typical": 28
 },
 "Asana": {
@@ -46180,7 +46230,7 @@
 "Base Power": {
 "alerted": false,
 "streak": 0,
-"typical": 198
+"typical": 199
 },
 "Baseten": {
 "alerted": false,
@@ -46330,7 +46380,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 128
 },
 "Carta": {
 "alerted": false,
@@ -46825,7 +46875,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 490,
+"streak": 491,
 "typical": 4
 },
 "Firstup": {
@@ -47166,7 +47216,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~111)",
-"streak": 25,
+"streak": 26,
 "typical": 111
 },
 "Intro": {
@@ -47287,7 +47337,7 @@
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 20
 },
 "LanceDB": {
 "alerted": false,
@@ -47462,7 +47512,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 160
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47562,12 +47612,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 149
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 56,
+"streak": 57,
 "typical": 43
 },
 "Nash": {
@@ -48268,7 +48318,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 107,
+"streak": 108,
 "typical": 690
 },
 "SiFive": {
@@ -48739,7 +48789,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 25
+"typical": 26
 },
 "Viz Media": {
 "alerted": false,
@@ -49527,6 +49577,7 @@
 "ashby:atlan:c6bb032c-6ac8-4b59-915c-d59b6f3a86f8": "2026-10-26",
 "ashby:base-power:0170d947-6767-4545-87b6-c1dc901cf533": "2026-11-06",
 "ashby:base-power:01d90134-1fc2-4a24-89b9-e79fe5b001ad": "2026-11-06",
+"ashby:base-power:02ca6e34-9827-4183-b05c-b73d06038640": "2026-11-08",
 "ashby:base-power:0594dd17-1291-4802-90fb-14e0d775d2d6": "2026-10-30",
 "ashby:base-power:070fee5a-4235-4588-9751-33f3664f9655": "2026-11-03",
 "ashby:base-power:078a8826-1b47-41cf-8956-bb68e144b798": "2026-10-28",
@@ -55366,6 +55417,7 @@
 "greenhouse:anthropic:5458794008": "2026-10-20",
 "greenhouse:anthropic:5459016008": "2026-10-20",
 "greenhouse:anthropic:5459098008": "2026-10-21",
+"greenhouse:anthropic:5459191008": "2026-11-08",
 "greenhouse:anthropic:5459272008": "2026-10-23",
 "greenhouse:anthropic:5459274008": "2026-10-21",
 "greenhouse:anthropic:5459290008": "2026-10-21",
@@ -62775,6 +62827,8 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346404": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346406": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346411": "2026-11-03",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346427": "2026-11-08",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346429": "2026-11-08",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346440": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346449": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346450": "2026-10-21",
@@ -79407,6 +79461,7 @@
 "workday:visa:REF090182W": "2026-11-06",
 "workday:visa:REF090186W": "2026-11-06",
 "workday:visa:REF090204W-1": "2026-11-05",
+"workday:visa:REF090240W": "2026-11-08",
 "workday:visa:REF090263W": "2026-11-08",
 "workday:wf:R-548725": "2026-10-30",
 "workday:wf:R-550259": "2026-10-29",
@@ -81828,6 +81883,7 @@
 "anthropic|enforcement analyst agentic alignment": "2026-10-25",
 "anthropic|it systems engineer client platform engineer chromeos": "2026-10-19",
 "anthropic|research engineer chip design rl": "2026-10-21",
+"anthropic|research engineer cybersecurity rl": "2026-11-08",
 "anthropic|research engineer cybersecurity rl reinforcement learning": "2026-11-06",
 "anthropic|research engineer scientist pre training": "2026-11-02",
 "anthropic|research scientist discovery engineering applied sciences": "2026-11-05",
@@ -81963,6 +82019,7 @@
 "base power|real estate analyst": "2026-11-05",
 "base power|regulatory compliance engineer": "2026-11-06",
 "base power|reliability test engineer": "2026-11-06",
+"base power|software engineer backend member software": "2026-11-08",
 "base power|supplier industrialization engineer": "2026-11-06",
 "base power|test engineer abuse engineering": "2026-11-06",
 "baseten|product platform product engineer": "2026-10-22",
@@ -83628,6 +83685,7 @@
 "visa|data insights analyst": "2026-10-29",
 "visa|financial analyst resource led planning coe": "2026-10-20",
 "visa|people solutions consultant": "2026-10-23",
+"visa|project analyst": "2026-11-08",
 "visa|software engineer operations and infrastructure": "2026-11-07",
 "visa|sw engineer oracle erp": "2026-10-22",
 "visa|treasury analyst corporate insurance": "2026-11-05",
@@ -83715,9 +83773,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 8,
+"calls": 13,
 "date": "2026-11-08",
-"usd": 0.001215
+"usd": 0.002446
 },
 "years": {
 "amazon:10583340": [
