@@ -22140,6 +22140,13 @@
 },
 "2026-11-03"
 ],
+"rescue:greenhouse:zscaler:5279066007": [
+{
+"note": "Requires significant experience in software engineering.",
+"senior": true
+},
+"2026-11-09"
+],
 "rescue:greenhouse:zscaler:5279071007": [
 {
 "note": "Requires significant experience in engineering management.",
@@ -37848,6 +37855,13 @@
 },
 "2026-11-03"
 ],
+"rescue:workday:wf:R-584092": [
+{
+"note": "Requires 5+ years of experience.",
+"senior": true
+},
+"2026-11-09"
+],
 "rescue:workday:wf:R-584150": [
 {
 "note": "Requires extensive experience in AI strategy.",
@@ -46333,7 +46347,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 677
+"typical": 676
 },
 "Anyscale": {
 "alerted": false,
@@ -46368,7 +46382,7 @@
 "AppsFlyer": {
 "alerted": false,
 "streak": 0,
-"typical": 52
+"typical": 54
 },
 "Aptos Labs": {
 "alerted": false,
@@ -46408,7 +46422,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 107,
+"streak": 108,
 "typical": 28
 },
 "Asana": {
@@ -47119,7 +47133,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 519,
+"streak": 520,
 "typical": 4
 },
 "Firstup": {
@@ -47140,7 +47154,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 189
 },
 "Flock Homes": {
 "alerted": false,
@@ -47270,12 +47284,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 29
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 67
+"typical": 66
 },
 "HackerOne": {
 "alerted": false,
@@ -47460,7 +47474,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~111)",
-"streak": 54,
+"streak": 55,
 "typical": 111
 },
 "Intro": {
@@ -47861,7 +47875,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 85,
+"streak": 86,
 "typical": 43
 },
 "Nash": {
@@ -48562,7 +48576,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 136,
+"streak": 137,
 "typical": 690
 },
 "SiFive": {
@@ -48723,7 +48737,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 768
+"typical": 767
 },
 "Stuut": {
 "alerted": false,
@@ -49078,7 +49092,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 174
+"typical": 176
 },
 "Wingspan": {
 "alerted": false,
@@ -49163,7 +49177,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 376
+"typical": 375
 },
 "Zuora": {
 "alerted": false,
@@ -55079,6 +55093,9 @@
 "greenhouse:agoda:8358261": "2026-11-06",
 "greenhouse:agoda:8358310": "2026-11-09",
 "greenhouse:agoda:8364768": "2026-11-09",
+"greenhouse:agoda:8364809": "2026-11-09",
+"greenhouse:agoda:8364810": "2026-11-09",
+"greenhouse:agoda:8364811": "2026-11-09",
 "greenhouse:airbnb:7763610": "2026-10-20",
 "greenhouse:airbnb:7978040": "2026-10-23",
 "greenhouse:airbnb:8052792": "2026-10-23",
@@ -60711,6 +60728,7 @@
 "greenhouse:zscaler:5278561007": "2026-11-02",
 "greenhouse:zscaler:5279058007": "2026-11-04",
 "greenhouse:zscaler:5279062007": "2026-10-29",
+"greenhouse:zscaler:5279066007": "2026-11-09",
 "greenhouse:zscaler:5279071007": "2026-11-06",
 "greenhouse:zscaler:5279075007": "2026-11-04",
 "greenhouse:zscaler:5279081007": "2026-11-04",
@@ -62709,6 +62727,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24875": "2026-11-04",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24876": "2026-11-04",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24877": "2026-11-04",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24882": "2026-11-09",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24886": "2026-11-05",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24887": "2026-11-05",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24888": "2026-11-05",
@@ -70097,6 +70116,7 @@
 "workday:expedia:R-96352": "2026-11-02",
 "workday:expedia:R-99623": "2026-10-29",
 "workday:hp:3141247": "2026-10-26",
+"workday:hp:3143162-2": "2026-11-09",
 "workday:hp:3148137-1": "2026-11-03",
 "workday:hp:3151305-2": "2026-11-04",
 "workday:hp:3152106-2": "2026-10-22",
@@ -70576,8 +70596,10 @@
 "workday:hp:3170607-1": "2026-11-07",
 "workday:hp:3170651-1": "2026-11-02",
 "workday:hp:3170660-1": "2026-11-05",
+"workday:hp:3170706-1": "2026-11-09",
 "workday:hp:3170718": "2026-11-04",
 "workday:hp:3170722-1": "2026-11-04",
+"workday:hp:3170724-1": "2026-11-09",
 "workday:hp:3170769-1": "2026-11-06",
 "workday:hp:3170798-1": "2026-11-04",
 "workday:hp:IST0010-2": "2026-10-30",
@@ -80693,6 +80715,7 @@
 "workday:wf:R-584032": "2026-10-29",
 "workday:wf:R-584043-1": "2026-11-03",
 "workday:wf:R-584091": "2026-11-04",
+"workday:wf:R-584092": "2026-11-09",
 "workday:wf:R-584096": "2026-11-06",
 "workday:wf:R-584108": "2026-11-04",
 "workday:wf:R-584109": "2026-10-30",
@@ -81344,6 +81367,7 @@
 "workday:wf:R-585784": "2026-11-04",
 "workday:wf:R-585789": "2026-11-04",
 "workday:wf:R-585790": "2026-11-04",
+"workday:wf:R-585791": "2026-11-09",
 "workday:wf:R-585796": "2026-11-05",
 "workday:wf:R-585797": "2026-11-05",
 "workday:wf:R-585798": "2026-11-05",
@@ -84169,9 +84193,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 28,
+"calls": 30,
 "date": "2026-11-09",
-"usd": 0.00296
+"usd": 0.003101
 },
 "years": {
 "amazon:10583340": [
