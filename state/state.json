@@ -45833,6 +45833,16 @@
 },
 "2026-10-29"
 ],
+"workday:visa:REF090029W-1|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of relevant work experience.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "workday:visa:REF090175W|v3|73908d": [
 {
 "chance": 3,
@@ -46463,7 +46473,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 114,
+"streak": 115,
 "typical": 28
 },
 "Asana": {
@@ -46504,7 +46514,7 @@
 "Autodesk": {
 "alerted": false,
 "streak": 0,
-"typical": 10
+"typical": 70
 },
 "Ava Labs": {
 "alerted": false,
@@ -46779,7 +46789,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 464
+"typical": 465
 },
 "Cloudinary": {
 "alerted": false,
@@ -47174,7 +47184,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 526,
+"streak": 527,
 "typical": 4
 },
 "Firstup": {
@@ -47325,12 +47335,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 29
+"typical": 31
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 68
+"typical": 69
 },
 "HackerOne": {
 "alerted": false,
@@ -47750,7 +47760,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 39
 },
 "MatX": {
 "alerted": false,
@@ -47805,7 +47815,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 86
 },
 "Microsoft": {
 "alerted": false,
@@ -47910,12 +47920,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 112
+"typical": 113
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 92,
+"streak": 93,
 "typical": 43
 },
 "Nash": {
@@ -47971,7 +47981,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 44
 },
 "NewsBreak": {
 "alerted": false,
@@ -48056,7 +48066,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 355
+"typical": 354
 },
 "Ooma": {
 "alerted": false,
@@ -48486,7 +48496,7 @@
 "Roku": {
 "alerted": false,
 "streak": 0,
-"typical": 92
+"typical": 91
 },
 "Roofstock": {
 "alerted": false,
@@ -48616,7 +48626,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 143,
+"streak": 144,
 "typical": 690
 },
 "SiFive": {
@@ -48632,7 +48642,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3215
+"typical": 3216
 },
 "Simular": {
 "alerted": false,
@@ -49042,7 +49052,7 @@
 "Vanta": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 83
 },
 "Vantage": {
 "alerted": false,
@@ -49072,7 +49082,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 343
+"typical": 344
 },
 "Very Good Security": {
 "alerted": false,
@@ -49087,7 +49097,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 21
 },
 "Viz Media": {
 "alerted": false,
@@ -60440,6 +60450,7 @@
 "greenhouse:verkada:5283736007": "2026-11-04",
 "greenhouse:verkada:5283863007": "2026-11-04",
 "greenhouse:verkada:5285417007": "2026-11-06",
+"greenhouse:verkada:5287089007": "2026-11-09",
 "greenhouse:verkada:5287753007": "2026-11-06",
 "greenhouse:waymark:4747532005": "2026-10-28",
 "greenhouse:waymark:4747610005": "2026-10-28",
@@ -70370,6 +70381,7 @@
 "workday:hp:3168275-1": "2026-11-04",
 "workday:hp:3168285-1": "2026-11-03",
 "workday:hp:3168287-1": "2026-11-03",
+"workday:hp:3168293": "2026-11-09",
 "workday:hp:3168321-1": "2026-11-02",
 "workday:hp:3168350-1": "2026-11-04",
 "workday:hp:3168357-1": "2026-10-22",
@@ -70618,6 +70630,7 @@
 "workday:hp:3170242-1": "2026-11-06",
 "workday:hp:3170248-2": "2026-10-27",
 "workday:hp:3170249-1": "2026-11-02",
+"workday:hp:3170250-1": "2026-11-09",
 "workday:hp:3170255-2": "2026-10-27",
 "workday:hp:3170256-1": "2026-10-21",
 "workday:hp:3170257-1": "2026-10-21",
@@ -71225,6 +71238,7 @@
 "workday:hpe:1217107-2": "2026-11-04",
 "workday:hpe:1217108-2": "2026-11-05",
 "workday:hpe:1217171": "2026-10-29",
+"workday:hpe:1217194-2": "2026-11-09",
 "workday:hpe:1217227-2": "2026-11-04",
 "workday:hpe:1217229-2": "2026-11-02",
 "workday:hpe:1217230-2": "2026-11-05",
@@ -72310,6 +72324,7 @@
 "workday:marvell:2605254": "2026-11-05",
 "workday:mastercard:R-269034": "2026-10-30",
 "workday:mastercard:R-276668": "2026-10-29",
+"workday:mastercard:R-276823": "2026-11-09",
 "workday:mastercard:R-277151": "2026-11-04",
 "workday:mastercard:R-277533": "2026-11-06",
 "workday:mastercard:R-277822": "2026-10-29",
@@ -72612,6 +72627,7 @@
 "workday:mastercard:R-292808": "2026-10-29",
 "workday:mastercard:R-292816-2": "2026-11-09",
 "workday:mastercard:R-292842": "2026-10-30",
+"workday:mastercard:R-292850": "2026-11-09",
 "workday:mastercard:R-292871": "2026-10-29",
 "workday:mastercard:R-292886-1": "2026-10-29",
 "workday:mastercard:R-292913": "2026-11-02",
@@ -73594,6 +73610,7 @@
 "workday:micron:JR103860": "2026-10-26",
 "workday:micron:JR103868": "2026-10-23",
 "workday:micron:JR103871": "2026-10-23",
+"workday:micron:JR103898": "2026-11-09",
 "workday:micron:JR103975": "2026-10-23",
 "workday:micron:JR104128": "2026-10-23",
 "workday:micron:JR104242": "2026-10-20",
@@ -79966,6 +79983,7 @@
 "workday:visa:REF090002W": "2026-11-02",
 "workday:visa:REF090027W": "2026-11-07",
 "workday:visa:REF090028W": "2026-11-09",
+"workday:visa:REF090029W-1": "2026-11-09",
 "workday:visa:REF090041W": "2026-11-06",
 "workday:visa:REF090054W": "2026-11-03",
 "workday:visa:REF090055W": "2026-11-03",
@@ -84216,6 +84234,7 @@
 "visa|analyst payment ecosystem risk compliance": "2026-10-19",
 "visa|analyst treasury": "2026-10-27",
 "visa|consultant strategy operations ai automation solutions": "2026-10-27",
+"visa|cybersecurity engineer": "2026-11-09",
 "visa|cybersecurity engineer ai agent local candidate": "2026-10-27",
 "visa|cybersecurity engineer mobile ai application": "2026-10-27",
 "visa|data and ai governance analyst": "2026-11-06",
@@ -84310,9 +84329,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 35,
+"calls": 36,
 "date": "2026-11-09",
-"usd": 0.003763
+"usd": 0.004029
 },
 "years": {
 "amazon:10583340": [
