@@ -12560,6 +12560,16 @@
 },
 "2026-11-05"
 ],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347513|v3|73908d": [
+{
+"chance": 0,
+"level": "senior",
+"min_years": 8,
+"note": "Requires eight years of relevant technical experience.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347624|v3|73908d": [
 {
 "chance": 7,
@@ -43372,6 +43382,16 @@
 },
 "2026-10-20"
 ],
+"workday:micron:JR102715-1|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Entry-level role with relevant educational background required.",
+"us_ok": null
+},
+"2026-11-09"
+],
 "workday:micron:JR102736|v3|73908d": [
 {
 "chance": 7,
@@ -46252,7 +46272,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 352
+"typical": 353
 },
 "Ai2": {
 "alerted": false,
@@ -46422,7 +46442,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 109,
+"streak": 110,
 "typical": 28
 },
 "Asana": {
@@ -46708,7 +46728,7 @@
 "Cirrus Logic": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 126
 },
 "Cisco": {
 "alerted": false,
@@ -47133,7 +47153,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 521,
+"streak": 522,
 "typical": 4
 },
 "Firstup": {
@@ -47149,7 +47169,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 168
+"typical": 169
 },
 "Flexport": {
 "alerted": false,
@@ -47239,7 +47259,7 @@
 "GitLab": {
 "alerted": false,
 "streak": 0,
-"typical": 251
+"typical": 250
 },
 "Glimpse": {
 "alerted": false,
@@ -47709,7 +47729,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 35
 },
 "MatX": {
 "alerted": false,
@@ -47764,7 +47784,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 81
 },
 "Microsoft": {
 "alerted": false,
@@ -47869,12 +47889,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 106
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 87,
+"streak": 88,
 "typical": 43
 },
 "Nash": {
@@ -48445,7 +48465,7 @@
 "Roku": {
 "alerted": false,
 "streak": 0,
-"typical": 91
+"typical": 92
 },
 "Roofstock": {
 "alerted": false,
@@ -48575,7 +48595,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 138,
+"streak": 139,
 "typical": 690
 },
 "SiFive": {
@@ -49196,7 +49216,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 10
+"typical": 11
 },
 "fal": {
 "alerted": false,
@@ -49627,6 +49647,7 @@
 "amazon:10598904": "2026-11-06",
 "amazon:10598905": "2026-11-06",
 "amazon:10598939": "2026-11-06",
+"amazon:10599044": "2026-11-09",
 "amazon:10599070": "2026-11-06",
 "amazon:10599071": "2026-11-06",
 "amazon:10599074": "2026-11-06",
@@ -50013,6 +50034,7 @@
 "ashby:clickhouse:91f94db3-1740-4c78-831a-82e76b539748": "2026-10-27",
 "ashby:clickhouse:a40eebe3-7f71-4119-8258-4a77da2ebc79": "2026-10-21",
 "ashby:clickhouse:aefd66e4-d812-48b3-a9f6-160e19882136": "2026-10-23",
+"ashby:clickhouse:b4d10dc3-451a-4ed2-bc22-d4ae050d03d0": "2026-11-09",
 "ashby:clickhouse:cf36e6db-3939-4ff0-8bcf-a3bb200d9e46": "2026-10-29",
 "ashby:clickhouse:da6f6da1-eabf-4647-ab1c-6e138b14a6fe": "2026-10-27",
 "ashby:clickhouse:dab5bb2b-db63-49b4-b839-684dc4743675": "2026-10-19",
@@ -55079,6 +55101,7 @@
 "greenhouse:agoda:8355555": "2026-11-06",
 "greenhouse:agoda:8355617": "2026-11-06",
 "greenhouse:agoda:8357802": "2026-11-06",
+"greenhouse:agoda:8357817": "2026-11-09",
 "greenhouse:agoda:8357825": "2026-11-09",
 "greenhouse:agoda:8357826": "2026-11-09",
 "greenhouse:agoda:8358017": "2026-11-09",
@@ -57194,6 +57217,7 @@
 "greenhouse:fivetran:8031705003": "2026-11-06",
 "greenhouse:fivetran:8034209003": "2026-10-22",
 "greenhouse:fivetran:8034211003": "2026-11-06",
+"greenhouse:fivetran:8034213003": "2026-11-09",
 "greenhouse:fivetran:8034257003": "2026-11-05",
 "greenhouse:fivetran:8034540003": "2026-10-27",
 "greenhouse:fivetran:8036187003": "2026-10-19",
@@ -59885,6 +59909,7 @@
 "greenhouse:sonyinteractiveentertainmentglobal:6250873004": "2026-11-05",
 "greenhouse:sonyinteractiveentertainmentglobal:6250880004": "2026-11-05",
 "greenhouse:sonyinteractiveentertainmentglobal:6251202004": "2026-11-06",
+"greenhouse:sonyinteractiveentertainmentglobal:6251255004": "2026-11-09",
 "greenhouse:sonyinteractiveentertainmentglobal:6251328004": "2026-11-06",
 "greenhouse:sonyinteractiveentertainmentglobal:6251398004": "2026-11-06",
 "greenhouse:sourcegraph91:6195145004": "2026-11-03",
@@ -61413,6 +61438,7 @@
 "jibe:careers.keysight.com:52031": "2026-11-07",
 "jibe:careers.keysight.com:52158": "2026-10-20",
 "jibe:careers.keysight.com:52228": "2026-11-07",
+"jibe:careers.keysight.com:53127": "2026-11-09",
 "jibe:careers.keysight.com:53402": "2026-11-05",
 "jibe:careers.keysight.com:53409": "2026-10-20",
 "jibe:careers.keysight.com:53410": "2026-11-02",
@@ -63270,6 +63296,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347485": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347492": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347512": "2026-11-04",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347513": "2026-11-09",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347515": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347520": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347529": "2026-10-20",
@@ -64173,6 +64200,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:298240": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:298351": "2026-11-08",
 "oracle_hcm:enterpriseplatform.dell.com:298449": "2026-11-04",
+"oracle_hcm:enterpriseplatform.dell.com:299037": "2026-11-09",
 "oracle_hcm:enterpriseplatform.dell.com:299042": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:299054": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:299057": "2026-11-03",
@@ -73479,6 +73507,7 @@
 "workday:micron:JR102542": "2026-11-02",
 "workday:micron:JR102649": "2026-10-21",
 "workday:micron:JR102667-1": "2026-10-23",
+"workday:micron:JR102715-1": "2026-11-09",
 "workday:micron:JR102736": "2026-10-26",
 "workday:micron:JR102756-1": "2026-10-29",
 "workday:micron:JR102757-1": "2026-10-26",
@@ -83259,6 +83288,7 @@
 "micron|ram rda process engineer": "2026-10-28",
 "micron|semiconductor equipment engineer equipment owner": "2026-10-20",
 "micron|supply demand analyst revenue operations": "2026-11-02",
+"micron|tcp probe hbm equipment shift engineer": "2026-11-09",
 "micron|thin films equipment engineer": "2026-10-21",
 "micron|total productive maintenance tpm engineer": "2026-10-20",
 "micron|upw water systems operations engineer": "2026-10-26",
@@ -84208,9 +84238,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 30,
+"calls": 32,
 "date": "2026-11-09",
-"usd": 0.003101
+"usd": 0.003553
 },
 "years": {
 "amazon:10583340": [
