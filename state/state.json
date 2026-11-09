@@ -10210,6 +10210,16 @@
 },
 "2026-11-03"
 ],
+"greenhouse:sonyinteractiveentertainmentglobal:6251255004|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2-3 years of hands-on experience.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "greenhouse:stripe:8306475|v3|73908d": [
 {
 "chance": 3,
@@ -30327,6 +30337,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:cadence:R57001": [
+{
+"note": "Requires extensive experience and technical expertise.",
+"senior": true
+},
+"2026-11-09"
+],
 "rescue:workday:cadence:R57018": [
 {
 "note": "Requires 6-10 years of experience.",
@@ -46384,7 +46401,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 105,
+"streak": 106,
 "typical": 28
 },
 "Asana": {
@@ -46575,7 +46592,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 20
 },
 "Calm": {
 "alerted": false,
@@ -46910,7 +46927,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 439
+"typical": 440
 },
 "Doppel": {
 "alerted": false,
@@ -47095,7 +47112,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 517,
+"streak": 518,
 "typical": 4
 },
 "Firstup": {
@@ -47246,7 +47263,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 55
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -47436,7 +47453,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~111)",
-"streak": 52,
+"streak": 53,
 "typical": 111
 },
 "Intro": {
@@ -47637,7 +47654,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 457
+"typical": 456
 },
 "Luma AI": {
 "alerted": false,
@@ -47672,7 +47689,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 53
+"typical": 60
 },
 "MatX": {
 "alerted": false,
@@ -47837,7 +47854,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 83,
+"streak": 84,
 "typical": 43
 },
 "Nash": {
@@ -48523,7 +48540,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 435
+"typical": 434
 },
 "Sesame": {
 "alerted": false,
@@ -48538,7 +48555,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 134,
+"streak": 135,
 "typical": 690
 },
 "SiFive": {
@@ -48554,7 +48571,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3225
+"typical": 3223
 },
 "Simular": {
 "alerted": false,
@@ -48634,7 +48651,7 @@
 "Sony Interactive (PlayStation)": {
 "alerted": false,
 "streak": 0,
-"typical": 216
+"typical": 217
 },
 "Sourcegraph": {
 "alerted": false,
@@ -56843,6 +56860,7 @@
 "greenhouse:doordashusa:8359503": "2026-11-06",
 "greenhouse:doordashusa:8359599": "2026-11-06",
 "greenhouse:doordashusa:8359671": "2026-11-06",
+"greenhouse:doordashusa:8362725": "2026-11-09",
 "greenhouse:doppel:4457597009": "2026-10-28",
 "greenhouse:doppel:4460100009": "2026-10-28",
 "greenhouse:doppel:4462547009": "2026-10-28",
@@ -62563,6 +62581,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019851": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019867": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019877": "2026-11-06",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019889": "2026-11-09",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18834": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18999": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:20081": "2026-10-29",
@@ -64755,6 +64774,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304214": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304224": "2026-11-02",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304231": "2026-11-06",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304246": "2026-11-09",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304247": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304256": "2026-11-06",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304263": "2026-10-30",
@@ -68985,6 +69005,7 @@
 "workday:cadence:R56964": "2026-11-02",
 "workday:cadence:R56967": "2026-10-29",
 "workday:cadence:R56984": "2026-10-29",
+"workday:cadence:R57001": "2026-11-09",
 "workday:cadence:R57018": "2026-11-06",
 "workday:cadence:R57020": "2026-11-06",
 "workday:cadence:R57021": "2026-11-04",
@@ -70191,6 +70212,7 @@
 "workday:hp:3167354-1": "2026-10-29",
 "workday:hp:3167359": "2026-11-01",
 "workday:hp:3167379-2": "2026-10-23",
+"workday:hp:3167389-1": "2026-11-09",
 "workday:hp:3167485-1": "2026-10-22",
 "workday:hp:3167508": "2026-10-30",
 "workday:hp:3167515-2": "2026-10-26",
@@ -72197,6 +72219,9 @@
 "workday:mastercard:R-284497": "2026-10-29",
 "workday:mastercard:R-284513": "2026-10-29",
 "workday:mastercard:R-284573": "2026-10-30",
+"workday:mastercard:R-284589-2": "2026-11-09",
+"workday:mastercard:R-284922-2": "2026-11-09",
+"workday:mastercard:R-285263-2": "2026-11-09",
 "workday:mastercard:R-286148-1": "2026-10-29",
 "workday:mastercard:R-286286": "2026-10-30",
 "workday:mastercard:R-286353": "2026-10-29",
@@ -72216,8 +72241,11 @@
 "workday:mastercard:R-287484": "2026-10-30",
 "workday:mastercard:R-287487": "2026-10-29",
 "workday:mastercard:R-287561": "2026-10-30",
+"workday:mastercard:R-287588-2": "2026-11-09",
+"workday:mastercard:R-287594-2": "2026-11-09",
 "workday:mastercard:R-287595-1": "2026-10-29",
 "workday:mastercard:R-287599-1": "2026-11-06",
+"workday:mastercard:R-287600-2": "2026-11-09",
 "workday:mastercard:R-287693-1": "2026-10-29",
 "workday:mastercard:R-287707-1": "2026-10-29",
 "workday:mastercard:R-287710-2": "2026-11-02",
@@ -72449,6 +72477,7 @@
 "workday:mastercard:R-292801": "2026-10-29",
 "workday:mastercard:R-292802": "2026-10-29",
 "workday:mastercard:R-292808": "2026-10-29",
+"workday:mastercard:R-292816-2": "2026-11-09",
 "workday:mastercard:R-292842": "2026-10-30",
 "workday:mastercard:R-292871": "2026-10-29",
 "workday:mastercard:R-292886-1": "2026-10-29",
@@ -84120,9 +84149,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 25,
+"calls": 27,
 "date": "2026-11-09",
-"usd": 0.002611
+"usd": 0.002894
 },
 "years": {
 "amazon:10583340": [
