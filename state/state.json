@@ -46363,7 +46363,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 101,
+"streak": 102,
 "typical": 28
 },
 "Asana": {
@@ -47074,7 +47074,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 513,
+"streak": 514,
 "typical": 4
 },
 "Firstup": {
@@ -47180,7 +47180,7 @@
 "GitLab": {
 "alerted": false,
 "streak": 0,
-"typical": 249
+"typical": 250
 },
 "Glimpse": {
 "alerted": false,
@@ -47415,7 +47415,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~111)",
-"streak": 48,
+"streak": 49,
 "typical": 111
 },
 "Intro": {
@@ -47676,7 +47676,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 71
 },
 "Mercor": {
 "alerted": false,
@@ -47706,7 +47706,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 139
+"typical": 141
 },
 "Microsoft": {
 "alerted": false,
@@ -47816,7 +47816,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 79,
+"streak": 80,
 "typical": 43
 },
 "Nash": {
@@ -47872,7 +47872,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 47
 },
 "NewsBreak": {
 "alerted": false,
@@ -47937,7 +47937,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 375
+"typical": 376
 },
 "Olly": {
 "alerted": false,
@@ -48517,7 +48517,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 130,
+"streak": 131,
 "typical": 690
 },
 "SiFive": {
@@ -48533,7 +48533,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3232
+"typical": 3228
 },
 "Simular": {
 "alerted": false,
@@ -48733,7 +48733,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 183
+"typical": 182
 },
 "TENEX.AI": {
 "alerted": false,
@@ -48953,7 +48953,7 @@
 "Veeva Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 876
+"typical": 875
 },
 "Vendelux": {
 "alerted": false,
@@ -49033,7 +49033,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 300
+"typical": 298
 },
 "Wingspan": {
 "alerted": false,
@@ -57267,6 +57267,7 @@
 "greenhouse:gatherai:5280050007": "2026-10-31",
 "greenhouse:gemini:8328881": "2026-11-02",
 "greenhouse:gitlab:8800507002": "2026-11-04",
+"greenhouse:gitlab:8829837002": "2026-11-09",
 "greenhouse:gitlab:8838394002": "2026-10-29",
 "greenhouse:gitlab:8859960002": "2026-11-05",
 "greenhouse:gitlab:8887399002": "2026-11-09",
@@ -60675,6 +60676,7 @@
 "greenhouse:zscaler:5283496007": "2026-11-06",
 "greenhouse:zscaler:5284066007": "2026-11-04",
 "greenhouse:zscaler:5288612007": "2026-11-08",
+"greenhouse:zscaler:5288687007": "2026-11-09",
 "greenhouse:zuora:8119425": "2026-10-20",
 "greenhouse:zuora:8247021": "2026-10-23",
 "greenhouse:zuora:8278768": "2026-10-23",
@@ -62521,12 +62523,15 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019663": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019665": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019706": "2026-11-03",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019710": "2026-11-09",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019713": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019731": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019732": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019748": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019800": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019822": "2026-11-05",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019830": "2026-11-09",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019831": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019832": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019833": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019851": "2026-11-06",
@@ -74228,6 +74233,8 @@
 "workday:micron:JR115430": "2026-10-30",
 "workday:micron:JR115446": "2026-10-24",
 "workday:micron:JR115467": "2026-11-03",
+"workday:micron:JR115479": "2026-11-09",
+"workday:micron:JR115482-1": "2026-11-09",
 "workday:micron:JR115491": "2026-10-20",
 "workday:micron:JR115495": "2026-10-20",
 "workday:micron:JR115496": "2026-11-05",
