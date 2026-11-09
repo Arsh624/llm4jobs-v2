@@ -13442,6 +13442,13 @@
 },
 "2026-11-04"
 ],
+"rescue:ashby:crusoe:6d02f4e8-7320-42e1-9b6b-cc1b436604b7": [
+{
+"note": "Requires significant technical expertise.",
+"senior": true
+},
+"2026-11-09"
+],
 "rescue:ashby:crusoe:7081cd4c-dda9-44d0-a4aa-41d4a5b7ddb9": [
 {
 "note": "Staff roles typically require significant experience.",
@@ -36444,6 +36451,13 @@
 },
 "2026-11-05"
 ],
+"rescue:workday:redhat:R-052608": [
+{
+"note": "Requires significant hands-on experience.",
+"senior": true
+},
+"2026-11-09"
+],
 "rescue:workday:redhat:R-053694-1": [
 {
 "note": "Requires significant experience in cloud architecture.",
@@ -46279,7 +46293,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 354
+"typical": 358
 },
 "Ai2": {
 "alerted": false,
@@ -46374,7 +46388,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 676
+"typical": 677
 },
 "Anyscale": {
 "alerted": false,
@@ -46449,7 +46463,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 112,
+"streak": 113,
 "typical": 28
 },
 "Asana": {
@@ -46665,7 +46679,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 71
 },
 "Carta": {
 "alerted": false,
@@ -46875,7 +46889,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 323
+"typical": 324
 },
 "Curri": {
 "alerted": false,
@@ -47160,7 +47174,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 524,
+"streak": 525,
 "typical": 4
 },
 "Firstup": {
@@ -47181,7 +47195,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 188
+"typical": 187
 },
 "Flock Homes": {
 "alerted": false,
@@ -47501,7 +47515,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 42
 },
 "Intro": {
 "alerted": false,
@@ -47596,7 +47610,7 @@
 "Kong": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 106
 },
 "Kraken": {
 "alerted": false,
@@ -47896,12 +47910,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 110
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 90,
+"streak": 91,
 "typical": 43
 },
 "Nash": {
@@ -47957,7 +47971,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 46
 },
 "NewsBreak": {
 "alerted": false,
@@ -48377,7 +48391,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 13
 },
 "Reddit": {
 "alerted": false,
@@ -48507,7 +48521,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 69
+"typical": 70
 },
 "Salient": {
 "alerted": false,
@@ -48602,7 +48616,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 141,
+"streak": 142,
 "typical": 690
 },
 "SiFive": {
@@ -48618,7 +48632,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3216
+"typical": 3214
 },
 "Simular": {
 "alerted": false,
@@ -48663,7 +48677,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 370
+"typical": 369
 },
 "SoFi": {
 "alerted": false,
@@ -50173,6 +50187,7 @@
 "ashby:crusoe:679035bb-1787-4f1e-a942-b3a28a23626e": "2026-10-21",
 "ashby:crusoe:690d374c-c23e-4e91-9c1a-2a675fa37ed0": "2026-10-21",
 "ashby:crusoe:69199044-a3c3-4e00-8aa8-fa0fc8e19ef5": "2026-10-27",
+"ashby:crusoe:6d02f4e8-7320-42e1-9b6b-cc1b436604b7": "2026-11-09",
 "ashby:crusoe:6d1f8bc2-7ce2-4368-ac59-7b797418d20a": "2026-11-04",
 "ashby:crusoe:6e6c3c74-36f4-455d-aafe-a159412a5c94": "2026-10-26",
 "ashby:crusoe:6e872818-3bce-4931-8791-07c2d5d05dd4": "2026-10-20",
@@ -55109,9 +55124,11 @@
 "greenhouse:agoda:8355555": "2026-11-06",
 "greenhouse:agoda:8355617": "2026-11-06",
 "greenhouse:agoda:8357802": "2026-11-06",
+"greenhouse:agoda:8357813": "2026-11-09",
 "greenhouse:agoda:8357817": "2026-11-09",
 "greenhouse:agoda:8357825": "2026-11-09",
 "greenhouse:agoda:8357826": "2026-11-09",
+"greenhouse:agoda:8357910": "2026-11-09",
 "greenhouse:agoda:8358017": "2026-11-09",
 "greenhouse:agoda:8358027": "2026-11-09",
 "greenhouse:agoda:8358028": "2026-11-09",
@@ -55125,6 +55142,7 @@
 "greenhouse:agoda:8358252": "2026-11-06",
 "greenhouse:agoda:8358261": "2026-11-06",
 "greenhouse:agoda:8358310": "2026-11-09",
+"greenhouse:agoda:8364743": "2026-11-09",
 "greenhouse:agoda:8364768": "2026-11-09",
 "greenhouse:agoda:8364809": "2026-11-09",
 "greenhouse:agoda:8364810": "2026-11-09",
@@ -55835,6 +55853,7 @@
 "greenhouse:anthropic:5474544008": "2026-11-06",
 "greenhouse:anthropic:5474559008": "2026-11-07",
 "greenhouse:anthropic:5475099008": "2026-11-09",
+"greenhouse:anthropic:5475156008": "2026-11-09",
 "greenhouse:anthropic:5475240008": "2026-11-06",
 "greenhouse:anthropic:5475321008": "2026-11-07",
 "greenhouse:anthropic:5475456008": "2026-11-06",
@@ -56346,6 +56365,7 @@
 "greenhouse:cloudflare:8317733": "2026-10-27",
 "greenhouse:cloudflare:8317751": "2026-10-26",
 "greenhouse:cloudflare:8317920": "2026-11-09",
+"greenhouse:cloudflare:8317970": "2026-11-09",
 "greenhouse:cloudflare:8319231": "2026-10-26",
 "greenhouse:cloudflare:8319377": "2026-10-26",
 "greenhouse:cloudflare:8323918": "2026-10-29",
@@ -60900,6 +60920,7 @@
 "jibe:careers.amd.com:92929": "2026-10-20",
 "jibe:careers.amd.com:93019": "2026-10-23",
 "jibe:careers.amd.com:93022": "2026-10-21",
+"jibe:careers.amd.com:93036": "2026-11-09",
 "jibe:careers.amd.com:93074": "2026-11-02",
 "jibe:careers.amd.com:93108": "2026-10-20",
 "jibe:careers.amd.com:93156": "2026-10-28",
@@ -61692,6 +61713,7 @@
 "jibe:careers.keysight.com:56446": "2026-11-05",
 "jibe:careers.keysight.com:56447": "2026-11-05",
 "jibe:careers.keysight.com:56448": "2026-11-05",
+"jibe:careers.keysight.com:56455": "2026-11-09",
 "jibe:careers.keysight.com:56459": "2026-11-06",
 "jibe:careers.keysight.com:56462": "2026-11-06",
 "jibe:careers.keysight.com:56463": "2026-11-06",
@@ -62654,6 +62676,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019871": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019877": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019889": "2026-11-09",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019892": "2026-11-09",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18834": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18999": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:20081": "2026-10-29",
@@ -64396,6 +64419,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152899": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153378": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:153698": "2026-10-20",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:154407": "2026-11-09",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:154538": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:156028": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:156464": "2026-10-27",
@@ -64736,6 +64760,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303886": "2026-10-21",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303887": "2026-10-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303889": "2026-11-03",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303890": "2026-11-09",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303900": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303902": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303903": "2026-10-22",
@@ -71973,7 +71998,11 @@
 "workday:intel:JR0288969": "2026-11-05",
 "workday:intel:JR0288974": "2026-11-05",
 "workday:intel:JR0288978": "2026-11-05",
+"workday:intel:JR0288982": "2026-11-09",
 "workday:intel:JR0288983": "2026-11-06",
+"workday:intel:JR0288984": "2026-11-09",
+"workday:intel:JR0288985": "2026-11-09",
+"workday:intel:JR0288986": "2026-11-09",
 "workday:intel:JR0288987": "2026-11-06",
 "workday:intel:JR0288988": "2026-11-06",
 "workday:intel:JR0288989": "2026-11-06",
@@ -75441,6 +75470,7 @@
 "workday:nvidia:JR2020922": "2026-10-31",
 "workday:nvidia:JR2020941": "2026-10-31",
 "workday:nvidia:JR2020949": "2026-10-31",
+"workday:nvidia:JR2020974": "2026-11-09",
 "workday:nvidia:JR2020980": "2026-10-20",
 "workday:nvidia:JR2021000": "2026-10-31",
 "workday:nvidia:JR2021002": "2026-10-31",
@@ -76113,6 +76143,7 @@
 "workday:nvidia:JR2027398": "2026-11-06",
 "workday:nvidia:JR2027404": "2026-10-22",
 "workday:nvidia:JR2027408": "2026-10-31",
+"workday:nvidia:JR2027412": "2026-11-09",
 "workday:nvidia:JR2027422": "2026-10-31",
 "workday:nvidia:JR2027427": "2026-10-31",
 "workday:nvidia:JR2027429": "2026-10-31",
@@ -76826,6 +76857,7 @@
 "workday:priceline:R5911": "2026-11-05",
 "workday:priceline:R5913": "2026-11-05",
 "workday:priceline:R5916-1": "2026-11-05",
+"workday:redhat:R-052608": "2026-11-09",
 "workday:redhat:R-053304": "2026-11-04",
 "workday:redhat:R-053694-1": "2026-11-02",
 "workday:redhat:R-055692-2": "2026-11-09",
@@ -76864,6 +76896,7 @@
 "workday:redhat:R-059216": "2026-10-20",
 "workday:redhat:R-059523-1": "2026-10-21",
 "workday:redhat:R-059580-1": "2026-10-28",
+"workday:redhat:R-059587-2": "2026-11-09",
 "workday:redhat:R-059636-1": "2026-11-04",
 "workday:redhat:R-059640-1": "2026-10-29",
 "workday:redhat:R-059673-1": "2026-10-20",
@@ -84268,9 +84301,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 33,
+"calls": 35,
 "date": "2026-11-09",
-"usd": 0.003625
+"usd": 0.003763
 },
 "years": {
 "amazon:10583340": [
