@@ -10670,6 +10670,16 @@
 },
 "2026-11-04"
 ],
+"greenhouse:zuora:8302093|v3|73908d": [
+{
+"chance": 0,
+"level": "unknown",
+"min_years": 5,
+"note": "Requires 5+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "jibe:careers.amd.com:86587|v3|73908d": [
 {
 "chance": 3,
@@ -46383,7 +46393,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2601
+"typical": 2602
 },
 "AngelList": {
 "alerted": false,
@@ -46473,7 +46483,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 115,
+"streak": 116,
 "typical": 28
 },
 "Asana": {
@@ -46514,7 +46524,7 @@
 "Autodesk": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 60
 },
 "Ava Labs": {
 "alerted": false,
@@ -46604,7 +46614,7 @@
 "Bosch": {
 "alerted": false,
 "streak": 0,
-"typical": 361
+"typical": 360
 },
 "Bounce": {
 "alerted": false,
@@ -46764,7 +46774,7 @@
 "Cisco": {
 "alerted": false,
 "streak": 0,
-"typical": 2
+"typical": 3
 },
 "ClassDojo": {
 "alerted": false,
@@ -47184,7 +47194,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 527,
+"streak": 528,
 "typical": 4
 },
 "Firstup": {
@@ -47200,7 +47210,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 167
+"typical": 166
 },
 "Flexport": {
 "alerted": false,
@@ -47305,7 +47315,7 @@
 "Gong": {
 "alerted": false,
 "streak": 0,
-"typical": 84
+"typical": 85
 },
 "GoodLeap": {
 "alerted": false,
@@ -47335,7 +47345,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -47370,7 +47380,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 374
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -47525,7 +47535,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 43
 },
 "Intro": {
 "alerted": false,
@@ -47920,12 +47930,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 113
+"typical": 112
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 93,
+"streak": 94,
 "typical": 43
 },
 "Nash": {
@@ -48076,7 +48086,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 813
+"typical": 814
 },
 "OpenEvidence": {
 "alerted": false,
@@ -48160,7 +48170,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(347900 bytes read)",
+"streak": 1,
 "typical": 1242
 },
 "Panasonic North America": {
@@ -48466,7 +48477,7 @@
 "Ripple Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 116
 },
 "Rivian": {
 "alerted": false,
@@ -48476,7 +48487,7 @@
 "Robinhood": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 151
 },
 "Roblox": {
 "alerted": false,
@@ -48626,7 +48637,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 144,
+"streak": 145,
 "typical": 690
 },
 "SiFive": {
@@ -48787,7 +48798,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 767
+"typical": 768
 },
 "Stuut": {
 "alerted": false,
@@ -49232,7 +49243,7 @@
 "Zuora": {
 "alerted": false,
 "streak": 0,
-"typical": 35
+"typical": 36
 },
 "Zus Health": {
 "alerted": false,
@@ -50571,6 +50582,7 @@
 "ashby:harvey:32c8c5a3-115b-4f7c-b0de-db785967a094": "2026-11-04",
 "ashby:harvey:350a3da9-e332-4fb5-8ae0-17e67827465f": "2026-11-06",
 "ashby:harvey:37050642-ee74-457a-829c-ea7e77ec3cfc": "2026-10-30",
+"ashby:harvey:389a98fb-f2d5-4b68-a550-4000bdb502de": "2026-11-09",
 "ashby:harvey:400a2ac7-4e79-492b-b742-a0c3315b0c16": "2026-10-28",
 "ashby:harvey:4154ddf4-99e3-4863-9509-826a6faddeea": "2026-10-28",
 "ashby:harvey:46912896-5a97-4955-ae27-1b110b3487ec": "2026-10-29",
@@ -51135,6 +51147,7 @@
 "ashby:openai:0f600ed1-d70a-4648-820f-a1d1da3f7617": "2026-10-28",
 "ashby:openai:0fca3b36-8aaa-491a-be87-09efacfeca5e": "2026-10-29",
 "ashby:openai:104eb2c4-bf85-4fec-a7e5-0616d235818a": "2026-10-22",
+"ashby:openai:110d820b-fcbe-4f02-9203-5b6145132e60": "2026-11-09",
 "ashby:openai:112e34f2-45da-4a08-adf4-cc29398938df": "2026-10-20",
 "ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9": "2026-10-21",
 "ashby:openai:16596d69-1e40-499b-9d62-13e6f6a498de": "2026-11-05",
@@ -55514,6 +55527,7 @@
 "greenhouse:andurilindustries:5280959007": "2026-10-31",
 "greenhouse:andurilindustries:5280973007": "2026-10-31",
 "greenhouse:andurilindustries:5280983007": "2026-11-05",
+"greenhouse:andurilindustries:5280985007": "2026-11-09",
 "greenhouse:andurilindustries:5281003007": "2026-11-03",
 "greenhouse:andurilindustries:5281150007": "2026-10-31",
 "greenhouse:andurilindustries:5281151007": "2026-10-31",
@@ -59188,10 +59202,12 @@
 "greenhouse:ripple:8353248": "2026-11-04",
 "greenhouse:ripple:8358370": "2026-11-06",
 "greenhouse:ripple:8358426": "2026-11-06",
+"greenhouse:ripple:8358440": "2026-11-09",
 "greenhouse:robinhood:8070690": "2026-11-04",
 "greenhouse:robinhood:8074884": "2026-11-04",
 "greenhouse:robinhood:8159911": "2026-10-27",
 "greenhouse:robinhood:8162450": "2026-10-27",
+"greenhouse:robinhood:8177444": "2026-11-09",
 "greenhouse:robinhood:8202183": "2026-11-02",
 "greenhouse:robinhood:8205083": "2026-10-19",
 "greenhouse:robinhood:8207701": "2026-11-03",
@@ -60173,6 +60189,7 @@
 "greenhouse:stripe:8356916": "2026-11-05",
 "greenhouse:stripe:8356917": "2026-11-05",
 "greenhouse:stripe:8357043": "2026-11-06",
+"greenhouse:stripe:8357049": "2026-11-09",
 "greenhouse:stripe:8357739": "2026-11-06",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
@@ -60824,6 +60841,7 @@
 "greenhouse:zuora:8281561": "2026-10-22",
 "greenhouse:zuora:8281563": "2026-10-27",
 "greenhouse:zuora:8281565": "2026-10-26",
+"greenhouse:zuora:8302093": "2026-11-09",
 "greenhouse:zuora:8302183": "2026-10-23",
 "greenhouse:zuora:8302895": "2026-10-27",
 "greenhouse:zuora:8302897": "2026-10-20",
@@ -61491,6 +61509,7 @@
 "jibe:careers.keysight.com:53573": "2026-10-23",
 "jibe:careers.keysight.com:53832": "2026-10-21",
 "jibe:careers.keysight.com:53988": "2026-10-20",
+"jibe:careers.keysight.com:54041": "2026-11-09",
 "jibe:careers.keysight.com:54055": "2026-10-21",
 "jibe:careers.keysight.com:54059": "2026-10-29",
 "jibe:careers.keysight.com:54067": "2026-10-20",
@@ -64418,6 +64437,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:R277838": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:R281447": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:R282448": "2026-11-04",
+"oracle_hcm:enterpriseplatform.dell.com:R283586": "2026-11-09",
 "oracle_hcm:enterpriseplatform.dell.com:R284872": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:R286084": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:R286583": "2026-10-30",
@@ -69885,6 +69905,7 @@
 "workday:cisco:2018241": "2026-10-28",
 "workday:cisco:2018837": "2026-10-23",
 "workday:cisco:2019343": "2026-10-23",
+"workday:cisco:2020336": "2026-11-09",
 "workday:cisco:2020819-1": "2026-10-28",
 "workday:cisco:2020831-1": "2026-10-30",
 "workday:cisco:2021051": "2026-11-04",
@@ -70481,6 +70502,7 @@
 "workday:hp:3169432-2": "2026-11-02",
 "workday:hp:3169438-1": "2026-10-27",
 "workday:hp:3169439-1": "2026-10-27",
+"workday:hp:3169448-1": "2026-11-09",
 "workday:hp:3169449-1": "2026-10-20",
 "workday:hp:3169453-1": "2026-10-29",
 "workday:hp:3169456-1": "2026-10-20",
@@ -72029,6 +72051,7 @@
 "workday:intel:JR0288992": "2026-11-06",
 "workday:intel:JR0288993": "2026-11-06",
 "workday:intel:JR0289014": "2026-11-09",
+"workday:intel:JR0289021": "2026-11-09",
 "workday:intel:JR0289043": "2026-11-06",
 "workday:kla:2530503": "2026-10-20",
 "workday:kla:2633993": "2026-10-20",
@@ -84329,9 +84352,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 36,
+"calls": 37,
 "date": "2026-11-09",
-"usd": 0.004029
+"usd": 0.004289
 },
 "years": {
 "amazon:10583340": [
