@@ -2870,6 +2870,16 @@
 },
 "2026-11-06"
 ],
+"ashby:base-power:9ed279a2-a39d-4b75-bbee-bff898b448c3|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role suitable for new grads with relevant skills.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "ashby:base-power:a2249db8-1ea6-4c55-b125-b7c9a0ff6986|v3|73908d": [
 {
 "chance": 4,
@@ -12400,6 +12410,16 @@
 },
 "2026-11-04"
 ],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346405|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Role explicitly targets new grads and entry-level candidates.",
+"us_ok": true
+},
+"2026-11-09"
+],
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346406|v3|73908d": [
 {
 "chance": 8,
@@ -14042,6 +14062,13 @@
 "senior": true
 },
 "2026-11-05"
+],
+"rescue:ashby:openai:5d5b2256-ee0f-4ba6-a983-d62d0d70515d": [
+{
+"note": "Requires significant leadership experience.",
+"senior": true
+},
+"2026-11-09"
 ],
 "rescue:ashby:openai:5d66a54f-ad89-4155-ac37-9dcd7d52db34": [
 {
@@ -21784,6 +21811,13 @@
 "senior": true
 },
 "2026-11-08"
+],
+"rescue:greenhouse:waymo:8364459": [
+{
+"note": "Staff implies significant experience required.",
+"senior": true
+},
+"2026-11-09"
 ],
 "rescue:greenhouse:wonderschool:7792214003": [
 {
@@ -46051,7 +46085,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 341
+"typical": 340
 },
 "Ai2": {
 "alerted": false,
@@ -46221,7 +46255,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 92,
+"streak": 93,
 "typical": 28
 },
 "Asana": {
@@ -46287,7 +46321,7 @@
 "Base Power": {
 "alerted": false,
 "streak": 0,
-"typical": 201
+"typical": 202
 },
 "Baseten": {
 "alerted": false,
@@ -46642,7 +46676,7 @@
 "Crunchyroll": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 103
 },
 "Crusoe": {
 "alerted": false,
@@ -46932,7 +46966,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 504,
+"streak": 505,
 "typical": 4
 },
 "Firstup": {
@@ -47088,7 +47122,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 87
+"typical": 88
 },
 "HackerOne": {
 "alerted": false,
@@ -47273,7 +47307,7 @@
 "Intel": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~111)",
-"streak": 39,
+"streak": 40,
 "typical": 111
 },
 "Intro": {
@@ -47569,7 +47603,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 100
 },
 "Mind Robotics": {
 "alerted": false,
@@ -47674,7 +47708,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 70,
+"streak": 71,
 "typical": 43
 },
 "Nash": {
@@ -47825,7 +47859,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 816
+"typical": 817
 },
 "OpenEvidence": {
 "alerted": false,
@@ -47850,7 +47884,7 @@
 "Optiver": {
 "alerted": false,
 "streak": 0,
-"typical": 155
+"typical": 154
 },
 "OpusClip": {
 "alerted": false,
@@ -48205,7 +48239,7 @@
 "Rillet": {
 "alerted": false,
 "streak": 0,
-"typical": 41
+"typical": 42
 },
 "Riot Games": {
 "alerted": false,
@@ -48360,7 +48394,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 436
+"typical": 435
 },
 "Sesame": {
 "alerted": false,
@@ -48375,7 +48409,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 121,
+"streak": 122,
 "typical": 690
 },
 "SiFive": {
@@ -48536,7 +48570,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 766
+"typical": 767
 },
 "Stuut": {
 "alerted": false,
@@ -49672,6 +49706,7 @@
 "ashby:base-power:8916f0b1-7852-4aa9-95ae-062aa71c8816": "2026-11-06",
 "ashby:base-power:8eb7e91c-2c5b-478b-b879-2319358a5e44": "2026-11-05",
 "ashby:base-power:90fceba7-4029-42e4-9e3c-cd8796f31087": "2026-11-06",
+"ashby:base-power:9ed279a2-a39d-4b75-bbee-bff898b448c3": "2026-11-09",
 "ashby:base-power:a2249db8-1ea6-4c55-b125-b7c9a0ff6986": "2026-11-06",
 "ashby:base-power:a2915462-a9de-49c7-9062-826f3405210f": "2026-11-06",
 "ashby:base-power:a6a0b404-9a59-40ca-a025-ed1577980612": "2026-11-04",
@@ -50932,6 +50967,7 @@
 "ashby:openai:5cc72bc7-e6a0-40e0-9f60-23474cd9acdb": "2026-11-05",
 "ashby:openai:5ceff3dd-3503-4ea0-9ade-eeb36b29f14e": "2026-11-04",
 "ashby:openai:5d40f698-176e-455f-a4fd-de2d8cfec044": "2026-11-02",
+"ashby:openai:5d5b2256-ee0f-4ba6-a983-d62d0d70515d": "2026-11-09",
 "ashby:openai:5d66a54f-ad89-4155-ac37-9dcd7d52db34": "2026-11-04",
 "ashby:openai:5ebf3a52-0023-484c-a0fd-75f6ec7483ca": "2026-10-29",
 "ashby:openai:5ef10e09-2b3f-41de-b77c-829787302101": "2026-10-21",
@@ -51415,6 +51451,7 @@
 "ashby:rev:84a4e7cc-f085-4a50-b553-d2cb6db3d973": "2026-10-28",
 "ashby:rillet:0a7b221a-5328-4285-bba0-63ea07e9464f": "2026-10-28",
 "ashby:rillet:34f78d78-2d29-4584-a961-3d4c4dede0c8": "2026-11-07",
+"ashby:rillet:3533eaa8-56d1-4df8-973e-4745fe1dcce0": "2026-11-09",
 "ashby:rillet:38145e67-5e04-462b-9436-e10b0a1f72d0": "2026-11-04",
 "ashby:rillet:ac1e39b8-c041-4014-8e0f-f71311608b39": "2026-10-30",
 "ashby:rillet:ec617346-238e-43d1-9d1c-7f682bb517c0": "2026-10-28",
@@ -60211,6 +60248,7 @@
 "greenhouse:waymo:8360600": "2026-11-06",
 "greenhouse:waymo:8363212": "2026-11-08",
 "greenhouse:waymo:8363213": "2026-11-08",
+"greenhouse:waymo:8364459": "2026-11-09",
 "greenhouse:wehrtyou:1229082": "2026-10-30",
 "greenhouse:wehrtyou:8324911": "2026-10-29",
 "greenhouse:wehrtyou:8337141": "2026-11-04",
@@ -62892,10 +62930,13 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346396": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346403": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346404": "2026-11-04",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346405": "2026-11-09",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346406": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346411": "2026-11-03",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346413": "2026-11-09",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346427": "2026-11-08",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346429": "2026-11-08",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346437": "2026-11-09",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346440": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346449": "2026-10-22",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346450": "2026-10-21",
@@ -70908,6 +70949,7 @@
 "workday:hpe:1217586-2": "2026-11-04",
 "workday:hpe:1217592-3": "2026-10-29",
 "workday:hpe:1217594": "2026-11-04",
+"workday:hpe:1217599-2": "2026-11-09",
 "workday:hpe:1217600-2": "2026-11-06",
 "workday:hpe:1217601-2": "2026-10-29",
 "workday:hpe:1217629-1": "2026-11-06",
@@ -82099,6 +82141,7 @@
 "base power|real estate analyst": "2026-11-05",
 "base power|regulatory compliance engineer": "2026-11-06",
 "base power|reliability test engineer": "2026-11-06",
+"base power|software engineer backend deployments": "2026-11-09",
 "base power|software engineer backend factory software": "2026-11-08",
 "base power|software engineer backend member software": "2026-11-08",
 "base power|supplier industrialization engineer": "2026-11-06",
@@ -83860,9 +83903,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 3,
+"calls": 7,
 "date": "2026-11-09",
-"usd": 0.000583
+"usd": 0.001197
 },
 "years": {
 "amazon:10583340": [
