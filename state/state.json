@@ -28127,6 +28127,13 @@
 },
 "2026-11-01"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:297033": [
+{
+"note": "Requires significant project management experience.",
+"senior": true
+},
+"2026-11-10"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:297333": [
 {
 "note": "Requires significant experience in architecture.",
@@ -50145,7 +50152,7 @@
 "Actian": {
 "alerted": false,
 "streak": 0,
-"typical": 3
+"typical": 5
 },
 "Activision Blizzard": {
 "alerted": false,
@@ -50275,7 +50282,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 677
+"typical": 676
 },
 "Anyscale": {
 "alerted": false,
@@ -50350,7 +50357,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 166,
+"streak": 167,
 "typical": 28
 },
 "Asana": {
@@ -50566,7 +50573,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 72
 },
 "Carta": {
 "alerted": false,
@@ -50656,7 +50663,7 @@
 "ClickHouse": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 200
 },
 "ClickUp": {
 "alerted": false,
@@ -50666,7 +50673,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 467
+"typical": 466
 },
 "Cloudinary": {
 "alerted": false,
@@ -50876,7 +50883,7 @@
 "DoorDash": {
 "alerted": false,
 "streak": 0,
-"typical": 436
+"typical": 437
 },
 "Doppel": {
 "alerted": false,
@@ -51011,7 +51018,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 22
 },
 "Extreme Networks": {
 "alerted": false,
@@ -51061,7 +51068,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 578,
+"streak": 579,
 "typical": 4
 },
 "Firstup": {
@@ -51212,7 +51219,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 49
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -51602,7 +51609,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 459
+"typical": 461
 },
 "Luma AI": {
 "alerted": false,
@@ -51637,7 +51644,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 39
 },
 "MatX": {
 "alerted": false,
@@ -51797,12 +51804,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 97
+"typical": 96
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 144,
+"streak": 145,
 "typical": 43
 },
 "Nash": {
@@ -51873,7 +51880,7 @@
 "Nexxen": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "Niantic Spatial": {
 "alerted": false,
@@ -52408,7 +52415,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 81
+"typical": 82
 },
 "Salient": {
 "alerted": false,
@@ -52503,7 +52510,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 195,
+"streak": 196,
 "typical": 690
 },
 "SiFive": {
@@ -52564,7 +52571,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 370
 },
 "SoFi": {
 "alerted": false,
@@ -53019,7 +53026,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 248
+"typical": 249
 },
 "Wingspan": {
 "alerted": false,
@@ -53044,7 +53051,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 22
 },
 "World Labs": {
 "alerted": false,
@@ -53059,7 +53066,7 @@
 "Wrike": {
 "alerted": false,
 "streak": 0,
-"typical": 59
+"typical": 60
 },
 "Yelp": {
 "alerted": false,
@@ -53109,7 +53116,7 @@
 "Zuora": {
 "alerted": false,
 "streak": 0,
-"typical": 35
+"typical": 36
 },
 "Zus Health": {
 "alerted": false,
@@ -53569,6 +53576,7 @@
 "amazon:10599946": "2026-11-09",
 "amazon:10599971": "2026-11-09",
 "amazon:10599972": "2026-11-09",
+"amazon:10600027": "2026-11-10",
 "amazon:10600170": "2026-11-09",
 "amazon:10600216": "2026-11-09",
 "amazon:10600252": "2026-11-09",
@@ -55133,6 +55141,7 @@
 "ashby:netgear:ff47de3c-5f0c-4edd-9bd4-79914af2b5ae": "2026-10-23",
 "ashby:nexxen:0240fa9a-f638-4870-9566-e3d0c812bbe1": "2026-10-28",
 "ashby:nexxen:09a869b5-336f-4f7e-a621-ccafc4c89df5": "2026-11-03",
+"ashby:nexxen:118640e4-5ec7-4817-9c65-2fcb931175f3": "2026-11-10",
 "ashby:nexxen:1397edc9-9139-43ec-baa6-51b404412f3a": "2026-10-21",
 "ashby:nexxen:19003371-354c-4da8-93d8-0d48fc832d9d": "2026-10-20",
 "ashby:nexxen:34d3c0c6-5915-471b-8034-fa8ce6c2d555": "2026-10-21",
@@ -61166,6 +61175,7 @@
 "greenhouse:databricks:8847747002": "2026-11-02",
 "greenhouse:databricks:8851976002": "2026-11-03",
 "greenhouse:databricks:8855539002": "2026-10-21",
+"greenhouse:databricks:8855879002": "2026-11-10",
 "greenhouse:databricks:8859518002": "2026-10-29",
 "greenhouse:databricks:8860646002": "2026-10-30",
 "greenhouse:databricks:8860657002": "2026-10-19",
@@ -61440,6 +61450,7 @@
 "greenhouse:doordashusa:8367293": "2026-11-09",
 "greenhouse:doordashusa:8367968": "2026-11-09",
 "greenhouse:doordashusa:8368010": "2026-11-09",
+"greenhouse:doordashusa:8371205": "2026-11-10",
 "greenhouse:doppel:4457597009": "2026-10-28",
 "greenhouse:doppel:4460100009": "2026-10-28",
 "greenhouse:doppel:4462547009": "2026-10-28",
@@ -62401,6 +62412,7 @@
 "greenhouse:lucidmotors:5284608007": "2026-11-05",
 "greenhouse:lucidmotors:5285947007": "2026-11-10",
 "greenhouse:lucidmotors:5285949007": "2026-11-10",
+"greenhouse:lucidmotors:5285953007": "2026-11-10",
 "greenhouse:lucidmotors:5285955007": "2026-11-10",
 "greenhouse:lucidmotors:5286411007": "2026-11-05",
 "greenhouse:lucidmotors:5287004007": "2026-11-06",
@@ -62413,6 +62425,7 @@
 "greenhouse:lucidmotors:5287860007": "2026-11-06",
 "greenhouse:lucidmotors:5287942007": "2026-11-06",
 "greenhouse:lucidmotors:5289659007": "2026-11-09",
+"greenhouse:lucidmotors:5290639007": "2026-11-10",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -65553,6 +65566,7 @@
 "greenhouse:zuora:8302183": "2026-10-23",
 "greenhouse:zuora:8302895": "2026-10-27",
 "greenhouse:zuora:8302897": "2026-10-20",
+"greenhouse:zuora:8312132": "2026-11-10",
 "greenhouse:zuora:8312134": "2026-11-03",
 "greenhouse:zuora:8325518": "2026-10-29",
 "greenhouse:zuora:8353313": "2026-11-05",
@@ -67077,7 +67091,9 @@
 "lever:acceldata:5c7ab303-e504-4d13-9bb0-f90181dbc5cb": "2026-10-29",
 "lever:acceldata:5ccb4d08-ba03-416c-82d4-38f253df4e6c": "2026-11-06",
 "lever:acceldata:c1d6cc81-a14e-4663-aac3-2ac21e8d2172": "2026-10-29",
+"lever:actian:4e180b28-4497-4530-928a-43992a6a5cb4": "2026-11-10",
 "lever:actian:6a4be1e2-adae-436d-9870-b6bf5c501fd7": "2026-11-10",
+"lever:actian:dcb6a1c0-b40b-401f-a214-0c7cf7ee6009": "2026-11-10",
 "lever:agiloft:06e4a583-b6de-4427-810d-e87eea09a257": "2026-10-23",
 "lever:agiloft:0ccb411f-b7ab-4fec-a26a-2b55da3bfb2a": "2026-10-26",
 "lever:agiloft:1ac1e749-74bf-419c-96eb-beb00cc2eb39": "2026-11-03",
@@ -67414,6 +67430,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25014493": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25015861": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25015887": "2026-11-06",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25016335": "2026-11-10",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25016391": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25016393": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25016442": "2026-10-29",
@@ -69181,6 +69198,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:296770": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:296967": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:297030": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:297033": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:297038": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:297148": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:297333": "2026-11-03",
@@ -69189,6 +69207,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:297379": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:297383": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:297421": "2026-11-06",
+"oracle_hcm:enterpriseplatform.dell.com:297455": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:297459": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:297494": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:297513": "2026-11-05",
@@ -69238,6 +69257,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:299698": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:299704": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:299708": "2026-11-06",
+"oracle_hcm:enterpriseplatform.dell.com:299712": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:299716": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:299721": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:299722": "2026-11-03",
@@ -69347,6 +69367,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:301533": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301552": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:301562": "2026-11-10",
+"oracle_hcm:enterpriseplatform.dell.com:301568": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301570": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301571": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301572": "2026-11-10",
@@ -75240,6 +75261,7 @@
 "workday:capitalone:R1005268-1": "2026-11-05",
 "workday:capitalone:R1005277-1": "2026-11-09",
 "workday:capitalone:R1005283-1": "2026-11-05",
+"workday:capitalone:R1005287-2": "2026-11-10",
 "workday:capitalone:R1005294-1": "2026-11-06",
 "workday:capitalone:R1005300-2": "2026-11-06",
 "workday:capitalone:R1005305": "2026-11-06",
@@ -75771,6 +75793,7 @@
 "workday:expedia:R-111164": "2026-11-06",
 "workday:expedia:R-111165": "2026-11-04",
 "workday:expedia:R-111193": "2026-11-07",
+"workday:expedia:R-111222": "2026-11-10",
 "workday:expedia:R-96352": "2026-11-02",
 "workday:expedia:R-99623": "2026-10-29",
 "workday:hp:3141247": "2026-10-26",
@@ -76137,6 +76160,7 @@
 "workday:hp:3169867-1": "2026-10-21",
 "workday:hp:3169874-1": "2026-10-21",
 "workday:hp:3169877-1": "2026-10-21",
+"workday:hp:3169889-1": "2026-11-10",
 "workday:hp:3169894-1": "2026-10-27",
 "workday:hp:3169909-1": "2026-10-22",
 "workday:hp:3169911-1": "2026-10-27",
@@ -78459,6 +78483,7 @@
 "workday:mastercard:R-294070": "2026-10-30",
 "workday:mastercard:R-294075": "2026-10-29",
 "workday:mastercard:R-294076": "2026-11-04",
+"workday:mastercard:R-294077": "2026-11-10",
 "workday:mastercard:R-294078": "2026-11-06",
 "workday:mastercard:R-294084": "2026-10-30",
 "workday:mastercard:R-294085": "2026-10-29",
@@ -84455,6 +84480,7 @@
 "workday:salesforce:JR367834": "2026-11-10",
 "workday:salesforce:JR367837": "2026-11-10",
 "workday:salesforce:JR367847-1": "2026-11-10",
+"workday:salesforce:JR367859": "2026-11-10",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
@@ -86237,6 +86263,7 @@
 "workday:wf:R-575416": "2026-10-29",
 "workday:wf:R-575558": "2026-11-04",
 "workday:wf:R-575561": "2026-10-30",
+"workday:wf:R-575564": "2026-11-10",
 "workday:wf:R-575653": "2026-10-29",
 "workday:wf:R-575725": "2026-11-05",
 "workday:wf:R-575730": "2026-10-29",
@@ -88190,6 +88217,7 @@
 "workday:workday:JR-0111298": "2026-11-03",
 "workday:workday:JR-0111299": "2026-11-06",
 "workday:workday:JR-0111310-1": "2026-11-06",
+"workday:workday:JR-0111315": "2026-11-10",
 "workday:workday:JR-0111322": "2026-11-05",
 "workday:workday:JR-0111323": "2026-11-02",
 "workday:workday:JR-0111324": "2026-11-02",
@@ -88213,6 +88241,7 @@
 "workday:workday:JR-0111473": "2026-11-06",
 "workday:workday:JR-0111490": "2026-11-06",
 "workday:workday:JR-0111499": "2026-11-07",
+"workday:workday:JR-0111506": "2026-11-10",
 "workday:workday:JR-0111511": "2026-11-09",
 "workday:workday:JR-0111542": "2026-11-10",
 "workday:workday:JR-IC-000019-1": "2026-11-04",
@@ -90774,9 +90803,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 205,
+"calls": 206,
 "date": "2026-11-10",
-"usd": 0.021973
+"usd": 0.022039
 },
 "years": {
 "amazon:10583340": [
