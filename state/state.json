@@ -2710,6 +2710,16 @@
 },
 "2026-11-10"
 ],
+"amazon:10600836|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-10"
+],
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30|v3|73908d": [
 {
 "chance": 2,
@@ -15099,6 +15109,13 @@
 "senior": true
 },
 "2026-11-09"
+],
+"rescue:ashby:mercor:76f19dab-be4a-4e1b-9971-3b3372666a05": [
+{
+"note": "Requires significant expertise in AI.",
+"senior": true
+},
+"2026-11-10"
 ],
 "rescue:ashby:mercor:a0c11121-8ffd-4c1d-9faf-bcdb9e8ca481": [
 {
@@ -28148,6 +28165,13 @@
 },
 "2026-11-10"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:301818": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-10"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:301849": [
 {
 "note": "Requires significant experience and expertise.",
@@ -28158,6 +28182,13 @@
 "rescue:oracle_hcm:enterpriseplatform.dell.com:301953": [
 {
 "note": "Requires significant experience and expertise.",
+"senior": true
+},
+"2026-11-10"
+],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:301957": [
+{
+"note": "Principal roles typically require extensive experience.",
 "senior": true
 },
 "2026-11-10"
@@ -49687,7 +49718,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 359
+"typical": 358
 },
 "Ai2": {
 "alerted": false,
@@ -49857,7 +49888,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 152,
+"streak": 153,
 "typical": 28
 },
 "Asana": {
@@ -50568,7 +50599,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 564,
+"streak": 565,
 "typical": 4
 },
 "Firstup": {
@@ -51174,7 +51205,7 @@
 "Mercor": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 87
 },
 "Mercury Technologies": {
 "alerted": false,
@@ -51259,7 +51290,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 374
+"typical": 375
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -51309,7 +51340,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 130,
+"streak": 131,
 "typical": 43
 },
 "Nash": {
@@ -51350,7 +51381,7 @@
 "Netradyne": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 41
 },
 "Netskope": {
 "alerted": false,
@@ -51460,7 +51491,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 824
+"typical": 825
 },
 "OpenEvidence": {
 "alerted": false,
@@ -51635,7 +51666,7 @@
 "Pinterest": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 171
 },
 "Plaid": {
 "alerted": false,
@@ -51915,7 +51946,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 113
+"typical": 112
 },
 "Salient": {
 "alerted": false,
@@ -52010,7 +52041,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 181,
+"streak": 182,
 "typical": 690
 },
 "SiFive": {
@@ -52026,7 +52057,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3212
+"typical": 3211
 },
 "Simular": {
 "alerted": false,
@@ -52071,7 +52102,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 370
+"typical": 371
 },
 "SoFi": {
 "alerted": false,
@@ -52656,7 +52687,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 301
+"typical": 302
 }
 },
 "seen": {
@@ -53091,6 +53122,7 @@
 "amazon:10600714": "2026-11-10",
 "amazon:10600790": "2026-11-10",
 "amazon:10600812": "2026-11-10",
+"amazon:10600836": "2026-11-10",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
 "ashby:1x:2525aec5-28d6-42b2-b4a9-e522a3273965": "2026-11-04",
 "ashby:1x:4cb3ef10-8755-4050-b5f1-309591626d1c": "2026-10-30",
@@ -54502,6 +54534,7 @@
 "ashby:mercor:58d4f15f-1351-49b9-a771-c2d3b9bf70b5": "2026-10-28",
 "ashby:mercor:5ece408b-0741-4917-a3f7-27d5acb25d57": "2026-11-04",
 "ashby:mercor:6d1de461-c08d-419c-96cf-ed38083e0976": "2026-11-09",
+"ashby:mercor:76f19dab-be4a-4e1b-9971-3b3372666a05": "2026-11-10",
 "ashby:mercor:799ecfcc-4258-4075-8b11-12fc64fb2868": "2026-10-27",
 "ashby:mercor:80d93e24-45a7-454e-9010-b55cb20c210e": "2026-11-05",
 "ashby:mercor:861df396-2508-4ede-97b8-51a85bbc98e2": "2026-11-03",
@@ -54753,6 +54786,7 @@
 "ashby:openai:1a607736-8631-4fd9-a1a9-f790318d12d2": "2026-11-09",
 "ashby:openai:1bdc3943-94e8-4479-b1ee-9e2c903a5487": "2026-10-21",
 "ashby:openai:1d386acc-5fe0-44ed-b288-a6b1b891c9a8": "2026-10-29",
+"ashby:openai:1da72072-cf6e-4f5c-acbf-d4f2a2a74612": "2026-11-10",
 "ashby:openai:1dddc3d3-00d5-4b19-a321-a8d00720f543": "2026-11-09",
 "ashby:openai:1eb6ef0f-0e51-46d3-b888-c1a4c22c190a": "2026-10-22",
 "ashby:openai:1f148786-2e00-472a-96b9-0b29015980e1": "2026-10-20",
@@ -55824,6 +55858,7 @@
 "ashby:snowflake:c9ce6380-f9e3-48a5-90a7-17a1722904e0": "2026-11-06",
 "ashby:snowflake:cc9171ca-56b9-4478-a11b-58405beaf97d": "2026-11-03",
 "ashby:snowflake:ce0b7fb7-c38f-486a-aeb6-d70c26f99b03": "2026-11-06",
+"ashby:snowflake:d08054aa-4357-4eb5-b8ac-a0e97982fbc6": "2026-11-10",
 "ashby:snowflake:d2089f20-d05d-40e5-8b3b-c3047184cf24": "2026-10-20",
 "ashby:snowflake:d23bc607-27d8-48a9-8c12-a455b3c6a820": "2026-10-30",
 "ashby:snowflake:d3d801b9-74a5-4e58-9d8f-1e2a79b22890": "2026-10-19",
@@ -57107,6 +57142,7 @@
 "eightfold:lamresearch.com:1099556860910": "2026-10-29",
 "eightfold:lamresearch.com:1099556860914": "2026-10-29",
 "eightfold:lamresearch.com:1099556885858": "2026-11-05",
+"eightfold:lamresearch.com:1099556886163": "2026-11-10",
 "eightfold:lamresearch.com:1099556887904": "2026-11-02",
 "eightfold:lamresearch.com:1099556888094": "2026-11-02",
 "eightfold:lamresearch.com:1099556891569": "2026-11-03",
@@ -61972,6 +62008,7 @@
 "greenhouse:mongodb:8229848": "2026-10-29",
 "greenhouse:mongodb:8233734": "2026-11-04",
 "greenhouse:mongodb:8234586": "2026-11-06",
+"greenhouse:mongodb:8236734": "2026-11-10",
 "greenhouse:mongodb:8259884": "2026-11-09",
 "greenhouse:mongodb:8262052": "2026-10-30",
 "greenhouse:mongodb:8274035": "2026-11-05",
@@ -62832,6 +62869,7 @@
 "greenhouse:pdtpartners:8336807": "2026-10-30",
 "greenhouse:pindropsecurity:8328776": "2026-10-29",
 "greenhouse:pindropsecurity:8352212": "2026-11-06",
+"greenhouse:pinterest:7683734": "2026-11-10",
 "greenhouse:pinterest:7685466": "2026-10-29",
 "greenhouse:pinterest:8015362": "2026-10-28",
 "greenhouse:pinterest:8016646": "2026-11-02",
@@ -63090,6 +63128,7 @@
 "greenhouse:purestorage:8354256": "2026-11-09",
 "greenhouse:purestorage:8354289": "2026-11-09",
 "greenhouse:purestorage:8354506": "2026-11-09",
+"greenhouse:purestorage:8354970": "2026-11-10",
 "greenhouse:purestorage:8355204": "2026-11-05",
 "greenhouse:purestorage:8355255": "2026-11-06",
 "greenhouse:purestorage:8356036": "2026-11-05",
@@ -64795,6 +64834,7 @@
 "greenhouse:xai:5288098007": "2026-11-08",
 "greenhouse:xai:5289470007": "2026-11-09",
 "greenhouse:xai:5290149007": "2026-11-09",
+"greenhouse:xai:5290235007": "2026-11-10",
 "greenhouse:zoominfo:8687545002": "2026-10-29",
 "greenhouse:zoominfo:8786496002": "2026-10-29",
 "greenhouse:zoominfo:8876070002": "2026-10-29",
@@ -67010,6 +67050,8 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24582": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24619": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24625": "2026-10-29",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24631": "2026-11-10",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24632": "2026-11-10",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24635": "2026-11-02",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24650": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24682": "2026-11-02",
@@ -67028,6 +67070,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24769": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24773": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24774": "2026-10-29",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24780": "2026-11-10",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24783": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24784": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24787": "2026-10-29",
@@ -68761,10 +68804,12 @@
 "oracle_hcm:enterpriseplatform.dell.com:301800": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:301812": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301815": "2026-11-10",
+"oracle_hcm:enterpriseplatform.dell.com:301818": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301824": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:301849": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:301873": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:301953": "2026-11-10",
+"oracle_hcm:enterpriseplatform.dell.com:301957": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301985": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:301993": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:302049": "2026-10-30",
@@ -76728,6 +76773,7 @@
 "workday:intel:JR0288402": "2026-10-22",
 "workday:intel:JR0288403": "2026-10-22",
 "workday:intel:JR0288405": "2026-10-23",
+"workday:intel:JR0288406": "2026-11-10",
 "workday:intel:JR0288407": "2026-10-27",
 "workday:intel:JR0288408": "2026-10-23",
 "workday:intel:JR0288409": "2026-10-23",
@@ -77027,6 +77073,7 @@
 "workday:intel:JR0289043": "2026-11-06",
 "workday:intel:JR0289057": "2026-11-10",
 "workday:intel:JR0289058": "2026-11-09",
+"workday:intel:JR0289064": "2026-11-10",
 "workday:intel:JR0289091": "2026-11-10",
 "workday:kla:2530503": "2026-10-20",
 "workday:kla:2633993": "2026-10-20",
@@ -87022,6 +87069,7 @@
 "workday:wf:R-586165": "2026-11-05",
 "workday:wf:R-586167": "2026-11-05",
 "workday:wf:R-586173": "2026-11-09",
+"workday:wf:R-586177": "2026-11-10",
 "workday:wf:R-586181": "2026-11-06",
 "workday:wf:R-586182": "2026-11-05",
 "workday:wf:R-586187": "2026-11-05",
@@ -87672,6 +87720,7 @@
 "amazon|embedded software development engineer ii aws hardware engineering services": "2026-10-20",
 "amazon|embedded software engineer ec2 nitro networking ec2 nitro networking": "2026-10-21",
 "amazon|embedded software engineer leo payload radio": "2026-11-03",
+"amazon|embedded software engineer merlin platform": "2026-11-10",
 "amazon|frontend engineer ai business automation prime video": "2026-10-27",
 "amazon|hardware development engineer 1 drone engineering": "2026-10-31",
 "amazon|jr software development engineer detroit mi jr developer program": "2026-10-22",
@@ -90016,9 +90065,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 144,
+"calls": 148,
 "date": "2026-11-10",
-"usd": 0.01489
+"usd": 0.015265
 },
 "years": {
 "amazon:10583340": [
