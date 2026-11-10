@@ -28393,6 +28393,13 @@
 },
 "2026-11-06"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:301755": [
+{
+"note": "Requires significant experience and expertise.",
+"senior": true
+},
+"2026-11-10"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:301759": [
 {
 "note": "Requires significant experience and expertise.",
@@ -47234,6 +47241,16 @@
 },
 "2026-11-02"
 ],
+"workday:micron:JR109985|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads with relevant degree and skills",
+"us_ok": true
+},
+"2026-11-10"
+],
 "workday:micron:JR110442|v3|73908d": [
 {
 "chance": 7,
@@ -50194,7 +50211,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2579
+"typical": 2574
 },
 "AngelList": {
 "alerted": false,
@@ -50284,7 +50301,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 162,
+"streak": 163,
 "typical": 28
 },
 "Asana": {
@@ -50995,7 +51012,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 574,
+"streak": 575,
 "typical": 4
 },
 "Firstup": {
@@ -51011,7 +51028,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 171
+"typical": 170
 },
 "Flexport": {
 "alerted": false,
@@ -51146,12 +51163,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 66
+"typical": 68
 },
 "HackerOne": {
 "alerted": false,
@@ -51336,7 +51353,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 55
 },
 "Intro": {
 "alerted": false,
@@ -51546,7 +51563,7 @@
 "Lumentum": {
 "alerted": false,
 "streak": 0,
-"typical": 10
+"typical": 11
 },
 "Lyft": {
 "alerted": false,
@@ -51626,7 +51643,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 81
+"typical": 82
 },
 "Microsoft": {
 "alerted": false,
@@ -51731,12 +51748,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 97
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 140,
+"streak": 141,
 "typical": 43
 },
 "Nash": {
@@ -52147,7 +52164,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 372
 },
 "Pylon": {
 "alerted": false,
@@ -52337,12 +52354,12 @@
 "SafeBreach": {
 "alerted": false,
 "streak": 0,
-"typical": 8
+"typical": 7
 },
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 76
 },
 "Salient": {
 "alerted": false,
@@ -52437,7 +52454,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 191,
+"streak": 192,
 "typical": 690
 },
 "SiFive": {
@@ -52453,7 +52470,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3220
+"typical": 3222
 },
 "Simular": {
 "alerted": false,
@@ -52533,7 +52550,7 @@
 "Sony Interactive (PlayStation)": {
 "alerted": false,
 "streak": 0,
-"typical": 228
+"typical": 229
 },
 "Sourcegraph": {
 "alerted": false,
@@ -52698,7 +52715,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 120
 },
 "Terranova": {
 "alerted": false,
@@ -52918,7 +52935,7 @@
 "WalkMe": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 25
 },
 "Walleye Capital": {
 "alerted": false,
@@ -52993,7 +53010,7 @@
 "Wrike": {
 "alerted": false,
 "streak": 0,
-"typical": 57
+"typical": 59
 },
 "Yelp": {
 "alerted": false,
@@ -53058,7 +53075,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 9
+"typical": 11
 },
 "fal": {
 "alerted": false,
@@ -53510,6 +53527,7 @@
 "amazon:10600441": "2026-11-09",
 "amazon:10600458": "2026-11-09",
 "amazon:10600471": "2026-11-09",
+"amazon:10600478": "2026-11-10",
 "amazon:10600526": "2026-11-09",
 "amazon:10600530": "2026-11-09",
 "amazon:10600537": "2026-11-09",
@@ -64533,6 +64551,7 @@
 "greenhouse:sonyinteractiveentertainmentglobal:6241732004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6241733004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6241763004": "2026-11-06",
+"greenhouse:sonyinteractiveentertainmentglobal:6241769004": "2026-11-10",
 "greenhouse:sonyinteractiveentertainmentglobal:6242592004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6242628004": "2026-11-03",
 "greenhouse:sonyinteractiveentertainmentglobal:6248628004": "2026-11-04",
@@ -66976,6 +66995,7 @@
 "jibe:jobs.booking.com:30571": "2026-11-03",
 "jibe:jobs.booking.com:30572": "2026-10-29",
 "jibe:jobs.booking.com:30573": "2026-11-04",
+"jibe:jobs.booking.com:30577": "2026-11-10",
 "jibe:jobs.booking.com:30579": "2026-10-29",
 "jibe:jobs.booking.com:30583": "2026-10-29",
 "jibe:jobs.booking.com:30585": "2026-11-09",
@@ -66996,6 +67016,7 @@
 "jibe:jobs.booking.com:30663": "2026-11-04",
 "jibe:jobs.booking.com:30665": "2026-11-03",
 "jibe:jobs.booking.com:30677": "2026-11-04",
+"jibe:jobs.booking.com:30711": "2026-11-10",
 "lever:acceldata:5c7ab303-e504-4d13-9bb0-f90181dbc5cb": "2026-10-29",
 "lever:acceldata:5ccb4d08-ba03-416c-82d4-38f253df4e6c": "2026-11-06",
 "lever:acceldata:c1d6cc81-a14e-4663-aac3-2ac21e8d2172": "2026-10-29",
@@ -69282,6 +69303,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:301750": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301751": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301754": "2026-11-04",
+"oracle_hcm:enterpriseplatform.dell.com:301755": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301759": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301760": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301761": "2026-11-10",
@@ -75422,6 +75444,7 @@
 "workday:cisco:2030760": "2026-11-06",
 "workday:ebay:R0069197": "2026-11-04",
 "workday:ebay:R0072023-1": "2026-10-29",
+"workday:ebay:R0072671": "2026-11-10",
 "workday:ebay:R0073045": "2026-10-29",
 "workday:ebay:R0073767": "2026-11-03",
 "workday:ebay:R0073827-1": "2026-10-29",
@@ -75465,6 +75488,7 @@
 "workday:ebay:R0076721": "2026-11-06",
 "workday:ebay:R0076879": "2026-11-03",
 "workday:ebay:R0076887": "2026-11-05",
+"workday:ebay:R0076891": "2026-11-10",
 "workday:ebay:R0076922": "2026-11-05",
 "workday:ebay:R0076925": "2026-10-30",
 "workday:ebay:R0076963": "2026-10-29",
@@ -76082,6 +76106,7 @@
 "workday:hp:3170083": "2026-10-28",
 "workday:hp:3170086": "2026-10-27",
 "workday:hp:3170090-1": "2026-10-20",
+"workday:hp:3170093-1": "2026-11-10",
 "workday:hp:3170098-2": "2026-11-06",
 "workday:hp:3170101-1": "2026-11-03",
 "workday:hp:3170114": "2026-10-26",
@@ -76711,6 +76736,7 @@
 "workday:hpe:1216684": "2026-11-05",
 "workday:hpe:1216735": "2026-10-29",
 "workday:hpe:1216747": "2026-10-29",
+"workday:hpe:1216748": "2026-11-10",
 "workday:hpe:1216757": "2026-10-29",
 "workday:hpe:1216765": "2026-10-29",
 "workday:hpe:1216771": "2026-10-29",
@@ -77578,6 +77604,7 @@
 "workday:intel:JR0288955": "2026-11-07",
 "workday:intel:JR0288956": "2026-11-07",
 "workday:intel:JR0288958": "2026-11-07",
+"workday:intel:JR0288959": "2026-11-10",
 "workday:intel:JR0288961": "2026-11-05",
 "workday:intel:JR0288962": "2026-11-09",
 "workday:intel:JR0288965": "2026-11-05",
@@ -77726,6 +77753,7 @@
 "workday:lumentum:20261114": "2026-11-04",
 "workday:lumentum:20261117": "2026-10-29",
 "workday:lumentum:20261220": "2026-10-29",
+"workday:lumentum:20261235": "2026-11-10",
 "workday:lumentum:20261245": "2026-10-29",
 "workday:lumentum:2026125": "2026-11-10",
 "workday:lumentum:20261257": "2026-11-09",
@@ -79472,6 +79500,7 @@
 "workday:micron:JR109939": "2026-10-23",
 "workday:micron:JR109940": "2026-10-23",
 "workday:micron:JR109941": "2026-10-23",
+"workday:micron:JR109985": "2026-11-10",
 "workday:micron:JR110012": "2026-10-23",
 "workday:micron:JR110080-1": "2026-10-23",
 "workday:micron:JR110081": "2026-10-23",
@@ -81596,6 +81625,7 @@
 "workday:nvidia:JR2024747": "2026-10-31",
 "workday:nvidia:JR2024774": "2026-10-31",
 "workday:nvidia:JR2024798": "2026-10-21",
+"workday:nvidia:JR2024804": "2026-11-10",
 "workday:nvidia:JR2024816": "2026-10-19",
 "workday:nvidia:JR2024818": "2026-11-06",
 "workday:nvidia:JR2024825-1": "2026-10-21",
@@ -89633,6 +89663,7 @@
 "micron|new college grad process integration engineer": "2026-10-27",
 "micron|new college grad product applications engineer": "2026-10-28",
 "micron|new college grad product manager hbm": "2026-10-26",
+"micron|new college grad product test engineer": "2026-11-10",
 "micron|new college grad product yield enhancement engineer": "2026-11-05",
 "micron|new college grad r2r fab engineer": "2026-10-20",
 "micron|new college grad rda ooc engineer": "2026-10-20",
@@ -90657,9 +90688,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 196,
+"calls": 198,
 "date": "2026-11-10",
-"usd": 0.021203
+"usd": 0.021493
 },
 "years": {
 "amazon:10583340": [
