@@ -4680,6 +4680,16 @@
 },
 "2026-10-21"
 ],
+"ashby:openai:ead83ff6-7a58-43dd-b7da-b85e7ddd679c|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Role targets new grads; hands-on experience preferred.",
+"us_ok": true
+},
+"2026-11-10"
+],
 "ashby:openrouter:3c898169-0219-4214-9c4c-c5cff7b85a30|v3|73908d": [
 {
 "chance": 1,
@@ -37372,6 +37382,13 @@
 },
 "2026-10-27"
 ],
+"rescue:workday:nvidia:JR2016349": [
+{
+"note": "Requires significant technical expertise.",
+"senior": true
+},
+"2026-11-10"
+],
 "rescue:workday:nvidia:JR2016645": [
 {
 "note": "Early-in-career position available.",
@@ -38512,6 +38529,13 @@
 "senior": true
 },
 "2026-11-06"
+],
+"rescue:workday:nvidia:JR2029455": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-10"
 ],
 "rescue:workday:nvidia:JR2029543": [
 {
@@ -49033,7 +49057,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 356
+"typical": 355
 },
 "Ai2": {
 "alerted": false,
@@ -49113,7 +49137,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2580
+"typical": 2579
 },
 "AngelList": {
 "alerted": false,
@@ -49128,7 +49152,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 674
+"typical": 675
 },
 "Anyscale": {
 "alerted": false,
@@ -49203,7 +49227,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 145,
+"streak": 146,
 "typical": 28
 },
 "Asana": {
@@ -49519,7 +49543,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 465
+"typical": 464
 },
 "Cloudinary": {
 "alerted": false,
@@ -49864,7 +49888,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 31
 },
 "Extreme Networks": {
 "alerted": false,
@@ -49914,7 +49938,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 557,
+"streak": 558,
 "typical": 4
 },
 "Firstup": {
@@ -50070,7 +50094,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 95
+"typical": 96
 },
 "HackerOne": {
 "alerted": false,
@@ -50455,7 +50479,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 453
+"typical": 452
 },
 "Luma AI": {
 "alerted": false,
@@ -50465,7 +50489,7 @@
 "Lumentum": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Lyft": {
 "alerted": false,
@@ -50545,12 +50569,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 128
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 120
 },
 "Mind Robotics": {
 "alerted": false,
@@ -50650,12 +50674,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 154
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 123,
+"streak": 124,
 "typical": 43
 },
 "Nash": {
@@ -50796,7 +50820,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 348
+"typical": 347
 },
 "Ooma": {
 "alerted": false,
@@ -50806,7 +50830,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 824
+"typical": 825
 },
 "OpenEvidence": {
 "alerted": false,
@@ -51311,7 +51335,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 169
 },
 "Scality": {
 "alerted": false,
@@ -51356,7 +51380,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 174,
+"streak": 175,
 "typical": 690
 },
 "SiFive": {
@@ -51372,7 +51396,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3227
+"typical": 3221
 },
 "Simular": {
 "alerted": false,
@@ -51827,7 +51851,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 36
 },
 "Viz Media": {
 "alerted": false,
@@ -52578,6 +52602,7 @@
 "ashby:apex-technology-inc:e19b73ae-5161-478b-85e5-472375041ab3": "2026-10-29",
 "ashby:apex-technology-inc:e90dcba6-16c4-4f23-9008-e7f9e84003fb": "2026-10-29",
 "ashby:apex-technology-inc:ee2beae4-a64a-485a-8164-650fc75b7c51": "2026-10-29",
+"ashby:apex-technology-inc:f228117c-377b-448c-a119-f6ab7a803bf1": "2026-11-10",
 "ashby:apex-technology-inc:f6f8e12a-abd1-4b0a-accd-7566a07036ca": "2026-10-29",
 "ashby:apex-technology-inc:f8dec309-9e51-49a5-afc2-aef5314d03a8": "2026-11-06",
 "ashby:apex-technology-inc:f909dca4-a74a-4f14-96ff-789880ede8c8": "2026-11-02",
@@ -54295,6 +54320,7 @@
 "ashby:openai:e74c8ec3-3317-4fea-bb66-703dc2d55a51": "2026-11-02",
 "ashby:openai:e99105f1-0a15-4f25-9538-60312568f835": "2026-10-21",
 "ashby:openai:e99a7881-e30a-40b4-849d-b039004d11ed": "2026-11-09",
+"ashby:openai:ead83ff6-7a58-43dd-b7da-b85e7ddd679c": "2026-11-10",
 "ashby:openai:eb112d35-cd7e-45a4-8633-5d7ade298a39": "2026-10-21",
 "ashby:openai:eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb": "2026-11-09",
 "ashby:openai:ec0aa7c7-8995-4e01-9939-594a94549f85": "2026-10-30",
@@ -59063,6 +59089,7 @@
 "greenhouse:anthropic:5474544008": "2026-11-06",
 "greenhouse:anthropic:5474559008": "2026-11-07",
 "greenhouse:anthropic:5475099008": "2026-11-09",
+"greenhouse:anthropic:5475150008": "2026-11-10",
 "greenhouse:anthropic:5475156008": "2026-11-09",
 "greenhouse:anthropic:5475240008": "2026-11-06",
 "greenhouse:anthropic:5475321008": "2026-11-07",
@@ -64390,6 +64417,7 @@
 "jibe:careers.amd.com:93019": "2026-10-23",
 "jibe:careers.amd.com:93022": "2026-10-21",
 "jibe:careers.amd.com:93036": "2026-11-09",
+"jibe:careers.amd.com:93065": "2026-11-10",
 "jibe:careers.amd.com:93074": "2026-11-02",
 "jibe:careers.amd.com:93108": "2026-10-20",
 "jibe:careers.amd.com:93156": "2026-10-28",
@@ -64847,6 +64875,7 @@
 "jibe:careers.amd.com:97435": "2026-11-09",
 "jibe:careers.amd.com:97440": "2026-11-06",
 "jibe:careers.amd.com:97455": "2026-11-06",
+"jibe:careers.amd.com:97467": "2026-11-10",
 "jibe:careers.amd.com:97759": "2026-11-09",
 "jibe:careers.docusign.com:28780": "2026-11-03",
 "jibe:careers.docusign.com:29549": "2026-10-29",
@@ -64974,6 +65003,7 @@
 "jibe:careers.keysight.com:54117": "2026-10-27",
 "jibe:careers.keysight.com:54119": "2026-11-05",
 "jibe:careers.keysight.com:54167": "2026-11-06",
+"jibe:careers.keysight.com:54168": "2026-11-10",
 "jibe:careers.keysight.com:54191": "2026-10-22",
 "jibe:careers.keysight.com:54249": "2026-10-20",
 "jibe:careers.keysight.com:54263": "2026-11-05",
@@ -68173,6 +68203,9 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302418": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302446": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302450": "2026-11-05",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302451": "2026-11-10",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302452": "2026-11-10",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302454": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302457": "2026-10-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302459": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:302466": "2026-10-21",
@@ -68454,6 +68487,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303946": "2026-10-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303948": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303949": "2026-11-04",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303950": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303954": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303959": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:303960": "2026-10-22",
@@ -68734,6 +68768,7 @@
 "simplify:127a5559-bb27-46e6-b6a9-0c528db45dc5": "2026-11-04",
 "simplify:127bc03f-ece8-439b-afc6-f12063bfd838": "2026-10-23",
 "simplify:12b37514-55d3-4d2b-889d-499ef0584772": "2026-10-27",
+"simplify:12e1fe90-2686-45e5-a2cb-28ea043f4489": "2026-11-10",
 "simplify:12f465cd-dc85-4295-9c43-b98d11567815": "2026-11-05",
 "simplify:1359fcef-d982-4e1f-8f71-538002067263": "2026-11-05",
 "simplify:1376d78c-ace4-4a31-994c-9853b8444463": "2026-11-03",
@@ -69630,6 +69665,7 @@
 "simplify:de4b6392-8af5-4df9-8875-82c50964fa98": "2026-10-21",
 "simplify:de6d9257-4392-4f79-ae24-69394af73162": "2026-10-19",
 "simplify:de9a9ad9-6f04-4abe-91d6-e8d89c552e48": "2026-11-03",
+"simplify:ded112bd-4f5e-4d89-b639-f9d2c4bb02f8": "2026-11-10",
 "simplify:dede37bf-07c6-40e1-9c50-541b1cb5d7d1": "2026-11-02",
 "simplify:dee014fe-0e7c-46bd-bc12-4da1d303b633": "2026-10-21",
 "simplify:df1715c7-c4ca-4ad5-ba8f-c81d18ad7449": "2026-10-28",
@@ -74970,6 +75006,7 @@
 "workday:hpe:1215471": "2026-10-29",
 "workday:hpe:1215474-2": "2026-10-29",
 "workday:hpe:1215476-2": "2026-10-29",
+"workday:hpe:1215481-2": "2026-11-10",
 "workday:hpe:1215487-1": "2026-11-05",
 "workday:hpe:1215489-2": "2026-11-02",
 "workday:hpe:1215491-3": "2026-11-01",
@@ -76175,6 +76212,7 @@
 "workday:lumentum:20261661-1": "2026-10-29",
 "workday:lumentum:20261662": "2026-10-29",
 "workday:lumentum:20261704-1": "2026-11-01",
+"workday:lumentum:20261720": "2026-11-10",
 "workday:lumentum:20261732": "2026-11-05",
 "workday:lumentum:20261738": "2026-11-04",
 "workday:lumentum:2026322": "2026-11-02",
@@ -77783,6 +77821,7 @@
 "workday:micron:JR108640": "2026-10-28",
 "workday:micron:JR108684": "2026-11-05",
 "workday:micron:JR108730": "2026-10-22",
+"workday:micron:JR108746": "2026-11-10",
 "workday:micron:JR108803": "2026-11-03",
 "workday:micron:JR108812": "2026-11-03",
 "workday:micron:JR108840": "2026-10-27",
@@ -79306,6 +79345,7 @@
 "workday:nvidia:JR2016220": "2026-10-31",
 "workday:nvidia:JR2016261-1": "2026-10-27",
 "workday:nvidia:JR2016341": "2026-10-19",
+"workday:nvidia:JR2016349": "2026-11-10",
 "workday:nvidia:JR2016350": "2026-10-19",
 "workday:nvidia:JR2016396": "2026-10-26",
 "workday:nvidia:JR2016436": "2026-10-19",
@@ -79638,6 +79678,7 @@
 "workday:nvidia:JR2021665-1": "2026-10-31",
 "workday:nvidia:JR2021671": "2026-10-31",
 "workday:nvidia:JR2021687": "2026-10-31",
+"workday:nvidia:JR2021689": "2026-11-10",
 "workday:nvidia:JR2021690": "2026-10-31",
 "workday:nvidia:JR2021700-1": "2026-10-23",
 "workday:nvidia:JR2021717": "2026-11-02",
@@ -80332,6 +80373,7 @@
 "workday:nvidia:JR2027828": "2026-11-03",
 "workday:nvidia:JR2027829": "2026-11-02",
 "workday:nvidia:JR2027831": "2026-10-19",
+"workday:nvidia:JR2027834": "2026-11-10",
 "workday:nvidia:JR2027838": "2026-10-31",
 "workday:nvidia:JR2027839": "2026-10-31",
 "workday:nvidia:JR2027840": "2026-10-19",
@@ -80794,6 +80836,7 @@
 "workday:nvidia:JR2029432": "2026-11-04",
 "workday:nvidia:JR2029434": "2026-11-06",
 "workday:nvidia:JR2029449": "2026-11-05",
+"workday:nvidia:JR2029455": "2026-11-10",
 "workday:nvidia:JR2029457": "2026-11-06",
 "workday:nvidia:JR2029460": "2026-11-05",
 "workday:nvidia:JR2029468": "2026-11-06",
@@ -84133,6 +84176,7 @@
 "workday:visa:REF088667W": "2026-11-06",
 "workday:visa:REF088672W": "2026-10-19",
 "workday:visa:REF088676W-1": "2026-10-20",
+"workday:visa:REF088768W": "2026-11-10",
 "workday:visa:REF088772W-1": "2026-10-26",
 "workday:visa:REF088825W": "2026-10-28",
 "workday:visa:REF088832W": "2026-11-06",
@@ -84241,6 +84285,7 @@
 "workday:visa:REF089918W-1": "2026-10-27",
 "workday:visa:REF089919W-1": "2026-10-27",
 "workday:visa:REF089920W-2": "2026-10-27",
+"workday:visa:REF089929W": "2026-11-10",
 "workday:visa:REF089931W-1": "2026-10-29",
 "workday:visa:REF089934W-1": "2026-11-04",
 "workday:visa:REF089945W": "2026-11-03",
@@ -84678,6 +84723,7 @@
 "workday:wf:R-580517": "2026-11-03",
 "workday:wf:R-580520": "2026-11-05",
 "workday:wf:R-580522": "2026-11-02",
+"workday:wf:R-580548-1": "2026-11-10",
 "workday:wf:R-580551": "2026-11-06",
 "workday:wf:R-580553": "2026-10-29",
 "workday:wf:R-580554-1": "2026-11-06",
@@ -88070,6 +88116,7 @@
 "motorola solutions|embedded software engineer": "2026-10-21",
 "motorola solutions|entry level control hardware development engineer": "2026-10-22",
 "motorola solutions|software engineer java python": "2026-10-28",
+"multi media|software engineer 1 2": "2026-11-10",
 "myriad360|junior ai and automation engineer": "2026-11-05",
 "n1 health|associate data ops engineer": "2026-10-22",
 "nash|gtm engineer": "2026-10-30",
@@ -88239,6 +88286,7 @@
 "openai|research engineer research scientist human flourishing": "2026-10-28",
 "openai|research scientist research engineer search integrity": "2026-10-21",
 "openai|research scientist research engineer search knowledge graphs": "2026-10-21",
+"openai|rtl design engineer networking noc": "2026-11-10",
 "openai|software engineer": "2026-10-23",
 "openai|software engineer agent platform": "2026-11-05",
 "openai|software engineer backend dots": "2026-10-19",
@@ -88947,9 +88995,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 54,
+"calls": 57,
 "date": "2026-11-10",
-"usd": 0.007018
+"usd": 0.007398
 },
 "years": {
 "amazon:10583340": [
