@@ -39702,6 +39702,13 @@
 },
 "2026-11-06"
 ],
+"rescue:workday:salesforce:JR366908": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-10"
+],
 "rescue:workday:salesforce:JR366941": [
 {
 "note": "Requires significant technical experience.",
@@ -49081,7 +49088,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 357
+"typical": 358
 },
 "Ai2": {
 "alerted": false,
@@ -49161,7 +49168,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2580
+"typical": 2581
 },
 "AngelList": {
 "alerted": false,
@@ -49251,7 +49258,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 147,
+"streak": 148,
 "typical": 28
 },
 "Asana": {
@@ -49567,7 +49574,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 464
+"typical": 465
 },
 "Cloudinary": {
 "alerted": false,
@@ -49687,7 +49694,7 @@
 "Cursor": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 95
 },
 "DELFI Diagnostics": {
 "alerted": false,
@@ -49707,7 +49714,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 915
+"typical": 914
 },
 "Dataiku": {
 "alerted": false,
@@ -49912,7 +49919,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "Extreme Networks": {
 "alerted": false,
@@ -49947,7 +49954,7 @@
 "Figma": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 143
 },
 "Figure AI": {
 "alerted": false,
@@ -49962,7 +49969,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 559,
+"streak": 560,
 "typical": 4
 },
 "Firstup": {
@@ -50303,7 +50310,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 69
+"typical": 70
 },
 "Intro": {
 "alerted": false,
@@ -50312,7 +50319,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(828593 bytes read)",
+"streak": 1,
 "typical": 608
 },
 "Iru (formerly Kandji)": {
@@ -50398,7 +50406,7 @@
 "Kong": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 107
 },
 "Kraken": {
 "alerted": false,
@@ -50593,7 +50601,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 128
+"typical": 129
 },
 "Microsoft": {
 "alerted": false,
@@ -50703,7 +50711,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 125,
+"streak": 126,
 "typical": 43
 },
 "Nash": {
@@ -51179,7 +51187,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 20
 },
 "Reddit": {
 "alerted": false,
@@ -51264,7 +51272,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 549
+"typical": 550
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -51309,7 +51317,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 110
 },
 "Salient": {
 "alerted": false,
@@ -51404,7 +51412,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 176,
+"streak": 177,
 "typical": 690
 },
 "SiFive": {
@@ -51420,7 +51428,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3218
+"typical": 3215
 },
 "Simular": {
 "alerted": false,
@@ -51665,7 +51673,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 123
 },
 "Terranova": {
 "alerted": false,
@@ -52005,7 +52013,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 376
+"typical": 377
 },
 "Zuora": {
 "alerted": false,
@@ -58379,6 +58387,7 @@
 "greenhouse:agoda:8364811": "2026-11-09",
 "greenhouse:agoda:8364830": "2026-11-09",
 "greenhouse:agoda:8364870": "2026-11-10",
+"greenhouse:agoda:8364909": "2026-11-10",
 "greenhouse:agoda:8364926": "2026-11-10",
 "greenhouse:airbnb:7763610": "2026-10-20",
 "greenhouse:airbnb:7978040": "2026-10-23",
@@ -58962,6 +58971,7 @@
 "greenhouse:andurilindustries:5290285007": "2026-11-10",
 "greenhouse:andurilindustries:5290310007": "2026-11-10",
 "greenhouse:andurilindustries:5290388007": "2026-11-10",
+"greenhouse:andurilindustries:5290391007": "2026-11-10",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
 "greenhouse:anthropic:5366882008": "2026-11-06",
@@ -59731,6 +59741,7 @@
 "greenhouse:cloudflare:8355420": "2026-11-06",
 "greenhouse:cloudflare:8357803": "2026-11-10",
 "greenhouse:cloudflare:8358934": "2026-11-06",
+"greenhouse:cloudflare:8360491": "2026-11-10",
 "greenhouse:cloudflare:8360609": "2026-11-07",
 "greenhouse:coinbase:8047150": "2026-10-31",
 "greenhouse:coinbase:8083906": "2026-11-04",
@@ -62931,6 +62942,7 @@
 "greenhouse:rocketlab:8198334003": "2026-11-09",
 "greenhouse:rocketlab:8198345003": "2026-11-07",
 "greenhouse:rocketlab:8198347003": "2026-11-07",
+"greenhouse:rocketlab:8198729003": "2026-11-10",
 "greenhouse:rocketlab:8199259003": "2026-11-09",
 "greenhouse:rocketlab:8199266003": "2026-11-09",
 "greenhouse:rocketlab:8199655003": "2026-11-09",
@@ -64327,6 +64339,7 @@
 "greenhouse:zscaler:5282933007": "2026-11-04",
 "greenhouse:zscaler:5283484007": "2026-11-09",
 "greenhouse:zscaler:5283496007": "2026-11-06",
+"greenhouse:zscaler:5284060007": "2026-11-10",
 "greenhouse:zscaler:5284066007": "2026-11-04",
 "greenhouse:zscaler:5286302007": "2026-11-09",
 "greenhouse:zscaler:5287746007": "2026-11-09",
@@ -64460,6 +64473,7 @@
 "jibe:careers.amd.com:93200": "2026-11-05",
 "jibe:careers.amd.com:93206": "2026-10-26",
 "jibe:careers.amd.com:93231": "2026-10-20",
+"jibe:careers.amd.com:93232": "2026-11-10",
 "jibe:careers.amd.com:93243": "2026-10-21",
 "jibe:careers.amd.com:93244": "2026-10-23",
 "jibe:careers.amd.com:93263": "2026-10-27",
@@ -64903,6 +64917,7 @@
 "jibe:careers.amd.com:97235": "2026-11-09",
 "jibe:careers.amd.com:97242": "2026-11-09",
 "jibe:careers.amd.com:97257": "2026-11-05",
+"jibe:careers.amd.com:97265": "2026-11-10",
 "jibe:careers.amd.com:97282": "2026-11-10",
 "jibe:careers.amd.com:97321": "2026-11-05",
 "jibe:careers.amd.com:97341": "2026-11-05",
@@ -66315,6 +66330,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019748": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019800": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019822": "2026-11-05",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019826": "2026-11-10",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019830": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019831": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019832": "2026-11-09",
@@ -74114,6 +74130,7 @@
 "workday:expedia:R-109710": "2026-11-06",
 "workday:expedia:R-109716": "2026-10-28",
 "workday:expedia:R-109777-1": "2026-11-01",
+"workday:expedia:R-109783-1": "2026-11-10",
 "workday:expedia:R-109792": "2026-10-28",
 "workday:expedia:R-109802-1": "2026-11-03",
 "workday:expedia:R-109808-1": "2026-10-29",
@@ -76077,6 +76094,7 @@
 "workday:intel:JR0288962": "2026-11-09",
 "workday:intel:JR0288965": "2026-11-05",
 "workday:intel:JR0288969": "2026-11-05",
+"workday:intel:JR0288971": "2026-11-10",
 "workday:intel:JR0288974": "2026-11-05",
 "workday:intel:JR0288978": "2026-11-05",
 "workday:intel:JR0288982": "2026-11-09",
@@ -78905,6 +78923,7 @@
 "workday:micron:JR117265": "2026-11-09",
 "workday:micron:JR117302": "2026-11-10",
 "workday:micron:JR117320": "2026-11-09",
+"workday:micron:JR117383": "2026-11-10",
 "workday:micron:JR57804": "2026-11-05",
 "workday:micron:JR72632": "2026-10-23",
 "workday:micron:JR75038-1": "2026-10-23",
@@ -81106,6 +81125,7 @@
 "workday:redhat:R-058855-2": "2026-10-28",
 "workday:redhat:R-059004": "2026-10-23",
 "workday:redhat:R-059191": "2026-10-20",
+"workday:redhat:R-059194": "2026-11-10",
 "workday:redhat:R-059196": "2026-10-22",
 "workday:redhat:R-059216": "2026-10-20",
 "workday:redhat:R-059523-1": "2026-10-21",
@@ -81571,6 +81591,7 @@
 "workday:salesforce:JR352286": "2026-10-29",
 "workday:salesforce:JR352362": "2026-10-29",
 "workday:salesforce:JR352696": "2026-10-30",
+"workday:salesforce:JR352720": "2026-11-10",
 "workday:salesforce:JR352724": "2026-10-28",
 "workday:salesforce:JR352789": "2026-10-19",
 "workday:salesforce:JR352790": "2026-10-19",
@@ -82715,6 +82736,7 @@
 "workday:salesforce:JR366882-1": "2026-11-03",
 "workday:salesforce:JR366884": "2026-11-03",
 "workday:salesforce:JR366900": "2026-11-05",
+"workday:salesforce:JR366908": "2026-11-10",
 "workday:salesforce:JR366909": "2026-11-03",
 "workday:salesforce:JR366917": "2026-11-06",
 "workday:salesforce:JR366920": "2026-11-04",
@@ -89051,9 +89073,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 60,
+"calls": 61,
 "date": "2026-11-10",
-"usd": 0.007805
+"usd": 0.007879
 },
 "years": {
 "amazon:10583340": [
