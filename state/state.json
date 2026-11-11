@@ -3560,6 +3560,16 @@
 },
 "2026-10-27"
 ],
+"ashby:baseten:9b71cb02-d82c-421c-b73b-4b783076409e|v3|73908d": [
+{
+"chance": 4,
+"level": "unknown",
+"min_years": null,
+"note": "Requires experience in AI/ML products, not clearly entry-level.",
+"us_ok": true
+},
+"2026-11-11"
+],
 "ashby:baseten:d7e9ee32-dee8-459f-9d8a-538d65df51ae|v3|73908d": [
 {
 "chance": 6,
@@ -15686,6 +15696,13 @@
 "senior": true
 },
 "2026-10-22"
+],
+"rescue:ashby:baseten:9b71cb02-d82c-421c-b73b-4b783076409e": [
+{
+"note": "Role may suit early career candidates.",
+"senior": false
+},
+"2026-11-11"
 ],
 "rescue:ashby:benchling:1233cc92-4c7f-4624-a920-b0799cbb283a": [
 {
@@ -32332,6 +32349,27 @@
 "senior": true
 },
 "2026-11-10"
+],
+"rescue:talentbrew:careers.synopsys.com:103142961168": [
+{
+"note": "Staff Engineer typically requires significant experience.",
+"senior": true
+},
+"2026-11-11"
+],
+"rescue:talentbrew:careers.synopsys.com:103142961200": [
+{
+"note": "Requires extensive experience in ASIC design.",
+"senior": true
+},
+"2026-11-11"
+],
+"rescue:talentbrew:careers.synopsys.com:103142961232": [
+{
+"note": "Requires extensive experience in ASIC design.",
+"senior": true
+},
+"2026-11-11"
 ],
 "rescue:talentbrew:careers.synopsys.com:92980004592": [
 {
@@ -53479,7 +53517,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 208
+"typical": 207
 },
 "Agiloft": {
 "alerted": false,
@@ -53659,7 +53697,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 200,
+"streak": 201,
 "typical": 28
 },
 "Asana": {
@@ -53680,7 +53718,7 @@
 "Astranis": {
 "alerted": false,
 "streak": 0,
-"typical": 183
+"typical": 184
 },
 "Astro Mechanica": {
 "alerted": false,
@@ -53730,7 +53768,7 @@
 "Baseten": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 101
 },
 "Bastion": {
 "alerted": false,
@@ -54370,7 +54408,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 612,
+"streak": 613,
 "typical": 4
 },
 "Firstup": {
@@ -54720,9 +54758,8 @@
 },
 "Intuit": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(830994 bytes read)",
-"streak": 1,
-"typical": 608
+"streak": 0,
+"typical": 609
 },
 "Iru (formerly Kandji)": {
 "alerted": false,
@@ -54912,7 +54949,7 @@
 "Lucid Motors": {
 "alerted": false,
 "streak": 0,
-"typical": 461
+"typical": 462
 },
 "Luma AI": {
 "alerted": false,
@@ -55002,7 +55039,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 128
+"typical": 129
 },
 "Microsoft": {
 "alerted": false,
@@ -55112,7 +55149,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 178,
+"streak": 179,
 "typical": 43
 },
 "Nash": {
@@ -55233,7 +55270,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 379
+"typical": 380
 },
 "Olly": {
 "alerted": false,
@@ -55573,7 +55610,7 @@
 "Radiant (nuclear)": {
 "alerted": false,
 "streak": 0,
-"typical": 97
+"typical": 96
 },
 "Ramp": {
 "alerted": false,
@@ -55588,7 +55625,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 21
 },
 "Reddit": {
 "alerted": false,
@@ -55718,7 +55755,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 149
 },
 "Salient": {
 "alerted": false,
@@ -55813,7 +55850,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 229,
+"streak": 230,
 "typical": 690
 },
 "SiFive": {
@@ -56024,7 +56061,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 675
+"typical": 678
 },
 "T-Mobile": {
 "alerted": false,
@@ -56249,7 +56286,7 @@
 "Veeva Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 861
+"typical": 857
 },
 "Vendelux": {
 "alerted": false,
@@ -56354,7 +56391,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 58
+"typical": 59
 },
 "World Labs": {
 "alerted": false,
@@ -56384,7 +56421,7 @@
 "Zapier": {
 "alerted": false,
 "streak": 0,
-"typical": 10
+"typical": 9
 },
 "Zillow": {
 "alerted": false,
@@ -57253,6 +57290,7 @@
 "ashby:baseten:86331c05-a6b0-4a9f-991d-b46091b696b5": "2026-10-22",
 "ashby:baseten:88fe7cb5-3e97-4548-a2d1-c97d40c51110": "2026-10-31",
 "ashby:baseten:976f89ef-1065-45a7-8b51-31fecd1ef1e6": "2026-10-22",
+"ashby:baseten:9b71cb02-d82c-421c-b73b-4b783076409e": "2026-11-11",
 "ashby:baseten:bbf9fd7c-8666-4487-9a12-1539e08fe4e0": "2026-11-02",
 "ashby:baseten:cf7cd452-6946-4f61-aaf0-8e7b85cf6e03": "2026-11-10",
 "ashby:baseten:d7e9ee32-dee8-459f-9d8a-538d65df51ae": "2026-10-27",
@@ -64111,6 +64149,7 @@
 "greenhouse:asana:8357119": "2026-11-09",
 "greenhouse:astranis:4607847006": "2026-10-30",
 "greenhouse:astranis:4672217006": "2026-11-06",
+"greenhouse:astranis:4704569006": "2026-11-11",
 "greenhouse:astranis:4704571006": "2026-11-06",
 "greenhouse:astranis:4715288006": "2026-11-05",
 "greenhouse:astranis:4721317006": "2026-11-03",
@@ -66289,6 +66328,7 @@
 "greenhouse:lucidmotors:5287942007": "2026-11-06",
 "greenhouse:lucidmotors:5289659007": "2026-11-09",
 "greenhouse:lucidmotors:5290639007": "2026-11-10",
+"greenhouse:lucidmotors:5291633007": "2026-11-11",
 "greenhouse:lucidmotors:5291649007": "2026-11-10",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
@@ -76950,6 +76990,11 @@
 "talentbrew:careers.synopsys.com:103122221280": "2026-11-10",
 "talentbrew:careers.synopsys.com:103122221296": "2026-11-10",
 "talentbrew:careers.synopsys.com:103136134960": "2026-11-11",
+"talentbrew:careers.synopsys.com:103142961168": "2026-11-11",
+"talentbrew:careers.synopsys.com:103142961200": "2026-11-11",
+"talentbrew:careers.synopsys.com:103142961232": "2026-11-11",
+"talentbrew:careers.synopsys.com:103142961312": "2026-11-11",
+"talentbrew:careers.synopsys.com:103142961328": "2026-11-11",
 "talentbrew:careers.synopsys.com:87085299616": "2026-10-20",
 "talentbrew:careers.synopsys.com:87868266560": "2026-10-20",
 "talentbrew:careers.synopsys.com:88126393648": "2026-10-20",
@@ -77794,6 +77839,8 @@
 "talentbrew:jobs.intuit.com:103137412416": "2026-11-11",
 "talentbrew:jobs.intuit.com:103137412432": "2026-11-11",
 "talentbrew:jobs.intuit.com:103137412448": "2026-11-11",
+"talentbrew:jobs.intuit.com:103142265936": "2026-11-11",
+"talentbrew:jobs.intuit.com:103142265968": "2026-11-11",
 "talentbrew:jobs.intuit.com:87369441616": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441696": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441712": "2026-10-20",
@@ -87661,6 +87708,7 @@
 "workday:redhat:R-060311-1": "2026-11-03",
 "workday:redhat:R-060313-1": "2026-11-09",
 "workday:redhat:R-060335-1": "2026-11-10",
+"workday:redhat:R-060336-2": "2026-11-11",
 "workday:redhat:R-060381-1": "2026-11-06",
 "workday:redhat:R-060399-1": "2026-11-04",
 "workday:redhat:R-060401-1": "2026-11-05",
@@ -89364,6 +89412,7 @@
 "workday:tmobile:REQ365670-2": "2026-10-20",
 "workday:tmobile:REQ365679-1": "2026-10-30",
 "workday:tmobile:REQ365707-2": "2026-10-23",
+"workday:tmobile:REQ365891": "2026-11-11",
 "workday:tmobile:REQ365918-1": "2026-11-04",
 "workday:tmobile:REQ365920-2": "2026-11-04",
 "workday:tmobile:REQ366253-2": "2026-11-10",
@@ -89399,6 +89448,7 @@
 "workday:tmobile:REQ370157-2": "2026-11-03",
 "workday:tmobile:REQ370203": "2026-10-20",
 "workday:tmobile:REQ370206-1": "2026-10-30",
+"workday:tmobile:REQ370216": "2026-11-11",
 "workday:tmobile:REQ370325-1": "2026-10-20",
 "workday:tmobile:REQ370373-1": "2026-10-30",
 "workday:tmobile:REQ370391-1": "2026-10-22",
@@ -89406,6 +89456,7 @@
 "workday:tmobile:REQ370433": "2026-10-23",
 "workday:tmobile:REQ370475-1": "2026-11-07",
 "workday:tmobile:REQ370617-2": "2026-11-02",
+"workday:tmobile:REQ370680-1": "2026-11-11",
 "workday:tmobile:REQ370783-1": "2026-10-30",
 "workday:tmobile:REQ370818": "2026-11-02",
 "workday:tmobile:REQ370891": "2026-10-26",
@@ -89428,6 +89479,7 @@
 "workday:tmobile:REQ371891": "2026-10-28",
 "workday:tmobile:REQ371908": "2026-10-20",
 "workday:tmobile:REQ372043-1": "2026-10-20",
+"workday:tmobile:REQ372052": "2026-11-11",
 "workday:tmobile:REQ372142": "2026-10-28",
 "workday:tmobile:REQ372213-1": "2026-10-20",
 "workday:tmobile:REQ372219": "2026-10-20",
@@ -89449,6 +89501,7 @@
 "workday:tmobile:REQ373051-1": "2026-11-11",
 "workday:tmobile:REQ373096-2": "2026-10-20",
 "workday:tmobile:REQ373157-1": "2026-11-04",
+"workday:tmobile:REQ373204": "2026-11-11",
 "workday:tmobile:REQ373263-1": "2026-10-28",
 "workday:tmobile:REQ373268": "2026-10-27",
 "workday:tmobile:REQ373367": "2026-10-20",
@@ -89460,6 +89513,7 @@
 "workday:tmobile:REQ373631": "2026-11-04",
 "workday:tmobile:REQ373634-1": "2026-10-20",
 "workday:tmobile:REQ373649-1": "2026-11-10",
+"workday:tmobile:REQ373740": "2026-11-11",
 "workday:tmobile:REQ373753-1": "2026-10-21",
 "workday:tmobile:REQ373768-1": "2026-11-06",
 "workday:tmobile:REQ373776-1": "2026-11-07",
@@ -89759,6 +89813,7 @@
 "workday:tmobile:REQ378859": "2026-11-03",
 "workday:tmobile:REQ378861-1": "2026-11-04",
 "workday:tmobile:REQ378863": "2026-11-04",
+"workday:tmobile:REQ378867": "2026-11-11",
 "workday:tmobile:REQ378879-1": "2026-11-02",
 "workday:tmobile:REQ378899": "2026-10-20",
 "workday:tmobile:REQ378910-2": "2026-10-29",
@@ -93450,6 +93505,7 @@
 "workday:workday:JR-0111542": "2026-11-10",
 "workday:workday:JR-0111557": "2026-11-10",
 "workday:workday:JR-0111558": "2026-11-10",
+"workday:workday:JR-0111561": "2026-11-11",
 "workday:workday:JR-IC-000019-1": "2026-11-04",
 "workday:workday:JR-IC-000063": "2026-11-01",
 "workday:xboxgaming:R027864-1": "2026-10-29",
@@ -94164,6 +94220,7 @@
 "base power|software engineer product deployments": "2026-11-09",
 "base power|supplier industrialization engineer": "2026-11-06",
 "base power|test engineer abuse engineering": "2026-11-06",
+"baseten|product manager grid": "2026-11-11",
 "baseten|product platform product engineer": "2026-10-22",
 "baseten|software engineer billing internal tooling": "2026-10-22",
 "baseten|software engineer compute and isolation": "2026-10-27",
@@ -96147,9 +96204,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 78,
+"calls": 83,
 "date": "2026-11-11",
-"usd": 0.010604
+"usd": 0.01114
 },
 "years": {
 "amazon:10583340": [
