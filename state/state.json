@@ -24667,6 +24667,13 @@
 },
 "2026-11-06"
 ],
+"rescue:greenhouse:samsara:8376044": [
+{
+"note": "Requires significant leadership experience.",
+"senior": true
+},
+"2026-11-11"
+],
 "rescue:greenhouse:samsungsemiconductor:8043392003": [
 {
 "note": "Staff roles typically require more experience.",
@@ -37574,6 +37581,13 @@
 "senior": true
 },
 "2026-11-04"
+],
+"rescue:workday:hpe:1218490-3": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-11"
 ],
 "rescue:workday:illumina:42896-JOB-1": [
 {
@@ -53414,7 +53428,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2582
+"typical": 2583
 },
 "AngelList": {
 "alerted": false,
@@ -53504,7 +53518,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 195,
+"streak": 196,
 "typical": 28
 },
 "Asana": {
@@ -53695,7 +53709,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 18
 },
 "Calm": {
 "alerted": false,
@@ -54150,7 +54164,7 @@
 "Everlaw": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 35
 },
 "Exa": {
 "alerted": false,
@@ -54200,7 +54214,7 @@
 "Figma": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 143
 },
 "Figure AI": {
 "alerted": false,
@@ -54215,7 +54229,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 607,
+"streak": 608,
 "typical": 4
 },
 "Firstup": {
@@ -54371,7 +54385,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 111
+"typical": 112
 },
 "HackerOne": {
 "alerted": false,
@@ -54565,7 +54579,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(826358 bytes read)",
+"streak": 1,
 "typical": 608
 },
 "Iru (formerly Kandji)": {
@@ -54956,7 +54971,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 173,
+"streak": 174,
 "typical": 43
 },
 "Nash": {
@@ -55577,7 +55592,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 315
+"typical": 316
 },
 "Samsung Research America": {
 "alerted": false,
@@ -55657,7 +55672,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 224,
+"streak": 225,
 "typical": 690
 },
 "SiFive": {
@@ -55718,7 +55733,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 374
 },
 "SoFi": {
 "alerted": false,
@@ -56198,7 +56213,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 49
+"typical": 50
 },
 "World Labs": {
 "alerted": false,
@@ -56258,7 +56273,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 378
+"typical": 379
 },
 "Zuora": {
 "alerted": false,
@@ -59644,6 +59659,7 @@
 "ashby:snowflake:5aa98590-e2bf-4f0a-a3b9-1795c6e22509": "2026-10-22",
 "ashby:snowflake:5d49977a-df2f-4f5b-9ec9-28d9e0bc75e7": "2026-10-28",
 "ashby:snowflake:5e966818-e855-41b6-9933-b652faf4edec": "2026-10-26",
+"ashby:snowflake:6331647a-2cd4-416a-81c2-0c8d6711c8e4": "2026-11-11",
 "ashby:snowflake:648ec104-24f8-4057-9d0b-3ffb88947f30": "2026-10-29",
 "ashby:snowflake:65d47abb-7532-4769-ab44-8e925b2a2356": "2026-10-21",
 "ashby:snowflake:67057ad9-3f52-4f54-80c6-20a1ea026db4": "2026-10-30",
@@ -63402,6 +63418,7 @@
 "greenhouse:andurilindustries:5280306007": "2026-10-30",
 "greenhouse:andurilindustries:5280378007": "2026-11-04",
 "greenhouse:andurilindustries:5280400007": "2026-11-11",
+"greenhouse:andurilindustries:5280403007": "2026-11-11",
 "greenhouse:andurilindustries:5280417007": "2026-11-03",
 "greenhouse:andurilindustries:5280544007": "2026-10-30",
 "greenhouse:andurilindustries:5280548007": "2026-10-30",
@@ -68195,6 +68212,7 @@
 "greenhouse:samsara:8360112": "2026-11-06",
 "greenhouse:samsara:8372624": "2026-11-10",
 "greenhouse:samsara:8375338": "2026-11-10",
+"greenhouse:samsara:8376044": "2026-11-11",
 "greenhouse:samsungresearchamerica:8924143002": "2026-10-29",
 "greenhouse:samsungsemiconductor:8013419003": "2026-10-27",
 "greenhouse:samsungsemiconductor:8027922003": "2026-10-22",
@@ -69373,6 +69391,7 @@
 "greenhouse:zscaler:5284064007": "2026-11-11",
 "greenhouse:zscaler:5284066007": "2026-11-04",
 "greenhouse:zscaler:5286302007": "2026-11-09",
+"greenhouse:zscaler:5286893007": "2026-11-11",
 "greenhouse:zscaler:5287746007": "2026-11-09",
 "greenhouse:zscaler:5288612007": "2026-11-08",
 "greenhouse:zscaler:5288687007": "2026-11-09",
@@ -78809,6 +78828,7 @@
 "workday:cadence:R56415-1": "2026-10-30",
 "workday:cadence:R56439": "2026-11-03",
 "workday:cadence:R56447": "2026-11-02",
+"workday:cadence:R56490": "2026-11-11",
 "workday:cadence:R56541": "2026-11-10",
 "workday:cadence:R56603-1": "2026-10-29",
 "workday:cadence:R56610": "2026-10-29",
@@ -81453,6 +81473,7 @@
 "workday:hpe:1218405-2": "2026-10-29",
 "workday:hpe:1218456-1": "2026-10-29",
 "workday:hpe:1218468": "2026-11-02",
+"workday:hpe:1218490-3": "2026-11-11",
 "workday:hpe:1218701": "2026-11-10",
 "workday:hpe:1218718-1": "2026-11-06",
 "workday:hpe:1218721-2": "2026-11-06",
@@ -93075,6 +93096,7 @@
 "workday:workday:JR-0110948": "2026-11-02",
 "workday:workday:JR-0110951-1": "2026-11-10",
 "workday:workday:JR-0110956": "2026-10-28",
+"workday:workday:JR-0110970": "2026-11-11",
 "workday:workday:JR-0110971": "2026-11-02",
 "workday:workday:JR-0110977": "2026-10-30",
 "workday:workday:JR-0110984": "2026-11-09",
@@ -95885,9 +95907,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 58,
+"calls": 60,
 "date": "2026-11-11",
-"usd": 0.008526
+"usd": 0.008676
 },
 "years": {
 "amazon:10583340": [
