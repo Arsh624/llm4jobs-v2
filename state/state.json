@@ -3280,6 +3280,16 @@
 },
 "2026-11-05"
 ],
+"ashby:arlo:1d727d9f-0f34-4137-95de-266ad0b3bf8c|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years in product management",
+"us_ok": true
+},
+"2026-11-11"
+],
 "ashby:armadin:a9a8c8e2-3b1b-43fc-811a-e54a2a5a8c2b|v3|73908d": [
 {
 "chance": 4,
@@ -10090,6 +10100,16 @@
 },
 "2026-11-11"
 ],
+"greenhouse:andurilindustries:5292304007|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads; security clearance may be a barrier.",
+"us_ok": true
+},
+"2026-11-11"
+],
 "greenhouse:anthropic:5438311008|v3|73908d": [
 {
 "chance": 7,
@@ -15621,6 +15641,13 @@
 "senior": true
 },
 "2026-11-03"
+],
+"rescue:ashby:arlo:1d727d9f-0f34-4137-95de-266ad0b3bf8c": [
+{
+"note": "Role may suit early career candidates.",
+"senior": false
+},
+"2026-11-11"
 ],
 "rescue:ashby:asimov:477de901-d839-4bbd-b32e-01eaaf093dd8": [
 {
@@ -24819,6 +24846,13 @@
 "senior": true
 },
 "2026-11-05"
+],
+"rescue:greenhouse:rubrik:8255392": [
+{
+"note": "Requires deep technical expertise and experience.",
+"senior": true
+},
+"2026-11-11"
 ],
 "rescue:greenhouse:rubrik:8314327": [
 {
@@ -39653,6 +39687,13 @@
 },
 "2026-11-10"
 ],
+"rescue:workday:medtronic:R81164-1": [
+{
+"note": "Requires leadership and oversight experience.",
+"senior": true
+},
+"2026-11-11"
+],
 "rescue:workday:medtronic:R81244-1": [
 {
 "note": "Requires significant experience and leadership skills.",
@@ -45142,6 +45183,16 @@
 "us_ok": true
 },
 "2026-11-10"
+],
+"smartrecruiters:renesaselectronics:744000161087970|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Entry-level role with relevant degree required.",
+"us_ok": true
+},
+"2026-11-11"
 ],
 "talentbrew:careers.synopsys.com:102272007504|v3|73908d": [
 {
@@ -54053,7 +54104,7 @@
 "Arlo Technologies": {
 "alerted": false,
 "streak": 0,
-"typical": 3
+"typical": 4
 },
 "Armadin": {
 "alerted": false,
@@ -54063,7 +54114,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 220,
+"streak": 221,
 "typical": 28
 },
 "Asana": {
@@ -54539,7 +54590,7 @@
 "Delinea": {
 "alerted": false,
 "streak": 0,
-"typical": 66
+"typical": 67
 },
 "Dell Technologies": {
 "alerted": false,
@@ -54649,7 +54700,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 427
+"typical": 426
 },
 "ElevenLabs": {
 "alerted": false,
@@ -54774,7 +54825,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 632,
+"streak": 633,
 "typical": 4
 },
 "Firstup": {
@@ -54930,7 +54981,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 132
+"typical": 131
 },
 "HackerOne": {
 "alerted": false,
@@ -55350,7 +55401,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 52
+"typical": 53
 },
 "MatX": {
 "alerted": false,
@@ -55375,7 +55426,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 102
+"typical": 103
 },
 "Mercor": {
 "alerted": false,
@@ -55510,12 +55561,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 123
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 198,
+"streak": 199,
 "typical": 43
 },
 "Nash": {
@@ -55691,7 +55742,7 @@
 "Optiver": {
 "alerted": false,
 "streak": 0,
-"typical": 151
+"typical": 150
 },
 "OpusClip": {
 "alerted": false,
@@ -56096,7 +56147,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 151
+"typical": 152
 },
 "Runpod": {
 "alerted": false,
@@ -56121,7 +56172,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 163
+"typical": 164
 },
 "Salient": {
 "alerted": false,
@@ -56216,7 +56267,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 249,
+"streak": 250,
 "typical": 690
 },
 "SiFive": {
@@ -56232,7 +56283,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3242
+"typical": 3232
 },
 "Simular": {
 "alerted": false,
@@ -56572,7 +56623,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 126
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -56837,7 +56888,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 22
 },
 "fal": {
 "alerted": false,
@@ -57544,6 +57595,7 @@
 "ashby:applied:fff64d68-bf62-4fd0-870c-50b97e1d55d0": "2026-10-30",
 "ashby:arena:5cc3bdf7-1904-452f-9348-4e09395e04f9": "2026-10-29",
 "ashby:arena:808a52d5-4f1f-466f-ac8a-64fd9b6d0610": "2026-10-29",
+"ashby:arlo:1d727d9f-0f34-4137-95de-266ad0b3bf8c": "2026-11-11",
 "ashby:arlo:417e0c3c-9c44-423a-91ec-274e7a353c33": "2026-10-20",
 "ashby:armadin:41b8c1e8-8205-490d-bb69-7151806323de": "2026-10-28",
 "ashby:armadin:8044c27a-db2c-47aa-9701-d9468dbb025b": "2026-10-28",
@@ -58153,6 +58205,7 @@
 "ashby:decagon:8e27d42e-df66-4e87-b045-b2b650538d4b": "2026-10-21",
 "ashby:decagon:c6e70f60-9ed5-416a-8b37-bff69de9db93": "2026-10-22",
 "ashby:decagon:d32da775-c5ea-420d-a07e-13412044c27b": "2026-10-22",
+"ashby:delinea:081ef39e-584f-4e74-93c3-62e3eff74d99": "2026-11-11",
 "ashby:delinea:08542e0b-13ae-41fc-aa3e-fce7fc5ac1c0": "2026-11-05",
 "ashby:delinea:13991720-cebc-4a69-9984-51822cc592e5": "2026-11-09",
 "ashby:delinea:15ed88a4-4e5d-4f79-b703-4682aabc8f23": "2026-11-05",
@@ -64301,6 +64354,7 @@
 "greenhouse:andurilindustries:5291969007": "2026-11-11",
 "greenhouse:andurilindustries:5292048007": "2026-11-11",
 "greenhouse:andurilindustries:5292298007": "2026-11-11",
+"greenhouse:andurilindustries:5292304007": "2026-11-11",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
 "greenhouse:anthropic:5366882008": "2026-11-06",
@@ -68648,6 +68702,7 @@
 "greenhouse:rubrik:8223412": "2026-10-26",
 "greenhouse:rubrik:8232827": "2026-10-28",
 "greenhouse:rubrik:8244872": "2026-10-26",
+"greenhouse:rubrik:8255392": "2026-11-11",
 "greenhouse:rubrik:8255394": "2026-10-22",
 "greenhouse:rubrik:8259400": "2026-10-30",
 "greenhouse:rubrik:8262657": "2026-10-23",
@@ -69561,6 +69616,7 @@
 "greenhouse:twilio:8355801": "2026-11-06",
 "greenhouse:twilio:8355804": "2026-11-06",
 "greenhouse:twilio:8356548": "2026-11-05",
+"greenhouse:twilio:8360564": "2026-11-11",
 "greenhouse:twilio:8362926": "2026-11-09",
 "greenhouse:twilio:8370335": "2026-11-10",
 "greenhouse:twistbioscience:8279408": "2026-10-20",
@@ -70833,6 +70889,7 @@
 "jibe:careers.docusign.com:30656": "2026-11-06",
 "jibe:careers.docusign.com:30657": "2026-11-06",
 "jibe:careers.docusign.com:30660": "2026-11-09",
+"jibe:careers.docusign.com:30695": "2026-11-11",
 "jibe:careers.docusign.com:30696": "2026-11-10",
 "jibe:careers.docusign.com:30698": "2026-11-10",
 "jibe:careers.docusign.com:30700": "2026-11-10",
@@ -71285,6 +71342,7 @@
 "jibe:careers.na.panasonic.com:52352": "2026-11-10",
 "jibe:careers.na.panasonic.com:52355": "2026-11-10",
 "jibe:careers.na.panasonic.com:52408": "2026-11-06",
+"jibe:careers.na.panasonic.com:52442": "2026-11-11",
 "jibe:careers.na.panasonic.com:52478": "2026-11-09",
 "jibe:careers.na.panasonic.com:52511": "2026-11-09",
 "jibe:careers.na.panasonic.com:52544": "2026-11-09",
@@ -72142,6 +72200,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25017861": "2026-10-30",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25017934": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018026": "2026-11-02",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25018243": "2026-11-11",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018251": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018263": "2026-11-02",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018264": "2026-11-02",
@@ -72913,6 +72972,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346658": "2026-11-09",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346662": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346677": "2026-11-05",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:346706": "2026-11-11",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346721": "2026-10-29",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346730": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:346733": "2026-10-29",
@@ -76889,6 +76949,7 @@
 "smartrecruiters:renesaselectronics:744000160971599": "2026-11-10",
 "smartrecruiters:renesaselectronics:744000160975701": "2026-11-10",
 "smartrecruiters:renesaselectronics:744000161076280": "2026-11-11",
+"smartrecruiters:renesaselectronics:744000161087970": "2026-11-11",
 "talentbrew:careers.synopsys.com:100006719648": "2026-10-20",
 "talentbrew:careers.synopsys.com:100006719728": "2026-10-20",
 "talentbrew:careers.synopsys.com:100006720096": "2026-10-20",
@@ -80757,6 +80818,7 @@
 "workday:ebay:R0075724": "2026-10-29",
 "workday:ebay:R0076003": "2026-10-29",
 "workday:ebay:R0076062": "2026-11-03",
+"workday:ebay:R0076201": "2026-11-11",
 "workday:ebay:R0076276": "2026-11-06",
 "workday:ebay:R0076323": "2026-11-10",
 "workday:ebay:R0076343-1": "2026-10-29",
@@ -80813,6 +80875,7 @@
 "workday:ebay:R0077234": "2026-11-09",
 "workday:ebay:R0077235": "2026-11-05",
 "workday:ebay:R0077239": "2026-10-29",
+"workday:ebay:R0077254": "2026-11-11",
 "workday:ebay:R0077255": "2026-11-05",
 "workday:ebay:R0077261": "2026-10-29",
 "workday:ebay:R0077264": "2026-10-29",
@@ -84548,6 +84611,7 @@
 "workday:medtronic:R81159": "2026-11-04",
 "workday:medtronic:R81161": "2026-11-03",
 "workday:medtronic:R81162-1": "2026-11-02",
+"workday:medtronic:R81164-1": "2026-11-11",
 "workday:medtronic:R81165-1": "2026-11-10",
 "workday:medtronic:R81203": "2026-11-03",
 "workday:medtronic:R81217-1": "2026-11-06",
@@ -84621,6 +84685,7 @@
 "workday:medtronic:R81618-2": "2026-11-06",
 "workday:medtronic:R81625-1": "2026-11-09",
 "workday:medtronic:R81633-2": "2026-11-09",
+"workday:medtronic:R81674-1": "2026-11-11",
 "workday:medtronic:R81692-1": "2026-11-10",
 "workday:medtronic:R81700-1": "2026-11-09",
 "workday:medtronic:R81708": "2026-11-09",
@@ -90005,6 +90070,7 @@
 "workday:salesforce:JR367437": "2026-11-06",
 "workday:salesforce:JR367438": "2026-11-06",
 "workday:salesforce:JR367463": "2026-11-07",
+"workday:salesforce:JR367464-1": "2026-11-11",
 "workday:salesforce:JR367469": "2026-11-11",
 "workday:salesforce:JR367508-1": "2026-11-05",
 "workday:salesforce:JR367516-1": "2026-11-06",
@@ -96389,6 +96455,7 @@
 "regeneron pharmaceuticals|data analyst quality assurance": "2026-11-06",
 "relx|software engineer 1 new grad software engineer i": "2026-11-04",
 "renesas electronics|application engineer": "2026-10-21",
+"renesas|analog ic design engineer": "2026-11-11",
 "renesas|application engineer": "2026-10-29",
 "renesas|associate field applications engineer fae": "2026-10-29",
 "renesas|field applications engineer ncg datacenter power solutions": "2026-10-29",
@@ -96910,9 +96977,9 @@
 "zoox|financial analyst marketing and commercial": "2026-11-04"
 },
 "usage": {
-"calls": 134,
+"calls": 140,
 "date": "2026-11-11",
-"usd": 0.015243
+"usd": 0.016171
 },
 "years": {
 "amazon:10583340": [
