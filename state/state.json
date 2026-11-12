@@ -17529,6 +17529,13 @@
 },
 "2026-11-02"
 ],
+"rescue:ashby:morpho:076703f0-d899-43bb-8db9-4c00c355e6c4": [
+{
+"note": "Staff roles typically require significant experience.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:ashby:nerdwallet:5c82a235-f685-4b98-9a38-8203122f4b06": [
 {
 "note": "Requires significant experience in product management.",
@@ -36632,6 +36639,13 @@
 },
 "2026-11-12"
 ],
+"rescue:talentbrew:jobs.paloaltonetworks.com:103196572672": [
+{
+"note": "Staff implies higher experience level required.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:talentbrew:jobs.paloaltonetworks.com:91053594240": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -39740,6 +39754,13 @@
 },
 "2026-10-30"
 ],
+"rescue:workday:hpe:1218029-1": [
+{
+"note": "Leadership role typically requires extensive experience.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:workday:hpe:1218036": [
 {
 "note": "Requires dynamic and experienced leadership.",
@@ -42225,6 +42246,13 @@
 },
 "2026-10-23"
 ],
+"rescue:workday:micron:JR114256": [
+{
+"note": "Requires advanced technical expertise and collaboration.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:workday:micron:JR114408": [
 {
 "note": "Staff roles typically require more experience.",
@@ -42714,6 +42742,13 @@
 "senior": true
 },
 "2026-11-09"
+],
+"rescue:workday:micron:JR116945": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:workday:micron:JR116963": [
 {
@@ -47259,6 +47294,16 @@
 "us_ok": true
 },
 "2026-11-10"
+],
+"talentbrew:jobs.paloaltonetworks.com:96174868704|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 5,
+"note": "Requires significant experience in a specialized role.",
+"us_ok": false
+},
+"2026-11-12"
 ],
 "talentbrew:jobs.paloaltonetworks.com:98567495856|v3|73908d": [
 {
@@ -56030,7 +56075,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 262,
+"streak": 263,
 "typical": 28
 },
 "Asana": {
@@ -56201,7 +56246,7 @@
 "Broadcom": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Bugcrowd": {
 "alerted": false,
@@ -56346,7 +56391,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 482
+"typical": 483
 },
 "Cloudinary": {
 "alerted": false,
@@ -56376,7 +56421,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 274
+"typical": 273
 },
 "Color Health": {
 "alerted": false,
@@ -56616,7 +56661,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 420
+"typical": 421
 },
 "ElevenLabs": {
 "alerted": false,
@@ -56741,7 +56786,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 674,
+"streak": 675,
 "typical": 4
 },
 "Firstup": {
@@ -56892,12 +56937,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 102
+"typical": 103
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 142
+"typical": 143
 },
 "HackerOne": {
 "alerted": false,
@@ -57372,7 +57417,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 205
+"typical": 208
 },
 "Microsoft": {
 "alerted": false,
@@ -57442,7 +57487,7 @@
 "Morpho Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 13
 },
 "Mosaic (deal modeling)": {
 "alerted": false,
@@ -57482,7 +57527,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 240,
+"streak": 241,
 "typical": 43
 },
 "Nash": {
@@ -57568,7 +57613,7 @@
 "Notion": {
 "alerted": false,
 "streak": 0,
-"typical": 157
+"typical": 158
 },
 "Nous Research": {
 "alerted": false,
@@ -57718,7 +57763,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1231
+"typical": 1230
 },
 "Panasonic North America": {
 "alerted": false,
@@ -58063,7 +58108,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 156
+"typical": 157
 },
 "Runpod": {
 "alerted": false,
@@ -58088,7 +58133,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 204
+"typical": 206
 },
 "Salient": {
 "alerted": false,
@@ -58168,7 +58213,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 467
+"typical": 466
 },
 "Sesame": {
 "alerted": false,
@@ -58183,7 +58228,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 291,
+"streak": 292,
 "typical": 690
 },
 "SiFive": {
@@ -58199,7 +58244,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3256
+"typical": 3254
 },
 "Simular": {
 "alerted": false,
@@ -58299,7 +58344,7 @@
 "SpotOn": {
 "alerted": false,
 "streak": 0,
-"typical": 76
+"typical": 77
 },
 "Spotify": {
 "alerted": false,
@@ -58769,7 +58814,7 @@
 "Zipline": {
 "alerted": false,
 "streak": 0,
-"typical": 343
+"typical": 345
 },
 "ZoomInfo": {
 "alerted": false,
@@ -61002,6 +61047,7 @@
 "ashby:modal:053ff040-7701-40fb-b349-2f8ea5f870d6": "2026-11-06",
 "ashby:modal:d150d29c-c23d-4611-b439-e7ccecf2a051": "2026-10-29",
 "ashby:modal:d386232b-01ee-43a9-ad19-44e107e84036": "2026-11-06",
+"ashby:morpho:076703f0-d899-43bb-8db9-4c00c355e6c4": "2026-11-12",
 "ashby:morpho:ad373640-b44e-4a28-8886-013431e9cdec": "2026-10-28",
 "ashby:morpho:bdcb3db2-7e31-406c-813b-1cc7456b7343": "2026-11-03",
 "ashby:motherduck:111fd8f5-a8ad-4aa4-937f-79da7c2184db": "2026-10-30",
@@ -61114,6 +61160,7 @@
 "ashby:notion:11ea8ad6-b380-4041-a4cc-40eeccddffef": "2026-11-06",
 "ashby:notion:14879c7f-ded7-4e7f-932c-fb4a294afd68": "2026-10-22",
 "ashby:notion:14c52e6b-b00b-42b5-96fb-195919ef6bab": "2026-11-02",
+"ashby:notion:1f2dd857-00e3-4056-87b4-0d91e25b0671": "2026-11-12",
 "ashby:notion:27090d0f-07d3-419b-adaa-837b5e22f947": "2026-11-06",
 "ashby:notion:2e095dde-06cb-4fd2-a273-9144624400c1": "2026-11-03",
 "ashby:notion:3038ee95-ed44-49a5-9808-1382c4e6cfe9": "2026-11-06",
@@ -62423,6 +62470,7 @@
 "ashby:spoton:3f9b6156-c31d-4694-bd30-95a355fdf7bb": "2026-10-28",
 "ashby:spoton:4198de6c-0c3c-481c-93f6-1d47423f3d0e": "2026-11-10",
 "ashby:spoton:475cae53-4745-4e85-9753-72904c199be3": "2026-11-06",
+"ashby:spoton:4da58af5-e4b7-45bb-adde-b9f6c0eabc4d": "2026-11-12",
 "ashby:spoton:504c4ffd-07e1-4bcd-9ba3-19de5107e9bb": "2026-10-28",
 "ashby:spoton:54cf4c0b-705a-4483-8cf5-c3df2e0e6932": "2026-10-28",
 "ashby:spoton:55a79d22-e58d-4223-b3f2-5fd2b16c6717": "2026-10-28",
@@ -67499,6 +67547,7 @@
 "greenhouse:cloudflare:8360480": "2026-11-10",
 "greenhouse:cloudflare:8360491": "2026-11-10",
 "greenhouse:cloudflare:8360609": "2026-11-07",
+"greenhouse:cloudflare:8365223": "2026-11-12",
 "greenhouse:cloudflare:8366762": "2026-11-10",
 "greenhouse:cloudflare:8368421": "2026-11-10",
 "greenhouse:cloudflare:8369401": "2026-11-10",
@@ -67778,6 +67827,7 @@
 "greenhouse:databricks:8693190002": "2026-11-03",
 "greenhouse:databricks:8723918002": "2026-10-21",
 "greenhouse:databricks:8771702002": "2026-10-26",
+"greenhouse:databricks:8779026002": "2026-11-12",
 "greenhouse:databricks:8779031002": "2026-10-22",
 "greenhouse:databricks:8780675002": "2026-10-21",
 "greenhouse:databricks:8788176002": "2026-10-28",
@@ -68334,6 +68384,7 @@
 "greenhouse:elastic:8371663": "2026-11-10",
 "greenhouse:elastic:8371672": "2026-11-10",
 "greenhouse:elastic:8371794": "2026-11-12",
+"greenhouse:elastic:8372380": "2026-11-12",
 "greenhouse:elastic:8373192": "2026-11-10",
 "greenhouse:elastic:8374090": "2026-11-12",
 "greenhouse:elastic:8377647": "2026-11-11",
@@ -68617,6 +68668,8 @@
 "greenhouse:flyzipline:8198203003": "2026-11-06",
 "greenhouse:flyzipline:8200237003": "2026-11-11",
 "greenhouse:flyzipline:8200243003": "2026-11-11",
+"greenhouse:flyzipline:8201815003": "2026-11-12",
+"greenhouse:flyzipline:8201817003": "2026-11-12",
 "greenhouse:formationbio:8315176": "2026-10-28",
 "greenhouse:formationbio:8315734": "2026-10-28",
 "greenhouse:formationbio:8325520": "2026-11-02",
@@ -71194,6 +71247,7 @@
 "greenhouse:rubrik:8356817": "2026-11-11",
 "greenhouse:rubrik:8357998": "2026-11-06",
 "greenhouse:rubrik:8366954": "2026-11-09",
+"greenhouse:rubrik:8370557": "2026-11-12",
 "greenhouse:rubrik:8370650": "2026-11-11",
 "greenhouse:safebreach:4454408009": "2026-10-20",
 "greenhouse:sambanovasystems:6224835004": "2026-10-27",
@@ -72695,6 +72749,7 @@
 "jibe:careers.amd.com:87350": "2026-10-28",
 "jibe:careers.amd.com:87376": "2026-11-02",
 "jibe:careers.amd.com:87571": "2026-10-30",
+"jibe:careers.amd.com:87595": "2026-11-12",
 "jibe:careers.amd.com:87674": "2026-11-12",
 "jibe:careers.amd.com:87687": "2026-10-22",
 "jibe:careers.amd.com:87886": "2026-11-10",
@@ -74490,6 +74545,7 @@
 "lever:diamondfoundry:5b2d7e4f-3961-45ec-a16f-fe43e8438c22": "2026-10-20",
 "lever:diamondfoundry:a75f4793-7f6d-40f8-9e5a-49bbc9a06ccd": "2026-10-20",
 "lever:diamondfoundry:a8e21e34-280c-4616-8397-02f8994a4ff5": "2026-10-21",
+"lever:diamondfoundry:a9388182-bca3-44a5-bd74-91e3871a5ec6": "2026-11-12",
 "lever:diamondfoundry:b7baf747-40a1-41ea-a3ff-9174be8c683e": "2026-11-09",
 "lever:diamondfoundry:c31cff87-6f5c-4314-bfc0-8eb3c8f834f2": "2026-10-20",
 "lever:diamondfoundry:cdf9381d-938c-4e48-8c8a-d6f4da47ca94": "2026-10-21",
@@ -82070,6 +82126,9 @@
 "talentbrew:jobs.paloaltonetworks.com:103178687232": "2026-11-11",
 "talentbrew:jobs.paloaltonetworks.com:103191336384": "2026-11-12",
 "talentbrew:jobs.paloaltonetworks.com:103191336400": "2026-11-12",
+"talentbrew:jobs.paloaltonetworks.com:103196572672": "2026-11-12",
+"talentbrew:jobs.paloaltonetworks.com:103196584608": "2026-11-12",
+"talentbrew:jobs.paloaltonetworks.com:103196585984": "2026-11-12",
 "talentbrew:jobs.paloaltonetworks.com:91053594240": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:91238619968": "2026-10-29",
 "talentbrew:jobs.paloaltonetworks.com:92187821472": "2026-11-10",
@@ -82082,6 +82141,7 @@
 "talentbrew:jobs.paloaltonetworks.com:96174867088": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:96174867328": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:96174867840": "2026-11-10",
+"talentbrew:jobs.paloaltonetworks.com:96174868704": "2026-11-12",
 "talentbrew:jobs.paloaltonetworks.com:96174869040": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:96174870240": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:96174870976": "2026-11-10",
@@ -82224,6 +82284,7 @@
 "talentbrew:jobs.paloaltonetworks.com:99856657456": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:99865645536": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:99865647408": "2026-11-10",
+"talentbrew:jobs.paloaltonetworks.com:99942240432": "2026-11-12",
 "talentbrew:jobs.paloaltonetworks.com:99985549264": "2026-10-20",
 "workday:adobe:R168265": "2026-11-02",
 "workday:adobe:R169745-1": "2026-10-29",
@@ -82587,6 +82648,7 @@
 "workday:broadcom:R027831": "2026-11-12",
 "workday:broadcom:R027840": "2026-11-12",
 "workday:broadcom:R027841": "2026-11-12",
+"workday:broadcom:R027843": "2026-11-12",
 "workday:cadence:R51945": "2026-11-10",
 "workday:cadence:R52817-1": "2026-11-09",
 "workday:cadence:R52818": "2026-11-06",
@@ -84584,6 +84646,7 @@
 "workday:hp:3170722-1": "2026-11-04",
 "workday:hp:3170724-1": "2026-11-09",
 "workday:hp:3170725-1": "2026-11-11",
+"workday:hp:3170745-1": "2026-11-12",
 "workday:hp:3170754-1": "2026-11-11",
 "workday:hp:3170755-1": "2026-11-11",
 "workday:hp:3170764-2": "2026-11-11",
@@ -85352,6 +85415,7 @@
 "workday:hpe:1218005": "2026-10-30",
 "workday:hpe:1218007-2": "2026-10-30",
 "workday:hpe:1218028-2": "2026-11-05",
+"workday:hpe:1218029-1": "2026-11-12",
 "workday:hpe:1218034": "2026-10-29",
 "workday:hpe:1218036": "2026-10-29",
 "workday:hpe:1218037": "2026-11-03",
@@ -87904,6 +87968,7 @@
 "workday:micron:JR101256": "2026-10-23",
 "workday:micron:JR101267-1": "2026-10-23",
 "workday:micron:JR101463": "2026-11-12",
+"workday:micron:JR101708": "2026-11-12",
 "workday:micron:JR101714": "2026-10-26",
 "workday:micron:JR101718": "2026-10-23",
 "workday:micron:JR101724": "2026-10-29",
@@ -88605,6 +88670,7 @@
 "workday:micron:JR114250-1": "2026-10-23",
 "workday:micron:JR114252": "2026-10-23",
 "workday:micron:JR114253": "2026-10-23",
+"workday:micron:JR114256": "2026-11-12",
 "workday:micron:JR114257": "2026-10-20",
 "workday:micron:JR114261-1": "2026-10-20",
 "workday:micron:JR114263": "2026-11-02",
@@ -89155,6 +89221,7 @@
 "workday:micron:JR116924": "2026-11-06",
 "workday:micron:JR116926": "2026-11-03",
 "workday:micron:JR116939-1": "2026-11-09",
+"workday:micron:JR116945": "2026-11-12",
 "workday:micron:JR116949": "2026-11-03",
 "workday:micron:JR116954": "2026-11-03",
 "workday:micron:JR116958": "2026-11-05",
@@ -93152,6 +93219,7 @@
 "workday:salesforce:JR366628": "2026-10-30",
 "workday:salesforce:JR366636": "2026-11-02",
 "workday:salesforce:JR366655": "2026-11-10",
+"workday:salesforce:JR366656": "2026-11-12",
 "workday:salesforce:JR366657": "2026-11-12",
 "workday:salesforce:JR366661": "2026-10-30",
 "workday:salesforce:JR366662": "2026-10-30",
@@ -93341,6 +93409,7 @@
 "workday:salesforce:JR368128": "2026-11-12",
 "workday:salesforce:JR368137-1": "2026-11-12",
 "workday:salesforce:JR368157": "2026-11-12",
+"workday:salesforce:JR368159": "2026-11-12",
 "workday:salesforce:JR368161": "2026-11-12",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
@@ -100361,9 +100430,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 78,
+"calls": 84,
 "date": "2026-11-12",
-"usd": 0.008381
+"usd": 0.008965
 },
 "years": {
 "amazon:10583340": [
