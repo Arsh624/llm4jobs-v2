@@ -91,7 +91,9 @@ def render_html(jobs: list[Job]) -> str:
         parts += [f"<h3>Contract / contract-to-hire, W-2 ({len(contract)})</h3>",
                   "<p style=\"font-size:12px;color:#555\">Up to 3 years experience. Check the sponsorship "
                   "column; staffing firms often sponsor, direct contracts rarely do.</p>", _table(contract, True)]
-    parts.append("</body></html>")
+    parts.append("<p style=\"font-size:11px;color:#777\">H-1B history = approvals under this company name in USCIS data, FY2021-23. "
+                 "Blank means no match under that name (new company or different legal name), not that it will not sponsor. "
+                 "Matching by name can be wrong for common names.</p></body></html>")
     return "".join(parts)
 
 

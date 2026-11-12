@@ -18,20 +18,8 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SUFFIX = {"inc", "incorporated", "llc", "llp", "lp", "ltd", "limited", "corp", "corporation", "co", "company",
-          "pbc", "plc", "gmbh", "opco", "holdings", "holding", "the", "usa", "us", "america", "americas", "group"}
-
-
-def norm(name: str) -> str:
-    n = re.sub(r"\(.*?\)", " ", name.lower())
-    n = n.replace("&", " and ")
-    words = [w for w in re.sub(r"[^a-z0-9]+", " ", n).split() if w not in SUFFIX]
-    return " ".join(words)
-
-
-def employer_keys(raw: str) -> set[str]:
-    parts = re.split(r"\bd/?b/?a\b|\bf/?k/?a\b|\bformerly\b", raw, flags=re.I)   # "X DBA Y" -> both names
-    return {k for k in (norm(p) for p in parts) if k}
+sys.path.insert(0, str(ROOT))
+from jobradar.h1b import employer_keys, lookup, norm  # noqa: E402
 
 
 def read_files(folder: Path) -> list[tuple[str, str]]:
@@ -58,17 +46,12 @@ def main() -> None:
         print(f"FY{y} loaded", file=sys.stderr)
 
     sources = tomllib.load(open(ROOT / "config" / "sources.toml", "rb"))["source"]
-    out = {}
-    for s in sources:
-        company = s["company"]
-        for variant in {company, re.sub(r"\(.*?\)", "", company).strip(), re.sub(r"\s*/\s*.*", "", company)}:
-            k = norm(variant)
-            if k and totals.get(k, 0) > 0:
-                out[company] = totals[k]
-                break
+    tracked = {norm(x["company"]) for x in sources}
+    table = {k: v for k, v in totals.items() if v >= 10 or k in tracked}   # small file: 10+ approvals, or a tracked company
+    matched = sum(1 for s in sources if lookup(table, s["company"]))
     (ROOT / "config" / "h1b.json").write_text(
-        json.dumps({"years": "FY2021-FY2023", "approvals": dict(sorted(out.items()))}, indent=1), "utf-8")
-    print(f"matched {len(out)} of {len(sources)} companies", file=sys.stderr)
+        json.dumps({"years": "FY2021-FY2023", "employers": dict(sorted(table.items()))}, separators=(",", ":")), "utf-8")
+    print(f"{len(table)} employers stored; {matched} of {len(sources)} tracked companies matched", file=sys.stderr)
 
 
 if __name__ == "__main__":
