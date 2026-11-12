@@ -3400,6 +3400,16 @@
 },
 "2026-11-12"
 ],
+"amazon:10603768|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-12"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -6769,6 +6779,16 @@
 "us_ok": true
 },
 "2026-11-10"
+],
+"ashby:snowflake:d699971b-0c25-48e4-8733-7e8bd2328536|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Role targets new grads and offers mentorship opportunities.",
+"us_ok": true
+},
+"2026-11-12"
 ],
 "ashby:spoton:0bdb530e-8332-4618-b102-5e86ef1add7c|v3|73908d": [
 {
@@ -17418,6 +17438,13 @@
 },
 "2026-11-03"
 ],
+"rescue:ashby:crusoe:db7c5f9a-019f-4bda-8186-14a6716a1b8d": [
+{
+"note": "Requires significant experience in network operations.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:ashby:crusoe:f3d7e76e-5356-48c2-968b-0c8b632a5d47": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -22632,6 +22659,13 @@
 "senior": true
 },
 "2026-11-04"
+],
+"rescue:eightfold:paypal.com:274923294851": [
+{
+"note": "Requires significant product management experience.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:eightfold:paypal.com:274923364023": [
 {
@@ -29654,6 +29688,20 @@
 },
 "2026-10-30"
 ],
+"rescue:lever:shieldai:72b7a38e-e07b-4b62-b1f9-190e695aa253": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-12"
+],
+"rescue:lever:shieldai:b579fee8-b005-4152-83c4-152056282746": [
+{
+"note": "Requires significant leadership experience.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:lever:spotify:22a796f2-2bfd-4f44-aab3-a0a20a7783fc": [
 {
 "note": "Requires significant experience in product management.",
@@ -34455,6 +34503,13 @@
 "senior": true
 },
 "2026-11-11"
+],
+"rescue:smartrecruiters:ServiceNow:744000161381529": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:smartrecruiters:aristanetworks:744000161031743": [
 {
@@ -57477,7 +57532,7 @@
 "1X Technologies": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 98
 },
 "31st Union": {
 "alerted": false,
@@ -57542,7 +57597,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 219
+"typical": 218
 },
 "Agiloft": {
 "alerted": false,
@@ -57567,7 +57622,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 215
+"typical": 216
 },
 "Airtable": {
 "alerted": false,
@@ -57720,9 +57775,8 @@
 "typical": 25
 },
 "Arrowstreet Capital": {
-"alerted": true,
-"reason": "returned 0 jobs (usually ~28)",
-"streak": 286,
+"alerted": false,
+"streak": 0,
 "typical": 28
 },
 "Asana": {
@@ -57963,7 +58017,7 @@
 "Cerebras": {
 "alerted": false,
 "streak": 0,
-"typical": 124
+"typical": 125
 },
 "Character.AI": {
 "alerted": false,
@@ -58148,7 +58202,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 325
+"typical": 324
 },
 "Curri": {
 "alerted": false,
@@ -58213,7 +58267,7 @@
 "Dialpad": {
 "alerted": false,
 "streak": 0,
-"typical": 15
+"typical": 16
 },
 "Diamond Foundry": {
 "alerted": false,
@@ -58704,7 +58758,7 @@
 "Illumina": {
 "alerted": false,
 "streak": 0,
-"typical": 7
+"typical": 8
 },
 "Illumio": {
 "alerted": false,
@@ -58864,7 +58918,7 @@
 "Komodo Health": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "Kong": {
 "alerted": false,
@@ -59064,7 +59118,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 248
+"typical": 249
 },
 "Microsoft": {
 "alerted": false,
@@ -59780,7 +59834,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 251
+"typical": 252
 },
 "Salient": {
 "alerted": false,
@@ -59860,7 +59914,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 464
+"typical": 465
 },
 "Sesame": {
 "alerted": false,
@@ -59873,10 +59927,9 @@
 "typical": 7
 },
 "Shield AI": {
-"alerted": true,
-"reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 315,
-"typical": 690
+"alerted": false,
+"streak": 0,
+"typical": 659
 },
 "SiFive": {
 "alerted": false,
@@ -59936,7 +59989,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 377
+"typical": 378
 },
 "SoFi": {
 "alerted": false,
@@ -59946,7 +59999,7 @@
 "Socket": {
 "alerted": false,
 "streak": 0,
-"typical": 24
+"typical": 25
 },
 "Sola": {
 "alerted": false,
@@ -60036,7 +60089,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 784
+"typical": 782
 },
 "Stuut": {
 "alerted": false,
@@ -60391,7 +60444,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 },
 "Wingspan": {
 "alerted": false,
@@ -61053,6 +61106,7 @@
 "amazon:10603658": "2026-11-12",
 "amazon:10603659": "2026-11-12",
 "amazon:10603660": "2026-11-12",
+"amazon:10603768": "2026-11-12",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
@@ -61730,6 +61784,7 @@
 "ashby:crusoe:d93b9655-10a2-43bf-9f5e-dc01740e11c5": "2026-11-12",
 "ashby:crusoe:da5212c3-8245-4497-a002-0e20b5d7b328": "2026-11-03",
 "ashby:crusoe:db42ecb7-0697-45cd-9d82-ec6858bb6c5b": "2026-10-29",
+"ashby:crusoe:db7c5f9a-019f-4bda-8186-14a6716a1b8d": "2026-11-12",
 "ashby:crusoe:dd7e2ce3-0726-4b19-8978-531874ddce91": "2026-10-27",
 "ashby:crusoe:e172c6e7-a088-4287-a3d4-966ef892e3f9": "2026-11-03",
 "ashby:crusoe:e44b207c-7b8a-47d0-8690-34eb5dfa8478": "2026-11-10",
@@ -64192,6 +64247,7 @@
 "ashby:snowflake:d2089f20-d05d-40e5-8b3b-c3047184cf24": "2026-10-20",
 "ashby:snowflake:d23bc607-27d8-48a9-8c12-a455b3c6a820": "2026-10-30",
 "ashby:snowflake:d3d801b9-74a5-4e58-9d8f-1e2a79b22890": "2026-10-19",
+"ashby:snowflake:d699971b-0c25-48e4-8733-7e8bd2328536": "2026-11-12",
 "ashby:snowflake:d80cc932-e8f7-4a67-8d19-680688ceb387": "2026-11-02",
 "ashby:snowflake:d8c4529f-6bf6-47b2-b2e9-fd40f57c1581": "2026-10-28",
 "ashby:snowflake:da2d8c93-5d33-4fdc-8510-08126d3df5eb": "2026-11-05",
@@ -64221,6 +64277,7 @@
 "ashby:socket:6b43fbbf-a826-4e11-9e05-0d2cb6e51714": "2026-10-28",
 "ashby:socket:91b38c09-d291-4fb4-805a-baa03a7c67bb": "2026-10-29",
 "ashby:socket:de959cdb-2441-4ce9-a31a-4cc4e50fb8fe": "2026-10-30",
+"ashby:socket:e3bf5aee-0ca3-423c-bee0-4e431c4f98bc": "2026-11-12",
 "ashby:socket:f2acca9e-3d32-486f-9111-0051f9ce0553": "2026-10-28",
 "ashby:sphere:4ef02061-2c0a-470b-a0af-6085358d6c61": "2026-10-30",
 "ashby:sphere:764fbb87-b987-4007-8af8-bb34199c6f46": "2026-11-02",
@@ -67282,6 +67339,7 @@
 "eightfold:microsoft.com:1970393557070145": "2026-11-10",
 "eightfold:microsoft.com:1970393557070157": "2026-11-12",
 "eightfold:microsoft.com:1970393557070159": "2026-11-10",
+"eightfold:microsoft.com:1970393557070162": "2026-11-12",
 "eightfold:microsoft.com:1970393557070173": "2026-11-10",
 "eightfold:microsoft.com:1970393557070175": "2026-11-11",
 "eightfold:microsoft.com:1970393557070176": "2026-11-10",
@@ -67424,6 +67482,7 @@
 "eightfold:paypal.com:274923279192": "2026-11-04",
 "eightfold:paypal.com:274923280864": "2026-11-05",
 "eightfold:paypal.com:274923294248": "2026-11-05",
+"eightfold:paypal.com:274923294851": "2026-11-12",
 "eightfold:paypal.com:274923296733": "2026-11-05",
 "eightfold:paypal.com:274923299388": "2026-11-09",
 "eightfold:paypal.com:274923300117": "2026-11-06",
@@ -67941,6 +68000,7 @@
 "greenhouse:airbnb:8304030": "2026-10-20",
 "greenhouse:airbnb:8304162": "2026-10-21",
 "greenhouse:airbnb:8304183": "2026-10-21",
+"greenhouse:airbnb:8305593": "2026-11-12",
 "greenhouse:airbnb:8306218": "2026-10-21",
 "greenhouse:airbnb:8306554": "2026-10-28",
 "greenhouse:airbnb:8306555": "2026-10-28",
@@ -69941,6 +70001,7 @@
 "greenhouse:dialpad:8932004002": "2026-11-05",
 "greenhouse:dialpad:8932005002": "2026-11-05",
 "greenhouse:dialpad:8932006002": "2026-11-05",
+"greenhouse:dialpad:8936931002": "2026-11-12",
 "greenhouse:discord:8731320002": "2026-11-12",
 "greenhouse:discord:8847080002": "2026-10-23",
 "greenhouse:discord:8865033002": "2026-11-10",
@@ -71250,6 +71311,7 @@
 "greenhouse:lucidmotors:5293294007": "2026-11-12",
 "greenhouse:lucidmotors:5293295007": "2026-11-12",
 "greenhouse:lucidmotors:5293585007": "2026-11-12",
+"greenhouse:lucidmotors:5293910007": "2026-11-12",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -76781,6 +76843,27 @@
 "lever:palantir:eb496d6a-a960-43d3-a09b-e3843052f54e": "2026-11-10",
 "lever:scality:2a21e93c-2aff-451e-b800-b0126f2a24bf": "2026-10-20",
 "lever:scality:3a5d2f1a-1821-44f1-a1b7-ea4704a9de6d": "2026-11-02",
+"lever:shieldai:04647e99-141f-4a4b-95af-64bd1fb0fe6a": "2026-11-12",
+"lever:shieldai:09b1ad03-cbf4-4e74-939a-4b812150e2d0": "2026-11-12",
+"lever:shieldai:0b0c4b13-a7d4-4534-ab89-919af0a777fa": "2026-11-12",
+"lever:shieldai:17003211-018d-47d9-ab97-2084e85a096e": "2026-11-12",
+"lever:shieldai:2d823cec-a7fb-42ea-8397-33ae9a6ea4aa": "2026-11-12",
+"lever:shieldai:459c6b85-634d-441b-91c8-e7fd0374f0bb": "2026-11-12",
+"lever:shieldai:4c00edbb-1639-4e04-9b7c-4ac2dd61d454": "2026-11-12",
+"lever:shieldai:55e2953e-0d1f-47fb-a46a-756bad3d0b56": "2026-11-12",
+"lever:shieldai:6165c63e-333f-4ccf-88c4-915edd5c39d3": "2026-11-12",
+"lever:shieldai:64880d34-d218-428a-941f-a3c2b2017b41": "2026-11-12",
+"lever:shieldai:70b5ba5f-1c9d-4126-b0e2-444a092e0631": "2026-11-12",
+"lever:shieldai:7255f51e-b4d5-4372-89ef-013a61f0bc0e": "2026-11-12",
+"lever:shieldai:72b7a38e-e07b-4b62-b1f9-190e695aa253": "2026-11-12",
+"lever:shieldai:9e5c21ef-b10e-4094-b4f7-5703d9f20695": "2026-11-12",
+"lever:shieldai:b579fee8-b005-4152-83c4-152056282746": "2026-11-12",
+"lever:shieldai:c6eafdf1-9e2e-43c6-9ee7-2ea38b756f66": "2026-11-12",
+"lever:shieldai:da6cca98-5ca5-46b6-9bed-75021b43421a": "2026-11-12",
+"lever:shieldai:e5aaeb19-c61e-440d-9c88-62987575e936": "2026-11-12",
+"lever:shieldai:e8e7ccc0-79e7-4e3c-bd56-48f6ffea3db0": "2026-11-12",
+"lever:shieldai:eef58bde-5309-4a1c-8719-c7deb45f0254": "2026-11-12",
+"lever:shieldai:fccc8e32-00d4-416f-bfbf-9705a3415cc5": "2026-11-12",
 "lever:snappr:eea70981-77e0-494b-ab66-8bab21632fa6": "2026-11-03",
 "lever:spotify:01b41b49-7d43-4933-9ba7-06ebe0a2a749": "2026-11-10",
 "lever:spotify:19c12e29-b6d4-4d97-9053-48238fb7c381": "2026-10-23",
@@ -77145,6 +77228,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019663": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019665": "2026-11-04",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019706": "2026-11-03",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019707": "2026-11-12",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019710": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019713": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019715": "2026-11-11",
@@ -81995,6 +82079,7 @@
 "smartrecruiters:ServiceNow:744000161367260": "2026-11-12",
 "smartrecruiters:ServiceNow:744000161368129": "2026-11-12",
 "smartrecruiters:ServiceNow:744000161375112": "2026-11-12",
+"smartrecruiters:ServiceNow:744000161381529": "2026-11-12",
 "smartrecruiters:aristanetworks:744000159508919": "2026-11-03",
 "smartrecruiters:aristanetworks:744000159664261": "2026-11-04",
 "smartrecruiters:aristanetworks:744000159676689": "2026-11-04",
@@ -91102,6 +91187,7 @@
 "workday:micron:JR113514": "2026-10-21",
 "workday:micron:JR113518": "2026-10-21",
 "workday:micron:JR113519": "2026-11-06",
+"workday:micron:JR113525": "2026-11-12",
 "workday:micron:JR113533": "2026-10-25",
 "workday:micron:JR113534": "2026-10-23",
 "workday:micron:JR113535": "2026-10-23",
@@ -95700,6 +95786,7 @@
 "workday:salesforce:JR366229": "2026-10-29",
 "workday:salesforce:JR366234-1": "2026-10-30",
 "workday:salesforce:JR366235": "2026-11-04",
+"workday:salesforce:JR366239": "2026-11-12",
 "workday:salesforce:JR366241-1": "2026-10-30",
 "workday:salesforce:JR366245": "2026-10-29",
 "workday:salesforce:JR366246": "2026-10-29",
@@ -99989,6 +100076,7 @@
 "workday:wf:R-586988": "2026-11-12",
 "workday:wf:R-586997": "2026-11-10",
 "workday:wf:R-586998": "2026-11-11",
+"workday:wf:R-587001": "2026-11-12",
 "workday:wf:R-587009": "2026-11-10",
 "workday:wf:R-587011": "2026-11-12",
 "workday:wf:R-587013": "2026-11-12",
@@ -100638,6 +100726,7 @@
 "amazon|software dev engineer ii leo autopilot": "2026-11-03",
 "amazon|software dev engineer ii nasc tech": "2026-11-02",
 "amazon|software dev engineer ii nlm connectivity services": "2026-10-28",
+"amazon|software dev engineer ii programming foundations": "2026-11-12",
 "amazon|software dev engineer ii route 53 resolver": "2026-11-10",
 "amazon|software dev engineer ii scot fo shipment optimization atrops": "2026-10-19",
 "amazon|software dev engineer ii selection monitoring catalog enrichment": "2026-10-27",
@@ -102907,6 +102996,7 @@
 "smithfield foods|data analytics associate": "2026-11-04",
 "snowflake|account engineer": "2026-11-03",
 "snowflake|ai associate office of the ceo": "2026-11-10",
+"snowflake|software engineer identity access management": "2026-11-12",
 "snowflake|software engineer trust platform security": "2026-10-30",
 "snowflake|solution engineer": "2026-11-03",
 "sofi|associate finance engineer data and analytics": "2026-11-04",
@@ -103244,9 +103334,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 284,
+"calls": 291,
 "date": "2026-11-12",
-"usd": 0.037052
+"usd": 0.037801
 },
 "years": {
 "amazon:10583340": [
