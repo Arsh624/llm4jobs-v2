@@ -2620,6 +2620,16 @@
 },
 "2026-11-06"
 ],
+"amazon:10599139|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-12"
+],
 "amazon:10599231|v3|73908d": [
 {
 "chance": 2,
@@ -16187,6 +16197,13 @@
 "senior": true
 },
 "2026-11-06"
+],
+"rescue:amazon:10599138": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:amazon:10602670": [
 {
@@ -33981,6 +33998,34 @@
 "senior": true
 },
 "2026-11-11"
+],
+"rescue:talentbrew:careers.synopsys.com:103189170128": [
+{
+"note": "Requires 10+ years of experience.",
+"senior": true
+},
+"2026-11-12"
+],
+"rescue:talentbrew:careers.synopsys.com:103189170160": [
+{
+"note": "Requires 10+ years of experience.",
+"senior": true
+},
+"2026-11-12"
+],
+"rescue:talentbrew:careers.synopsys.com:103189170352": [
+{
+"note": "Requires significant experience in RTL design.",
+"senior": true
+},
+"2026-11-12"
+],
+"rescue:talentbrew:careers.synopsys.com:103189170384": [
+{
+"note": "Requires extensive experience in analog layout.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:talentbrew:careers.synopsys.com:92980004592": [
 {
@@ -55715,7 +55760,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 250,
+"streak": 251,
 "typical": 28
 },
 "Asana": {
@@ -55736,7 +55781,7 @@
 "Astranis": {
 "alerted": false,
 "streak": 0,
-"typical": 184
+"typical": 182
 },
 "Astro Mechanica": {
 "alerted": false,
@@ -56331,7 +56376,7 @@
 "Etched": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 114
 },
 "Etsy": {
 "alerted": false,
@@ -56426,7 +56471,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 662,
+"streak": 663,
 "typical": 4
 },
 "Firstup": {
@@ -56577,7 +56622,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 98
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -56767,7 +56812,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 114
+"typical": 116
 },
 "Intro": {
 "alerted": false,
@@ -57167,7 +57212,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 228,
+"streak": 229,
 "typical": 43
 },
 "Nash": {
@@ -57868,7 +57913,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 279,
+"streak": 280,
 "typical": 690
 },
 "SiFive": {
@@ -58029,7 +58074,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 787
+"typical": 786
 },
 "Stuut": {
 "alerted": false,
@@ -58079,7 +58124,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 682
+"typical": 688
 },
 "T-Mobile": {
 "alerted": false,
@@ -58469,7 +58514,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 372
+"typical": 373
 },
 "Zuora": {
 "alerted": false,
@@ -58939,6 +58984,8 @@
 "amazon:10599070": "2026-11-06",
 "amazon:10599071": "2026-11-06",
 "amazon:10599074": "2026-11-06",
+"amazon:10599138": "2026-11-12",
+"amazon:10599139": "2026-11-12",
 "amazon:10599231": "2026-11-11",
 "amazon:10599298": "2026-11-09",
 "amazon:10599299": "2026-11-07",
@@ -65088,8 +65135,10 @@
 "eightfold:microsoft.com:1970393557070547": "2026-11-11",
 "eightfold:microsoft.com:1970393557070577": "2026-11-11",
 "eightfold:microsoft.com:1970393557070587": "2026-11-11",
+"eightfold:microsoft.com:1970393557070590": "2026-11-12",
 "eightfold:microsoft.com:1970393557070591": "2026-11-11",
 "eightfold:microsoft.com:1970393557070607": "2026-11-11",
+"eightfold:microsoft.com:1970393557070627": "2026-11-12",
 "eightfold:microsoft.com:1970393557070644": "2026-11-10",
 "eightfold:microsoft.com:1970393557070686": "2026-11-10",
 "eightfold:microsoft.com:1970393557070710": "2026-11-10",
@@ -71201,6 +71250,7 @@
 "greenhouse:sonicwall:8346048": "2026-11-02",
 "greenhouse:sonicwall:8366047": "2026-11-09",
 "greenhouse:sonicwall:8376366": "2026-11-11",
+"greenhouse:sonicwall:8382126": "2026-11-12",
 "greenhouse:sonyinteractiveentertainmentglobal:6176305004": "2026-10-29",
 "greenhouse:sonyinteractiveentertainmentglobal:6181170004": "2026-11-10",
 "greenhouse:sonyinteractiveentertainmentglobal:6199055004": "2026-10-29",
@@ -72227,6 +72277,7 @@
 "greenhouse:zscaler:5271573007": "2026-11-05",
 "greenhouse:zscaler:5271575007": "2026-11-05",
 "greenhouse:zscaler:5271579007": "2026-10-29",
+"greenhouse:zscaler:5271582007": "2026-11-12",
 "greenhouse:zscaler:5271588007": "2026-11-10",
 "greenhouse:zscaler:5271590007": "2026-11-11",
 "greenhouse:zscaler:5271592007": "2026-10-30",
@@ -80026,6 +80077,13 @@
 "talentbrew:careers.synopsys.com:103182813376": "2026-11-11",
 "talentbrew:careers.synopsys.com:103182813504": "2026-11-11",
 "talentbrew:careers.synopsys.com:103182813552": "2026-11-11",
+"talentbrew:careers.synopsys.com:103189170048": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170096": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170128": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170160": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170224": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170352": "2026-11-12",
+"talentbrew:careers.synopsys.com:103189170384": "2026-11-12",
 "talentbrew:careers.synopsys.com:87085299616": "2026-10-20",
 "talentbrew:careers.synopsys.com:87868266560": "2026-10-20",
 "talentbrew:careers.synopsys.com:88126393648": "2026-10-20",
@@ -83716,6 +83774,7 @@
 "workday:hp:3167787-2": "2026-10-20",
 "workday:hp:3167788-1": "2026-10-26",
 "workday:hp:3167807-1": "2026-11-02",
+"workday:hp:3167808-1": "2026-11-12",
 "workday:hp:3167849-1": "2026-11-05",
 "workday:hp:3167852-2": "2026-10-28",
 "workday:hp:3167853-1": "2026-10-20",
@@ -84080,6 +84139,7 @@
 "workday:hp:3170466-1": "2026-11-03",
 "workday:hp:3170468-1": "2026-11-03",
 "workday:hp:3170480": "2026-11-05",
+"workday:hp:3170481-2": "2026-11-12",
 "workday:hp:3170483-1": "2026-11-10",
 "workday:hp:3170488-1": "2026-10-29",
 "workday:hp:3170496-1": "2026-11-02",
@@ -85604,6 +85664,7 @@
 "workday:intel:JR0288916": "2026-11-05",
 "workday:intel:JR0288917": "2026-11-06",
 "workday:intel:JR0288918": "2026-11-06",
+"workday:intel:JR0288923": "2026-11-12",
 "workday:intel:JR0288927": "2026-11-11",
 "workday:intel:JR0288929-1": "2026-11-11",
 "workday:intel:JR0288934": "2026-11-10",
@@ -85673,6 +85734,7 @@
 "workday:intel:JR0289071": "2026-11-12",
 "workday:intel:JR0289072-1": "2026-11-12",
 "workday:intel:JR0289075": "2026-11-10",
+"workday:intel:JR0289076-1": "2026-11-12",
 "workday:intel:JR0289080": "2026-11-11",
 "workday:intel:JR0289085": "2026-11-11",
 "workday:intel:JR0289087": "2026-11-10",
@@ -97470,6 +97532,7 @@
 "amazon|software engineer early career": "2026-10-19",
 "amazon|software engineer i commerce": "2026-11-11",
 "amazon|software engineer ii aws dynamodb": "2026-11-10",
+"amazon|software engineer ii embedded networking amazon leo": "2026-11-12",
 "amazon|software engineer worldwide amazon stores finance technology controllership engineering": "2026-10-29",
 "amazon|software privacy engineer multiple teams": "2026-10-29",
 "amazon|software privacy engineer trust platform automation devices services trust privacy and accessibility tpa": "2026-10-29",
@@ -99813,9 +99876,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 36,
+"calls": 42,
 "date": "2026-11-12",
-"usd": 0.004386
+"usd": 0.004944
 },
 "years": {
 "amazon:10583340": [
