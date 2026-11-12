@@ -3208,3 +3208,34 @@ company = "Priceline"
 host = "priceline.wd1.myworkdayjobs.com"
 tenant = "priceline"
 site = "priceline"
+
+# ------------------- Consulting / IT-services employers with early-career hiring (Nov 2026).
+# Note: staffing firms' own boards (Insight Global, Kelly) only list their internal corporate jobs, not
+# the client contract roles they place, so they were left out.
+[[source]]
+type = "workday"
+company = "NTT DATA"
+host = "nttlimited.wd3.myworkdayjobs.com"
+tenant = "nttlimited"
+site = "NTT_Careers"
+
+[[source]]
+type = "workday"
+company = "Kyndryl Early Careers"
+host = "kyndryl.wd5.myworkdayjobs.com"
+tenant = "kyndryl"
+site = "KyndrylEarlyCareers"
+
+[[source]]
+type = "workday"
+company = "Accenture"
+host = "accenture.wd103.myworkdayjobs.com"
+tenant = "accenture"
+site = "AccentureCareers"
+
+[[source]]
+type = "workday"
+company = "Kyndryl"
+host = "kyndryl.wd5.myworkdayjobs.com"
+tenant = "kyndryl"
+site = "KyndrylProfessionalCareers"
