@@ -152,3 +152,81 @@ def extract_min_years(text: str) -> int | None:
         if n <= 30:
             found.append(n)
     return min(found) if found else None
+
+
+# ------------------------------------------------------------ employment type
+CONTRACT_TITLE = re.compile(
+    r"\b(contract(?:or)?|contingent|temporary|temp|fixed[\s-]*term|consultant|c2h|"
+    r"contract[\s-]*to[\s-]*(?:hire|perm(?:anent)?))\b", re.I)
+CTH = re.compile(r"contract[\s-]*to[\s-]*(?:hire|perm(?:anent)?)|\bc2h\b|temp[\s-]*to[\s-]*(?:hire|perm)", re.I)
+CONTRACT_BODY = re.compile(
+    r"\b(?:this|the)\s+(?:is\s+a\s+|position\s+is\s+a\s+|role\s+is\s+a\s+)?(?:\d+[\s-]*month\s+)?contract\b|"
+    r"\bcontract\s+(?:position|role|opportunity|assignment|duration|length)\b|"
+    r"\b\d+[\s-]*(?:month|mo)\s+(?:contract|assignment)\b|\bw[\s-]?2\s+contract\b|"
+    r"\bcontract\s*[:\-]\s*\d+|\bassignment\s+length\b|\bemployment\s+type\s*[:\-]\s*(?:contract|temporary)", re.I)
+PART_TIME = re.compile(r"\bpart[\s-]*time\b", re.I)
+C2C_1099 = re.compile(r"\b(c2c|corp[\s-]*to[\s-]*corp|1099|independent\s+contractor)\b", re.I)
+W2 = re.compile(r"\bw[\s-]?2\b", re.I)
+
+
+def employment_type(title: str, description: str = "", hint: str = "") -> str:
+    """'contract', 'contract-to-hire', 'part-time' or 'full-time'. `hint` is the job system's own
+    employment field when it has one (Ashby employmentType, Lever commitment, ...)."""
+    h = (hint or "").lower()
+    head = f"{title}\n{description[:1500]}"
+    if CTH.search(head) or "contract to hire" in h:
+        return "contract-to-hire"
+    if any(w in h for w in ("contract", "temporary", "contingent", "freelance", "fixed")):
+        return "contract"
+    if re.search(r"part[\s-]*time", h):
+        return "part-time"
+    if CONTRACT_TITLE.search(title) and not re.search(r"consultant", title, re.I):
+        return "contract"
+    if CONTRACT_BODY.search(head):
+        return "contract"
+    if PART_TIME.search(title):
+        return "part-time"
+    return "full-time"
+
+
+def is_c2c_only(text: str) -> bool:
+    """Corp-to-corp / 1099 postings (self-employed contractors): no sponsorship, not OPT-compatible.
+    A posting that also says W-2 is fine."""
+    return bool(C2C_1099.search(text or "")) and not W2.search(text or "")
+
+
+NO_SPONSOR = re.compile(
+    r"(?:no|not|unable\s+to|cannot|can[\s']*t|won[\s']*t|will\s+not|do(?:es)?\s+not|without)\s+"
+    r"(?:\w+\s+){0,4}?(?:sponsor(?:ship)?|visa)|"
+    r"(?:sponsor(?:ship)?)\s+(?:is\s+)?(?:not\s+(?:available|offered|provided)|unavailable)|"
+    r"(?:must|should)\s+be\s+(?:legally\s+)?(?:authori[sz]ed|eligible)\s+to\s+work[^.]{0,80}without\s+(?:the\s+need\s+for\s+)?"
+    r"(?:current\s+or\s+future\s+)?(?:visa\s+)?sponsorship|"
+    r"u\.?s\.?\s+(?:citizens?|persons?)\s+(?:only|required)|us\s+citizenship\s+(?:is\s+)?required|"
+    r"must\s+be\s+a\s+u\.?s\.?\s+(?:citizen|person)", re.I)
+YES_SPONSOR = re.compile(
+    r"(?:will|can|may|able\s+to|happy\s+to|do|does)\s+(?:\w+\s+){0,3}?sponsor(?:ship)?\b|"
+    r"(?:visa|h[\s-]?1[\s-]?b|opt|stem|cpt)\s+(?:\w+\s+){0,3}?(?:sponsorship\s+)?(?:is\s+|are\s+)?(?:available|supported|offered|welcome|accepted|ok)|"
+    r"sponsorship\s+(?:is\s+)?(?:available|offered|provided)|h[\s-]?1[\s-]?b\s+(?:transfer|sponsor)|"
+    r"open\s+to\s+(?:candidates\s+on\s+)?(?:opt|stem|visa)", re.I)
+
+
+def sponsorship_hint(text: str) -> str:
+    """'no sponsorship' | 'sponsorship mentioned' | '' (not stated). Free text rules, no AI."""
+    t = re.sub(r"\s+", " ", text or "")
+    if NO_SPONSOR.search(t):
+        return "no sponsorship"
+    if YES_SPONSOR.search(t):
+        return "sponsorship mentioned"
+    return ""
+
+
+def simplify_sponsorship(label: str) -> str:
+    """Map SimplifyJobs' sponsorship labels to our wording ('Other' / unknown -> not stated)."""
+    t = (label or "").lower()
+    if "not offer" in t or "no sponsor" in t:
+        return "no sponsorship"
+    if "citizen" in t:
+        return "US citizenship required"
+    if "offer" in t:
+        return "sponsorship mentioned"
+    return ""

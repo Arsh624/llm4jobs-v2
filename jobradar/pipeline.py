@@ -25,6 +25,8 @@ LOG = logging.getLogger(__name__)
 DEFAULTS = {
     "max_age_days": 3,
     "max_years": 2,
+    "contract_max_years": 3,         # looser experience cap for W-2 contract roles
+    "include_contract": True,
     "us_only": True,
     "remote_counts_as_us": True,
     "include_internships": False,
@@ -75,6 +77,9 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     stats = Counter()
     errors: dict[str, str] = {}
     max_years = settings["max_years"]
+
+    def years_limit(j: Job) -> int:
+        return settings["contract_max_years"] if j.extra.get("emp") in ("contract", "contract-to-hire") else max_years
     # Cache key carries the scoring version + home area, so changing either re-scores jobs once.
     ptag = "|v3|" + hashlib.sha1(settings["home_area"].encode()).hexdigest()[:6]
 
@@ -195,11 +200,22 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
                 continue
             # "2 Locations", empty or bare "Remote": kept, and the AI check confirms from the text.
             j.extra["loc_unclear"] = filters.us_status(j.location, remote_counts=False) is None
+        j.extra["emp"] = filters.employment_type(j.title, j.description, j.extra.get("emp_hint", ""))
+        j.extra["spons"] = (filters.simplify_sponsorship(j.sponsorship)
+                            or filters.sponsorship_hint(f"{j.title}\n{j.description}"))
+        if filters.is_c2c_only(f"{j.title}\n{j.description}"):      # self-employed 1099/C2C: no sponsorship, not OPT-friendly
+            stats["drop_c2c_1099"] += 1
+            state.mark_seen(j.key)
+            continue
+        if j.extra["emp"] in ("contract", "contract-to-hire") and not settings["include_contract"]:
+            stats["drop_contract"] += 1
+            state.mark_seen(j.key)
+            continue
         if j.min_years is None:
             regex = filters.extract_min_years(j.description)
             if regex is not None:
                 j.min_years, j.years_basis = regex, "regex"
-        if j.min_years is not None and j.min_years > max_years:
+        if j.min_years is not None and j.min_years > years_limit(j):
             stats["drop_years"] += 1
             state.mark_seen(j.key)
             continue
@@ -237,11 +253,12 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
             j.min_years, j.years_basis = ai["min_years"], "ai"
         if j.min_years is None:
             j.years_basis = j.years_basis or "not stated"
-        if j.min_years is not None and j.min_years > max_years:
+        if j.min_years is not None and j.min_years > years_limit(j):
             stats["drop_years_ai"] += 1
             state.mark_seen(j.key)
             continue
-        if ai and (ai.get("level") == "senior" or (ai.get("level") == "mid" and j.min_years is None)):
+        is_contract = j.extra.get("emp") in ("contract", "contract-to-hire")
+        if ai and (ai.get("level") == "senior" or (ai.get("level") == "mid" and j.min_years is None and not is_contract)):
             stats["drop_ai_level"] += 1
             state.mark_seen(j.key)
             continue
@@ -307,7 +324,9 @@ def _update_feed_health(state: State, health: dict, settings: dict) -> tuple[lis
     broken, recovered = [], []
     for label, h in health.items():
         f = state.feeds.get(label, {"streak": 0, "alerted": False, "typical": 0})
-        sudden_empty = h["jobs"] == 0 and f.get("typical", 0) >= settings["alert_min_typical_jobs"]
+        # date-filtered feeds (Workday, Jibe, ...) legitimately return 0 when nothing new was posted
+        sudden_empty = (h["jobs"] == 0 and h.get("type") not in AGE_AWARE
+                        and f.get("typical", 0) >= settings["alert_min_typical_jobs"])
         if h["error"] or sudden_empty:
             f["streak"] = f.get("streak", 0) + 1
             f["reason"] = h["error"] or f"returned 0 jobs (usually ~{f['typical']})"

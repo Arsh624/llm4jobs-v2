@@ -70,6 +70,7 @@ def ashby(cfg) -> list[Job]:
             source="ashby", source_id=f"{slug}:{j['id']}", company=cfg["company"],
             title=j.get("title", ""), url=j.get("jobUrl", ""), location=loc,
             posted_at=_iso(j.get("publishedAt")),
+            extra={"emp_hint": j.get("employmentType") or ""},      # FullTime / Contract / Intern ...
             description=j.get("descriptionPlain") or html_to_text(j.get("descriptionHtml", "")),
         ))
     return out
@@ -89,6 +90,7 @@ def lever(cfg) -> list[Job]:
             title=j.get("text", ""), url=j.get("hostedUrl", ""),
             location="; ".join(cats.get("allLocations") or [cats.get("location") or ""]),
             posted_at=_epoch(j.get("createdAt"), ms=True),
+            extra={"emp_hint": cats.get("commitment") or ""},        # Full-time / Contract ...
             description=f"{j.get('descriptionPlain','')}\n{lists}".strip(),
         ))
     return out
@@ -119,7 +121,7 @@ def workday(cfg, max_age_days: int = 3, max_pages: int = 15) -> list[Job]:
         try:
             d = request_json(f"{base}/jobs", body)
         except Exception as e:
-            if facets and "400" in str(e):      # tenant doesn't support the US facet
+            if facets and ("400" in str(e) or "422" in str(e)):      # tenant doesn't support the US facet
                 facets = {}
                 continue
             raise
@@ -149,6 +151,7 @@ def workday(cfg, max_age_days: int = 3, max_pages: int = 15) -> list[Job]:
 def _workday_detail(job: Job) -> None:
     info = request_json(job.extra["wd_detail"]).get("jobPostingInfo") or {}
     job.description = html_to_text(info.get("jobDescription", ""))
+    job.extra["emp_hint"] = info.get("timeType") or ""       # "Full time" / "Part time"
     if info.get("startDate"):
         job.posted_at = _iso(info["startDate"] + "T00:00:00+00:00") or job.posted_at
     country = (info.get("country") or {}).get("descriptor", "")

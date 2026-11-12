@@ -41,35 +41,62 @@ def _ai_note(j: Job) -> str:
     return f"{level}: {ai.get('note', '')}" if level != "unknown" else ai.get("note", "")
 
 
-def render_html(jobs: list[Job]) -> str:
+def _is_contract(j: Job) -> bool:
+    return j.extra.get("emp") in ("contract", "contract-to-hire")
+
+
+def _emp(j: Job) -> str:
+    return j.extra.get("emp", "full-time")
+
+
+def _spons(j: Job) -> str:
+    return j.extra.get("spons") or j.sponsorship or ""
+
+
+def _table(jobs: list[Job], contract: bool) -> str:
     rows = "".join(
         "<tr>"
         f"<td>{html.escape(j.company)}</td>"
         f"<td><a href=\"{html.escape(j.url)}\">{html.escape(j.title)}</a></td>"
-        f"<td>{html.escape(j.location[:60])}</td>"
+        + (f"<td>{html.escape(_emp(j))}</td>" if contract else "")
+        + f"<td>{html.escape(j.location[:60])}</td>"
         f"<td><b>{_chance(j)}</b></td>"
         f"<td>{_years(j)}</td>"
         f"<td>{_ago(j.posted_at)}</td>"
         f"<td style=\"font-size:12px\">{html.escape(_ai_note(j))}</td>"
-        f"<td>{html.escape(j.sponsorship or '')}</td>"
+        f"<td>{html.escape(_spons(j))}</td>"
         f"<td style=\"color:#888\">{j.source}</td>"
         "</tr>" for j in jobs)
-    return (
-        "<html><head><meta charset=\"utf-8\"></head><body style=\"font-family:Arial,sans-serif\">"
-        f"<h2>Job Radar v2: {len(jobs)} new</h2>"
-        "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\">"
-        "<tr style=\"background:#f2f2f2\"><th>Company</th><th>Title</th><th>Location</th>"
-        "<th>Hire chance</th><th>Min yrs</th><th>Posted</th><th>AI check</th><th>Sponsorship</th><th>Source</th></tr>"
-        f"{rows}</table></body></html>")
+    head = ("<th>Company</th><th>Title</th>" + ("<th>Type</th>" if contract else "")
+            + "<th>Location</th><th>Hire chance</th><th>Min yrs</th><th>Posted</th>"
+              "<th>AI check</th><th>Sponsorship</th><th>Source</th>")
+    return ("<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\">"
+            f"<tr style=\"background:#f2f2f2\">{head}</tr>{rows}</table>")
+
+
+def render_html(jobs: list[Job]) -> str:
+    full = [j for j in jobs if not _is_contract(j)]
+    contract = [j for j in jobs if _is_contract(j)]
+    parts = ["<html><head><meta charset=\"utf-8\"></head><body style=\"font-family:Arial,sans-serif\">",
+             f"<h2>Job Radar v2: {len(jobs)} new</h2>"]
+    if full:
+        parts += [f"<h3>Full-time ({len(full)})</h3>", _table(full, False)]
+    if contract:
+        parts += [f"<h3>Contract / contract-to-hire, W-2 ({len(contract)})</h3>",
+                  "<p style=\"font-size:12px;color:#555\">Up to 3 years experience. Check the sponsorship "
+                  "column; staffing firms often sponsor, direct contracts rarely do.</p>", _table(contract, True)]
+    parts.append("</body></html>")
+    return "".join(parts)
 
 
 def render_csv(jobs: list[Job]) -> str:
     buf = io.StringIO()
     w = csv.writer(buf)
-    w.writerow(["company", "title", "location", "hire_chance", "min_years", "posted_at", "ai_check", "sponsorship", "source", "url"])
+    w.writerow(["company", "title", "type", "location", "hire_chance", "min_years", "posted_at", "ai_check",
+                "sponsorship", "source", "url"])
     for j in jobs:
-        w.writerow([j.company, j.title, j.location, _chance(j), _years(j),
-                    j.posted_at.isoformat() if j.posted_at else "", _ai_note(j), j.sponsorship, j.source, j.url])
+        w.writerow([j.company, j.title, _emp(j), j.location, _chance(j), _years(j),
+                    j.posted_at.isoformat() if j.posted_at else "", _ai_note(j), _spons(j), j.source, j.url])
     return buf.getvalue()
 
 
@@ -83,7 +110,7 @@ def write_outputs(jobs: list[Job], out_dir: Path) -> None:
     now = datetime.now(timezone.utc).isoformat()
     feed = [{
         "company": j.company, "title": j.title, "url": j.url, "location": j.location,
-        "min_years": j.min_years, "years_basis": j.years_basis, "sponsorship": j.sponsorship,
+        "min_years": j.min_years, "years_basis": j.years_basis, "sponsorship": _spons(j), "type": _emp(j),
         "source": j.source, "posted_at": j.posted_at.isoformat() if j.posted_at else None,
         "ai_check": _ai_note(j), "hire_chance": (j.extra.get("ai") or {}).get("chance"),
         "found_at": now, "description": j.description[:8000],
@@ -107,7 +134,8 @@ def _smtp_send(msg: EmailMessage) -> None:
 
 def send_email(jobs: list[Job]) -> None:
     msg = EmailMessage()
-    msg["Subject"] = f"Job Radar v2: {len(jobs)} new"
+    n_c = sum(1 for j in jobs if _is_contract(j))
+    msg["Subject"] = f"Job Radar v2: {len(jobs)} new" + (f" ({n_c} contract)" if n_c else "")
     msg.set_content(render_csv(jobs))
     msg.add_alternative(render_html(jobs), subtype="html")
     msg.add_attachment(render_csv(jobs), subtype="csv", filename="new_jobs.csv")

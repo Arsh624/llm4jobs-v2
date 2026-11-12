@@ -1987,6 +1987,7 @@ slug = "field-ai"   # Irvine
 
 [[source]]
 type = "ashby"
+enabled = false   # board disappeared (404); no replacement found
 company = "Firetiger"
 slug = "firetiger"   # San Francisco
 
@@ -2536,9 +2537,9 @@ company = "Setpoint"
 slug = "setpoint"   # New York
 
 [[source]]
-type = "ashby"
+type = "lever"
 company = "Shield AI"
-slug = "shieldai"   # San Diego
+slug = "shieldai"   # moved from Ashby   # San Diego
 
 [[source]]
 type = "greenhouse"
@@ -3048,6 +3049,7 @@ site = "External_Career"
 
 [[source]]
 type = "workday"
+enabled = false   # Workday tenant stopped answering (HTTP 422 for every site); no replacement found
 company = "NXP Semiconductors"
 host = "nxp.wd3.myworkdayjobs.com"
 tenant = "nxp"
