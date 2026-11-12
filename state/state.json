@@ -14120,6 +14120,16 @@
 },
 "2026-10-30"
 ],
+"jibe:careers.amd.com:94683|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Role targets new grads; hands-on skills preferred.",
+"us_ok": true
+},
+"2026-11-12"
+],
 "jibe:careers.amd.com:95658|v3|73908d": [
 {
 "chance": 6,
@@ -21359,6 +21369,13 @@
 "senior": true
 },
 "2026-11-05"
+],
+"rescue:eightfold:microsoft.com:1970393557051493": [
+{
+"note": "Requires extensive experience in leadership roles.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:eightfold:microsoft.com:1970393557051504": [
 {
@@ -31922,6 +31939,13 @@
 "senior": true
 },
 "2026-10-29"
+],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:301422": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-12"
 ],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:301533": [
 {
@@ -47388,6 +47412,16 @@
 },
 "2026-10-30"
 ],
+"workday:analogdevices:R268923|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Fresh graduates are explicitly welcomed for this role.",
+"us_ok": true
+},
+"2026-11-12"
+],
 "workday:broadcom:R025609|v3|73908d": [
 {
 "chance": 5,
@@ -55628,7 +55662,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 349
+"typical": 351
 },
 "Ai2": {
 "alerted": false,
@@ -55693,7 +55727,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 19
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -55723,7 +55757,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 674
+"typical": 673
 },
 "Anyscale": {
 "alerted": false,
@@ -55798,7 +55832,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 253,
+"streak": 254,
 "typical": 28
 },
 "Asana": {
@@ -56279,7 +56313,7 @@
 "Dell Technologies": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 150
 },
 "Descript": {
 "alerted": false,
@@ -56458,7 +56492,8 @@
 },
 "Expedia Group": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 35
 },
 "Extreme Networks": {
@@ -56509,7 +56544,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 665,
+"streak": 666,
 "typical": 4
 },
 "Firstup": {
@@ -56665,7 +56700,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 142
+"typical": 144
 },
 "HackerOne": {
 "alerted": false,
@@ -56859,8 +56894,7 @@
 },
 "Intuit": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(833876 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 614
 },
 "Iru (formerly Kandji)": {
@@ -57066,7 +57100,7 @@
 "Lyft": {
 "alerted": false,
 "streak": 0,
-"typical": 155
+"typical": 154
 },
 "Mariana Minerals": {
 "alerted": false,
@@ -57141,7 +57175,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 188
+"typical": 194
 },
 "Microsoft": {
 "alerted": false,
@@ -57251,7 +57285,7 @@
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 231,
+"streak": 232,
 "typical": 43
 },
 "Nash": {
@@ -57662,7 +57696,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 368
+"typical": 369
 },
 "Pylon": {
 "alerted": false,
@@ -57952,7 +57986,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 282,
+"streak": 283,
 "typical": 690
 },
 "SiFive": {
@@ -58018,7 +58052,7 @@
 "SoFi": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 46
 },
 "Socket": {
 "alerted": false,
@@ -58558,7 +58592,7 @@
 "Zuora": {
 "alerted": false,
 "streak": 0,
-"typical": 37
+"typical": 36
 },
 "Zus Health": {
 "alerted": false,
@@ -64971,6 +65005,7 @@
 "eightfold:microsoft.com:1970393557051412": "2026-11-04",
 "eightfold:microsoft.com:1970393557051417": "2026-11-05",
 "eightfold:microsoft.com:1970393557051460": "2026-11-02",
+"eightfold:microsoft.com:1970393557051493": "2026-11-12",
 "eightfold:microsoft.com:1970393557051495": "2026-11-06",
 "eightfold:microsoft.com:1970393557051504": "2026-11-11",
 "eightfold:microsoft.com:1970393557051508": "2026-11-06",
@@ -65752,6 +65787,8 @@
 "greenhouse:agoda:8370710": "2026-11-11",
 "greenhouse:agoda:8376922": "2026-11-11",
 "greenhouse:agoda:8377963": "2026-11-11",
+"greenhouse:agoda:8382152": "2026-11-12",
+"greenhouse:agoda:8382153": "2026-11-12",
 "greenhouse:airbnb:7763610": "2026-10-20",
 "greenhouse:airbnb:7978040": "2026-10-23",
 "greenhouse:airbnb:8052792": "2026-10-23",
@@ -70304,6 +70341,7 @@
 "greenhouse:purestorage:8360488": "2026-11-09",
 "greenhouse:purestorage:8369242": "2026-11-11",
 "greenhouse:purestorage:8370769": "2026-11-10",
+"greenhouse:purestorage:8376364": "2026-11-12",
 "greenhouse:quantifind:8306623": "2026-10-26",
 "greenhouse:quantifind:8319662": "2026-10-23",
 "greenhouse:quantifind:8332783": "2026-10-30",
@@ -72884,6 +72922,7 @@
 "jibe:careers.amd.com:94505": "2026-10-28",
 "jibe:careers.amd.com:94512": "2026-10-30",
 "jibe:careers.amd.com:94515": "2026-10-30",
+"jibe:careers.amd.com:94683": "2026-11-12",
 "jibe:careers.amd.com:94750": "2026-10-29",
 "jibe:careers.amd.com:94783": "2026-10-28",
 "jibe:careers.amd.com:95651": "2026-10-26",
@@ -73055,6 +73094,7 @@
 "jibe:careers.amd.com:97881": "2026-11-11",
 "jibe:careers.amd.com:97898": "2026-11-11",
 "jibe:careers.amd.com:97899": "2026-11-11",
+"jibe:careers.amd.com:97935": "2026-11-12",
 "jibe:careers.docusign.com:26606": "2026-11-11",
 "jibe:careers.docusign.com:28780": "2026-11-03",
 "jibe:careers.docusign.com:29549": "2026-10-29",
@@ -74548,6 +74588,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018513": "2026-11-05",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018611": "2026-11-02",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018741": "2026-10-29",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25018742": "2026-11-12",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018753": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018794": "2026-10-29",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25018796": "2026-11-06",
@@ -76596,6 +76637,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:301321": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:301348": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:301417": "2026-10-30",
+"oracle_hcm:enterpriseplatform.dell.com:301422": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:301455": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:301489": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:301523": "2026-11-05",
@@ -76647,6 +76689,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:301812": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301815": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:301818": "2026-11-10",
+"oracle_hcm:enterpriseplatform.dell.com:301823": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:301824": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:301829": "2026-11-11",
 "oracle_hcm:enterpriseplatform.dell.com:301834": "2026-11-11",
@@ -78777,6 +78820,7 @@
 "smartrecruiters:BoschGroup:744000161164840": "2026-11-11",
 "smartrecruiters:BoschGroup:744000161165139": "2026-11-11",
 "smartrecruiters:BoschGroup:744000161205329": "2026-11-12",
+"smartrecruiters:BoschGroup:744000161220059": "2026-11-12",
 "smartrecruiters:LinkedIn3:744000157870369": "2026-10-29",
 "smartrecruiters:LinkedIn3:744000157954839": "2026-10-29",
 "smartrecruiters:LinkedIn3:744000158109109": "2026-10-29",
@@ -82045,6 +82089,7 @@
 "workday:analogdevices:R268831": "2026-11-10",
 "workday:analogdevices:R268836": "2026-11-10",
 "workday:analogdevices:R268855": "2026-11-10",
+"workday:analogdevices:R268923": "2026-11-12",
 "workday:arrowstreetcapital:R1483": "2026-10-29",
 "workday:arrowstreetcapital:R1560": "2026-10-29",
 "workday:arrowstreetcapital:R1562": "2026-11-03",
@@ -85021,6 +85066,7 @@
 "workday:hpe:1218195-4": "2026-10-30",
 "workday:hpe:1218196-2": "2026-11-06",
 "workday:hpe:1218198-3": "2026-11-11",
+"workday:hpe:1218209-2": "2026-11-12",
 "workday:hpe:1218212-2": "2026-11-05",
 "workday:hpe:1218216-4": "2026-10-29",
 "workday:hpe:1218217-4": "2026-10-29",
@@ -88838,10 +88884,16 @@
 "workday:micron:JR117359": "2026-11-11",
 "workday:micron:JR117383": "2026-11-10",
 "workday:micron:JR117384": "2026-11-10",
+"workday:micron:JR117423": "2026-11-12",
 "workday:micron:JR117434": "2026-11-11",
 "workday:micron:JR117589": "2026-11-11",
 "workday:micron:JR117590": "2026-11-11",
 "workday:micron:JR117591": "2026-11-11",
+"workday:micron:JR117641": "2026-11-12",
+"workday:micron:JR117643": "2026-11-12",
+"workday:micron:JR117645": "2026-11-12",
+"workday:micron:JR117646": "2026-11-12",
+"workday:micron:JR117648": "2026-11-12",
 "workday:micron:JR57804": "2026-11-05",
 "workday:micron:JR72632": "2026-10-23",
 "workday:micron:JR75038-1": "2026-10-23",
@@ -92845,6 +92897,7 @@
 "workday:salesforce:JR367329": "2026-11-10",
 "workday:salesforce:JR367337": "2026-11-05",
 "workday:salesforce:JR367351": "2026-11-11",
+"workday:salesforce:JR367354": "2026-11-12",
 "workday:salesforce:JR367356": "2026-11-10",
 "workday:salesforce:JR367382": "2026-11-05",
 "workday:salesforce:JR367387": "2026-11-05",
@@ -97643,6 +97696,7 @@
 "amd|supplier assurance analyst": "2026-11-10",
 "amd|system design engineer": "2026-10-22",
 "amd|systems design engineer": "2026-11-06",
+"amd|technical marketing engineer enterprise ai solutions": "2026-11-12",
 "amd|techno functional systems analyst": "2026-10-30",
 "amd|test engineer": "2026-11-06",
 "amd|uefi bios and memory firmware engineer": "2026-11-11",
@@ -97661,6 +97715,7 @@
 "analog devices|analyst supply chain planning": "2026-11-02",
 "analog devices|associate central applications engineer": "2026-10-29",
 "analog devices|associate design evaluation engineer": "2026-10-30",
+"analog devices|associate equipment engineer": "2026-11-12",
 "analog devices|associate field applications engineer auto connectivity": "2026-10-20",
 "analog devices|associate field applications engineer power management": "2026-10-23",
 "analog devices|associate system platforms engineer fpga and software": "2026-10-29",
@@ -99937,9 +99992,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 47,
+"calls": 51,
 "date": "2026-11-12",
-"usd": 0.005429
+"usd": 0.006028
 },
 "years": {
 "amazon:10583340": [
