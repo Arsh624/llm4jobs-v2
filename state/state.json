@@ -17620,6 +17620,13 @@
 },
 "2026-10-21"
 ],
+"rescue:ashby:notion:31c2d810-ddb3-40f6-b883-c1c7f999ac69": [
+{
+"note": "Requires significant experience with architecture.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:ashby:notion:73b0e05e-317f-4f84-8fb2-58dc8c3790a6": [
 {
 "note": "Requires experience in program management.",
@@ -40909,6 +40916,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:mastercard:R-291786": [
+{
+"note": "Requires significant technical experience.",
+"senior": true
+},
+"2026-11-12"
+],
 "rescue:workday:mastercard:R-291825": [
 {
 "note": "Requires significant experience in program management.",
@@ -47682,6 +47696,16 @@
 "us_ok": true
 },
 "2026-10-30"
+],
+"workday:analogdevices:R268373|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": null,
+"note": "Targets new grads; security clearance may be a barrier.",
+"us_ok": true
+},
+"2026-11-12"
 ],
 "workday:analogdevices:R268923|v3|73908d": [
 {
@@ -56008,7 +56032,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 20
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -56113,7 +56137,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~28)",
-"streak": 269,
+"streak": 270,
 "typical": 28
 },
 "Asana": {
@@ -56704,7 +56728,7 @@
 "ElevenLabs": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "EliseAI": {
 "alerted": false,
@@ -56824,7 +56848,7 @@
 "Firetiger": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 681,
+"streak": 682,
 "typical": 4
 },
 "Firstup": {
@@ -56980,7 +57004,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 151
 },
 "HackerOne": {
 "alerted": false,
@@ -57400,7 +57424,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 72
+"typical": 73
 },
 "MatX": {
 "alerted": false,
@@ -57545,7 +57569,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 180
+"typical": 181
 },
 "Mux": {
 "alerted": false,
@@ -57560,12 +57584,12 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 126
 },
 "NXP Semiconductors": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 422: Unprocessable Entity",
-"streak": 247,
+"streak": 248,
 "typical": 43
 },
 "Nash": {
@@ -57651,7 +57675,7 @@
 "Notion": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 161
 },
 "Nous Research": {
 "alerted": false,
@@ -58266,7 +58290,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 298,
+"streak": 299,
 "typical": 690
 },
 "SiFive": {
@@ -61210,6 +61234,7 @@
 "ashby:notion:3038ee95-ed44-49a5-9808-1382c4e6cfe9": "2026-11-06",
 "ashby:notion:30a5c739-185f-4a55-8a63-85974d687444": "2026-10-29",
 "ashby:notion:3129e7bd-f717-47d3-9fdd-c4df026bbf20": "2026-10-19",
+"ashby:notion:31c2d810-ddb3-40f6-b883-c1c7f999ac69": "2026-11-12",
 "ashby:notion:3339493a-ee21-49f3-ab09-e1f8ba8f1b92": "2026-10-27",
 "ashby:notion:3b519524-cc8d-495d-a708-c57e78aca792": "2026-10-28",
 "ashby:notion:3c031ac2-ef25-4335-8189-b021733275b3": "2026-10-19",
@@ -68909,6 +68934,7 @@
 "greenhouse:gomotive:8935281002": "2026-11-10",
 "greenhouse:gomotive:8936524002": "2026-11-10",
 "greenhouse:gomotive:8936601002": "2026-11-10",
+"greenhouse:gomotive:8938072002": "2026-11-12",
 "greenhouse:gongio:4710799006": "2026-10-29",
 "greenhouse:gongio:4713945006": "2026-10-29",
 "greenhouse:gongio:4714074006": "2026-10-29",
@@ -69318,6 +69344,8 @@
 "greenhouse:lucidmotors:5293229007": "2026-11-12",
 "greenhouse:lucidmotors:5293238007": "2026-11-12",
 "greenhouse:lucidmotors:5293250007": "2026-11-12",
+"greenhouse:lucidmotors:5293253007": "2026-11-12",
+"greenhouse:lucidmotors:5293257007": "2026-11-12",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -77028,6 +77056,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:300818": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:300829": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:300831": "2026-11-12",
+"oracle_hcm:enterpriseplatform.dell.com:300833": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:300839": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:300848": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:300867": "2026-10-29",
@@ -82554,6 +82583,7 @@
 "workday:analogdevices:R268366": "2026-11-09",
 "workday:analogdevices:R268367": "2026-10-30",
 "workday:analogdevices:R268371": "2026-11-09",
+"workday:analogdevices:R268373": "2026-11-12",
 "workday:analogdevices:R268399": "2026-11-02",
 "workday:analogdevices:R268403": "2026-11-03",
 "workday:analogdevices:R268405": "2026-11-03",
@@ -86934,6 +86964,7 @@
 "workday:mastercard:R-291738-1": "2026-10-29",
 "workday:mastercard:R-291756": "2026-10-29",
 "workday:mastercard:R-291760": "2026-10-29",
+"workday:mastercard:R-291786": "2026-11-12",
 "workday:mastercard:R-291792-1": "2026-10-29",
 "workday:mastercard:R-291800-1": "2026-11-05",
 "workday:mastercard:R-291801-1": "2026-10-29",
@@ -98296,6 +98327,7 @@
 "analog devices|associate equipment engineer": "2026-11-12",
 "analog devices|associate field applications engineer auto connectivity": "2026-10-20",
 "analog devices|associate field applications engineer power management": "2026-10-23",
+"analog devices|associate manufacturing engineer rf microwave": "2026-11-12",
 "analog devices|associate system platforms engineer fpga and software": "2026-10-29",
 "analog devices|associate system platforms engineer fpga software": "2026-10-29",
 "analog devices|associate test engineer": "2026-10-29",
@@ -100577,9 +100609,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 89,
+"calls": 92,
 "date": "2026-11-12",
-"usd": 0.009466
+"usd": 0.009858
 },
 "years": {
 "amazon:10583340": [
