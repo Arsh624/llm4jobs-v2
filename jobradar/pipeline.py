@@ -27,6 +27,7 @@ DEFAULTS = {
     "max_years": 2,
     "contract_max_years": 3,         # looser experience cap for W-2 contract roles
     "include_contract": True,
+    "drop_no_sponsorship": True,     # drop jobs that say "no sponsorship" / citizens only / clearance required
     "us_only": True,
     "remote_counts_as_us": True,
     "include_internships": False,
@@ -77,6 +78,8 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
     stats = Counter()
     errors: dict[str, str] = {}
     max_years = settings["max_years"]
+    h1b_path = config_path.parent / "h1b.json"          # built by tools/build_h1b.py (company -> approvals FY21-23)
+    h1b = json.loads(h1b_path.read_text("utf-8")).get("approvals", {}) if h1b_path.exists() else {}
 
     def years_limit(j: Job) -> int:
         return settings["contract_max_years"] if j.extra.get("emp") in ("contract", "contract-to-hire") else max_years
@@ -200,9 +203,14 @@ def run(config_path: Path, state_path: Path, out_dir: Path, *, send: bool) -> di
                 continue
             # "2 Locations", empty or bare "Remote": kept, and the AI check confirms from the text.
             j.extra["loc_unclear"] = filters.us_status(j.location, remote_counts=False) is None
+        j.extra["h1b"] = h1b.get(j.company, 0)
         j.extra["emp"] = filters.employment_type(j.title, j.description, j.extra.get("emp_hint", ""))
         j.extra["spons"] = (filters.simplify_sponsorship(j.sponsorship)
-                            or filters.sponsorship_hint(f"{j.title}\n{j.description}"))
+                            or filters.sponsorship_level(f"{j.title}\n{j.description}"))
+        if settings["drop_no_sponsorship"] and j.extra["spons"] in ("no sponsorship", "citizenship/clearance required"):
+            stats["drop_no_sponsor"] += 1      # explicit refusal / citizens-only / clearance: can't work for an OPT -> H-1B path
+            state.mark_seen(j.key)
+            continue
         if filters.is_c2c_only(f"{j.title}\n{j.description}"):      # self-employed 1099/C2C: no sponsorship, not OPT-friendly
             stats["drop_c2c_1099"] += 1
             state.mark_seen(j.key)

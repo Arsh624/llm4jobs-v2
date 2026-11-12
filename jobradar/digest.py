@@ -49,8 +49,13 @@ def _emp(j: Job) -> str:
     return j.extra.get("emp", "full-time")
 
 
+def _h1b(j: Job) -> str:
+    n = j.extra.get("h1b", 0)
+    return f"{n} approvals FY21-23" if n else ""
+
+
 def _spons(j: Job) -> str:
-    return j.extra.get("spons") or j.sponsorship or ""
+    return j.extra["spons"] if "spons" in j.extra else ""     # raw Simplify labels like "Other" are mapped in the pipeline
 
 
 def _table(jobs: list[Job], contract: bool) -> str:
@@ -65,11 +70,12 @@ def _table(jobs: list[Job], contract: bool) -> str:
         f"<td>{_ago(j.posted_at)}</td>"
         f"<td style=\"font-size:12px\">{html.escape(_ai_note(j))}</td>"
         f"<td>{html.escape(_spons(j))}</td>"
+        f"<td style=\"font-size:12px\">{_h1b(j)}</td>"
         f"<td style=\"color:#888\">{j.source}</td>"
         "</tr>" for j in jobs)
     head = ("<th>Company</th><th>Title</th>" + ("<th>Type</th>" if contract else "")
             + "<th>Location</th><th>Hire chance</th><th>Min yrs</th><th>Posted</th>"
-              "<th>AI check</th><th>Sponsorship</th><th>Source</th>")
+              "<th>AI check</th><th>Sponsorship</th><th>H-1B history</th><th>Source</th>")
     return ("<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\">"
             f"<tr style=\"background:#f2f2f2\">{head}</tr>{rows}</table>")
 
@@ -93,10 +99,10 @@ def render_csv(jobs: list[Job]) -> str:
     buf = io.StringIO()
     w = csv.writer(buf)
     w.writerow(["company", "title", "type", "location", "hire_chance", "min_years", "posted_at", "ai_check",
-                "sponsorship", "source", "url"])
+                "sponsorship", "h1b_history", "source", "url"])
     for j in jobs:
         w.writerow([j.company, j.title, _emp(j), j.location, _chance(j), _years(j),
-                    j.posted_at.isoformat() if j.posted_at else "", _ai_note(j), _spons(j), j.source, j.url])
+                    j.posted_at.isoformat() if j.posted_at else "", _ai_note(j), _spons(j), _h1b(j), j.source, j.url])
     return buf.getvalue()
 
 

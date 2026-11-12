@@ -226,7 +226,55 @@ def simplify_sponsorship(label: str) -> str:
     if "not offer" in t or "no sponsor" in t:
         return "no sponsorship"
     if "citizen" in t:
-        return "US citizenship required"
+        return "citizenship/clearance required"
     if "offer" in t:
+        return "sponsorship mentioned"
+    return ""
+
+
+# -------------------------------------------------- sponsorship (hard vs soft)
+# HARD no: the employer says it will not sponsor.  CITIZEN: citizenship / clearance / ITAR required.
+# SOFT: "must be authorized to work without sponsorship" -- common boilerplate; fine to start on OPT
+# but means no H-1B later, so it is shown, not dropped.
+_HARD_NO = re.compile(
+    r"(?:unable|cannot|can[\s']*t|won[\s']*t|will\s+not|do\s+not|does\s+not|don[\s']*t|doesn[\s']*t|"
+    r"not\s+(?:currently\s+)?able|not\s+in\s+a\s+position)\s+(?:to\s+)?(?:(?!but\b|and\b|or\b)\w+\s+){0,3}?"
+    r"(?:provide|offer|sponsor|support|extend|consider)\w*\s+(?:(?!but\b|and\b|or\b|we\b)\w+\s+){0,4}?(?:sponsorship|visas?|h[\s-]?1[\s-]?b|work\s+authori[sz]ation)|"
+    r"\bno\s+(?:visa\s+|immigration\s+|employment\s+)?sponsorship\b|"
+    r"sponsorship\s+(?:is\s+|will\s+)?(?:not\s+(?:be\s+)?(?:available|offered|provided)|unavailable)|"
+    r"(?:we|company)\s+(?:are|is)\s+not\s+(?:currently\s+)?sponsoring|"
+    r"not\s+(?:eligible|available)\s+for\s+(?:visa\s+)?sponsorship|without\s+(?:the\s+)?(?:possibility|option)\s+of\s+sponsorship", re.I)
+_CITIZEN = re.compile(
+    r"u\.?s\.?\s+citizen(?:s|ship)?\s+(?:only|required|is\s+required|status\s+is\s+required)|"
+    r"(?:must|need\s+to|required\s+to)\s+be\s+(?:a\s+)?u\.?s\.?\s+(?:citizen|person)|"
+    r"(?:requires?|require[sd]?)\s+u\.?s\.?\s+citizenship|\bcitizenship\s+(?:is\s+)?required\b|"
+    r"\b(?:ts/sci|top\s+secret|secret\s+(?:security\s+)?clearance|active\s+(?:security\s+)?clearance|"
+    r"security\s+clearance\s+(?:is\s+)?required|itar|export[\s-]+(?:control|controlled))\b|"
+    r"u\.?s\.?\s+persons?\s+(?:only|required|status)", re.I)
+_SOFT = re.compile(
+    r"(?:authori[sz]ed|eligible|legally\s+(?:entitled|authori[sz]ed|able|permitted))\s+to\s+work[^.]{0,100}?without\s+"
+    r"(?:the\s+need\s+for\s+)?(?:current\s+or\s+future\s+|now\s+or\s+in\s+the\s+future\s+)?(?:visa\s+|employer\s+)?sponsorship|"
+    r"(?:not|never)\s+(?:now\s+or\s+in\s+the\s+future\s+)?(?:requires?|needs?|require)\s+(?:current\s+or\s+future\s+)?(?:visa\s+)?sponsorship|"
+    r"without\s+(?:requiring\s+)?(?:visa\s+)?sponsorship\s+(?:now\s+or|in\s+the\s+future)", re.I)
+_POS = re.compile(
+    r"(?:will|can|may|able\s+to|happy\s+to|do|does|offer|provide)\s+(?:\w+\s+){0,3}?sponsor(?:ship)?\b|"
+    r"(?:visa|h[\s-]?1[\s-]?b|opt|stem|cpt)\s+(?:\w+\s+){0,3}?(?:sponsorship\s+)?(?:is\s+|are\s+)?(?:available|supported|offered|welcome|accepted|ok)|"
+    r"sponsorship\s+(?:is\s+)?(?:available|offered|provided)|h[\s-]?1[\s-]?b\s+(?:transfer|sponsor)|"
+    r"open\s+to\s+(?:candidates\s+on\s+)?(?:opt|stem|visa)", re.I)
+
+
+def sponsorship_level(text: str) -> str:
+    """'no sponsorship' | 'citizenship/clearance required' | 'sponsorship mentioned' |
+    'authorized to work w/o sponsorship' | '' (nothing said). Hard rules win over soft ones."""
+    t = re.sub(r"\s+", " ", text or "")
+    if _CITIZEN.search(t):
+        return "citizenship/clearance required"
+    # test refusals clause by clause so "we don't offer X but we offer sponsorship" isn't a refusal
+    clauses = re.split(r"\bbut\b|\bhowever\b|\balthough\b|\bwhile\b|[;.!?]", t, flags=re.I)
+    if any(_HARD_NO.search(c) for c in clauses):
+        return "no sponsorship"
+    if _SOFT.search(t):
+        return "authorized to work w/o sponsorship"
+    if _POS.search(t):
         return "sponsorship mentioned"
     return ""
