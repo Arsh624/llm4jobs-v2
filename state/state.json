@@ -42566,6 +42566,20 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:lumentum:20261705": [
+{
+"note": "Requires significant experience in process development.",
+"senior": true
+},
+"2026-11-13"
+],
+"rescue:workday:lumentum:20261706": [
+{
+"note": "Requires extensive experience in process development.",
+"senior": true
+},
+"2026-11-13"
+],
 "rescue:workday:lumentum:2026322": [
 {
 "note": "Requires 4+ years of experience.",
@@ -59207,7 +59221,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 81
+"typical": 80
 },
 "Accord": {
 "alerted": false,
@@ -60668,7 +60682,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 163
+"typical": 164
 },
 "HUD": {
 "alerted": false,
@@ -61208,7 +61222,7 @@
 "Lumentum": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 19
 },
 "Luminai": {
 "alerted": false,
@@ -61253,7 +61267,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 55
 },
 "MatX": {
 "alerted": false,
@@ -61323,7 +61337,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 235
+"typical": 236
 },
 "Microsoft": {
 "alerted": false,
@@ -61632,9 +61646,9 @@
 "typical": 4
 },
 "Offstream": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 3,
+"streak": 4,
 "typical": 1
 },
 "Oklo": {
@@ -62230,7 +62244,7 @@
 "Riot Games": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 201
 },
 "Ripple Labs": {
 "alerted": false,
@@ -62320,7 +62334,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 242
+"typical": 243
 },
 "Salient": {
 "alerted": false,
@@ -62335,7 +62349,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 310
+"typical": 313
 },
 "Samsung Research America": {
 "alerted": false,
@@ -63225,7 +63239,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 26
 },
 "fal": {
 "alerted": false,
@@ -82366,6 +82380,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:299716": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:299721": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:299722": "2026-11-03",
+"oracle_hcm:enterpriseplatform.dell.com:299724": "2026-11-13",
 "oracle_hcm:enterpriseplatform.dell.com:299730": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:299731": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:299737": "2026-11-03",
@@ -83148,6 +83163,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304137": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304140": "2026-10-26",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304142": "2026-10-30",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304144": "2026-11-13",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304145": "2026-11-09",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304152": "2026-11-05",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304155": "2026-11-11",
@@ -90813,6 +90829,7 @@
 "workday:hpe:1209565-2": "2026-11-03",
 "workday:hpe:1209587-2": "2026-11-03",
 "workday:hpe:1209608-2": "2026-10-29",
+"workday:hpe:1209674-2": "2026-11-13",
 "workday:hpe:1209727-2": "2026-10-29",
 "workday:hpe:1209775-2": "2026-11-12",
 "workday:hpe:1209821-2": "2026-10-29",
@@ -92454,6 +92471,8 @@
 "workday:lumentum:20261662": "2026-10-29",
 "workday:lumentum:20261684": "2026-11-10",
 "workday:lumentum:20261704-1": "2026-11-01",
+"workday:lumentum:20261705": "2026-11-13",
+"workday:lumentum:20261706": "2026-11-13",
 "workday:lumentum:20261718": "2026-11-10",
 "workday:lumentum:20261719": "2026-11-10",
 "workday:lumentum:20261720": "2026-11-10",
@@ -93114,6 +93133,7 @@
 "workday:mastercard:R-294417": "2026-10-29",
 "workday:mastercard:R-294424": "2026-10-29",
 "workday:mastercard:R-294425": "2026-10-29",
+"workday:mastercard:R-294426": "2026-11-13",
 "workday:mastercard:R-294446-1": "2026-11-10",
 "workday:mastercard:R-294449": "2026-11-03",
 "workday:mastercard:R-294450-1": "2026-10-29",
@@ -94104,6 +94124,7 @@
 "workday:micron:JR104242": "2026-10-20",
 "workday:micron:JR104296": "2026-10-20",
 "workday:micron:JR104418": "2026-10-21",
+"workday:micron:JR104456": "2026-11-13",
 "workday:micron:JR104599": "2026-10-20",
 "workday:micron:JR104652": "2026-10-21",
 "workday:micron:JR104745": "2026-10-27",
@@ -94358,6 +94379,7 @@
 "workday:micron:JR110374": "2026-10-23",
 "workday:micron:JR110380": "2026-11-09",
 "workday:micron:JR110389": "2026-10-23",
+"workday:micron:JR110398": "2026-11-13",
 "workday:micron:JR110399": "2026-10-23",
 "workday:micron:JR110407": "2026-10-23",
 "workday:micron:JR110419": "2026-10-23",
@@ -99435,6 +99457,7 @@
 "workday:salesforce:JR366397": "2026-10-30",
 "workday:salesforce:JR366398": "2026-10-30",
 "workday:salesforce:JR366399": "2026-11-05",
+"workday:salesforce:JR366400": "2026-11-13",
 "workday:salesforce:JR366403": "2026-10-30",
 "workday:salesforce:JR366412": "2026-11-09",
 "workday:salesforce:JR366415": "2026-10-30",
@@ -107097,9 +107120,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 64,
+"calls": 66,
 "date": "2026-11-13",
-"usd": 0.006491
+"usd": 0.006626
 },
 "years": {
 "amazon:10583340": [
