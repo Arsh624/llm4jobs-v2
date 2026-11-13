@@ -41229,6 +41229,13 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:hp:3166467-1": [
+{
+"note": "Requires experience in IT management roles.",
+"senior": true
+},
+"2026-11-13"
+],
 "rescue:workday:hp:3167383-2": [
 {
 "note": "Requires strong experience in product management.",
@@ -59077,7 +59084,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 348
+"typical": 346
 },
 "Ai2": {
 "alerted": false,
@@ -59097,7 +59104,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 217
+"typical": 218
 },
 "Airgoods": {
 "alerted": false,
@@ -59212,7 +59219,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 672
+"typical": 673
 },
 "Anyscale": {
 "alerted": false,
@@ -59762,7 +59769,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 480
+"typical": 481
 },
 "Cloudinary": {
 "alerted": false,
@@ -59842,7 +59849,7 @@
 "CoreWeave": {
 "alerted": false,
 "streak": 0,
-"typical": 304
+"typical": 303
 },
 "Couchbase": {
 "alerted": false,
@@ -59917,7 +59924,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 907
+"typical": 906
 },
 "Datafold": {
 "alerted": false,
@@ -60473,7 +60480,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 126
+"typical": 127
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -61137,7 +61144,8 @@
 },
 "Microsoft": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 429: Too Many Requests",
+"streak": 1,
 "typical": 280
 },
 "Middesk": {
@@ -61839,7 +61847,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 378
+"typical": 377
 },
 "Pylon": {
 "alerted": false,
@@ -62129,7 +62137,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 265
+"typical": 268
 },
 "Salient": {
 "alerted": false,
@@ -62514,7 +62522,7 @@
 "Synopsys": {
 "alerted": false,
 "streak": 0,
-"typical": 693
+"typical": 694
 },
 "T-Mobile": {
 "alerted": false,
@@ -62559,7 +62567,7 @@
 "Tekion": {
 "alerted": false,
 "streak": 0,
-"typical": 92
+"typical": 91
 },
 "Tempo": {
 "alerted": false,
@@ -62819,7 +62827,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 346
+"typical": 347
 },
 "Verse Medical": {
 "alerted": false,
@@ -71610,6 +71618,7 @@
 "greenhouse:anthropic:5478939008": "2026-11-13",
 "greenhouse:anthropic:5479122008": "2026-11-12",
 "greenhouse:anthropic:5479135008": "2026-11-12",
+"greenhouse:anthropic:5479890008": "2026-11-13",
 "greenhouse:apolloio:6254952004": "2026-11-12",
 "greenhouse:apolloio:6255152004": "2026-11-12",
 "greenhouse:applovin:4723007006": "2026-10-20",
@@ -72315,6 +72324,7 @@
 "greenhouse:cloudflare:8373948": "2026-11-11",
 "greenhouse:cloudflare:8373969": "2026-11-11",
 "greenhouse:cloudflare:8374274": "2026-11-11",
+"greenhouse:cloudflare:8376867": "2026-11-13",
 "greenhouse:cloudflare:8378849": "2026-11-12",
 "greenhouse:cloudflare:8378851": "2026-11-12",
 "greenhouse:cloudflare:8378916": "2026-11-11",
@@ -77267,6 +77277,7 @@
 "greenhouse:verkada:4995135007": "2026-11-02",
 "greenhouse:verkada:5106586007": "2026-11-10",
 "greenhouse:verkada:5106588007": "2026-11-10",
+"greenhouse:verkada:5197606007": "2026-11-13",
 "greenhouse:verkada:5222016007": "2026-10-26",
 "greenhouse:verkada:5222017007": "2026-11-12",
 "greenhouse:verkada:5235933007": "2026-10-26",
@@ -85981,6 +85992,7 @@
 "talentbrew:careers.synopsys.com:103213378192": "2026-11-12",
 "talentbrew:careers.synopsys.com:103228028896": "2026-11-13",
 "talentbrew:careers.synopsys.com:103228028928": "2026-11-13",
+"talentbrew:careers.synopsys.com:103234510288": "2026-11-13",
 "talentbrew:careers.synopsys.com:87085299616": "2026-10-20",
 "talentbrew:careers.synopsys.com:87868266560": "2026-10-20",
 "talentbrew:careers.synopsys.com:88126393648": "2026-10-20",
@@ -89845,6 +89857,7 @@
 "workday:hp:3166412-1": "2026-11-09",
 "workday:hp:3166414-1": "2026-10-27",
 "workday:hp:3166451-1": "2026-10-28",
+"workday:hp:3166467-1": "2026-11-13",
 "workday:hp:3166469-1": "2026-10-20",
 "workday:hp:3166484-1": "2026-11-02",
 "workday:hp:3166493-1": "2026-11-02",
@@ -98659,6 +98672,7 @@
 "workday:salesforce:JR363731": "2026-11-04",
 "workday:salesforce:JR363732": "2026-10-30",
 "workday:salesforce:JR363733": "2026-11-05",
+"workday:salesforce:JR363765": "2026-11-13",
 "workday:salesforce:JR363777": "2026-11-06",
 "workday:salesforce:JR363778": "2026-10-19",
 "workday:salesforce:JR363789": "2026-10-29",
@@ -99403,6 +99417,7 @@
 "workday:salesforce:JR368037": "2026-11-11",
 "workday:salesforce:JR368039": "2026-11-12",
 "workday:salesforce:JR368047-1": "2026-11-11",
+"workday:salesforce:JR368119-1": "2026-11-13",
 "workday:salesforce:JR368128": "2026-11-12",
 "workday:salesforce:JR368137-1": "2026-11-12",
 "workday:salesforce:JR368157": "2026-11-12",
@@ -99417,6 +99432,7 @@
 "workday:salesforce:JR368241": "2026-11-12",
 "workday:salesforce:JR368243": "2026-11-12",
 "workday:salesforce:JR368298": "2026-11-13",
+"workday:salesforce:JR368314": "2026-11-13",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
@@ -106783,9 +106799,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 39,
+"calls": 40,
 "date": "2026-11-13",
-"usd": 0.003787
+"usd": 0.003853
 },
 "years": {
 "amazon:10583340": [
