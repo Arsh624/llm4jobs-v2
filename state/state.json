@@ -10660,6 +10660,16 @@
 },
 "2026-11-13"
 ],
+"eightfold:microsoft.com:1970393557073410|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets new grads and offers significant learning opportunities.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:paypal.com:274922421821|v3|73908d": [
 {
 "chance": 8,
@@ -11429,6 +11439,16 @@
 "us_ok": true
 },
 "2026-10-30"
+],
+"greenhouse:andurilindustries:5196267007|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets early-career engineers with relevant degree",
+"us_ok": true
+},
+"2026-11-14"
 ],
 "greenhouse:andurilindustries:5211164007|v3|73908d": [
 {
@@ -20144,6 +20164,13 @@
 "senior": true
 },
 "2026-11-11"
+],
+"rescue:ashby:radiant-industries:dfed4c2a-a7ce-442e-b75f-4b1bf5d52183": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:ashby:radiant-industries:f04d871b-3c5c-4f8d-84ec-99ca49b76d4d": [
 {
@@ -39002,6 +39029,13 @@
 "senior": true
 },
 "2026-11-13"
+],
+"rescue:talentbrew:jobs.intuit.com:103274381136": [
+{
+"note": "Requires significant leadership experience.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:talentbrew:jobs.intuit.com:87369441616": [
 {
@@ -61208,7 +61242,7 @@
 "31st Union": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 13
 },
 "9 Mothers": {
 "alerted": false,
@@ -61272,7 +61306,8 @@
 },
 "Activision Blizzard": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 5
 },
 "Adaptive": {
@@ -61288,7 +61323,7 @@
 "Adobe": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 11
 },
 "Affirm": {
@@ -61418,7 +61453,8 @@
 },
 "Analog Devices": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 25
 },
 "Anchorage Digital": {
@@ -61434,7 +61470,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2593
+"typical": 2596
 },
 "AngelList": {
 "alerted": false,
@@ -61544,7 +61580,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 14
 },
 "Artie": {
@@ -61810,7 +61846,7 @@
 "Broadcom": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 62
 },
 "Bugcrowd": {
@@ -61836,7 +61872,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 49
 },
 "Calm": {
@@ -61982,7 +62018,7 @@
 "Cisco": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 13
 },
 "ClassDojo": {
@@ -62133,7 +62169,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 314
+"typical": 316
 },
 "Curri": {
 "alerted": false,
@@ -62178,7 +62214,7 @@
 "David AI": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 16
 },
 "Decagon": {
 "alerted": false,
@@ -62373,7 +62409,7 @@
 "Etsy": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 4,
+"streak": 5,
 "typical": 8
 },
 "Eudia": {
@@ -62720,13 +62756,13 @@
 "HP": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 177
 },
 "HUD": {
@@ -62772,7 +62808,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 381
+"typical": 382
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -62876,7 +62912,8 @@
 },
 "Illumina": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 12
 },
 "Illumio": {
@@ -62967,7 +63004,7 @@
 "Intel": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 113
 },
 "Intro": {
@@ -62978,7 +63015,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 602
+"typical": 604
 },
 "Invert": {
 "alerted": false,
@@ -63037,7 +63074,8 @@
 },
 "KLA": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 15
 },
 "Kaizen Labs": {
@@ -63113,13 +63151,13 @@
 "Kyndryl": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 28
 },
 "Kyndryl Early Careers": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 90
 },
 "LTSE": {
@@ -63270,7 +63308,7 @@
 "Lumentum": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 19
 },
 "Luminai": {
@@ -63300,7 +63338,8 @@
 },
 "Marvell": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 27
 },
 "Mashgin": {
@@ -63316,7 +63355,7 @@
 "Mastercard": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 60
 },
 "MatX": {
@@ -63347,7 +63386,7 @@
 "Medtronic": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 168
 },
 "Mercor": {
@@ -63383,13 +63422,13 @@
 "Microchip Technology": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 12
 },
 "Micron": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 276
 },
 "Microsoft": {
@@ -63520,12 +63559,12 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 75
+"typical": 74
 },
 "NVIDIA": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63622,7 +63661,7 @@
 "Northwood Space": {
 "alerted": false,
 "streak": 0,
-"typical": 65
+"typical": 64
 },
 "Notabene": {
 "alerted": false,
@@ -63702,7 +63741,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 38,
+"streak": 39,
 "typical": 1
 },
 "Oklo": {
@@ -63748,7 +63787,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 838
+"typical": 837
 },
 "OpenEvidence": {
 "alerted": false,
@@ -63823,7 +63862,7 @@
 "PagerDuty": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 46
 },
 "Pair Team": {
 "alerted": false,
@@ -64043,7 +64082,7 @@
 "Priceline": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 4
 },
 "Prime Intellect": {
@@ -64099,7 +64138,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 376
+"typical": 374
 },
 "Pylon": {
 "alerted": false,
@@ -64124,7 +64163,7 @@
 "Quantcast": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 13
 },
 "Quantifind": {
 "alerted": false,
@@ -64169,7 +64208,7 @@
 "Radiant (nuclear)": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 102
 },
 "Rally": {
 "alerted": false,
@@ -64214,7 +64253,7 @@
 "Red Hat": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 24
 },
 "Reddit": {
@@ -64365,7 +64404,7 @@
 "Runway ML": {
 "alerted": false,
 "streak": 0,
-"typical": 49
+"typical": 51
 },
 "SK hynix America": {
 "alerted": false,
@@ -64490,7 +64529,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 6,
+"streak": 7,
 "typical": 39
 },
 "Short Story": {
@@ -64500,7 +64539,8 @@
 },
 "SiFive": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 521: <none>",
+"streak": 1,
 "typical": 0
 },
 "Sieve": {
@@ -64551,7 +64591,7 @@
 "Skydio": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 189
 },
 "Skyways": {
 "alerted": false,
@@ -64626,7 +64666,7 @@
 "Sony Interactive (PlayStation)": {
 "alerted": false,
 "streak": 0,
-"typical": 231
+"typical": 228
 },
 "Sourcegraph": {
 "alerted": false,
@@ -64706,7 +64746,7 @@
 "Stitch Fix": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 12
 },
 "Strada": {
 "alerted": false,
@@ -64781,7 +64821,7 @@
 "T-Mobile": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 300
 },
 "TENEX.AI": {
@@ -65107,7 +65147,7 @@
 "Visa": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 41
 },
 "Vitalize": {
@@ -65168,7 +65208,7 @@
 "Wells Fargo": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 300
 },
 "Wingspan": {
@@ -65199,7 +65239,7 @@
 "Workday": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 79
 },
 "World Labs": {
@@ -65240,7 +65280,7 @@
 "Zillow": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 29
 },
 "Zimperium": {
@@ -65301,7 +65341,7 @@
 "eBay": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 42
 },
 "fal": {
@@ -66615,6 +66655,7 @@
 "ashby:crusoe:234c4f43-1072-48d0-8e3e-abea34f4770f": "2026-11-02",
 "ashby:crusoe:23bc5fab-c469-4dbf-8c1c-a0bbf09d2f0e": "2026-11-02",
 "ashby:crusoe:2601c3ec-318b-42f8-ab43-793bb7c4d2ba": "2026-11-04",
+"ashby:crusoe:26d7900a-bd92-42af-afcd-56ebd5f8ce1b": "2026-11-14",
 "ashby:crusoe:28c03346-c659-4f7d-8a35-5b6467ff717c": "2026-10-28",
 "ashby:crusoe:2974285f-e298-4cf7-9eed-e0bdafeb0998": "2026-10-27",
 "ashby:crusoe:37c932b5-a586-49db-86aa-f9743858e614": "2026-11-13",
@@ -66634,6 +66675,7 @@
 "ashby:crusoe:4ec11e7d-db8c-42e0-8c17-293e929909e9": "2026-11-11",
 "ashby:crusoe:52ebf84d-a113-40c1-9bd3-0a626fbe2efe": "2026-10-21",
 "ashby:crusoe:52fe1c4b-d319-40be-b672-0f09a2cc72a6": "2026-10-22",
+"ashby:crusoe:53979e8e-8b23-49ff-a891-57400c3c6423": "2026-11-14",
 "ashby:crusoe:5635688b-3bfa-4232-9c67-1a789e513dee": "2026-10-29",
 "ashby:crusoe:564be4e5-5528-495d-aaee-bae4e69d8833": "2026-11-04",
 "ashby:crusoe:5766c58e-9d2a-42aa-a9db-cdc455ba9602": "2026-11-03",
@@ -67334,6 +67376,7 @@
 "ashby:harvey:a8a0c22a-fb05-4eb0-85c2-8ea334058324": "2026-11-03",
 "ashby:harvey:a950ea5d-d1be-491c-b8c3-1c30237aa1bc": "2026-10-29",
 "ashby:harvey:aa2e418c-4912-446c-bb50-ae1e894468fd": "2026-11-06",
+"ashby:harvey:ab6790b4-11b5-4a1f-8e92-c572eb18a9f0": "2026-11-14",
 "ashby:harvey:abe946d1-9890-413a-b567-6c68e32f7bb4": "2026-10-29",
 "ashby:harvey:ac406ea9-bd7f-4a50-9341-8370ceca3949": "2026-11-07",
 "ashby:harvey:ae840d4c-40bb-41a5-9157-435d648482f6": "2026-11-06",
@@ -68693,6 +68736,7 @@
 "ashby:radiant-industries:ccdd641e-0904-4f7c-abfb-5e4325543e0a": "2026-11-07",
 "ashby:radiant-industries:cdce9bf6-7b64-4c68-9045-ea8856ba17f0": "2026-10-28",
 "ashby:radiant-industries:d72cc8ad-26e8-4b3c-9851-942d90b7a48e": "2026-11-11",
+"ashby:radiant-industries:dfed4c2a-a7ce-442e-b75f-4b1bf5d52183": "2026-11-14",
 "ashby:radiant-industries:e5343f9b-48de-4d15-83fe-be82d81415d6": "2026-11-04",
 "ashby:radiant-industries:f04d871b-3c5c-4f8d-84ec-99ca49b76d4d": "2026-11-02",
 "ashby:radiant-industries:f7be5058-8904-43fd-84a2-5b106bb4861a": "2026-10-29",
@@ -68834,11 +68878,13 @@
 "ashby:runway-ml:15b2fbc9-a6a4-4c87-84bb-527f6616cf7d": "2026-10-30",
 "ashby:runway-ml:2975a88e-1519-4094-93a2-b6e66ed1a98c": "2026-11-07",
 "ashby:runway-ml:4c1990b2-b2f9-495e-8a35-f9af295c475a": "2026-10-28",
+"ashby:runway-ml:54ae5057-1bd1-4b14-9444-e01e3643f6cc": "2026-11-14",
 "ashby:runway-ml:9a5bef1b-cd54-4258-bb71-4dc7dfded54c": "2026-11-12",
 "ashby:runway-ml:b03fbac5-d23d-4300-ae62-68d6cece1d9b": "2026-11-03",
 "ashby:runway-ml:c73b244e-1bca-4bc3-94a7-7deb11f30011": "2026-10-29",
 "ashby:runway-ml:d86c22ca-aab9-4a92-9f53-dcbc76567348": "2026-11-07",
 "ashby:runway-ml:f4aa3f24-a6ff-4168-97ef-7e9d140ee19e": "2026-11-05",
+"ashby:runway-ml:f65e164b-d577-4bd3-993b-7868d51fab5d": "2026-11-14",
 "ashby:salient:3bf87df8-c59e-4a39-b0df-805f0780841b": "2026-11-11",
 "ashby:salient:5fd4bc15-d2f8-446b-83b3-b88573445b47": "2026-11-02",
 "ashby:sardine:0602a07b-6f97-44c8-84e0-b2b1483852e9": "2026-10-28",
@@ -70670,6 +70716,8 @@
 "eightfold:appliedmaterials.com:790319484311": "2026-11-13",
 "eightfold:appliedmaterials.com:790319503386": "2026-11-13",
 "eightfold:appliedmaterials.com:790319503457": "2026-11-14",
+"eightfold:appliedmaterials.com:790319503890": "2026-11-14",
+"eightfold:appliedmaterials.com:790319503924": "2026-11-14",
 "eightfold:autodesk.com:1443152973589": "2026-10-26",
 "eightfold:autodesk.com:1443152973758": "2026-11-03",
 "eightfold:autodesk.com:1443152973824": "2026-10-29",
@@ -72742,6 +72790,7 @@
 "eightfold:microsoft.com:1970393557073015": "2026-11-13",
 "eightfold:microsoft.com:1970393557073016": "2026-11-13",
 "eightfold:microsoft.com:1970393557073212": "2026-11-13",
+"eightfold:microsoft.com:1970393557073410": "2026-11-14",
 "eightfold:microsoft.com:1970393557073416": "2026-11-13",
 "eightfold:microsoft.com:1970393557073455": "2026-11-13",
 "eightfold:microsoft.com:1970393557073481": "2026-11-14",
@@ -73175,6 +73224,7 @@
 "greenhouse:31stunion:8181285003": "2026-11-10",
 "greenhouse:31stunion:8195192003": "2026-11-10",
 "greenhouse:31stunion:8197091003": "2026-11-10",
+"greenhouse:31stunion:8201833003": "2026-11-14",
 "greenhouse:accela:8304518": "2026-10-21",
 "greenhouse:accela:8306548": "2026-10-23",
 "greenhouse:accela:8318502": "2026-11-03",
@@ -73550,6 +73600,7 @@
 "greenhouse:andurilindustries:5174864007": "2026-10-29",
 "greenhouse:andurilindustries:5193024007": "2026-11-13",
 "greenhouse:andurilindustries:5193031007": "2026-10-29",
+"greenhouse:andurilindustries:5196267007": "2026-11-14",
 "greenhouse:andurilindustries:5200729007": "2026-11-04",
 "greenhouse:andurilindustries:5203962007": "2026-10-29",
 "greenhouse:andurilindustries:5205603007": "2026-11-05",
@@ -74122,7 +74173,10 @@
 "greenhouse:andurilindustries:5295260007": "2026-11-14",
 "greenhouse:andurilindustries:5295265007": "2026-11-14",
 "greenhouse:andurilindustries:5295270007": "2026-11-14",
+"greenhouse:andurilindustries:5295276007": "2026-11-14",
 "greenhouse:andurilindustries:5295280007": "2026-11-14",
+"greenhouse:andurilindustries:5295297007": "2026-11-14",
+"greenhouse:andurilindustries:5295323007": "2026-11-14",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
 "greenhouse:anthropic:5366882008": "2026-11-06",
@@ -76979,6 +77033,7 @@
 "greenhouse:lucidmotors:5293585007": "2026-11-12",
 "greenhouse:lucidmotors:5293910007": "2026-11-12",
 "greenhouse:lucidmotors:5294030007": "2026-11-12",
+"greenhouse:lucidmotors:5295322007": "2026-11-14",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -81414,6 +81469,7 @@
 "jibe:careers.amd.com:96907": "2026-11-03",
 "jibe:careers.amd.com:96910": "2026-11-06",
 "jibe:careers.amd.com:96918": "2026-11-11",
+"jibe:careers.amd.com:96919": "2026-11-14",
 "jibe:careers.amd.com:96920": "2026-11-11",
 "jibe:careers.amd.com:96955": "2026-11-10",
 "jibe:careers.amd.com:97026": "2026-11-12",
@@ -81479,6 +81535,7 @@
 "jibe:careers.amd.com:97755": "2026-11-13",
 "jibe:careers.amd.com:97759": "2026-11-09",
 "jibe:careers.amd.com:97768": "2026-11-10",
+"jibe:careers.amd.com:97769": "2026-11-14",
 "jibe:careers.amd.com:97772": "2026-11-11",
 "jibe:careers.amd.com:97774": "2026-11-13",
 "jibe:careers.amd.com:97775": "2026-11-11",
@@ -82176,6 +82233,7 @@
 "jibe:careers.na.panasonic.com:52838": "2026-11-13",
 "jibe:careers.na.panasonic.com:52870": "2026-11-13",
 "jibe:careers.na.panasonic.com:52935": "2026-11-13",
+"jibe:careers.na.panasonic.com:53007": "2026-11-14",
 "jibe:careers.rivian.com:28244": "2026-11-04",
 "jibe:careers.rivian.com:28654": "2026-11-04",
 "jibe:careers.rivian.com:28666": "2026-10-20",
@@ -86132,6 +86190,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304291": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304293": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304297": "2026-11-03",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304299": "2026-11-14",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304301": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304302": "2026-10-29",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304304": "2026-10-29",
@@ -90202,6 +90261,11 @@
 "talentbrew:jobs.intuit.com:103266345264": "2026-11-13",
 "talentbrew:jobs.intuit.com:103266345328": "2026-11-13",
 "talentbrew:jobs.intuit.com:103266345456": "2026-11-13",
+"talentbrew:jobs.intuit.com:103274381120": "2026-11-14",
+"talentbrew:jobs.intuit.com:103274381136": "2026-11-14",
+"talentbrew:jobs.intuit.com:103274381152": "2026-11-14",
+"talentbrew:jobs.intuit.com:103274381168": "2026-11-14",
+"talentbrew:jobs.intuit.com:103274381184": "2026-11-14",
 "talentbrew:jobs.intuit.com:87369441616": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441696": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441712": "2026-10-20",
@@ -103111,6 +103175,7 @@
 "workday:salesforce:JR367743-1": "2026-11-11",
 "workday:salesforce:JR367753": "2026-11-10",
 "workday:salesforce:JR367758": "2026-11-10",
+"workday:salesforce:JR367767": "2026-11-14",
 "workday:salesforce:JR367768": "2026-11-10",
 "workday:salesforce:JR367772": "2026-11-09",
 "workday:salesforce:JR367789-1": "2026-11-12",
@@ -108494,6 +108559,7 @@
 "anduril|space orbital software engineer": "2026-11-03",
 "anduril|systems administrator": "2026-10-30",
 "anduril|technical operations engineer mission config": "2026-11-05",
+"anduril|test evaluation engineer": "2026-11-14",
 "anthropic|accounting analytics bi engineer": "2026-11-04",
 "anthropic|anthropic research resident": "2026-10-28",
 "anthropic|applied ai demo engineer": "2026-10-19",
@@ -109843,6 +109909,7 @@
 "microsoft|software engineer ii windows servicing and delivery": "2026-10-20",
 "microsoft|software engineer ii wssi": "2026-10-22",
 "microsoft|software engineer integration and automation": "2026-11-10",
+"microsoft|software engineer mbo": "2026-11-14",
 "microsoft|software engineering": "2026-11-03",
 "microsoft|software engineering commercial engineering ai ceai": "2026-11-05",
 "microsoft|software engineering ic2": "2026-10-20",
@@ -110914,9 +110981,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 16,
+"calls": 20,
 "date": "2026-11-14",
-"usd": 0.002096
+"usd": 0.002741
 },
 "years": {
 "amazon:10583340": [
