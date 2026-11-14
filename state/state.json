@@ -62134,7 +62134,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 122
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -62970,13 +62970,13 @@
 "HP": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 42,
+"streak": 43,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 42,
+"streak": 43,
 "typical": 177
 },
 "HUD": {
@@ -63127,7 +63127,7 @@
 "Illumina": {
 "alerted": false,
 "streak": 0,
-"typical": 9
+"typical": 10
 },
 "Illumio": {
 "alerted": false,
@@ -63217,7 +63217,7 @@
 "Intel": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 37,
+"streak": 38,
 "typical": 113
 },
 "Intro": {
@@ -63631,10 +63631,9 @@
 "typical": 9
 },
 "Micron": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 37,
-"typical": 276
+"alerted": false,
+"streak": 0,
+"typical": 209
 },
 "Microsoft": {
 "alerted": false,
@@ -63769,7 +63768,7 @@
 "NVIDIA": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 44,
+"streak": 45,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63946,7 +63945,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 74,
+"streak": 75,
 "typical": 1
 },
 "Oklo": {
@@ -64647,7 +64646,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 314
+"typical": 316
 },
 "Samsung Research America": {
 "alerted": false,
@@ -64732,7 +64731,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 42,
+"streak": 43,
 "typical": 39
 },
 "Short Story": {
@@ -65021,10 +65020,9 @@
 "typical": 709
 },
 "T-Mobile": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 37,
-"typical": 300
+"alerted": false,
+"streak": 0,
+"typical": 187
 },
 "TENEX.AI": {
 "alerted": false,
@@ -65407,9 +65405,8 @@
 "typical": 25
 },
 "Wells Fargo": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 37,
+"alerted": false,
+"streak": 0,
 "typical": 300
 },
 "Wingspan": {
@@ -79743,11 +79740,13 @@
 "greenhouse:samsara:8366794": "2026-11-11",
 "greenhouse:samsara:8372624": "2026-11-10",
 "greenhouse:samsara:8374813": "2026-11-13",
+"greenhouse:samsara:8374911": "2026-11-14",
 "greenhouse:samsara:8374913": "2026-11-11",
 "greenhouse:samsara:8375338": "2026-11-10",
 "greenhouse:samsara:8376044": "2026-11-11",
 "greenhouse:samsara:8379407": "2026-11-11",
 "greenhouse:samsara:8381399": "2026-11-11",
+"greenhouse:samsara:8387002": "2026-11-14",
 "greenhouse:samsungresearchamerica:8924143002": "2026-10-29",
 "greenhouse:samsungresearchamerica:8935817002": "2026-11-11",
 "greenhouse:samsungresearchamerica:8938719002": "2026-11-12",
@@ -81377,6 +81376,8 @@
 "jibe:careers.amd.com:93745": "2026-10-22",
 "jibe:careers.amd.com:93754": "2026-10-29",
 "jibe:careers.amd.com:93756": "2026-11-02",
+"jibe:careers.amd.com:93758": "2026-11-14",
+"jibe:careers.amd.com:93759": "2026-11-14",
 "jibe:careers.amd.com:93761": "2026-10-30",
 "jibe:careers.amd.com:93769": "2026-10-28",
 "jibe:careers.amd.com:93770": "2026-10-28",
@@ -81662,6 +81663,7 @@
 "jibe:careers.amd.com:95730": "2026-11-03",
 "jibe:careers.amd.com:95796": "2026-11-13",
 "jibe:careers.amd.com:95797": "2026-10-27",
+"jibe:careers.amd.com:95802": "2026-11-14",
 "jibe:careers.amd.com:95803": "2026-11-05",
 "jibe:careers.amd.com:95806": "2026-11-04",
 "jibe:careers.amd.com:95812": "2026-11-12",
@@ -85498,6 +85500,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350370": "2026-11-12",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350374": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350379": "2026-11-14",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350396": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350406": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350416": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350437": "2026-11-13",
@@ -92490,6 +92493,7 @@
 "workday:capitalone:R1004171-2": "2026-10-29",
 "workday:capitalone:R1004187": "2026-10-29",
 "workday:capitalone:R1004189-1": "2026-10-29",
+"workday:capitalone:R1004194-1": "2026-11-14",
 "workday:capitalone:R1004202-1": "2026-10-29",
 "workday:capitalone:R1004213-1": "2026-11-09",
 "workday:capitalone:R1004224-1": "2026-11-10",
@@ -95181,6 +95185,7 @@
 "workday:illumina:43781-JOB": "2026-11-10",
 "workday:illumina:43828-JOB": "2026-11-03",
 "workday:illumina:43829-JOB": "2026-11-09",
+"workday:illumina:43837-JOB": "2026-11-14",
 "workday:illumina:43840-JOB": "2026-11-13",
 "workday:illumina:43842-JOB-1": "2026-11-11",
 "workday:illumina:43843-JOB-1": "2026-11-05",
@@ -106172,6 +106177,7 @@
 "workday:wf:R-581958": "2026-10-29",
 "workday:wf:R-581964": "2026-11-02",
 "workday:wf:R-581970": "2026-10-29",
+"workday:wf:R-581976": "2026-11-14",
 "workday:wf:R-581982": "2026-10-29",
 "workday:wf:R-581985": "2026-11-03",
 "workday:wf:R-582000-1": "2026-10-29",
