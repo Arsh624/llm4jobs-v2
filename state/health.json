@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-14T07:02:33+00:00",
+ "run_at": "2026-11-14T07:32:14+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -58,7 +58,7 @@
   },
   "Accenture": {
    "type": "workday",
-   "jobs": 103,
+   "jobs": 101,
    "error": null
   },
   "Accord": {
@@ -199,7 +199,7 @@
   "Ambarella": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Ambience Healthcare": {
    "type": "ashby",
@@ -823,7 +823,7 @@
   },
   "Cognition": {
    "type": "ashby",
-   "jobs": 114,
+   "jobs": 112,
    "error": null
   },
   "Cohere": {
@@ -1388,8 +1388,8 @@
   },
   "Genentech": {
    "type": "workday",
-   "jobs": 40,
-   "error": null
+   "jobs": 0,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "General Proximity": {
    "type": "greenhouse",
@@ -2298,8 +2298,8 @@
   },
   "NTT DATA": {
    "type": "workday",
-   "jobs": 74,
-   "error": null
+   "jobs": 0,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "NVIDIA": {
    "type": "workday",
@@ -3288,7 +3288,7 @@
   },
   "SimplifyJobs (new grad list)": {
    "type": "simplify",
-   "jobs": 3217,
+   "jobs": 3214,
    "error": null
   },
   "SimplyInsured": {
@@ -3423,7 +3423,7 @@
   },
   "Spotify": {
    "type": "lever",
-   "jobs": 85,
+   "jobs": 87,
    "error": null
   },
   "Sprig": {

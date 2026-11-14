@@ -10430,6 +10430,16 @@
 },
 "2026-11-12"
 ],
+"eightfold:microsoft.com:1970393557053796|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience in IT support.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:microsoft.com:1970393557053863|v3|73908d": [
 {
 "chance": 4,
@@ -23859,6 +23869,13 @@
 "senior": true
 },
 "2026-11-06"
+],
+"rescue:eightfold:microsoft.com:1970393557053796": [
+{
+"note": "Entry-level opportunities available for this role.",
+"senior": false
+},
+"2026-11-14"
 ],
 "rescue:eightfold:microsoft.com:1970393557053832": [
 {
@@ -61473,7 +61490,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 103
+"typical": 101
 },
 "Accord": {
 "alerted": false,
@@ -61488,7 +61505,7 @@
 "Activision Blizzard": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 5
 },
 "Adaptive": {
@@ -61504,7 +61521,7 @@
 "Adobe": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 11
 },
 "Affirm": {
@@ -61614,8 +61631,8 @@
 },
 "Ambarella": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 503: Service Unavailable",
-"streak": 1,
+"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"streak": 2,
 "typical": 1
 },
 "Ambience Healthcare": {
@@ -61636,7 +61653,7 @@
 "Analog Devices": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 25
 },
 "Anchorage Digital": {
@@ -61762,7 +61779,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 14
 },
 "Artie": {
@@ -62028,7 +62045,7 @@
 "Broadcom": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 62
 },
 "Bugcrowd": {
@@ -62054,7 +62071,7 @@
 "Cadence Design Systems": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 49
 },
 "Calm": {
@@ -62200,7 +62217,7 @@
 "Cisco": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 13
 },
 "ClassDojo": {
@@ -62246,7 +62263,7 @@
 "Cognition": {
 "alerted": false,
 "streak": 0,
-"typical": 114
+"typical": 112
 },
 "Cohere": {
 "alerted": false,
@@ -62591,7 +62608,7 @@
 "Etsy": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 18,
+"streak": 19,
 "typical": 8
 },
 "Eudia": {
@@ -62637,7 +62654,7 @@
 "Expedia Group": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 503: Service Unavailable",
-"streak": 1,
+"streak": 2,
 "typical": 43
 },
 "Extreme Networks": {
@@ -62818,7 +62835,8 @@
 },
 "Genentech": {
 "alerted": false,
-"streak": 0,
+"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"streak": 1,
 "typical": 40
 },
 "General Proximity": {
@@ -62939,13 +62957,13 @@
 "HP": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 177
 },
 "HUD": {
@@ -63096,7 +63114,7 @@
 "Illumina": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 12
 },
 "Illumio": {
@@ -63187,7 +63205,7 @@
 "Intel": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 113
 },
 "Intro": {
@@ -63258,7 +63276,7 @@
 "KLA": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 15
 },
 "Kaizen Labs": {
@@ -63334,13 +63352,13 @@
 "Kyndryl": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 28
 },
 "Kyndryl Early Careers": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 90
 },
 "LTSE": {
@@ -63491,7 +63509,7 @@
 "Lumentum": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 19
 },
 "Luminai": {
@@ -63522,7 +63540,7 @@
 "Marvell": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 27
 },
 "Mashgin": {
@@ -63538,7 +63556,7 @@
 "Mastercard": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 60
 },
 "MatX": {
@@ -63569,7 +63587,7 @@
 "Medtronic": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 168
 },
 "Mercor": {
@@ -63605,13 +63623,13 @@
 "Microchip Technology": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 12
 },
 "Micron": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 276
 },
 "Microsoft": {
@@ -63741,13 +63759,14 @@
 },
 "NTT DATA": {
 "alerted": false,
-"streak": 0,
+"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"streak": 1,
 "typical": 74
 },
 "NVIDIA": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 22,
+"streak": 23,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63924,7 +63943,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 52,
+"streak": 53,
 "typical": 1
 },
 "Oklo": {
@@ -64265,7 +64284,7 @@
 "Priceline": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 4
 },
 "Prime Intellect": {
@@ -64436,7 +64455,7 @@
 "Red Hat": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 24
 },
 "Reddit": {
@@ -64712,7 +64731,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 20,
+"streak": 21,
 "typical": 39
 },
 "Short Story": {
@@ -64723,7 +64742,7 @@
 "SiFive": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 14,
+"streak": 15,
 "typical": 0
 },
 "Sieve": {
@@ -64749,7 +64768,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3217
+"typical": 3214
 },
 "SimplyInsured": {
 "alerted": false,
@@ -64884,7 +64903,7 @@
 "Spotify": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 87
 },
 "Sprig": {
 "alerted": false,
@@ -65004,7 +65023,7 @@
 "T-Mobile": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 300
 },
 "TENEX.AI": {
@@ -65330,7 +65349,7 @@
 "Visa": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 41
 },
 "Vitalize": {
@@ -65391,7 +65410,7 @@
 "Wells Fargo": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 15,
+"streak": 16,
 "typical": 300
 },
 "Wingspan": {
@@ -65422,7 +65441,7 @@
 "Workday": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 79
 },
 "World Labs": {
@@ -65463,7 +65482,7 @@
 "Zillow": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 29
 },
 "Zimperium": {
@@ -65524,7 +65543,7 @@
 "eBay": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 20,
+"streak": 21,
 "typical": 42
 },
 "fal": {
@@ -111268,9 +111287,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 46,
+"calls": 48,
 "date": "2026-11-14",
-"usd": 0.006434
+"usd": 0.006764
 },
 "years": {
 "amazon:10583340": [
