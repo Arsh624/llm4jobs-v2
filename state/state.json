@@ -10760,6 +10760,16 @@
 },
 "2026-10-21"
 ],
+"eightfold:qualcomm.com:446716929201|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience for new grads.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:qualcomm.com:446716965956|v3|73908d": [
 {
 "chance": 2,
@@ -10880,6 +10890,16 @@
 },
 "2026-11-04"
 ],
+"eightfold:qualcomm.com:446720352855|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets new graduates and offers relevant training opportunities.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:qualcomm.com:446720361953|v3|73908d": [
 {
 "chance": 2,
@@ -10910,6 +10930,16 @@
 },
 "2026-10-27"
 ],
+"eightfold:qualcomm.com:446720845753|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2-5 years of specific experience.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:qualcomm.com:446720881474|v3|73908d": [
 {
 "chance": 5,
@@ -10919,6 +10949,16 @@
 "us_ok": true
 },
 "2026-11-04"
+],
+"eightfold:qualcomm.com:446721293506|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 4,
+"note": "Requires 4+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-14"
 ],
 "eightfold:qualcomm.com:446721299348|v3|73908d": [
 {
@@ -19074,6 +19114,13 @@
 },
 "2026-10-28"
 ],
+"rescue:ashby:harvey:f2ac5239-c7a1-4b0a-bbf3-c8f6b836a2d6": [
+{
+"note": "Requires significant experience in engineering management.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:ashby:headway:6c392811-80da-44cb-a54e-630914cdb6da": [
 {
 "note": "Staff implies significant experience required.",
@@ -24366,6 +24413,13 @@
 },
 "2026-10-27"
 ],
+"rescue:eightfold:qualcomm.com:446718152975": [
+{
+"note": "Requires extensive experience in architecture.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:eightfold:qualcomm.com:446718541869": [
 {
 "note": "Requires 4+ years of experience.",
@@ -24519,6 +24573,13 @@
 "senior": true
 },
 "2026-10-27"
+],
+"rescue:eightfold:qualcomm.com:446721200879": [
+{
+"note": "Requires 7-8 years of experience.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:eightfold:qualcomm.com:446721204420": [
 {
@@ -61399,7 +61460,7 @@
 "Activision Blizzard": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 5
 },
 "Adaptive": {
@@ -61415,7 +61476,7 @@
 "Adobe": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 11
 },
 "Affirm": {
@@ -61446,7 +61507,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 355
+"typical": 356
 },
 "Ai2": {
 "alerted": false,
@@ -61501,7 +61562,7 @@
 "Alex": {
 "alerted": false,
 "streak": 0,
-"typical": 2
+"typical": 3
 },
 "Alleviate Health": {
 "alerted": false,
@@ -61546,7 +61607,7 @@
 "Analog Devices": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 25
 },
 "Anchorage Digital": {
@@ -61637,7 +61698,7 @@
 "Arena": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 21
 },
 "Arini": {
 "alerted": false,
@@ -61672,7 +61733,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 14
 },
 "Artie": {
@@ -61936,9 +61997,9 @@
 "typical": 75
 },
 "Broadcom": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 62
 },
 "Bugcrowd": {
@@ -61962,9 +62023,9 @@
 "typical": 5
 },
 "Cadence Design Systems": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 49
 },
 "Calm": {
@@ -62110,7 +62171,7 @@
 "Cisco": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 13
 },
 "ClassDojo": {
@@ -62261,7 +62322,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 317
+"typical": 318
 },
 "Curri": {
 "alerted": false,
@@ -62501,7 +62562,7 @@
 "Etsy": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 6,
+"streak": 7,
 "typical": 8
 },
 "Eudia": {
@@ -62848,13 +62909,13 @@
 "HP": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 177
 },
 "HUD": {
@@ -62865,7 +62926,7 @@
 "HackerOne": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 13
 },
 "HackerRank": {
 "alerted": false,
@@ -62900,7 +62961,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 385
+"typical": 387
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -63005,7 +63066,7 @@
 "Illumina": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 12
 },
 "Illumio": {
@@ -63094,9 +63155,9 @@
 "typical": 5
 },
 "Intel": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 113
 },
 "Intro": {
@@ -63167,7 +63228,7 @@
 "KLA": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 15
 },
 "Kaizen Labs": {
@@ -63243,13 +63304,13 @@
 "Kyndryl": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 28
 },
 "Kyndryl Early Careers": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 90
 },
 "LTSE": {
@@ -63265,7 +63326,7 @@
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 30
 },
 "Laminar": {
 "alerted": false,
@@ -63400,7 +63461,7 @@
 "Lumentum": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 19
 },
 "Luminai": {
@@ -63431,7 +63492,7 @@
 "Marvell": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 27
 },
 "Mashgin": {
@@ -63445,9 +63506,9 @@
 "typical": 5
 },
 "Mastercard": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 60
 },
 "MatX": {
@@ -63476,9 +63537,9 @@
 "typical": 2
 },
 "Medtronic": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 168
 },
 "Mercor": {
@@ -63514,13 +63575,13 @@
 "Microchip Technology": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 12
 },
 "Micron": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 276
 },
 "Microsoft": {
@@ -63656,7 +63717,7 @@
 "NVIDIA": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 10,
+"streak": 11,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63833,7 +63894,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 40,
+"streak": 41,
 "typical": 1
 },
 "Oklo": {
@@ -63864,7 +63925,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 344
+"typical": 345
 },
 "OneSchema": {
 "alerted": false,
@@ -63879,7 +63940,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 836
+"typical": 837
 },
 "OpenEvidence": {
 "alerted": false,
@@ -63924,7 +63985,7 @@
 "Otter.ai": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 18
 },
 "Outschool": {
 "alerted": false,
@@ -64172,9 +64233,9 @@
 "typical": 7
 },
 "Priceline": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 4
 },
 "Prime Intellect": {
@@ -64245,7 +64306,7 @@
 "Qualcomm": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 50
 },
 "QuantCo": {
 "alerted": false,
@@ -64345,7 +64406,7 @@
 "Red Hat": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 24
 },
 "Reddit": {
@@ -64451,7 +64512,7 @@
 "Roblox": {
 "alerted": false,
 "streak": 0,
-"typical": 270
+"typical": 271
 },
 "Roboflow": {
 "alerted": false,
@@ -64621,7 +64682,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 8,
+"streak": 9,
 "typical": 39
 },
 "Short Story": {
@@ -64632,7 +64693,7 @@
 "SiFive": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 0
 },
 "Sieve": {
@@ -64658,7 +64719,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3240
+"typical": 3237
 },
 "SimplyInsured": {
 "alerted": false,
@@ -64911,9 +64972,9 @@
 "typical": 708
 },
 "T-Mobile": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 300
 },
 "TENEX.AI": {
@@ -64959,7 +65020,7 @@
 "Tempo": {
 "alerted": false,
 "streak": 0,
-"typical": 3
+"typical": 5
 },
 "Tennr": {
 "alerted": false,
@@ -65239,7 +65300,7 @@
 "Visa": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 41
 },
 "Vitalize": {
@@ -65298,9 +65359,9 @@
 "typical": 25
 },
 "Wells Fargo": {
-"alerted": false,
+"alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 3,
+"streak": 4,
 "typical": 300
 },
 "Wingspan": {
@@ -65331,7 +65392,7 @@
 "Workday": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 79
 },
 "World Labs": {
@@ -65372,7 +65433,7 @@
 "Zillow": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 29
 },
 "Zimperium": {
@@ -65433,7 +65494,7 @@
 "eBay": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 8,
+"streak": 9,
 "typical": 42
 },
 "fal": {
@@ -66145,6 +66206,7 @@
 "ashby:alchemy:f1ceb46a-3329-4774-851d-baaa32035588": "2026-10-28",
 "ashby:aleph:408ce526-0492-48be-b00d-607284a37c46": "2026-11-12",
 "ashby:alexai:7524f72d-d0e3-4b98-b787-3b882835deef": "2026-11-14",
+"ashby:alexai:b834b4cc-1d9f-48bb-8b68-8605e10e84b5": "2026-11-14",
 "ashby:ambiencehealthcare:89d3f789-c835-4efc-ac64-a1ba3df184e3": "2026-10-31",
 "ashby:ambiencehealthcare:a8c2094e-22b8-4224-b03a-0b92d597536b": "2026-11-12",
 "ashby:ambient.ai:3e2fdf3b-9ee1-4258-86fa-a76f71fa2c97": "2026-11-12",
@@ -66298,6 +66360,7 @@
 "ashby:applied:fd5f4f7b-baf1-4ec6-bc60-0a9b01bce470": "2026-10-29",
 "ashby:applied:ff77f315-2e95-49aa-94e8-84ffd3dcaa09": "2026-11-03",
 "ashby:applied:fff64d68-bf62-4fd0-870c-50b97e1d55d0": "2026-10-30",
+"ashby:arena:2a58c588-e577-447b-9e48-be73a796415d": "2026-11-14",
 "ashby:arena:5cc3bdf7-1904-452f-9348-4e09395e04f9": "2026-10-29",
 "ashby:arena:6b687083-cb97-4eea-bfaf-e475cbe1d407": "2026-11-13",
 "ashby:arena:808a52d5-4f1f-466f-ac8a-64fd9b6d0610": "2026-10-29",
@@ -66752,6 +66815,7 @@
 "ashby:crusoe:26d7900a-bd92-42af-afcd-56ebd5f8ce1b": "2026-11-14",
 "ashby:crusoe:28c03346-c659-4f7d-8a35-5b6467ff717c": "2026-10-28",
 "ashby:crusoe:2974285f-e298-4cf7-9eed-e0bdafeb0998": "2026-10-27",
+"ashby:crusoe:2b238a5d-f634-4255-8d51-c17f05dfd29f": "2026-11-14",
 "ashby:crusoe:37c932b5-a586-49db-86aa-f9743858e614": "2026-11-13",
 "ashby:crusoe:39bb9f8c-a28e-4068-8c87-a86999231c09": "2026-10-20",
 "ashby:crusoe:3cc4bc08-0b4c-4a58-a8ad-2395d1d47a2b": "2026-11-06",
@@ -67454,6 +67518,7 @@
 "ashby:harvey:86e675fd-51af-42f9-9e1f-e61f1dcdbe2d": "2026-10-28",
 "ashby:harvey:880c222b-faa8-4e86-8fe9-989b5cd2bd46": "2026-10-30",
 "ashby:harvey:8818f7ee-d58d-48b4-bf81-d9e0ba372130": "2026-11-14",
+"ashby:harvey:8933bce6-f85b-4a74-9530-d5c8916af055": "2026-11-14",
 "ashby:harvey:8a6fd2f5-1d8f-40b3-a101-1e792f0ff80a": "2026-11-07",
 "ashby:harvey:8d357b3f-43e0-4e30-8dd7-a326a5da96cc": "2026-10-29",
 "ashby:harvey:8e7419d0-216b-4cfe-b60c-90eaafd6c03d": "2026-11-06",
@@ -67511,6 +67576,7 @@
 "ashby:harvey:f10fb9da-676a-4dc6-9d7d-0065490dfd57": "2026-10-29",
 "ashby:harvey:f24fbeae-1e82-4f3b-9754-a1645c8973b0": "2026-11-06",
 "ashby:harvey:f292e181-fc41-4e9b-b860-2893ea15da41": "2026-11-05",
+"ashby:harvey:f2ac5239-c7a1-4b0a-bbf3-c8f6b836a2d6": "2026-11-14",
 "ashby:harvey:f855afb3-74d9-43f3-b7ff-964ea387db37": "2026-11-05",
 "ashby:harvey:fd897fcb-34a0-4f58-9837-9ab76c326d84": "2026-10-28",
 "ashby:harvey:feffea18-29b3-4d9e-b30f-73d9bce756a6": "2026-10-28",
@@ -68238,6 +68304,7 @@
 "ashby:openai:218c0b55-53bd-4df6-805d-321a8c2e7db7": "2026-11-06",
 "ashby:openai:230d7d77-133e-4b87-a7a4-3e8d4e9fdab3": "2026-10-19",
 "ashby:openai:2320fe69-df26-4d1d-ada6-d1a46c0e68a1": "2026-11-13",
+"ashby:openai:24d1efa7-2b6d-4f5c-873f-362843ca3395": "2026-11-14",
 "ashby:openai:25c2d971-56b4-43c2-8d17-8e168d45add5": "2026-10-22",
 "ashby:openai:26500fa3-39c0-4e25-b557-b58415caeb6e": "2026-11-13",
 "ashby:openai:26cfb873-f30a-4a13-b7b6-52833ea48ec9": "2026-11-13",
@@ -73032,15 +73099,18 @@
 "eightfold:qualcomm.com:446704948277": "2026-10-30",
 "eightfold:qualcomm.com:446707518930": "2026-10-27",
 "eightfold:qualcomm.com:446714464766": "2026-11-14",
+"eightfold:qualcomm.com:446714967451": "2026-11-14",
 "eightfold:qualcomm.com:446715135001": "2026-10-26",
 "eightfold:qualcomm.com:446715539015": "2026-10-26",
 "eightfold:qualcomm.com:446715549558": "2026-10-21",
+"eightfold:qualcomm.com:446716147763": "2026-11-14",
 "eightfold:qualcomm.com:446716194291": "2026-11-04",
 "eightfold:qualcomm.com:446716218668": "2026-11-13",
 "eightfold:qualcomm.com:446716245843": "2026-10-28",
 "eightfold:qualcomm.com:446716256165": "2026-10-23",
 "eightfold:qualcomm.com:446716318710": "2026-11-03",
 "eightfold:qualcomm.com:446716727558": "2026-10-21",
+"eightfold:qualcomm.com:446716929201": "2026-11-14",
 "eightfold:qualcomm.com:446716965956": "2026-11-03",
 "eightfold:qualcomm.com:446717048642": "2026-11-03",
 "eightfold:qualcomm.com:446717356390": "2026-10-26",
@@ -73049,15 +73119,20 @@
 "eightfold:qualcomm.com:446717478274": "2026-10-27",
 "eightfold:qualcomm.com:446717827966": "2026-11-03",
 "eightfold:qualcomm.com:446717843734": "2026-10-26",
+"eightfold:qualcomm.com:446717991860": "2026-11-14",
+"eightfold:qualcomm.com:446718107190": "2026-11-14",
 "eightfold:qualcomm.com:446718152206": "2026-10-27",
+"eightfold:qualcomm.com:446718152975": "2026-11-14",
 "eightfold:qualcomm.com:446718349712": "2026-10-27",
 "eightfold:qualcomm.com:446718388725": "2026-10-27",
+"eightfold:qualcomm.com:446718412275": "2026-11-14",
 "eightfold:qualcomm.com:446718423897": "2026-11-14",
 "eightfold:qualcomm.com:446718461089": "2026-10-21",
 "eightfold:qualcomm.com:446718505618": "2026-11-06",
 "eightfold:qualcomm.com:446718541869": "2026-11-10",
 "eightfold:qualcomm.com:446718593091": "2026-11-14",
 "eightfold:qualcomm.com:446718717739": "2026-10-26",
+"eightfold:qualcomm.com:446718821574": "2026-11-14",
 "eightfold:qualcomm.com:446718852057": "2026-11-02",
 "eightfold:qualcomm.com:446718893357": "2026-11-14",
 "eightfold:qualcomm.com:446718947641": "2026-11-02",
@@ -73074,12 +73149,15 @@
 "eightfold:qualcomm.com:446719402654": "2026-10-27",
 "eightfold:qualcomm.com:446719402682": "2026-11-04",
 "eightfold:qualcomm.com:446719428904": "2026-10-26",
+"eightfold:qualcomm.com:446719459728": "2026-11-14",
 "eightfold:qualcomm.com:446719655199": "2026-11-14",
+"eightfold:qualcomm.com:446719655261": "2026-11-14",
 "eightfold:qualcomm.com:446719655266": "2026-11-06",
 "eightfold:qualcomm.com:446719669239": "2026-11-03",
 "eightfold:qualcomm.com:446719766572": "2026-11-02",
 "eightfold:qualcomm.com:446719823376": "2026-10-30",
 "eightfold:qualcomm.com:446719837521": "2026-10-23",
+"eightfold:qualcomm.com:446719899553": "2026-11-14",
 "eightfold:qualcomm.com:446719913654": "2026-10-27",
 "eightfold:qualcomm.com:446719947188": "2026-10-20",
 "eightfold:qualcomm.com:446719948774": "2026-10-30",
@@ -73093,8 +73171,11 @@
 "eightfold:qualcomm.com:446720269361": "2026-10-27",
 "eightfold:qualcomm.com:446720333630": "2026-10-20",
 "eightfold:qualcomm.com:446720342418": "2026-11-14",
+"eightfold:qualcomm.com:446720352855": "2026-11-14",
 "eightfold:qualcomm.com:446720361953": "2026-11-14",
+"eightfold:qualcomm.com:446720377698": "2026-11-14",
 "eightfold:qualcomm.com:446720417490": "2026-11-14",
+"eightfold:qualcomm.com:446720425705": "2026-11-14",
 "eightfold:qualcomm.com:446720476831": "2026-10-20",
 "eightfold:qualcomm.com:446720476834": "2026-11-03",
 "eightfold:qualcomm.com:446720501756": "2026-10-22",
@@ -73110,6 +73191,8 @@
 "eightfold:qualcomm.com:446720841340": "2026-10-22",
 "eightfold:qualcomm.com:446720841373": "2026-10-28",
 "eightfold:qualcomm.com:446720845422": "2026-11-09",
+"eightfold:qualcomm.com:446720845721": "2026-11-14",
+"eightfold:qualcomm.com:446720845753": "2026-11-14",
 "eightfold:qualcomm.com:446720881474": "2026-11-04",
 "eightfold:qualcomm.com:446720889828": "2026-10-29",
 "eightfold:qualcomm.com:446720924242": "2026-10-29",
@@ -73123,6 +73206,7 @@
 "eightfold:qualcomm.com:446721047020": "2026-10-27",
 "eightfold:qualcomm.com:446721051165": "2026-10-20",
 "eightfold:qualcomm.com:446721078042": "2026-10-22",
+"eightfold:qualcomm.com:446721106923": "2026-11-14",
 "eightfold:qualcomm.com:446721114153": "2026-11-04",
 "eightfold:qualcomm.com:446721126329": "2026-10-26",
 "eightfold:qualcomm.com:446721129041": "2026-10-27",
@@ -73131,8 +73215,10 @@
 "eightfold:qualcomm.com:446721141129": "2026-10-27",
 "eightfold:qualcomm.com:446721159585": "2026-10-20",
 "eightfold:qualcomm.com:446721161154": "2026-10-20",
+"eightfold:qualcomm.com:446721200879": "2026-11-14",
 "eightfold:qualcomm.com:446721204420": "2026-11-11",
 "eightfold:qualcomm.com:446721232945": "2026-10-30",
+"eightfold:qualcomm.com:446721293506": "2026-11-14",
 "eightfold:qualcomm.com:446721299348": "2026-10-26",
 "eightfold:qualcomm.com:446721322188": "2026-11-06",
 "eightfold:qualcomm.com:446721326141": "2026-10-21",
@@ -73159,6 +73245,7 @@
 "eightfold:qualcomm.com:446721529926": "2026-10-28",
 "eightfold:qualcomm.com:446721549250": "2026-10-20",
 "eightfold:qualcomm.com:446721549314": "2026-10-20",
+"eightfold:qualcomm.com:446721560367": "2026-11-14",
 "eightfold:qualcomm.com:446721570378": "2026-10-20",
 "eightfold:qualcomm.com:446721579774": "2026-10-22",
 "eightfold:qualcomm.com:446721581246": "2026-10-29",
@@ -78983,6 +79070,7 @@
 "greenhouse:roblox:8348625": "2026-11-06",
 "greenhouse:roblox:8350312": "2026-11-09",
 "greenhouse:roblox:8350721": "2026-11-09",
+"greenhouse:roblox:8350723": "2026-11-14",
 "greenhouse:roblox:8350725": "2026-11-10",
 "greenhouse:roblox:8350727": "2026-11-03",
 "greenhouse:roblox:8351078": "2026-11-03",
@@ -80177,6 +80265,8 @@
 "greenhouse:tanium:8369384": "2026-11-14",
 "greenhouse:tanium:8370065": "2026-11-13",
 "greenhouse:tanium:8375742": "2026-11-11",
+"greenhouse:tempo:4507795009": "2026-11-14",
+"greenhouse:tempo:4507804009": "2026-11-14",
 "greenhouse:tenstorrent:4969360007": "2026-11-10",
 "greenhouse:tenstorrent:5227982007": "2026-10-22",
 "greenhouse:tenstorrent:5227997007": "2026-11-10",
@@ -110429,6 +110519,8 @@
 "qualcomm|cpu performance modeling engineer multiple levels": "2026-11-14",
 "qualcomm|cpu performance research engineer": "2026-11-14",
 "qualcomm|cpu server physical design engineer": "2026-10-29",
+"qualcomm|cpu verification engineer risc v": "2026-11-14",
+"qualcomm|data center engineering post silicon power and performance engineer": "2026-11-14",
 "qualcomm|design engineer low power": "2026-11-03",
 "qualcomm|digital hardware engineer": "2026-10-20",
 "qualcomm|engineer": "2026-11-12",
@@ -110437,6 +110529,7 @@
 "qualcomm|gpu design implementation methodology engineer": "2026-10-23",
 "qualcomm|gpu design verification engineer": "2026-11-04",
 "qualcomm|gpu pd engineer": "2026-10-20",
+"qualcomm|gsoc design verification engineer": "2026-11-14",
 "qualcomm|hardware support engineer qualcomm government technologies": "2026-10-21",
 "qualcomm|high speed analog mixed signal phy design engineer": "2026-10-28",
 "qualcomm|implementation timing sta design engineer": "2026-10-27",
@@ -110460,6 +110553,7 @@
 "qualcomm|soc power design engineer": "2026-10-21",
 "qualcomm|soc power validation engineer": "2026-11-09",
 "qualcomm|software engineer camera": "2026-10-20",
+"qualcomm|software engineer risc v random test generator": "2026-11-14",
 "qualcomm|software engineer san diego boulder": "2026-10-20",
 "qualcomm|software integration engineer ai accelerators": "2026-11-11",
 "qualcomm|speech and audio systems engineer": "2026-11-03",
@@ -111108,9 +111202,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 33,
+"calls": 42,
 "date": "2026-11-14",
-"usd": 0.004588
+"usd": 0.006157
 },
 "years": {
 "amazon:10583340": [
