@@ -35198,6 +35198,13 @@
 },
 "2026-10-30"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:292815": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:294441": [
 {
 "note": "Requires significant experience and expertise.",
@@ -61628,7 +61635,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 356
+"typical": 355
 },
 "Ai2": {
 "alerted": false,
@@ -63024,7 +63031,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 83
+"typical": 82
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -63267,10 +63274,9 @@
 "typical": 5
 },
 "Intel": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 40,
-"typical": 113
+"alerted": false,
+"streak": 0,
+"typical": 86
 },
 "Intro": {
 "alerted": false,
@@ -63820,7 +63826,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 91
+"typical": 96
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -63996,7 +64002,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 77,
+"streak": 78,
 "typical": 1
 },
 "Oklo": {
@@ -64237,7 +64243,7 @@
 "Physical Intelligence": {
 "alerted": false,
 "streak": 0,
-"typical": 46
+"typical": 47
 },
 "PicnicAI": {
 "alerted": false,
@@ -64392,7 +64398,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 375
+"typical": 376
 },
 "Pylon": {
 "alerted": false,
@@ -64697,7 +64703,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 318
+"typical": 317
 },
 "Samsung Research America": {
 "alerted": false,
@@ -64782,7 +64788,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 45,
+"streak": 46,
 "typical": 39
 },
 "Short Story": {
@@ -65488,7 +65494,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 51
 },
 "World Labs": {
 "alerted": false,
@@ -68853,6 +68859,7 @@
 "ashby:physicalintelligence:4160110b-2908-400b-a925-5e07b1cc362a": "2026-10-20",
 "ashby:physicalintelligence:58d9a0e7-8082-4575-ad50-0163c91458cc": "2026-11-05",
 "ashby:physicalintelligence:a7bfa681-3e71-42af-b72f-a9ec144434c6": "2026-11-03",
+"ashby:physicalintelligence:b0de3fd2-fb06-48d4-adf9-c7964e1cbc55": "2026-11-14",
 "ashby:physicalintelligence:b17fe406-ef13-4eb2-9ebc-e90979321c4e": "2026-10-23",
 "ashby:physicalintelligence:bd8cf77a-0149-45e0-84fc-726fd02253ec": "2026-11-10",
 "ashby:physicalintelligence:daa49953-755a-40dc-9959-7a2feff7f3bb": "2026-10-20",
@@ -85592,6 +85599,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:292517": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:292706": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:292727": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:292815": "2026-11-14",
 "oracle_hcm:enterpriseplatform.dell.com:292859": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:293208": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:293523": "2026-11-10",
@@ -108271,6 +108279,7 @@
 "workday:workday:JR-0111619": "2026-11-13",
 "workday:workday:JR-0111621": "2026-11-13",
 "workday:workday:JR-0111625": "2026-11-13",
+"workday:workday:JR-0111627-1": "2026-11-14",
 "workday:workday:JR-IC-000019-1": "2026-11-04",
 "workday:workday:JR-IC-000053-1": "2026-11-12",
 "workday:workday:JR-IC-000063": "2026-11-01",
@@ -111391,9 +111400,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 57,
+"calls": 58,
 "date": "2026-11-14",
-"usd": 0.008225
+"usd": 0.008293
 },
 "years": {
 "amazon:10583340": [
