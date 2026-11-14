@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-14T05:01:06+00:00",
+ "run_at": "2026-11-14T05:31:24+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -253,7 +253,7 @@
   },
   "Anthropic": {
    "type": "greenhouse",
-   "jobs": 668,
+   "jobs": 669,
    "error": null
   },
   "Anyscale": {
@@ -678,8 +678,8 @@
   },
   "Capital One": {
    "type": "workday",
-   "jobs": 229,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "CaptivateIQ": {
    "type": "ashby",
@@ -1048,7 +1048,7 @@
   },
   "DoorDash": {
    "type": "greenhouse",
-   "jobs": 428,
+   "jobs": 427,
    "error": null
   },
   "Doppel": {
@@ -3153,8 +3153,8 @@
   },
   "Salesforce": {
    "type": "workday",
-   "jobs": 280,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Salient": {
    "type": "ashby",
