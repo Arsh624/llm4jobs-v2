@@ -3710,6 +3710,16 @@
 },
 "2026-11-13"
 ],
+"amazon:10605142|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -4289,6 +4299,16 @@
 "us_ok": true
 },
 "2026-11-11"
+],
+"ashby:baseten:bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0|v3|73908d": [
+{
+"chance": 4,
+"level": "mid",
+"min_years": 2,
+"note": "Requires significant hands-on experience with Kubernetes and infrastructure.",
+"us_ok": true
+},
+"2026-11-14"
 ],
 "ashby:baseten:d7e9ee32-dee8-459f-9d8a-538d65df51ae|v3|73908d": [
 {
@@ -10780,6 +10800,16 @@
 },
 "2026-10-21"
 ],
+"eightfold:qualcomm.com:446718593091|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 4,
+"note": "Requires significant experience in CPU architecture roles.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:qualcomm.com:446718717739|v3|73908d": [
 {
 "chance": 0,
@@ -10810,6 +10840,16 @@
 },
 "2026-11-02"
 ],
+"eightfold:qualcomm.com:446719161124|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 1,
+"note": "Role targets new grads with relevant degrees.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "eightfold:qualcomm.com:446719178051|v3|73908d": [
 {
 "chance": 0,
@@ -10839,6 +10879,16 @@
 "us_ok": true
 },
 "2026-11-04"
+],
+"eightfold:qualcomm.com:446720361953|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 4,
+"note": "Requires 4+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-14"
 ],
 "eightfold:qualcomm.com:446720651924|v3|73908d": [
 {
@@ -18527,6 +18577,13 @@
 },
 "2026-11-13"
 ],
+"rescue:ashby:crusoe:4b6b8e36-43de-41bf-b58e-421314007bf0": [
+{
+"note": "Requires significant project management experience.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:ashby:crusoe:4c5de99e-87e0-4269-acf4-505c5d5b9d2b": [
 {
 "note": "Requires significant experience in program management.",
@@ -24323,6 +24380,13 @@
 },
 "2026-10-30"
 ],
+"rescue:eightfold:qualcomm.com:446719161121": [
+{
+"note": "Requires extensive experience in architecture.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:eightfold:qualcomm.com:446719823376": [
 {
 "note": "Requires 4+ years of experience.",
@@ -24364,6 +24428,13 @@
 "senior": true
 },
 "2026-10-20"
+],
+"rescue:eightfold:qualcomm.com:446720417490": [
+{
+"note": "Requires deep expertise and experience.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:eightfold:qualcomm.com:446720476831": [
 {
@@ -27515,6 +27586,13 @@
 },
 "2026-11-06"
 ],
+"rescue:greenhouse:lucidmotors:5295346007": [
+{
+"note": "Lead role typically requires experience.",
+"senior": true
+},
+"2026-11-14"
+],
 "rescue:greenhouse:lyft:8900209002": [
 {
 "note": "Requires significant experience and leadership skills.",
@@ -28340,6 +28418,13 @@
 "senior": true
 },
 "2026-11-05"
+],
+"rescue:greenhouse:purestorage:8357686": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:greenhouse:purestorage:8358469": [
 {
@@ -34962,6 +35047,13 @@
 "senior": true
 },
 "2026-11-12"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350416": [
+{
+"note": "Requires significant experience and expertise.",
+"senior": true
+},
+"2026-11-14"
 ],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:292706": [
 {
@@ -61242,7 +61334,7 @@
 "31st Union": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 14
 },
 "9 Mothers": {
 "alerted": false,
@@ -61307,7 +61399,7 @@
 "Activision Blizzard": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 5
 },
 "Adaptive": {
@@ -61323,7 +61415,7 @@
 "Adobe": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 11
 },
 "Affirm": {
@@ -61409,7 +61501,7 @@
 "Alex": {
 "alerted": false,
 "streak": 0,
-"typical": 3
+"typical": 2
 },
 "Alleviate Health": {
 "alerted": false,
@@ -61454,7 +61546,7 @@
 "Analog Devices": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 25
 },
 "Anchorage Digital": {
@@ -61470,7 +61562,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2596
+"typical": 2595
 },
 "AngelList": {
 "alerted": false,
@@ -61580,7 +61672,7 @@
 "Arrowstreet Capital": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 14
 },
 "Artie": {
@@ -61716,7 +61808,7 @@
 "Baseten": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 102
 },
 "Bastion": {
 "alerted": false,
@@ -61846,7 +61938,7 @@
 "Broadcom": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 62
 },
 "Bugcrowd": {
@@ -61872,7 +61964,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 49
 },
 "Calm": {
@@ -62018,7 +62110,7 @@
 "Cisco": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 13
 },
 "ClassDojo": {
@@ -62139,7 +62231,7 @@
 "Coursera": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 38
 },
 "Creatify Lab": {
 "alerted": false,
@@ -62169,7 +62261,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 316
+"typical": 317
 },
 "Curri": {
 "alerted": false,
@@ -62409,7 +62501,7 @@
 "Etsy": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 5,
+"streak": 6,
 "typical": 8
 },
 "Eudia": {
@@ -62455,7 +62547,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 43
 },
 "Extreme Networks": {
 "alerted": false,
@@ -62636,7 +62728,7 @@
 "Genentech": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 39
 },
 "General Proximity": {
 "alerted": false,
@@ -62756,13 +62848,13 @@
 "HP": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 177
 },
 "HUD": {
@@ -62808,7 +62900,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 382
+"typical": 385
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -62913,7 +63005,7 @@
 "Illumina": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 12
 },
 "Illumio": {
@@ -63004,7 +63096,7 @@
 "Intel": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 113
 },
 "Intro": {
@@ -63075,7 +63167,7 @@
 "KLA": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 15
 },
 "Kaizen Labs": {
@@ -63151,13 +63243,13 @@
 "Kyndryl": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 28
 },
 "Kyndryl Early Careers": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 90
 },
 "LTSE": {
@@ -63308,7 +63400,7 @@
 "Lumentum": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 19
 },
 "Luminai": {
@@ -63339,7 +63431,7 @@
 "Marvell": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 27
 },
 "Mashgin": {
@@ -63355,7 +63447,7 @@
 "Mastercard": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 60
 },
 "MatX": {
@@ -63386,7 +63478,7 @@
 "Medtronic": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 168
 },
 "Mercor": {
@@ -63422,13 +63514,13 @@
 "Microchip Technology": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 12
 },
 "Micron": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 276
 },
 "Microsoft": {
@@ -63564,7 +63656,7 @@
 "NVIDIA": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 9,
+"streak": 10,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63711,7 +63803,7 @@
 "Nuro": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 100
 },
 "OP Labs": {
 "alerted": false,
@@ -63741,7 +63833,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 39,
+"streak": 40,
 "typical": 1
 },
 "Oklo": {
@@ -63787,7 +63879,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 837
+"typical": 836
 },
 "OpenEvidence": {
 "alerted": false,
@@ -64017,7 +64109,7 @@
 "Planet Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 116
 },
 "PlanetScale": {
 "alerted": false,
@@ -64082,7 +64174,7 @@
 "Priceline": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 4
 },
 "Prime Intellect": {
@@ -64138,7 +64230,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 374
+"typical": 375
 },
 "Pylon": {
 "alerted": false,
@@ -64153,7 +64245,7 @@
 "Qualcomm": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 30
 },
 "QuantCo": {
 "alerted": false,
@@ -64253,7 +64345,7 @@
 "Red Hat": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 24
 },
 "Reddit": {
@@ -64304,7 +64396,7 @@
 "Retell AI": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 19
 },
 "Rev": {
 "alerted": false,
@@ -64529,7 +64621,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 7,
+"streak": 8,
 "typical": 39
 },
 "Short Story": {
@@ -64540,7 +64632,7 @@
 "SiFive": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 1,
+"streak": 2,
 "typical": 0
 },
 "Sieve": {
@@ -64821,7 +64913,7 @@
 "T-Mobile": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 300
 },
 "TENEX.AI": {
@@ -64852,7 +64944,7 @@
 "Tanium": {
 "alerted": false,
 "streak": 0,
-"typical": 66
+"typical": 67
 },
 "Tavus": {
 "alerted": false,
@@ -65147,7 +65239,7 @@
 "Visa": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 41
 },
 "Vitalize": {
@@ -65208,7 +65300,7 @@
 "Wells Fargo": {
 "alerted": false,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 2,
+"streak": 3,
 "typical": 300
 },
 "Wingspan": {
@@ -65239,7 +65331,7 @@
 "Workday": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 79
 },
 "World Labs": {
@@ -65280,7 +65372,7 @@
 "Zillow": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 29
 },
 "Zimperium": {
@@ -65341,7 +65433,7 @@
 "eBay": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 521: <none>",
-"streak": 7,
+"streak": 8,
 "typical": 42
 },
 "fal": {
@@ -65951,6 +66043,7 @@
 "amazon:10605042": "2026-11-13",
 "amazon:10605044": "2026-11-13",
 "amazon:10605105": "2026-11-14",
+"amazon:10605142": "2026-11-14",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
@@ -66350,6 +66443,7 @@
 "ashby:baseten:8c49e4ee-615d-4ef8-a189-8c9da532e33a": "2026-11-11",
 "ashby:baseten:976f89ef-1065-45a7-8b51-31fecd1ef1e6": "2026-10-22",
 "ashby:baseten:9b71cb02-d82c-421c-b73b-4b783076409e": "2026-11-11",
+"ashby:baseten:bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0": "2026-11-14",
 "ashby:baseten:bbf9fd7c-8666-4487-9a12-1539e08fe4e0": "2026-11-02",
 "ashby:baseten:bed53da9-5d16-482a-94ed-12992dfe0cfe": "2026-11-11",
 "ashby:baseten:c29d0cad-d4e4-4f96-b5f3-57b33150fcab": "2026-11-13",
@@ -66670,6 +66764,7 @@
 "ashby:crusoe:466187be-55d5-4002-9b86-ac371f055b9c": "2026-11-03",
 "ashby:crusoe:48e3acec-a929-49ec-8d9d-6abfc1f9608a": "2026-10-20",
 "ashby:crusoe:4abb136c-f02f-4b1b-a287-e73b59aee9a6": "2026-11-03",
+"ashby:crusoe:4b6b8e36-43de-41bf-b58e-421314007bf0": "2026-11-14",
 "ashby:crusoe:4c5de99e-87e0-4269-acf4-505c5d5b9d2b": "2026-10-28",
 "ashby:crusoe:4e479e29-9ddf-4ef0-822a-105dff0eb1e8": "2026-10-28",
 "ashby:crusoe:4ec11e7d-db8c-42e0-8c17-293e929909e9": "2026-11-11",
@@ -67290,6 +67385,7 @@
 "ashby:happyrobot.ai:effe1dbd-e22d-426a-a142-a3281a4f5d76": "2026-11-02",
 "ashby:harvey:00ef2ebe-aacc-44a6-ad7e-1edc5ea837d1": "2026-10-28",
 "ashby:harvey:044ffdc6-2823-41bf-a71d-679e5b9f601c": "2026-11-11",
+"ashby:harvey:06f19e6b-f817-41ea-9c54-94d865f88428": "2026-11-14",
 "ashby:harvey:09fe3d93-8c13-49a2-b8f8-d53f0edb91f2": "2026-11-13",
 "ashby:harvey:0c5471bf-f296-4eaa-8f8b-700296387157": "2026-11-02",
 "ashby:harvey:0cc0c934-ce13-483b-8a11-99583d7908a1": "2026-11-02",
@@ -67348,6 +67444,7 @@
 "ashby:harvey:6c31b819-c3aa-470b-85ec-3b4c399d2a2f": "2026-11-11",
 "ashby:harvey:6c87b165-99ad-484e-b34b-1cf2ab0c92d5": "2026-10-30",
 "ashby:harvey:710bcb7e-c80d-4f38-99e9-5e9704a54aaf": "2026-10-29",
+"ashby:harvey:73abccb8-edc9-410a-a3b1-7d80d88f1c56": "2026-11-14",
 "ashby:harvey:77716481-e377-4ce7-9d34-01b66eaac161": "2026-10-28",
 "ashby:harvey:7a3b9337-ac67-4255-8db5-08bb3d57541e": "2026-10-29",
 "ashby:harvey:7d5946ab-9b70-4c33-9e0f-cadbf0b892aa": "2026-10-29",
@@ -67379,6 +67476,7 @@
 "ashby:harvey:ab6790b4-11b5-4a1f-8e92-c572eb18a9f0": "2026-11-14",
 "ashby:harvey:abe946d1-9890-413a-b567-6c68e32f7bb4": "2026-10-29",
 "ashby:harvey:ac406ea9-bd7f-4a50-9341-8370ceca3949": "2026-11-07",
+"ashby:harvey:acd2604b-426a-4d2f-bcd3-e57f66f8d470": "2026-11-14",
 "ashby:harvey:ae840d4c-40bb-41a5-9157-435d648482f6": "2026-11-06",
 "ashby:harvey:af541529-f9c6-468c-9b39-9087f9e2c259": "2026-11-10",
 "ashby:harvey:b12b10e2-611c-41d7-96cd-e25edadafe5e": "2026-11-06",
@@ -70896,6 +70994,7 @@
 "eightfold:infineon.com:563808972294505": "2026-11-02",
 "eightfold:infineon.com:563808972303011": "2026-11-03",
 "eightfold:infineon.com:563808972303150": "2026-11-04",
+"eightfold:infineon.com:563808972330859": "2026-11-14",
 "eightfold:infineon.com:563808972331435": "2026-11-06",
 "eightfold:infineon.com:563808972335998": "2026-11-09",
 "eightfold:infineon.com:563808972336358": "2026-11-05",
@@ -71326,6 +71425,7 @@
 "eightfold:microsoft.com:1970393556962135": "2026-10-21",
 "eightfold:microsoft.com:1970393556962204": "2026-11-03",
 "eightfold:microsoft.com:1970393556962217": "2026-10-21",
+"eightfold:microsoft.com:1970393556962236": "2026-11-14",
 "eightfold:microsoft.com:1970393556962244": "2026-10-23",
 "eightfold:microsoft.com:1970393556962252": "2026-10-20",
 "eightfold:microsoft.com:1970393556962259": "2026-11-10",
@@ -72790,6 +72890,7 @@
 "eightfold:microsoft.com:1970393557073015": "2026-11-13",
 "eightfold:microsoft.com:1970393557073016": "2026-11-13",
 "eightfold:microsoft.com:1970393557073212": "2026-11-13",
+"eightfold:microsoft.com:1970393557073246": "2026-11-14",
 "eightfold:microsoft.com:1970393557073410": "2026-11-14",
 "eightfold:microsoft.com:1970393557073416": "2026-11-13",
 "eightfold:microsoft.com:1970393557073455": "2026-11-13",
@@ -72930,6 +73031,7 @@
 "eightfold:paypal.com:274923425792": "2026-11-13",
 "eightfold:qualcomm.com:446704948277": "2026-10-30",
 "eightfold:qualcomm.com:446707518930": "2026-10-27",
+"eightfold:qualcomm.com:446714464766": "2026-11-14",
 "eightfold:qualcomm.com:446715135001": "2026-10-26",
 "eightfold:qualcomm.com:446715539015": "2026-10-26",
 "eightfold:qualcomm.com:446715549558": "2026-10-21",
@@ -72950,16 +73052,21 @@
 "eightfold:qualcomm.com:446718152206": "2026-10-27",
 "eightfold:qualcomm.com:446718349712": "2026-10-27",
 "eightfold:qualcomm.com:446718388725": "2026-10-27",
+"eightfold:qualcomm.com:446718423897": "2026-11-14",
 "eightfold:qualcomm.com:446718461089": "2026-10-21",
 "eightfold:qualcomm.com:446718505618": "2026-11-06",
 "eightfold:qualcomm.com:446718541869": "2026-11-10",
+"eightfold:qualcomm.com:446718593091": "2026-11-14",
 "eightfold:qualcomm.com:446718717739": "2026-10-26",
 "eightfold:qualcomm.com:446718852057": "2026-11-02",
+"eightfold:qualcomm.com:446718893357": "2026-11-14",
 "eightfold:qualcomm.com:446718947641": "2026-11-02",
 "eightfold:qualcomm.com:446719074894": "2026-11-03",
 "eightfold:qualcomm.com:446719120659": "2026-10-30",
 "eightfold:qualcomm.com:446719129022": "2026-10-27",
 "eightfold:qualcomm.com:446719156242": "2026-10-29",
+"eightfold:qualcomm.com:446719161121": "2026-11-14",
+"eightfold:qualcomm.com:446719161124": "2026-11-14",
 "eightfold:qualcomm.com:446719178051": "2026-11-05",
 "eightfold:qualcomm.com:446719193315": "2026-11-04",
 "eightfold:qualcomm.com:446719207734": "2026-10-27",
@@ -72967,6 +73074,7 @@
 "eightfold:qualcomm.com:446719402654": "2026-10-27",
 "eightfold:qualcomm.com:446719402682": "2026-11-04",
 "eightfold:qualcomm.com:446719428904": "2026-10-26",
+"eightfold:qualcomm.com:446719655199": "2026-11-14",
 "eightfold:qualcomm.com:446719655266": "2026-11-06",
 "eightfold:qualcomm.com:446719669239": "2026-11-03",
 "eightfold:qualcomm.com:446719766572": "2026-11-02",
@@ -72984,6 +73092,9 @@
 "eightfold:qualcomm.com:446720267596": "2026-10-22",
 "eightfold:qualcomm.com:446720269361": "2026-10-27",
 "eightfold:qualcomm.com:446720333630": "2026-10-20",
+"eightfold:qualcomm.com:446720342418": "2026-11-14",
+"eightfold:qualcomm.com:446720361953": "2026-11-14",
+"eightfold:qualcomm.com:446720417490": "2026-11-14",
 "eightfold:qualcomm.com:446720476831": "2026-10-20",
 "eightfold:qualcomm.com:446720476834": "2026-11-03",
 "eightfold:qualcomm.com:446720501756": "2026-10-22",
@@ -73224,6 +73335,7 @@
 "greenhouse:31stunion:8181285003": "2026-11-10",
 "greenhouse:31stunion:8195192003": "2026-11-10",
 "greenhouse:31stunion:8197091003": "2026-11-10",
+"greenhouse:31stunion:8197093003": "2026-11-14",
 "greenhouse:31stunion:8201833003": "2026-11-14",
 "greenhouse:accela:8304518": "2026-10-21",
 "greenhouse:accela:8306548": "2026-10-23",
@@ -77034,6 +77146,7 @@
 "greenhouse:lucidmotors:5293910007": "2026-11-12",
 "greenhouse:lucidmotors:5294030007": "2026-11-12",
 "greenhouse:lucidmotors:5295322007": "2026-11-14",
+"greenhouse:lucidmotors:5295346007": "2026-11-14",
 "greenhouse:lyft:8888964002": "2026-10-19",
 "greenhouse:lyft:8888978002": "2026-10-19",
 "greenhouse:lyft:8889185002": "2026-10-19",
@@ -78301,6 +78414,7 @@
 "greenhouse:planetlabs:8345618": "2026-11-05",
 "greenhouse:planetlabs:8346050": "2026-11-06",
 "greenhouse:planetlabs:8349153": "2026-11-03",
+"greenhouse:planetlabs:8353172": "2026-11-14",
 "greenhouse:planetscale:4473491009": "2026-10-29",
 "greenhouse:podium81:8380825": "2026-11-12",
 "greenhouse:project44:8264304": "2026-10-22",
@@ -78504,6 +78618,7 @@
 "greenhouse:purestorage:8356257": "2026-11-05",
 "greenhouse:purestorage:8356594": "2026-11-07",
 "greenhouse:purestorage:8357148": "2026-11-06",
+"greenhouse:purestorage:8357686": "2026-11-14",
 "greenhouse:purestorage:8358469": "2026-11-06",
 "greenhouse:purestorage:8358499": "2026-11-06",
 "greenhouse:purestorage:8358502": "2026-11-06",
@@ -80059,6 +80174,7 @@
 "greenhouse:tanium:8357171": "2026-11-06",
 "greenhouse:tanium:8357200": "2026-11-06",
 "greenhouse:tanium:8359784": "2026-11-06",
+"greenhouse:tanium:8369384": "2026-11-14",
 "greenhouse:tanium:8370065": "2026-11-13",
 "greenhouse:tanium:8375742": "2026-11-11",
 "greenhouse:tenstorrent:4969360007": "2026-11-10",
@@ -82234,6 +82350,8 @@
 "jibe:careers.na.panasonic.com:52870": "2026-11-13",
 "jibe:careers.na.panasonic.com:52935": "2026-11-13",
 "jibe:careers.na.panasonic.com:53007": "2026-11-14",
+"jibe:careers.na.panasonic.com:53008": "2026-11-14",
+"jibe:careers.na.panasonic.com:53009": "2026-11-14",
 "jibe:careers.rivian.com:28244": "2026-11-04",
 "jibe:careers.rivian.com:28654": "2026-11-04",
 "jibe:careers.rivian.com:28666": "2026-10-20",
@@ -84933,6 +85051,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349575": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349582": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349588": "2026-11-03",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349590": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349592": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349593": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349595": "2026-11-04",
@@ -85201,7 +85320,9 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350370": "2026-11-12",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350374": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350406": "2026-11-13",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350416": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350437": "2026-11-13",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350444": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350484": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350485": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350487": "2026-11-13",
@@ -93153,6 +93274,7 @@
 "workday:expedia:R-104524-1": "2026-11-11",
 "workday:expedia:R-104546": "2026-11-10",
 "workday:expedia:R-105582-1": "2026-10-28",
+"workday:expedia:R-105627": "2026-11-14",
 "workday:expedia:R-105869-1": "2026-11-09",
 "workday:expedia:R-106210-1": "2026-11-09",
 "workday:expedia:R-106236": "2026-11-09",
@@ -101479,6 +101601,7 @@
 "workday:roche:202610-127801-1": "2026-11-05",
 "workday:roche:202610-127805-1": "2026-10-29",
 "workday:roche:202610-127811-1": "2026-11-06",
+"workday:roche:202610-127885-1": "2026-11-14",
 "workday:roche:202610-127891-1": "2026-10-29",
 "workday:roche:202610-127907-1": "2026-11-02",
 "workday:roche:202610-127908-1": "2026-11-02",
@@ -108740,6 +108863,7 @@
 "baseten|product manager training platform": "2026-11-11",
 "baseten|product platform product engineer": "2026-10-22",
 "baseten|software engineer billing internal tooling": "2026-10-22",
+"baseten|software engineer cloud platform": "2026-11-14",
 "baseten|software engineer compute and isolation": "2026-10-27",
 "baseten|software engineer networking agent infra": "2026-10-27",
 "baseten|software engineer storage systems agent infra": "2026-10-27",
@@ -110302,6 +110426,8 @@
 "qualcomm|computer vision software engineer": "2026-10-20",
 "qualcomm|cpu performance analysis engineer": "2026-10-26",
 "qualcomm|cpu performance analysis engineer multiple locations san diego santa clara austin": "2026-11-02",
+"qualcomm|cpu performance modeling engineer multiple levels": "2026-11-14",
+"qualcomm|cpu performance research engineer": "2026-11-14",
 "qualcomm|cpu server physical design engineer": "2026-10-29",
 "qualcomm|design engineer low power": "2026-11-03",
 "qualcomm|digital hardware engineer": "2026-10-20",
@@ -110330,6 +110456,7 @@
 "qualcomm|rtl core processor microarchitecture engineer": "2026-10-22",
 "qualcomm|soc design verification engineer": "2026-10-27",
 "qualcomm|soc design verification engineer asics engineering": "2026-10-27",
+"qualcomm|soc modeling engineer": "2026-11-14",
 "qualcomm|soc power design engineer": "2026-10-21",
 "qualcomm|soc power validation engineer": "2026-11-09",
 "qualcomm|software engineer camera": "2026-10-20",
@@ -110981,9 +111108,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 20,
+"calls": 33,
 "date": "2026-11-14",
-"usd": 0.002741
+"usd": 0.004588
 },
 "years": {
 "amazon:10583340": [
