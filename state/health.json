@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-14T08:01:06+00:00",
+ "run_at": "2026-11-14T08:30:58+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -58,7 +58,7 @@
   },
   "Accenture": {
    "type": "workday",
-   "jobs": 81,
+   "jobs": 79,
    "error": null
   },
   "Accord": {
@@ -74,7 +74,7 @@
   "Activision Blizzard": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Adaptive": {
    "type": "ashby",
@@ -219,7 +219,7 @@
   "Analog Devices": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Anchorage Digital": {
    "type": "lever",
@@ -609,7 +609,7 @@
   "Broadcom": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Bugcrowd": {
    "type": "greenhouse",
@@ -634,7 +634,7 @@
   "Cadence Design Systems": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Calm": {
    "type": "greenhouse",
@@ -1388,8 +1388,8 @@
   },
   "Genentech": {
    "type": "workday",
-   "jobs": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "jobs": 30,
+   "error": null
   },
   "General Proximity": {
    "type": "greenhouse",
@@ -1664,7 +1664,7 @@
   "Illumina": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Illumio": {
    "type": "ashby",
@@ -1754,7 +1754,7 @@
   "Intel": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Intro": {
    "type": "ashby",
@@ -1824,7 +1824,7 @@
   "KLA": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Kaizen Labs": {
    "type": "ashby",
@@ -2084,7 +2084,7 @@
   "Marvell": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Mashgin": {
    "type": "lever",
@@ -2099,7 +2099,7 @@
   "Mastercard": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "MatX": {
    "type": "ashby",
@@ -2129,7 +2129,7 @@
   "Medtronic": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Mercor": {
    "type": "ashby",
@@ -2169,7 +2169,7 @@
   "Micron": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Microsoft": {
    "type": "eightfold",
@@ -2298,8 +2298,8 @@
   },
   "NTT DATA": {
    "type": "workday",
-   "jobs": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "jobs": 61,
+   "error": null
   },
   "NVIDIA": {
    "type": "workday",
@@ -2809,7 +2809,7 @@
   "Priceline": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Prime Intellect": {
    "type": "ashby",
@@ -3264,7 +3264,7 @@
   "SiFive": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Sieve": {
    "type": "ashby",
@@ -3288,7 +3288,7 @@
   },
   "SimplifyJobs (new grad list)": {
    "type": "simplify",
-   "jobs": 3213,
+   "jobs": 3227,
    "error": null
   },
   "SimplyInsured": {
@@ -3544,7 +3544,7 @@
   "T-Mobile": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "TENEX.AI": {
    "type": "ashby",
@@ -3929,7 +3929,7 @@
   "Wells Fargo": {
    "type": "workday",
    "jobs": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Wingspan": {
    "type": "greenhouse",
