@@ -6170,6 +6170,16 @@
 },
 "2026-11-06"
 ],
+"ashby:openai:73875295-889e-4373-b20f-654e85c66ba4|v3|73908d": [
+{
+"chance": 2,
+"level": "senior",
+"min_years": 5,
+"note": "Requires a PhD or equivalent research experience.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "ashby:openai:783704d7-5afa-45aa-899b-1d6799f73004|v3|73908d": [
 {
 "chance": 7,
@@ -62019,7 +62029,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 149
 },
 "Brain Co": {
 "alerted": false,
@@ -62960,13 +62970,13 @@
 "HP": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 41,
+"streak": 42,
 "typical": 107
 },
 "HPE / Juniper Networks": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 41,
+"streak": 42,
 "typical": 177
 },
 "HUD": {
@@ -63207,7 +63217,7 @@
 "Intel": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 36,
+"streak": 37,
 "typical": 113
 },
 "Intro": {
@@ -63551,10 +63561,9 @@
 "typical": 5
 },
 "Mastercard": {
-"alerted": true,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 36,
-"typical": 60
+"alerted": false,
+"streak": 0,
+"typical": 42
 },
 "MatX": {
 "alerted": false,
@@ -63624,13 +63633,13 @@
 "Micron": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 36,
+"streak": 37,
 "typical": 276
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 270
+"typical": 250
 },
 "Middesk": {
 "alerted": false,
@@ -63760,7 +63769,7 @@
 "NVIDIA": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 43,
+"streak": 44,
 "typical": 124
 },
 "NXP Semiconductors": {
@@ -63937,7 +63946,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 73,
+"streak": 74,
 "typical": 1
 },
 "Oklo": {
@@ -63983,7 +63992,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 838
+"typical": 839
 },
 "OpenEvidence": {
 "alerted": false,
@@ -64723,7 +64732,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 41,
+"streak": 42,
 "typical": 39
 },
 "Short Story": {
@@ -65014,7 +65023,7 @@
 "T-Mobile": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 36,
+"streak": 37,
 "typical": 300
 },
 "TENEX.AI": {
@@ -65200,7 +65209,7 @@
 "Twist Bioscience": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 47
 },
 "TypeSafe": {
 "alerted": false,
@@ -65315,7 +65324,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 347
+"typical": 346
 },
 "Verse Medical": {
 "alerted": false,
@@ -65400,7 +65409,7 @@
 "Wells Fargo": {
 "alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 36,
+"streak": 37,
 "typical": 300
 },
 "Wingspan": {
@@ -68444,6 +68453,7 @@
 "ashby:openai:6ff654e4-fd45-4cac-a76f-30249e14292c": "2026-10-19",
 "ashby:openai:70eba6e4-73e0-4cf9-a0d5-e49caeca9d7b": "2026-11-13",
 "ashby:openai:72aea491-406c-4a6f-abb4-66115f45d37c": "2026-10-27",
+"ashby:openai:73875295-889e-4373-b20f-654e85c66ba4": "2026-11-14",
 "ashby:openai:73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04",
 "ashby:openai:744844e1-f426-463c-b615-91823f0cd867": "2026-10-22",
 "ashby:openai:7472e486-0aa6-4f9d-86da-2105a42b2dce": "2026-10-26",
@@ -111310,9 +111320,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 50,
+"calls": 51,
 "date": "2026-11-14",
-"usd": 0.006895
+"usd": 0.007151
 },
 "years": {
 "amazon:10583340": [
