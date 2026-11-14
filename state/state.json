@@ -5760,6 +5760,26 @@
 },
 "2026-11-02"
 ],
+"ashby:mirage:d9805fdf-950e-45ec-b9be-be18f1cb6b5e|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-14"
+],
+"ashby:mirage:e1da4a65-5b18-4a9b-873e-5b261a350104|v3|73908d": [
+{
+"chance": 2,
+"level": "senior",
+"min_years": 5,
+"note": "Requires extensive experience in rendering and architecture.",
+"us_ok": true
+},
+"2026-11-14"
+],
 "ashby:mirendil:71d2f78b-e690-4743-b416-763bca14cb4f|v3|73908d": [
 {
 "chance": 2,
@@ -63102,7 +63122,7 @@
 "Harvey": {
 "alerted": false,
 "streak": 0,
-"typical": 387
+"typical": 388
 },
 "Headlands Technologies": {
 "alerted": false,
@@ -63462,7 +63482,7 @@
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 20
 },
 "Laminar": {
 "alerted": false,
@@ -64023,7 +64043,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 83,
+"streak": 84,
 "typical": 1
 },
 "Oklo": {
@@ -64724,7 +64744,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 317
+"typical": 318
 },
 "Samsung Research America": {
 "alerted": false,
@@ -64809,7 +64829,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 51,
+"streak": 52,
 "typical": 39
 },
 "Short Story": {
@@ -64845,7 +64865,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3245
+"typical": 3243
 },
 "SimplyInsured": {
 "alerted": false,
@@ -67673,6 +67693,7 @@
 "ashby:harvey:b21e4fa4-824e-4664-9e9f-ba0204f83a58": "2026-10-28",
 "ashby:harvey:b8a48279-6b24-45c2-b101-3ae322ba5fb5": "2026-10-28",
 "ashby:harvey:b8e8a8a6-9609-4095-af49-ba7dcf82dbe1": "2026-11-11",
+"ashby:harvey:ba8a6b0a-f791-4d06-8f1a-b960825cd7f8": "2026-11-14",
 "ashby:harvey:bbf25f2b-0652-4a14-aab2-5205aba53d30": "2026-10-28",
 "ashby:harvey:bc94becd-102e-49a1-abdc-5ce42076a68d": "2026-10-28",
 "ashby:harvey:c0823904-f401-4cba-9611-71fd8d0d803e": "2026-10-29",
@@ -68159,13 +68180,17 @@
 "ashby:mirage:312108e7-559d-4e25-909c-df039d765d20": "2026-10-30",
 "ashby:mirage:466c3648-fc4e-427d-a66f-ab67576fad69": "2026-11-09",
 "ashby:mirage:5aaca9b1-a8ae-4bb4-90fb-ed620d834fc2": "2026-11-09",
+"ashby:mirage:5de29162-c5ca-41ad-b8fa-e4bfa8a2b145": "2026-11-14",
 "ashby:mirage:6977709e-5ab8-4d99-8e7d-0edb3ac7b904": "2026-10-28",
 "ashby:mirage:794a57cc-daf6-4636-b295-81e892418414": "2026-11-09",
 "ashby:mirage:881f87a7-fbca-43ca-adee-cd87d838dc52": "2026-11-02",
 "ashby:mirage:88dfbd59-7a47-45c2-b1a1-57b909917e3e": "2026-11-06",
+"ashby:mirage:894f89d9-8687-462f-8040-9ac535214885": "2026-11-14",
 "ashby:mirage:9e5835a2-5a70-4919-9a92-c7dc1b74163f": "2026-11-02",
 "ashby:mirage:d6032f7a-1f0f-4e6d-ba00-3d86c18933f4": "2026-11-02",
 "ashby:mirage:d8528add-5d9f-4cac-9b0a-caf7c99d48ca": "2026-10-30",
+"ashby:mirage:e1da4a65-5b18-4a9b-873e-5b261a350104": "2026-11-14",
+"ashby:mirage:e3ea3be5-779b-4488-813b-7debc6996c45": "2026-11-14",
 "ashby:mirage:e812e12d-465b-4dfa-90b1-085ac29ab848": "2026-11-09",
 "ashby:mirage:f15795b7-58c7-4855-a6d1-911c9928ed3d": "2026-11-04",
 "ashby:mirendil:1aead0d4-8ac0-4cc5-baec-fece0c7382dd": "2026-11-05",
@@ -111427,9 +111452,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 61,
+"calls": 63,
 "date": "2026-11-14",
-"usd": 0.008501
+"usd": 0.009021
 },
 "years": {
 "amazon:10583340": [
