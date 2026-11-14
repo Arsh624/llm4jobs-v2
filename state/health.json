@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-14T03:01:10+00:00",
+ "run_at": "2026-11-14T03:31:05+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -213,7 +213,7 @@
   },
   "Amplitude": {
    "type": "ashby",
-   "jobs": 49,
+   "jobs": 48,
    "error": null
   },
   "Analog Devices": {
@@ -1388,7 +1388,7 @@
   },
   "Genentech": {
    "type": "workday",
-   "jobs": 39,
+   "jobs": 40,
    "error": null
   },
   "General Proximity": {
@@ -2553,8 +2553,8 @@
   },
   "Oracle": {
    "type": "oracle_hcm",
-   "jobs": 150,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   "Orb": {
    "type": "ashby",
@@ -3288,7 +3288,7 @@
   },
   "SimplifyJobs (new grad list)": {
    "type": "simplify",
-   "jobs": 3236,
+   "jobs": 3233,
    "error": null
   },
   "SimplyInsured": {
