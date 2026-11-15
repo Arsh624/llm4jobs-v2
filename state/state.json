@@ -62623,7 +62623,8 @@
 },
 "Dell Technologies": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 503: Service Unavailable",
+"streak": 1,
 "typical": 50
 },
 "Descript": {
@@ -63715,7 +63716,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 13
 },
 "Mashgin": {
 "alerted": false,
@@ -63935,7 +63936,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 94
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -64111,7 +64112,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 109,
+"streak": 110,
 "typical": 1
 },
 "Oklo": {
@@ -64897,7 +64898,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 77,
+"streak": 78,
 "typical": 39
 },
 "Short Story": {
@@ -96444,6 +96445,7 @@
 "workday:marvell:2604521": "2026-10-21",
 "workday:marvell:2604524": "2026-11-10",
 "workday:marvell:2604525": "2026-11-13",
+"workday:marvell:2604557": "2026-11-15",
 "workday:marvell:2604617": "2026-10-21",
 "workday:marvell:2604622": "2026-10-20",
 "workday:marvell:2604625": "2026-10-21",
