@@ -3590,6 +3590,16 @@
 },
 "2026-11-13"
 ],
+"amazon:10604667|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-15"
+],
 "amazon:10604684|v3|73908d": [
 {
 "chance": 2,
@@ -18144,6 +18154,13 @@
 "senior": true
 },
 "2026-11-12"
+],
+"rescue:ashby:Deepgram:39c2b79b-0269-4711-9354-be5ccf747a98": [
+{
+"note": "Research roles typically require advanced experience.",
+"senior": true
+},
+"2026-11-15"
 ],
 "rescue:ashby:Deepgram:f10e79df-a1d4-489a-b173-9e52af12abb2": [
 {
@@ -59756,6 +59773,16 @@
 },
 "2026-11-07"
 ],
+"workday:nvidia:JR2026129-1|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": null,
+"note": "Targets new grads and offers relevant AI experience",
+"us_ok": true
+},
+"2026-11-15"
+],
 "workday:nvidia:JR2026207|v3|73908d": [
 {
 "chance": 3,
@@ -63147,7 +63174,7 @@
 "Hercules": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 31
 },
 "Heron": {
 "alerted": false,
@@ -63867,7 +63894,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 105
+"typical": 106
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -64043,7 +64070,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 89,
+"streak": 90,
 "typical": 1
 },
 "Oklo": {
@@ -64829,7 +64856,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 57,
+"streak": 58,
 "typical": 39
 },
 "Short Story": {
@@ -64865,7 +64892,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3239
+"typical": 3242
 },
 "SimplyInsured": {
 "alerted": false,
@@ -66225,6 +66252,7 @@
 "amazon:10604523": "2026-11-13",
 "amazon:10604591": "2026-11-13",
 "amazon:10604643": "2026-11-13",
+"amazon:10604667": "2026-11-15",
 "amazon:10604684": "2026-11-13",
 "amazon:10604744": "2026-11-13",
 "amazon:10604746": "2026-11-13",
@@ -66278,6 +66306,7 @@
 "ashby:Commure:44cff0aa-b953-458e-a978-b3356ee6cd99": "2026-11-12",
 "ashby:Commure:8134d3bd-9fcc-452a-96ed-4890a2de2e65": "2026-11-13",
 "ashby:Deepgram:1395ef4d-883a-4006-85a1-4e7d44623431": "2026-11-13",
+"ashby:Deepgram:39c2b79b-0269-4711-9354-be5ccf747a98": "2026-11-15",
 "ashby:Deepgram:844ec2d9-4256-4be0-a6c6-78ebf1391a78": "2026-11-13",
 "ashby:Deepgram:c4477ce6-29db-45e8-b2cd-01ff2292b4a8": "2026-11-12",
 "ashby:Deepgram:f10e79df-a1d4-489a-b173-9e52af12abb2": "2026-11-12",
@@ -67756,6 +67785,7 @@
 "ashby:hercules:7b659e14-4a74-4049-83e9-d01fba141e52": "2026-10-30",
 "ashby:hercules:a9f563e8-bcee-4a69-a372-ce90e4acb5bf": "2026-10-28",
 "ashby:hercules:e4fff8a5-ccdc-4cb8-8bb7-fb3a11a70594": "2026-10-30",
+"ashby:hercules:ea98c3e0-f12e-4017-9666-ac9b2ef14df4": "2026-11-15",
 "ashby:heron-power:040efc5a-4c3e-4867-8074-f4ad8afa0569": "2026-11-03",
 "ashby:heron-power:2104131e-3ba5-44f9-91e9-8c44a3d7179e": "2026-11-06",
 "ashby:heron-power:2c208bd9-3da3-4d5f-bded-57162b521ba6": "2026-11-13",
@@ -87655,6 +87685,7 @@
 "simplify:a0c17b00-9652-4dff-9a53-aca766a04cf8": "2026-10-26",
 "simplify:a10a11b6-dfda-4529-8ca8-ec9f8cd50756": "2026-11-03",
 "simplify:a10d7210-cc5a-4223-850b-55491ec158f7": "2026-11-11",
+"simplify:a22868ef-6ae9-413e-99ac-941f4624bdcf": "2026-11-15",
 "simplify:a22ea6eb-2a79-4f51-b698-f5726fefdb3d": "2026-11-10",
 "simplify:a258eec4-7137-4d4b-b446-f390e0c33826": "2026-10-29",
 "simplify:a25df86a-6734-4a15-ad57-eb4e6f3692a3": "2026-10-29",
@@ -100748,6 +100779,7 @@
 "workday:nvidia:JR2026052": "2026-10-23",
 "workday:nvidia:JR2026055": "2026-10-22",
 "workday:nvidia:JR2026094": "2026-10-19",
+"workday:nvidia:JR2026129-1": "2026-11-15",
 "workday:nvidia:JR2026131": "2026-10-25",
 "workday:nvidia:JR2026132": "2026-10-25",
 "workday:nvidia:JR2026141": "2026-10-31",
@@ -108670,6 +108702,7 @@
 "amazon|software dev engineer ii aws quicksight": "2026-10-26",
 "amazon|software dev engineer ii checkout platform": "2026-11-03",
 "amazon|software dev engineer ii dc bridge": "2026-10-30",
+"amazon|software dev engineer ii ecr private": "2026-11-15",
 "amazon|software dev engineer ii escape": "2026-11-13",
 "amazon|software dev engineer ii genaiux": "2026-10-22",
 "amazon|software dev engineer ii leo autopilot": "2026-11-03",
@@ -110506,6 +110539,7 @@
 "nvidia|cell modeling and verification engineer new college grad 2026": "2026-10-30",
 "nvidia|compiler verification engineer compute performance gpu": "2026-11-02",
 "nvidia|deep learning compiler verification engineer": "2026-10-31",
+"nvidia|deep learning framework communications engineer new college grad 2026": "2026-11-15",
 "nvidia|deep learning performance architect new grad": "2026-10-27",
 "nvidia|document analyst": "2026-10-31",
 "nvidia|field applications engineer embedded systems nala": "2026-11-02",
@@ -111461,9 +111495,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 0,
+"calls": 3,
 "date": "2026-11-15",
-"usd": 0.0
+"usd": 0.000468
 },
 "years": {
 "amazon:10583340": [
