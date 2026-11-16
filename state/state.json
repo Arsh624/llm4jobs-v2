@@ -6740,6 +6740,16 @@
 },
 "2026-11-12"
 ],
+"ashby:pointone:ead81d8b-5d51-4d1e-bfe5-63165ad2870d|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years in a customer-facing role.",
+"us_ok": true
+},
+"2026-11-16"
+],
 "ashby:posthog:b0362f5c-ce12-42cd-9e8d-f2d3085b00a0|v3|73908d": [
 {
 "chance": 7,
@@ -62039,12 +62049,12 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2595
+"typical": 2594
 },
 "AngelList": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 37
 },
 "Anomali": {
 "alerted": false,
@@ -62744,7 +62754,7 @@
 "Cursor": {
 "alerted": false,
 "streak": 0,
-"typical": 98
+"typical": 97
 },
 "DELFI Diagnostics": {
 "alerted": false,
@@ -63325,7 +63335,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 126
 },
 "HUD": {
 "alerted": false,
@@ -63895,7 +63905,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 17
 },
 "Mashgin": {
 "alerted": false,
@@ -63980,7 +63990,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 192
 },
 "Microsoft": {
 "alerted": false,
@@ -64110,12 +64120,12 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 37
+"typical": 38
 },
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 118
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -64291,7 +64301,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 148,
+"streak": 149,
 "typical": 1
 },
 "Oklo": {
@@ -64592,7 +64602,7 @@
 "PointOne": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 15
 },
 "Popl": {
 "alerted": false,
@@ -64977,7 +64987,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 159
+"typical": 158
 },
 "Salient": {
 "alerted": false,
@@ -65057,7 +65067,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 481
+"typical": 477
 },
 "Sesame": {
 "alerted": false,
@@ -65077,7 +65087,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 116,
+"streak": 117,
 "typical": 39
 },
 "Short Story": {
@@ -65853,7 +65863,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 377
+"typical": 378
 },
 "Zuora": {
 "alerted": false,
@@ -69239,6 +69249,7 @@
 "ashby:pointone:bb42f37c-8a7c-434d-aae8-089820a7171d": "2026-11-12",
 "ashby:pointone:d9fce9c8-016f-4b9f-b930-08f52a9c9104": "2026-11-12",
 "ashby:pointone:e57df388-58d1-41b5-b388-6b4ad41a6c57": "2026-11-12",
+"ashby:pointone:ead81d8b-5d51-4d1e-bfe5-63165ad2870d": "2026-11-16",
 "ashby:poshmark:1e779262-dc7d-423f-9aae-a31ab923167c": "2026-11-05",
 "ashby:poshmark:3e602276-4dd2-4511-9dcf-601c6d009f42": "2026-11-12",
 "ashby:poshmark:5b13d4ca-3dfe-42a3-9e9e-fbd3283e16a3": "2026-11-06",
@@ -87052,6 +87063,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304788": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304790": "2026-11-13",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304884": "2026-11-13",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304924": "2026-11-16",
 "phenom:YELPUS:14082": "2026-10-29",
 "phenom:YELPUS:14083": "2026-10-29",
 "phenom:YELPUS:14084": "2026-10-29",
@@ -95641,6 +95653,7 @@
 "workday:hpe:1218761-3": "2026-11-12",
 "workday:hpe:1218794-1": "2026-11-12",
 "workday:hpe:1218829-1": "2026-11-06",
+"workday:hpe:1218974-2": "2026-11-16",
 "workday:hpe:1218994-1": "2026-11-13",
 "workday:hpe:1219014-2": "2026-11-12",
 "workday:hpe:1219016-2": "2026-11-12",
@@ -96691,6 +96704,7 @@
 "workday:lumentum:2026844": "2026-10-30",
 "workday:lumentum:2026886": "2026-10-29",
 "workday:lumentum:2026977": "2026-10-29",
+"workday:marvell:2600665": "2026-11-16",
 "workday:marvell:2601179": "2026-11-10",
 "workday:marvell:2601285": "2026-10-20",
 "workday:marvell:2601406": "2026-11-03",
@@ -96747,6 +96761,9 @@
 "workday:marvell:2604762-1": "2026-10-27",
 "workday:marvell:2604789": "2026-11-13",
 "workday:marvell:2604812-1": "2026-11-05",
+"workday:marvell:2604818": "2026-11-16",
+"workday:marvell:2604819": "2026-11-16",
+"workday:marvell:2604820": "2026-11-16",
 "workday:marvell:2604824": "2026-11-04",
 "workday:marvell:2604838": "2026-11-02",
 "workday:marvell:2604843-1": "2026-10-22",
@@ -99652,6 +99669,7 @@
 "workday:micron:JR117083": "2026-11-10",
 "workday:micron:JR117086": "2026-11-05",
 "workday:micron:JR117095": "2026-11-05",
+"workday:micron:JR117099": "2026-11-16",
 "workday:micron:JR117101": "2026-11-05",
 "workday:micron:JR117102": "2026-11-05",
 "workday:micron:JR117107-1": "2026-11-05",
@@ -99743,6 +99761,7 @@
 "workday:micron:JR117708": "2026-11-13",
 "workday:micron:JR117733": "2026-11-13",
 "workday:micron:JR117757": "2026-11-13",
+"workday:micron:JR117850": "2026-11-16",
 "workday:micron:JR57804": "2026-11-05",
 "workday:micron:JR72632": "2026-10-23",
 "workday:micron:JR75038-1": "2026-10-23",
@@ -100092,6 +100111,7 @@
 "workday:nttlimited:R-152625": "2026-11-12",
 "workday:nttlimited:R-152641": "2026-11-13",
 "workday:nttlimited:R-152660": "2026-11-12",
+"workday:nttlimited:R-152663": "2026-11-16",
 "workday:nttlimited:R-152705-1": "2026-11-13",
 "workday:nttlimited:R-152706-1": "2026-11-13",
 "workday:nttlimited:R-152707": "2026-11-13",
@@ -111157,6 +111177,7 @@
 "pointone|forward deployed engineer": "2026-11-12",
 "pointone|product engineer": "2026-11-12",
 "pointone|software engineer": "2026-11-12",
+"pointone|solutions engineer": "2026-11-16",
 "polished snow|research engineer inference": "2026-11-04",
 "popstroke holdings llc|business analyst": "2026-10-20",
 "posthog|strategic finance analyst": "2026-11-12",
@@ -111906,9 +111927,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 15,
+"calls": 16,
 "date": "2026-11-16",
-"usd": 0.001578
+"usd": 0.001849
 },
 "years": {
 "amazon:10583340": [
