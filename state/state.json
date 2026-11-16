@@ -45039,6 +45039,13 @@
 },
 "2026-11-11"
 ],
+"rescue:workday:marvell:2605362": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:mastercard:R-272566-1": [
 {
 "note": "Lead roles typically require significant experience.",
@@ -63399,7 +63406,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 51
+"typical": 52
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -63944,7 +63951,7 @@
 "Lumentum": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 12
 },
 "Luminai": {
 "alerted": false,
@@ -63974,7 +63981,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 18
 },
 "Mashgin": {
 "alerted": false,
@@ -64189,7 +64196,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 43
+"typical": 44
 },
 "NVIDIA": {
 "alerted": false,
@@ -64370,7 +64377,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 156,
+"streak": 157,
 "typical": 1
 },
 "Oklo": {
@@ -64381,7 +64388,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 361
+"typical": 362
 },
 "Olly": {
 "alerted": false,
@@ -64881,7 +64888,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 12
 },
 "Reddit": {
 "alerted": false,
@@ -65056,7 +65063,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 161
+"typical": 162
 },
 "Salient": {
 "alerted": false,
@@ -65156,7 +65163,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 124,
+"streak": 125,
 "typical": 39
 },
 "Short Story": {
@@ -65832,7 +65839,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 278
+"typical": 277
 },
 "Wingspan": {
 "alerted": false,
@@ -78290,6 +78297,7 @@
 "greenhouse:okta:8351304": "2026-11-04",
 "greenhouse:okta:8351434": "2026-11-04",
 "greenhouse:okta:8351641": "2026-11-04",
+"greenhouse:okta:8352082": "2026-11-16",
 "greenhouse:okta:8353207": "2026-11-09",
 "greenhouse:okta:8354795": "2026-11-13",
 "greenhouse:okta:8354829": "2026-11-16",
@@ -86219,6 +86227,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:299743": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:299744": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:299745": "2026-11-03",
+"oracle_hcm:enterpriseplatform.dell.com:299747": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:299748": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:299749": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:299751": "2026-11-04",
@@ -86509,6 +86518,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:R270615": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:R270616": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:R271283": "2026-11-11",
+"oracle_hcm:enterpriseplatform.dell.com:R277767": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:R277838": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:R281447": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:R282448": "2026-11-04",
@@ -94441,6 +94451,7 @@
 "workday:hp:3168153-1": "2026-11-04",
 "workday:hp:3168159-1": "2026-10-22",
 "workday:hp:3168167-1": "2026-10-21",
+"workday:hp:3168174-1": "2026-11-16",
 "workday:hp:3168182": "2026-10-20",
 "workday:hp:3168189-1": "2026-11-11",
 "workday:hp:3168275-1": "2026-11-04",
@@ -96741,6 +96752,7 @@
 "workday:lumentum:20261114": "2026-11-04",
 "workday:lumentum:20261117": "2026-10-29",
 "workday:lumentum:20261145": "2026-11-10",
+"workday:lumentum:20261217": "2026-11-16",
 "workday:lumentum:20261219": "2026-11-11",
 "workday:lumentum:20261220": "2026-10-29",
 "workday:lumentum:20261235": "2026-11-10",
@@ -96980,6 +96992,7 @@
 "workday:marvell:2605312": "2026-11-11",
 "workday:marvell:2605314": "2026-11-12",
 "workday:marvell:2605332": "2026-11-15",
+"workday:marvell:2605362": "2026-11-16",
 "workday:mastercard:R-269034": "2026-10-30",
 "workday:mastercard:R-272566-1": "2026-11-10",
 "workday:mastercard:R-275179-1": "2026-11-12",
@@ -100185,6 +100198,7 @@
 "workday:nttlimited:R-151405-1": "2026-11-12",
 "workday:nttlimited:R-151422": "2026-11-12",
 "workday:nttlimited:R-151454": "2026-11-12",
+"workday:nttlimited:R-151455": "2026-11-16",
 "workday:nttlimited:R-151472-1": "2026-11-12",
 "workday:nttlimited:R-151503-1": "2026-11-12",
 "workday:nttlimited:R-151549": "2026-11-12",
@@ -104297,6 +104311,7 @@
 "workday:salesforce:JR368365": "2026-11-13",
 "workday:salesforce:JR368394": "2026-11-13",
 "workday:salesforce:JR368441": "2026-11-15",
+"workday:salesforce:JR368459": "2026-11-16",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
 "workday:tmobile:REQ349332": "2026-10-27",
@@ -112071,9 +112086,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 25,
+"calls": 26,
 "date": "2026-11-16",
-"usd": 0.002766
+"usd": 0.002836
 },
 "years": {
 "amazon:10583340": [
