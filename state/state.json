@@ -14980,6 +14980,16 @@
 },
 "2026-11-13"
 ],
+"greenhouse:xai:5295932007|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 1,
+"note": "Requires 1+ years of systems programming experience.",
+"us_ok": true
+},
+"2026-11-16"
+],
 "greenhouse:zoominfo:8893345002|v3|73908d": [
 {
 "chance": 4,
@@ -47469,6 +47479,13 @@
 },
 "2026-11-12"
 ],
+"rescue:workday:micron:JR117594": [
+{
+"note": "Requires extensive SAP experience and expertise.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:micron:JR117683": [
 {
 "note": "Requires full P&L ownership experience.",
@@ -62609,7 +62626,7 @@
 "ClickHouse": {
 "alerted": false,
 "streak": 0,
-"typical": 205
+"typical": 206
 },
 "ClickUp": {
 "alerted": false,
@@ -63069,7 +63086,7 @@
 "Fastly": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 52
 },
 "Field AI": {
 "alerted": false,
@@ -63330,7 +63347,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 51
+"typical": 52
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -63990,7 +64007,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 192
+"typical": 193
 },
 "Microsoft": {
 "alerted": false,
@@ -64301,7 +64318,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 149,
+"streak": 150,
 "typical": 1
 },
 "Oklo": {
@@ -64737,7 +64754,7 @@
 "QuinStreet": {
 "alerted": false,
 "streak": 0,
-"typical": 32
+"typical": 31
 },
 "Quindar": {
 "alerted": false,
@@ -64952,7 +64969,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 184
+"typical": 183
 },
 "Runpod": {
 "alerted": false,
@@ -64987,7 +65004,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 158
+"typical": 160
 },
 "Salient": {
 "alerted": false,
@@ -65072,7 +65089,7 @@
 "Sesame": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 16
 },
 "Setpoint": {
 "alerted": false,
@@ -65087,7 +65104,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 117,
+"streak": 118,
 "typical": 39
 },
 "Short Story": {
@@ -65238,7 +65255,7 @@
 "Speak": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 30
 },
 "Spellbrush": {
 "alerted": false,
@@ -65388,7 +65405,7 @@
 "TRM Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 118
+"typical": 119
 },
 "Tagup": {
 "alerted": false,
@@ -65923,7 +65940,7 @@
 "xAI": {
 "alerted": false,
 "streak": 0,
-"typical": 296
+"typical": 297
 }
 },
 "seen": {
@@ -67066,6 +67083,7 @@
 "ashby:clickhouse:512881ed-777f-4696-bcf9-cda2269aee70": "2026-10-22",
 "ashby:clickhouse:51e77613-18b6-4f36-bc28-a7740198ca44": "2026-11-12",
 "ashby:clickhouse:558c0c16-5fde-407a-966b-7a2255d3531b": "2026-10-21",
+"ashby:clickhouse:56992f29-17a5-4150-b50b-7a72206c2af6": "2026-11-16",
 "ashby:clickhouse:57189dc4-51f7-4a93-884d-5fd81bfd25d4": "2026-11-10",
 "ashby:clickhouse:5822f2c8-a00c-4499-b595-85e8796db3cd": "2026-10-27",
 "ashby:clickhouse:66b11644-d1d7-4cbb-9351-194b81ad34aa": "2026-10-19",
@@ -70076,6 +70094,7 @@
 "ashby:socket:de959cdb-2441-4ce9-a31a-4cc4e50fb8fe": "2026-10-30",
 "ashby:socket:e3bf5aee-0ca3-423c-bee0-4e431c4f98bc": "2026-11-12",
 "ashby:socket:f2acca9e-3d32-486f-9111-0051f9ce0553": "2026-10-28",
+"ashby:speak:5de54ac4-6948-4be1-a1a1-9c374a625a76": "2026-11-16",
 "ashby:speak:acd2ee6d-7b7b-48b9-a01e-33e0fc59637e": "2026-11-13",
 "ashby:sphere:4ef02061-2c0a-470b-a0af-6085358d6c61": "2026-10-30",
 "ashby:sphere:764fbb87-b987-4007-8af8-bb34199c6f46": "2026-11-02",
@@ -70423,6 +70442,7 @@
 "ashby:trm-labs:223d83e0-50d4-4d96-b9d9-dd0dbf4cc3b0": "2026-11-13",
 "ashby:trm-labs:3f9cf9cd-5a7d-43e6-acd6-f688775204ea": "2026-11-12",
 "ashby:trm-labs:45d1bb73-86bf-4018-9f55-fd6752f47625": "2026-11-12",
+"ashby:trm-labs:695bb715-230d-4394-aacd-b717d2973f12": "2026-11-16",
 "ashby:trm-labs:818b6fe1-f924-4530-b52c-6a84f0215449": "2026-11-12",
 "ashby:trm-labs:a0a01b27-d165-4366-9fa1-df5610c9a9f9": "2026-11-13",
 "ashby:trm-labs:aa556714-ddd0-4d78-b420-9612962ff7bf": "2026-11-13",
@@ -81345,6 +81365,7 @@
 "greenhouse:xai:5293897007": "2026-11-12",
 "greenhouse:xai:5294031007": "2026-11-13",
 "greenhouse:xai:5294116007": "2026-11-13",
+"greenhouse:xai:5295932007": "2026-11-16",
 "greenhouse:zoominfo:8687545002": "2026-10-29",
 "greenhouse:zoominfo:8786496002": "2026-10-29",
 "greenhouse:zoominfo:8876070002": "2026-10-29",
@@ -94727,6 +94748,7 @@
 "workday:hp:3170818-1": "2026-11-13",
 "workday:hp:3170853-1": "2026-11-10",
 "workday:hp:3170866-1": "2026-11-11",
+"workday:hp:3170874-1": "2026-11-16",
 "workday:hp:3170894-1": "2026-11-13",
 "workday:hp:3170929-1": "2026-11-13",
 "workday:hp:3170945": "2026-11-10",
@@ -99737,6 +99759,7 @@
 "workday:micron:JR117589": "2026-11-11",
 "workday:micron:JR117590": "2026-11-11",
 "workday:micron:JR117591": "2026-11-11",
+"workday:micron:JR117594": "2026-11-16",
 "workday:micron:JR117605": "2026-11-13",
 "workday:micron:JR117622": "2026-11-13",
 "workday:micron:JR117634": "2026-11-15",
@@ -102519,6 +102542,7 @@
 "workday:salesforce:JR330045-1": "2026-10-22",
 "workday:salesforce:JR330262": "2026-10-30",
 "workday:salesforce:JR330376": "2026-10-30",
+"workday:salesforce:JR330633": "2026-11-16",
 "workday:salesforce:JR330837": "2026-10-23",
 "workday:salesforce:JR331240": "2026-10-28",
 "workday:salesforce:JR331289": "2026-11-11",
@@ -102560,6 +102584,7 @@
 "workday:salesforce:JR339327-2": "2026-11-02",
 "workday:salesforce:JR339837-1": "2026-10-21",
 "workday:salesforce:JR339872": "2026-10-29",
+"workday:salesforce:JR339999": "2026-11-16",
 "workday:salesforce:JR340189-1": "2026-10-22",
 "workday:salesforce:JR340233": "2026-11-10",
 "workday:salesforce:JR340414": "2026-10-29",
@@ -111892,6 +111917,7 @@
 "xai|model engineer multimodal understanding": "2026-11-06",
 "xai|security engineer grc federal frameworks": "2026-10-21",
 "xai|software engineer consumer subscriptions": "2026-11-13",
+"xai|software engineer super intelligence": "2026-11-16",
 "xai|supercompute operations engineering": "2026-10-23",
 "yelp|campus ambassador boston university": "2026-10-29",
 "yelp|campus ambassador new york university nyu": "2026-10-29",
@@ -111927,9 +111953,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 16,
+"calls": 18,
 "date": "2026-11-16",
-"usd": 0.001849
+"usd": 0.002103
 },
 "years": {
 "amazon:10583340": [
