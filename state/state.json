@@ -43679,6 +43679,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:hpe:1209040": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:hpe:1209565-2": [
 {
 "note": "Requires significant experience in architecture.",
@@ -44014,6 +44021,13 @@
 "senior": true
 },
 "2026-11-12"
+],
+"rescue:workday:hpe:1217719-2": [
+{
+"note": "Requires significant experience in systems engineering.",
+"senior": true
+},
+"2026-11-16"
 ],
 "rescue:workday:hpe:1217732-1": [
 {
@@ -55355,6 +55369,26 @@
 },
 "2026-11-06"
 ],
+"workday:hpe:1206826-3|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Internship experience considered relevant for this role.",
+"us_ok": true
+},
+"2026-11-16"
+],
+"workday:hpe:1213040-1|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads and offers hands-on training opportunities.",
+"us_ok": true
+},
+"2026-11-16"
+],
 "workday:hpe:1213688-2|v3|73908d": [
 {
 "chance": 4,
@@ -55574,6 +55608,16 @@
 "us_ok": true
 },
 "2026-11-04"
+],
+"workday:hpe:1217637-3|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 6,
+"note": "Requires significant hands-on experience with firewalls.",
+"us_ok": true
+},
+"2026-11-16"
 ],
 "workday:hpe:1217727-2|v3|73908d": [
 {
@@ -61865,7 +61909,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 213
+"typical": 211
 },
 "Airgoods": {
 "alerted": false,
@@ -62360,7 +62404,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 33
+"typical": 34
 },
 "Calm": {
 "alerted": false,
@@ -63246,7 +63290,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 123
 },
 "HUD": {
 "alerted": false,
@@ -63901,7 +63945,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 182
+"typical": 184
 },
 "Microsoft": {
 "alerted": false,
@@ -64212,7 +64256,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 143,
+"streak": 144,
 "typical": 1
 },
 "Oklo": {
@@ -64978,7 +65022,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 483
+"typical": 481
 },
 "Sesame": {
 "alerted": false,
@@ -64998,7 +65042,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 111,
+"streak": 112,
 "typical": 39
 },
 "Short Story": {
@@ -65744,7 +65788,7 @@
 "Zillow": {
 "alerted": false,
 "streak": 0,
-"typical": 23
+"typical": 24
 },
 "Zimperium": {
 "alerted": false,
@@ -66401,6 +66445,7 @@
 "amazon:10604831": "2026-11-13",
 "amazon:10604833": "2026-11-13",
 "amazon:10604854": "2026-11-15",
+"amazon:10604856": "2026-11-16",
 "amazon:10604860": "2026-11-13",
 "amazon:10604881": "2026-11-13",
 "amazon:10604920": "2026-11-13",
@@ -82671,9 +82716,13 @@
 "jibe:careers.keysight.com:56740": "2026-11-10",
 "jibe:careers.keysight.com:56744": "2026-11-10",
 "jibe:careers.keysight.com:56805": "2026-11-12",
+"jibe:careers.keysight.com:56871": "2026-11-16",
 "jibe:careers.keysight.com:56874": "2026-11-11",
 "jibe:careers.keysight.com:56937": "2026-11-12",
 "jibe:careers.keysight.com:56939": "2026-11-13",
+"jibe:careers.keysight.com:57004": "2026-11-16",
+"jibe:careers.keysight.com:57005": "2026-11-16",
+"jibe:careers.keysight.com:57006": "2026-11-16",
 "jibe:careers.keysight.com:57007": "2026-11-13",
 "jibe:careers.keysight.com:57010": "2026-11-13",
 "jibe:careers.keysight.com:57012": "2026-11-16",
@@ -92536,6 +92585,7 @@
 "workday:cadence:R57098": "2026-11-11",
 "workday:cadence:R57099-2": "2026-11-02",
 "workday:cadence:R57101-1": "2026-11-04",
+"workday:cadence:R57105": "2026-11-16",
 "workday:cadence:R57110": "2026-11-10",
 "workday:cadence:R57112": "2026-11-06",
 "workday:cadence:R57117": "2026-11-02",
@@ -94799,6 +94849,7 @@
 "workday:hpe:1206712-2": "2026-10-29",
 "workday:hpe:1206800-2": "2026-10-29",
 "workday:hpe:1206809-3": "2026-11-03",
+"workday:hpe:1206826-3": "2026-11-16",
 "workday:hpe:1206863-2": "2026-11-12",
 "workday:hpe:1207233": "2026-11-03",
 "workday:hpe:1207266-2": "2026-10-29",
@@ -94818,16 +94869,19 @@
 "workday:hpe:1208343": "2026-10-29",
 "workday:hpe:1208362-3": "2026-11-11",
 "workday:hpe:1208392-2": "2026-11-13",
+"workday:hpe:1208407-2": "2026-11-16",
 "workday:hpe:1208458-2": "2026-11-02",
 "workday:hpe:1208463": "2026-11-10",
 "workday:hpe:1208507-3": "2026-11-13",
 "workday:hpe:1208588-2": "2026-10-29",
 "workday:hpe:1208616-2": "2026-11-13",
+"workday:hpe:1208623-2": "2026-11-16",
 "workday:hpe:1208692": "2026-11-03",
 "workday:hpe:1208767-2": "2026-11-06",
 "workday:hpe:1208787-2": "2026-11-11",
 "workday:hpe:1208807-2": "2026-10-30",
 "workday:hpe:1208991-2": "2026-11-02",
+"workday:hpe:1209040": "2026-11-16",
 "workday:hpe:1209121": "2026-10-29",
 "workday:hpe:1209131-2": "2026-11-04",
 "workday:hpe:1209132-2": "2026-11-04",
@@ -94894,6 +94948,7 @@
 "workday:hpe:1211963-3": "2026-11-02",
 "workday:hpe:1211967-2": "2026-10-29",
 "workday:hpe:1211976-2": "2026-11-11",
+"workday:hpe:1211985-3": "2026-11-16",
 "workday:hpe:1212243-6": "2026-10-29",
 "workday:hpe:1212334": "2026-11-11",
 "workday:hpe:1212355-2": "2026-11-13",
@@ -94907,6 +94962,7 @@
 "workday:hpe:1212927-3": "2026-10-29",
 "workday:hpe:1213010": "2026-11-13",
 "workday:hpe:1213039": "2026-11-10",
+"workday:hpe:1213040-1": "2026-11-16",
 "workday:hpe:1213058": "2026-11-03",
 "workday:hpe:1213060": "2026-10-29",
 "workday:hpe:1213067": "2026-10-29",
@@ -94932,6 +94988,7 @@
 "workday:hpe:1213764": "2026-11-10",
 "workday:hpe:1213814-2": "2026-11-12",
 "workday:hpe:1213838-2": "2026-11-13",
+"workday:hpe:1213864-3": "2026-11-16",
 "workday:hpe:1213898": "2026-11-02",
 "workday:hpe:1213909-2": "2026-11-06",
 "workday:hpe:1213945-2": "2026-11-11",
@@ -94989,6 +95046,7 @@
 "workday:hpe:1214885-2": "2026-10-29",
 "workday:hpe:1214894-2": "2026-10-29",
 "workday:hpe:1214899": "2026-11-06",
+"workday:hpe:1214900-2": "2026-11-16",
 "workday:hpe:1214908-1": "2026-11-09",
 "workday:hpe:1214918-2": "2026-11-06",
 "workday:hpe:1214923-2": "2026-11-10",
@@ -95007,6 +95065,7 @@
 "workday:hpe:1215086": "2026-10-29",
 "workday:hpe:1215090-2": "2026-10-29",
 "workday:hpe:1215120-2": "2026-11-09",
+"workday:hpe:1215123-2": "2026-11-16",
 "workday:hpe:1215126-2": "2026-11-06",
 "workday:hpe:1215127-2": "2026-11-06",
 "workday:hpe:1215131-2": "2026-11-06",
@@ -95060,6 +95119,7 @@
 "workday:hpe:1215529-2": "2026-11-09",
 "workday:hpe:1215537-3": "2026-10-29",
 "workday:hpe:1215541-2": "2026-10-29",
+"workday:hpe:1215542-2": "2026-11-16",
 "workday:hpe:1215546-1": "2026-11-10",
 "workday:hpe:1215555-2": "2026-11-11",
 "workday:hpe:1215571-2": "2026-10-29",
@@ -95115,6 +95175,7 @@
 "workday:hpe:1215977-2": "2026-10-29",
 "workday:hpe:1216010": "2026-11-06",
 "workday:hpe:1216016-2": "2026-10-29",
+"workday:hpe:1216017-2": "2026-11-16",
 "workday:hpe:1216018-3": "2026-11-10",
 "workday:hpe:1216025-3": "2026-10-29",
 "workday:hpe:1216032-2": "2026-11-11",
@@ -95313,6 +95374,7 @@
 "workday:hpe:1217254-2": "2026-10-29",
 "workday:hpe:1217256-1": "2026-10-29",
 "workday:hpe:1217281": "2026-11-03",
+"workday:hpe:1217297-1": "2026-11-16",
 "workday:hpe:1217298-1": "2026-11-03",
 "workday:hpe:1217299-2": "2026-10-29",
 "workday:hpe:1217310": "2026-11-04",
@@ -95384,15 +95446,19 @@
 "workday:hpe:1217600-2": "2026-11-06",
 "workday:hpe:1217601-2": "2026-10-29",
 "workday:hpe:1217629-1": "2026-11-06",
+"workday:hpe:1217637-3": "2026-11-16",
 "workday:hpe:1217640-2": "2026-11-16",
 "workday:hpe:1217642-2": "2026-11-16",
 "workday:hpe:1217646-3": "2026-11-13",
 "workday:hpe:1217661": "2026-11-02",
 "workday:hpe:1217683-1": "2026-11-04",
 "workday:hpe:1217696-2": "2026-11-10",
+"workday:hpe:1217703-3": "2026-11-16",
 "workday:hpe:1217713-2": "2026-11-13",
 "workday:hpe:1217716-2": "2026-11-03",
 "workday:hpe:1217717-2": "2026-11-12",
+"workday:hpe:1217719-2": "2026-11-16",
+"workday:hpe:1217720-2": "2026-11-16",
 "workday:hpe:1217725-3": "2026-11-06",
 "workday:hpe:1217727-2": "2026-11-10",
 "workday:hpe:1217729-2": "2026-11-03",
@@ -95419,6 +95485,7 @@
 "workday:hpe:1217829-2": "2026-11-12",
 "workday:hpe:1217833-3": "2026-10-29",
 "workday:hpe:1217836-2": "2026-11-06",
+"workday:hpe:1217843-1": "2026-11-16",
 "workday:hpe:1217844-2": "2026-11-12",
 "workday:hpe:1217845-6": "2026-10-29",
 "workday:hpe:1217846-2": "2026-11-10",
@@ -95435,6 +95502,7 @@
 "workday:hpe:1217940": "2026-11-12",
 "workday:hpe:1217962-1": "2026-11-10",
 "workday:hpe:1217976-2": "2026-10-30",
+"workday:hpe:1217977-2": "2026-11-16",
 "workday:hpe:1217983-2": "2026-11-09",
 "workday:hpe:1217986-3": "2026-11-13",
 "workday:hpe:1218000-1": "2026-11-09",
@@ -95447,6 +95515,8 @@
 "workday:hpe:1218034": "2026-10-29",
 "workday:hpe:1218036": "2026-10-29",
 "workday:hpe:1218037": "2026-11-03",
+"workday:hpe:1218038-2": "2026-11-16",
+"workday:hpe:1218039-2": "2026-11-16",
 "workday:hpe:1218044-2": "2026-11-04",
 "workday:hpe:1218051-3": "2026-11-12",
 "workday:hpe:1218062-2": "2026-11-03",
@@ -95503,9 +95573,11 @@
 "workday:hpe:1218468": "2026-11-02",
 "workday:hpe:1218490-3": "2026-11-11",
 "workday:hpe:1218514-2": "2026-11-13",
+"workday:hpe:1218537-2": "2026-11-16",
 "workday:hpe:1218566-2": "2026-11-13",
 "workday:hpe:1218586-2": "2026-11-13",
 "workday:hpe:1218701": "2026-11-10",
+"workday:hpe:1218707-2": "2026-11-16",
 "workday:hpe:1218718-1": "2026-11-06",
 "workday:hpe:1218721-2": "2026-11-06",
 "workday:hpe:1218723-2": "2026-11-09",
@@ -95523,6 +95595,7 @@
 "workday:hpe:1219017-2": "2026-11-12",
 "workday:hpe:1219018-1": "2026-11-12",
 "workday:hpe:1219019-2": "2026-11-12",
+"workday:hpe:1219059-2": "2026-11-16",
 "workday:illumina:42606-JOB-1": "2026-11-04",
 "workday:illumina:42896-JOB-1": "2026-11-02",
 "workday:illumina:43239-JOB-1": "2026-11-10",
@@ -98939,6 +99012,7 @@
 "workday:micron:JR114338": "2026-10-20",
 "workday:micron:JR114346": "2026-10-21",
 "workday:micron:JR114366": "2026-10-20",
+"workday:micron:JR114368": "2026-11-16",
 "workday:micron:JR114370-1": "2026-10-22",
 "workday:micron:JR114371": "2026-10-23",
 "workday:micron:JR114375": "2026-10-22",
@@ -99574,6 +99648,7 @@
 "workday:micron:JR117358": "2026-11-12",
 "workday:micron:JR117359": "2026-11-11",
 "workday:micron:JR117361": "2026-11-12",
+"workday:micron:JR117371-9": "2026-11-16",
 "workday:micron:JR117383": "2026-11-10",
 "workday:micron:JR117384": "2026-11-10",
 "workday:micron:JR117423": "2026-11-12",
@@ -108768,6 +108843,7 @@
 "workday:zillow:P751708-1": "2026-11-06",
 "workday:zillow:P751729-1": "2026-11-04",
 "workday:zillow:P751731-1": "2026-11-03",
+"workday:zillow:P751733-1": "2026-11-16",
 "workday:zillow:P751741-1": "2026-11-03",
 "workday:zillow:P751745-2": "2026-11-03",
 "workday:zillow:P751746-2": "2026-11-07",
@@ -110008,8 +110084,10 @@
 "hpe juniper networks|campus switching product manager graduate": "2026-11-06",
 "hpe juniper networks|cloud developer ii": "2026-11-12",
 "hpe juniper networks|cloud software developer": "2026-10-29",
+"hpe juniper networks|customer technical solution consultant graduate": "2026-11-16",
 "hpe juniper networks|global workplace prep program graduate": "2026-11-10",
 "hpe juniper networks|hpc ai hardware technical deployment specialist": "2026-11-05",
+"hpe juniper networks|hpc ai performance engineer": "2026-11-16",
 "hpe juniper networks|hpe labs postdoc research scientist racks scale architectures": "2026-11-12",
 "hpe juniper networks|mechanical design engineer": "2026-11-10",
 "hpe juniper networks|mechanical hardware engineer i 0t1031": "2026-11-12",
@@ -111751,9 +111829,9 @@
 "zt systems|test software developer": "2026-11-11"
 },
 "usage": {
-"calls": 5,
+"calls": 10,
 "date": "2026-11-16",
-"usd": 0.000337
+"usd": 0.001228
 },
 "years": {
 "amazon:10583340": [
