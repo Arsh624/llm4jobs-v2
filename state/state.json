@@ -41436,6 +41436,13 @@
 },
 "2026-11-12"
 ],
+"rescue:workday:accenture:R00355071": [
+{
+"note": "Requires significant industry expertise and experience.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:accenture:R00359070": [
 {
 "note": "Requires management experience in data engineering.",
@@ -47924,6 +47931,13 @@
 "senior": true
 },
 "2026-11-10"
+],
+"rescue:workday:micron:JR117204": [
+{
+"note": "Requires 5+ years of experience.",
+"senior": true
+},
+"2026-11-16"
 ],
 "rescue:workday:micron:JR117212": [
 {
@@ -62581,7 +62595,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 33
 },
 "Accord": {
 "alerted": false,
@@ -62756,7 +62770,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2600
+"typical": 2599
 },
 "AngelList": {
 "alerted": false,
@@ -63326,7 +63340,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 472
+"typical": 471
 },
 "Cloudinary": {
 "alerted": false,
@@ -63386,7 +63400,7 @@
 "Contentful": {
 "alerted": false,
 "streak": 0,
-"typical": 46
+"typical": 48
 },
 "Context": {
 "alerted": false,
@@ -63481,7 +63495,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 889
+"typical": 888
 },
 "Datafold": {
 "alerted": false,
@@ -64037,7 +64051,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 43
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -64657,7 +64671,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 57
+"typical": 58
 },
 "Mercor": {
 "alerted": false,
@@ -64697,7 +64711,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 105
 },
 "Microsoft": {
 "alerted": false,
@@ -65008,7 +65022,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 175,
+"streak": 176,
 "typical": 1
 },
 "Oklo": {
@@ -65054,7 +65068,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 835
+"typical": 836
 },
 "OpenEvidence": {
 "alerted": false,
@@ -65624,7 +65638,7 @@
 "Roblox": {
 "alerted": false,
 "streak": 0,
-"typical": 270
+"typical": 268
 },
 "Roboflow": {
 "alerted": false,
@@ -65634,7 +65648,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 539
+"typical": 540
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -65694,7 +65708,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 121
+"typical": 119
 },
 "Salient": {
 "alerted": false,
@@ -65774,7 +65788,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 473
+"typical": 472
 },
 "Sesame": {
 "alerted": false,
@@ -65794,7 +65808,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 143,
+"streak": 144,
 "typical": 39
 },
 "Short Story": {
@@ -65830,7 +65844,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3208
+"typical": 3205
 },
 "SimplyInsured": {
 "alerted": false,
@@ -66470,7 +66484,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 248
+"typical": 251
 },
 "Wingspan": {
 "alerted": false,
@@ -69631,6 +69645,7 @@
 "ashby:openai:9471b38b-f65c-4a01-9626-bd33fca90f1d": "2026-11-05",
 "ashby:openai:94d44e8c-987f-4350-bb13-5a855be957db": "2026-11-06",
 "ashby:openai:961d2951-ff59-494f-971e-fe25414c234c": "2026-11-02",
+"ashby:openai:9635775d-18fa-47bb-9ede-9a4137618de0": "2026-11-16",
 "ashby:openai:9711a982-851c-4f55-a5ae-080ea4bad520": "2026-10-26",
 "ashby:openai:97493ce9-9491-4384-9be9-8069625cd766": "2026-11-10",
 "ashby:openai:97e3df39-8a0b-493d-8cc4-c35e01491516": "2026-11-11",
@@ -76741,6 +76756,8 @@
 "greenhouse:contentful:8386353": "2026-11-13",
 "greenhouse:contentful:8386901": "2026-11-14",
 "greenhouse:contentful:8386908": "2026-11-14",
+"greenhouse:contentful:8393388": "2026-11-16",
+"greenhouse:contentful:8393390": "2026-11-16",
 "greenhouse:coreweave:4706068006": "2026-11-03",
 "greenhouse:coreweave:4706070006": "2026-11-09",
 "greenhouse:coreweave:4719916006": "2026-11-02",
@@ -80649,6 +80666,7 @@
 "greenhouse:rocketlab:8195908003": "2026-11-04",
 "greenhouse:rocketlab:8195972003": "2026-11-04",
 "greenhouse:rocketlab:8195996003": "2026-11-04",
+"greenhouse:rocketlab:8196272003": "2026-11-16",
 "greenhouse:rocketlab:8196311003": "2026-11-05",
 "greenhouse:rocketlab:8196317003": "2026-11-05",
 "greenhouse:rocketlab:8196839003": "2026-11-05",
@@ -87145,6 +87163,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:299962": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:299964": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:299966": "2026-11-03",
+"oracle_hcm:enterpriseplatform.dell.com:299973": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:299974": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:299977": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:299980": "2026-11-02",
@@ -93078,6 +93097,7 @@
 "workday:accenture:14913553": "2026-11-16",
 "workday:accenture:14913859-1": "2026-11-16",
 "workday:accenture:14913866": "2026-11-13",
+"workday:accenture:14917946": "2026-11-16",
 "workday:accenture:14918228": "2026-11-12",
 "workday:accenture:14918251": "2026-11-12",
 "workday:accenture:14918617": "2026-11-12",
@@ -93103,6 +93123,7 @@
 "workday:accenture:R00353526-1": "2026-11-12",
 "workday:accenture:R00354350": "2026-11-12",
 "workday:accenture:R00354744": "2026-11-13",
+"workday:accenture:R00355071": "2026-11-16",
 "workday:accenture:R00355099-1": "2026-11-12",
 "workday:accenture:R00355640": "2026-11-13",
 "workday:accenture:R00357966": "2026-11-12",
@@ -95732,6 +95753,7 @@
 "workday:hp:3170168-1": "2026-10-20",
 "workday:hp:3170182-1": "2026-10-28",
 "workday:hp:3170183-1": "2026-10-20",
+"workday:hp:3170184-1": "2026-11-16",
 "workday:hp:3170187-1": "2026-10-27",
 "workday:hp:3170188-1": "2026-10-20",
 "workday:hp:3170192-1": "2026-10-27",
@@ -99298,6 +99320,7 @@
 "workday:medtronic:R81503-1": "2026-11-05",
 "workday:medtronic:R81519-1": "2026-11-10",
 "workday:medtronic:R81521-1": "2026-11-12",
+"workday:medtronic:R81525-1": "2026-11-16",
 "workday:medtronic:R81529-1": "2026-11-12",
 "workday:medtronic:R81531-1": "2026-11-05",
 "workday:medtronic:R81532-1": "2026-11-05",
@@ -100902,6 +100925,7 @@
 "workday:micron:JR117199": "2026-11-06",
 "workday:micron:JR117201": "2026-11-06",
 "workday:micron:JR117203": "2026-11-10",
+"workday:micron:JR117204": "2026-11-16",
 "workday:micron:JR117212": "2026-11-11",
 "workday:micron:JR117216-1": "2026-11-12",
 "workday:micron:JR117219": "2026-11-11",
@@ -113303,9 +113327,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 108,
+"calls": 110,
 "date": "2026-11-16",
-"usd": 0.01167
+"usd": 0.011809
 },
 "years": {
 "amazon:10583340": [
