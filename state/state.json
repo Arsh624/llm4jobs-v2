@@ -49525,6 +49525,20 @@
 },
 "2026-11-09"
 ],
+"rescue:workday:nvidia:JR2029835": [
+{
+"note": "Requires 8+ years of experience.",
+"senior": true
+},
+"2026-11-16"
+],
+"rescue:workday:nvidia:JR2029850": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:nvidia:JR2030051": [
 {
 "note": "Requires significant technical expertise and experience.",
@@ -52731,6 +52745,26 @@
 },
 "2026-11-14"
 ],
+"workday:accenture:R00372230|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-16"
+],
+"workday:accenture:R00372248|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-16"
+],
 "workday:accenture:R00372263|v3|73908d": [
 {
 "chance": 2,
@@ -52740,6 +52774,16 @@
 "us_ok": true
 },
 "2026-11-14"
+],
+"workday:accenture:R00372332|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-16"
 ],
 "workday:adobe:R171849|v3|73908d": [
 {
@@ -62131,7 +62175,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 78
+"typical": 31
 },
 "Accord": {
 "alerted": false,
@@ -62476,7 +62520,7 @@
 "Athelas (now Commure)": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 69
 },
 "AthenaHQ": {
 "alerted": false,
@@ -62751,7 +62795,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 61
+"typical": 62
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -62911,7 +62955,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 259
+"typical": 258
 },
 "Color Health": {
 "alerted": false,
@@ -63286,7 +63330,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 19
 },
 "Extreme Networks": {
 "alerted": false,
@@ -63587,12 +63631,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 69
+"typical": 70
 },
 "HUD": {
 "alerted": false,
@@ -64252,7 +64296,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 100
 },
 "Middesk": {
 "alerted": false,
@@ -64382,7 +64426,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 97
+"typical": 108
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -64558,7 +64602,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 166,
+"streak": 167,
 "typical": 1
 },
 "Oklo": {
@@ -64614,7 +64658,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 94
 },
 "OpenRouter": {
 "alerted": false,
@@ -64954,7 +64998,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 379
+"typical": 378
 },
 "Pylon": {
 "alerted": false,
@@ -65344,7 +65388,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 134,
+"streak": 135,
 "typical": 39
 },
 "Short Story": {
@@ -65380,7 +65424,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3223
+"typical": 3221
 },
 "SimplyInsured": {
 "alerted": false,
@@ -65575,7 +65619,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 787
+"typical": 788
 },
 "Stuut": {
 "alerted": false,
@@ -69333,6 +69377,7 @@
 "ashby:opengov:b1fb46e0-36f4-49e4-bb9e-0340a4624d9d": "2026-10-26",
 "ashby:opengov:b407652d-36d0-4ee4-8757-71b76085a95a": "2026-10-21",
 "ashby:opengov:b67d17a0-a610-494e-8213-b714a24c5c98": "2026-10-29",
+"ashby:opengov:b6dcf218-fe7e-409b-b0bf-765d654335c7": "2026-11-16",
 "ashby:opengov:b79d7d11-1caf-4adf-9a4f-8da1fc8216c0": "2026-10-29",
 "ashby:opengov:bae701be-f5d6-4f14-bc73-38eff1616e80": "2026-11-13",
 "ashby:opengov:c23bd38a-b09e-4df3-8486-e7ba7f285a8d": "2026-11-09",
@@ -82548,6 +82593,7 @@
 "jibe:careers.amd.com:97232": "2026-11-09",
 "jibe:careers.amd.com:97235": "2026-11-09",
 "jibe:careers.amd.com:97242": "2026-11-09",
+"jibe:careers.amd.com:97248": "2026-11-16",
 "jibe:careers.amd.com:97252": "2026-11-12",
 "jibe:careers.amd.com:97257": "2026-11-05",
 "jibe:careers.amd.com:97265": "2026-11-10",
@@ -82556,6 +82602,7 @@
 "jibe:careers.amd.com:97280": "2026-11-12",
 "jibe:careers.amd.com:97282": "2026-11-10",
 "jibe:careers.amd.com:97283": "2026-11-12",
+"jibe:careers.amd.com:97285": "2026-11-16",
 "jibe:careers.amd.com:97286": "2026-11-10",
 "jibe:careers.amd.com:97319": "2026-11-10",
 "jibe:careers.amd.com:97320": "2026-11-10",
@@ -82631,6 +82678,7 @@
 "jibe:careers.docusign.com:29552": "2026-11-04",
 "jibe:careers.docusign.com:29590": "2026-10-26",
 "jibe:careers.docusign.com:29784": "2026-10-26",
+"jibe:careers.docusign.com:29915": "2026-11-16",
 "jibe:careers.docusign.com:30031": "2026-11-04",
 "jibe:careers.docusign.com:30032": "2026-10-30",
 "jibe:careers.docusign.com:30181": "2026-10-26",
@@ -83813,6 +83861,7 @@
 "jibe:jobs.booking.com:30719": "2026-11-11",
 "jibe:jobs.booking.com:30734": "2026-11-12",
 "jibe:jobs.booking.com:30736": "2026-11-12",
+"jibe:jobs.booking.com:30751": "2026-11-16",
 "lever:acceldata:5c7ab303-e504-4d13-9bb0-f90181dbc5cb": "2026-10-29",
 "lever:acceldata:5ccb4d08-ba03-416c-82d4-38f253df4e6c": "2026-11-06",
 "lever:acceldata:7a30be80-bb12-47b5-af62-e9cac23b1907": "2026-11-11",
@@ -85316,6 +85365,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347645": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347648": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347650": "2026-10-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:347655": "2026-11-16",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347657": "2026-10-29",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347660": "2026-11-10",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:347670": "2026-10-27",
@@ -92401,6 +92451,8 @@
 "workday:accenture:R00333803": "2026-11-12",
 "workday:accenture:R00338402": "2026-11-12",
 "workday:accenture:R00345950": "2026-11-13",
+"workday:accenture:R00349532-1": "2026-11-16",
+"workday:accenture:R00349537": "2026-11-16",
 "workday:accenture:R00350151-1": "2026-11-13",
 "workday:accenture:R00350295": "2026-11-13",
 "workday:accenture:R00351083": "2026-11-12",
@@ -92489,11 +92541,16 @@
 "workday:accenture:R00372219": "2026-11-13",
 "workday:accenture:R00372223": "2026-11-14",
 "workday:accenture:R00372225": "2026-11-14",
+"workday:accenture:R00372228": "2026-11-16",
+"workday:accenture:R00372230": "2026-11-16",
 "workday:accenture:R00372233": "2026-11-14",
 "workday:accenture:R00372241": "2026-11-14",
+"workday:accenture:R00372248": "2026-11-16",
 "workday:accenture:R00372263": "2026-11-14",
 "workday:accenture:R00372268-1": "2026-11-14",
 "workday:accenture:R00372284": "2026-11-13",
+"workday:accenture:R00372332": "2026-11-16",
+"workday:accenture:R00372333": "2026-11-16",
 "workday:adobe:R168265": "2026-11-02",
 "workday:adobe:R169745-1": "2026-10-29",
 "workday:adobe:R170605": "2026-10-29",
@@ -93896,6 +93953,7 @@
 "workday:capitalone:R1005763-1": "2026-11-13",
 "workday:capitalone:R1005765-1": "2026-11-13",
 "workday:capitalone:R1005770-1": "2026-11-13",
+"workday:capitalone:R1005771-2": "2026-11-16",
 "workday:capitalone:R1005774-2": "2026-11-13",
 "workday:capitalone:R1005787": "2026-11-13",
 "workday:capitalone:R1005790-1": "2026-11-13",
@@ -94456,6 +94514,7 @@
 "workday:expedia:R-110772": "2026-11-06",
 "workday:expedia:R-110784": "2026-11-04",
 "workday:expedia:R-110794": "2026-10-28",
+"workday:expedia:R-110795-1": "2026-11-16",
 "workday:expedia:R-110799": "2026-10-28",
 "workday:expedia:R-110803": "2026-11-04",
 "workday:expedia:R-110806": "2026-11-09",
@@ -94533,6 +94592,7 @@
 "workday:hp:3155225-1": "2026-10-21",
 "workday:hp:3155415-2": "2026-11-12",
 "workday:hp:3156552-2": "2026-10-21",
+"workday:hp:3157570": "2026-11-16",
 "workday:hp:3157641-1": "2026-11-12",
 "workday:hp:3157997-2": "2026-10-20",
 "workday:hp:3158069-2": "2026-10-22",
@@ -95631,6 +95691,7 @@
 "workday:hpe:1215802-2": "2026-10-29",
 "workday:hpe:1215819": "2026-11-03",
 "workday:hpe:1215821-2": "2026-11-12",
+"workday:hpe:1215831-1": "2026-11-16",
 "workday:hpe:1215833-2": "2026-11-03",
 "workday:hpe:1215841-2": "2026-10-29",
 "workday:hpe:1215851-1": "2026-10-29",
@@ -101403,6 +101464,7 @@
 "workday:nvidia:JR2024067": "2026-10-19",
 "workday:nvidia:JR2024068": "2026-10-31",
 "workday:nvidia:JR2024073": "2026-11-09",
+"workday:nvidia:JR2024074": "2026-11-16",
 "workday:nvidia:JR2024075": "2026-11-16",
 "workday:nvidia:JR2024077": "2026-10-21",
 "workday:nvidia:JR2024079-1": "2026-10-31",
@@ -101753,8 +101815,11 @@
 "workday:nvidia:JR2027170": "2026-10-29",
 "workday:nvidia:JR2027172": "2026-10-31",
 "workday:nvidia:JR2027189": "2026-11-13",
+"workday:nvidia:JR2027190": "2026-11-16",
 "workday:nvidia:JR2027194": "2026-10-25",
+"workday:nvidia:JR2027195": "2026-11-16",
 "workday:nvidia:JR2027200": "2026-10-31",
+"workday:nvidia:JR2027205": "2026-11-16",
 "workday:nvidia:JR2027206": "2026-10-26",
 "workday:nvidia:JR2027235": "2026-10-25",
 "workday:nvidia:JR2027271": "2026-11-01",
@@ -102152,6 +102217,7 @@
 "workday:nvidia:JR2028679": "2026-11-04",
 "workday:nvidia:JR2028680-1": "2026-10-25",
 "workday:nvidia:JR2028682": "2026-10-27",
+"workday:nvidia:JR2028683": "2026-11-16",
 "workday:nvidia:JR2028686": "2026-10-26",
 "workday:nvidia:JR2028688-1": "2026-10-27",
 "workday:nvidia:JR2028690": "2026-10-27",
@@ -102350,6 +102416,7 @@
 "workday:nvidia:JR2029364": "2026-11-09",
 "workday:nvidia:JR2029365": "2026-11-06",
 "workday:nvidia:JR2029366": "2026-11-05",
+"workday:nvidia:JR2029368": "2026-11-16",
 "workday:nvidia:JR2029371": "2026-11-09",
 "workday:nvidia:JR2029372": "2026-11-10",
 "workday:nvidia:JR2029378": "2026-11-03",
@@ -102406,6 +102473,7 @@
 "workday:nvidia:JR2029629": "2026-11-13",
 "workday:nvidia:JR2029630": "2026-11-13",
 "workday:nvidia:JR2029632": "2026-11-12",
+"workday:nvidia:JR2029648": "2026-11-16",
 "workday:nvidia:JR2029657": "2026-11-11",
 "workday:nvidia:JR2029673": "2026-11-13",
 "workday:nvidia:JR2029674": "2026-11-09",
@@ -102418,6 +102486,7 @@
 "workday:nvidia:JR2029701": "2026-11-10",
 "workday:nvidia:JR2029702": "2026-11-09",
 "workday:nvidia:JR2029706": "2026-11-10",
+"workday:nvidia:JR2029711-1": "2026-11-16",
 "workday:nvidia:JR2029722": "2026-11-08",
 "workday:nvidia:JR2029724": "2026-11-16",
 "workday:nvidia:JR2029727": "2026-11-10",
@@ -102438,9 +102507,13 @@
 "workday:nvidia:JR2029813": "2026-11-16",
 "workday:nvidia:JR2029832": "2026-11-10",
 "workday:nvidia:JR2029833-1": "2026-11-10",
+"workday:nvidia:JR2029835": "2026-11-16",
 "workday:nvidia:JR2029837": "2026-11-12",
 "workday:nvidia:JR2029838": "2026-11-11",
+"workday:nvidia:JR2029849": "2026-11-16",
+"workday:nvidia:JR2029850": "2026-11-16",
 "workday:nvidia:JR2029853": "2026-11-11",
+"workday:nvidia:JR2029854": "2026-11-16",
 "workday:nvidia:JR2029897": "2026-11-13",
 "workday:nvidia:JR2029901": "2026-11-11",
 "workday:nvidia:JR2029905": "2026-11-11",
@@ -104640,6 +104713,7 @@
 "workday:salesforce:JR368384": "2026-11-16",
 "workday:salesforce:JR368394": "2026-11-13",
 "workday:salesforce:JR368441": "2026-11-15",
+"workday:salesforce:JR368442": "2026-11-16",
 "workday:salesforce:JR368459": "2026-11-16",
 "workday:salesforce:JR368460": "2026-11-16",
 "workday:tmobile:REQ346692": "2026-10-22",
@@ -109474,6 +109548,7 @@
 "accenture|advanced ai full stack engineer": "2026-11-13",
 "accenture|ai ml computational science associate manager": "2026-11-12",
 "accenture|ai platform engineering consultant": "2026-11-14",
+"accenture|ai solution engineering consultant": "2026-11-16",
 "accenture|application engineering analyst java backend bq": "2026-11-12",
 "accenture|application engineering analyst java spring boot gcp": "2026-11-12",
 "accenture|client transaction services summer analyst dallas naelfy27": "2026-11-12",
@@ -109485,6 +109560,7 @@
 "accenture|custom software engineering analyst 6532851": "2026-11-12",
 "accenture|data engineer finance data governance": "2026-11-12",
 "accenture|data science research specialist": "2026-11-12",
+"accenture|enterprise ai architecture consultant": "2026-11-16",
 "accenture|front end ui engineer part time 6592431": "2026-11-13",
 "accenture|infrastructure systems engineer 6594749": "2026-11-13",
 "accenture|job profile ai native software engineering specialst": "2026-11-12",
@@ -112422,9 +112498,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 51,
+"calls": 56,
 "date": "2026-11-16",
-"usd": 0.004852
+"usd": 0.00577
 },
 "years": {
 "amazon:10583340": [
