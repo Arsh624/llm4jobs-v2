@@ -46411,6 +46411,13 @@
 },
 "2026-10-30"
 ],
+"rescue:workday:micron:JR107132": [
+{
+"note": "Requires significant technical expertise and leadership.",
+"senior": true
+},
+"2026-11-16"
+],
 "rescue:workday:micron:JR107373": [
 {
 "note": "Requires deep expertise and technical leadership.",
@@ -62192,7 +62199,7 @@
 "AppsFlyer": {
 "alerted": false,
 "streak": 0,
-"typical": 55
+"typical": 54
 },
 "Aptos Labs": {
 "alerted": false,
@@ -63413,12 +63420,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 22
+"typical": 27
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 61
+"typical": 63
 },
 "HUD": {
 "alerted": false,
@@ -64073,7 +64080,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 89
+"typical": 93
 },
 "Microsoft": {
 "alerted": false,
@@ -64384,7 +64391,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 158,
+"streak": 159,
 "typical": 1
 },
 "Oklo": {
@@ -65010,7 +65017,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 542
+"typical": 540
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -65070,7 +65077,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 96
 },
 "Salient": {
 "alerted": false,
@@ -65170,7 +65177,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 126,
+"streak": 127,
 "typical": 39
 },
 "Short Story": {
@@ -65206,7 +65213,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3226
+"typical": 3229
 },
 "SimplyInsured": {
 "alerted": false,
@@ -65616,7 +65623,7 @@
 "True Anomaly": {
 "alerted": false,
 "streak": 0,
-"typical": 215
+"typical": 217
 },
 "Truemed": {
 "alerted": false,
@@ -77040,6 +77047,7 @@
 "greenhouse:flexport:8260171": "2026-10-20",
 "greenhouse:flexport:8263322": "2026-10-20",
 "greenhouse:flexport:8263332": "2026-10-20",
+"greenhouse:flexport:8265074": "2026-11-16",
 "greenhouse:flexport:8273310": "2026-11-12",
 "greenhouse:flexport:8287873": "2026-10-27",
 "greenhouse:flexport:8287922": "2026-11-02",
@@ -81002,6 +81010,8 @@
 "greenhouse:trueanomalyinc:5289561007": "2026-11-13",
 "greenhouse:trueanomalyinc:5291198007": "2026-11-10",
 "greenhouse:trueanomalyinc:5294011007": "2026-11-14",
+"greenhouse:trueanomalyinc:5295960007": "2026-11-16",
+"greenhouse:trueanomalyinc:5295961007": "2026-11-16",
 "greenhouse:twilio:8026199": "2026-11-03",
 "greenhouse:twilio:8028473": "2026-11-05",
 "greenhouse:twilio:8093320": "2026-10-26",
@@ -84224,6 +84234,8 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019851": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019858": "2026-11-12",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019861": "2026-11-10",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019865": "2026-11-16",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25019866": "2026-11-16",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019867": "2026-11-06",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019871": "2026-11-09",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25019875": "2026-11-10",
@@ -84248,6 +84260,7 @@
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25020220": "2026-11-13",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25020263": "2026-11-13",
 "oracle_hcm:edbz.fa.us2.oraclecloud.com:25020271": "2026-11-13",
+"oracle_hcm:edbz.fa.us2.oraclecloud.com:25020282": "2026-11-16",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18776": "2026-11-11",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18834": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:18999": "2026-10-29",
@@ -86093,7 +86106,9 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350546": "2026-11-14",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350549": "2026-11-13",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350566": "2026-11-14",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350567": "2026-11-16",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350572": "2026-11-16",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350574": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:291082": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:291349": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:291459": "2026-11-03",
@@ -87803,6 +87818,7 @@
 "simplify:6b408f2c-5220-4f13-94bd-39aeb2baec26": "2026-10-20",
 "simplify:6b965426-59e2-45f0-b2be-196df7bb53f0": "2026-11-12",
 "simplify:6bad01bb-b8d4-41bd-b0b0-81260f387a0c": "2026-11-11",
+"simplify:6bbdf60e-d9e3-4db2-ae28-9e16027401bc": "2026-11-16",
 "simplify:6bd34346-4e1e-4d5b-8ba1-9f643f4e6571": "2026-10-20",
 "simplify:6bd9b720-b688-4436-b0fe-a96710105de2": "2026-10-19",
 "simplify:6c6b37b8-2259-4edd-ae65-128df2b447ea": "2026-11-08",
@@ -94337,6 +94353,7 @@
 "workday:hp:3165194-1": "2026-11-02",
 "workday:hp:3165313-1": "2026-10-23",
 "workday:hp:3165327-2": "2026-10-28",
+"workday:hp:3165346-2": "2026-11-16",
 "workday:hp:3165385-1": "2026-10-20",
 "workday:hp:3165386-1": "2026-10-20",
 "workday:hp:3165394-1": "2026-11-12",
@@ -95151,6 +95168,7 @@
 "workday:hpe:1211967-2": "2026-10-29",
 "workday:hpe:1211976-2": "2026-11-11",
 "workday:hpe:1211985-3": "2026-11-16",
+"workday:hpe:1212115-2": "2026-11-16",
 "workday:hpe:1212243-6": "2026-10-29",
 "workday:hpe:1212334": "2026-11-11",
 "workday:hpe:1212355-2": "2026-11-13",
@@ -95273,6 +95291,7 @@
 "workday:hpe:1215131-2": "2026-11-06",
 "workday:hpe:1215138": "2026-11-16",
 "workday:hpe:1215139-2": "2026-10-29",
+"workday:hpe:1215145-2": "2026-11-16",
 "workday:hpe:1215148-2": "2026-11-02",
 "workday:hpe:1215175": "2026-11-10",
 "workday:hpe:1215176-1": "2026-11-03",
@@ -98639,6 +98658,7 @@
 "workday:micron:JR107044": "2026-10-30",
 "workday:micron:JR107061": "2026-11-03",
 "workday:micron:JR107080": "2026-11-09",
+"workday:micron:JR107132": "2026-11-16",
 "workday:micron:JR107315": "2026-11-12",
 "workday:micron:JR107324": "2026-10-20",
 "workday:micron:JR107326": "2026-11-09",
@@ -98711,6 +98731,7 @@
 "workday:micron:JR109213": "2026-10-23",
 "workday:micron:JR109217": "2026-10-27",
 "workday:micron:JR109238": "2026-11-02",
+"workday:micron:JR109263-1": "2026-11-16",
 "workday:micron:JR109310": "2026-11-05",
 "workday:micron:JR109314": "2026-10-20",
 "workday:micron:JR109320": "2026-10-28",
@@ -99343,6 +99364,7 @@
 "workday:micron:JR114956": "2026-10-23",
 "workday:micron:JR114958": "2026-11-16",
 "workday:micron:JR114960": "2026-10-20",
+"workday:micron:JR114961": "2026-11-16",
 "workday:micron:JR114964": "2026-10-20",
 "workday:micron:JR114970": "2026-11-02",
 "workday:micron:JR114977": "2026-10-20",
@@ -99919,6 +99941,7 @@
 "workday:micron:JR117757": "2026-11-13",
 "workday:micron:JR117850": "2026-11-16",
 "workday:micron:JR117878": "2026-11-16",
+"workday:micron:JR117887": "2026-11-16",
 "workday:micron:JR57804": "2026-11-05",
 "workday:micron:JR72632": "2026-10-23",
 "workday:micron:JR75038-1": "2026-10-23",
@@ -103984,6 +104007,7 @@
 "workday:salesforce:JR366293-1": "2026-10-29",
 "workday:salesforce:JR366294": "2026-10-30",
 "workday:salesforce:JR366295": "2026-10-29",
+"workday:salesforce:JR366296": "2026-11-16",
 "workday:salesforce:JR366298": "2026-10-29",
 "workday:salesforce:JR366303-1": "2026-11-05",
 "workday:salesforce:JR366304-1": "2026-10-29",
@@ -109592,6 +109616,7 @@
 "american electric power|data scientist": "2026-10-26",
 "amplitude|software engineer ii analytics compute platform team": "2026-11-05",
 "amplitude|technical support engineer": "2026-11-10",
+"ams|data science associate": "2026-11-16",
 "analog devices|analog design engineer": "2026-10-31",
 "analog devices|analyst supply chain planning": "2026-11-02",
 "analog devices|associate central applications engineer": "2026-10-29",
@@ -112107,9 +112132,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 27,
+"calls": 28,
 "date": "2026-11-16",
-"usd": 0.002908
+"usd": 0.002982
 },
 "years": {
 "amazon:10583340": [
