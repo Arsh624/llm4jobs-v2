@@ -40313,6 +40313,13 @@
 },
 "2026-10-20"
 ],
+"rescue:simplify:304f32e2-fcf6-4a65-9220-0d88ea6a8440": [
+{
+"note": "Graduate role for entry-level candidates.",
+"senior": false
+},
+"2026-11-18"
+],
 "rescue:simplify:3167672a-e1c4-4ae7-b6ea-0efe93998060": [
 {
 "note": "Staff implies higher experience level required.",
@@ -48895,6 +48902,13 @@
 },
 "2026-11-17"
 ],
+"rescue:workday:intel:JR0289335": [
+{
+"note": "Requires extensive experience in system architecture.",
+"senior": true
+},
+"2026-11-18"
+],
 "rescue:workday:kla:2633993": [
 {
 "note": "Requires significant experience in cloud operations.",
@@ -49496,6 +49510,20 @@
 "senior": true
 },
 "2026-11-11"
+],
+"rescue:workday:marvell:2605320": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-18"
+],
+"rescue:workday:marvell:2605321": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-18"
 ],
 "rescue:workday:marvell:2605359": [
 {
@@ -67725,7 +67753,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 201
+"typical": 200
 },
 "Airgoods": {
 "alerted": false,
@@ -67820,7 +67848,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2616
+"typical": 2615
 },
 "AngelList": {
 "alerted": false,
@@ -67840,7 +67868,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 659
+"typical": 658
 },
 "Anyscale": {
 "alerted": false,
@@ -68695,7 +68723,7 @@
 "Eight Sleep": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 35
 },
 "Elastic": {
 "alerted": false,
@@ -68860,7 +68888,7 @@
 "Figure AI": {
 "alerted": false,
 "streak": 0,
-"typical": 105
+"typical": 104
 },
 "Fin (payments)": {
 "alerted": false,
@@ -69106,7 +69134,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 136
+"typical": 137
 },
 "HUD": {
 "alerted": false,
@@ -69346,7 +69374,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 88
+"typical": 92
 },
 "Intro": {
 "alerted": false,
@@ -69671,12 +69699,12 @@
 "Mariana Minerals": {
 "alerted": false,
 "streak": 0,
-"typical": 101
+"typical": 102
 },
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 41
 },
 "Mashgin": {
 "alerted": false,
@@ -69761,7 +69789,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 177
+"typical": 179
 },
 "Microsoft": {
 "alerted": false,
@@ -69871,7 +69899,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 183
+"typical": 181
 },
 "Mutiny": {
 "alerted": false,
@@ -70072,7 +70100,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 245,
+"streak": 246,
 "typical": 1
 },
 "Oklo": {
@@ -70428,7 +70456,7 @@
 "Promise": {
 "alerted": false,
 "streak": 0,
-"typical": 13
+"typical": 14
 },
 "Propel": {
 "alerted": false,
@@ -70518,7 +70546,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 28,
+"streak": 29,
 "typical": 5
 },
 "Quora": {
@@ -70539,7 +70567,7 @@
 "Radiant (nuclear)": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 111
 },
 "Rally": {
 "alerted": false,
@@ -70669,12 +70697,12 @@
 "Riot Games": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 201
 },
 "Ripple Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 113
+"typical": 112
 },
 "Rivian": {
 "alerted": false,
@@ -70734,7 +70762,7 @@
 "Runway ML": {
 "alerted": false,
 "streak": 0,
-"typical": 46
+"typical": 47
 },
 "SK hynix America": {
 "alerted": false,
@@ -70859,7 +70887,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 213,
+"streak": 214,
 "typical": 39
 },
 "Short Story": {
@@ -70895,7 +70923,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3152
+"typical": 3151
 },
 "SimplyInsured": {
 "alerted": false,
@@ -71535,7 +71563,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 298
+"typical": 299
 },
 "Wingspan": {
 "alerted": false,
@@ -71565,7 +71593,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 50
 },
 "World Labs": {
 "alerted": false,
@@ -74402,6 +74430,7 @@
 "ashby:mach9:51bbdb03-ca66-453b-bd00-034b5253fe24": "2026-11-12",
 "ashby:mach9:a24d2d86-3306-4a5b-96cf-b0760f3a21ab": "2026-11-17",
 "ashby:mach9:bbfe659a-ba5c-4aed-81d8-8cbada686a0d": "2026-11-17",
+"ashby:marianaminerals:0523d224-e502-49a3-b56b-fd4e6f0d3b95": "2026-11-18",
 "ashby:marianaminerals:053a699e-642c-4ebc-95ea-8630c69bc3b7": "2026-10-28",
 "ashby:marianaminerals:10981f0a-1672-4add-a3ba-fe5752df1686": "2026-10-29",
 "ashby:marianaminerals:1b0310c9-1473-4330-8b6e-975ea983a5ba": "2026-11-13",
@@ -75451,6 +75480,7 @@
 "ashby:promise:7dcb44b6-b8a6-4955-92f3-421f60770f65": "2026-11-03",
 "ashby:promise:ac4259d7-1276-440f-b918-851ef3e0faa5": "2026-11-03",
 "ashby:promise:b92b5a69-d163-4068-a069-b25a272187ed": "2026-10-28",
+"ashby:promise:bb3391c2-4d1e-4e48-a9fe-5eeffec76e16": "2026-11-18",
 "ashby:propel:21faa4f1-6fff-4f93-8c6b-ced611e4e533": "2026-11-16",
 "ashby:propel:8583576c-0768-414f-960d-b85408ff316a": "2026-11-17",
 "ashby:prosper-ai:2884cc73-31c7-4af9-a62d-fa8205f5b817": "2026-10-29",
@@ -75483,6 +75513,7 @@
 "ashby:radiant-industries:09addccc-f342-4df7-ad16-065855590545": "2026-11-17",
 "ashby:radiant-industries:13d25280-e5c4-4401-a65d-c73859ade990": "2026-11-09",
 "ashby:radiant-industries:1e1d323c-db85-4180-b3be-e566b28a6f01": "2026-10-28",
+"ashby:radiant-industries:1f12765c-56c0-415a-a2d2-32793c9b5c14": "2026-11-18",
 "ashby:radiant-industries:20ab9701-76ee-4b22-8847-61566a8d8f64": "2026-11-10",
 "ashby:radiant-industries:2569efc9-49ef-432e-8e15-4709a68ca168": "2026-11-12",
 "ashby:radiant-industries:28275b5f-edd9-49b7-b244-01402fe5f66a": "2026-10-30",
@@ -75511,6 +75542,8 @@
 "ashby:radiant-industries:9ac171eb-6daf-4e6a-9547-3adf357ad7ba": "2026-11-18",
 "ashby:radiant-industries:9b1512af-5afd-490d-b1a1-a0c715febafd": "2026-11-11",
 "ashby:radiant-industries:9bd3659b-315f-48dc-aba0-3086181526be": "2026-11-05",
+"ashby:radiant-industries:9d843998-a85a-44bb-904d-e9b65edccebb": "2026-11-18",
+"ashby:radiant-industries:a560ed68-9d4d-4520-95ff-c98703b7c6dc": "2026-11-18",
 "ashby:radiant-industries:ae57eb10-6609-4098-90ba-86283ffb3e38": "2026-11-16",
 "ashby:radiant-industries:ae6480d5-d243-476b-a6ef-3e50b87ec0ac": "2026-11-10",
 "ashby:radiant-industries:b86d56a1-e5e7-41d3-b9ee-98abdb509aee": "2026-11-11",
@@ -75520,6 +75553,7 @@
 "ashby:radiant-industries:cdce9bf6-7b64-4c68-9045-ea8856ba17f0": "2026-10-28",
 "ashby:radiant-industries:d72cc8ad-26e8-4b3c-9851-942d90b7a48e": "2026-11-11",
 "ashby:radiant-industries:dfed4c2a-a7ce-442e-b75f-4b1bf5d52183": "2026-11-14",
+"ashby:radiant-industries:e2a0e97f-c671-456f-82b5-0ab6f5d9eb2b": "2026-11-18",
 "ashby:radiant-industries:e5343f9b-48de-4d15-83fe-be82d81415d6": "2026-11-04",
 "ashby:radiant-industries:f04d871b-3c5c-4f8d-84ec-99ca49b76d4d": "2026-11-02",
 "ashby:radiant-industries:f7be5058-8904-43fd-84a2-5b106bb4861a": "2026-10-29",
@@ -75685,6 +75719,7 @@
 "ashby:runway-ml:2975a88e-1519-4094-93a2-b6e66ed1a98c": "2026-11-07",
 "ashby:runway-ml:4c1990b2-b2f9-495e-8a35-f9af295c475a": "2026-10-28",
 "ashby:runway-ml:54ae5057-1bd1-4b14-9444-e01e3643f6cc": "2026-11-14",
+"ashby:runway-ml:81e63d2d-8e5a-44a0-9f3d-57aa0866319c": "2026-11-18",
 "ashby:runway-ml:9a5bef1b-cd54-4258-bb71-4dc7dfded54c": "2026-11-12",
 "ashby:runway-ml:b03fbac5-d23d-4300-ae62-68d6cece1d9b": "2026-11-03",
 "ashby:runway-ml:c73b244e-1bca-4bc3-94a7-7deb11f30011": "2026-10-29",
@@ -93812,6 +93847,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:291930": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:292040": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:292045": "2026-11-17",
+"oracle_hcm:enterpriseplatform.dell.com:292345": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:292517": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:292706": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:292727": "2026-10-29",
@@ -94177,9 +94213,13 @@
 "oracle_hcm:enterpriseplatform.dell.com:301777": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:301778": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:301779": "2026-11-12",
+"oracle_hcm:enterpriseplatform.dell.com:301780": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:301781": "2026-11-12",
+"oracle_hcm:enterpriseplatform.dell.com:301782": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:301783": "2026-11-12",
+"oracle_hcm:enterpriseplatform.dell.com:301784": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:301786": "2026-11-04",
+"oracle_hcm:enterpriseplatform.dell.com:301787": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:301790": "2026-11-12",
 "oracle_hcm:enterpriseplatform.dell.com:301791": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:301792": "2026-11-12",
@@ -94811,6 +94851,8 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304090": "2026-11-16",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304092": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304094": "2026-10-26",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304097": "2026-11-18",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304098": "2026-11-18",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304099": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304104": "2026-10-28",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304105": "2026-11-12",
@@ -95080,6 +95122,7 @@
 "simplify:02f41834-2a2e-4964-8780-2ad1148d6a18": "2026-11-06",
 "simplify:031e43ad-dfc9-4c7f-be98-c6616c6f60ab": "2026-10-19",
 "simplify:033807b0-9d3b-4853-9d70-dafed424a710": "2026-11-10",
+"simplify:03450e61-5413-4d01-ab76-a00ce4e99e0f": "2026-11-18",
 "simplify:03706c55-5354-417e-9590-4dfc5b17cae3": "2026-11-05",
 "simplify:03e3488f-bdec-49ba-875b-b5128864ae39": "2026-10-21",
 "simplify:03f8a56e-38a4-4745-b22d-c05e504cbd5f": "2026-10-29",
@@ -95331,6 +95374,7 @@
 "simplify:2f6d69fc-8180-4d54-9897-cbfcd6be4319": "2026-10-23",
 "simplify:2f9e9265-ad74-4ad3-bc06-3b2268949360": "2026-11-03",
 "simplify:2fb4039c-dae9-4b64-9adc-cdb64d4760ab": "2026-11-11",
+"simplify:304f32e2-fcf6-4a65-9220-0d88ea6a8440": "2026-11-18",
 "simplify:307b15af-645c-4cd9-8d47-9971a990f4fb": "2026-11-11",
 "simplify:30863c37-396f-42bc-abfa-8e774138d558": "2026-10-22",
 "simplify:308d7d0e-34ed-4c86-9997-1b2c9cc3df0d": "2026-10-22",
@@ -104166,6 +104210,7 @@
 "workday:hpe:1217474-3": "2026-11-04",
 "workday:hpe:1217475-2": "2026-11-05",
 "workday:hpe:1217486-3": "2026-10-29",
+"workday:hpe:1217487-2": "2026-11-18",
 "workday:hpe:1217488-1": "2026-11-13",
 "workday:hpe:1217500-2": "2026-10-29",
 "workday:hpe:1217503-2": "2026-10-29",
@@ -105178,6 +105223,7 @@
 "workday:intel:JR0289073-1": "2026-11-12",
 "workday:intel:JR0289075": "2026-11-10",
 "workday:intel:JR0289076-1": "2026-11-12",
+"workday:intel:JR0289078-1": "2026-11-18",
 "workday:intel:JR0289079-1": "2026-11-17",
 "workday:intel:JR0289080": "2026-11-11",
 "workday:intel:JR0289081-1": "2026-11-13",
@@ -105244,6 +105290,7 @@
 "workday:intel:JR0289294": "2026-11-17",
 "workday:intel:JR0289295": "2026-11-17",
 "workday:intel:JR0289306-1": "2026-11-17",
+"workday:intel:JR0289309": "2026-11-18",
 "workday:intel:JR0289315": "2026-11-17",
 "workday:intel:JR0289317": "2026-11-17",
 "workday:intel:JR0289320": "2026-11-17",
@@ -105251,6 +105298,7 @@
 "workday:intel:JR0289322": "2026-11-17",
 "workday:intel:JR0289328": "2026-11-18",
 "workday:intel:JR0289334": "2026-11-18",
+"workday:intel:JR0289335": "2026-11-18",
 "workday:intel:JR0289345-1": "2026-11-17",
 "workday:intel:JR0289347": "2026-11-17",
 "workday:intel:JR0289349": "2026-11-17",
@@ -105701,6 +105749,8 @@
 "workday:marvell:2605314": "2026-11-12",
 "workday:marvell:2605318": "2026-11-16",
 "workday:marvell:2605319": "2026-11-16",
+"workday:marvell:2605320": "2026-11-18",
+"workday:marvell:2605321": "2026-11-18",
 "workday:marvell:2605332": "2026-11-15",
 "workday:marvell:2605340": "2026-11-17",
 "workday:marvell:2605341": "2026-11-17",
@@ -107847,6 +107897,7 @@
 "workday:micron:JR113128": "2026-11-09",
 "workday:micron:JR113130": "2026-10-20",
 "workday:micron:JR113131": "2026-10-21",
+"workday:micron:JR113132": "2026-11-18",
 "workday:micron:JR113149": "2026-10-20",
 "workday:micron:JR113150": "2026-11-17",
 "workday:micron:JR113162": "2026-11-10",
@@ -108644,6 +108695,7 @@
 "workday:micron:JR116983": "2026-11-04",
 "workday:micron:JR116984-1": "2026-11-05",
 "workday:micron:JR116985": "2026-11-05",
+"workday:micron:JR116986": "2026-11-18",
 "workday:micron:JR116990": "2026-11-11",
 "workday:micron:JR116991": "2026-11-05",
 "workday:micron:JR116992-1": "2026-11-04",
@@ -118362,6 +118414,7 @@
 "workday:wf:R-588208": "2026-11-18",
 "workday:wf:R-588210": "2026-11-18",
 "workday:wf:R-588211": "2026-11-18",
+"workday:wf:R-588216": "2026-11-18",
 "workday:workday:JR-0102943-2": "2026-11-16",
 "workday:workday:JR-0103983": "2026-10-28",
 "workday:workday:JR-0105160": "2026-10-28",
@@ -120040,6 +120093,7 @@
 "exa|safety engineer abuse and fraud": "2026-11-12",
 "exa|software engineer security": "2026-10-29",
 "exa|support engineer paygo": "2026-11-08",
+"executive title agency|data analyst": "2026-11-18",
 "exelixis|associate ai and agentic engineer": "2026-10-29",
 "exelixis|associate engineer ai and agentics": "2026-10-29",
 "exl|data analyst": "2026-10-28",
@@ -121844,6 +121898,7 @@
 "thorlabs|data analyst 1": "2026-10-21",
 "thoughtworks|software developer new grad": "2026-10-29",
 "tidal wave auto spa|junior data analyst": "2026-11-12",
+"tiktok|logistics product manager graduate supply chain and logistics": "2026-11-18",
 "tiktok|logistics product strategy operations graduate": "2026-11-17",
 "tiktok|product manager new grad platform trust and ecosystem": "2026-10-26",
 "tiktok|product solutions and operations new grad global monetization product and technology": "2026-10-30",
@@ -122059,9 +122114,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 41,
+"calls": 45,
 "date": "2026-11-18",
-"usd": 0.005416
+"usd": 0.005655
 },
 "years": {
 "amazon:10583340": [
