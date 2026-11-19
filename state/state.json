@@ -22427,6 +22427,13 @@
 },
 "2026-11-17"
 ],
+"rescue:ashby:openai:89959eee-bd3a-4564-9c47-e4771c6c1e0f": [
+{
+"note": "Requires significant product management experience.",
+"senior": true
+},
+"2026-11-19"
+],
 "rescue:ashby:openai:8a98771d-c657-42cc-9542-6acae8fa9839": [
 {
 "note": "Requires specialized skills and experience.",
@@ -69964,7 +69971,7 @@
 "AfterQuery": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 41
 },
 "Agave": {
 "alerted": false,
@@ -70099,7 +70106,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2622
+"typical": 2621
 },
 "AngelList": {
 "alerted": false,
@@ -70229,7 +70236,7 @@
 "Ashby": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 80
 },
 "Asimov": {
 "alerted": false,
@@ -70519,7 +70526,7 @@
 "Campfire": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 49
 },
 "Canary Technologies": {
 "alerted": false,
@@ -72351,7 +72358,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 290,
+"streak": 291,
 "typical": 1
 },
 "Oklo": {
@@ -72397,7 +72404,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 833
+"typical": 834
 },
 "OpenEvidence": {
 "alerted": false,
@@ -72797,7 +72804,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 73,
+"streak": 74,
 "typical": 5
 },
 "Quora": {
@@ -73138,7 +73145,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 258,
+"streak": 259,
 "typical": 39
 },
 "Short Story": {
@@ -73844,7 +73851,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 70
+"typical": 69
 },
 "World Labs": {
 "alerted": false,
@@ -74990,6 +74997,7 @@
 "ashby:ashby:78dc4099-949f-4503-a881-3a0c6f01e6b4": "2026-11-13",
 "ashby:ashby:80c20b00-c3c3-441b-95bd-56eb870e77fb": "2026-11-13",
 "ashby:ashby:88119c51-6f10-4c84-806c-e9a18c8774ba": "2026-11-12",
+"ashby:ashby:893cd08a-929c-4077-b39c-64bc34f347ea": "2026-11-19",
 "ashby:ashby:9225e1fa-66aa-45d2-bf92-2ac653744434": "2026-11-13",
 "ashby:ashby:ac5a2281-806d-4aed-b742-69527b3e4575": "2026-11-15",
 "ashby:ashby:ae8fee4d-fd75-40c8-a049-6557384b15e0": "2026-11-13",
@@ -77387,6 +77395,7 @@
 "ashby:openai:88db99b3-9689-43d1-9223-215be81a0c02": "2026-11-17",
 "ashby:openai:88e65467-7e19-4164-a1de-1d49d3f2dd52": "2026-10-19",
 "ashby:openai:8960d7b6-b345-478f-a5ad-67beaa32f425": "2026-11-05",
+"ashby:openai:89959eee-bd3a-4564-9c47-e4771c6c1e0f": "2026-11-19",
 "ashby:openai:8a98771d-c657-42cc-9542-6acae8fa9839": "2026-11-12",
 "ashby:openai:8ac9a248-4069-45cc-a00e-82f22f1e7ed2": "2026-10-21",
 "ashby:openai:8b237859-7e49-4e46-8850-575b78f76aee": "2026-11-10",
@@ -126331,9 +126340,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 20,
+"calls": 21,
 "date": "2026-11-19",
-"usd": 0.002187
+"usd": 0.002259
 },
 "years": {
 "amazon:10583340": [
