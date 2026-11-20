@@ -4580,6 +4580,16 @@
 },
 "2026-11-19"
 ],
+"amazon:10610063|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-20"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -5429,6 +5439,16 @@
 "us_ok": true
 },
 "2026-11-12"
+],
+"ashby:cantina:d976abf0-5f73-4e37-9b21-c04468fa7795|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2-4 years of relevant experience.",
+"us_ok": true
+},
+"2026-11-20"
 ],
 "ashby:captivateiq:95d83220-694b-4263-879d-6a0abcd09bfc|v3|73908d": [
 {
@@ -73206,7 +73226,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 80
+"typical": 81
 },
 "Accord": {
 "alerted": false,
@@ -73266,7 +73286,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 341
+"typical": 342
 },
 "Ai2": {
 "alerted": false,
@@ -73816,7 +73836,7 @@
 "Cantina": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 22
 },
 "Cape": {
 "alerted": false,
@@ -73826,7 +73846,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 263
+"typical": 264
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -74046,7 +74066,7 @@
 "Coursera": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 37
 },
 "Creatify Lab": {
 "alerted": false,
@@ -74106,7 +74126,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 900
+"typical": 901
 },
 "Datafold": {
 "alerted": false,
@@ -74166,7 +74186,7 @@
 "Discord": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 29
 },
 "Ditto": {
 "alerted": false,
@@ -74311,7 +74331,7 @@
 "Etched": {
 "alerted": false,
 "streak": 0,
-"typical": 118
+"typical": 119
 },
 "Etsy": {
 "alerted": false,
@@ -74662,7 +74682,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 135
+"typical": 136
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -74747,7 +74767,7 @@
 "Heron Power": {
 "alerted": false,
 "streak": 0,
-"typical": 59
+"typical": 60
 },
 "Hippocratic AI": {
 "alerted": false,
@@ -74792,7 +74812,7 @@
 "Hudson River Trading": {
 "alerted": false,
 "streak": 0,
-"typical": 87
+"typical": 86
 },
 "Human Interest": {
 "alerted": false,
@@ -75237,7 +75257,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 91
+"typical": 96
 },
 "Mashgin": {
 "alerted": false,
@@ -75322,7 +75342,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 276
+"typical": 277
 },
 "Microsoft": {
 "alerted": false,
@@ -75518,7 +75538,7 @@
 "Neuralink": {
 "alerted": false,
 "streak": 0,
-"typical": 75
+"typical": 74
 },
 "New Relic": {
 "alerted": false,
@@ -75633,7 +75653,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 348,
+"streak": 349,
 "typical": 1
 },
 "Oklo": {
@@ -76079,7 +76099,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 131,
+"streak": 132,
 "typical": 5
 },
 "Quora": {
@@ -76285,7 +76305,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 202
+"typical": 201
 },
 "Runpod": {
 "alerted": false,
@@ -76320,7 +76340,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 273
+"typical": 275
 },
 "Salient": {
 "alerted": false,
@@ -76420,7 +76440,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 316,
+"streak": 317,
 "typical": 39
 },
 "Short Story": {
@@ -76456,7 +76476,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3092
+"typical": 3090
 },
 "SimplyInsured": {
 "alerted": false,
@@ -76521,7 +76541,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 380
+"typical": 379
 },
 "SoFi": {
 "alerted": false,
@@ -77960,6 +77980,7 @@
 "amazon:10609808": "2026-11-19",
 "amazon:10609809": "2026-11-19",
 "amazon:10609930": "2026-11-19",
+"amazon:10610063": "2026-11-20",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
@@ -78583,6 +78604,7 @@
 "ashby:cantina:aba7515e-c551-4243-a37a-87e8f7dee72b": "2026-10-30",
 "ashby:cantina:cc3761a5-cc2f-4e04-bc43-c6f5af480ac0": "2026-11-09",
 "ashby:cantina:cc93a5d5-5ab5-4121-bccf-01923c504ba9": "2026-10-30",
+"ashby:cantina:d976abf0-5f73-4e37-9b21-c04468fa7795": "2026-11-20",
 "ashby:cantina:e17b4637-04cd-4674-90bb-d3a42eabb7c0": "2026-10-30",
 "ashby:cantina:f501ed5f-afba-4c6f-8b2a-d16e632958bd": "2026-11-13",
 "ashby:cape:94f0de6b-710c-45cc-8113-7091b030f8e0": "2026-10-30",
@@ -79434,6 +79456,7 @@
 "ashby:etched:c5c989ba-020e-4690-a14b-1f5cf85219ba": "2026-10-20",
 "ashby:etched:ce12ef23-5795-45b9-b2ff-a703d25790f4": "2026-11-12",
 "ashby:etched:d6807446-fab5-45d8-b741-a286f2436936": "2026-11-09",
+"ashby:etched:e593a2f6-8f0b-4328-9fd9-b0ff85cf0827": "2026-11-20",
 "ashby:etched:fd1040b0-a119-4681-8a3b-acc1a7a7daa9": "2026-10-29",
 "ashby:exa:0059f617-4744-4a47-b4dd-0a63065864a8": "2026-10-29",
 "ashby:exa:18d1ef7b-3604-40e0-900b-c546162c9a95": "2026-11-04",
@@ -79839,6 +79862,7 @@
 "ashby:heron-power:2c208bd9-3da3-4d5f-bded-57162b521ba6": "2026-11-13",
 "ashby:heron-power:42b32493-fcae-4293-a826-6a2688aaf293": "2026-11-03",
 "ashby:heron-power:48a9eca0-6c5e-423f-a12e-33728a752667": "2026-11-07",
+"ashby:heron-power:4acc35f1-6440-4229-87dd-9bbd29c742e6": "2026-11-20",
 "ashby:heron-power:56584d12-7011-4ac7-9cf5-d2e6035e07b3": "2026-11-04",
 "ashby:heron-power:6394fddb-fe5d-4bfe-9301-8214739f55cd": "2026-11-02",
 "ashby:heron-power:677af1a6-8dec-43d7-9dad-ecce63bb7e60": "2026-11-04",
@@ -89763,6 +89787,7 @@
 "greenhouse:discord:8945798002": "2026-11-20",
 "greenhouse:discord:8945979002": "2026-11-18",
 "greenhouse:discord:8948573002": "2026-11-18",
+"greenhouse:discord:8950137002": "2026-11-20",
 "greenhouse:donorbox:4739955005": "2026-10-27",
 "greenhouse:donorbox:4750566005": "2026-11-12",
 "greenhouse:donorbox:4751812005": "2026-11-14",
@@ -101867,6 +101892,9 @@
 "oracle_hcm:enterpriseplatform.dell.com:301985": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:301993": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:301996": "2026-11-10",
+"oracle_hcm:enterpriseplatform.dell.com:302010": "2026-11-20",
+"oracle_hcm:enterpriseplatform.dell.com:302013": "2026-11-20",
+"oracle_hcm:enterpriseplatform.dell.com:302030": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:302033": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:302049": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:302050": "2026-10-30",
@@ -102707,6 +102735,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304788": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304790": "2026-11-13",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304793": "2026-11-17",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304801": "2026-11-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304804": "2026-11-18",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304805": "2026-11-18",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304806": "2026-11-17",
@@ -108492,6 +108521,7 @@
 "workday:accenture:R00369848": "2026-11-12",
 "workday:accenture:R00369857-1": "2026-11-19",
 "workday:accenture:R00369918": "2026-11-12",
+"workday:accenture:R00369920": "2026-11-20",
 "workday:accenture:R00369923-1": "2026-11-12",
 "workday:accenture:R00369928": "2026-11-19",
 "workday:accenture:R00369942": "2026-11-12",
@@ -108557,6 +108587,7 @@
 "workday:accenture:R00372749": "2026-11-16",
 "workday:accenture:R00372770-1": "2026-11-19",
 "workday:accenture:R00372771": "2026-11-19",
+"workday:accenture:R00372773": "2026-11-20",
 "workday:accenture:R00373209": "2026-11-19",
 "workday:accenture:R00373245": "2026-11-19",
 "workday:accenture:R00373264": "2026-11-19",
@@ -110347,6 +110378,7 @@
 "workday:capitalone:R1006149-1": "2026-11-19",
 "workday:capitalone:R1006155-1": "2026-11-19",
 "workday:capitalone:R1006158-1": "2026-11-19",
+"workday:capitalone:R1006161": "2026-11-20",
 "workday:capitalone:R1006163-1": "2026-11-19",
 "workday:capitalone:R1006168-1": "2026-11-19",
 "workday:capitalone:R1006171-1": "2026-11-19",
@@ -114237,6 +114269,7 @@
 "workday:marvell:2603877-1": "2026-11-03",
 "workday:marvell:2603894-1": "2026-11-19",
 "workday:marvell:2603916-1": "2026-11-10",
+"workday:marvell:2603940": "2026-11-20",
 "workday:marvell:2603941": "2026-10-20",
 "workday:marvell:2604150": "2026-10-20",
 "workday:marvell:2604167": "2026-11-18",
@@ -114306,6 +114339,7 @@
 "workday:marvell:2604968": "2026-11-04",
 "workday:marvell:2604972": "2026-11-11",
 "workday:marvell:2604987": "2026-11-04",
+"workday:marvell:2604995": "2026-11-20",
 "workday:marvell:2605002": "2026-11-05",
 "workday:marvell:2605003": "2026-11-02",
 "workday:marvell:2605018": "2026-10-23",
@@ -114408,10 +114442,12 @@
 "workday:marvell:2605344": "2026-11-19",
 "workday:marvell:2605345": "2026-11-19",
 "workday:marvell:2605350": "2026-11-17",
+"workday:marvell:2605355": "2026-11-20",
 "workday:marvell:2605359": "2026-11-16",
 "workday:marvell:2605361-1": "2026-11-17",
 "workday:marvell:2605362": "2026-11-16",
 "workday:marvell:2605363-1": "2026-11-17",
+"workday:marvell:2605366": "2026-11-20",
 "workday:marvell:2605367": "2026-11-16",
 "workday:marvell:2605369-1": "2026-11-17",
 "workday:marvell:2605370": "2026-11-17",
@@ -119944,6 +119980,7 @@
 "workday:nvidia:JR2028926": "2026-11-02",
 "workday:nvidia:JR2028929": "2026-10-31",
 "workday:nvidia:JR2028930": "2026-10-31",
+"workday:nvidia:JR2028934-1": "2026-11-20",
 "workday:nvidia:JR2028935": "2026-11-02",
 "workday:nvidia:JR2028938": "2026-11-09",
 "workday:nvidia:JR2028947-1": "2026-11-02",
@@ -120005,6 +120042,7 @@
 "workday:nvidia:JR2029119-1": "2026-11-10",
 "workday:nvidia:JR2029121": "2026-11-06",
 "workday:nvidia:JR2029126": "2026-11-11",
+"workday:nvidia:JR2029131": "2026-11-20",
 "workday:nvidia:JR2029139": "2026-11-02",
 "workday:nvidia:JR2029151": "2026-11-02",
 "workday:nvidia:JR2029153": "2026-11-06",
@@ -120255,6 +120293,7 @@
 "workday:nvidia:JR2030133": "2026-11-18",
 "workday:nvidia:JR2030134": "2026-11-17",
 "workday:nvidia:JR2030140": "2026-11-19",
+"workday:nvidia:JR2030146-1": "2026-11-20",
 "workday:nvidia:JR2030158": "2026-11-18",
 "workday:nvidia:JR2030194-1": "2026-11-18",
 "workday:nvidia:JR2030197": "2026-11-19",
@@ -122644,6 +122683,7 @@
 "workday:salesforce:JR368509-1": "2026-11-16",
 "workday:salesforce:JR368517": "2026-11-16",
 "workday:salesforce:JR368519-1": "2026-11-18",
+"workday:salesforce:JR368525-1": "2026-11-20",
 "workday:salesforce:JR368527": "2026-11-16",
 "workday:salesforce:JR368529": "2026-11-18",
 "workday:salesforce:JR368531": "2026-11-17",
@@ -122691,6 +122731,7 @@
 "workday:salesforce:JR368808": "2026-11-19",
 "workday:salesforce:JR368851-2": "2026-11-18",
 "workday:salesforce:JR368852-1": "2026-11-18",
+"workday:salesforce:JR368856": "2026-11-20",
 "workday:salesforce:JR368871-1": "2026-11-19",
 "workday:salesforce:JR368882": "2026-11-19",
 "workday:salesforce:JR368888": "2026-11-20",
@@ -128046,6 +128087,7 @@
 "workday:wf:R-588531": "2026-11-19",
 "workday:wf:R-588535": "2026-11-19",
 "workday:wf:R-588540": "2026-11-19",
+"workday:wf:R-588544": "2026-11-20",
 "workday:wf:R-588556": "2026-11-19",
 "workday:wf:R-588558": "2026-11-19",
 "workday:wf:R-588566": "2026-11-19",
@@ -128958,6 +129000,7 @@
 "amazon|software development engineer ii aft inventory ims team": "2026-11-17",
 "amazon|software development engineer ii amazon connect customer": "2026-11-04",
 "amazon|software development engineer ii amazon fuse": "2026-11-18",
+"amazon|software development engineer ii amazon inspector security engineering": "2026-11-20",
 "amazon|software development engineer ii amazon leo fulfillment technology": "2026-10-19",
 "amazon|software development engineer ii amazon manufacturing services ams": "2026-10-26",
 "amazon|software development engineer ii amazon registries": "2026-11-17",
@@ -129535,6 +129578,7 @@
 "cambridge mobile telematics|software engineer 1 cloud": "2026-11-14",
 "cambridge mobile telematics|software engineer cloud": "2026-10-28",
 "cambridge systematics|transportation analyst": "2026-11-18",
+"cantina|business analyst infrastructure pricing strategy": "2026-11-20",
 "capgemini|full stack developer": "2026-11-03",
 "capital health|it data engineer 1 it data analytics": "2026-11-05",
 "capital one|ai engineer 3 ai foundations": "2026-11-13",
@@ -132009,9 +132053,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 52,
+"calls": 54,
 "date": "2026-11-20",
-"usd": 0.006151
+"usd": 0.006522
 },
 "years": {
 "amazon:10583340": [
