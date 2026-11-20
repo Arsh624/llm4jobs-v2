@@ -13830,6 +13830,16 @@
 },
 "2026-11-19"
 ],
+"eightfold:qualcomm.com:446722230518|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads; minimal experience required.",
+"us_ok": true
+},
+"2026-11-20"
+],
 "greenhouse:accela:8318577|v3|73908d": [
 {
 "chance": 6,
@@ -23232,6 +23242,13 @@
 "senior": true
 },
 "2026-10-23"
+],
+"rescue:ashby:openai:43d75302-2eef-46b6-b991-611e705f9fb1": [
+{
+"note": "Requires significant product management experience.",
+"senior": true
+},
+"2026-11-20"
 ],
 "rescue:ashby:openai:4bcc25ef-cf03-47db-896c-0fd9122afab1": [
 {
@@ -41804,6 +41821,13 @@
 },
 "2026-11-17"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350789": [
+{
+"note": "Requires 6-10+ years of experience.",
+"senior": true
+},
+"2026-11-20"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350812": [
 {
 "note": "Requires extensive experience and expertise.",
@@ -41881,6 +41905,20 @@
 },
 "2026-11-18"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350892": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-20"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350908": [
+{
+"note": "Requires extensive experience in technical management.",
+"senior": true
+},
+"2026-11-20"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350911": [
 {
 "note": "Requires extensive experience in architecture roles.",
@@ -41930,6 +41968,13 @@
 },
 "2026-11-19"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:350986": [
+{
+"note": "Requires deep experience in power electronics.",
+"senior": true
+},
+"2026-11-20"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351007": [
 {
 "note": "Requires extensive experience in complex systems.",
@@ -41978,6 +42023,13 @@
 "senior": true
 },
 "2026-11-02"
+],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:295475": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-11-20"
 ],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:295476": [
 {
@@ -49020,6 +49072,13 @@
 "senior": true
 },
 "2026-11-10"
+],
+"rescue:workday:analogdevices:R269100": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-20"
 ],
 "rescue:workday:broadcom:R025622": [
 {
@@ -73105,7 +73164,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 78
 },
 "Accord": {
 "alerted": false,
@@ -73260,12 +73319,12 @@
 "Amplitude": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -73435,7 +73494,7 @@
 "Astranis": {
 "alerted": false,
 "streak": 0,
-"typical": 172
+"typical": 173
 },
 "Astro Mechanica": {
 "alerted": false,
@@ -74005,7 +74064,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 898
+"typical": 897
 },
 "Datafold": {
 "alerted": false,
@@ -74065,7 +74124,7 @@
 "Discord": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 28
 },
 "Ditto": {
 "alerted": false,
@@ -74160,7 +74219,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 372
+"typical": 371
 },
 "Electric Air": {
 "alerted": false,
@@ -74566,7 +74625,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 211
+"typical": 208
 },
 "HUD": {
 "alerted": false,
@@ -74815,8 +74874,7 @@
 },
 "Intuit": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(837215 bytes read)",
-"streak": 2,
+"streak": 0,
 "typical": 608
 },
 "Invert": {
@@ -75182,7 +75240,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 158
+"typical": 159
 },
 "Mercor": {
 "alerted": false,
@@ -75222,7 +75280,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 271
+"typical": 272
 },
 "Microsoft": {
 "alerted": false,
@@ -75533,7 +75591,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 345,
+"streak": 346,
 "typical": 1
 },
 "Oklo": {
@@ -75579,7 +75637,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 849
+"typical": 850
 },
 "OpenEvidence": {
 "alerted": false,
@@ -75979,7 +76037,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 128,
+"streak": 129,
 "typical": 5
 },
 "Quora": {
@@ -76160,7 +76218,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 555
+"typical": 554
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -76200,7 +76258,7 @@
 "SK hynix America": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 47
 },
 "SafeBreach": {
 "alerted": false,
@@ -76220,7 +76278,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 272
+"typical": 273
 },
 "Salient": {
 "alerted": false,
@@ -76320,7 +76378,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 313,
+"streak": 314,
 "typical": 39
 },
 "Short Story": {
@@ -76356,7 +76414,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3095
+"typical": 3094
 },
 "SimplyInsured": {
 "alerted": false,
@@ -78048,6 +78106,7 @@
 "ashby:amplitude:70f96503-8d5a-442c-8a17-fb02f7697877": "2026-11-06",
 "ashby:amplitude:76b5c221-b12d-42ac-b710-2f8ea3b7bf6f": "2026-10-20",
 "ashby:amplitude:7e773392-9aaf-4c56-b289-8083c2ea96de": "2026-10-27",
+"ashby:amplitude:84159dfb-a06f-452f-a7ee-d2388d6e2530": "2026-11-20",
 "ashby:amplitude:8ca92980-f59f-4375-8cf9-94fa0baae2f3": "2026-10-20",
 "ashby:amplitude:9317659a-09d9-4b7c-859e-6f5e3225da92": "2026-10-30",
 "ashby:amplitude:a25d1c02-2830-4983-a1c5-86409622a702": "2026-11-04",
@@ -80654,6 +80713,7 @@
 "ashby:openai:41408133-b45f-4c7b-a0df-c050f16d92de": "2026-11-06",
 "ashby:openai:4197587e-c0d0-46e4-b86a-25a87d22b056": "2026-11-12",
 "ashby:openai:4311ea62-f628-4689-bec5-de886bb1f191": "2026-11-19",
+"ashby:openai:43d75302-2eef-46b6-b991-611e705f9fb1": "2026-11-20",
 "ashby:openai:4444d839-3f58-4369-a241-985acbbbf2f9": "2026-11-13",
 "ashby:openai:44a25d94-eea2-45e0-945c-386a6f6753ec": "2026-11-19",
 "ashby:openai:45a0886d-a60d-4d5a-9afa-785a75042044": "2026-11-02",
@@ -82611,6 +82671,7 @@
 "ashby:tennr:b888c69f-2bce-4231-82af-3d55a36ac244": "2026-11-13",
 "ashby:tennr:ee43bc67-6c07-49ce-887d-f934048b3d65": "2026-11-10",
 "ashby:terranova:4f0e795a-d1d1-4b74-bd1b-568c223dc9c0": "2026-11-03",
+"ashby:terranova:7ba048ea-818d-46b5-8ff8-3ce58d39bcc6": "2026-11-20",
 "ashby:terranova:ab65c694-e140-4efe-b7f7-abca43e48ba7": "2026-11-03",
 "ashby:terranova:b6ce03c4-07b6-45e1-94e9-24b3ec17d942": "2026-11-03",
 "ashby:thinkingmachines:14bef671-162c-4513-bfcf-e679e41e10a8": "2026-10-27",
@@ -86702,6 +86763,7 @@
 "eightfold:qualcomm.com:446722221279": "2026-11-19",
 "eightfold:qualcomm.com:446722225089": "2026-11-19",
 "eightfold:qualcomm.com:446722227945": "2026-11-20",
+"eightfold:qualcomm.com:446722230518": "2026-11-20",
 "greenhouse:31stunion:8034993003": "2026-10-22",
 "greenhouse:31stunion:8181280003": "2026-11-10",
 "greenhouse:31stunion:8181285003": "2026-11-10",
@@ -88237,6 +88299,7 @@
 "greenhouse:astranis:4728716006": "2026-11-10",
 "greenhouse:astranis:4730083006": "2026-11-16",
 "greenhouse:astranis:4730093006": "2026-11-18",
+"greenhouse:astranis:4731098006": "2026-11-20",
 "greenhouse:atariinc:5456480008": "2026-10-20",
 "greenhouse:atariinc:5459409008": "2026-10-21",
 "greenhouse:atariinc:5459410008": "2026-10-21",
@@ -88996,6 +89059,8 @@
 "greenhouse:cloudflare:8399059": "2026-11-20",
 "greenhouse:cloudflare:8399060": "2026-11-20",
 "greenhouse:cloudflare:8403466": "2026-11-19",
+"greenhouse:cloudflare:8404716": "2026-11-20",
+"greenhouse:cloudflare:8404717": "2026-11-20",
 "greenhouse:coinbase:8047150": "2026-10-31",
 "greenhouse:coinbase:8083906": "2026-11-04",
 "greenhouse:coinbase:8139750": "2026-11-09",
@@ -89639,6 +89704,7 @@
 "greenhouse:discord:8927168002": "2026-11-13",
 "greenhouse:discord:8933480002": "2026-11-06",
 "greenhouse:discord:8935135002": "2026-11-18",
+"greenhouse:discord:8945798002": "2026-11-20",
 "greenhouse:discord:8945979002": "2026-11-18",
 "greenhouse:discord:8948573002": "2026-11-18",
 "greenhouse:donorbox:4739955005": "2026-10-27",
@@ -90228,6 +90294,7 @@
 "greenhouse:figma:6252853004": "2026-11-13",
 "greenhouse:figma:6253326004": "2026-11-12",
 "greenhouse:figma:6253947004": "2026-11-18",
+"greenhouse:figma:6253961004": "2026-11-20",
 "greenhouse:figma:6256957004": "2026-11-12",
 "greenhouse:figma:6261239004": "2026-11-19",
 "greenhouse:figma:6261622004": "2026-11-17",
@@ -101187,6 +101254,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350782": "2026-11-17",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350785": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350787": "2026-11-17",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350789": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350790": "2026-11-17",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350791": "2026-11-17",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350802": "2026-11-18",
@@ -101229,17 +101297,22 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350872": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350875": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350876": "2026-11-18",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350883": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350885": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350887": "2026-11-18",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350892": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350896": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350900": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350905": "2026-11-18",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350907": "2026-11-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350908": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350911": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350912": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350915": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350919": "2026-11-18",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350925": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350930": "2026-11-18",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350931": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350948": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350953": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350954": "2026-11-19",
@@ -101259,11 +101332,13 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350983": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350984": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350985": "2026-11-19",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:350986": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:350995": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351002": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351003": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351004": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351007": "2026-11-19",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351014": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351015": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351016": "2026-11-19",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351017": "2026-11-19",
@@ -101306,6 +101381,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:295243": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:295245": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:295249": "2026-10-30",
+"oracle_hcm:enterpriseplatform.dell.com:295475": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:295476": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:295489": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:295505": "2026-10-29",
@@ -101496,6 +101572,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:300226": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:300257": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:300260": "2026-11-04",
+"oracle_hcm:enterpriseplatform.dell.com:300261": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:300345": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:300347": "2026-11-05",
 "oracle_hcm:enterpriseplatform.dell.com:300413": "2026-10-29",
@@ -101787,6 +101864,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:302688": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:302716": "2026-11-17",
 "oracle_hcm:enterpriseplatform.dell.com:302870": "2026-11-18",
+"oracle_hcm:enterpriseplatform.dell.com:302925": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:D10052": "2026-11-19",
 "oracle_hcm:enterpriseplatform.dell.com:D10729": "2026-11-17",
 "oracle_hcm:enterpriseplatform.dell.com:D11247": "2026-11-12",
@@ -108668,6 +108746,7 @@
 "workday:analogdevices:R268855": "2026-11-10",
 "workday:analogdevices:R268923": "2026-11-12",
 "workday:analogdevices:R268937": "2026-11-13",
+"workday:analogdevices:R269100": "2026-11-20",
 "workday:analogdevices:R269156": "2026-11-19",
 "workday:analogdevices:R269165": "2026-11-16",
 "workday:analogdevices:R269166": "2026-11-16",
@@ -116213,6 +116292,7 @@
 "workday:micron:JR110119": "2026-10-26",
 "workday:micron:JR110127": "2026-10-23",
 "workday:micron:JR110131": "2026-10-23",
+"workday:micron:JR110141": "2026-11-20",
 "workday:micron:JR110143": "2026-10-23",
 "workday:micron:JR110151": "2026-10-23",
 "workday:micron:JR110215": "2026-11-04",
@@ -117422,6 +117502,7 @@
 "workday:micron:JR117384": "2026-11-10",
 "workday:micron:JR117405": "2026-11-16",
 "workday:micron:JR117423": "2026-11-12",
+"workday:micron:JR117430": "2026-11-20",
 "workday:micron:JR117434": "2026-11-11",
 "workday:micron:JR117436": "2026-11-12",
 "workday:micron:JR117437": "2026-11-12",
@@ -119132,6 +119213,7 @@
 "workday:nvidia:JR2025770": "2026-10-31",
 "workday:nvidia:JR2025778": "2026-10-31",
 "workday:nvidia:JR2025794-1": "2026-11-19",
+"workday:nvidia:JR2025805": "2026-11-20",
 "workday:nvidia:JR2025806-1": "2026-10-31",
 "workday:nvidia:JR2025834-1": "2026-10-22",
 "workday:nvidia:JR2025837": "2026-10-21",
@@ -119680,6 +119762,7 @@
 "workday:nvidia:JR2028638": "2026-10-27",
 "workday:nvidia:JR2028642": "2026-10-26",
 "workday:nvidia:JR2028645": "2026-10-29",
+"workday:nvidia:JR2028650": "2026-11-20",
 "workday:nvidia:JR2028657": "2026-10-26",
 "workday:nvidia:JR2028659": "2026-10-29",
 "workday:nvidia:JR2028660": "2026-11-09",
@@ -120045,6 +120128,7 @@
 "workday:nvidia:JR2029902": "2026-11-18",
 "workday:nvidia:JR2029905": "2026-11-11",
 "workday:nvidia:JR2029907": "2026-11-19",
+"workday:nvidia:JR2029909": "2026-11-20",
 "workday:nvidia:JR2029912": "2026-11-13",
 "workday:nvidia:JR2029915": "2026-11-16",
 "workday:nvidia:JR2029921": "2026-11-17",
@@ -122527,6 +122611,7 @@
 "workday:salesforce:JR368852-1": "2026-11-18",
 "workday:salesforce:JR368871-1": "2026-11-19",
 "workday:salesforce:JR368882": "2026-11-19",
+"workday:salesforce:JR368888": "2026-11-20",
 "workday:salesforce:JR368889": "2026-11-19",
 "workday:salesforce:JR368891": "2026-11-19",
 "workday:salesforce:JR368893": "2026-11-19",
@@ -123810,6 +123895,7 @@
 "workday:tmobile:REQ381016-1": "2026-11-16",
 "workday:tmobile:REQ381019-1": "2026-11-16",
 "workday:tmobile:REQ381021-1": "2026-11-05",
+"workday:tmobile:REQ381022": "2026-11-20",
 "workday:tmobile:REQ381023-1": "2026-11-05",
 "workday:tmobile:REQ381025-1": "2026-11-05",
 "workday:tmobile:REQ381028-1": "2026-11-02",
@@ -131059,6 +131145,7 @@
 "qualcomm|data center engineering post silicon power and performance engineer": "2026-11-14",
 "qualcomm|design engineer low power": "2026-11-03",
 "qualcomm|digital hardware engineer": "2026-10-20",
+"qualcomm|dsp applications software engineer": "2026-11-20",
 "qualcomm|embedded audio software engineer": "2026-11-19",
 "qualcomm|embedded audio software engineer software engineering": "2026-11-19",
 "qualcomm|embedded systems software engineer": "2026-11-18",
@@ -131837,9 +131924,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 38,
+"calls": 46,
 "date": "2026-11-20",
-"usd": 0.004955
+"usd": 0.005669
 },
 "years": {
 "amazon:10583340": [
