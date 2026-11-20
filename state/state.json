@@ -35740,6 +35740,13 @@
 },
 "2026-11-16"
 ],
+"rescue:greenhouse:tenstorrent:5302697007": [
+{
+"note": "Open to various experience levels.",
+"senior": false
+},
+"2026-11-20"
+],
 "rescue:greenhouse:thealleninstitute:8384601": [
 {
 "note": "Requires significant technical program management experience.",
@@ -52413,6 +52420,13 @@
 "senior": true
 },
 "2026-11-03"
+],
+"rescue:workday:hpe:1216305-1": [
+{
+"note": "Requires significant technical expertise.",
+"senior": true
+},
+"2026-11-20"
 ],
 "rescue:workday:hpe:1216338-1": [
 {
@@ -73590,7 +73604,7 @@
 "Alpaca": {
 "alerted": false,
 "streak": 0,
-"typical": 67
+"typical": 66
 },
 "Amazon": {
 "alerted": false,
@@ -73635,7 +73649,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2624
+"typical": 2623
 },
 "AngelList": {
 "alerted": false,
@@ -74035,7 +74049,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 52
+"typical": 53
 },
 "Calm": {
 "alerted": false,
@@ -74195,7 +74209,7 @@
 "ClickHouse": {
 "alerted": false,
 "streak": 0,
-"typical": 201
+"typical": 202
 },
 "ClickUp": {
 "alerted": false,
@@ -75506,7 +75520,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 29
+"typical": 30
 },
 "MatX": {
 "alerted": false,
@@ -75656,7 +75670,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 412
+"typical": 413
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -75887,7 +75901,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 367,
+"streak": 368,
 "typical": 1
 },
 "Oklo": {
@@ -76333,7 +76347,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 150,
+"streak": 151,
 "typical": 5
 },
 "Quora": {
@@ -76574,7 +76588,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 237
+"typical": 239
 },
 "Salient": {
 "alerted": false,
@@ -76674,7 +76688,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 335,
+"streak": 336,
 "typical": 39
 },
 "Short Story": {
@@ -77025,7 +77039,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 140
+"typical": 141
 },
 "Terranova": {
 "alerted": false,
@@ -77450,7 +77464,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 376
+"typical": 377
 },
 "Zuora": {
 "alerted": false,
@@ -77500,7 +77514,7 @@
 "project44": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "webAI": {
 "alerted": false,
@@ -78918,6 +78932,7 @@
 "ashby:clickhouse:09e41081-188d-4130-9007-3571d61d6981": "2026-11-13",
 "ashby:clickhouse:0c43faa1-e44d-4c2f-8c52-2a3a3cb18d6a": "2026-11-19",
 "ashby:clickhouse:1176ec78-e10d-4acd-8af8-47406af929ee": "2026-10-19",
+"ashby:clickhouse:1b957026-846a-4f96-8387-84ef3f2daa4d": "2026-11-20",
 "ashby:clickhouse:1b9f345d-47bc-4055-b962-ea6539042c75": "2026-11-02",
 "ashby:clickhouse:2137b19e-a226-4e3c-8c8d-0e0ca30415e6": "2026-10-20",
 "ashby:clickhouse:220080d1-c844-42e6-a762-9f3453289ac1": "2026-11-20",
@@ -92051,6 +92066,7 @@
 "greenhouse:mongodb:8398670": "2026-11-18",
 "greenhouse:mongodb:8399041": "2026-11-18",
 "greenhouse:mongodb:8399277": "2026-11-19",
+"greenhouse:mongodb:8401912": "2026-11-20",
 "greenhouse:mongodb:8403104": "2026-11-19",
 "greenhouse:motional:8044945003": "2026-10-29",
 "greenhouse:motional:8046057003": "2026-10-29",
@@ -93332,6 +93348,7 @@
 "greenhouse:project44:8374848": "2026-11-11",
 "greenhouse:project44:8378314": "2026-11-12",
 "greenhouse:project44:8384793": "2026-11-17",
+"greenhouse:project44:8399410": "2026-11-20",
 "greenhouse:psiquantum:8037726003": "2026-10-23",
 "greenhouse:psiquantum:8039157003": "2026-10-26",
 "greenhouse:psiquantum:8040245003": "2026-10-26",
@@ -95509,6 +95526,7 @@
 "greenhouse:tenstorrent:5301072007": "2026-11-19",
 "greenhouse:tenstorrent:5302197007": "2026-11-19",
 "greenhouse:tenstorrent:5302318007": "2026-11-19",
+"greenhouse:tenstorrent:5302697007": "2026-11-20",
 "greenhouse:thatch:5378215008": "2026-10-29",
 "greenhouse:thatch:5462155008": "2026-10-28",
 "greenhouse:thatch:5465868008": "2026-10-28",
@@ -96445,6 +96463,7 @@
 "greenhouse:zscaler:5299256007": "2026-11-18",
 "greenhouse:zscaler:5301026007": "2026-11-19",
 "greenhouse:zscaler:5301030007": "2026-11-19",
+"greenhouse:zscaler:5301401007": "2026-11-20",
 "greenhouse:zscaler:5302790007": "2026-11-20",
 "greenhouse:zuora:8119425": "2026-10-20",
 "greenhouse:zuora:8247021": "2026-10-23",
@@ -98576,6 +98595,7 @@
 "jibe:careers.rivian.com:36882": "2026-11-17",
 "jibe:careers.rivian.com:36943": "2026-11-19",
 "jibe:careers.rivian.com:37009": "2026-11-17",
+"jibe:careers.rivian.com:37011": "2026-11-20",
 "jibe:careers.rivian.com:37016": "2026-11-17",
 "jibe:careers.rivian.com:37042": "2026-11-18",
 "jibe:careers.rivian.com:37079": "2026-11-19",
@@ -100861,6 +100881,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348615": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348617": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348618": "2026-11-06",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:348619": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348622": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348629": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:348630": "2026-10-28",
@@ -112903,6 +112924,7 @@
 "workday:hpe:1216291-2": "2026-11-05",
 "workday:hpe:1216294": "2026-11-05",
 "workday:hpe:1216303-2": "2026-11-09",
+"workday:hpe:1216305-1": "2026-11-20",
 "workday:hpe:1216309-2": "2026-10-29",
 "workday:hpe:1216311-1": "2026-10-29",
 "workday:hpe:1216312-2": "2026-10-29",
@@ -114981,6 +115003,7 @@
 "workday:mastercard:R-287179": "2026-10-30",
 "workday:mastercard:R-287180-1": "2026-11-02",
 "workday:mastercard:R-287256": "2026-10-29",
+"workday:mastercard:R-287446": "2026-11-20",
 "workday:mastercard:R-287484": "2026-10-30",
 "workday:mastercard:R-287487": "2026-10-29",
 "workday:mastercard:R-287561": "2026-10-30",
@@ -121578,6 +121601,7 @@
 "workday:salesforce:JR350894": "2026-11-03",
 "workday:salesforce:JR350903": "2026-11-06",
 "workday:salesforce:JR350915": "2026-10-20",
+"workday:salesforce:JR351018": "2026-11-20",
 "workday:salesforce:JR351045-1": "2026-11-19",
 "workday:salesforce:JR351214": "2026-10-30",
 "workday:salesforce:JR351240": "2026-10-27",
@@ -121980,6 +122004,7 @@
 "workday:salesforce:JR361311": "2026-10-30",
 "workday:salesforce:JR361319": "2026-10-27",
 "workday:salesforce:JR361343": "2026-10-27",
+"workday:salesforce:JR361356": "2026-11-20",
 "workday:salesforce:JR361370": "2026-10-28",
 "workday:salesforce:JR361371": "2026-10-20",
 "workday:salesforce:JR361374": "2026-10-29",
@@ -132539,9 +132564,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 87,
+"calls": 89,
 "date": "2026-11-20",
-"usd": 0.008926
+"usd": 0.009073
 },
 "years": {
 "amazon:10583340": [
