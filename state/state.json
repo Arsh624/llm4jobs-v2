@@ -73075,6 +73075,16 @@
 },
 "2026-11-12"
 ],
+"workday:micron:JR117709|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of specific layout design experience.",
+"us_ok": true
+},
+"2026-11-21"
+],
 "workday:micron:JR117741|v3|73908d": [
 {
 "chance": 8,
@@ -76054,7 +76064,8 @@
 },
 "Adobe": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 17
 },
 "Affirm": {
@@ -77134,7 +77145,8 @@
 },
 "Etsy": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 22
 },
 "Eudia": {
@@ -77485,7 +77497,8 @@
 },
 "HPE / Juniper Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 197
 },
 "HUD": {
@@ -77875,7 +77888,8 @@
 },
 "Kyndryl Early Careers": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 30
 },
 "LTSE": {
@@ -78025,7 +78039,8 @@
 },
 "Lumentum": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 35
 },
 "Luminai": {
@@ -78135,13 +78150,14 @@
 },
 "Microchip Technology": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 19
 },
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 237
+"typical": 242
 },
 "Microsoft": {
 "alerted": false,
@@ -78452,7 +78468,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 404,
+"streak": 405,
 "typical": 1
 },
 "Oklo": {
@@ -78898,7 +78914,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 187,
+"streak": 188,
 "typical": 5
 },
 "Quora": {
@@ -79239,7 +79255,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 372,
+"streak": 373,
 "typical": 39
 },
 "Short Story": {
@@ -79275,7 +79291,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3126
+"typical": 3124
 },
 "SimplyInsured": {
 "alerted": false,
@@ -79944,7 +79960,8 @@
 },
 "Workday": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 78
 },
 "World Labs": {
@@ -79984,7 +80001,8 @@
 },
 "Zillow": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 59
 },
 "Zimperium": {
@@ -80044,7 +80062,8 @@
 },
 "eBay": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 520: <none>",
+"streak": 1,
 "typical": 34
 },
 "fal": {
@@ -122060,6 +122079,7 @@
 "workday:micron:JR117591": "2026-11-11",
 "workday:micron:JR117594": "2026-11-16",
 "workday:micron:JR117602": "2026-11-17",
+"workday:micron:JR117604": "2026-11-21",
 "workday:micron:JR117605": "2026-11-13",
 "workday:micron:JR117611": "2026-11-18",
 "workday:micron:JR117622": "2026-11-13",
@@ -122088,6 +122108,7 @@
 "workday:micron:JR117697": "2026-11-13",
 "workday:micron:JR117706": "2026-11-18",
 "workday:micron:JR117708": "2026-11-13",
+"workday:micron:JR117709": "2026-11-21",
 "workday:micron:JR117718": "2026-11-17",
 "workday:micron:JR117727": "2026-11-16",
 "workday:micron:JR117731": "2026-11-19",
@@ -135517,6 +135538,7 @@
 "micron|design engineer dram technology and products": "2026-11-12",
 "micron|device characterization engineer advanced emerging memory": "2026-11-02",
 "micron|diffusion equipment engineer": "2026-10-26",
+"micron|dram design tech layout engineer": "2026-11-21",
 "micron|dram device cell technology engineer": "2026-11-02",
 "micron|dram process integration engineer": "2026-11-13",
 "micron|engineer design methodology analog testbench development": "2026-11-12",
@@ -137031,9 +137053,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 75,
+"calls": 76,
 "date": "2026-11-21",
-"usd": 0.009068
+"usd": 0.009321
 },
 "years": {
 "amazon:10583340": [
