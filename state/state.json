@@ -60730,6 +60730,13 @@
 },
 "2026-11-20"
 ],
+"rescue:workday:nvidia:JR2030252": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:workday:nxp:R-10061875-1": [
 {
 "note": "Requires significant experience in security engineering.",
@@ -73887,6 +73894,16 @@
 },
 "2026-10-23"
 ],
+"workday:nvidia:JR2026870|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of hardware-related experience.",
+"us_ok": true
+},
+"2026-11-21"
+],
 "workday:nvidia:JR2026919|v3|73908d": [
 {
 "chance": 3,
@@ -74186,6 +74203,16 @@
 "us_ok": true
 },
 "2026-11-14"
+],
+"workday:nvidia:JR2029574|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of relevant experience.",
+"us_ok": true
+},
+"2026-11-21"
 ],
 "workday:nvidia:JR2029815|v3|73908d": [
 {
@@ -75977,7 +76004,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 104
 },
 "Accord": {
 "alerted": false,
@@ -77678,7 +77705,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 191
 },
 "Intro": {
 "alerted": false,
@@ -78053,7 +78080,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 162
+"typical": 161
 },
 "Mercor": {
 "alerted": false,
@@ -78404,7 +78431,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 400,
+"streak": 401,
 "typical": 1
 },
 "Oklo": {
@@ -78680,7 +78707,7 @@
 "Planet Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 112
+"typical": 111
 },
 "PlanetScale": {
 "alerted": false,
@@ -78850,7 +78877,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 183,
+"streak": 184,
 "typical": 5
 },
 "Quora": {
@@ -79191,7 +79218,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 368,
+"streak": 369,
 "typical": 39
 },
 "Short Story": {
@@ -79227,7 +79254,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3128
+"typical": 3127
 },
 "SimplyInsured": {
 "alerted": false,
@@ -95463,6 +95490,7 @@
 "greenhouse:okta:8395428": "2026-11-17",
 "greenhouse:okta:8395735": "2026-11-17",
 "greenhouse:okta:8396146": "2026-11-18",
+"greenhouse:okta:8396674": "2026-11-21",
 "greenhouse:okta:8396676": "2026-11-17",
 "greenhouse:okta:8396710": "2026-11-20",
 "greenhouse:okta:8396722": "2026-11-18",
@@ -118083,6 +118111,7 @@
 "workday:intel:JR0289089-1": "2026-11-12",
 "workday:intel:JR0289090": "2026-11-13",
 "workday:intel:JR0289091": "2026-11-10",
+"workday:intel:JR0289092": "2026-11-21",
 "workday:intel:JR0289093": "2026-11-11",
 "workday:intel:JR0289094": "2026-11-21",
 "workday:intel:JR0289095": "2026-11-13",
@@ -123481,6 +123510,7 @@
 "workday:nvidia:JR2023984": "2026-11-02",
 "workday:nvidia:JR2023985": "2026-11-16",
 "workday:nvidia:JR2023986-1": "2026-11-16",
+"workday:nvidia:JR2024021": "2026-11-21",
 "workday:nvidia:JR2024030": "2026-10-31",
 "workday:nvidia:JR2024031": "2026-10-21",
 "workday:nvidia:JR2024052": "2026-10-31",
@@ -123552,6 +123582,7 @@
 "workday:nvidia:JR2024480": "2026-10-31",
 "workday:nvidia:JR2024482-1": "2026-10-31",
 "workday:nvidia:JR2024491-1": "2026-10-31",
+"workday:nvidia:JR2024493-1": "2026-11-21",
 "workday:nvidia:JR2024511": "2026-10-30",
 "workday:nvidia:JR2024519": "2026-11-10",
 "workday:nvidia:JR2024523-1": "2026-10-28",
@@ -123600,6 +123631,7 @@
 "workday:nvidia:JR2024918": "2026-10-28",
 "workday:nvidia:JR2024920": "2026-10-31",
 "workday:nvidia:JR2024923": "2026-10-31",
+"workday:nvidia:JR2024925": "2026-11-21",
 "workday:nvidia:JR2024929-1": "2026-10-31",
 "workday:nvidia:JR2024940": "2026-10-21",
 "workday:nvidia:JR2024946": "2026-10-20",
@@ -123827,6 +123859,7 @@
 "workday:nvidia:JR2026853": "2026-10-29",
 "workday:nvidia:JR2026859": "2026-10-19",
 "workday:nvidia:JR2026861": "2026-10-23",
+"workday:nvidia:JR2026870": "2026-11-21",
 "workday:nvidia:JR2026874": "2026-10-21",
 "workday:nvidia:JR2026886": "2026-10-29",
 "workday:nvidia:JR2026898": "2026-11-05",
@@ -123952,6 +123985,7 @@
 "workday:nvidia:JR2027630": "2026-10-19",
 "workday:nvidia:JR2027632": "2026-10-23",
 "workday:nvidia:JR2027634": "2026-10-31",
+"workday:nvidia:JR2027639": "2026-11-21",
 "workday:nvidia:JR2027642": "2026-10-31",
 "workday:nvidia:JR2027643": "2026-11-02",
 "workday:nvidia:JR2027658": "2026-10-31",
@@ -124223,6 +124257,7 @@
 "workday:nvidia:JR2028487": "2026-10-28",
 "workday:nvidia:JR2028491": "2026-10-27",
 "workday:nvidia:JR2028494-1": "2026-11-16",
+"workday:nvidia:JR2028497": "2026-11-21",
 "workday:nvidia:JR2028498": "2026-10-24",
 "workday:nvidia:JR2028499": "2026-10-24",
 "workday:nvidia:JR2028501": "2026-10-23",
@@ -124443,6 +124478,7 @@
 "workday:nvidia:JR2029139": "2026-11-02",
 "workday:nvidia:JR2029151": "2026-11-02",
 "workday:nvidia:JR2029153": "2026-11-06",
+"workday:nvidia:JR2029155-1": "2026-11-21",
 "workday:nvidia:JR2029158": "2026-11-06",
 "workday:nvidia:JR2029160": "2026-11-02",
 "workday:nvidia:JR2029162": "2026-10-31",
@@ -124492,6 +124528,7 @@
 "workday:nvidia:JR2029337": "2026-11-02",
 "workday:nvidia:JR2029338": "2026-11-09",
 "workday:nvidia:JR2029342": "2026-11-09",
+"workday:nvidia:JR2029344": "2026-11-21",
 "workday:nvidia:JR2029346": "2026-11-13",
 "workday:nvidia:JR2029347": "2026-11-10",
 "workday:nvidia:JR2029350": "2026-11-10",
@@ -124527,6 +124564,7 @@
 "workday:nvidia:JR2029446": "2026-11-20",
 "workday:nvidia:JR2029449": "2026-11-05",
 "workday:nvidia:JR2029455": "2026-11-10",
+"workday:nvidia:JR2029456-1": "2026-11-21",
 "workday:nvidia:JR2029457": "2026-11-06",
 "workday:nvidia:JR2029460": "2026-11-05",
 "workday:nvidia:JR2029468": "2026-11-06",
@@ -124548,6 +124586,7 @@
 "workday:nvidia:JR2029543": "2026-11-06",
 "workday:nvidia:JR2029548": "2026-11-16",
 "workday:nvidia:JR2029570": "2026-11-06",
+"workday:nvidia:JR2029574": "2026-11-21",
 "workday:nvidia:JR2029575": "2026-11-11",
 "workday:nvidia:JR2029576-1": "2026-11-17",
 "workday:nvidia:JR2029577": "2026-11-06",
@@ -124609,7 +124648,9 @@
 "workday:nvidia:JR2029786": "2026-11-11",
 "workday:nvidia:JR2029788": "2026-11-19",
 "workday:nvidia:JR2029789": "2026-11-19",
+"workday:nvidia:JR2029790": "2026-11-21",
 "workday:nvidia:JR2029791": "2026-11-19",
+"workday:nvidia:JR2029793": "2026-11-21",
 "workday:nvidia:JR2029798": "2026-11-09",
 "workday:nvidia:JR2029799": "2026-11-14",
 "workday:nvidia:JR2029800": "2026-11-18",
@@ -124618,6 +124659,7 @@
 "workday:nvidia:JR2029813": "2026-11-16",
 "workday:nvidia:JR2029815": "2026-11-18",
 "workday:nvidia:JR2029825": "2026-11-20",
+"workday:nvidia:JR2029826": "2026-11-21",
 "workday:nvidia:JR2029831": "2026-11-18",
 "workday:nvidia:JR2029832": "2026-11-10",
 "workday:nvidia:JR2029833-1": "2026-11-10",
@@ -124635,10 +124677,12 @@
 "workday:nvidia:JR2029860": "2026-11-19",
 "workday:nvidia:JR2029862": "2026-11-19",
 "workday:nvidia:JR2029863": "2026-11-16",
+"workday:nvidia:JR2029864": "2026-11-21",
 "workday:nvidia:JR2029865": "2026-11-19",
 "workday:nvidia:JR2029866": "2026-11-19",
 "workday:nvidia:JR2029869": "2026-11-16",
 "workday:nvidia:JR2029873": "2026-11-16",
+"workday:nvidia:JR2029877": "2026-11-21",
 "workday:nvidia:JR2029878": "2026-11-19",
 "workday:nvidia:JR2029883": "2026-11-20",
 "workday:nvidia:JR2029895": "2026-11-20",
@@ -124650,6 +124694,7 @@
 "workday:nvidia:JR2029909": "2026-11-20",
 "workday:nvidia:JR2029912": "2026-11-13",
 "workday:nvidia:JR2029915": "2026-11-16",
+"workday:nvidia:JR2029917-1": "2026-11-21",
 "workday:nvidia:JR2029921": "2026-11-17",
 "workday:nvidia:JR2029924": "2026-11-12",
 "workday:nvidia:JR2029925": "2026-11-13",
@@ -124679,6 +124724,7 @@
 "workday:nvidia:JR2030014-1": "2026-11-16",
 "workday:nvidia:JR2030024": "2026-11-16",
 "workday:nvidia:JR2030025": "2026-11-19",
+"workday:nvidia:JR2030026": "2026-11-21",
 "workday:nvidia:JR2030027": "2026-11-20",
 "workday:nvidia:JR2030030": "2026-11-20",
 "workday:nvidia:JR2030034": "2026-11-17",
@@ -124693,6 +124739,7 @@
 "workday:nvidia:JR2030092-1": "2026-11-17",
 "workday:nvidia:JR2030094": "2026-11-19",
 "workday:nvidia:JR2030099": "2026-11-17",
+"workday:nvidia:JR2030101": "2026-11-21",
 "workday:nvidia:JR2030109": "2026-11-18",
 "workday:nvidia:JR2030119": "2026-11-18",
 "workday:nvidia:JR2030124": "2026-11-18",
@@ -124714,14 +124761,18 @@
 "workday:nvidia:JR2030238": "2026-11-20",
 "workday:nvidia:JR2030240": "2026-11-17",
 "workday:nvidia:JR2030246": "2026-11-19",
+"workday:nvidia:JR2030252": "2026-11-21",
 "workday:nvidia:JR2030254": "2026-11-19",
+"workday:nvidia:JR2030268": "2026-11-21",
 "workday:nvidia:JR2030272": "2026-11-20",
 "workday:nvidia:JR2030275-1": "2026-11-18",
 "workday:nvidia:JR2030289": "2026-11-19",
+"workday:nvidia:JR2030308": "2026-11-21",
 "workday:nvidia:JR2030323": "2026-11-21",
 "workday:nvidia:JR2030324": "2026-11-19",
 "workday:nvidia:JR2030346-1": "2026-11-20",
 "workday:nvidia:JR2030397": "2026-11-20",
+"workday:nvidia:JR2030441": "2026-11-21",
 "workday:nxp:R-10061214": "2026-10-29",
 "workday:nxp:R-10061457": "2026-10-29",
 "workday:nxp:R-10061806": "2026-11-03",
@@ -135835,6 +135886,7 @@
 "nvidia|power methodology and modeling engineer new college grad 2026": "2026-11-19",
 "nvidia|power validation engineer": "2026-10-22",
 "nvidia|product manager open models": "2026-11-14",
+"nvidia|product quality engineer": "2026-11-21",
 "nvidia|research scientist ai and systems security phd new college grad 2026": "2026-11-07",
 "nvidia|research scientist autonomous systems and physical ai research phd new college grad 2026": "2026-10-31",
 "nvidia|research scientist electronic design automation new college grad 2026": "2026-10-28",
@@ -135868,6 +135920,7 @@
 "nvidia|system software engineer uefi firmware": "2026-11-03",
 "nvidia|technical product marketing engineer robotics simulation": "2026-10-19",
 "nvidia|technical product marketing engineer robotics simulation new college grad 2027": "2026-10-19",
+"nvidia|thermal design engineer": "2026-11-21",
 "nxp semiconductors|etch equipment engineer": "2026-11-06",
 "nxp semiconductors|photo metrology equipment engineer echo fab": "2026-10-29",
 "nxp semiconductors|semiconductor equipment engineer": "2026-10-29",
@@ -136942,9 +136995,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 69,
+"calls": 72,
 "date": "2026-11-21",
-"usd": 0.008371
+"usd": 0.008848
 },
 "years": {
 "amazon:10583340": [
