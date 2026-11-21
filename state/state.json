@@ -22545,6 +22545,13 @@
 },
 "2026-11-17"
 ],
+"rescue:ashby:cerebras:022ff2d3-6cff-4632-bfc4-62beb1303c7e": [
+{
+"note": "Requires significant experience in technical program management.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:ashby:cerebras:0e00a241-92ad-4ca6-a80f-e8353bf4a36f": [
 {
 "note": "Requires extensive experience in critical facilities.",
@@ -32017,6 +32024,13 @@
 "2026-10-30"
 ],
 "rescue:greenhouse:billcom:6265813004": [
+{
+"note": "Staff roles typically require more experience.",
+"senior": true
+},
+"2026-11-21"
+],
+"rescue:greenhouse:billcom:6268193004": [
 {
 "note": "Staff roles typically require more experience.",
 "senior": true
@@ -50629,6 +50643,13 @@
 },
 "2026-11-10"
 ],
+"rescue:workday:accenture:14194003": [
+{
+"note": "Role suitable for early career candidates.",
+"senior": false
+},
+"2026-11-21"
+],
 "rescue:workday:accenture:14938686": [
 {
 "note": "Requires significant experience in architecture roles.",
@@ -64252,6 +64273,16 @@
 },
 "2026-11-10"
 ],
+"workday:accenture:14194003|v3|73908d": [
+{
+"chance": 5,
+"level": "unknown",
+"min_years": null,
+"note": "Requires strong ETL and SQL experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-21"
+],
 "workday:accenture:14810136|v3|73908d": [
 {
 "chance": 3,
@@ -64401,6 +64432,16 @@
 "us_ok": true
 },
 "2026-11-19"
+],
+"workday:accenture:R00353879|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3 years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-21"
 ],
 "workday:accenture:R00354350|v3|73908d": [
 {
@@ -74752,6 +74793,16 @@
 },
 "2026-11-18"
 ],
+"workday:salesforce:JR369213|v3|73908d": [
+{
+"chance": 9,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads and offers hands-on learning opportunities.",
+"us_ok": true
+},
+"2026-11-21"
+],
 "workday:tmobile:REQ349848-1|v3|73908d": [
 {
 "chance": 4,
@@ -75912,7 +75963,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 104
 },
 "Accord": {
 "alerted": false,
@@ -76367,7 +76418,7 @@
 "Bill.com": {
 "alerted": false,
 "streak": 0,
-"typical": 34
+"typical": 35
 },
 "BioRender": {
 "alerted": false,
@@ -76487,7 +76538,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 55
+"typical": 56
 },
 "Calm": {
 "alerted": false,
@@ -76567,7 +76618,7 @@
 "Cerebras": {
 "alerted": false,
 "streak": 0,
-"typical": 130
+"typical": 131
 },
 "Character.AI": {
 "alerted": false,
@@ -78339,7 +78390,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 395,
+"streak": 396,
 "typical": 1
 },
 "Oklo": {
@@ -78735,7 +78786,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 403
+"typical": 402
 },
 "Pylon": {
 "alerted": false,
@@ -78785,7 +78836,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 178,
+"streak": 179,
 "typical": 5
 },
 "Quora": {
@@ -79026,7 +79077,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 267
+"typical": 268
 },
 "Salient": {
 "alerted": false,
@@ -79126,7 +79177,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 363,
+"streak": 364,
 "typical": 39
 },
 "Short Story": {
@@ -81377,6 +81428,7 @@
 "ashby:cartesia:f37847e1-13f4-451d-b168-75adea55ac31": "2026-10-29",
 "ashby:cascade-ai:02c71bfe-880a-4547-a233-fc9bb7984571": "2026-11-02",
 "ashby:cascade-ai:d0c48bb0-c0f0-4629-bc95-5ade4a4c18d5": "2026-11-02",
+"ashby:cerebras:022ff2d3-6cff-4632-bfc4-62beb1303c7e": "2026-11-21",
 "ashby:cerebras:08ffd14b-cb60-4916-9946-735e49594308": "2026-10-20",
 "ashby:cerebras:0e00a241-92ad-4ca6-a80f-e8353bf4a36f": "2026-11-10",
 "ashby:cerebras:146bea1f-9442-4c9b-8ec1-cb3c8abc84ba": "2026-10-23",
@@ -84253,6 +84305,7 @@
 "ashby:promise:ac4259d7-1276-440f-b918-851ef3e0faa5": "2026-11-03",
 "ashby:promise:b92b5a69-d163-4068-a069-b25a272187ed": "2026-10-28",
 "ashby:promise:bb3391c2-4d1e-4e48-a9fe-5eeffec76e16": "2026-11-18",
+"ashby:promise:fb838ccc-aae2-4b85-9da8-2a158366f2ec": "2026-11-21",
 "ashby:propel:21faa4f1-6fff-4f93-8c6b-ced611e4e533": "2026-11-16",
 "ashby:propel:8583576c-0768-414f-960d-b85408ff316a": "2026-11-17",
 "ashby:prosper-ai:2884cc73-31c7-4af9-a62d-fa8205f5b817": "2026-10-29",
@@ -88965,6 +89018,7 @@
 "eightfold:microsoft.com:1970393557056060": "2026-11-10",
 "eightfold:microsoft.com:1970393557056061": "2026-11-10",
 "eightfold:microsoft.com:1970393557056066": "2026-11-10",
+"eightfold:microsoft.com:1970393557056068": "2026-11-21",
 "eightfold:microsoft.com:1970393557056074": "2026-11-12",
 "eightfold:microsoft.com:1970393557056075": "2026-11-12",
 "eightfold:microsoft.com:1970393557056079": "2026-11-11",
@@ -91545,6 +91599,7 @@
 "greenhouse:billcom:6255594004": "2026-11-17",
 "greenhouse:billcom:6265813004": "2026-11-21",
 "greenhouse:billcom:6266920004": "2026-11-20",
+"greenhouse:billcom:6268193004": "2026-11-21",
 "greenhouse:billcom:6268202004": "2026-11-21",
 "greenhouse:bitgo:8891159002": "2026-10-26",
 "greenhouse:bitgo:8891162002": "2026-10-26",
@@ -107182,6 +107237,7 @@
 "simplify:697c6f79-8bfb-4200-ad97-2a31888e79c4": "2026-11-07",
 "simplify:699591d8-7084-4683-871a-0df3755f70bb": "2026-10-29",
 "simplify:69a2b80e-0007-44a1-9f87-b52f905dcc1b": "2026-11-05",
+"simplify:69cfe444-3d22-40fd-af5f-c2c0079f99fb": "2026-11-21",
 "simplify:69d9ab55-5741-4e19-aae0-3bdb3370449d": "2026-11-21",
 "simplify:69f5a8df-73e6-472d-b6d0-048a78eb3197": "2026-11-17",
 "simplify:6a4a325c-d8f4-4b7b-b22d-35978c737229": "2026-10-20",
@@ -112362,6 +112418,7 @@
 "talentbrew:jobs.paloaltonetworks.com:99865647408": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:99942240432": "2026-11-12",
 "talentbrew:jobs.paloaltonetworks.com:99985549264": "2026-10-20",
+"workday:accenture:14194003": "2026-11-21",
 "workday:accenture:14247235": "2026-11-12",
 "workday:accenture:14496035": "2026-11-19",
 "workday:accenture:14678157": "2026-11-12",
@@ -112409,6 +112466,7 @@
 "workday:accenture:R00335127-1": "2026-11-16",
 "workday:accenture:R00336595": "2026-11-19",
 "workday:accenture:R00338402": "2026-11-12",
+"workday:accenture:R00340255": "2026-11-21",
 "workday:accenture:R00342723": "2026-11-16",
 "workday:accenture:R00342729": "2026-11-21",
 "workday:accenture:R00345950": "2026-11-13",
@@ -112434,6 +112492,8 @@
 "workday:accenture:R00353496-1": "2026-11-17",
 "workday:accenture:R00353522-1": "2026-11-20",
 "workday:accenture:R00353526-1": "2026-11-12",
+"workday:accenture:R00353879": "2026-11-21",
+"workday:accenture:R00353882": "2026-11-21",
 "workday:accenture:R00354323": "2026-11-19",
 "workday:accenture:R00354350": "2026-11-12",
 "workday:accenture:R00354744": "2026-11-13",
@@ -112464,6 +112524,7 @@
 "workday:accenture:R00363928": "2026-11-12",
 "workday:accenture:R00363944": "2026-11-12",
 "workday:accenture:R00363991-1": "2026-11-12",
+"workday:accenture:R00364140": "2026-11-21",
 "workday:accenture:R00364474": "2026-11-12",
 "workday:accenture:R00364816-1": "2026-11-12",
 "workday:accenture:R00364989": "2026-11-12",
@@ -113359,6 +113420,7 @@
 "workday:cadence:R57241": "2026-11-20",
 "workday:cadence:R57254-1": "2026-11-20",
 "workday:cadence:R57291": "2026-11-20",
+"workday:cadence:R57292": "2026-11-21",
 "workday:cadence:R57307": "2026-11-20",
 "workday:capitalone:R1000005-1": "2026-10-29",
 "workday:capitalone:R1000014-1": "2026-11-02",
@@ -127135,6 +127197,7 @@
 "workday:salesforce:JR369117": "2026-11-20",
 "workday:salesforce:JR369144-1": "2026-11-20",
 "workday:salesforce:JR369152-1": "2026-11-20",
+"workday:salesforce:JR369213": "2026-11-21",
 "workday:tmobile:REQ339040-1": "2026-11-17",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
@@ -133330,6 +133393,7 @@
 "acceldata|security engineer application security": "2026-11-11",
 "accenture|adobe experience manager aem developer": "2026-11-13",
 "accenture|advanced ai full stack engineer": "2026-11-13",
+"accenture|agentic identity security consultant": "2026-11-21",
 "accenture|ai engineering consultant": "2026-11-21",
 "accenture|ai ml computational science associate manager": "2026-11-12",
 "accenture|ai platform engineering consultant": "2026-11-14",
@@ -133349,6 +133413,7 @@
 "accenture|data engineer finance data governance": "2026-11-12",
 "accenture|data science research specialist": "2026-11-12",
 "accenture|data strategy governance consultant": "2026-11-16",
+"accenture|data technical analyst lead hcv 6205536": "2026-11-21",
 "accenture|enterprise ai architecture consultant": "2026-11-16",
 "accenture|enterprise ai transformation consultant": "2026-11-20",
 "accenture|entry level advisory development program full time analyst naelfy27": "2026-11-16",
@@ -136296,6 +136361,7 @@
 "salesforce|finance pathways rotation analyst early career": "2026-11-13",
 "salesforce|forward deployment engineer mts": "2026-10-26",
 "salesforce|gtm strategy and operations associate analyst": "2026-11-17",
+"salesforce|gtm strategy operations associate salesforce security practice": "2026-11-21",
 "salesforce|renewals innovation analyst emerging talent": "2026-11-18",
 "salesforce|research scientist salesforce ai research": "2026-10-22",
 "salesforce|security governance engineer secure build change": "2026-11-02",
@@ -136716,6 +136782,7 @@
 "wash u|data analyst transplant nephrology": "2026-11-12",
 "wash u|neuroimaging engineer psychiatry": "2026-11-05",
 "wash u|statistical data analyst infectious diseases": "2026-10-29",
+"washington nationals|junior analyst player projections": "2026-11-21",
 "waste management|analyst 1 business intelligence": "2026-11-18",
 "waymo|machine learning engineer scenes": "2026-10-22",
 "waymo|product data scientist marketplace logistics": "2026-10-20",
@@ -136838,9 +136905,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 61,
+"calls": 67,
 "date": "2026-11-21",
-"usd": 0.007215
+"usd": 0.008219
 },
 "years": {
 "amazon:10583340": [
