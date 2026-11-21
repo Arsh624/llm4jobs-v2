@@ -31844,6 +31844,13 @@
 },
 "2026-11-12"
 ],
+"rescue:greenhouse:anthropic:5480986008": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:greenhouse:anthropic:5481096008": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -76254,7 +76261,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 633
+"typical": 634
 },
 "Anyscale": {
 "alerted": false,
@@ -78486,7 +78493,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 416,
+"streak": 417,
 "typical": 1
 },
 "Oklo": {
@@ -78932,7 +78939,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 199,
+"streak": 200,
 "typical": 5
 },
 "Quora": {
@@ -79273,7 +79280,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 384,
+"streak": 385,
 "typical": 39
 },
 "Short Story": {
@@ -91467,6 +91474,7 @@
 "greenhouse:anthropic:5479890008": "2026-11-13",
 "greenhouse:anthropic:5480875008": "2026-11-20",
 "greenhouse:anthropic:5480893008": "2026-11-20",
+"greenhouse:anthropic:5480986008": "2026-11-21",
 "greenhouse:anthropic:5481096008": "2026-11-13",
 "greenhouse:anthropic:5481396008": "2026-11-13",
 "greenhouse:anthropic:5481671008": "2026-11-13",
@@ -137091,9 +137099,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 79,
+"calls": 80,
 "date": "2026-11-21",
-"usd": 0.009713
+"usd": 0.009779
 },
 "years": {
 "amazon:10583340": [
