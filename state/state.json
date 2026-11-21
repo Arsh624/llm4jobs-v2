@@ -44931,6 +44931,13 @@
 },
 "2026-11-17"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:302842": [
+{
+"note": "Requires 8+ years of experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:R282448": [
 {
 "note": "Principal roles require extensive experience.",
@@ -75979,7 +75986,7 @@
 "AMD": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 200
 },
 "Abacum": {
 "alerted": false,
@@ -76624,7 +76631,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 256
+"typical": 255
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -77158,8 +77165,7 @@
 },
 "Expedia Group": {
 "alerted": false,
-"reason": "HTTPError: HTTP Error 502: Bad Gateway",
-"streak": 1,
+"streak": 0,
 "typical": 47
 },
 "Extreme Networks": {
@@ -77261,7 +77267,7 @@
 "Flexport": {
 "alerted": false,
 "streak": 0,
-"typical": 213
+"typical": 212
 },
 "Flock Homes": {
 "alerted": false,
@@ -78081,7 +78087,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 161
+"typical": 158
 },
 "Mercor": {
 "alerted": false,
@@ -78231,7 +78237,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 188
+"typical": 189
 },
 "Mutiny": {
 "alerted": false,
@@ -78312,7 +78318,7 @@
 "Netskope": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 124
 },
 "Neuralink": {
 "alerted": false,
@@ -78432,7 +78438,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 402,
+"streak": 403,
 "typical": 1
 },
 "Oklo": {
@@ -78878,7 +78884,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 185,
+"streak": 186,
 "typical": 5
 },
 "Quora": {
@@ -79119,7 +79125,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 268
+"typical": 266
 },
 "Salient": {
 "alerted": false,
@@ -79219,7 +79225,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 370,
+"streak": 371,
 "typical": 39
 },
 "Short Story": {
@@ -79925,7 +79931,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 78
 },
 "World Labs": {
 "alerted": false,
@@ -99744,6 +99750,7 @@
 "jibe:careers.amd.com:101944": "2026-11-21",
 "jibe:careers.amd.com:101974": "2026-11-21",
 "jibe:careers.amd.com:101976": "2026-11-21",
+"jibe:careers.amd.com:102000": "2026-11-21",
 "jibe:careers.amd.com:71190": "2026-11-03",
 "jibe:careers.amd.com:73004": "2026-11-09",
 "jibe:careers.amd.com:79010": "2026-11-05",
@@ -105711,6 +105718,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:302678": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:302688": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:302716": "2026-11-17",
+"oracle_hcm:enterpriseplatform.dell.com:302842": "2026-11-21",
 "oracle_hcm:enterpriseplatform.dell.com:302870": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:302925": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:D10052": "2026-11-19",
@@ -132877,6 +132885,7 @@
 "workday:wf:R-588898": "2026-11-20",
 "workday:wf:R-588912": "2026-11-20",
 "workday:wf:R-588913": "2026-11-20",
+"workday:wf:R-588918": "2026-11-21",
 "workday:wf:R-588919": "2026-11-20",
 "workday:wf:R-588921": "2026-11-20",
 "workday:wf:R-588925": "2026-11-20",
@@ -132894,6 +132903,7 @@
 "workday:wf:R-589000": "2026-11-20",
 "workday:wf:R-589002": "2026-11-21",
 "workday:wf:R-589004": "2026-11-21",
+"workday:wf:R-589017": "2026-11-21",
 "workday:workday:JR-0102943-2": "2026-11-16",
 "workday:workday:JR-0103983": "2026-10-28",
 "workday:workday:JR-0105160": "2026-10-28",
@@ -137003,9 +137013,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 72,
+"calls": 73,
 "date": "2026-11-21",
-"usd": 0.008848
+"usd": 0.008923
 },
 "years": {
 "amazon:10583340": [
