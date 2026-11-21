@@ -4730,6 +4730,16 @@
 },
 "2026-11-21"
 ],
+"amazon:10610936|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-21"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -36031,6 +36041,13 @@
 },
 "2026-11-04"
 ],
+"rescue:greenhouse:rocketlab:8202734003": [
+{
+"note": "Requires extensive experience in software security.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:greenhouse:rocketlab:8203994003": [
 {
 "note": "Requires significant experience and expertise.",
@@ -36044,6 +36061,13 @@
 "senior": true
 },
 "2026-11-19"
+],
+"rescue:greenhouse:rocketlab:8213446003": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-21"
 ],
 "rescue:greenhouse:rocketlawyer:5474991008": [
 {
@@ -43794,6 +43818,13 @@
 },
 "2026-11-19"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351060": [
+{
+"note": "Requires advanced technical skills and experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351086": [
 {
 "note": "Requires extensive experience and technical leadership.",
@@ -46310,6 +46341,13 @@
 "rescue:smartrecruiters:ServiceNow:744000162867940": [
 {
 "note": "Requires significant experience and ownership.",
+"senior": true
+},
+"2026-11-21"
+],
+"rescue:smartrecruiters:ServiceNow:744000162891903": [
+{
+"note": "Mentoring indicates a senior-level role.",
 "senior": true
 },
 "2026-11-21"
@@ -75874,7 +75912,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 93
 },
 "Accord": {
 "alerted": false,
@@ -75954,7 +75992,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 205
+"typical": 202
 },
 "Airgoods": {
 "alerted": false,
@@ -76579,7 +76617,7 @@
 "Chime": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 80
 },
 "Cinder": {
 "alerted": false,
@@ -76609,7 +76647,7 @@
 "ClickHouse": {
 "alerted": false,
 "streak": 0,
-"typical": 204
+"typical": 205
 },
 "ClickUp": {
 "alerted": false,
@@ -77210,7 +77248,7 @@
 "Genentech": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "General Proximity": {
 "alerted": false,
@@ -78301,7 +78339,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 394,
+"streak": 395,
 "typical": 1
 },
 "Oklo": {
@@ -78312,7 +78350,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 375
+"typical": 374
 },
 "Olly": {
 "alerted": false,
@@ -78572,7 +78610,7 @@
 "Plaid": {
 "alerted": false,
 "streak": 0,
-"typical": 148
+"typical": 147
 },
 "Planet Labs": {
 "alerted": false,
@@ -78747,7 +78785,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 177,
+"streak": 178,
 "typical": 5
 },
 "Quora": {
@@ -78928,7 +78966,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 555
+"typical": 557
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -79068,7 +79106,7 @@
 "ServiceNow": {
 "alerted": false,
 "streak": 0,
-"typical": 550
+"typical": 555
 },
 "Sesame": {
 "alerted": false,
@@ -79088,7 +79126,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 362,
+"streak": 363,
 "typical": 39
 },
 "Short Story": {
@@ -79124,7 +79162,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3126
+"typical": 3124
 },
 "SimplyInsured": {
 "alerted": false,
@@ -80651,6 +80689,7 @@
 "amazon:10610733": "2026-11-20",
 "amazon:10610837": "2026-11-20",
 "amazon:10610933": "2026-11-21",
+"amazon:10610936": "2026-11-21",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
 "ashby:1x:21345b87-842c-4d50-a564-6f0291bd3e30": "2026-10-28",
@@ -81423,6 +81462,7 @@
 "ashby:clickhouse:7b0174fe-f124-4db2-923f-7028f39d6be9": "2026-11-20",
 "ashby:clickhouse:7c25b401-3ea0-4dd4-aae0-bd19abf91bdd": "2026-11-16",
 "ashby:clickhouse:7cc3bb05-168b-47e3-ad0e-606cf7e64b8b": "2026-10-22",
+"ashby:clickhouse:7cc69253-b0e2-4ca4-bb13-d3f0ccb7be93": "2026-11-21",
 "ashby:clickhouse:7fac50b9-451c-46bc-a348-a6f043a1136e": "2026-11-10",
 "ashby:clickhouse:8053823a-c5f3-4c00-9aae-15439f08cf6d": "2026-10-19",
 "ashby:clickhouse:80ce3e2e-bc01-403c-b836-043d1302feff": "2026-11-13",
@@ -82234,6 +82274,7 @@
 "ashby:fieldguide:46e4ed3a-5bef-4819-a87a-ada2100e4850": "2026-11-12",
 "ashby:fieldguide:5014884c-a8e0-49d5-adb7-60fbbcd9447f": "2026-11-13",
 "ashby:fieldguide:90964e57-fed2-457b-9119-dd09f4249d35": "2026-11-17",
+"ashby:fieldguide:b709dfc1-076c-4fec-9d83-cad77bdaa1b0": "2026-11-21",
 "ashby:fieldguide:e64808d3-6310-4038-af85-ace25b074607": "2026-11-12",
 "ashby:fieldguide:eb8b637c-d9cd-4b98-99e4-ea5113701473": "2026-11-17",
 "ashby:fieldguide:ef283d57-c7c7-4212-a22e-9a3a20187803": "2026-11-13",
@@ -89132,6 +89173,7 @@
 "eightfold:microsoft.com:1970393557073455": "2026-11-13",
 "eightfold:microsoft.com:1970393557073458": "2026-11-20",
 "eightfold:microsoft.com:1970393557073470": "2026-11-20",
+"eightfold:microsoft.com:1970393557073471": "2026-11-21",
 "eightfold:microsoft.com:1970393557073475": "2026-11-17",
 "eightfold:microsoft.com:1970393557073477": "2026-11-16",
 "eightfold:microsoft.com:1970393557073481": "2026-11-14",
@@ -89187,6 +89229,7 @@
 "eightfold:microsoft.com:1970393557075140": "2026-11-18",
 "eightfold:microsoft.com:1970393557075150": "2026-11-19",
 "eightfold:microsoft.com:1970393557075151": "2026-11-19",
+"eightfold:microsoft.com:1970393557075162": "2026-11-21",
 "eightfold:microsoft.com:1970393557075165": "2026-11-20",
 "eightfold:microsoft.com:1970393557075173": "2026-11-19",
 "eightfold:microsoft.com:1970393557075177": "2026-11-20",
@@ -92023,6 +92066,7 @@
 "greenhouse:chime:8943054002": "2026-11-16",
 "greenhouse:chime:8945757002": "2026-11-16",
 "greenhouse:chime:8948694002": "2026-11-19",
+"greenhouse:chime:8950849002": "2026-11-21",
 "greenhouse:chime:8950917002": "2026-11-20",
 "greenhouse:chime:8952336002": "2026-11-20",
 "greenhouse:cloudflare:7421848": "2026-10-20",
@@ -97278,6 +97322,7 @@
 "greenhouse:rocketlab:8202563003": "2026-11-12",
 "greenhouse:rocketlab:8202565003": "2026-11-12",
 "greenhouse:rocketlab:8202590003": "2026-11-12",
+"greenhouse:rocketlab:8202734003": "2026-11-21",
 "greenhouse:rocketlab:8202848003": "2026-11-20",
 "greenhouse:rocketlab:8202867003": "2026-11-12",
 "greenhouse:rocketlab:8202870003": "2026-11-12",
@@ -97338,6 +97383,7 @@
 "greenhouse:rocketlab:8210672003": "2026-11-20",
 "greenhouse:rocketlab:8210681003": "2026-11-20",
 "greenhouse:rocketlab:8211078003": "2026-11-20",
+"greenhouse:rocketlab:8213446003": "2026-11-21",
 "greenhouse:rocketlawyer:5459224008": "2026-10-30",
 "greenhouse:rocketlawyer:5472011008": "2026-11-09",
 "greenhouse:rocketlawyer:5474991008": "2026-11-13",
@@ -105017,6 +105063,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351046": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351055": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351056": "2026-11-20",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351060": "2026-11-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351063": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351083": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351086": "2026-11-20",
@@ -109236,6 +109283,11 @@
 "smartrecruiters:ServiceNow:744000162867940": "2026-11-21",
 "smartrecruiters:ServiceNow:744000162870134": "2026-11-21",
 "smartrecruiters:ServiceNow:744000162871309": "2026-11-21",
+"smartrecruiters:ServiceNow:744000162878715": "2026-11-21",
+"smartrecruiters:ServiceNow:744000162883203": "2026-11-21",
+"smartrecruiters:ServiceNow:744000162883690": "2026-11-21",
+"smartrecruiters:ServiceNow:744000162891739": "2026-11-21",
+"smartrecruiters:ServiceNow:744000162891903": "2026-11-21",
 "smartrecruiters:aristanetworks:744000159508919": "2026-11-03",
 "smartrecruiters:aristanetworks:744000159664261": "2026-11-04",
 "smartrecruiters:aristanetworks:744000159676689": "2026-11-04",
@@ -133384,6 +133436,7 @@
 "amazon|embedded software development engineer ii aws hardware engineering services": "2026-10-20",
 "amazon|embedded software engineer ec2 nitro networking ec2 nitro networking": "2026-10-21",
 "amazon|embedded software engineer fauna": "2026-11-20",
+"amazon|embedded software engineer leo mac": "2026-11-21",
 "amazon|embedded software engineer leo payload radio": "2026-11-03",
 "amazon|embedded software engineer merlin platform": "2026-11-10",
 "amazon|frontend engineer ai business automation prime video": "2026-10-27",
@@ -136785,9 +136838,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 56,
+"calls": 61,
 "date": "2026-11-21",
-"usd": 0.006767
+"usd": 0.007215
 },
 "years": {
 "amazon:10583340": [
