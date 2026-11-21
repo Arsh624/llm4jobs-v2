@@ -29636,6 +29636,13 @@
 },
 "2026-11-19"
 ],
+"rescue:eightfold:microsoft.com:1970393557076009": [
+{
+"note": "Requires deep knowledge and experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:eightfold:microsoft.com:1970393557076078": [
 {
 "note": "Requires significant experience and leadership skills.",
@@ -37468,6 +37475,13 @@
 "senior": true
 },
 "2026-11-11"
+],
+"rescue:greenhouse:verkada:5300741007": [
+{
+"note": "Requires managerial experience in engineering.",
+"senior": true
+},
+"2026-11-21"
 ],
 "rescue:greenhouse:verkada:5302573007": [
 {
@@ -75986,7 +76000,7 @@
 "AMD": {
 "alerted": false,
 "streak": 0,
-"typical": 200
+"typical": 100
 },
 "Abacum": {
 "alerted": false,
@@ -76631,7 +76645,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 255
+"typical": 258
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -76966,7 +76980,7 @@
 "Diamond Foundry": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 37
 },
 "Discord": {
 "alerted": false,
@@ -78232,7 +78246,7 @@
 "Motional": {
 "alerted": false,
 "streak": 0,
-"typical": 83
+"typical": 82
 },
 "Motive": {
 "alerted": false,
@@ -78438,7 +78452,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 403,
+"streak": 404,
 "typical": 1
 },
 "Oklo": {
@@ -78884,7 +78898,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 186,
+"streak": 187,
 "typical": 5
 },
 "Quora": {
@@ -79125,7 +79139,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 266
+"typical": 268
 },
 "Salient": {
 "alerted": false,
@@ -79225,7 +79239,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 371,
+"streak": 372,
 "typical": 39
 },
 "Short Story": {
@@ -79261,7 +79275,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3127
+"typical": 3126
 },
 "SimplyInsured": {
 "alerted": false,
@@ -79816,7 +79830,7 @@
 "Verkada": {
 "alerted": false,
 "streak": 0,
-"typical": 351
+"typical": 352
 },
 "Verse Medical": {
 "alerted": false,
@@ -89372,6 +89386,8 @@
 "eightfold:microsoft.com:1970393557075984": "2026-11-21",
 "eightfold:microsoft.com:1970393557076006": "2026-11-20",
 "eightfold:microsoft.com:1970393557076007": "2026-11-19",
+"eightfold:microsoft.com:1970393557076009": "2026-11-21",
+"eightfold:microsoft.com:1970393557076012": "2026-11-21",
 "eightfold:microsoft.com:1970393557076021": "2026-11-19",
 "eightfold:microsoft.com:1970393557076036": "2026-11-20",
 "eightfold:microsoft.com:1970393557076078": "2026-11-20",
@@ -99120,6 +99136,7 @@
 "greenhouse:verkada:5297849007": "2026-11-19",
 "greenhouse:verkada:5298284007": "2026-11-18",
 "greenhouse:verkada:5300387007": "2026-11-19",
+"greenhouse:verkada:5300741007": "2026-11-21",
 "greenhouse:verkada:5301451007": "2026-11-20",
 "greenhouse:verkada:5302088007": "2026-11-19",
 "greenhouse:verkada:5302573007": "2026-11-20",
@@ -103357,6 +103374,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339393": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339440": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339826": "2026-11-02",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:339929": "2026-11-21",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339960": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:340010": "2026-10-30",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:340017": "2026-10-29",
@@ -137013,9 +137031,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 73,
+"calls": 75,
 "date": "2026-11-21",
-"usd": 0.008923
+"usd": 0.009068
 },
 "years": {
 "amazon:10583340": [
