@@ -44915,6 +44915,13 @@
 },
 "2026-11-10"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:302039": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:302058": [
 {
 "note": "Requires extensive experience and expertise.",
@@ -77820,7 +77827,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(838245 bytes read)",
+"streak": 1,
 "typical": 610
 },
 "Invert": {
@@ -77971,12 +77979,12 @@
 "Labelbox": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 13
 },
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 40
 },
 "Laminar": {
 "alerted": false,
@@ -78231,7 +78239,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 240
+"typical": 230
 },
 "Middesk": {
 "alerted": false,
@@ -78537,7 +78545,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 431,
+"streak": 432,
 "typical": 1
 },
 "Oklo": {
@@ -78983,7 +78991,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 214,
+"streak": 215,
 "typical": 5
 },
 "Quora": {
@@ -79239,7 +79247,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 298
 },
 "Samsung Research America": {
 "alerted": false,
@@ -79324,7 +79332,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 399,
+"streak": 400,
 "typical": 39
 },
 "Short Story": {
@@ -80135,7 +80143,7 @@
 "fal": {
 "alerted": false,
 "streak": 0,
-"typical": 51
+"typical": 50
 },
 "idler": {
 "alerted": false,
@@ -94578,6 +94586,7 @@
 "greenhouse:labelbox:5278783007": "2026-10-28",
 "greenhouse:labelbox:5294769007": "2026-11-13",
 "greenhouse:labelbox:5301037007": "2026-11-18",
+"greenhouse:labelbox:5304432007": "2026-11-21",
 "greenhouse:lattice:8846730002": "2026-11-17",
 "greenhouse:lattice:8846731002": "2026-11-17",
 "greenhouse:legalist:6254045004": "2026-11-10",
@@ -105792,6 +105801,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:302013": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:302030": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:302033": "2026-11-20",
+"oracle_hcm:enterpriseplatform.dell.com:302039": "2026-11-21",
 "oracle_hcm:enterpriseplatform.dell.com:302049": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:302050": "2026-10-30",
 "oracle_hcm:enterpriseplatform.dell.com:302058": "2026-11-11",
@@ -137166,9 +137176,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 85,
+"calls": 86,
 "date": "2026-11-21",
-"usd": 0.010666
+"usd": 0.010734
 },
 "years": {
 "amazon:10583340": [
