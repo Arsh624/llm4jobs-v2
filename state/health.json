@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-21T05:01:23+00:00",
+ "run_at": "2026-11-21T05:31:31+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -33,7 +33,7 @@
   },
   "AMD": {
    "type": "jibe",
-   "jobs": 200,
+   "jobs": 100,
    "error": null
   },
   "Abacum": {
@@ -58,7 +58,7 @@
   },
   "Accenture": {
    "type": "workday",
-   "jobs": 104,
+   "jobs": 105,
    "error": null
   },
   "Accord": {
@@ -1213,8 +1213,8 @@
   },
   "Expedia Group": {
    "type": "workday",
-   "jobs": 47,
-   "error": null
+   "jobs": 0,
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   },
   "Extreme Networks": {
    "type": "lever",
@@ -2298,7 +2298,7 @@
   },
   "NTT DATA": {
    "type": "workday",
-   "jobs": 91,
+   "jobs": 93,
    "error": null
   },
   "NVIDIA": {
@@ -2483,7 +2483,7 @@
   },
   "Okta": {
    "type": "greenhouse",
-   "jobs": 373,
+   "jobs": 372,
    "error": null
   },
   "Olly": {

@@ -75979,7 +75979,7 @@
 "AMD": {
 "alerted": false,
 "streak": 0,
-"typical": 200
+"typical": 100
 },
 "Abacum": {
 "alerted": false,
@@ -76004,7 +76004,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 105
 },
 "Accord": {
 "alerted": false,
@@ -77158,7 +77158,8 @@
 },
 "Expedia Group": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 47
 },
 "Extreme Networks": {
@@ -78250,7 +78251,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 91
+"typical": 93
 },
 "NVIDIA": {
 "alerted": false,
@@ -78431,7 +78432,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 401,
+"streak": 402,
 "typical": 1
 },
 "Oklo": {
@@ -78442,7 +78443,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 372
 },
 "Olly": {
 "alerted": false,
@@ -78877,7 +78878,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 184,
+"streak": 185,
 "typical": 5
 },
 "Quora": {
@@ -79218,7 +79219,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 369,
+"streak": 370,
 "typical": 39
 },
 "Short Story": {
@@ -99740,6 +99741,7 @@
 "jibe:careers.amd.com:101936": "2026-11-20",
 "jibe:careers.amd.com:101937": "2026-11-20",
 "jibe:careers.amd.com:101938": "2026-11-20",
+"jibe:careers.amd.com:101944": "2026-11-21",
 "jibe:careers.amd.com:101974": "2026-11-21",
 "jibe:careers.amd.com:101976": "2026-11-21",
 "jibe:careers.amd.com:71190": "2026-11-03",
@@ -122411,6 +122413,7 @@
 "workday:nttlimited:R-147554": "2026-11-17",
 "workday:nttlimited:R-147556": "2026-11-17",
 "workday:nttlimited:R-147775-1": "2026-11-20",
+"workday:nttlimited:R-147827-1": "2026-11-21",
 "workday:nttlimited:R-147889-1": "2026-11-12",
 "workday:nttlimited:R-148189": "2026-11-12",
 "workday:nttlimited:R-148694-1": "2026-11-17",
@@ -122448,6 +122451,7 @@
 "workday:nttlimited:R-151190": "2026-11-17",
 "workday:nttlimited:R-151365": "2026-11-18",
 "workday:nttlimited:R-151367-1": "2026-11-13",
+"workday:nttlimited:R-151369": "2026-11-21",
 "workday:nttlimited:R-151401": "2026-11-13",
 "workday:nttlimited:R-151405-1": "2026-11-12",
 "workday:nttlimited:R-151422": "2026-11-12",
@@ -132645,6 +132649,7 @@
 "workday:wf:R-588070": "2026-11-17",
 "workday:wf:R-588073": "2026-11-18",
 "workday:wf:R-588074": "2026-11-20",
+"workday:wf:R-588077": "2026-11-21",
 "workday:wf:R-588078": "2026-11-19",
 "workday:wf:R-588079": "2026-11-17",
 "workday:wf:R-588080": "2026-11-17",
@@ -132690,7 +132695,9 @@
 "workday:wf:R-588183": "2026-11-18",
 "workday:wf:R-588184": "2026-11-20",
 "workday:wf:R-588186": "2026-11-17",
+"workday:wf:R-588188": "2026-11-21",
 "workday:wf:R-588190": "2026-11-17",
+"workday:wf:R-588191": "2026-11-21",
 "workday:wf:R-588193": "2026-11-18",
 "workday:wf:R-588196-1": "2026-11-18",
 "workday:wf:R-588197": "2026-11-18",
@@ -132838,6 +132845,7 @@
 "workday:wf:R-588751-1": "2026-11-20",
 "workday:wf:R-588752": "2026-11-20",
 "workday:wf:R-588757-1": "2026-11-20",
+"workday:wf:R-588775": "2026-11-21",
 "workday:wf:R-588782": "2026-11-20",
 "workday:wf:R-588784": "2026-11-20",
 "workday:wf:R-588785-1": "2026-11-20",
