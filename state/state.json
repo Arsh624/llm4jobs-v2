@@ -61136,6 +61136,13 @@
 },
 "2026-11-02"
 ],
+"rescue:workday:salesforce:JR339261": [
+{
+"note": "Requires deep ML knowledge and experience.",
+"senior": true
+},
+"2026-11-21"
+],
 "rescue:workday:salesforce:JR341315": [
 {
 "note": "Manager roles typically require more experience.",
@@ -75963,7 +75970,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 106
 },
 "Accord": {
 "alerted": false,
@@ -76158,7 +76165,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 634
+"typical": 633
 },
 "Anyscale": {
 "alerted": false,
@@ -76403,7 +76410,7 @@
 "Benepass": {
 "alerted": false,
 "streak": 0,
-"typical": 5
+"typical": 4
 },
 "BetterHelp": {
 "alerted": false,
@@ -76583,7 +76590,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 255
+"typical": 256
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -77068,7 +77075,7 @@
 "Etched": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 118
 },
 "Etsy": {
 "alerted": false,
@@ -77664,7 +77671,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 189
+"typical": 190
 },
 "Intro": {
 "alerted": false,
@@ -78079,7 +78086,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 235
+"typical": 236
 },
 "Microsoft": {
 "alerted": false,
@@ -78390,7 +78397,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 397,
+"streak": 398,
 "typical": 1
 },
 "Oklo": {
@@ -78401,7 +78408,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 374
+"typical": 373
 },
 "Olly": {
 "alerted": false,
@@ -78786,7 +78793,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 402
+"typical": 401
 },
 "Pylon": {
 "alerted": false,
@@ -78836,7 +78843,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 180,
+"streak": 181,
 "typical": 5
 },
 "Quora": {
@@ -79077,7 +79084,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 268
+"typical": 269
 },
 "Salient": {
 "alerted": false,
@@ -79177,7 +79184,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 365,
+"streak": 366,
 "typical": 39
 },
 "Short Story": {
@@ -79213,7 +79220,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3124
+"typical": 3126
 },
 "SimplyInsured": {
 "alerted": false,
@@ -82250,6 +82257,7 @@
 "ashby:etched:37798f2c-d2d8-4911-bd5a-41b0f6f7c238": "2026-10-28",
 "ashby:etched:38d0fd18-2ac1-4825-8182-5d235b266ea3": "2026-10-28",
 "ashby:etched:4020db7a-1ec0-48e3-9bbd-f1337c63a403": "2026-11-02",
+"ashby:etched:45639738-0414-43e2-a5e7-b4acc928d62d": "2026-11-21",
 "ashby:etched:4696006a-a43b-450b-95e1-6d9b55ed2665": "2026-10-20",
 "ashby:etched:47715fdf-5b70-45f5-9f69-431ac868ee5c": "2026-10-29",
 "ashby:etched:494546ec-de37-46a2-b450-692c23b7b0c8": "2026-10-29",
@@ -107515,6 +107523,7 @@
 "simplify:916df818-e027-4ffe-b744-46e7ae1f630a": "2026-11-13",
 "simplify:918d30c3-15c3-40d4-9b7e-046d5b46152c": "2026-10-21",
 "simplify:91d36c35-e61d-4094-ba3d-26378c3caa5e": "2026-10-30",
+"simplify:91e04d19-b6ad-443f-8742-2cf4fd1eb19c": "2026-11-21",
 "simplify:92117e27-a832-4237-bb1f-c57d3d4939ff": "2026-10-30",
 "simplify:9225dc11-eb16-486f-b337-4b8f8611ef0c": "2026-11-17",
 "simplify:92271fcd-c5ba-4a82-aae4-92bc952be01b": "2026-10-26",
@@ -118056,6 +118065,7 @@
 "workday:intel:JR0289090": "2026-11-13",
 "workday:intel:JR0289091": "2026-11-10",
 "workday:intel:JR0289093": "2026-11-11",
+"workday:intel:JR0289094": "2026-11-21",
 "workday:intel:JR0289095": "2026-11-13",
 "workday:intel:JR0289096": "2026-11-11",
 "workday:intel:JR0289097": "2026-11-13",
@@ -125365,6 +125375,7 @@
 "workday:salesforce:JR338637": "2026-10-27",
 "workday:salesforce:JR338925": "2026-10-19",
 "workday:salesforce:JR339258": "2026-11-06",
+"workday:salesforce:JR339261": "2026-11-21",
 "workday:salesforce:JR339327-2": "2026-11-02",
 "workday:salesforce:JR339837-1": "2026-10-21",
 "workday:salesforce:JR339872": "2026-10-29",
@@ -128768,6 +128779,7 @@
 "workday:tmobile:REQ381647-1": "2026-11-09",
 "workday:tmobile:REQ381651-1": "2026-11-05",
 "workday:tmobile:REQ381652": "2026-11-10",
+"workday:tmobile:REQ381655-2": "2026-11-21",
 "workday:tmobile:REQ381658-1": "2026-11-05",
 "workday:tmobile:REQ381659-1": "2026-11-05",
 "workday:tmobile:REQ381661": "2026-11-10",
@@ -136907,9 +136919,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 67,
+"calls": 68,
 "date": "2026-11-21",
-"usd": 0.008219
+"usd": 0.008291
 },
 "years": {
 "amazon:10583340": [
