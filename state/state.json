@@ -61057,6 +61057,20 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:redhat:R-060178-2": [
+{
+"note": "Requires extensive technical expertise and experience.",
+"senior": true
+},
+"2026-11-22"
+],
+"rescue:workday:redhat:R-060179-1": [
+{
+"note": "Requires extensive technical expertise and experience.",
+"senior": true
+},
+"2026-11-22"
+],
 "rescue:workday:redhat:R-060352-1": [
 {
 "note": "Requires extensive experience in product management.",
@@ -77279,7 +77293,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 41
+"typical": 40
 },
 "Extreme Networks": {
 "alerted": false,
@@ -78200,7 +78214,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 108
 },
 "Mercor": {
 "alerted": false,
@@ -78551,7 +78565,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 454,
+"streak": 455,
 "typical": 1
 },
 "Oklo": {
@@ -78997,7 +79011,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 237,
+"streak": 238,
 "typical": 5
 },
 "Quora": {
@@ -79063,7 +79077,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 15
+"typical": 18
 },
 "Reddit": {
 "alerted": false,
@@ -79338,7 +79352,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 422,
+"streak": 423,
 "typical": 39
 },
 "Short Story": {
@@ -79374,7 +79388,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3131
+"typical": 3130
 },
 "SimplyInsured": {
 "alerted": false,
@@ -117399,6 +117413,7 @@
 "workday:hpe:1218585-1": "2026-11-20",
 "workday:hpe:1218586-2": "2026-11-13",
 "workday:hpe:1218604-2": "2026-11-18",
+"workday:hpe:1218651-2": "2026-11-22",
 "workday:hpe:1218701": "2026-11-10",
 "workday:hpe:1218702": "2026-11-19",
 "workday:hpe:1218707-2": "2026-11-16",
@@ -125260,6 +125275,9 @@
 "workday:redhat:R-060158-1": "2026-10-23",
 "workday:redhat:R-060159-1": "2026-11-18",
 "workday:redhat:R-060165-2": "2026-11-11",
+"workday:redhat:R-060178-2": "2026-11-22",
+"workday:redhat:R-060179-1": "2026-11-22",
+"workday:redhat:R-060181-1": "2026-11-22",
 "workday:redhat:R-060194-2": "2026-11-05",
 "workday:redhat:R-060208-1": "2026-11-04",
 "workday:redhat:R-060210-1": "2026-10-30",
@@ -137198,9 +137216,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 0,
+"calls": 2,
 "date": "2026-11-22",
-"usd": 0.0
+"usd": 0.000134
 },
 "years": {
 "amazon:10583340": [
