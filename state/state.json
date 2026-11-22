@@ -65849,6 +65849,16 @@
 },
 "2026-10-29"
 ],
+"workday:capitalone:R1001506-1|v3|73908d": [
+{
+"chance": 0,
+"level": "mid",
+"min_years": 4,
+"note": "Requires 4 years of experience, no new grads considered.",
+"us_ok": false
+},
+"2026-11-22"
+],
 "workday:capitalone:R1001533-2|v3|73908d": [
 {
 "chance": 2,
@@ -76159,7 +76169,7 @@
 "Accenture": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 59
 },
 "Accord": {
 "alerted": false,
@@ -76779,7 +76789,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -76984,7 +76994,7 @@
 "CoreWeave": {
 "alerted": false,
 "streak": 0,
-"typical": 322
+"typical": 321
 },
 "Couchbase": {
 "alerted": false,
@@ -78586,7 +78596,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 472,
+"streak": 473,
 "typical": 1
 },
 "Oklo": {
@@ -78597,7 +78607,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 374
+"typical": 373
 },
 "Olly": {
 "alerted": false,
@@ -79032,7 +79042,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 255,
+"streak": 256,
 "typical": 5
 },
 "Quora": {
@@ -79373,7 +79383,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 440,
+"streak": 441,
 "typical": 39
 },
 "Short Story": {
@@ -113809,6 +113819,7 @@
 "workday:capitalone:R1001485": "2026-10-29",
 "workday:capitalone:R1001486-1": "2026-11-02",
 "workday:capitalone:R1001503-2": "2026-11-09",
+"workday:capitalone:R1001506-1": "2026-11-22",
 "workday:capitalone:R1001512-1": "2026-10-29",
 "workday:capitalone:R1001516-1": "2026-11-02",
 "workday:capitalone:R1001533-2": "2026-11-18",
@@ -137269,9 +137280,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 5,
+"calls": 6,
 "date": "2026-11-22",
-"usd": 0.000342
+"usd": 0.000618
 },
 "years": {
 "amazon:10583340": [
