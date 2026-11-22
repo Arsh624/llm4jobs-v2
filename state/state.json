@@ -51736,6 +51736,13 @@
 },
 "2026-10-30"
 ],
+"rescue:workday:cadence:R56580": [
+{
+"note": "Lead role typically requires significant experience.",
+"senior": true
+},
+"2026-11-22"
+],
 "rescue:workday:cadence:R56605": [
 {
 "note": "Principal roles typically require extensive experience.",
@@ -76239,7 +76246,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 344
+"typical": 343
 },
 "Ai2": {
 "alerted": false,
@@ -76499,7 +76506,7 @@
 "AssemblyAI": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 16
 },
 "Astera Labs": {
 "alerted": false,
@@ -76754,7 +76761,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 41
 },
 "Calm": {
 "alerted": false,
@@ -77890,7 +77897,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 611
+"typical": 610
 },
 "Invert": {
 "alerted": false,
@@ -78295,12 +78302,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 123
+"typical": 124
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 180
+"typical": 170
 },
 "Middesk": {
 "alerted": false,
@@ -78606,7 +78613,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 475,
+"streak": 476,
 "typical": 1
 },
 "Oklo": {
@@ -79052,7 +79059,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 258,
+"streak": 259,
 "typical": 5
 },
 "Quora": {
@@ -79393,7 +79400,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 443,
+"streak": 444,
 "typical": 39
 },
 "Short Story": {
@@ -113618,6 +113625,7 @@
 "workday:cadence:R56541": "2026-11-10",
 "workday:cadence:R56548": "2026-11-18",
 "workday:cadence:R56579": "2026-11-11",
+"workday:cadence:R56580": "2026-11-22",
 "workday:cadence:R56603-1": "2026-10-29",
 "workday:cadence:R56605": "2026-11-11",
 "workday:cadence:R56610": "2026-10-29",
@@ -122380,6 +122388,7 @@
 "workday:micron:JR118213": "2026-11-19",
 "workday:micron:JR118217-1": "2026-11-19",
 "workday:micron:JR118220": "2026-11-19",
+"workday:micron:JR118233-1": "2026-11-22",
 "workday:micron:JR118234": "2026-11-20",
 "workday:micron:JR118343": "2026-11-19",
 "workday:micron:JR118344": "2026-11-19",
@@ -137293,9 +137302,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 7,
+"calls": 8,
 "date": "2026-11-22",
-"usd": 0.000865
+"usd": 0.000938
 },
 "years": {
 "amazon:10583340": [
