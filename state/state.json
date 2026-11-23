@@ -8650,6 +8650,16 @@
 },
 "2026-11-18"
 ],
+"ashby:radiant-industries:bec00034-2f0f-4dd9-a093-232d62ca0e59|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2-5 years of industry experience.",
+"us_ok": true
+},
+"2026-11-23"
+],
 "ashby:radiant-industries:c2eb6ff5-670d-4311-87a9-ecadeefebbac|v3|73908d": [
 {
 "chance": 3,
@@ -24939,6 +24949,13 @@
 },
 "2026-10-22"
 ],
+"rescue:ashby:radiant-industries:23d29b8e-466d-4cae-9f9f-095e86f177b0": [
+{
+"note": "Requires extensive experience in nuclear engineering.",
+"senior": true
+},
+"2026-11-23"
+],
 "rescue:ashby:radiant-industries:3ece15f5-6bb4-440d-9de1-97ed57a69025": [
 {
 "note": "Requires extensive expertise and experience.",
@@ -24987,6 +25004,13 @@
 "senior": true
 },
 "2026-11-05"
+],
+"rescue:ashby:radiant-industries:a27caa9d-f7c4-4fda-ae51-9da08da78bb6": [
+{
+"note": "Requires extensive experience in nuclear engineering.",
+"senior": true
+},
+"2026-11-23"
 ],
 "rescue:ashby:radiant-industries:b86d56a1-e5e7-41d3-b9ee-98abdb509aee": [
 {
@@ -76501,7 +76525,7 @@
 "Affirm": {
 "alerted": false,
 "streak": 0,
-"typical": 222
+"typical": 219
 },
 "AfterQuery": {
 "alerted": false,
@@ -76526,7 +76550,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 334
+"typical": 332
 },
 "Ai2": {
 "alerted": false,
@@ -76546,7 +76570,7 @@
 "Airbnb": {
 "alerted": false,
 "streak": 0,
-"typical": 203
+"typical": 202
 },
 "Airgoods": {
 "alerted": false,
@@ -77531,7 +77555,7 @@
 "ElevenLabs": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 123
 },
 "EliseAI": {
 "alerted": false,
@@ -77922,7 +77946,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 57
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -78512,7 +78536,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 20
 },
 "MatX": {
 "alerted": false,
@@ -78582,7 +78606,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 143
+"typical": 144
 },
 "Microsoft": {
 "alerted": false,
@@ -78662,7 +78686,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 417
+"typical": 418
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -78712,7 +78736,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 64
+"typical": 65
 },
 "NVIDIA": {
 "alerted": false,
@@ -78893,7 +78917,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 506,
+"streak": 507,
 "typical": 1
 },
 "Oklo": {
@@ -79339,7 +79363,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 289,
+"streak": 290,
 "typical": 5
 },
 "Quora": {
@@ -79360,7 +79384,7 @@
 "Radiant (nuclear)": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 118
 },
 "Rally": {
 "alerted": false,
@@ -79405,7 +79429,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 12
 },
 "Reddit": {
 "alerted": false,
@@ -79545,7 +79569,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 211
+"typical": 214
 },
 "Runpod": {
 "alerted": false,
@@ -79630,7 +79654,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 165
+"typical": 162
 },
 "Scality": {
 "alerted": false,
@@ -79680,7 +79704,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 474,
+"streak": 475,
 "typical": 39
 },
 "Short Story": {
@@ -79716,7 +79740,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3139
+"typical": 3138
 },
 "SimplyInsured": {
 "alerted": false,
@@ -80011,7 +80035,7 @@
 "Tekion": {
 "alerted": false,
 "streak": 0,
-"typical": 91
+"typical": 90
 },
 "Tempo": {
 "alerted": false,
@@ -80441,7 +80465,7 @@
 "Zipline": {
 "alerted": false,
 "streak": 0,
-"typical": 314
+"typical": 315
 },
 "ZoomInfo": {
 "alerted": false,
@@ -81252,6 +81276,7 @@
 "ashby:1x:2525aec5-28d6-42b2-b4a9-e522a3273965": "2026-11-04",
 "ashby:1x:262f9af1-db00-4a21-8adb-a40206027cbc": "2026-11-16",
 "ashby:1x:298eb24f-6c9b-4674-b1a3-76f5d9d2af5b": "2026-11-18",
+"ashby:1x:2a7704a9-1ab0-4ac1-be01-7531b937d1fe": "2026-11-23",
 "ashby:1x:2b4c5ac6-d4af-4cb4-8e68-cf0cf698cba5": "2026-11-12",
 "ashby:1x:2d502918-5b0f-4eeb-a86b-8802184c5f09": "2026-11-18",
 "ashby:1x:3398e992-b02a-4d39-aabe-f4ac2bb6591d": "2026-11-18",
@@ -82628,6 +82653,7 @@
 "ashby:elevenlabs:1b43cf6f-bc1f-4241-b8a2-5f85fb4ea028": "2026-11-12",
 "ashby:elevenlabs:1b90a2b2-1352-458d-b2b7-3900f6e02df5": "2026-10-28",
 "ashby:elevenlabs:258de005-ab84-4cc7-9a59-1df0c74a12b8": "2026-10-29",
+"ashby:elevenlabs:277de6ad-3db5-4b96-afb5-cec3d797e788": "2026-11-23",
 "ashby:elevenlabs:27e92957-374f-409a-b787-166b10e0f042": "2026-10-28",
 "ashby:elevenlabs:317e26ca-75d1-4993-8041-3c440c28416e": "2026-10-28",
 "ashby:elevenlabs:33bb01d0-993c-47fa-ae91-81c0c84f367e": "2026-11-02",
@@ -84885,6 +84911,7 @@
 "ashby:radiant-industries:1e1d323c-db85-4180-b3be-e566b28a6f01": "2026-10-28",
 "ashby:radiant-industries:1f12765c-56c0-415a-a2d2-32793c9b5c14": "2026-11-18",
 "ashby:radiant-industries:20ab9701-76ee-4b22-8847-61566a8d8f64": "2026-11-10",
+"ashby:radiant-industries:23d29b8e-466d-4cae-9f9f-095e86f177b0": "2026-11-23",
 "ashby:radiant-industries:25246084-3a72-4c07-af98-7cb0f062d6ac": "2026-11-18",
 "ashby:radiant-industries:2569efc9-49ef-432e-8e15-4709a68ca168": "2026-11-12",
 "ashby:radiant-industries:28275b5f-edd9-49b7-b244-01402fe5f66a": "2026-10-30",
@@ -84918,6 +84945,7 @@
 "ashby:radiant-industries:9b1512af-5afd-490d-b1a1-a0c715febafd": "2026-11-11",
 "ashby:radiant-industries:9bd3659b-315f-48dc-aba0-3086181526be": "2026-11-05",
 "ashby:radiant-industries:9d843998-a85a-44bb-904d-e9b65edccebb": "2026-11-18",
+"ashby:radiant-industries:a27caa9d-f7c4-4fda-ae51-9da08da78bb6": "2026-11-23",
 "ashby:radiant-industries:a560ed68-9d4d-4520-95ff-c98703b7c6dc": "2026-11-18",
 "ashby:radiant-industries:ae57eb10-6609-4098-90ba-86283ffb3e38": "2026-11-16",
 "ashby:radiant-industries:ae6480d5-d243-476b-a6ef-3e50b87ec0ac": "2026-11-10",
@@ -94481,6 +94509,7 @@
 "greenhouse:flyzipline:8207737003": "2026-11-17",
 "greenhouse:flyzipline:8208127003": "2026-11-18",
 "greenhouse:flyzipline:8209557003": "2026-11-19",
+"greenhouse:flyzipline:8213447003": "2026-11-23",
 "greenhouse:formationbio:8315176": "2026-10-28",
 "greenhouse:formationbio:8315734": "2026-10-28",
 "greenhouse:formationbio:8325520": "2026-11-02",
@@ -95672,6 +95701,7 @@
 "greenhouse:mongodb:8397251": "2026-11-19",
 "greenhouse:mongodb:8397699": "2026-11-18",
 "greenhouse:mongodb:8397701": "2026-11-18",
+"greenhouse:mongodb:8398137": "2026-11-23",
 "greenhouse:mongodb:8398664": "2026-11-18",
 "greenhouse:mongodb:8398670": "2026-11-18",
 "greenhouse:mongodb:8399041": "2026-11-18",
@@ -98198,6 +98228,7 @@
 "greenhouse:rubrik:8382805": "2026-11-17",
 "greenhouse:rubrik:8385208": "2026-11-13",
 "greenhouse:rubrik:8385222": "2026-11-13",
+"greenhouse:rubrik:8385224": "2026-11-23",
 "greenhouse:rubrik:8385230": "2026-11-20",
 "greenhouse:rubrik:8385249": "2026-11-18",
 "greenhouse:rubrik:8385257": "2026-11-18",
@@ -98223,6 +98254,8 @@
 "greenhouse:rubrik:8401372": "2026-11-20",
 "greenhouse:rubrik:8402233": "2026-11-19",
 "greenhouse:rubrik:8403268": "2026-11-23",
+"greenhouse:rubrik:8407738": "2026-11-23",
+"greenhouse:rubrik:8407739": "2026-11-23",
 "greenhouse:safebreach:4454408009": "2026-10-20",
 "greenhouse:safebreach:4510540009": "2026-11-20",
 "greenhouse:safebreach:4515358009": "2026-11-20",
@@ -103661,6 +103694,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24815": "2026-10-30",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24816": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24817": "2026-10-29",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24818": "2026-11-23",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24819": "2026-10-29",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24820": "2026-11-09",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24821": "2026-10-30",
@@ -103914,6 +103948,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:338976": "2026-11-02",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339020": "2026-10-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339070": "2026-10-22",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:339163": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339190": "2026-10-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339199": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:339237": "2026-10-28",
@@ -107154,6 +107189,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:305243": "2026-11-19",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:305295": "2026-11-20",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:305318": "2026-11-23",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:305375": "2026-11-23",
 "phenom:YELPUS:14082": "2026-10-29",
 "phenom:YELPUS:14083": "2026-10-29",
 "phenom:YELPUS:14084": "2026-10-29",
@@ -119742,6 +119778,7 @@
 "workday:mastercard:R-291656-1": "2026-10-29",
 "workday:mastercard:R-291738-1": "2026-10-29",
 "workday:mastercard:R-291756": "2026-10-29",
+"workday:mastercard:R-291757": "2026-11-23",
 "workday:mastercard:R-291760": "2026-10-29",
 "workday:mastercard:R-291786": "2026-11-12",
 "workday:mastercard:R-291792-1": "2026-10-29",
@@ -122806,6 +122843,7 @@
 "workday:micron:JR118233-1": "2026-11-22",
 "workday:micron:JR118234": "2026-11-20",
 "workday:micron:JR118249": "2026-11-23",
+"workday:micron:JR118259": "2026-11-23",
 "workday:micron:JR118343": "2026-11-19",
 "workday:micron:JR118344": "2026-11-19",
 "workday:micron:JR118352": "2026-11-20",
@@ -123220,6 +123258,7 @@
 "workday:nttlimited:R-152385-1": "2026-11-12",
 "workday:nttlimited:R-152389": "2026-11-19",
 "workday:nttlimited:R-152391-1": "2026-11-19",
+"workday:nttlimited:R-152402-1": "2026-11-23",
 "workday:nttlimited:R-152407": "2026-11-16",
 "workday:nttlimited:R-152412": "2026-11-18",
 "workday:nttlimited:R-152417-1": "2026-11-17",
@@ -132442,6 +132481,7 @@
 "workday:wf:R-585789": "2026-11-04",
 "workday:wf:R-585790": "2026-11-04",
 "workday:wf:R-585791": "2026-11-09",
+"workday:wf:R-585792": "2026-11-23",
 "workday:wf:R-585796": "2026-11-05",
 "workday:wf:R-585797": "2026-11-05",
 "workday:wf:R-585798": "2026-11-05",
@@ -137752,9 +137792,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 19,
+"calls": 22,
 "date": "2026-11-23",
-"usd": 0.001851
+"usd": 0.002271
 },
 "years": {
 "amazon:10583340": [
