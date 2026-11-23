@@ -77297,7 +77297,7 @@
 "Cisco": {
 "alerted": false,
 "streak": 0,
-"typical": 9
+"typical": 10
 },
 "ClassDojo": {
 "alerted": false,
@@ -77467,7 +77467,7 @@
 "DRW": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 149
 },
 "Darwin": {
 "alerted": false,
@@ -77657,7 +77657,7 @@
 "Ello": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 7
 },
 "Ember": {
 "alerted": false,
@@ -77818,7 +77818,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 196
+"typical": 197
 },
 "Flagright": {
 "alerted": false,
@@ -78038,7 +78038,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 63
+"typical": 64
 },
 "HUD": {
 "alerted": false,
@@ -78573,7 +78573,7 @@
 "Luma AI": {
 "alerted": false,
 "streak": 0,
-"typical": 12
+"typical": 11
 },
 "Lumentum": {
 "alerted": false,
@@ -78773,7 +78773,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 417
+"typical": 418
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -78894,7 +78894,7 @@
 "New Relic": {
 "alerted": false,
 "streak": 0,
-"typical": 42
+"typical": 43
 },
 "NewsBreak": {
 "alerted": false,
@@ -79004,7 +79004,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 518,
+"streak": 519,
 "typical": 1
 },
 "Oklo": {
@@ -79015,7 +79015,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 375
+"typical": 374
 },
 "Olly": {
 "alerted": false,
@@ -79450,7 +79450,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 301,
+"streak": 302,
 "typical": 5
 },
 "Quora": {
@@ -79656,7 +79656,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 219
+"typical": 218
 },
 "Runpod": {
 "alerted": false,
@@ -79691,7 +79691,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 72
 },
 "Salient": {
 "alerted": false,
@@ -79791,7 +79791,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 486,
+"streak": 487,
 "typical": 39
 },
 "Short Story": {
@@ -79892,7 +79892,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 376
 },
 "SoFi": {
 "alerted": false,
@@ -82844,6 +82844,7 @@
 "ashby:eliseai:db00f2a7-fc4f-48b6-b47c-9a1ab045b271": "2026-11-11",
 "ashby:eliseai:ee6ccccf-5e68-4179-b20a-dcd800e50bc8": "2026-11-09",
 "ashby:ellipsislabs:dd612889-7e10-4f9a-bcb0-fae2ec26ed66": "2026-10-29",
+"ashby:ello:76e5890c-f7b8-4814-986c-379945870641": "2026-11-23",
 "ashby:ello:784b20d0-8689-4b61-9267-9254846d3961": "2026-11-13",
 "ashby:ello:da1e8b9c-0fed-424c-b750-0400dc16886f": "2026-11-20",
 "ashby:envoy:20b5e079-c742-425b-b8ac-5ed47f595b2b": "2026-11-13",
@@ -85736,9 +85737,11 @@
 "ashby:snowflake:040b1b19-1989-4f53-8020-371b4b164b14": "2026-11-04",
 "ashby:snowflake:041bb7f6-8d0c-4121-a541-2a666b2afc5a": "2026-10-30",
 "ashby:snowflake:04be3e08-3cca-415b-bd61-f19f2971c88d": "2026-10-22",
+"ashby:snowflake:079ef88d-700e-431a-a0fd-aabd26aa3e41": "2026-11-23",
 "ashby:snowflake:07a0beb2-43ee-43bf-b178-9fed843affee": "2026-10-30",
 "ashby:snowflake:07b49797-c9c4-4a9e-b7b6-c88cdcd7a464": "2026-11-06",
 "ashby:snowflake:08614077-49b6-44a4-a659-3bda16b102d4": "2026-10-19",
+"ashby:snowflake:09e10984-192c-4981-b8d9-7b570fdfc7c9": "2026-11-23",
 "ashby:snowflake:0c32f14c-0b08-4ae7-9e23-14eacde31cf5": "2026-10-27",
 "ashby:snowflake:0efeec18-5623-4c69-b58b-1ffc6db5734c": "2026-11-12",
 "ashby:snowflake:0f2d263b-37c1-4e5c-92b7-007818fbc0d5": "2026-10-22",
@@ -85770,11 +85773,13 @@
 "ashby:snowflake:2bfe58b8-4b73-4887-9352-dee94594ce90": "2026-11-20",
 "ashby:snowflake:2c5d5816-8a14-49b8-b6d7-6ec66b3595b0": "2026-10-19",
 "ashby:snowflake:2ca11f48-cd2f-4fb6-ba1c-e67ff35b89ce": "2026-11-03",
+"ashby:snowflake:2d84b26c-fd1c-414b-b321-39369bc6ddb6": "2026-11-23",
 "ashby:snowflake:2ebec9d1-055f-4e47-93ae-29ad19e23967": "2026-11-01",
 "ashby:snowflake:2f1fa81b-78ac-4b86-bd7c-48a3c2d3ab97": "2026-10-22",
 "ashby:snowflake:30e6db17-33e6-4c5e-b2d0-8d0a7d5ab60e": "2026-11-02",
 "ashby:snowflake:322b82f6-4b18-4f86-ae34-007f55c4bdbf": "2026-10-30",
 "ashby:snowflake:332a6281-adb1-46e9-8fc7-e2e73bffc27a": "2026-11-18",
+"ashby:snowflake:332bad39-6641-484e-8d0a-5a84e728db5a": "2026-11-23",
 "ashby:snowflake:33a598d7-b970-4958-b1b9-4d548777f286": "2026-10-19",
 "ashby:snowflake:351a7313-71bb-4683-9a65-927b03c5d002": "2026-11-18",
 "ashby:snowflake:362e970d-9bc1-4d30-9d67-4f0a4be31602": "2026-10-27",
@@ -85885,6 +85890,7 @@
 "ashby:snowflake:c03acc32-f60b-40de-9838-e954d3f419b9": "2026-11-11",
 "ashby:snowflake:c21b17e9-88dc-421e-b3de-9494e83c27cc": "2026-11-11",
 "ashby:snowflake:c5753f2c-e417-47b2-86b9-45f4f9df125a": "2026-11-03",
+"ashby:snowflake:c8604e76-c715-4709-b46e-26639c35649e": "2026-11-23",
 "ashby:snowflake:c9ce6380-f9e3-48a5-90a7-17a1722904e0": "2026-11-06",
 "ashby:snowflake:cb1455d2-bc81-4422-b390-45828b3b0e86": "2026-11-19",
 "ashby:snowflake:cc9171ca-56b9-4478-a11b-58405beaf97d": "2026-11-03",
@@ -94488,6 +94494,7 @@
 "greenhouse:fivetran:8210997003": "2026-11-20",
 "greenhouse:fivetran:8211024003": "2026-11-20",
 "greenhouse:fivetran:8211025003": "2026-11-20",
+"greenhouse:fivetran:8213939003": "2026-11-23",
 "greenhouse:flexport:8063944": "2026-10-29",
 "greenhouse:flexport:8106441": "2026-11-17",
 "greenhouse:flexport:8238697": "2026-10-29",
@@ -95815,6 +95822,7 @@
 "greenhouse:mongodb:8401912": "2026-11-20",
 "greenhouse:mongodb:8402068": "2026-11-20",
 "greenhouse:mongodb:8403104": "2026-11-19",
+"greenhouse:mongodb:8403312": "2026-11-23",
 "greenhouse:mongodb:8403318": "2026-11-20",
 "greenhouse:mongodb:8404811": "2026-11-20",
 "greenhouse:mongodb:8406130": "2026-11-20",
@@ -101510,6 +101518,7 @@
 "jibe:careers.docusign.com:31718": "2026-11-20",
 "jibe:careers.docusign.com:31719": "2026-11-20",
 "jibe:careers.docusign.com:31815": "2026-11-20",
+"jibe:careers.docusign.com:31820": "2026-11-23",
 "jibe:careers.keysight.com:49101": "2026-11-17",
 "jibe:careers.keysight.com:51788": "2026-11-07",
 "jibe:careers.keysight.com:52031": "2026-11-07",
@@ -101916,6 +101925,7 @@
 "jibe:careers.keysight.com:57762": "2026-11-19",
 "jibe:careers.keysight.com:57795": "2026-11-17",
 "jibe:careers.keysight.com:57863": "2026-11-17",
+"jibe:careers.keysight.com:58026": "2026-11-23",
 "jibe:careers.keysight.com:58059": "2026-11-18",
 "jibe:careers.keysight.com:58093": "2026-11-20",
 "jibe:careers.keysight.com:58239": "2026-11-19",
@@ -115721,6 +115731,7 @@
 "workday:cisco:2031200": "2026-11-18",
 "workday:cisco:2031275": "2026-11-20",
 "workday:cisco:2031477": "2026-11-20",
+"workday:cisco:2031885": "2026-11-23",
 "workday:cisco:2031914": "2026-11-17",
 "workday:cisco:2032282": "2026-11-19",
 "workday:cisco:2032363": "2026-11-20",
@@ -123367,6 +123378,7 @@
 "workday:nttlimited:R-150146": "2026-11-17",
 "workday:nttlimited:R-150181": "2026-11-12",
 "workday:nttlimited:R-150438": "2026-11-23",
+"workday:nttlimited:R-150493-2": "2026-11-23",
 "workday:nttlimited:R-150655": "2026-11-18",
 "workday:nttlimited:R-150681": "2026-11-12",
 "workday:nttlimited:R-150685": "2026-11-18",
@@ -128052,6 +128064,7 @@
 "workday:salesforce:JR367834": "2026-11-10",
 "workday:salesforce:JR367837": "2026-11-10",
 "workday:salesforce:JR367847-1": "2026-11-10",
+"workday:salesforce:JR367849": "2026-11-23",
 "workday:salesforce:JR367852-1": "2026-11-13",
 "workday:salesforce:JR367854": "2026-11-10",
 "workday:salesforce:JR367859": "2026-11-10",
