@@ -58304,6 +58304,13 @@
 },
 "2026-11-11"
 ],
+"rescue:workday:micron:JR115175": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-23"
+],
 "rescue:workday:micron:JR115188": [
 {
 "note": "Requires extensive hands-on experience.",
@@ -77961,7 +77968,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 111
+"typical": 112
 },
 "HUD": {
 "alerted": false,
@@ -78331,7 +78338,7 @@
 "Kong": {
 "alerted": false,
 "streak": 0,
-"typical": 126
+"typical": 127
 },
 "Kraken": {
 "alerted": false,
@@ -78616,7 +78623,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 146
+"typical": 149
 },
 "Microsoft": {
 "alerted": false,
@@ -78746,7 +78753,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 65
+"typical": 66
 },
 "NVIDIA": {
 "alerted": false,
@@ -78927,7 +78934,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 509,
+"streak": 510,
 "typical": 1
 },
 "Oklo": {
@@ -79373,7 +79380,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 292,
+"streak": 293,
 "typical": 5
 },
 "Quora": {
@@ -79614,7 +79621,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 142
+"typical": 141
 },
 "Salient": {
 "alerted": false,
@@ -79714,7 +79721,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 477,
+"streak": 478,
 "typical": 39
 },
 "Short Story": {
@@ -83481,6 +83488,7 @@
 "ashby:kong:7630e70e-aeca-4f33-a420-3145e99e28fd": "2026-11-10",
 "ashby:kong:79823f9d-9833-4eea-9cf4-67656eb72cda": "2026-11-20",
 "ashby:kong:7ae70da1-1808-4234-96fc-dfe26603d226": "2026-10-28",
+"ashby:kong:7bff13f0-87af-4a5b-98a5-24f4c027faad": "2026-11-23",
 "ashby:kong:7e5f0067-f998-4254-9ce3-21b6ebee0283": "2026-11-03",
 "ashby:kong:892cdab5-427f-4fc8-aac0-eb5ccbdbff5c": "2026-11-10",
 "ashby:kong:8cfc63f7-7cab-4835-94ef-6614a7083878": "2026-10-28",
@@ -117503,6 +117511,7 @@
 "workday:hpe:1216346-2": "2026-10-29",
 "workday:hpe:1216350-2": "2026-10-29",
 "workday:hpe:1216356-1": "2026-11-04",
+"workday:hpe:1216359-1": "2026-11-23",
 "workday:hpe:1216374-3": "2026-10-30",
 "workday:hpe:1216378-2": "2026-11-02",
 "workday:hpe:1216388-3": "2026-10-29",
@@ -121435,7 +121444,9 @@
 "workday:micron:JR108640": "2026-10-28",
 "workday:micron:JR108684": "2026-11-05",
 "workday:micron:JR108730": "2026-10-22",
+"workday:micron:JR108745": "2026-11-23",
 "workday:micron:JR108746": "2026-11-10",
+"workday:micron:JR108752-1": "2026-11-23",
 "workday:micron:JR108773": "2026-11-23",
 "workday:micron:JR108803": "2026-11-03",
 "workday:micron:JR108812": "2026-11-03",
@@ -122191,6 +122202,7 @@
 "workday:micron:JR115171": "2026-10-21",
 "workday:micron:JR115172": "2026-10-21",
 "workday:micron:JR115173-1": "2026-10-21",
+"workday:micron:JR115175": "2026-11-23",
 "workday:micron:JR115177": "2026-10-23",
 "workday:micron:JR115187": "2026-10-27",
 "workday:micron:JR115188": "2026-10-22",
@@ -123348,6 +123360,7 @@
 "workday:nttlimited:R-152777": "2026-11-17",
 "workday:nttlimited:R-152789": "2026-11-20",
 "workday:nttlimited:R-152797-2": "2026-11-19",
+"workday:nttlimited:R-152807-2": "2026-11-23",
 "workday:nttlimited:R-152809": "2026-11-19",
 "workday:nttlimited:R-152818-1": "2026-11-20",
 "workday:nttlimited:R-152819": "2026-11-20",
@@ -137811,9 +137824,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 23,
+"calls": 24,
 "date": "2026-11-23",
-"usd": 0.002526
+"usd": 0.002597
 },
 "years": {
 "amazon:10583340": [
