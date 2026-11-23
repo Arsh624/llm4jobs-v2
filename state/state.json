@@ -57514,6 +57514,13 @@
 },
 "2026-11-13"
 ],
+"rescue:workday:micron:JR105791": [
+{
+"note": "Staff roles typically require more experience.",
+"senior": true
+},
+"2026-11-23"
+],
 "rescue:workday:micron:JR105906": [
 {
 "note": "Requires significant experience in campaign management.",
@@ -76568,7 +76575,7 @@
 "AppLovin": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 43
 },
 "Applied Intuition": {
 "alerted": false,
@@ -78464,12 +78471,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 100
 },
 "Middesk": {
 "alerted": false,
@@ -78775,7 +78782,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 498,
+"streak": 499,
 "typical": 1
 },
 "Oklo": {
@@ -78786,7 +78793,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 373
+"typical": 374
 },
 "Olly": {
 "alerted": false,
@@ -78831,7 +78838,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 89
+"typical": 88
 },
 "OpenRouter": {
 "alerted": false,
@@ -79221,7 +79228,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 281,
+"streak": 282,
 "typical": 5
 },
 "Quora": {
@@ -79402,7 +79409,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 556
+"typical": 555
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -79462,7 +79469,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 138
+"typical": 139
 },
 "Salient": {
 "alerted": false,
@@ -79562,7 +79569,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 466,
+"streak": 467,
 "typical": 39
 },
 "Short Story": {
@@ -95572,6 +95579,7 @@
 "greenhouse:motional:8208717003": "2026-11-18",
 "greenhouse:motional:8209236003": "2026-11-19",
 "greenhouse:motional:8209264003": "2026-11-19",
+"greenhouse:motional:8213834003": "2026-11-23",
 "greenhouse:netlify:8519325002": "2026-11-13",
 "greenhouse:netlify:8895506002": "2026-11-18",
 "greenhouse:netlify:8919217002": "2026-11-05",
@@ -95911,6 +95919,7 @@
 "greenhouse:okta:8405220": "2026-11-20",
 "greenhouse:okta:8406342": "2026-11-20",
 "greenhouse:okta:8406600": "2026-11-21",
+"greenhouse:okta:8407829": "2026-11-23",
 "greenhouse:olly:4750011005": "2026-11-02",
 "greenhouse:olly:4750584005": "2026-11-03",
 "greenhouse:olly:4755582005": "2026-11-18",
@@ -101614,6 +101623,7 @@
 "jibe:careers.keysight.com:58059": "2026-11-18",
 "jibe:careers.keysight.com:58093": "2026-11-20",
 "jibe:careers.keysight.com:58239": "2026-11-19",
+"jibe:careers.keysight.com:58257": "2026-11-23",
 "jibe:careers.keysight.com:58356": "2026-11-20",
 "jibe:careers.keysight.com:58653": "2026-11-20",
 "jibe:careers.na.panasonic.com:42951": "2026-10-30",
@@ -106897,6 +106907,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304638": "2026-11-17",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304639": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304640": "2026-11-17",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304645": "2026-11-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304654": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304663": "2026-11-12",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304664": "2026-11-12",
@@ -121086,6 +121097,7 @@
 "workday:micron:JR105731": "2026-11-05",
 "workday:micron:JR105735": "2026-10-27",
 "workday:micron:JR105741": "2026-11-09",
+"workday:micron:JR105791": "2026-11-23",
 "workday:micron:JR105796": "2026-10-27",
 "workday:micron:JR105814-1": "2026-11-11",
 "workday:micron:JR105829": "2026-10-20",
@@ -127809,6 +127821,7 @@
 "workday:salesforce:JR368968": "2026-11-19",
 "workday:salesforce:JR369041-1": "2026-11-19",
 "workday:salesforce:JR369042": "2026-11-19",
+"workday:salesforce:JR369044": "2026-11-23",
 "workday:salesforce:JR369066-1": "2026-11-20",
 "workday:salesforce:JR369117": "2026-11-20",
 "workday:salesforce:JR369144-1": "2026-11-20",
@@ -137556,9 +137569,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 3,
+"calls": 4,
 "date": "2026-11-23",
-"usd": 0.000404
+"usd": 0.000475
 },
 "years": {
 "amazon:10583340": [
