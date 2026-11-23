@@ -55264,6 +55264,13 @@
 },
 "2026-11-12"
 ],
+"rescue:workday:hpe:1207893-3": [
+{
+"note": "Requires advanced technical expertise.",
+"senior": true
+},
+"2026-11-23"
+],
 "rescue:workday:hpe:1208310": [
 {
 "note": "Requires extensive experience in Linux kernel development.",
@@ -62628,6 +62635,13 @@
 },
 "2026-11-10"
 ],
+"rescue:workday:salesforce:JR359771-1": [
+{
+"note": "Staff implies significant experience required.",
+"senior": true
+},
+"2026-11-23"
+],
 "rescue:workday:salesforce:JR360079-1": [
 {
 "note": "Staff implies significant experience required.",
@@ -69706,6 +69720,16 @@
 },
 "2026-11-20"
 ],
+"workday:hpe:1210868-2|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads with relevant degree and skills.",
+"us_ok": true
+},
+"2026-11-23"
+],
 "workday:hpe:1211215-3|v3|73908d": [
 {
 "chance": 5,
@@ -74556,6 +74580,16 @@
 },
 "2026-11-17"
 ],
+"workday:micron:JR117938|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires significant experience in semiconductor manufacturing.",
+"us_ok": true
+},
+"2026-11-23"
+],
 "workday:micron:JR117939|v3|73908d": [
 {
 "chance": 7,
@@ -77726,7 +77760,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 28
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -77771,7 +77805,7 @@
 "Apex Space": {
 "alerted": false,
 "streak": 0,
-"typical": 142
+"typical": 141
 },
 "Apollo GraphQL": {
 "alerted": false,
@@ -78186,7 +78220,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 116
+"typical": 117
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -78631,7 +78665,7 @@
 "ElevenLabs": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 123
 },
 "EliseAI": {
 "alerted": false,
@@ -78877,7 +78911,7 @@
 "Gamma": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 19
 },
 "Garage": {
 "alerted": false,
@@ -79027,7 +79061,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 78
+"typical": 88
 },
 "HUD": {
 "alerted": false,
@@ -79642,7 +79676,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 90
+"typical": 93
 },
 "Mercor": {
 "alerted": false,
@@ -79682,7 +79716,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 128
 },
 "Microsoft": {
 "alerted": false,
@@ -79993,7 +80027,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 534,
+"streak": 535,
 "typical": 1
 },
 "Oklo": {
@@ -80024,7 +80058,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 342
+"typical": 340
 },
 "OneSchema": {
 "alerted": false,
@@ -80439,7 +80473,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 317,
+"streak": 318,
 "typical": 5
 },
 "Quora": {
@@ -80680,7 +80714,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 95
 },
 "Salient": {
 "alerted": false,
@@ -80780,7 +80814,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 502,
+"streak": 503,
 "typical": 39
 },
 "Short Story": {
@@ -81436,7 +81470,7 @@
 "Waymo": {
 "alerted": false,
 "streak": 0,
-"typical": 360
+"typical": 359
 },
 "Wealthfront": {
 "alerted": false,
@@ -81456,7 +81490,7 @@
 "Wells Fargo": {
 "alerted": false,
 "streak": 0,
-"typical": 298
+"typical": 300
 },
 "Wingspan": {
 "alerted": false,
@@ -102754,6 +102788,7 @@
 "jibe:careers.docusign.com:31386": "2026-11-19",
 "jibe:careers.docusign.com:31419": "2026-11-23",
 "jibe:careers.docusign.com:31452": "2026-11-19",
+"jibe:careers.docusign.com:31486": "2026-11-23",
 "jibe:careers.docusign.com:31487": "2026-11-18",
 "jibe:careers.docusign.com:31488": "2026-11-18",
 "jibe:careers.docusign.com:31489": "2026-11-18",
@@ -116834,6 +116869,7 @@
 "workday:capitalone:R1006158-1": "2026-11-19",
 "workday:capitalone:R1006161": "2026-11-20",
 "workday:capitalone:R1006163-1": "2026-11-19",
+"workday:capitalone:R1006167-1": "2026-11-23",
 "workday:capitalone:R1006168-1": "2026-11-19",
 "workday:capitalone:R1006171-1": "2026-11-19",
 "workday:capitalone:R1006174": "2026-11-19",
@@ -118671,6 +118707,7 @@
 "workday:hpe:1207785-2": "2026-10-29",
 "workday:hpe:1207833-2": "2026-11-18",
 "workday:hpe:1207848-2": "2026-11-12",
+"workday:hpe:1207893-3": "2026-11-23",
 "workday:hpe:1207925-3": "2026-11-13",
 "workday:hpe:1208105-2": "2026-11-17",
 "workday:hpe:1208110-2": "2026-10-29",
@@ -118757,6 +118794,7 @@
 "workday:hpe:1210773-3": "2026-11-19",
 "workday:hpe:1210785-2": "2026-11-03",
 "workday:hpe:1210827-2": "2026-11-03",
+"workday:hpe:1210868-2": "2026-11-23",
 "workday:hpe:1210894-3": "2026-11-04",
 "workday:hpe:1210911-2": "2026-11-05",
 "workday:hpe:1210959-2": "2026-10-30",
@@ -118847,6 +118885,7 @@
 "workday:hpe:1213898": "2026-11-02",
 "workday:hpe:1213909-2": "2026-11-06",
 "workday:hpe:1213945-2": "2026-11-11",
+"workday:hpe:1213951-2": "2026-11-23",
 "workday:hpe:1213971-2": "2026-10-29",
 "workday:hpe:1213973-1": "2026-11-20",
 "workday:hpe:1213975": "2026-10-29",
@@ -118873,6 +118912,8 @@
 "workday:hpe:1214367-2": "2026-11-02",
 "workday:hpe:1214372-2": "2026-11-03",
 "workday:hpe:1214398-2": "2026-11-03",
+"workday:hpe:1214399": "2026-11-23",
+"workday:hpe:1214400-2": "2026-11-23",
 "workday:hpe:1214408-5": "2026-10-29",
 "workday:hpe:1214409-3": "2026-10-29",
 "workday:hpe:1214410-5": "2026-10-29",
@@ -118955,6 +118996,7 @@
 "workday:hpe:1215183-1": "2026-11-20",
 "workday:hpe:1215193-1": "2026-10-29",
 "workday:hpe:1215194-2": "2026-10-29",
+"workday:hpe:1215195-2": "2026-11-23",
 "workday:hpe:1215196": "2026-10-29",
 "workday:hpe:1215198-2": "2026-10-29",
 "workday:hpe:1215202-3": "2026-11-06",
@@ -119038,6 +119080,7 @@
 "workday:hpe:1215742-3": "2026-10-29",
 "workday:hpe:1215750-2": "2026-10-29",
 "workday:hpe:1215751-3": "2026-10-29",
+"workday:hpe:1215753-2": "2026-11-23",
 "workday:hpe:1215793-2": "2026-11-13",
 "workday:hpe:1215796-3": "2026-11-11",
 "workday:hpe:1215797-2": "2026-11-20",
@@ -122726,7 +122769,9 @@
 "workday:medtronic:R82552-2": "2026-11-19",
 "workday:medtronic:R82553-1": "2026-11-19",
 "workday:medtronic:R82560": "2026-11-20",
+"workday:medtronic:R82567-1": "2026-11-23",
 "workday:medtronic:R82572-2": "2026-11-20",
+"workday:medtronic:R82575": "2026-11-23",
 "workday:medtronic:R82576-1": "2026-11-20",
 "workday:medtronic:R82601-1": "2026-11-23",
 "workday:medtronic:R82607-1": "2026-11-20",
@@ -124577,6 +124622,7 @@
 "workday:micron:JR117925": "2026-11-19",
 "workday:micron:JR117935-1": "2026-11-23",
 "workday:micron:JR117936": "2026-11-20",
+"workday:micron:JR117938": "2026-11-23",
 "workday:micron:JR117939": "2026-11-17",
 "workday:micron:JR117956": "2026-11-23",
 "workday:micron:JR117966-1": "2026-11-23",
@@ -128481,6 +128527,7 @@
 "workday:salesforce:JR359725": "2026-11-18",
 "workday:salesforce:JR359744": "2026-11-05",
 "workday:salesforce:JR359754-1": "2026-11-10",
+"workday:salesforce:JR359771-1": "2026-11-23",
 "workday:salesforce:JR359775": "2026-10-30",
 "workday:salesforce:JR359804": "2026-11-03",
 "workday:salesforce:JR359830": "2026-10-22",
@@ -137664,6 +137711,7 @@
 "hpe juniper networks|systems software engineer i": "2026-11-12",
 "hpe juniper networks|systems software engineer i graduate": "2026-11-19",
 "hpe juniper networks|systems test engineer ii": "2026-11-02",
+"hpe juniper networks|thermal engineer spring tx": "2026-11-23",
 "hpe juniper networks|vlsi asic logic design engineer": "2026-11-06",
 "hpe juniper networks|vlsi engineer ii": "2026-11-20",
 "hpe juniper networks|vlsi physical design engineer": "2026-10-29",
@@ -138291,6 +138339,7 @@
 "micron|night shift process engineer thin films": "2026-10-28",
 "micron|pcs engineer": "2026-10-22",
 "micron|pcvd process engineer": "2026-11-16",
+"micron|pi euv process integration engineer": "2026-11-23",
 "micron|probe process engineer allcrunch": "2026-11-13",
 "micron|process control engineer run to run": "2026-11-05",
 "micron|process control systems engineer": "2026-10-26",
@@ -139754,9 +139803,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 153,
+"calls": 157,
 "date": "2026-11-23",
-"usd": 0.020316
+"usd": 0.020974
 },
 "years": {
 "amazon:10583340": [
