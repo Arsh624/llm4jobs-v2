@@ -4740,6 +4740,16 @@
 },
 "2026-11-21"
 ],
+"amazon:10611483|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-24"
+],
 "amazon:10611508|v3|73908d": [
 {
 "chance": 2,
@@ -14009,6 +14019,16 @@
 "us_ok": true
 },
 "2026-11-11"
+],
+"eightfold:paypal.com:274923558924|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 1,
+"note": "Targets new grads with relevant internships or projects.",
+"us_ok": true
+},
+"2026-11-24"
 ],
 "eightfold:qualcomm.com:446707518930|v3|73908d": [
 {
@@ -30986,6 +31006,13 @@
 "senior": true
 },
 "2026-11-19"
+],
+"rescue:eightfold:paypal.com:274923558913": [
+{
+"note": "Staff implies significant experience required.",
+"senior": true
+},
+"2026-11-24"
 ],
 "rescue:eightfold:paypal.com:274923558943": [
 {
@@ -57454,6 +57481,13 @@
 },
 "2026-10-24"
 ],
+"rescue:workday:marvell:2604766-1": [
+{
+"note": "Principal level suggests significant experience required.",
+"senior": true
+},
+"2026-11-24"
+],
 "rescue:workday:marvell:2604838": [
 {
 "note": "Requires extensive experience in circuit design.",
@@ -60604,6 +60638,13 @@
 },
 "2026-11-12"
 ],
+"rescue:workday:micron:JR117446": [
+{
+"note": "Requires significant experience in safety engineering.",
+"senior": true
+},
+"2026-11-24"
+],
 "rescue:workday:micron:JR117457": [
 {
 "note": "Requires significant experience and expertise.",
@@ -60673,6 +60714,13 @@
 "senior": true
 },
 "2026-11-20"
+],
+"rescue:workday:micron:JR118098": [
+{
+"note": "Requires significant experience in program management.",
+"senior": true
+},
+"2026-11-24"
 ],
 "rescue:workday:micron:JR118162": [
 {
@@ -78883,7 +78931,7 @@
 "Apex Space": {
 "alerted": false,
 "streak": 0,
-"typical": 142
+"typical": 141
 },
 "Apollo GraphQL": {
 "alerted": false,
@@ -79663,7 +79711,7 @@
 "Donorbox": {
 "alerted": false,
 "streak": 0,
-"typical": 4
+"typical": 3
 },
 "DoorDash": {
 "alerted": false,
@@ -79733,7 +79781,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 383
+"typical": 384
 },
 "Electric Air": {
 "alerted": false,
@@ -80054,7 +80102,7 @@
 "GitLab": {
 "alerted": false,
 "streak": 0,
-"typical": 252
+"typical": 251
 },
 "GiveCampus": {
 "alerted": false,
@@ -80579,7 +80627,7 @@
 "Latent": {
 "alerted": false,
 "streak": 0,
-"typical": 23
+"typical": 24
 },
 "Lattice": {
 "alerted": false,
@@ -80709,7 +80757,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "Mashgin": {
 "alerted": false,
@@ -80754,7 +80802,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 114
 },
 "Mercor": {
 "alerted": false,
@@ -80794,7 +80842,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 150
+"typical": 154
 },
 "Microsoft": {
 "alerted": false,
@@ -81105,7 +81153,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 554,
+"streak": 555,
 "typical": 1
 },
 "Oklo": {
@@ -81246,7 +81294,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1241
+"typical": 1240
 },
 "Panasonic North America": {
 "alerted": false,
@@ -81356,7 +81404,7 @@
 "Pindrop": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 20
 },
 "Pinecone": {
 "alerted": false,
@@ -81551,7 +81599,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 337,
+"streak": 338,
 "typical": 5
 },
 "Quora": {
@@ -81667,7 +81715,7 @@
 "Retell AI": {
 "alerted": false,
 "streak": 0,
-"typical": 21
+"typical": 19
 },
 "Rev": {
 "alerted": false,
@@ -81702,7 +81750,7 @@
 "Riot Games": {
 "alerted": false,
 "streak": 0,
-"typical": 199
+"typical": 200
 },
 "Ripple Labs": {
 "alerted": false,
@@ -81792,7 +81840,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 105
+"typical": 106
 },
 "Salient": {
 "alerted": false,
@@ -81842,7 +81890,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 160
+"typical": 159
 },
 "Scality": {
 "alerted": false,
@@ -81892,7 +81940,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 522,
+"streak": 523,
 "typical": 39
 },
 "Short Story": {
@@ -82223,7 +82271,7 @@
 "Tekion": {
 "alerted": false,
 "streak": 0,
-"typical": 92
+"typical": 91
 },
 "Tempo": {
 "alerted": false,
@@ -82433,7 +82481,7 @@
 "Vals AI": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 5
 },
 "Vanta": {
 "alerted": false,
@@ -82698,7 +82746,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 17
 },
 "fal": {
 "alerted": false,
@@ -83461,6 +83509,7 @@
 "amazon:10611123": "2026-11-23",
 "amazon:10611290": "2026-11-23",
 "amazon:10611446": "2026-11-23",
+"amazon:10611483": "2026-11-24",
 "amazon:10611508": "2026-11-23",
 "amazon:10611628": "2026-11-23",
 "amazon:10611635": "2026-11-23",
@@ -85934,6 +85983,7 @@
 "ashby:langchain:f0396971-39fa-4d40-9af8-60e529bb6c86": "2026-10-20",
 "ashby:latent:0c112e5a-908d-47fe-8c6c-6546f5ac5dd9": "2026-11-19",
 "ashby:latent:50ece599-87a5-4c59-bff5-0ede278d8128": "2026-11-16",
+"ashby:latent:9393f5f3-fab1-4d60-8926-f1c424f93c15": "2026-11-24",
 "ashby:latent:c68df3c5-f252-47e8-80c6-560218d54a25": "2026-11-19",
 "ashby:legionhealth:3c83a225-8a92-4661-9728-fb1ab0f0cf37": "2026-11-13",
 "ashby:light:a13190b1-4817-42d0-8b3e-85a2ae376d6e": "2026-11-06",
@@ -92604,7 +92654,10 @@
 "eightfold:paypal.com:274923531812": "2026-11-19",
 "eightfold:paypal.com:274923536702": "2026-11-20",
 "eightfold:paypal.com:274923536703": "2026-11-20",
+"eightfold:paypal.com:274923558913": "2026-11-24",
+"eightfold:paypal.com:274923558924": "2026-11-24",
 "eightfold:paypal.com:274923558925": "2026-11-23",
+"eightfold:paypal.com:274923558928": "2026-11-24",
 "eightfold:paypal.com:274923558943": "2026-11-23",
 "eightfold:paypal.com:274923558989": "2026-11-23",
 "eightfold:paypal.com:274923558991": "2026-11-24",
@@ -96690,6 +96743,7 @@
 "greenhouse:elastic:8378139": "2026-11-11",
 "greenhouse:elastic:8378140": "2026-11-11",
 "greenhouse:elastic:8378143": "2026-11-11",
+"greenhouse:elastic:8379881": "2026-11-24",
 "greenhouse:elastic:8382571": "2026-11-18",
 "greenhouse:elastic:8382573": "2026-11-23",
 "greenhouse:elastic:8382575": "2026-11-20",
@@ -100287,6 +100341,7 @@
 "greenhouse:riotgames:8394988": "2026-11-18",
 "greenhouse:riotgames:8397811": "2026-11-23",
 "greenhouse:riotgames:8406825": "2026-11-23",
+"greenhouse:riotgames:8412221": "2026-11-24",
 "greenhouse:ripple:8079209": "2026-11-06",
 "greenhouse:ripple:8180206": "2026-10-20",
 "greenhouse:ripple:8223889": "2026-11-02",
@@ -106807,6 +106862,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25020": "2026-11-19",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25029": "2026-11-20",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25031": "2026-11-23",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25037": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25051": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:305357": "2026-10-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:310973": "2026-11-12",
@@ -109386,7 +109442,10 @@
 "oracle_hcm:enterpriseplatform.dell.com:302678": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:302688": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:302716": "2026-11-17",
+"oracle_hcm:enterpriseplatform.dell.com:302717": "2026-11-24",
 "oracle_hcm:enterpriseplatform.dell.com:302842": "2026-11-21",
+"oracle_hcm:enterpriseplatform.dell.com:302849": "2026-11-24",
+"oracle_hcm:enterpriseplatform.dell.com:302850": "2026-11-24",
 "oracle_hcm:enterpriseplatform.dell.com:302870": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:302925": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:302936": "2026-11-23",
@@ -110094,6 +110153,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304474": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304475": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304477": "2026-11-16",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304479": "2026-11-24",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304482": "2026-11-11",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304485": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304486": "2026-11-06",
@@ -119098,6 +119158,7 @@
 "workday:ebay:R0077512": "2026-11-18",
 "workday:ebay:R0077518": "2026-11-18",
 "workday:ebay:R0077520": "2026-11-18",
+"workday:ebay:R0077523": "2026-11-24",
 "workday:ebay:R0077532": "2026-11-18",
 "workday:ebay:R0077534": "2026-11-19",
 "workday:ebay:R0077539": "2026-11-23",
@@ -122809,6 +122870,7 @@
 "workday:marvell:2604757": "2026-10-28",
 "workday:marvell:2604760": "2026-11-07",
 "workday:marvell:2604762-1": "2026-10-27",
+"workday:marvell:2604766-1": "2026-11-24",
 "workday:marvell:2604789": "2026-11-13",
 "workday:marvell:2604808-1": "2026-11-19",
 "workday:marvell:2604812-1": "2026-11-05",
@@ -126295,6 +126357,7 @@
 "workday:micron:JR117438": "2026-11-12",
 "workday:micron:JR117440": "2026-11-23",
 "workday:micron:JR117444": "2026-11-16",
+"workday:micron:JR117446": "2026-11-24",
 "workday:micron:JR117447-1": "2026-11-23",
 "workday:micron:JR117450": "2026-11-16",
 "workday:micron:JR117451": "2026-11-16",
@@ -126349,6 +126412,7 @@
 "workday:micron:JR117706": "2026-11-18",
 "workday:micron:JR117708": "2026-11-13",
 "workday:micron:JR117709": "2026-11-21",
+"workday:micron:JR117710-1": "2026-11-24",
 "workday:micron:JR117718": "2026-11-17",
 "workday:micron:JR117727": "2026-11-16",
 "workday:micron:JR117731": "2026-11-19",
@@ -126390,6 +126454,7 @@
 "workday:micron:JR118081": "2026-11-19",
 "workday:micron:JR118093": "2026-11-23",
 "workday:micron:JR118097-1": "2026-11-17",
+"workday:micron:JR118098": "2026-11-24",
 "workday:micron:JR118102": "2026-11-19",
 "workday:micron:JR118145": "2026-11-20",
 "workday:micron:JR118151": "2026-11-20",
@@ -138495,6 +138560,7 @@
 "amazon|software development engineer data communications tech": "2026-11-24",
 "amazon|software development engineer database": "2026-10-30",
 "amazon|software development engineer database early career 2027 us": "2026-10-30",
+"amazon|software development engineer device software vega os": "2026-11-24",
 "amazon|software development engineer devices software services": "2026-10-28",
 "amazon|software development engineer dynamodb": "2026-10-22",
 "amazon|software development engineer early career": "2026-11-06",
@@ -140834,6 +140900,7 @@
 "pathos|member of technical staff ai": "2026-11-17",
 "paypal|data scientist": "2026-11-03",
 "paypal|data scientist capital risk stress testing": "2026-11-17",
+"paypal|machine learning engineer": "2026-11-24",
 "paypal|software engineer": "2026-10-26",
 "paypal|software engineer recent graduate": "2026-11-16",
 "pdt partners|procurement analyst": "2026-11-22",
@@ -141803,9 +141870,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 41,
+"calls": 47,
 "date": "2026-11-24",
-"usd": 0.006216
+"usd": 0.006945
 },
 "years": {
 "amazon:10583340": [
