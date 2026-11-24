@@ -8390,6 +8390,16 @@
 },
 "2026-11-20"
 ],
+"ashby:openai:f568de05-d557-4e70-aa12-256c637c7ef5|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires substantial contributions in code and enterprise experience.",
+"us_ok": true
+},
+"2026-11-24"
+],
 "ashby:openai:f6cada21-0f54-4d8a-884e-e3c64edd4789|v3|73908d": [
 {
 "chance": 8,
@@ -40734,6 +40744,13 @@
 "senior": false
 },
 "2026-11-23"
+],
+"rescue:jibe:careers.keysight.com:56710": [
+{
+"note": "Expert level suggests significant experience required.",
+"senior": true
+},
+"2026-11-24"
 ],
 "rescue:jibe:careers.keysight.com:56711": [
 {
@@ -78721,7 +78738,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 334
+"typical": 333
 },
 "Ai2": {
 "alerted": false,
@@ -78811,7 +78828,7 @@
 "Ambient.ai": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 25
 },
 "Amplitude": {
 "alerted": false,
@@ -78856,7 +78873,7 @@
 "Anthropic": {
 "alerted": false,
 "streak": 0,
-"typical": 631
+"typical": 630
 },
 "Anyscale": {
 "alerted": false,
@@ -79441,7 +79458,7 @@
 "Coinbase": {
 "alerted": false,
 "streak": 0,
-"typical": 250
+"typical": 249
 },
 "Color Health": {
 "alerted": false,
@@ -80117,12 +80134,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 67
+"typical": 66
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 108
 },
 "HUD": {
 "alerted": false,
@@ -80371,7 +80388,8 @@
 },
 "Intuit": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(834852 bytes read)",
+"streak": 1,
 "typical": 606
 },
 "Invert": {
@@ -80687,7 +80705,7 @@
 "Mariana Minerals": {
 "alerted": false,
 "streak": 0,
-"typical": 99
+"typical": 98
 },
 "Marvell": {
 "alerted": false,
@@ -80742,7 +80760,7 @@
 "Mercor": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 109
 },
 "Mercury Technologies": {
 "alerted": false,
@@ -80777,7 +80795,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 145
+"typical": 149
 },
 "Microsoft": {
 "alerted": false,
@@ -80817,7 +80835,7 @@
 "Mixpanel": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 38
 },
 "Modal": {
 "alerted": false,
@@ -81088,7 +81106,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 549,
+"streak": 550,
 "typical": 1
 },
 "Oklo": {
@@ -81099,7 +81117,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 371
+"typical": 370
 },
 "Olly": {
 "alerted": false,
@@ -81134,7 +81152,7 @@
 "OpenAI": {
 "alerted": false,
 "streak": 0,
-"typical": 855
+"typical": 856
 },
 "OpenEvidence": {
 "alerted": false,
@@ -81534,7 +81552,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 332,
+"streak": 333,
 "typical": 5
 },
 "Quora": {
@@ -81740,7 +81758,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 218
+"typical": 219
 },
 "Runpod": {
 "alerted": false,
@@ -81755,7 +81773,7 @@
 "SK hynix America": {
 "alerted": false,
 "streak": 0,
-"typical": 47
+"typical": 48
 },
 "SafeBreach": {
 "alerted": false,
@@ -81875,7 +81893,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 517,
+"streak": 518,
 "typical": 39
 },
 "Short Story": {
@@ -81981,7 +81999,7 @@
 "SoFi": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 55
 },
 "Socket": {
 "alerted": false,
@@ -82151,7 +82169,7 @@
 "Swayable": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 15
 },
 "Synack": {
 "alerted": false,
@@ -90878,6 +90896,7 @@
 "eightfold:microsoft.com:1970393557019336": "2026-10-21",
 "eightfold:microsoft.com:1970393557019377": "2026-11-09",
 "eightfold:microsoft.com:1970393557019385": "2026-11-13",
+"eightfold:microsoft.com:1970393557019393": "2026-11-24",
 "eightfold:microsoft.com:1970393557019397": "2026-10-26",
 "eightfold:microsoft.com:1970393557019400": "2026-11-05",
 "eightfold:microsoft.com:1970393557019439": "2026-11-10",
@@ -101407,6 +101426,7 @@
 "greenhouse:skhynixamerica:5477769008": "2026-11-10",
 "greenhouse:skhynixamerica:5477786008": "2026-11-10",
 "greenhouse:skhynixamerica:5480908008": "2026-11-12",
+"greenhouse:skhynixamerica:5493242008": "2026-11-24",
 "greenhouse:skildai-careers:5463895008": "2026-10-29",
 "greenhouse:skildai-careers:5464102008": "2026-10-29",
 "greenhouse:skildai-careers:5465556008": "2026-10-29",
@@ -104601,6 +104621,7 @@
 "jibe:careers.keysight.com:56707": "2026-11-11",
 "jibe:careers.keysight.com:56708": "2026-11-13",
 "jibe:careers.keysight.com:56709": "2026-11-11",
+"jibe:careers.keysight.com:56710": "2026-11-24",
 "jibe:careers.keysight.com:56711": "2026-11-12",
 "jibe:careers.keysight.com:56712": "2026-11-12",
 "jibe:careers.keysight.com:56713": "2026-11-12",
@@ -109013,6 +109034,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:300119": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:300129": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:300132": "2026-11-12",
+"oracle_hcm:enterpriseplatform.dell.com:300141": "2026-11-24",
 "oracle_hcm:enterpriseplatform.dell.com:300167": "2026-11-23",
 "oracle_hcm:enterpriseplatform.dell.com:300188": "2026-11-16",
 "oracle_hcm:enterpriseplatform.dell.com:300202": "2026-11-05",
@@ -109352,6 +109374,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:D11260": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:D11402": "2026-11-04",
 "oracle_hcm:enterpriseplatform.dell.com:D11405": "2026-11-23",
+"oracle_hcm:enterpriseplatform.dell.com:D11413": "2026-11-24",
 "oracle_hcm:enterpriseplatform.dell.com:D11436": "2026-11-18",
 "oracle_hcm:enterpriseplatform.dell.com:D11766": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:D11792": "2026-11-10",
@@ -120611,6 +120634,7 @@
 "workday:hpe:1215035-2": "2026-11-04",
 "workday:hpe:1215055-2": "2026-11-05",
 "workday:hpe:1215057-2": "2026-11-03",
+"workday:hpe:1215072-1": "2026-11-24",
 "workday:hpe:1215080-2": "2026-11-03",
 "workday:hpe:1215086": "2026-10-29",
 "workday:hpe:1215090-2": "2026-10-29",
@@ -121275,6 +121299,7 @@
 "workday:hpe:1218507": "2026-11-18",
 "workday:hpe:1218512-2": "2026-11-18",
 "workday:hpe:1218514-2": "2026-11-13",
+"workday:hpe:1218531-1": "2026-11-24",
 "workday:hpe:1218537-2": "2026-11-16",
 "workday:hpe:1218545-2": "2026-11-18",
 "workday:hpe:1218546-2": "2026-11-18",
@@ -125113,6 +125138,7 @@
 "workday:micron:JR111582": "2026-11-12",
 "workday:micron:JR111590": "2026-10-20",
 "workday:micron:JR111619": "2026-10-23",
+"workday:micron:JR111621": "2026-11-24",
 "workday:micron:JR111633": "2026-10-23",
 "workday:micron:JR111636": "2026-10-23",
 "workday:micron:JR111637": "2026-10-23",
@@ -126225,6 +126251,7 @@
 "workday:micron:JR117405": "2026-11-16",
 "workday:micron:JR117423": "2026-11-12",
 "workday:micron:JR117426": "2026-11-24",
+"workday:micron:JR117428": "2026-11-24",
 "workday:micron:JR117430": "2026-11-20",
 "workday:micron:JR117432": "2026-11-23",
 "workday:micron:JR117434": "2026-11-11",
@@ -126324,6 +126351,7 @@
 "workday:micron:JR118004": "2026-11-20",
 "workday:micron:JR118012": "2026-11-17",
 "workday:micron:JR118046": "2026-11-17",
+"workday:micron:JR118068": "2026-11-24",
 "workday:micron:JR118081": "2026-11-19",
 "workday:micron:JR118093": "2026-11-23",
 "workday:micron:JR118097-1": "2026-11-17",
@@ -126888,6 +126916,7 @@
 "workday:nttlimited:R-152929-1": "2026-11-19",
 "workday:nttlimited:R-152933-1": "2026-11-23",
 "workday:nttlimited:R-152934": "2026-11-23",
+"workday:nttlimited:R-152949-1": "2026-11-24",
 "workday:nttlimited:R-152951": "2026-11-23",
 "workday:nttlimited:R-152956": "2026-11-23",
 "workday:nttlimited:R-152971": "2026-11-23",
@@ -141722,9 +141751,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 39,
+"calls": 41,
 "date": "2026-11-24",
-"usd": 0.0059
+"usd": 0.006216
 },
 "years": {
 "amazon:10583340": [
