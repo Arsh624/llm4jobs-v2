@@ -4750,6 +4750,16 @@
 },
 "2026-11-24"
 ],
+"amazon:10611485|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-24"
+],
 "amazon:10611508|v3|73908d": [
 {
 "chance": 2,
@@ -22389,6 +22399,16 @@
 "us_ok": false
 },
 "2026-11-20"
+],
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351151|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": 0,
+"note": "Role does not specify years; entry-level tasks included.",
+"us_ok": true
+},
+"2026-11-24"
 ],
 "oracle_hcm:enterpriseplatform.dell.com:292859|v3|73908d": [
 {
@@ -45454,6 +45474,20 @@
 "senior": true
 },
 "2026-11-23"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351259": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-24"
+],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351280": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-24"
 ],
 "rescue:oracle_hcm:enterpriseplatform.dell.com:292462": [
 {
@@ -78786,7 +78820,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 332
+"typical": 334
 },
 "Ai2": {
 "alerted": false,
@@ -78941,7 +78975,7 @@
 "Apollo.io": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 45
 },
 "AppLovin": {
 "alerted": false,
@@ -79056,7 +79090,7 @@
 "Astranis": {
 "alerted": false,
 "streak": 0,
-"typical": 164
+"typical": 165
 },
 "Astro Mechanica": {
 "alerted": false,
@@ -80186,7 +80220,8 @@
 },
 "HPE / Juniper Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 429: Too Many Requests",
+"streak": 1,
 "typical": 109
 },
 "HUD": {
@@ -80757,7 +80792,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 45
+"typical": 46
 },
 "Mashgin": {
 "alerted": false,
@@ -80842,7 +80877,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 154
+"typical": 155
 },
 "Microsoft": {
 "alerted": false,
@@ -81153,7 +81188,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 555,
+"streak": 556,
 "typical": 1
 },
 "Oklo": {
@@ -81164,7 +81199,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 369
+"typical": 370
 },
 "Olly": {
 "alerted": false,
@@ -81209,7 +81244,7 @@
 "OpenGov": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 84
 },
 "OpenRouter": {
 "alerted": false,
@@ -81424,7 +81459,7 @@
 "Plaid": {
 "alerted": false,
 "streak": 0,
-"typical": 145
+"typical": 144
 },
 "Planet Labs": {
 "alerted": false,
@@ -81599,7 +81634,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 338,
+"streak": 339,
 "typical": 5
 },
 "Quora": {
@@ -81665,7 +81700,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 16
+"typical": 15
 },
 "Reddit": {
 "alerted": false,
@@ -81805,7 +81840,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 219
+"typical": 218
 },
 "Runpod": {
 "alerted": false,
@@ -81840,7 +81875,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 108
 },
 "Salient": {
 "alerted": false,
@@ -81940,7 +81975,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 523,
+"streak": 524,
 "typical": 39
 },
 "Short Story": {
@@ -82706,7 +82741,7 @@
 "ZoomInfo": {
 "alerted": false,
 "streak": 0,
-"typical": 92
+"typical": 93
 },
 "Zoox": {
 "alerted": false,
@@ -83510,6 +83545,7 @@
 "amazon:10611290": "2026-11-23",
 "amazon:10611446": "2026-11-23",
 "amazon:10611483": "2026-11-24",
+"amazon:10611485": "2026-11-24",
 "amazon:10611508": "2026-11-23",
 "amazon:10611628": "2026-11-23",
 "amazon:10611635": "2026-11-23",
@@ -93323,6 +93359,7 @@
 "greenhouse:agoda:8398572": "2026-11-19",
 "greenhouse:agoda:8401288": "2026-11-19",
 "greenhouse:agoda:8401289": "2026-11-19",
+"greenhouse:agoda:8401692": "2026-11-24",
 "greenhouse:agoda:8401769": "2026-11-19",
 "greenhouse:agoda:8401777": "2026-11-19",
 "greenhouse:agoda:8401778": "2026-11-19",
@@ -93331,6 +93368,7 @@
 "greenhouse:agoda:8402948": "2026-11-19",
 "greenhouse:agoda:8404854": "2026-11-20",
 "greenhouse:agoda:8404913": "2026-11-24",
+"greenhouse:agoda:8405173": "2026-11-24",
 "greenhouse:agoda:8405291": "2026-11-20",
 "greenhouse:agoda:8405378": "2026-11-20",
 "greenhouse:agoda:8410454": "2026-11-23",
@@ -94609,6 +94647,8 @@
 "greenhouse:apolloio:6266161004": "2026-11-19",
 "greenhouse:apolloio:6268693004": "2026-11-23",
 "greenhouse:apolloio:6268816004": "2026-11-23",
+"greenhouse:apolloio:6269931004": "2026-11-24",
+"greenhouse:apolloio:6269932004": "2026-11-24",
 "greenhouse:applovin:4723007006": "2026-10-20",
 "greenhouse:applovin:4723008006": "2026-10-20",
 "greenhouse:applovin:4723009006": "2026-10-20",
@@ -94745,6 +94785,7 @@
 "greenhouse:astranis:4731098006": "2026-11-20",
 "greenhouse:astranis:4731259006": "2026-11-20",
 "greenhouse:astranis:4731296006": "2026-11-20",
+"greenhouse:astranis:4731856006": "2026-11-24",
 "greenhouse:atariinc:5456480008": "2026-10-20",
 "greenhouse:atariinc:5459409008": "2026-10-21",
 "greenhouse:atariinc:5459410008": "2026-10-21",
@@ -98858,6 +98899,7 @@
 "greenhouse:okta:8406342": "2026-11-20",
 "greenhouse:okta:8406600": "2026-11-21",
 "greenhouse:okta:8407829": "2026-11-23",
+"greenhouse:okta:8411579": "2026-11-24",
 "greenhouse:olly:4750011005": "2026-11-02",
 "greenhouse:olly:4750584005": "2026-11-03",
 "greenhouse:olly:4755582005": "2026-11-18",
@@ -103372,6 +103414,7 @@
 "jibe:careers.amd.com:92505": "2026-11-03",
 "jibe:careers.amd.com:92510": "2026-10-20",
 "jibe:careers.amd.com:92511": "2026-10-29",
+"jibe:careers.amd.com:92515": "2026-11-24",
 "jibe:careers.amd.com:92516": "2026-10-29",
 "jibe:careers.amd.com:92522": "2026-10-21",
 "jibe:careers.amd.com:92537": "2026-10-22",
@@ -106902,6 +106945,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:334517": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:334693": "2026-10-28",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:334699": "2026-11-03",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:334943": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:334997": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:335077": "2026-11-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:335078": "2026-10-29",
@@ -108862,6 +108906,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351128": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351130": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351132": "2026-11-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351151": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351152": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351158": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351160": "2026-11-23",
@@ -108870,6 +108915,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351168": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351196": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351201": "2026-11-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351219": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351223": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351242": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351245": "2026-11-23",
@@ -108880,7 +108926,9 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351254": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351255": "2026-11-23",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351256": "2026-11-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351259": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351268": "2026-11-23",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351280": "2026-11-24",
 "oracle_hcm:enterpriseplatform.dell.com:291082": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:291349": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:291459": "2026-11-03",
@@ -110149,6 +110197,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304461": "2026-10-30",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304462": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304463": "2026-11-06",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304470": "2026-11-24",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304472": "2026-11-12",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304474": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304475": "2026-11-10",
@@ -110210,6 +110259,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304639": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304640": "2026-11-17",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304645": "2026-11-23",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304651": "2026-11-24",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304654": "2026-11-10",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304663": "2026-11-12",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304664": "2026-11-12",
@@ -123037,6 +123087,7 @@
 "workday:marvell:2605417": "2026-11-20",
 "workday:marvell:2605418": "2026-11-23",
 "workday:marvell:2605419-1": "2026-11-23",
+"workday:marvell:2605420": "2026-11-24",
 "workday:marvell:2605427": "2026-11-20",
 "workday:marvell:2605430-1": "2026-11-20",
 "workday:marvell:2605435": "2026-11-20",
@@ -125043,6 +125094,7 @@
 "workday:micron:JR109599": "2026-10-23",
 "workday:micron:JR109607": "2026-11-06",
 "workday:micron:JR109612": "2026-11-02",
+"workday:micron:JR109619-21": "2026-11-24",
 "workday:micron:JR109625": "2026-10-23",
 "workday:micron:JR109675": "2026-11-02",
 "workday:micron:JR109678-2": "2026-11-23",
@@ -131791,6 +131843,7 @@
 "workday:salesforce:JR369295": "2026-11-23",
 "workday:salesforce:JR369304": "2026-11-23",
 "workday:salesforce:JR369342": "2026-11-23",
+"workday:salesforce:JR369415": "2026-11-24",
 "workday:tmobile:REQ339040-1": "2026-11-17",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
@@ -140828,6 +140881,7 @@
 "oracle|advanced services engineer must have oracle health patient accounting local to cleveland oh": "2026-11-05",
 "oracle|advanced services engineer patient accounting": "2026-11-05",
 "oracle|business analyst netsuite business transformation headless ai customer health": "2026-11-13",
+"oracle|cloud migration engineer": "2026-11-24",
 "oracle|cloud solution engineer": "2026-11-03",
 "oracle|cloud solution engineer technical program execution": "2026-11-05",
 "oracle|configuration analyst drug file va oracle health hybrid kansas city mo office": "2026-10-22",
@@ -141870,9 +141924,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 47,
+"calls": 51,
 "date": "2026-11-24",
-"usd": 0.006945
+"usd": 0.007502
 },
 "years": {
 "amazon:10583340": [
