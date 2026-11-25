@@ -5170,6 +5170,16 @@
 },
 "2026-11-25"
 ],
+"amazon:10614480|v3|73908d": [
+{
+"chance": 0,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience",
+"us_ok": true
+},
+"2026-11-25"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -26263,6 +26273,13 @@
 "senior": true
 },
 "2026-11-18"
+],
+"rescue:ashby:notion:c777ed1e-e23f-4b76-bc21-039aaf06c1de": [
+{
+"note": "Requires significant experience in software engineering.",
+"senior": true
+},
+"2026-11-25"
 ],
 "rescue:ashby:notion:e3fe659f-6183-4345-9758-ccf4dd0fc9ac": [
 {
@@ -67697,6 +67714,13 @@
 },
 "2026-11-23"
 ],
+"rescue:workday:salesforce:JR369324": [
+{
+"note": "Requires advanced expertise in architecture.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:workday:tmobile:REQ361459": [
 {
 "note": "Requires managing product lifecycle and strategy.",
@@ -82802,7 +82826,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 334
+"typical": 336
 },
 "Ai2": {
 "alerted": false,
@@ -82902,7 +82926,7 @@
 "Analog Devices": {
 "alerted": false,
 "streak": 0,
-"typical": 14
+"typical": 15
 },
 "Anchorage Digital": {
 "alerted": false,
@@ -82917,7 +82941,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2604
+"typical": 2602
 },
 "AngelList": {
 "alerted": false,
@@ -82971,7 +82995,8 @@
 },
 "Applied Materials": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+"streak": 1,
 "typical": 90
 },
 "AppsFlyer": {
@@ -83116,7 +83141,8 @@
 },
 "Autodesk": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+"streak": 1,
 "typical": 30
 },
 "Ava Labs": {
@@ -83157,7 +83183,7 @@
 "Base Power": {
 "alerted": false,
 "streak": 0,
-"typical": 195
+"typical": 199
 },
 "Baseten": {
 "alerted": false,
@@ -83287,7 +83313,7 @@
 "Brilliant Earth": {
 "alerted": false,
 "streak": 0,
-"typical": 74
+"typical": 75
 },
 "Broadcom": {
 "alerted": false,
@@ -83397,7 +83423,7 @@
 "Cerebras": {
 "alerted": false,
 "streak": 0,
-"typical": 135
+"typical": 134
 },
 "Character.AI": {
 "alerted": false,
@@ -83487,7 +83513,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 524
+"typical": 523
 },
 "Cloudinary": {
 "alerted": false,
@@ -83702,7 +83728,7 @@
 "Discord": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 29
 },
 "Ditto": {
 "alerted": false,
@@ -83952,7 +83978,7 @@
 "Figma": {
 "alerted": false,
 "streak": 0,
-"typical": 143
+"typical": 142
 },
 "Figure AI": {
 "alerted": false,
@@ -83983,7 +84009,7 @@
 "Fivetran": {
 "alerted": false,
 "streak": 0,
-"typical": 206
+"typical": 199
 },
 "Flagright": {
 "alerted": false,
@@ -84038,7 +84064,7 @@
 "Freshpaint": {
 "alerted": false,
 "streak": 0,
-"typical": 4
+"typical": 5
 },
 "Fundwell": {
 "alerted": false,
@@ -84203,7 +84229,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 141
+"typical": 142
 },
 "HUD": {
 "alerted": false,
@@ -84223,7 +84249,7 @@
 "Hadrian": {
 "alerted": false,
 "streak": 0,
-"typical": 184
+"typical": 185
 },
 "Handoff": {
 "alerted": false,
@@ -84353,7 +84379,7 @@
 "Illumina": {
 "alerted": false,
 "streak": 0,
-"typical": 6
+"typical": 8
 },
 "Illumio": {
 "alerted": false,
@@ -84513,7 +84539,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 20
 },
 "Kaizen Labs": {
 "alerted": false,
@@ -84538,7 +84564,7 @@
 "Kikoff": {
 "alerted": false,
 "streak": 0,
-"typical": 35
+"typical": 36
 },
 "KiloForge": {
 "alerted": false,
@@ -84578,7 +84604,7 @@
 "Kraken": {
 "alerted": false,
 "streak": 0,
-"typical": 93
+"typical": 92
 },
 "Krea": {
 "alerted": false,
@@ -84607,7 +84633,8 @@
 },
 "Lam Research": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+"streak": 1,
 "typical": 40
 },
 "Laminar": {
@@ -84683,7 +84710,7 @@
 "Lightning AI": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 49
 },
 "Lightspark": {
 "alerted": false,
@@ -84788,7 +84815,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 72
+"typical": 73
 },
 "MatX": {
 "alerted": false,
@@ -84818,7 +84845,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 131
 },
 "Mercor": {
 "alerted": false,
@@ -84863,7 +84890,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 210
+"typical": 220
 },
 "Middesk": {
 "alerted": false,
@@ -84938,7 +84965,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 421
+"typical": 422
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -85099,7 +85126,7 @@
 "Notion": {
 "alerted": false,
 "streak": 0,
-"typical": 173
+"typical": 174
 },
 "Nourish": {
 "alerted": false,
@@ -85169,18 +85196,18 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 639,
+"streak": 640,
 "typical": 1
 },
 "Oklo": {
 "alerted": false,
 "streak": 0,
-"typical": 54
+"typical": 53
 },
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 367
+"typical": 366
 },
 "Olly": {
 "alerted": false,
@@ -85260,7 +85287,7 @@
 "Otter.ai": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 14
 },
 "Outschool": {
 "alerted": false,
@@ -85309,7 +85336,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(354016 bytes read)",
+"streak": 1,
 "typical": 1231
 },
 "Panasonic North America": {
@@ -85349,7 +85377,8 @@
 },
 "PayPal": {
 "alerted": false,
-"streak": 0,
+"reason": "TimeoutError: The read operation timed out",
+"streak": 1,
 "typical": 30
 },
 "Pearl Health": {
@@ -85445,12 +85474,12 @@
 "Planet Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 106
 },
 "PlanetScale": {
 "alerted": false,
 "streak": 0,
-"typical": 8
+"typical": 7
 },
 "Ploy": {
 "alerted": false,
@@ -85510,7 +85539,7 @@
 "Priceline": {
 "alerted": false,
 "streak": 0,
-"typical": 5
+"typical": 6
 },
 "Prime Intellect": {
 "alerted": false,
@@ -85565,7 +85594,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 390
+"typical": 391
 },
 "Pylon": {
 "alerted": false,
@@ -85579,7 +85608,8 @@
 },
 "Qualcomm": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+"streak": 1,
 "typical": 40
 },
 "QuantCo": {
@@ -85615,7 +85645,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 422,
+"streak": 423,
 "typical": 5
 },
 "Quora": {
@@ -85761,7 +85791,7 @@
 "Rillet": {
 "alerted": false,
 "streak": 0,
-"typical": 46
+"typical": 45
 },
 "Riot Games": {
 "alerted": false,
@@ -85781,7 +85811,7 @@
 "Robinhood": {
 "alerted": false,
 "streak": 0,
-"typical": 161
+"typical": 160
 },
 "Roblox": {
 "alerted": false,
@@ -85796,7 +85826,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 550
+"typical": 549
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -85856,7 +85886,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 175
+"typical": 177
 },
 "Salient": {
 "alerted": false,
@@ -85871,7 +85901,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 298
+"typical": 297
 },
 "Samsung Research America": {
 "alerted": false,
@@ -85906,7 +85936,7 @@
 "Scale AI": {
 "alerted": false,
 "streak": 0,
-"typical": 157
+"typical": 158
 },
 "Scality": {
 "alerted": false,
@@ -85956,7 +85986,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 607,
+"streak": 608,
 "typical": 39
 },
 "Short Story": {
@@ -85972,12 +86002,12 @@
 "Sieve": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 17
 },
 "Sigma Computing": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 84
 },
 "Sim": {
 "alerted": false,
@@ -85992,7 +86022,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3065
+"typical": 3063
 },
 "SimplyInsured": {
 "alerted": false,
@@ -86057,7 +86087,7 @@
 "Snowflake": {
 "alerted": false,
 "streak": 0,
-"typical": 369
+"typical": 370
 },
 "SoFi": {
 "alerted": false,
@@ -86067,7 +86097,7 @@
 "Socket": {
 "alerted": false,
 "streak": 0,
-"typical": 23
+"typical": 22
 },
 "Sola": {
 "alerted": false,
@@ -86247,7 +86277,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 279
+"typical": 280
 },
 "TENEX.AI": {
 "alerted": false,
@@ -88143,6 +88173,7 @@
 "ashby:base-power:2fdd769b-f0d2-4527-b552-919fa14db127": "2026-11-20",
 "ashby:base-power:3104ebdb-809e-44bb-8626-8c802363d8e3": "2026-11-06",
 "ashby:base-power:3138d660-eb73-4b5b-b6dc-53e374d42b2c": "2026-11-18",
+"ashby:base-power:32df7650-3911-4fb1-bd93-7be4d4f75a49": "2026-11-25",
 "ashby:base-power:396ea381-f4ef-4dc7-b79a-9c6ce8783897": "2026-11-25",
 "ashby:base-power:3f95f838-e3be-4522-afde-e6e59e5a432a": "2026-10-29",
 "ashby:base-power:44b7c9ca-0738-4f13-a12a-0aea702619db": "2026-10-30",
@@ -88163,6 +88194,7 @@
 "ashby:base-power:77b3a098-6728-4e3b-a2ea-a99249e30ef0": "2026-10-30",
 "ashby:base-power:78e16b51-faf1-4c80-93d5-8c3b078195ee": "2026-10-29",
 "ashby:base-power:7c81f8aa-d784-409d-8def-49687122f5e3": "2026-11-24",
+"ashby:base-power:7d6b43ec-c03d-40c0-8bed-5774d66278e6": "2026-11-25",
 "ashby:base-power:7db510a0-a9be-4eca-a361-702fdc784b32": "2026-11-06",
 "ashby:base-power:8397f115-7806-4911-a12b-6231852c3443": "2026-10-29",
 "ashby:base-power:85775865-f676-47b5-85e4-a7b4237f837c": "2026-10-28",
@@ -88172,12 +88204,14 @@
 "ashby:base-power:8eb7e91c-2c5b-478b-b879-2319358a5e44": "2026-11-05",
 "ashby:base-power:90fceba7-4029-42e4-9e3c-cd8796f31087": "2026-11-06",
 "ashby:base-power:98b0633f-8332-43c2-b8ff-9613800f00e0": "2026-11-19",
+"ashby:base-power:9b5d4931-e287-4b4b-9687-adf4bb7c924f": "2026-11-25",
 "ashby:base-power:9ed279a2-a39d-4b75-bbee-bff898b448c3": "2026-11-09",
 "ashby:base-power:a2249db8-1ea6-4c55-b125-b7c9a0ff6986": "2026-11-06",
 "ashby:base-power:a2915462-a9de-49c7-9062-826f3405210f": "2026-11-06",
 "ashby:base-power:a6a0b404-9a59-40ca-a025-ed1577980612": "2026-11-04",
 "ashby:base-power:a9eeb03c-a1c7-4098-95d9-b8bdf8354fdf": "2026-11-05",
 "ashby:base-power:b02f776d-4446-4236-8e71-f436b95da106": "2026-11-24",
+"ashby:base-power:b29a159a-110e-4df4-a7bb-2e8865f9a66d": "2026-11-25",
 "ashby:base-power:b6b2332e-1226-4575-b2c9-9e5258f2540e": "2026-11-25",
 "ashby:base-power:b91bcea4-5527-41fd-a437-be91d846c285": "2026-11-06",
 "ashby:base-power:bc30abf6-ca68-48b9-9805-b8920515561b": "2026-11-23",
@@ -89393,6 +89427,7 @@
 "ashby:fours:cbd99ce0-c7f4-475a-9704-2c4f98435d3d": "2026-11-16",
 "ashby:fours:ce6b4cc5-60bd-4cd9-8355-44536cc08d87": "2026-11-23",
 "ashby:freshpaint:01e9df82-b542-4a64-ac62-65a77e3b8035": "2026-11-12",
+"ashby:freshpaint:c4ab077b-3d24-499c-806b-69049abf888d": "2026-11-25",
 "ashby:fundwell:4443fb74-1e37-41f3-aed6-8ce1b0a09d73": "2026-11-15",
 "ashby:fundwell:9c0f1fbe-ecc3-45d6-b7fb-adf1cccb5329": "2026-11-20",
 "ashby:fundwell:9db656d6-644b-409d-aabb-bad4b0bdbcc9": "2026-11-20",
@@ -89452,6 +89487,7 @@
 "ashby:hadrian-automation:30c6bf6d-a43b-4d53-9116-d82623b53172": "2026-11-24",
 "ashby:hadrian-automation:32bc8210-18d8-4f8f-99a8-702dcf59326f": "2026-11-10",
 "ashby:hadrian-automation:36059abc-7cd3-4757-b9f4-514c3844857e": "2026-11-10",
+"ashby:hadrian-automation:368ec6f3-8af5-4f8b-82bc-d621ba14a07b": "2026-11-25",
 "ashby:hadrian-automation:3a5cfcc9-7e46-4226-825e-4062ea570893": "2026-11-25",
 "ashby:hadrian-automation:3dbea2da-8e23-4f0c-baff-9a4cf6268e95": "2026-10-29",
 "ashby:hadrian-automation:4a746d49-5101-41c6-89a0-a2cbb44a2fca": "2026-11-12",
@@ -90683,6 +90719,7 @@
 "ashby:notion:beaef5b2-ad9a-4504-a4bb-93eea06c3d1a": "2026-10-28",
 "ashby:notion:c25bba57-f0f2-4d2b-8363-fbe04bc1fba0": "2026-11-11",
 "ashby:notion:c413d063-add4-4c55-aebd-704d49fb54c1": "2026-10-22",
+"ashby:notion:c777ed1e-e23f-4b76-bc21-039aaf06c1de": "2026-11-25",
 "ashby:notion:ccce61b3-ad12-4ef6-a4b3-b8169b7bbd99": "2026-10-30",
 "ashby:notion:d27acf46-d250-4c23-a95d-1480eab74b0a": "2026-10-28",
 "ashby:notion:d4d5f474-38a9-499a-9370-6389b99a5156": "2026-10-29",
@@ -92562,6 +92599,7 @@
 "ashby:snowflake:a2c9754a-80d0-45fe-82a5-3f272c44c24e": "2026-10-27",
 "ashby:snowflake:a3cce5e4-b67c-49a9-95bd-26915ac3e7f4": "2026-10-21",
 "ashby:snowflake:a47cf098-e8b5-4686-9858-901dcbd876bd": "2026-11-20",
+"ashby:snowflake:a7283f1f-152d-4702-ab7e-3377866818d8": "2026-11-25",
 "ashby:snowflake:a77eec40-989a-4f44-ab00-f67bea608821": "2026-10-29",
 "ashby:snowflake:aada80b0-a940-4441-89c0-08d929db38a7": "2026-11-11",
 "ashby:snowflake:b071b406-6bd0-4def-ba95-380b1cbf6de5": "2026-10-20",
@@ -97014,6 +97052,7 @@
 "eightfold:microsoft.com:1970393557078564": "2026-11-24",
 "eightfold:microsoft.com:1970393557078565": "2026-11-24",
 "eightfold:microsoft.com:1970393557078568": "2026-11-25",
+"eightfold:microsoft.com:1970393557078570": "2026-11-25",
 "eightfold:microsoft.com:1970393557078592": "2026-11-25",
 "eightfold:microsoft.com:1970393557078600": "2026-11-25",
 "eightfold:microsoft.com:1970393557078604": "2026-11-24",
@@ -97026,13 +97065,18 @@
 "eightfold:microsoft.com:1970393557079277": "2026-11-24",
 "eightfold:microsoft.com:1970393557079290": "2026-11-25",
 "eightfold:microsoft.com:1970393557079335": "2026-11-24",
+"eightfold:microsoft.com:1970393557079338": "2026-11-25",
 "eightfold:microsoft.com:1970393557079343": "2026-11-24",
 "eightfold:microsoft.com:1970393557079395": "2026-11-25",
 "eightfold:microsoft.com:1970393557079415": "2026-11-25",
 "eightfold:microsoft.com:1970393557079428": "2026-11-24",
 "eightfold:microsoft.com:1970393557079445": "2026-11-25",
+"eightfold:microsoft.com:1970393557079447": "2026-11-25",
 "eightfold:microsoft.com:1970393557079448": "2026-11-25",
+"eightfold:microsoft.com:1970393557095057": "2026-11-25",
 "eightfold:microsoft.com:1970393557095635": "2026-11-25",
+"eightfold:microsoft.com:1970393557095739": "2026-11-25",
+"eightfold:microsoft.com:1970393557095745": "2026-11-25",
 "eightfold:microsoft.com:1970393557095748": "2026-11-25",
 "eightfold:paypal.com:274917627711": "2026-10-26",
 "eightfold:paypal.com:274917627716": "2026-11-04",
@@ -99025,6 +99069,7 @@
 "greenhouse:andurilindustries:5309779007": "2026-11-25",
 "greenhouse:andurilindustries:5309782007": "2026-11-25",
 "greenhouse:andurilindustries:5309791007": "2026-11-25",
+"greenhouse:andurilindustries:5309824007": "2026-11-25",
 "greenhouse:anthropic:5138549008": "2026-11-19",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
@@ -99996,6 +100041,7 @@
 "greenhouse:brilliantearth:4523866009": "2026-11-25",
 "greenhouse:brilliantearth:4523867009": "2026-11-25",
 "greenhouse:brilliantearth:4523871009": "2026-11-25",
+"greenhouse:brilliantearth:4523872009": "2026-11-25",
 "greenhouse:brilliantearth:4523873009": "2026-11-25",
 "greenhouse:brilliantearth:4523878009": "2026-11-25",
 "greenhouse:brilliantearth:4523879009": "2026-11-25",
@@ -102646,6 +102692,7 @@
 "greenhouse:kikoff:4520821009": "2026-11-24",
 "greenhouse:kikoff:4520824009": "2026-11-24",
 "greenhouse:kikoff:4520828009": "2026-11-24",
+"greenhouse:kikoff:4524378009": "2026-11-25",
 "greenhouse:koboldmetals:4513619005": "2026-11-13",
 "greenhouse:koboldmetals:4737786005": "2026-11-13",
 "greenhouse:koboldmetals:4751244005": "2026-11-04",
@@ -103260,6 +103307,7 @@
 "greenhouse:modernhealth:8937054002": "2026-11-12",
 "greenhouse:modernhealth:8950222002": "2026-11-24",
 "greenhouse:modernhealth:8950375002": "2026-11-20",
+"greenhouse:mongodb:7870848": "2026-11-25",
 "greenhouse:mongodb:8094365": "2026-10-29",
 "greenhouse:mongodb:8100427": "2026-11-19",
 "greenhouse:mongodb:8170620": "2026-11-12",
@@ -105147,6 +105195,7 @@
 "greenhouse:purestorage:8397807": "2026-11-19",
 "greenhouse:purestorage:8398724": "2026-11-18",
 "greenhouse:purestorage:8398729": "2026-11-20",
+"greenhouse:purestorage:8398810": "2026-11-25",
 "greenhouse:purestorage:8399221": "2026-11-18",
 "greenhouse:purestorage:8399875": "2026-11-19",
 "greenhouse:purestorage:8400840": "2026-11-18",
@@ -106550,6 +106599,7 @@
 "greenhouse:scaleai:4757137005": "2026-11-21",
 "greenhouse:scaleai:4757344005": "2026-11-20",
 "greenhouse:scaleai:4757966005": "2026-11-23",
+"greenhouse:scaleai:4758383005": "2026-11-25",
 "greenhouse:schonfeld:8167740": "2026-11-19",
 "greenhouse:schonfeld:8171694": "2026-10-28",
 "greenhouse:schonfeld:8171705": "2026-11-13",
@@ -112300,6 +112350,8 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25016": "2026-11-23",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25018": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25020": "2026-11-19",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25022": "2026-11-25",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25023": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25029": "2026-11-20",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25031": "2026-11-23",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25032": "2026-11-24",
@@ -112316,7 +112368,9 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25052": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25053": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25064": "2026-11-24",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25066": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25072": "2026-11-25",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25073": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25074": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25075": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25078": "2026-11-25",
@@ -126708,6 +126762,7 @@
 "workday:hpe:1214058": "2026-11-23",
 "workday:hpe:1214065": "2026-10-29",
 "workday:hpe:1214067": "2026-10-29",
+"workday:hpe:1214079": "2026-11-25",
 "workday:hpe:1214080": "2026-11-25",
 "workday:hpe:1214116": "2026-10-29",
 "workday:hpe:1214124": "2026-11-19",
@@ -128675,6 +128730,7 @@
 "workday:kla:2636968": "2026-10-30",
 "workday:kla:2637189": "2026-10-21",
 "workday:kla:2637385": "2026-10-23",
+"workday:kla:2637547": "2026-11-25",
 "workday:kla:2637703-1": "2026-11-11",
 "workday:kla:2638076": "2026-10-20",
 "workday:kla:2638082": "2026-11-05",
@@ -130904,6 +130960,7 @@
 "workday:medtronic:R82805-1": "2026-11-25",
 "workday:medtronic:R82812-1": "2026-11-24",
 "workday:medtronic:R82814-1": "2026-11-25",
+"workday:medtronic:R82817-1": "2026-11-25",
 "workday:medtronic:R82823-1": "2026-11-25",
 "workday:medtronic:R82840-1": "2026-11-25",
 "workday:microchiphr:R1101-26": "2026-11-18",
@@ -133700,6 +133757,7 @@
 "workday:nvidia:JR2012979": "2026-10-28",
 "workday:nvidia:JR2012988": "2026-10-23",
 "workday:nvidia:JR2013000": "2026-11-25",
+"workday:nvidia:JR2013016": "2026-11-25",
 "workday:nvidia:JR2013039": "2026-11-25",
 "workday:nvidia:JR2013047": "2026-11-25",
 "workday:nvidia:JR2013122": "2026-11-01",
@@ -136039,6 +136097,7 @@
 "workday:priceline:R5866": "2026-11-02",
 "workday:priceline:R5885": "2026-10-29",
 "workday:priceline:R5886": "2026-10-29",
+"workday:priceline:R5888-1": "2026-11-25",
 "workday:priceline:R5892": "2026-10-29",
 "workday:priceline:R5895": "2026-10-29",
 "workday:priceline:R5900": "2026-10-29",
@@ -138550,6 +138609,7 @@
 "workday:salesforce:JR369244": "2026-11-24",
 "workday:salesforce:JR369295": "2026-11-23",
 "workday:salesforce:JR369304": "2026-11-23",
+"workday:salesforce:JR369324": "2026-11-25",
 "workday:salesforce:JR369325-2": "2026-11-24",
 "workday:salesforce:JR369335": "2026-11-25",
 "workday:salesforce:JR369342": "2026-11-23",
@@ -141087,6 +141147,7 @@
 "workday:tmobile:REQ384164-1": "2026-11-25",
 "workday:tmobile:REQ384165-1": "2026-11-25",
 "workday:tmobile:REQ384172": "2026-11-24",
+"workday:tmobile:REQ384177": "2026-11-25",
 "workday:tmobile:REQ384205-1": "2026-11-25",
 "workday:tmobile:REQ384212-1": "2026-11-25",
 "workday:tmobile:REQ384216": "2026-11-25",
@@ -144379,6 +144440,7 @@
 "workday:wf:R-588299": "2026-11-20",
 "workday:wf:R-588300": "2026-11-18",
 "workday:wf:R-588301": "2026-11-19",
+"workday:wf:R-588305": "2026-11-25",
 "workday:wf:R-588308": "2026-11-19",
 "workday:wf:R-588309": "2026-11-18",
 "workday:wf:R-588310": "2026-11-19",
@@ -144774,6 +144836,7 @@
 "workday:wf:R-589323": "2026-11-25",
 "workday:wf:R-589328": "2026-11-25",
 "workday:wf:R-589332": "2026-11-25",
+"workday:wf:R-589333": "2026-11-25",
 "workday:wf:R-589337-1": "2026-11-24",
 "workday:wf:R-589338": "2026-11-24",
 "workday:wf:R-589341": "2026-11-25",
@@ -149252,9 +149315,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 236,
+"calls": 239,
 "date": "2026-11-25",
-"usd": 0.030731
+"usd": 0.031047
 },
 "years": {
 "amazon:10583340": [
