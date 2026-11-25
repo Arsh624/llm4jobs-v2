@@ -5120,6 +5120,16 @@
 },
 "2026-11-25"
 ],
+"amazon:10614341|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -11249,6 +11259,16 @@
 "us_ok": true
 },
 "2026-11-02"
+],
+"eightfold:appliedmaterials.com:790319257680|v3|73908d": [
+{
+"chance": 6,
+"level": "unknown",
+"min_years": null,
+"note": "Role may suit new grads with relevant skills.",
+"us_ok": true
+},
+"2026-11-25"
 ],
 "eightfold:appliedmaterials.com:790319257792|v3|73908d": [
 {
@@ -64136,6 +64156,20 @@
 },
 "2026-10-21"
 ],
+"rescue:workday:nvidia:JR2012281": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-25"
+],
+"rescue:workday:nvidia:JR2013625": [
+{
+"note": "Requires 15+ years of experience.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:workday:nvidia:JR2014055": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -64150,12 +64184,47 @@
 },
 "2026-10-27"
 ],
+"rescue:workday:nvidia:JR2014384": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:workday:nvidia:JR2015003-1": [
 {
 "note": "Requires 14+ years of experience.",
 "senior": true
 },
 "2026-11-20"
+],
+"rescue:workday:nvidia:JR2015179": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-25"
+],
+"rescue:workday:nvidia:JR2015198": [
+{
+"note": "Requires advanced degree and experience.",
+"senior": true
+},
+"2026-11-25"
+],
+"rescue:workday:nvidia:JR2015726": [
+{
+"note": "Requires extensive experience and leadership skills.",
+"senior": true
+},
+"2026-11-25"
+],
+"rescue:workday:nvidia:JR2015831": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-25"
 ],
 "rescue:workday:nvidia:JR2016101": [
 {
@@ -79520,6 +79589,16 @@
 },
 "2026-11-02"
 ],
+"workday:nvidia:JR2014808|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2 years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "workday:nvidia:JR2014856|v3|73908d": [
 {
 "chance": 2,
@@ -79529,6 +79608,16 @@
 "us_ok": true
 },
 "2026-10-29"
+],
+"workday:nvidia:JR2015175|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of specific experience.",
+"us_ok": true
+},
+"2026-11-25"
 ],
 "workday:nvidia:JR2015189-1|v3|73908d": [
 {
@@ -79549,6 +79638,16 @@
 "us_ok": true
 },
 "2026-10-23"
+],
+"workday:nvidia:JR2015943|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-25"
 ],
 "workday:nvidia:JR2016032|v3|73908d": [
 {
@@ -82590,7 +82689,7 @@
 "Avoca": {
 "alerted": false,
 "streak": 0,
-"typical": 11
+"typical": 10
 },
 "Axel Travel": {
 "alerted": false,
@@ -83491,7 +83590,7 @@
 "Freenome": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 27
 },
 "Freshpaint": {
 "alerted": false,
@@ -83816,7 +83915,7 @@
 "Illumio": {
 "alerted": false,
 "streak": 0,
-"typical": 87
+"typical": 86
 },
 "Impossible Foods": {
 "alerted": false,
@@ -83911,7 +84010,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 598
+"typical": 595
 },
 "Invert": {
 "alerted": false,
@@ -84156,7 +84255,7 @@
 "LinkedIn": {
 "alerted": false,
 "streak": 0,
-"typical": 133
+"typical": 132
 },
 "Liquid AI": {
 "alerted": false,
@@ -84276,7 +84375,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 123
+"typical": 124
 },
 "Mercor": {
 "alerted": false,
@@ -84451,7 +84550,7 @@
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 231
+"typical": 280
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -84627,7 +84726,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 632,
+"streak": 633,
 "typical": 1
 },
 "Oklo": {
@@ -85073,7 +85172,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 415,
+"streak": 416,
 "typical": 5
 },
 "Quora": {
@@ -85354,7 +85453,7 @@
 "Saronic": {
 "alerted": false,
 "streak": 0,
-"typical": 308
+"typical": 309
 },
 "Sauce Labs": {
 "alerted": false,
@@ -85414,7 +85513,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 600,
+"streak": 601,
 "typical": 39
 },
 "Short Story": {
@@ -85430,7 +85529,7 @@
 "Sieve": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 19
 },
 "Sigma Computing": {
 "alerted": false,
@@ -85450,7 +85549,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3069
+"typical": 3068
 },
 "SimplyInsured": {
 "alerted": false,
@@ -85705,7 +85804,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 245
+"typical": 244
 },
 "TENEX.AI": {
 "alerted": false,
@@ -87054,6 +87153,7 @@
 "amazon:10614118": "2026-11-25",
 "amazon:10614186": "2026-11-25",
 "amazon:10614187": "2026-11-25",
+"amazon:10614341": "2026-11-25",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:0eb854f8-97f7-43a0-8818-f138178586f8": "2026-11-23",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
@@ -91459,6 +91559,7 @@
 "ashby:saronic:e0baf43c-7dc1-413f-993c-595d89a50765": "2026-10-28",
 "ashby:saronic:e411fd7d-90d8-4481-ac33-292672ef1599": "2026-11-24",
 "ashby:saronic:e7ee6a31-551a-434b-8864-98cc341668b9": "2026-10-29",
+"ashby:saronic:eba4b603-9b08-425c-999d-bae4611c73da": "2026-11-25",
 "ashby:saronic:ed16a95b-8c65-4f95-afed-5682c58e3b57": "2026-10-28",
 "ashby:saronic:f05b14dc-3dfd-47ef-ab8d-d830562c2510": "2026-11-04",
 "ashby:saronic:f27f1118-757f-41d2-8131-d4b0922af1ff": "2026-11-06",
@@ -91735,6 +91836,7 @@
 "ashby:shieldai:ff09eea7-f725-454b-bfb2-d1a77883d42e": "2026-11-04",
 "ashby:sieve:43c76e1a-1bee-44da-ada6-e18130b2cb81": "2026-11-18",
 "ashby:sieve:7527c65c-6298-41a3-9999-9b246637e242": "2026-11-12",
+"ashby:sieve:9bba4d38-084d-451a-9f16-e3c378438dee": "2026-11-25",
 "ashby:sieve:b8a87691-3b2a-4960-aa0e-cda34894039c": "2026-11-12",
 "ashby:sieve:be93ec67-ec70-4350-94e7-2a80a79df170": "2026-11-13",
 "ashby:sieve:ef7a197f-4978-4db1-93ab-d6fafa07e49f": "2026-11-24",
@@ -93312,6 +93414,7 @@
 "eightfold:appliedmaterials.com:790319257555": "2026-11-02",
 "eightfold:appliedmaterials.com:790319257658": "2026-11-03",
 "eightfold:appliedmaterials.com:790319257678": "2026-11-24",
+"eightfold:appliedmaterials.com:790319257680": "2026-11-25",
 "eightfold:appliedmaterials.com:790319257703": "2026-11-09",
 "eightfold:appliedmaterials.com:790319257792": "2026-11-02",
 "eightfold:appliedmaterials.com:790319257797": "2026-10-30",
@@ -101492,6 +101595,7 @@
 "greenhouse:freenome:8950520002": "2026-11-23",
 "greenhouse:freenome:8952870002": "2026-11-20",
 "greenhouse:freenome:8959380002": "2026-11-25",
+"greenhouse:freenome:8960261002": "2026-11-25",
 "greenhouse:gatherai:5268357007": "2026-10-20",
 "greenhouse:gatherai:5280050007": "2026-10-31",
 "greenhouse:gatherai:5293610007": "2026-11-12",
@@ -121329,6 +121433,8 @@
 "talentbrew:jobs.paloaltonetworks.com:103773944544": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:103773950176": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:103773950640": "2026-11-25",
+"talentbrew:jobs.paloaltonetworks.com:103782443648": "2026-11-25",
+"talentbrew:jobs.paloaltonetworks.com:103782446016": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:91053594240": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:91238619968": "2026-10-29",
 "talentbrew:jobs.paloaltonetworks.com:92187821472": "2026-11-10",
@@ -121430,6 +121536,7 @@
 "talentbrew:jobs.paloaltonetworks.com:98187843168": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:98370256928": "2026-11-11",
 "talentbrew:jobs.paloaltonetworks.com:98380441680": "2026-11-17",
+"talentbrew:jobs.paloaltonetworks.com:98380444816": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:98426404160": "2026-10-21",
 "talentbrew:jobs.paloaltonetworks.com:98426404240": "2026-11-10",
 "talentbrew:jobs.paloaltonetworks.com:98452105488": "2026-10-21",
@@ -132904,6 +133011,7 @@
 "workday:nvidia:JR2012046": "2026-10-22",
 "workday:nvidia:JR2012049-1": "2026-11-25",
 "workday:nvidia:JR2012230": "2026-11-19",
+"workday:nvidia:JR2012281": "2026-11-25",
 "workday:nvidia:JR2012293": "2026-10-27",
 "workday:nvidia:JR2012342": "2026-10-28",
 "workday:nvidia:JR2012359": "2026-10-20",
@@ -132912,6 +133020,7 @@
 "workday:nvidia:JR2012396": "2026-10-20",
 "workday:nvidia:JR2012430": "2026-11-25",
 "workday:nvidia:JR2012478": "2026-11-25",
+"workday:nvidia:JR2012481": "2026-11-25",
 "workday:nvidia:JR2012496": "2026-11-19",
 "workday:nvidia:JR2012499": "2026-10-27",
 "workday:nvidia:JR2012538": "2026-11-09",
@@ -132939,14 +133048,17 @@
 "workday:nvidia:JR2013287": "2026-10-22",
 "workday:nvidia:JR2013302": "2026-11-20",
 "workday:nvidia:JR2013322": "2026-11-05",
+"workday:nvidia:JR2013338": "2026-11-25",
 "workday:nvidia:JR2013354": "2026-10-21",
 "workday:nvidia:JR2013405": "2026-11-25",
 "workday:nvidia:JR2013483": "2026-11-25",
+"workday:nvidia:JR2013496": "2026-11-25",
 "workday:nvidia:JR2013523": "2026-10-28",
 "workday:nvidia:JR2013532": "2026-11-02",
 "workday:nvidia:JR2013550": "2026-11-25",
 "workday:nvidia:JR2013587": "2026-11-25",
 "workday:nvidia:JR2013593": "2026-11-25",
+"workday:nvidia:JR2013625": "2026-11-25",
 "workday:nvidia:JR2013687": "2026-11-25",
 "workday:nvidia:JR2013689": "2026-11-25",
 "workday:nvidia:JR2013691": "2026-10-19",
@@ -132958,9 +133070,16 @@
 "workday:nvidia:JR2013783": "2026-10-26",
 "workday:nvidia:JR2013800": "2026-11-25",
 "workday:nvidia:JR2013805-1": "2026-11-25",
+"workday:nvidia:JR2013892": "2026-11-25",
+"workday:nvidia:JR2013922": "2026-11-25",
 "workday:nvidia:JR2013956": "2026-10-19",
 "workday:nvidia:JR2013973": "2026-10-23",
+"workday:nvidia:JR2013994": "2026-11-25",
+"workday:nvidia:JR2014007-1": "2026-11-25",
+"workday:nvidia:JR2014008": "2026-11-25",
 "workday:nvidia:JR2014015": "2026-10-21",
+"workday:nvidia:JR2014031": "2026-11-25",
+"workday:nvidia:JR2014033-1": "2026-11-25",
 "workday:nvidia:JR2014047": "2026-11-06",
 "workday:nvidia:JR2014055": "2026-11-05",
 "workday:nvidia:JR2014056": "2026-11-03",
@@ -132972,41 +133091,69 @@
 "workday:nvidia:JR2014178": "2026-10-20",
 "workday:nvidia:JR2014215": "2026-10-19",
 "workday:nvidia:JR2014259": "2026-10-25",
+"workday:nvidia:JR2014384": "2026-11-25",
 "workday:nvidia:JR2014414": "2026-11-17",
+"workday:nvidia:JR2014459": "2026-11-25",
 "workday:nvidia:JR2014480-1": "2026-10-19",
 "workday:nvidia:JR2014493": "2026-11-02",
 "workday:nvidia:JR2014505": "2026-11-19",
+"workday:nvidia:JR2014515": "2026-11-25",
 "workday:nvidia:JR2014589": "2026-11-16",
+"workday:nvidia:JR2014626-1": "2026-11-25",
+"workday:nvidia:JR2014651": "2026-11-25",
+"workday:nvidia:JR2014695": "2026-11-25",
 "workday:nvidia:JR2014725": "2026-11-03",
+"workday:nvidia:JR2014768": "2026-11-25",
+"workday:nvidia:JR2014808": "2026-11-25",
+"workday:nvidia:JR2014812-1": "2026-11-25",
 "workday:nvidia:JR2014856": "2026-10-29",
 "workday:nvidia:JR2014880": "2026-10-19",
+"workday:nvidia:JR2014881": "2026-11-25",
+"workday:nvidia:JR2014886": "2026-11-25",
 "workday:nvidia:JR2014995": "2026-11-04",
 "workday:nvidia:JR2014997": "2026-10-21",
 "workday:nvidia:JR2015003-1": "2026-11-20",
 "workday:nvidia:JR2015038": "2026-11-03",
+"workday:nvidia:JR2015047": "2026-11-25",
+"workday:nvidia:JR2015068": "2026-11-25",
 "workday:nvidia:JR2015072": "2026-10-20",
 "workday:nvidia:JR2015083": "2026-10-19",
 "workday:nvidia:JR2015085": "2026-10-30",
 "workday:nvidia:JR2015123": "2026-10-19",
 "workday:nvidia:JR2015155": "2026-11-20",
+"workday:nvidia:JR2015157": "2026-11-25",
+"workday:nvidia:JR2015175": "2026-11-25",
+"workday:nvidia:JR2015179": "2026-11-25",
 "workday:nvidia:JR2015189-1": "2026-11-04",
+"workday:nvidia:JR2015198": "2026-11-25",
 "workday:nvidia:JR2015200": "2026-11-19",
 "workday:nvidia:JR2015235": "2026-11-09",
 "workday:nvidia:JR2015287": "2026-10-19",
 "workday:nvidia:JR2015296": "2026-10-30",
+"workday:nvidia:JR2015337": "2026-11-25",
+"workday:nvidia:JR2015492": "2026-11-25",
 "workday:nvidia:JR2015526": "2026-11-13",
+"workday:nvidia:JR2015536": "2026-11-25",
 "workday:nvidia:JR2015659": "2026-10-21",
+"workday:nvidia:JR2015666": "2026-11-25",
 "workday:nvidia:JR2015676": "2026-10-27",
+"workday:nvidia:JR2015726": "2026-11-25",
+"workday:nvidia:JR2015748": "2026-11-25",
 "workday:nvidia:JR2015801": "2026-11-19",
 "workday:nvidia:JR2015813": "2026-10-28",
+"workday:nvidia:JR2015831": "2026-11-25",
 "workday:nvidia:JR2015832": "2026-10-21",
 "workday:nvidia:JR2015843": "2026-11-03",
 "workday:nvidia:JR2015873": "2026-10-23",
 "workday:nvidia:JR2015890": "2026-10-27",
 "workday:nvidia:JR2015936": "2026-10-27",
+"workday:nvidia:JR2015943": "2026-11-25",
 "workday:nvidia:JR2015944-1": "2026-11-19",
+"workday:nvidia:JR2015950": "2026-11-25",
+"workday:nvidia:JR2016002": "2026-11-25",
 "workday:nvidia:JR2016032": "2026-11-19",
 "workday:nvidia:JR2016035": "2026-11-19",
+"workday:nvidia:JR2016068": "2026-11-25",
 "workday:nvidia:JR2016101": "2026-11-19",
 "workday:nvidia:JR2016110": "2026-11-19",
 "workday:nvidia:JR2016133": "2026-11-19",
@@ -143541,6 +143688,7 @@
 "workday:wf:R-588604": "2026-11-19",
 "workday:wf:R-588608": "2026-11-20",
 "workday:wf:R-588610": "2026-11-23",
+"workday:wf:R-588612": "2026-11-25",
 "workday:wf:R-588615": "2026-11-19",
 "workday:wf:R-588619": "2026-11-20",
 "workday:wf:R-588622": "2026-11-19",
@@ -143726,6 +143874,7 @@
 "workday:wf:R-589068": "2026-11-25",
 "workday:wf:R-589072": "2026-11-23",
 "workday:wf:R-589077": "2026-11-24",
+"workday:wf:R-589078": "2026-11-25",
 "workday:wf:R-589079": "2026-11-25",
 "workday:wf:R-589080-1": "2026-11-23",
 "workday:wf:R-589084": "2026-11-23",
@@ -143829,6 +143978,7 @@
 "workday:wf:R-589387-1": "2026-11-25",
 "workday:wf:R-589395-1": "2026-11-24",
 "workday:wf:R-589398": "2026-11-24",
+"workday:wf:R-589405": "2026-11-25",
 "workday:wf:R-589406": "2026-11-25",
 "workday:wf:R-589411": "2026-11-25",
 "workday:wf:R-589412": "2026-11-25",
@@ -143839,6 +143989,7 @@
 "workday:wf:R-589486": "2026-11-25",
 "workday:wf:R-589492": "2026-11-25",
 "workday:wf:R-589510": "2026-11-25",
+"workday:wf:R-589517": "2026-11-25",
 "workday:workday:JR-0102943-2": "2026-11-16",
 "workday:workday:JR-0103983": "2026-10-28",
 "workday:workday:JR-0105160": "2026-10-28",
@@ -147027,6 +147178,7 @@
 "nvidia|formal verification engineer new college grad 2027": "2026-10-27",
 "nvidia|formal verification engineer new grad": "2026-10-27",
 "nvidia|gpu performance profiling engineer": "2026-10-30",
+"nvidia|gpu verification engineer": "2026-11-25",
 "nvidia|gpu verification engineer new college grad 2026": "2026-10-29",
 "nvidia|hardware design validation engineer": "2026-11-14",
 "nvidia|hardware design validation engineer memory subsystem": "2026-10-31",
@@ -147053,6 +147205,7 @@
 "nvidia|performance engineer deep learning": "2026-11-03",
 "nvidia|performance engineer deep learning and hpc": "2026-11-05",
 "nvidia|phd research scientist fundamental generative ai new college grad 2026": "2026-11-07",
+"nvidia|photonic mixed signal design validation engineer": "2026-11-25",
 "nvidia|power methodology and modeling engineer new college grad 2026": "2026-11-19",
 "nvidia|power validation engineer": "2026-10-22",
 "nvidia|product manager open models": "2026-11-14",
@@ -147067,6 +147220,7 @@
 "nvidia|research scientist physical ai foundation models phd new college grad 2026": "2026-11-19",
 "nvidia|research scientist robotics research phd new college grad 2026": "2026-10-30",
 "nvidia|rtl power optimization engineer new college grad 2026": "2026-10-31",
+"nvidia|signal and power integrity engineer": "2026-11-25",
 "nvidia|signal integrity and pcb design engineer": "2026-11-19",
 "nvidia|silicon co design engineer new college grad 2026": "2026-10-23",
 "nvidia|silicon co design engineer new grad": "2026-10-23",
@@ -148243,9 +148397,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 171,
+"calls": 183,
 "date": "2026-11-25",
-"usd": 0.021689
+"usd": 0.023162
 },
 "years": {
 "amazon:10583340": [
