@@ -23340,6 +23340,16 @@
 },
 "2026-10-29"
 ],
+"oracle_hcm:enterpriseplatform.dell.com:299200|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 1,
+"note": "Requires 1-3 years of experience, not entry-level.",
+"us_ok": false
+},
+"2026-11-25"
+],
 "oracle_hcm:enterpriseplatform.dell.com:300054|v3|73908d": [
 {
 "chance": 3,
@@ -58706,6 +58716,13 @@
 },
 "2026-11-04"
 ],
+"rescue:workday:intel:JR0284938": [
+{
+"note": "Requires 5+ years of experience.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:workday:intel:JR0286006": [
 {
 "note": "Requires 4+ years of experience.",
@@ -58754,6 +58771,13 @@
 "senior": true
 },
 "2026-11-13"
+],
+"rescue:workday:intel:JR0287734-1": [
+{
+"note": "Requires significant technical depth and experience.",
+"senior": true
+},
+"2026-11-25"
 ],
 "rescue:workday:intel:JR0287736-1": [
 {
@@ -58992,6 +59016,20 @@
 "senior": true
 },
 "2026-11-20"
+],
+"rescue:workday:intel:JR0289474": [
+{
+"note": "Requires significant experience in engineering management.",
+"senior": true
+},
+"2026-11-25"
+],
+"rescue:workday:intel:JR0289475": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-25"
 ],
 "rescue:workday:kla:2633993": [
 {
@@ -73805,6 +73843,16 @@
 },
 "2026-10-20"
 ],
+"workday:intel:JR0286682|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2+ years of experience in project management.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "workday:intel:JR0286710|v3|73908d": [
 {
 "chance": 3,
@@ -75025,6 +75073,16 @@
 },
 "2026-11-13"
 ],
+"workday:intel:JR0289030|v3|73908d": [
+{
+"chance": 3,
+"level": "unknown",
+"min_years": null,
+"note": "PhD required, limiting chances for new grads.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "workday:intel:JR0289031|v3|73908d": [
 {
 "chance": 2,
@@ -75125,6 +75183,16 @@
 },
 "2026-11-17"
 ],
+"workday:intel:JR0289148-1|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "No prior industry experience required, targets new grads.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "workday:intel:JR0289178|v3|73908d": [
 {
 "chance": 4,
@@ -75184,6 +75252,16 @@
 "us_ok": true
 },
 "2026-11-17"
+],
+"workday:intel:JR0289262|v3|73908d": [
+{
+"chance": 6,
+"level": "entry",
+"min_years": null,
+"note": "Master's degree required, but entry-level position for grads.",
+"us_ok": true
+},
+"2026-11-25"
 ],
 "workday:intel:JR0289265-1|v3|73908d": [
 {
@@ -75245,6 +75323,16 @@
 },
 "2026-11-19"
 ],
+"workday:intel:JR0289363|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of relevant experience.",
+"us_ok": true
+},
+"2026-11-25"
+],
 "workday:intel:JR0289422|v3|73908d": [
 {
 "chance": 4,
@@ -75254,6 +75342,16 @@
 "us_ok": true
 },
 "2026-11-19"
+],
+"workday:intel:JR0289438|v3|73908d": [
+{
+"chance": 8,
+"level": "entry",
+"min_years": 0,
+"note": "Entry-level position with preferred qualifications for new grads.",
+"us_ok": true
+},
+"2026-11-25"
 ],
 "workday:kla:2634998|v3|73908d": [
 {
@@ -81185,7 +81283,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 335
+"typical": 336
 },
 "Ai2": {
 "alerted": false,
@@ -81430,7 +81528,7 @@
 "Ashby": {
 "alerted": false,
 "streak": 0,
-"typical": 80
+"typical": 79
 },
 "Asimov": {
 "alerted": false,
@@ -82285,7 +82383,7 @@
 "Extreme Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 70
 },
 "F2": {
 "alerted": false,
@@ -82826,7 +82924,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 191
+"typical": 78
 },
 "Intro": {
 "alerted": false,
@@ -83201,7 +83299,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 105
 },
 "Mercor": {
 "alerted": false,
@@ -83241,7 +83339,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 153
+"typical": 154
 },
 "Microsoft": {
 "alerted": false,
@@ -83321,7 +83419,7 @@
 "MongoDB": {
 "alerted": false,
 "streak": 0,
-"typical": 418
+"typical": 419
 },
 "Monolithic Power Systems": {
 "alerted": false,
@@ -83552,7 +83650,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 602,
+"streak": 603,
 "typical": 1
 },
 "Oklo": {
@@ -83843,7 +83941,7 @@
 "Podium": {
 "alerted": false,
 "streak": 0,
-"typical": 68
+"typical": 67
 },
 "Podium Automation": {
 "alerted": false,
@@ -83928,7 +84026,7 @@
 "PsiQuantum": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 109
 },
 "PubNub": {
 "alerted": false,
@@ -83998,7 +84096,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 385,
+"streak": 386,
 "typical": 5
 },
 "Quora": {
@@ -84239,7 +84337,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 135
+"typical": 137
 },
 "Salient": {
 "alerted": false,
@@ -84339,7 +84437,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 570,
+"streak": 571,
 "typical": 39
 },
 "Short Story": {
@@ -85045,7 +85143,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 53
+"typical": 55
 },
 "World Labs": {
 "alerted": false,
@@ -96126,6 +96224,7 @@
 "greenhouse:agoda:8392673": "2026-11-16",
 "greenhouse:agoda:8395076": "2026-11-17",
 "greenhouse:agoda:8398415": "2026-11-18",
+"greenhouse:agoda:8398446": "2026-11-25",
 "greenhouse:agoda:8398452": "2026-11-18",
 "greenhouse:agoda:8398477": "2026-11-18",
 "greenhouse:agoda:8398486": "2026-11-18",
@@ -97162,6 +97261,7 @@
 "greenhouse:andurilindustries:5303801007": "2026-11-24",
 "greenhouse:andurilindustries:5303803007": "2026-11-23",
 "greenhouse:andurilindustries:5303810007": "2026-11-20",
+"greenhouse:andurilindustries:5303868007": "2026-11-25",
 "greenhouse:andurilindustries:5303884007": "2026-11-20",
 "greenhouse:andurilindustries:5303901007": "2026-11-20",
 "greenhouse:andurilindustries:5304075007": "2026-11-20",
@@ -101493,6 +101593,7 @@
 "greenhouse:mongodb:8402068": "2026-11-20",
 "greenhouse:mongodb:8403104": "2026-11-19",
 "greenhouse:mongodb:8403216": "2026-11-23",
+"greenhouse:mongodb:8403226": "2026-11-25",
 "greenhouse:mongodb:8403312": "2026-11-23",
 "greenhouse:mongodb:8403315": "2026-11-23",
 "greenhouse:mongodb:8403318": "2026-11-20",
@@ -102923,6 +103024,7 @@
 "greenhouse:psiquantum:8184512003": "2026-11-04",
 "greenhouse:psiquantum:8196819003": "2026-11-09",
 "greenhouse:psiquantum:8196949003": "2026-11-05",
+"greenhouse:psiquantum:8198317003": "2026-11-25",
 "greenhouse:psiquantum:8200560003": "2026-11-10",
 "greenhouse:psiquantum:8200566003": "2026-11-10",
 "greenhouse:psiquantum:8200567003": "2026-11-10",
@@ -112412,6 +112514,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:299132": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:299166": "2026-11-02",
 "oracle_hcm:enterpriseplatform.dell.com:299194": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:299200": "2026-11-25",
 "oracle_hcm:enterpriseplatform.dell.com:299231": "2026-11-10",
 "oracle_hcm:enterpriseplatform.dell.com:299260": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:299281": "2026-11-10",
@@ -125263,9 +125366,11 @@
 "workday:intel:JR0284432-1": "2026-10-20",
 "workday:intel:JR0284552": "2026-10-30",
 "workday:intel:JR0284700": "2026-10-27",
+"workday:intel:JR0284805": "2026-11-25",
 "workday:intel:JR0284847": "2026-11-17",
 "workday:intel:JR0284856-1": "2026-11-18",
 "workday:intel:JR0284863": "2026-11-03",
+"workday:intel:JR0284938": "2026-11-25",
 "workday:intel:JR0284988": "2026-10-20",
 "workday:intel:JR0285104": "2026-11-12",
 "workday:intel:JR0285206-1": "2026-11-02",
@@ -125275,11 +125380,13 @@
 "workday:intel:JR0285454": "2026-10-29",
 "workday:intel:JR0285480": "2026-11-13",
 "workday:intel:JR0285639": "2026-10-23",
+"workday:intel:JR0285672-1": "2026-11-25",
 "workday:intel:JR0285691": "2026-10-23",
 "workday:intel:JR0285709-1": "2026-10-21",
 "workday:intel:JR0285739": "2026-10-22",
 "workday:intel:JR0285825": "2026-11-12",
 "workday:intel:JR0285859": "2026-11-19",
+"workday:intel:JR0285888": "2026-11-25",
 "workday:intel:JR0285891": "2026-11-09",
 "workday:intel:JR0285899": "2026-11-19",
 "workday:intel:JR0286006": "2026-10-28",
@@ -125289,6 +125396,7 @@
 "workday:intel:JR0286145": "2026-10-20",
 "workday:intel:JR0286147": "2026-11-17",
 "workday:intel:JR0286164-1": "2026-10-31",
+"workday:intel:JR0286275": "2026-11-25",
 "workday:intel:JR0286323-1": "2026-10-27",
 "workday:intel:JR0286346": "2026-11-17",
 "workday:intel:JR0286348": "2026-11-10",
@@ -125304,10 +125412,12 @@
 "workday:intel:JR0286575-1": "2026-10-30",
 "workday:intel:JR0286580": "2026-11-19",
 "workday:intel:JR0286600-1": "2026-11-10",
+"workday:intel:JR0286623": "2026-11-25",
 "workday:intel:JR0286626": "2026-10-20",
 "workday:intel:JR0286657": "2026-10-20",
 "workday:intel:JR0286665": "2026-11-10",
 "workday:intel:JR0286675": "2026-11-11",
+"workday:intel:JR0286682": "2026-11-25",
 "workday:intel:JR0286691-1": "2026-11-12",
 "workday:intel:JR0286701": "2026-10-23",
 "workday:intel:JR0286704": "2026-11-17",
@@ -125323,6 +125433,7 @@
 "workday:intel:JR0286802-1": "2026-11-19",
 "workday:intel:JR0286863": "2026-10-27",
 "workday:intel:JR0286865": "2026-11-02",
+"workday:intel:JR0286869-1": "2026-11-25",
 "workday:intel:JR0286876": "2026-11-20",
 "workday:intel:JR0286898": "2026-11-19",
 "workday:intel:JR0286908": "2026-10-21",
@@ -125350,6 +125461,7 @@
 "workday:intel:JR0287212": "2026-10-31",
 "workday:intel:JR0287217": "2026-10-22",
 "workday:intel:JR0287218": "2026-10-23",
+"workday:intel:JR0287222": "2026-11-25",
 "workday:intel:JR0287225": "2026-10-23",
 "workday:intel:JR0287226": "2026-10-30",
 "workday:intel:JR0287235": "2026-10-21",
@@ -125402,7 +125514,9 @@
 "workday:intel:JR0287610": "2026-11-12",
 "workday:intel:JR0287634": "2026-11-17",
 "workday:intel:JR0287636": "2026-11-11",
+"workday:intel:JR0287637": "2026-11-25",
 "workday:intel:JR0287645": "2026-11-20",
+"workday:intel:JR0287646": "2026-11-25",
 "workday:intel:JR0287651": "2026-10-20",
 "workday:intel:JR0287683": "2026-10-27",
 "workday:intel:JR0287689": "2026-10-23",
@@ -125416,6 +125530,7 @@
 "workday:intel:JR0287730-1": "2026-11-05",
 "workday:intel:JR0287731-1": "2026-11-13",
 "workday:intel:JR0287733": "2026-11-05",
+"workday:intel:JR0287734-1": "2026-11-25",
 "workday:intel:JR0287736-1": "2026-10-30",
 "workday:intel:JR0287741-1": "2026-10-21",
 "workday:intel:JR0287743": "2026-10-29",
@@ -125673,12 +125788,14 @@
 "workday:intel:JR0288428": "2026-10-27",
 "workday:intel:JR0288429": "2026-10-30",
 "workday:intel:JR0288430": "2026-11-09",
+"workday:intel:JR0288431": "2026-11-25",
 "workday:intel:JR0288432": "2026-10-28",
 "workday:intel:JR0288433": "2026-10-28",
 "workday:intel:JR0288434": "2026-10-21",
 "workday:intel:JR0288437-1": "2026-10-23",
 "workday:intel:JR0288438": "2026-10-28",
 "workday:intel:JR0288439": "2026-11-09",
+"workday:intel:JR0288440": "2026-11-25",
 "workday:intel:JR0288441": "2026-10-21",
 "workday:intel:JR0288442": "2026-10-30",
 "workday:intel:JR0288443": "2026-11-04",
@@ -125878,6 +125995,7 @@
 "workday:intel:JR0288784": "2026-11-03",
 "workday:intel:JR0288785": "2026-11-05",
 "workday:intel:JR0288786": "2026-11-04",
+"workday:intel:JR0288787": "2026-11-25",
 "workday:intel:JR0288788": "2026-11-03",
 "workday:intel:JR0288789": "2026-11-05",
 "workday:intel:JR0288790": "2026-11-03",
@@ -125940,6 +126058,7 @@
 "workday:intel:JR0288906": "2026-11-09",
 "workday:intel:JR0288907": "2026-11-10",
 "workday:intel:JR0288908": "2026-11-04",
+"workday:intel:JR0288910": "2026-11-25",
 "workday:intel:JR0288913": "2026-11-17",
 "workday:intel:JR0288914": "2026-11-17",
 "workday:intel:JR0288916": "2026-11-05",
@@ -126009,6 +126128,7 @@
 "workday:intel:JR0289025": "2026-11-10",
 "workday:intel:JR0289027-1": "2026-11-10",
 "workday:intel:JR0289029": "2026-11-13",
+"workday:intel:JR0289030": "2026-11-25",
 "workday:intel:JR0289031": "2026-11-19",
 "workday:intel:JR0289032": "2026-11-19",
 "workday:intel:JR0289033": "2026-11-10",
@@ -126071,6 +126191,7 @@
 "workday:intel:JR0289135": "2026-11-17",
 "workday:intel:JR0289137-1": "2026-11-18",
 "workday:intel:JR0289139": "2026-11-17",
+"workday:intel:JR0289148-1": "2026-11-25",
 "workday:intel:JR0289156": "2026-11-11",
 "workday:intel:JR0289159": "2026-11-11",
 "workday:intel:JR0289160": "2026-11-17",
@@ -126119,10 +126240,12 @@
 "workday:intel:JR0289245-1": "2026-11-19",
 "workday:intel:JR0289246": "2026-11-18",
 "workday:intel:JR0289247": "2026-11-18",
+"workday:intel:JR0289249-1": "2026-11-25",
 "workday:intel:JR0289256-1": "2026-11-19",
 "workday:intel:JR0289257": "2026-11-17",
 "workday:intel:JR0289260": "2026-11-18",
 "workday:intel:JR0289261": "2026-11-20",
+"workday:intel:JR0289262": "2026-11-25",
 "workday:intel:JR0289264": "2026-11-17",
 "workday:intel:JR0289265-1": "2026-11-20",
 "workday:intel:JR0289275": "2026-11-18",
@@ -126133,6 +126256,7 @@
 "workday:intel:JR0289285-1": "2026-11-19",
 "workday:intel:JR0289291": "2026-11-17",
 "workday:intel:JR0289292": "2026-11-17",
+"workday:intel:JR0289293": "2026-11-25",
 "workday:intel:JR0289294": "2026-11-17",
 "workday:intel:JR0289295": "2026-11-17",
 "workday:intel:JR0289300": "2026-11-20",
@@ -126143,6 +126267,7 @@
 "workday:intel:JR0289310-1": "2026-11-20",
 "workday:intel:JR0289312": "2026-11-19",
 "workday:intel:JR0289313": "2026-11-19",
+"workday:intel:JR0289314": "2026-11-25",
 "workday:intel:JR0289315": "2026-11-17",
 "workday:intel:JR0289316": "2026-11-19",
 "workday:intel:JR0289317": "2026-11-17",
@@ -126150,6 +126275,9 @@
 "workday:intel:JR0289320": "2026-11-17",
 "workday:intel:JR0289321": "2026-11-17",
 "workday:intel:JR0289322": "2026-11-17",
+"workday:intel:JR0289323": "2026-11-25",
+"workday:intel:JR0289325": "2026-11-25",
+"workday:intel:JR0289327": "2026-11-25",
 "workday:intel:JR0289328": "2026-11-18",
 "workday:intel:JR0289329": "2026-11-18",
 "workday:intel:JR0289331": "2026-11-19",
@@ -126158,9 +126286,11 @@
 "workday:intel:JR0289334": "2026-11-18",
 "workday:intel:JR0289335": "2026-11-18",
 "workday:intel:JR0289336": "2026-11-19",
+"workday:intel:JR0289337": "2026-11-25",
 "workday:intel:JR0289338": "2026-11-19",
 "workday:intel:JR0289339": "2026-11-18",
 "workday:intel:JR0289340": "2026-11-18",
+"workday:intel:JR0289341-1": "2026-11-25",
 "workday:intel:JR0289342": "2026-11-20",
 "workday:intel:JR0289343": "2026-11-20",
 "workday:intel:JR0289345-1": "2026-11-17",
@@ -126168,10 +126298,13 @@
 "workday:intel:JR0289347": "2026-11-17",
 "workday:intel:JR0289348": "2026-11-18",
 "workday:intel:JR0289349": "2026-11-17",
+"workday:intel:JR0289350": "2026-11-25",
+"workday:intel:JR0289351": "2026-11-25",
 "workday:intel:JR0289357": "2026-11-17",
 "workday:intel:JR0289360": "2026-11-20",
 "workday:intel:JR0289361": "2026-11-19",
 "workday:intel:JR0289362": "2026-11-17",
+"workday:intel:JR0289363": "2026-11-25",
 "workday:intel:JR0289371": "2026-11-20",
 "workday:intel:JR0289372": "2026-11-20",
 "workday:intel:JR0289379": "2026-11-18",
@@ -126181,16 +126314,44 @@
 "workday:intel:JR0289389": "2026-11-20",
 "workday:intel:JR0289391": "2026-11-20",
 "workday:intel:JR0289392": "2026-11-20",
+"workday:intel:JR0289395": "2026-11-25",
 "workday:intel:JR0289396": "2026-11-20",
 "workday:intel:JR0289397": "2026-11-19",
+"workday:intel:JR0289398": "2026-11-25",
 "workday:intel:JR0289399": "2026-11-20",
+"workday:intel:JR0289402": "2026-11-25",
 "workday:intel:JR0289403": "2026-11-20",
 "workday:intel:JR0289404-1": "2026-11-20",
+"workday:intel:JR0289405": "2026-11-25",
 "workday:intel:JR0289406": "2026-11-19",
 "workday:intel:JR0289407": "2026-11-20",
+"workday:intel:JR0289411": "2026-11-25",
 "workday:intel:JR0289417": "2026-11-20",
 "workday:intel:JR0289422": "2026-11-19",
+"workday:intel:JR0289425": "2026-11-25",
+"workday:intel:JR0289426": "2026-11-25",
+"workday:intel:JR0289427": "2026-11-25",
+"workday:intel:JR0289430": "2026-11-25",
+"workday:intel:JR0289438": "2026-11-25",
+"workday:intel:JR0289441": "2026-11-25",
 "workday:intel:JR0289449": "2026-11-20",
+"workday:intel:JR0289454": "2026-11-25",
+"workday:intel:JR0289456-1": "2026-11-25",
+"workday:intel:JR0289458": "2026-11-25",
+"workday:intel:JR0289466": "2026-11-25",
+"workday:intel:JR0289468": "2026-11-25",
+"workday:intel:JR0289474": "2026-11-25",
+"workday:intel:JR0289475": "2026-11-25",
+"workday:intel:JR0289477": "2026-11-25",
+"workday:intel:JR0289478": "2026-11-25",
+"workday:intel:JR0289483": "2026-11-25",
+"workday:intel:JR0289486": "2026-11-25",
+"workday:intel:JR0289530-1": "2026-11-25",
+"workday:intel:JR0289541": "2026-11-25",
+"workday:intel:JR0289542": "2026-11-25",
+"workday:intel:JR0289543": "2026-11-25",
+"workday:intel:JR0289555": "2026-11-25",
+"workday:intel:JR0289580-1": "2026-11-25",
 "workday:kla:2105211-1": "2026-11-12",
 "workday:kla:2530503": "2026-10-20",
 "workday:kla:2633993": "2026-10-20",
@@ -127451,6 +127612,7 @@
 "workday:mastercard:R-295497": "2026-11-09",
 "workday:mastercard:R-295593-1": "2026-11-11",
 "workday:mastercard:R-295597": "2026-11-12",
+"workday:mastercard:R-295599": "2026-11-25",
 "workday:mastercard:R-295607": "2026-11-18",
 "workday:mastercard:R-295683": "2026-11-12",
 "workday:mastercard:R-295684": "2026-11-24",
@@ -129963,6 +130125,7 @@
 "workday:micron:JR116758": "2026-10-31",
 "workday:micron:JR116761": "2026-11-09",
 "workday:micron:JR116764": "2026-11-02",
+"workday:micron:JR116775": "2026-11-25",
 "workday:micron:JR116779": "2026-11-25",
 "workday:micron:JR116780": "2026-11-07",
 "workday:micron:JR116781": "2026-11-06",
@@ -135746,6 +135909,7 @@
 "workday:salesforce:JR369559": "2026-11-24",
 "workday:salesforce:JR369567": "2026-11-25",
 "workday:salesforce:JR369579": "2026-11-25",
+"workday:salesforce:JR369581-1": "2026-11-25",
 "workday:tmobile:REQ339040-1": "2026-11-17",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
@@ -141552,6 +141716,7 @@
 "workday:wf:R-588674": "2026-11-19",
 "workday:wf:R-588675": "2026-11-24",
 "workday:wf:R-588680": "2026-11-19",
+"workday:wf:R-588684": "2026-11-25",
 "workday:wf:R-588685": "2026-11-23",
 "workday:wf:R-588687": "2026-11-20",
 "workday:wf:R-588688": "2026-11-23",
@@ -144052,6 +144217,7 @@
 "intel|cloud software development engineer": "2026-11-05",
 "intel|compiler engineer for ai dsls": "2026-10-28",
 "intel|compiler engineer for tile based ai dsls": "2026-10-30",
+"intel|construction tool install engineer contract": "2026-11-25",
 "intel|cpu clock design engineer": "2026-11-17",
 "intel|cpu physical design engineer": "2026-10-30",
 "intel|deep learning hardware engineer": "2026-10-23",
@@ -144080,6 +144246,7 @@
 "intel|intel foundry ltd product yield development engineer": "2026-10-29",
 "intel|intel foundry module development engineer": "2026-10-23",
 "intel|intel foundry module development engineer ph d": "2026-10-23",
+"intel|intel foundry module equipment engineer dielectrics": "2026-11-25",
 "intel|intel foundry product yield development engineer": "2026-10-30",
 "intel|intel mask operations module development engineer": "2026-11-05",
 "intel|ip design verification engineer": "2026-10-22",
@@ -144101,9 +144268,11 @@
 "intel|mixed signal design verification engineer": "2026-10-22",
 "intel|module development engineer": "2026-11-07",
 "intel|module development engineer ltd dry etch": "2026-10-22",
+"intel|module engineer": "2026-11-25",
 "intel|module engineer on shift meos night shift 6": "2026-11-04",
 "intel|module engineering day shift 5 or 7": "2026-10-21",
 "intel|neuromorphic ai research scientist": "2026-11-06",
+"intel|new mexico module engineer": "2026-11-25",
 "intel|nm cross module support cms engineer": "2026-11-17",
 "intel|nm silicon photonic module development engineer planar": "2026-11-17",
 "intel|nm silicon photonics dry etch process development engineer": "2026-11-18",
@@ -146155,9 +146324,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 38,
+"calls": 49,
 "date": "2026-11-25",
-"usd": 0.004833
+"usd": 0.006722
 },
 "years": {
 "amazon:10583340": [
