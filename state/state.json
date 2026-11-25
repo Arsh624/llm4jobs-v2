@@ -5060,6 +5060,16 @@
 },
 "2026-11-25"
 ],
+"amazon:10613731|v3|73908d": [
+{
+"chance": 0,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience",
+"us_ok": true
+},
+"2026-11-25"
+],
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996|v3|73908d": [
 {
 "chance": 7,
@@ -53935,6 +53945,13 @@
 },
 "2026-11-24"
 ],
+"rescue:talentbrew:jobs.paloaltonetworks.com:103758814768": [
+{
+"note": "Principal roles typically require extensive experience.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:talentbrew:jobs.paloaltonetworks.com:91053594240": [
 {
 "note": "Requires significant experience in software engineering.",
@@ -81805,7 +81822,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 29
 },
 "Calm": {
 "alerted": false,
@@ -82285,7 +82302,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 389
+"typical": 390
 },
 "Electric Air": {
 "alerted": false,
@@ -82385,7 +82402,7 @@
 "Expedia Group": {
 "alerted": false,
 "streak": 0,
-"typical": 28
+"typical": 30
 },
 "Extreme Networks": {
 "alerted": false,
@@ -82636,7 +82653,7 @@
 "Google Fiber": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 78
 },
 "GovDash": {
 "alerted": false,
@@ -82691,7 +82708,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 105
+"typical": 106
 },
 "HUD": {
 "alerted": false,
@@ -83061,7 +83078,7 @@
 "Kong": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 124
 },
 "Kraken": {
 "alerted": false,
@@ -83276,7 +83293,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "MatX": {
 "alerted": false,
@@ -83306,7 +83323,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 106
 },
 "Mercor": {
 "alerted": false,
@@ -83346,11 +83363,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 154
+"typical": 155
 },
 "Microsoft": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 429: Too Many Requests",
+"streak": 1,
 "typical": 180
 },
 "Middesk": {
@@ -83657,7 +83675,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 604,
+"streak": 605,
 "typical": 1
 },
 "Oklo": {
@@ -83668,7 +83686,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 372
+"typical": 373
 },
 "Olly": {
 "alerted": false,
@@ -84103,7 +84121,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 387,
+"streak": 388,
 "typical": 5
 },
 "Quora": {
@@ -84309,7 +84327,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 225
+"typical": 224
 },
 "Runpod": {
 "alerted": false,
@@ -84344,7 +84362,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 137
+"typical": 138
 },
 "Salient": {
 "alerted": false,
@@ -84384,7 +84402,7 @@
 "Saronic": {
 "alerted": false,
 "streak": 0,
-"typical": 306
+"typical": 305
 },
 "Sauce Labs": {
 "alerted": false,
@@ -84444,7 +84462,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 572,
+"streak": 573,
 "typical": 39
 },
 "Short Story": {
@@ -84675,7 +84693,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 771
+"typical": 772
 },
 "Stuut": {
 "alerted": false,
@@ -85060,7 +85078,7 @@
 "Visa": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 19
 },
 "Vitalize": {
 "alerted": false,
@@ -85150,7 +85168,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 59
 },
 "World Labs": {
 "alerted": false,
@@ -86076,6 +86094,7 @@
 "amazon:10613598": "2026-11-25",
 "amazon:10613638": "2026-11-25",
 "amazon:10613726": "2026-11-25",
+"amazon:10613731": "2026-11-25",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:0eb854f8-97f7-43a0-8818-f138178586f8": "2026-11-23",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
@@ -99810,6 +99829,7 @@
 "greenhouse:elastic:8382577": "2026-11-20",
 "greenhouse:elastic:8382582": "2026-11-12",
 "greenhouse:elastic:8382870": "2026-11-18",
+"greenhouse:elastic:8382872": "2026-11-25",
 "greenhouse:elastic:8386050": "2026-11-13",
 "greenhouse:elastic:8392706": "2026-11-16",
 "greenhouse:elastic:8393157": "2026-11-23",
@@ -102005,6 +102025,7 @@
 "greenhouse:okta:8406342": "2026-11-20",
 "greenhouse:okta:8406600": "2026-11-21",
 "greenhouse:okta:8407829": "2026-11-23",
+"greenhouse:okta:8411574": "2026-11-25",
 "greenhouse:okta:8411579": "2026-11-24",
 "greenhouse:okta:8415766": "2026-11-25",
 "greenhouse:olly:4750011005": "2026-11-02",
@@ -105314,6 +105335,7 @@
 "greenhouse:stripe:8406995": "2026-11-20",
 "greenhouse:stripe:8407180": "2026-11-22",
 "greenhouse:stripe:8411021": "2026-11-23",
+"greenhouse:stripe:8411217": "2026-11-25",
 "greenhouse:stripe:8411927": "2026-11-23",
 "greenhouse:stripe:8411988": "2026-11-23",
 "greenhouse:stripe:8412977": "2026-11-24",
@@ -113803,6 +113825,7 @@
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304856": "2026-11-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304857": "2026-11-23",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304859": "2026-11-24",
+"oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304863": "2026-11-25",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304864": "2026-11-17",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304868": "2026-11-19",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:304869": "2026-11-20",
@@ -119913,6 +119936,7 @@
 "talentbrew:jobs.paloaltonetworks.com:103752619552": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:103752619712": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:103752619824": "2026-11-25",
+"talentbrew:jobs.paloaltonetworks.com:103758814768": "2026-11-25",
 "talentbrew:jobs.paloaltonetworks.com:91053594240": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:91238619968": "2026-10-29",
 "talentbrew:jobs.paloaltonetworks.com:92187821472": "2026-11-10",
@@ -121069,6 +121093,7 @@
 "workday:cadence:R56619": "2026-11-12",
 "workday:cadence:R56622": "2026-11-10",
 "workday:cadence:R56628-1": "2026-11-19",
+"workday:cadence:R56639": "2026-11-25",
 "workday:cadence:R56640": "2026-11-03",
 "workday:cadence:R56645": "2026-10-29",
 "workday:cadence:R56656": "2026-11-03",
@@ -123171,6 +123196,7 @@
 "workday:expedia:R-111068": "2026-11-03",
 "workday:expedia:R-111071": "2026-11-16",
 "workday:expedia:R-111084-1": "2026-11-02",
+"workday:expedia:R-111101": "2026-11-25",
 "workday:expedia:R-111105-1": "2026-11-03",
 "workday:expedia:R-111106": "2026-11-11",
 "workday:expedia:R-111111": "2026-11-17",
@@ -123181,6 +123207,7 @@
 "workday:expedia:R-111125-1": "2026-11-13",
 "workday:expedia:R-111127": "2026-11-06",
 "workday:expedia:R-111129": "2026-11-06",
+"workday:expedia:R-111132": "2026-11-25",
 "workday:expedia:R-111140": "2026-11-12",
 "workday:expedia:R-111142-1": "2026-11-09",
 "workday:expedia:R-111143": "2026-11-19",
@@ -127018,6 +127045,7 @@
 "workday:mastercard:R-280154": "2026-10-29",
 "workday:mastercard:R-280164": "2026-10-29",
 "workday:mastercard:R-280168": "2026-10-29",
+"workday:mastercard:R-280318": "2026-11-25",
 "workday:mastercard:R-280352": "2026-10-29",
 "workday:mastercard:R-280383": "2026-11-03",
 "workday:mastercard:R-280457": "2026-10-29",
@@ -135918,6 +135946,7 @@
 "workday:salesforce:JR369359-1": "2026-11-24",
 "workday:salesforce:JR369375-1": "2026-11-24",
 "workday:salesforce:JR369377": "2026-11-24",
+"workday:salesforce:JR369413": "2026-11-25",
 "workday:salesforce:JR369415": "2026-11-24",
 "workday:salesforce:JR369432": "2026-11-24",
 "workday:salesforce:JR369434": "2026-11-24",
@@ -135925,6 +135954,7 @@
 "workday:salesforce:JR369450": "2026-11-24",
 "workday:salesforce:JR369466": "2026-11-24",
 "workday:salesforce:JR369472": "2026-11-24",
+"workday:salesforce:JR369510": "2026-11-25",
 "workday:salesforce:JR369515": "2026-11-24",
 "workday:salesforce:JR369519": "2026-11-24",
 "workday:salesforce:JR369559": "2026-11-24",
@@ -142885,6 +142915,7 @@
 "amazon|software development engineer amazon java runtime": "2026-10-20",
 "amazon|software development engineer amazon leo amazon leo networking software": "2026-11-19",
 "amazon|software development engineer amazon leo commerce": "2026-11-10",
+"amazon|software development engineer amazon leo e commerce": "2026-11-25",
 "amazon|software development engineer amazon leo early career 2027 us": "2026-11-05",
 "amazon|software development engineer amazon leo embedded platform": "2026-11-07",
 "amazon|software development engineer amazon leo leo pop control plane": "2026-11-09",
@@ -146346,9 +146377,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 50,
+"calls": 52,
 "date": "2026-11-25",
-"usd": 0.006787
+"usd": 0.007026
 },
 "years": {
 "amazon:10583340": [
