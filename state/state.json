@@ -60429,6 +60429,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:mastercard:R-293039": [
+{
+"note": "Requires significant product management experience.",
+"senior": true
+},
+"2026-11-25"
+],
 "rescue:workday:mastercard:R-293062": [
 {
 "note": "Lead implies significant experience required.",
@@ -63354,6 +63361,13 @@
 "senior": false
 },
 "2026-11-24"
+],
+"rescue:workday:nttlimited:R-153032": [
+{
+"note": "Requires significant technical expertise and experience.",
+"senior": true
+},
+"2026-11-25"
 ],
 "rescue:workday:nvidia:JR1980109": [
 {
@@ -82834,12 +82848,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 78
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 111
+"typical": 112
 },
 "HUD": {
 "alerted": false,
@@ -83424,7 +83438,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 37
+"typical": 39
 },
 "MatX": {
 "alerted": false,
@@ -83494,7 +83508,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 156
+"typical": 157
 },
 "Microsoft": {
 "alerted": false,
@@ -83624,12 +83638,12 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 58
 },
 "NVIDIA": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 86
 },
 "NXP Semiconductors": {
 "alerted": true,
@@ -83805,7 +83819,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 612,
+"streak": 613,
 "typical": 1
 },
 "Oklo": {
@@ -84251,7 +84265,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 395,
+"streak": 396,
 "typical": 5
 },
 "Quora": {
@@ -84492,7 +84506,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 146
+"typical": 148
 },
 "Salient": {
 "alerted": false,
@@ -84592,7 +84606,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 580,
+"streak": 581,
 "typical": 39
 },
 "Short Story": {
@@ -85398,7 +85412,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 31
+"typical": 32
 },
 "fal": {
 "alerted": false,
@@ -106736,6 +106750,7 @@
 "jibe:careers.amd.com:101937": "2026-11-20",
 "jibe:careers.amd.com:101938": "2026-11-20",
 "jibe:careers.amd.com:101944": "2026-11-21",
+"jibe:careers.amd.com:101969": "2026-11-25",
 "jibe:careers.amd.com:101974": "2026-11-21",
 "jibe:careers.amd.com:101976": "2026-11-21",
 "jibe:careers.amd.com:102000": "2026-11-21",
@@ -112564,6 +112579,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351349": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351351": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351358": "2026-11-24",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351365": "2026-11-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351367": "2026-11-24",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351375": "2026-11-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351422": "2026-11-25",
@@ -122981,6 +122997,7 @@
 "workday:ebay:R0076576": "2026-10-30",
 "workday:ebay:R0076601": "2026-10-29",
 "workday:ebay:R0076602": "2026-11-05",
+"workday:ebay:R0076607": "2026-11-25",
 "workday:ebay:R0076654": "2026-11-18",
 "workday:ebay:R0076663": "2026-10-29",
 "workday:ebay:R0076664-1": "2026-11-09",
@@ -123569,6 +123586,7 @@
 "workday:hp:3165593-2": "2026-11-03",
 "workday:hp:3165639-2": "2026-11-10",
 "workday:hp:3165668-1": "2026-10-21",
+"workday:hp:3165685-1": "2026-11-25",
 "workday:hp:3165693-1": "2026-11-06",
 "workday:hp:3165730-1": "2026-11-12",
 "workday:hp:3165759-2": "2026-11-11",
@@ -123739,6 +123757,7 @@
 "workday:hp:3168485-1": "2026-11-18",
 "workday:hp:3168491-2": "2026-10-22",
 "workday:hp:3168494-2": "2026-11-16",
+"workday:hp:3168501": "2026-11-25",
 "workday:hp:3168555-2": "2026-10-30",
 "workday:hp:3168557-1": "2026-11-11",
 "workday:hp:3168565-1": "2026-11-18",
@@ -124642,6 +124661,7 @@
 "workday:hpe:1213189": "2026-11-03",
 "workday:hpe:1213205": "2026-11-24",
 "workday:hpe:1213214-3": "2026-11-19",
+"workday:hpe:1213223-3": "2026-11-25",
 "workday:hpe:1213225-2": "2026-11-12",
 "workday:hpe:1213233-2": "2026-11-12",
 "workday:hpe:1213353-1": "2026-11-05",
@@ -127299,6 +127319,7 @@
 "workday:mastercard:R-286876": "2026-10-29",
 "workday:mastercard:R-286980-1": "2026-10-29",
 "workday:mastercard:R-287032": "2026-10-30",
+"workday:mastercard:R-287054": "2026-11-25",
 "workday:mastercard:R-287179": "2026-10-30",
 "workday:mastercard:R-287180-1": "2026-11-02",
 "workday:mastercard:R-287256": "2026-10-29",
@@ -127604,6 +127625,7 @@
 "workday:mastercard:R-293021-1": "2026-10-29",
 "workday:mastercard:R-293037": "2026-10-29",
 "workday:mastercard:R-293038": "2026-10-29",
+"workday:mastercard:R-293039": "2026-11-25",
 "workday:mastercard:R-293051": "2026-11-03",
 "workday:mastercard:R-293061": "2026-11-03",
 "workday:mastercard:R-293062": "2026-11-03",
@@ -130709,6 +130731,7 @@
 "workday:micron:JR118197-1": "2026-11-18",
 "workday:micron:JR118201": "2026-11-24",
 "workday:micron:JR118208": "2026-11-24",
+"workday:micron:JR118209": "2026-11-25",
 "workday:micron:JR118211": "2026-11-23",
 "workday:micron:JR118212": "2026-11-19",
 "workday:micron:JR118213": "2026-11-19",
@@ -131291,6 +131314,8 @@
 "workday:nttlimited:R-152978-1": "2026-11-24",
 "workday:nttlimited:R-152986": "2026-11-24",
 "workday:nttlimited:R-153003": "2026-11-24",
+"workday:nttlimited:R-153031": "2026-11-25",
+"workday:nttlimited:R-153032": "2026-11-25",
 "workday:nttlimited:R-153054": "2026-11-24",
 "workday:nttlimited:R-153076": "2026-11-24",
 "workday:nttlimited:R-153136-1": "2026-11-25",
@@ -132679,6 +132704,7 @@
 "workday:nvidia:JR2027591": "2026-10-31",
 "workday:nvidia:JR2027595": "2026-11-05",
 "workday:nvidia:JR2027603": "2026-10-26",
+"workday:nvidia:JR2027607-1": "2026-11-25",
 "workday:nvidia:JR2027615": "2026-10-25",
 "workday:nvidia:JR2027617": "2026-10-19",
 "workday:nvidia:JR2027619": "2026-10-19",
@@ -146612,9 +146638,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 69,
+"calls": 71,
 "date": "2026-11-25",
-"usd": 0.00878
+"usd": 0.008918
 },
 "years": {
 "amazon:10583340": [
