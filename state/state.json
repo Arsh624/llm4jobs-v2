@@ -4740,6 +4740,16 @@
 },
 "2026-11-20"
 ],
+"amazon:10610906|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of experience, not suitable for new grads.",
+"us_ok": true
+},
+"2026-11-26"
+],
 "amazon:10610933|v3|73908d": [
 {
 "chance": 3,
@@ -33480,6 +33490,13 @@
 },
 "2026-11-24"
 ],
+"rescue:eightfold:qualcomm.com:446722356763": [
+{
+"note": "Requires 4+ years of experience.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:greenhouse:affirm:8011130003": [
 {
 "note": "Lead roles typically require more experience.",
@@ -53856,6 +53873,13 @@
 "senior": true
 },
 "2026-11-25"
+],
+"rescue:talentbrew:jobs.intuit.com:103828047776": [
+{
+"note": "Requires significant experience and leadership skills.",
+"senior": true
+},
+"2026-11-26"
 ],
 "rescue:talentbrew:jobs.intuit.com:87369441616": [
 {
@@ -84625,7 +84649,7 @@
 "Faire": {
 "alerted": false,
 "streak": 0,
-"typical": 71
+"typical": 72
 },
 "Fandom": {
 "alerted": false,
@@ -85566,7 +85590,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 210
+"typical": 200
 },
 "Middesk": {
 "alerted": false,
@@ -85872,7 +85896,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 683,
+"streak": 684,
 "typical": 1
 },
 "Oklo": {
@@ -86283,7 +86307,7 @@
 "Qualcomm": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 30
 },
 "QuantCo": {
 "alerted": false,
@@ -86318,7 +86342,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 466,
+"streak": 467,
 "typical": 5
 },
 "Quora": {
@@ -86574,7 +86598,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 298
+"typical": 299
 },
 "Samsung Research America": {
 "alerted": false,
@@ -86659,7 +86683,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 651,
+"streak": 652,
 "typical": 39
 },
 "Short Story": {
@@ -88224,6 +88248,7 @@
 "amazon:10610705": "2026-11-20",
 "amazon:10610733": "2026-11-20",
 "amazon:10610837": "2026-11-20",
+"amazon:10610906": "2026-11-26",
 "amazon:10610933": "2026-11-21",
 "amazon:10610935": "2026-11-23",
 "amazon:10610936": "2026-11-21",
@@ -98446,6 +98471,8 @@
 "eightfold:qualcomm.com:446722334606": "2026-11-24",
 "eightfold:qualcomm.com:446722334620": "2026-11-24",
 "eightfold:qualcomm.com:446722336740": "2026-11-24",
+"eightfold:qualcomm.com:446722356763": "2026-11-26",
+"eightfold:qualcomm.com:446722356835": "2026-11-26",
 "greenhouse:31stunion:8034993003": "2026-10-22",
 "greenhouse:31stunion:8181280003": "2026-11-10",
 "greenhouse:31stunion:8181285003": "2026-11-10",
@@ -102555,6 +102582,7 @@
 "greenhouse:faire:8951978002": "2026-11-19",
 "greenhouse:faire:8957560002": "2026-11-20",
 "greenhouse:faire:8959089002": "2026-11-23",
+"greenhouse:faire:8963694002": "2026-11-26",
 "greenhouse:fandom:8246122": "2026-10-21",
 "greenhouse:fandom:8246123": "2026-10-22",
 "greenhouse:fandom:8289981": "2026-10-21",
@@ -122244,6 +122272,7 @@
 "talentbrew:jobs.intuit.com:103752129584": "2026-11-25",
 "talentbrew:jobs.intuit.com:103752129792": "2026-11-25",
 "talentbrew:jobs.intuit.com:103821792400": "2026-11-26",
+"talentbrew:jobs.intuit.com:103828047776": "2026-11-26",
 "talentbrew:jobs.intuit.com:87369441616": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441696": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441712": "2026-10-20",
@@ -123196,6 +123225,8 @@
 "talentbrew:jobs.paloaltonetworks.com:103820233456": "2026-11-26",
 "talentbrew:jobs.paloaltonetworks.com:103820236416": "2026-11-26",
 "talentbrew:jobs.paloaltonetworks.com:103820237392": "2026-11-26",
+"talentbrew:jobs.paloaltonetworks.com:103828676160": "2026-11-26",
+"talentbrew:jobs.paloaltonetworks.com:103828686592": "2026-11-26",
 "talentbrew:jobs.paloaltonetworks.com:91053594240": "2026-10-28",
 "talentbrew:jobs.paloaltonetworks.com:91238619968": "2026-10-29",
 "talentbrew:jobs.paloaltonetworks.com:92187821472": "2026-11-10",
@@ -147011,6 +147042,7 @@
 "amazon|embedded software dev engineer amazon leo customer terminal software": "2026-10-29",
 "amazon|embedded software development engineer applied automation controls embedded software": "2026-11-04",
 "amazon|embedded software development engineer ii aws hardware engineering services": "2026-10-20",
+"amazon|embedded software engineer amazon leo government alg software": "2026-11-26",
 "amazon|embedded software engineer annapurna ml software": "2026-11-24",
 "amazon|embedded software engineer ec2 nitro networking ec2 nitro networking": "2026-10-21",
 "amazon|embedded software engineer fauna": "2026-11-20",
@@ -150698,9 +150730,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 68,
+"calls": 71,
 "date": "2026-11-26",
-"usd": 0.005752
+"usd": 0.006101
 },
 "years": {
 "amazon:10583340": [
