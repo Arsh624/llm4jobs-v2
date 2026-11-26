@@ -60269,6 +60269,13 @@
 },
 "2026-11-25"
 ],
+"rescue:workday:intel:JR0289593": [
+{
+"note": "Requires significant experience in program management.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:workday:kla:2633993": [
 {
 "note": "Requires significant experience in cloud operations.",
@@ -60597,6 +60604,13 @@
 "senior": true
 },
 "2026-11-02"
+],
+"rescue:workday:lumentum:2026333": [
+{
+"note": "Requires extensive hands-on experience.",
+"senior": true
+},
+"2026-11-26"
 ],
 "rescue:workday:lumentum:2026886": [
 {
@@ -77515,6 +77529,16 @@
 },
 "2026-11-13"
 ],
+"workday:lumentum:20261444|v3|73908d": [
+{
+"chance": 3,
+"level": "mid",
+"min_years": 2,
+"note": "Requires solid background in equipment maintenance.",
+"us_ok": true
+},
+"2026-11-26"
+],
 "workday:lumentum:20261545|v3|73908d": [
 {
 "chance": 4,
@@ -83660,7 +83684,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 127
+"typical": 126
 },
 "Brain Co": {
 "alerted": false,
@@ -83765,7 +83789,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 167
+"typical": 168
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -84045,7 +84069,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 879
+"typical": 878
 },
 "Datafold": {
 "alerted": false,
@@ -84846,7 +84870,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 115
+"typical": 117
 },
 "Intro": {
 "alerted": false,
@@ -85146,7 +85170,7 @@
 "Lumentum": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 25
 },
 "Luminai": {
 "alerted": false,
@@ -85221,7 +85245,7 @@
 "Medtronic": {
 "alerted": false,
 "streak": 0,
-"typical": 131
+"typical": 129
 },
 "Mercor": {
 "alerted": false,
@@ -85261,7 +85285,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 206
+"typical": 209
 },
 "Microsoft": {
 "alerted": false,
@@ -85391,7 +85415,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 76
+"typical": 77
 },
 "NVIDIA": {
 "alerted": false,
@@ -85572,7 +85596,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 656,
+"streak": 657,
 "typical": 1
 },
 "Oklo": {
@@ -86018,7 +86042,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 439,
+"streak": 440,
 "typical": 5
 },
 "Quora": {
@@ -86359,7 +86383,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 624,
+"streak": 625,
 "typical": 39
 },
 "Short Story": {
@@ -86395,7 +86419,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3075
+"typical": 3074
 },
 "SimplyInsured": {
 "alerted": false,
@@ -87065,7 +87089,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 66
+"typical": 67
 },
 "World Labs": {
 "alerted": false,
@@ -100116,6 +100140,7 @@
 "greenhouse:boxinc:8066551": "2026-10-22",
 "greenhouse:boxinc:8125875": "2026-10-22",
 "greenhouse:boxinc:8157977": "2026-11-24",
+"greenhouse:boxinc:8157985": "2026-11-26",
 "greenhouse:boxinc:8179492": "2026-10-22",
 "greenhouse:boxinc:8229375": "2026-10-21",
 "greenhouse:boxinc:8236513": "2026-10-20",
@@ -110597,10 +110622,12 @@
 "jibe:careers.keysight.com:57564": "2026-11-18",
 "jibe:careers.keysight.com:57597": "2026-11-18",
 "jibe:careers.keysight.com:57598": "2026-11-18",
+"jibe:careers.keysight.com:57663": "2026-11-26",
 "jibe:careers.keysight.com:57762": "2026-11-19",
 "jibe:careers.keysight.com:57795": "2026-11-17",
 "jibe:careers.keysight.com:57828": "2026-11-25",
 "jibe:careers.keysight.com:57863": "2026-11-17",
+"jibe:careers.keysight.com:57946": "2026-11-26",
 "jibe:careers.keysight.com:57993": "2026-11-24",
 "jibe:careers.keysight.com:58026": "2026-11-23",
 "jibe:careers.keysight.com:58027": "2026-11-25",
@@ -129298,6 +129325,7 @@
 "workday:intel:JR0289580-1": "2026-11-25",
 "workday:intel:JR0289584": "2026-11-25",
 "workday:intel:JR0289587": "2026-11-26",
+"workday:intel:JR0289593": "2026-11-26",
 "workday:intel:JR0289594": "2026-11-26",
 "workday:intel:JR0289596": "2026-11-25",
 "workday:intel:JR0289598": "2026-11-26",
@@ -129576,6 +129604,7 @@
 "workday:lumentum:20261398": "2026-11-17",
 "workday:lumentum:20261400": "2026-11-02",
 "workday:lumentum:20261422": "2026-11-12",
+"workday:lumentum:20261444": "2026-11-26",
 "workday:lumentum:20261455": "2026-10-29",
 "workday:lumentum:20261465": "2026-10-29",
 "workday:lumentum:20261472": "2026-10-30",
@@ -129654,6 +129683,7 @@
 "workday:lumentum:20261853-1": "2026-11-25",
 "workday:lumentum:20261880": "2026-11-26",
 "workday:lumentum:2026322": "2026-11-02",
+"workday:lumentum:2026333": "2026-11-26",
 "workday:lumentum:2026402": "2026-11-03",
 "workday:lumentum:2026443": "2026-10-29",
 "workday:lumentum:2026533-1": "2026-11-05",
@@ -129972,6 +130002,7 @@
 "workday:mastercard:R-277151": "2026-11-04",
 "workday:mastercard:R-277533": "2026-11-06",
 "workday:mastercard:R-277704": "2026-11-25",
+"workday:mastercard:R-277723": "2026-11-26",
 "workday:mastercard:R-277822": "2026-10-29",
 "workday:mastercard:R-277857": "2026-10-29",
 "workday:mastercard:R-278732": "2026-11-02",
@@ -133151,6 +133182,7 @@
 "workday:micron:JR116657": "2026-11-10",
 "workday:micron:JR116661": "2026-11-17",
 "workday:micron:JR116666": "2026-11-20",
+"workday:micron:JR116672": "2026-11-26",
 "workday:micron:JR116673": "2026-10-30",
 "workday:micron:JR116675": "2026-11-17",
 "workday:micron:JR116676": "2026-11-03",
@@ -133559,6 +133591,7 @@
 "workday:micron:JR118542": "2026-11-23",
 "workday:micron:JR118545": "2026-11-24",
 "workday:micron:JR118546": "2026-11-23",
+"workday:micron:JR118557": "2026-11-26",
 "workday:micron:JR118562": "2026-11-25",
 "workday:micron:JR118593": "2026-11-25",
 "workday:micron:JR118611": "2026-11-24",
@@ -133571,6 +133604,7 @@
 "workday:micron:JR118645": "2026-11-23",
 "workday:micron:JR118651": "2026-11-25",
 "workday:micron:JR118653": "2026-11-25",
+"workday:micron:JR118675": "2026-11-26",
 "workday:micron:JR118676-1": "2026-11-25",
 "workday:micron:JR118677": "2026-11-24",
 "workday:micron:JR118696": "2026-11-26",
@@ -134143,6 +134177,7 @@
 "workday:nttlimited:R-152978-1": "2026-11-24",
 "workday:nttlimited:R-152986": "2026-11-24",
 "workday:nttlimited:R-153003": "2026-11-24",
+"workday:nttlimited:R-153028": "2026-11-26",
 "workday:nttlimited:R-153029": "2026-11-26",
 "workday:nttlimited:R-153031": "2026-11-25",
 "workday:nttlimited:R-153032": "2026-11-25",
@@ -148183,6 +148218,7 @@
 "lucid motors|mechanical engineer ii hv battery pack": "2026-11-24",
 "lucid motors|vehicle test engineer ii vehicle efficiency engineering": "2026-11-12",
 "lumaril|engineer generalist": "2026-10-28",
+"lumentum|equipment engineer": "2026-11-26",
 "lumentum|mechanical engineer": "2026-11-25",
 "lumentum|optical component evaluation engineer": "2026-10-29",
 "lumentum|optical module integration engineer": "2026-10-29",
@@ -149998,9 +150034,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 26,
+"calls": 29,
 "date": "2026-11-26",
-"usd": 0.002526
+"usd": 0.002826
 },
 "years": {
 "amazon:10583340": [
