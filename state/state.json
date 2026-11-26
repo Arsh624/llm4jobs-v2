@@ -36120,6 +36120,13 @@
 },
 "2026-11-16"
 ],
+"rescue:greenhouse:databricks:8937350002": [
+{
+"note": "Requires 5+ years of experience.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:greenhouse:databricks:8937362002": [
 {
 "note": "Requires significant technical expertise and experience.",
@@ -83108,7 +83115,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 337
+"typical": 335
 },
 "Ai2": {
 "alerted": false,
@@ -83948,7 +83955,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 874
+"typical": 876
 },
 "Datafold": {
 "alerted": false,
@@ -85004,7 +85011,7 @@
 "LinkedIn": {
 "alerted": false,
 "streak": 0,
-"typical": 134
+"typical": 133
 },
 "Liquid AI": {
 "alerted": false,
@@ -85294,7 +85301,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 73
+"typical": 75
 },
 "NVIDIA": {
 "alerted": false,
@@ -85475,7 +85482,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 652,
+"streak": 653,
 "typical": 1
 },
 "Oklo": {
@@ -85486,7 +85493,7 @@
 "Okta": {
 "alerted": false,
 "streak": 0,
-"typical": 363
+"typical": 362
 },
 "Olly": {
 "alerted": false,
@@ -85921,7 +85928,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 435,
+"streak": 436,
 "typical": 5
 },
 "Quora": {
@@ -86162,7 +86169,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 187
+"typical": 186
 },
 "Salient": {
 "alerted": false,
@@ -86262,7 +86269,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 620,
+"streak": 621,
 "typical": 39
 },
 "Short Story": {
@@ -86553,7 +86560,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 282
+"typical": 284
 },
 "TENEX.AI": {
 "alerted": false,
@@ -101302,6 +101309,7 @@
 "greenhouse:databricks:8908544002": "2026-10-26",
 "greenhouse:databricks:8909208002": "2026-11-16",
 "greenhouse:databricks:8909305002": "2026-10-22",
+"greenhouse:databricks:8910834002": "2026-11-26",
 "greenhouse:databricks:8910838002": "2026-11-13",
 "greenhouse:databricks:8910840002": "2026-10-28",
 "greenhouse:databricks:8910842002": "2026-11-01",
@@ -101405,6 +101413,7 @@
 "greenhouse:databricks:8937105002": "2026-11-10",
 "greenhouse:databricks:8937106002": "2026-11-10",
 "greenhouse:databricks:8937118002": "2026-11-12",
+"greenhouse:databricks:8937350002": "2026-11-26",
 "greenhouse:databricks:8937360002": "2026-11-19",
 "greenhouse:databricks:8937362002": "2026-11-25",
 "greenhouse:databricks:8937807002": "2026-11-13",
@@ -110506,6 +110515,7 @@
 "jibe:careers.keysight.com:58653": "2026-11-20",
 "jibe:careers.keysight.com:58754": "2026-11-25",
 "jibe:careers.keysight.com:58785": "2026-11-25",
+"jibe:careers.keysight.com:58787": "2026-11-26",
 "jibe:careers.keysight.com:58983": "2026-11-25",
 "jibe:careers.keysight.com:59280": "2026-11-24",
 "jibe:careers.keysight.com:59313": "2026-11-25",
@@ -114216,6 +114226,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349596": "2026-11-04",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349597": "2026-11-16",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349598": "2026-11-05",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:349601": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349602": "2026-11-05",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349605": "2026-11-03",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:349606": "2026-11-18",
@@ -133826,6 +133837,7 @@
 "workday:nttlimited:R-151694": "2026-11-12",
 "workday:nttlimited:R-151750-1": "2026-11-25",
 "workday:nttlimited:R-151772": "2026-11-19",
+"workday:nttlimited:R-151795": "2026-11-26",
 "workday:nttlimited:R-151801": "2026-11-20",
 "workday:nttlimited:R-151817": "2026-11-12",
 "workday:nttlimited:R-151819": "2026-11-19",
@@ -133992,6 +134004,7 @@
 "workday:nttlimited:R-152929-1": "2026-11-19",
 "workday:nttlimited:R-152933-1": "2026-11-23",
 "workday:nttlimited:R-152934": "2026-11-23",
+"workday:nttlimited:R-152935": "2026-11-26",
 "workday:nttlimited:R-152946-1": "2026-11-24",
 "workday:nttlimited:R-152949-1": "2026-11-24",
 "workday:nttlimited:R-152951": "2026-11-23",
@@ -141430,9 +141443,11 @@
 "workday:tmobile:REQ383337-1": "2026-11-18",
 "workday:tmobile:REQ383338-1": "2026-11-19",
 "workday:tmobile:REQ383343": "2026-11-19",
+"workday:tmobile:REQ383348-1": "2026-11-26",
 "workday:tmobile:REQ383349-1": "2026-11-20",
 "workday:tmobile:REQ383350-1": "2026-11-26",
 "workday:tmobile:REQ383351": "2026-11-19",
+"workday:tmobile:REQ383353-1": "2026-11-26",
 "workday:tmobile:REQ383355": "2026-11-25",
 "workday:tmobile:REQ383357-1": "2026-11-23",
 "workday:tmobile:REQ383360-1": "2026-11-18",
@@ -149849,9 +149864,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 13,
+"calls": 14,
 "date": "2026-11-26",
-"usd": 0.001466
+"usd": 0.001535
 },
 "years": {
 "amazon:10583340": [
