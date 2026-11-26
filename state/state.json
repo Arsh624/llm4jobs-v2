@@ -83769,7 +83769,7 @@
 "Asana": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 107
 },
 "Ashby": {
 "alerted": false,
@@ -84044,7 +84044,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 39
+"typical": 40
 },
 "Calm": {
 "alerted": false,
@@ -84089,7 +84089,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 156
+"typical": 157
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -84649,7 +84649,7 @@
 "Faire": {
 "alerted": false,
 "streak": 0,
-"typical": 72
+"typical": 73
 },
 "Fandom": {
 "alerted": false,
@@ -84930,7 +84930,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 163
+"typical": 164
 },
 "HUD": {
 "alerted": false,
@@ -85170,7 +85170,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 126
 },
 "Intro": {
 "alerted": false,
@@ -85515,7 +85515,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 94
+"typical": 92
 },
 "MatX": {
 "alerted": false,
@@ -85715,7 +85715,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 89
 },
 "NVIDIA": {
 "alerted": false,
@@ -85896,7 +85896,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 688,
+"streak": 689,
 "typical": 1
 },
 "Oklo": {
@@ -86342,7 +86342,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 471,
+"streak": 472,
 "typical": 5
 },
 "Quora": {
@@ -86598,7 +86598,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 298
 },
 "Samsung Research America": {
 "alerted": false,
@@ -86683,7 +86683,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 656,
+"streak": 657,
 "typical": 39
 },
 "Short Story": {
@@ -86949,7 +86949,7 @@
 "SurveyMonkey": {
 "alerted": false,
 "streak": 0,
-"typical": 48
+"typical": 45
 },
 "Svix": {
 "alerted": false,
@@ -86968,7 +86968,8 @@
 },
 "Synopsys": {
 "alerted": false,
-"streak": 0,
+"reason": "HTTPError: HTTP Error 502: Bad Gateway",
+"streak": 1,
 "typical": 769
 },
 "T-Mobile": {
@@ -87459,7 +87460,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 390
+"typical": 389
 },
 "Zuora": {
 "alerted": false,
@@ -102584,6 +102585,7 @@
 "greenhouse:faire:8951978002": "2026-11-19",
 "greenhouse:faire:8957560002": "2026-11-20",
 "greenhouse:faire:8959089002": "2026-11-23",
+"greenhouse:faire:8959279002": "2026-11-26",
 "greenhouse:faire:8963694002": "2026-11-26",
 "greenhouse:fandom:8246122": "2026-10-21",
 "greenhouse:fandom:8246123": "2026-10-22",
@@ -127728,6 +127730,7 @@
 "workday:hpe:1207833-2": "2026-11-18",
 "workday:hpe:1207848-2": "2026-11-12",
 "workday:hpe:1207893-3": "2026-11-23",
+"workday:hpe:1207920-2": "2026-11-26",
 "workday:hpe:1207925-3": "2026-11-13",
 "workday:hpe:1208105-2": "2026-11-17",
 "workday:hpe:1208110-2": "2026-10-29",
@@ -129909,6 +129912,7 @@
 "workday:intel:JR0289543": "2026-11-25",
 "workday:intel:JR0289545": "2026-11-25",
 "workday:intel:JR0289555": "2026-11-25",
+"workday:intel:JR0289557": "2026-11-26",
 "workday:intel:JR0289562": "2026-11-25",
 "workday:intel:JR0289572-1": "2026-11-26",
 "workday:intel:JR0289577": "2026-11-25",
@@ -134567,6 +134571,7 @@
 "workday:nttlimited:R-147827-1": "2026-11-21",
 "workday:nttlimited:R-147889-1": "2026-11-12",
 "workday:nttlimited:R-148125": "2026-11-23",
+"workday:nttlimited:R-148175": "2026-11-26",
 "workday:nttlimited:R-148189": "2026-11-12",
 "workday:nttlimited:R-148694-1": "2026-11-17",
 "workday:nttlimited:R-149024": "2026-11-17",
@@ -134574,6 +134579,7 @@
 "workday:nttlimited:R-149357": "2026-11-25",
 "workday:nttlimited:R-149358": "2026-11-20",
 "workday:nttlimited:R-149360": "2026-11-17",
+"workday:nttlimited:R-149361": "2026-11-26",
 "workday:nttlimited:R-149367-2": "2026-11-18",
 "workday:nttlimited:R-149469": "2026-11-23",
 "workday:nttlimited:R-149474": "2026-11-22",
@@ -134846,6 +134852,7 @@
 "workday:nttlimited:R-153076": "2026-11-24",
 "workday:nttlimited:R-153085": "2026-11-26",
 "workday:nttlimited:R-153106": "2026-11-26",
+"workday:nttlimited:R-153107": "2026-11-26",
 "workday:nttlimited:R-153136-1": "2026-11-25",
 "workday:nttlimited:R-153165-1": "2026-11-26",
 "workday:nttlimited:R-153177-1": "2026-11-25",
