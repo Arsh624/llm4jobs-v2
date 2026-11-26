@@ -41005,6 +41005,13 @@
 },
 "2026-11-17"
 ],
+"rescue:greenhouse:twilio:8393933": [
+{
+"note": "Requires significant experience in data engineering.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:greenhouse:twilio:8405813": [
 {
 "note": "Requires extensive experience in cloud security.",
@@ -64588,6 +64595,13 @@
 },
 "2026-11-26"
 ],
+"rescue:workday:nttlimited:R-149842-1": [
+{
+"note": "Requires significant experience in AI architecture.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:workday:nttlimited:R-152131-2": [
 {
 "note": "Requires significant experience in service delivery.",
@@ -83747,7 +83761,7 @@
 "Broadcom": {
 "alerted": false,
 "streak": 0,
-"typical": 68
+"typical": 69
 },
 "Bugcrowd": {
 "alerted": false,
@@ -84898,7 +84912,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 119
+"typical": 117
 },
 "Intro": {
 "alerted": false,
@@ -85243,7 +85257,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 75
+"typical": 76
 },
 "MatX": {
 "alerted": false,
@@ -85443,7 +85457,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 85
 },
 "NVIDIA": {
 "alerted": false,
@@ -85624,7 +85638,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 659,
+"streak": 660,
 "typical": 1
 },
 "Oklo": {
@@ -86070,7 +86084,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 442,
+"streak": 443,
 "typical": 5
 },
 "Quora": {
@@ -86276,7 +86290,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 217
+"typical": 218
 },
 "Runpod": {
 "alerted": false,
@@ -86411,7 +86425,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 627,
+"streak": 628,
 "typical": 39
 },
 "Short Story": {
@@ -86882,7 +86896,7 @@
 "Twilio": {
 "alerted": false,
 "streak": 0,
-"typical": 110
+"typical": 111
 },
 "Twist Bioscience": {
 "alerted": false,
@@ -87187,7 +87201,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 390
+"typical": 389
 },
 "Zuora": {
 "alerted": false,
@@ -106741,6 +106755,7 @@
 "greenhouse:rubrik:8403248": "2026-11-25",
 "greenhouse:rubrik:8403253": "2026-11-25",
 "greenhouse:rubrik:8403268": "2026-11-23",
+"greenhouse:rubrik:8405566": "2026-11-26",
 "greenhouse:rubrik:8406183": "2026-11-23",
 "greenhouse:rubrik:8407738": "2026-11-23",
 "greenhouse:rubrik:8407739": "2026-11-23",
@@ -108165,6 +108180,7 @@
 "greenhouse:twilio:8386095": "2026-11-13",
 "greenhouse:twilio:8393928": "2026-11-17",
 "greenhouse:twilio:8393931": "2026-11-17",
+"greenhouse:twilio:8393933": "2026-11-26",
 "greenhouse:twilio:8393935": "2026-11-16",
 "greenhouse:twilio:8394774": "2026-11-19",
 "greenhouse:twilio:8394776": "2026-11-20",
@@ -110249,6 +110265,7 @@
 "jibe:careers.keysight.com:53497": "2026-10-30",
 "jibe:careers.keysight.com:53573": "2026-10-23",
 "jibe:careers.keysight.com:53689": "2026-11-13",
+"jibe:careers.keysight.com:53730": "2026-11-26",
 "jibe:careers.keysight.com:53750": "2026-11-24",
 "jibe:careers.keysight.com:53751": "2026-11-24",
 "jibe:careers.keysight.com:53755": "2026-11-10",
@@ -112930,6 +112947,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25051": "2026-11-23",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25052": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25053": "2026-11-24",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:25055": "2026-11-26",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25064": "2026-11-24",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25066": "2026-11-25",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:25072": "2026-11-25",
@@ -123487,6 +123505,7 @@
 "workday:broadcom:R026277": "2026-11-23",
 "workday:broadcom:R026399": "2026-11-09",
 "workday:broadcom:R026403-1": "2026-11-17",
+"workday:broadcom:R026408": "2026-11-26",
 "workday:broadcom:R026523": "2026-11-19",
 "workday:broadcom:R026595": "2026-11-17",
 "workday:broadcom:R026662": "2026-11-06",
@@ -133994,6 +134013,7 @@
 "workday:nttlimited:R-149809-2": "2026-11-25",
 "workday:nttlimited:R-149840": "2026-11-26",
 "workday:nttlimited:R-149841": "2026-11-26",
+"workday:nttlimited:R-149842-1": "2026-11-26",
 "workday:nttlimited:R-149898": "2026-11-18",
 "workday:nttlimited:R-149947": "2026-11-12",
 "workday:nttlimited:R-149986": "2026-11-23",
@@ -134075,6 +134095,7 @@
 "workday:nttlimited:R-152044": "2026-11-23",
 "workday:nttlimited:R-152052": "2026-11-18",
 "workday:nttlimited:R-152060": "2026-11-13",
+"workday:nttlimited:R-152067-1": "2026-11-26",
 "workday:nttlimited:R-152071": "2026-11-16",
 "workday:nttlimited:R-152077": "2026-11-13",
 "workday:nttlimited:R-152104": "2026-11-17",
@@ -134235,12 +134256,16 @@
 "workday:nttlimited:R-152978-1": "2026-11-24",
 "workday:nttlimited:R-152986": "2026-11-24",
 "workday:nttlimited:R-153003": "2026-11-24",
+"workday:nttlimited:R-153006": "2026-11-26",
+"workday:nttlimited:R-153010-1": "2026-11-26",
+"workday:nttlimited:R-153027": "2026-11-26",
 "workday:nttlimited:R-153028": "2026-11-26",
 "workday:nttlimited:R-153029": "2026-11-26",
 "workday:nttlimited:R-153031": "2026-11-25",
 "workday:nttlimited:R-153032": "2026-11-25",
 "workday:nttlimited:R-153054": "2026-11-24",
 "workday:nttlimited:R-153076": "2026-11-24",
+"workday:nttlimited:R-153085": "2026-11-26",
 "workday:nttlimited:R-153136-1": "2026-11-25",
 "workday:nttlimited:R-153177-1": "2026-11-25",
 "workday:nttlimited:R-153181-1": "2026-11-25",
@@ -150092,9 +150117,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 33,
+"calls": 35,
 "date": "2026-11-26",
-"usd": 0.003098
+"usd": 0.00324
 },
 "years": {
 "amazon:10583340": [
