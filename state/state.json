@@ -43329,6 +43329,13 @@
 },
 "2026-11-17"
 ],
+"rescue:jibe:careers.keysight.com:59808": [
+{
+"note": "Requires significant technical program management experience.",
+"senior": true
+},
+"2026-11-26"
+],
 "rescue:jibe:careers.keysight.com:59874": [
 {
 "note": "Requires significant technical program management experience.",
@@ -83449,7 +83456,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 332
+"typical": 331
 },
 "Ai2": {
 "alerted": false,
@@ -83564,7 +83571,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2600
+"typical": 2599
 },
 "AngelList": {
 "alerted": false,
@@ -84134,7 +84141,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 525
+"typical": 527
 },
 "Cloudinary": {
 "alerted": false,
@@ -84229,7 +84236,7 @@
 "Coursera": {
 "alerted": false,
 "streak": 0,
-"typical": 33
+"typical": 35
 },
 "Creatify Lab": {
 "alerted": false,
@@ -84444,7 +84451,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 377
+"typical": 375
 },
 "Electric Air": {
 "alerted": false,
@@ -84665,7 +84672,7 @@
 "Fortinet": {
 "alerted": false,
 "streak": 0,
-"typical": 50
+"typical": 100
 },
 "Forward Networks": {
 "alerted": false,
@@ -84845,12 +84852,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 101
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 153
+"typical": 155
 },
 "HUD": {
 "alerted": false,
@@ -85100,7 +85107,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 595
+"typical": 596
 },
 "Invert": {
 "alerted": false,
@@ -85505,7 +85512,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 230
+"typical": 231
 },
 "Microsoft": {
 "alerted": false,
@@ -85816,7 +85823,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 677,
+"streak": 678,
 "typical": 1
 },
 "Oklo": {
@@ -85956,7 +85963,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(355160 bytes read)",
+"streak": 1,
 "typical": 1228
 },
 "Panasonic North America": {
@@ -86262,7 +86270,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 460,
+"streak": 461,
 "typical": 5
 },
 "Quora": {
@@ -86603,7 +86611,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 645,
+"streak": 646,
 "typical": 39
 },
 "Short Story": {
@@ -86849,7 +86857,7 @@
 "Sumo Logic": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 26
 },
 "Suno": {
 "alerted": false,
@@ -86904,7 +86912,7 @@
 "TRM Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 117
+"typical": 116
 },
 "Tagup": {
 "alerted": false,
@@ -87309,7 +87317,7 @@
 "Workday": {
 "alerted": false,
 "streak": 0,
-"typical": 69
+"typical": 70
 },
 "World Labs": {
 "alerted": false,
@@ -101124,6 +101132,8 @@
 "greenhouse:cloudflare:8412125": "2026-11-24",
 "greenhouse:cloudflare:8414218": "2026-11-26",
 "greenhouse:cloudflare:8415399": "2026-11-25",
+"greenhouse:cloudflare:8416549": "2026-11-26",
+"greenhouse:cloudflare:8416739": "2026-11-26",
 "greenhouse:cloudflare:8417964": "2026-11-25",
 "greenhouse:cloudflare:8417967": "2026-11-25",
 "greenhouse:cloudflare:8417970": "2026-11-25",
@@ -110960,6 +110970,7 @@
 "jibe:careers.keysight.com:59313": "2026-11-25",
 "jibe:careers.keysight.com:59478": "2026-11-24",
 "jibe:careers.keysight.com:59511": "2026-11-24",
+"jibe:careers.keysight.com:59808": "2026-11-26",
 "jibe:careers.keysight.com:59874": "2026-11-26",
 "jibe:careers.na.panasonic.com:42951": "2026-10-30",
 "jibe:careers.na.panasonic.com:43685": "2026-10-30",
@@ -112940,6 +112951,11 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24062": "2026-11-12",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24063": "2026-11-12",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24064": "2026-11-12",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24065": "2026-11-26",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24066": "2026-11-26",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24067": "2026-11-26",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24068": "2026-11-26",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24069": "2026-11-26",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24070": "2026-11-18",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24071": "2026-11-18",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24072": "2026-11-18",
@@ -122147,6 +122163,7 @@
 "talentbrew:jobs.intuit.com:103743717072": "2026-11-24",
 "talentbrew:jobs.intuit.com:103752129584": "2026-11-25",
 "talentbrew:jobs.intuit.com:103752129792": "2026-11-25",
+"talentbrew:jobs.intuit.com:103821792400": "2026-11-26",
 "talentbrew:jobs.intuit.com:87369441616": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441696": "2026-10-20",
 "talentbrew:jobs.intuit.com:87369441712": "2026-10-20",
@@ -127333,6 +127350,7 @@
 "workday:hp:3171107-1": "2026-11-15",
 "workday:hp:3171118-1": "2026-11-26",
 "workday:hp:3171119-1": "2026-11-20",
+"workday:hp:3171120-1": "2026-11-26",
 "workday:hp:3171124-1": "2026-11-19",
 "workday:hp:3171125-1": "2026-11-19",
 "workday:hp:3171144-2": "2026-11-23",
@@ -128581,6 +128599,7 @@
 "workday:hpe:1218468": "2026-11-02",
 "workday:hpe:1218475-1": "2026-11-17",
 "workday:hpe:1218483-2": "2026-11-20",
+"workday:hpe:1218484-3": "2026-11-26",
 "workday:hpe:1218490-3": "2026-11-11",
 "workday:hpe:1218507": "2026-11-18",
 "workday:hpe:1218512-2": "2026-11-18",
@@ -128662,6 +128681,7 @@
 "workday:hpe:1219019-2": "2026-11-12",
 "workday:hpe:1219052-3": "2026-11-20",
 "workday:hpe:1219059-2": "2026-11-16",
+"workday:hpe:1219083-3": "2026-11-26",
 "workday:hpe:1219328-2": "2026-11-26",
 "workday:hpe:1219466-1": "2026-11-26",
 "workday:hpe:1219487-1": "2026-11-25",
@@ -134060,6 +134080,7 @@
 "workday:micron:JR118258": "2026-11-26",
 "workday:micron:JR118259": "2026-11-23",
 "workday:micron:JR118262": "2026-11-25",
+"workday:micron:JR118296": "2026-11-26",
 "workday:micron:JR118343": "2026-11-19",
 "workday:micron:JR118344": "2026-11-19",
 "workday:micron:JR118352": "2026-11-20",
@@ -150572,9 +150593,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 60,
+"calls": 61,
 "date": "2026-11-26",
-"usd": 0.005183
+"usd": 0.005254
 },
 "years": {
 "amazon:10583340": [
