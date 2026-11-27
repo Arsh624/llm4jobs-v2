@@ -48542,6 +48542,13 @@
 },
 "2026-11-26"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351664": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:351689": [
 {
 "note": "Requires extensive experience in architecture roles.",
@@ -85344,7 +85351,7 @@
 "GitLab": {
 "alerted": false,
 "streak": 0,
-"typical": 243
+"typical": 244
 },
 "GiveCampus": {
 "alerted": false,
@@ -86395,7 +86402,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 744,
+"streak": 745,
 "typical": 1
 },
 "Oklo": {
@@ -86841,7 +86848,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 527,
+"streak": 528,
 "typical": 5
 },
 "Quora": {
@@ -87182,7 +87189,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 712,
+"streak": 713,
 "typical": 39
 },
 "Short Story": {
@@ -103730,6 +103737,7 @@
 "greenhouse:gitlab:8957104002": "2026-11-20",
 "greenhouse:gitlab:8959549002": "2026-11-25",
 "greenhouse:gitlab:8961167002": "2026-11-26",
+"greenhouse:gitlab:8963786002": "2026-11-27",
 "greenhouse:givecampus:4470836009": "2026-11-17",
 "greenhouse:givecampus:4505829009": "2026-11-12",
 "greenhouse:givecampus:4509430009": "2026-11-16",
@@ -116246,6 +116254,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351648": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351650": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351657": "2026-11-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351664": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351677": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351678": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351679": "2026-11-26",
@@ -116257,6 +116266,8 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351687": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351689": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351691": "2026-11-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351692": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351693": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351698": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351699": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351704": "2026-11-27",
@@ -116290,8 +116301,10 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351754": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351756": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351758": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351759": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351761": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351762": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351763": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351764": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351765": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351766": "2026-11-27",
@@ -147274,6 +147287,7 @@
 "workday:wf:R-589395-1": "2026-11-24",
 "workday:wf:R-589396": "2026-11-25",
 "workday:wf:R-589398": "2026-11-24",
+"workday:wf:R-589399": "2026-11-27",
 "workday:wf:R-589405": "2026-11-25",
 "workday:wf:R-589406": "2026-11-25",
 "workday:wf:R-589411": "2026-11-25",
@@ -151805,9 +151819,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 64,
+"calls": 65,
 "date": "2026-11-27",
-"usd": 0.005591
+"usd": 0.005655
 },
 "years": {
 "amazon:10583340": [
