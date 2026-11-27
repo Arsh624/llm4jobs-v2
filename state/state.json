@@ -34578,6 +34578,13 @@
 },
 "2026-11-25"
 ],
+"rescue:greenhouse:andurilindustries:5310639007": [
+{
+"note": "Requires significant experience in engineering.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:greenhouse:anthropic:5173120008": [
 {
 "note": "Requires significant technical leadership experience.",
@@ -83668,7 +83675,7 @@
 "Anduril": {
 "alerted": false,
 "streak": 0,
-"typical": 2598
+"typical": 2599
 },
 "AngelList": {
 "alerted": false,
@@ -83723,7 +83730,7 @@
 "Applied Materials": {
 "alerted": false,
 "streak": 0,
-"typical": 60
+"typical": 30
 },
 "AppsFlyer": {
 "alerted": false,
@@ -83868,7 +83875,7 @@
 "Autodesk": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 10
 },
 "Ava Labs": {
 "alerted": false,
@@ -84043,7 +84050,7 @@
 "Broadcom": {
 "alerted": false,
 "streak": 0,
-"typical": 56
+"typical": 57
 },
 "Bugcrowd": {
 "alerted": false,
@@ -84433,7 +84440,7 @@
 "Dell Technologies": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 50
 },
 "Descript": {
 "alerted": false,
@@ -84769,7 +84776,7 @@
 "Fortinet": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 50
 },
 "Forward Networks": {
 "alerted": false,
@@ -85614,7 +85621,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 170
+"typical": 160
 },
 "Middesk": {
 "alerted": false,
@@ -85920,7 +85927,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 694,
+"streak": 695,
 "typical": 1
 },
 "Oklo": {
@@ -86001,7 +86008,7 @@
 "Oracle": {
 "alerted": false,
 "streak": 0,
-"typical": 200
+"typical": 100
 },
 "Orb": {
 "alerted": false,
@@ -86101,7 +86108,7 @@
 "PayPal": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 10
 },
 "Pearl Health": {
 "alerted": false,
@@ -86331,7 +86338,7 @@
 "Qualcomm": {
 "alerted": false,
 "streak": 0,
-"typical": 30
+"typical": 10
 },
 "QuantCo": {
 "alerted": false,
@@ -86366,7 +86373,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 477,
+"streak": 478,
 "typical": 5
 },
 "Quora": {
@@ -86622,7 +86629,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 299
+"typical": 300
 },
 "Samsung Research America": {
 "alerted": false,
@@ -86707,7 +86714,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 662,
+"streak": 663,
 "typical": 39
 },
 "Short Story": {
@@ -86803,7 +86810,7 @@
 "Snappr": {
 "alerted": false,
 "streak": 0,
-"typical": 18
+"typical": 19
 },
 "Snowflake": {
 "alerted": false,
@@ -87198,7 +87205,7 @@
 "Uber": {
 "alerted": false,
 "streak": 0,
-"typical": 100
+"typical": 50
 },
 "Udemy": {
 "alerted": false,
@@ -99896,6 +99903,7 @@
 "greenhouse:andurilindustries:5309824007": "2026-11-25",
 "greenhouse:andurilindustries:5309846007": "2026-11-25",
 "greenhouse:andurilindustries:5309873007": "2026-11-25",
+"greenhouse:andurilindustries:5310639007": "2026-11-27",
 "greenhouse:anthropic:5138549008": "2026-11-19",
 "greenhouse:anthropic:5173120008": "2026-10-29",
 "greenhouse:anthropic:5197211008": "2026-10-28",
@@ -112367,6 +112375,7 @@
 "lever:shieldai:eef58bde-5309-4a1c-8719-c7deb45f0254": "2026-11-12",
 "lever:shieldai:fccc8e32-00d4-416f-bfbf-9705a3415cc5": "2026-11-12",
 "lever:snaplogic:bff31334-0cec-4fc4-8eeb-4d49a116615f": "2026-11-21",
+"lever:snappr:ad70765a-383b-4953-895d-74b8b647a839": "2026-11-27",
 "lever:snappr:eea70981-77e0-494b-ab66-8bab21632fa6": "2026-11-03",
 "lever:spotify:01b41b49-7d43-4933-9ba7-06ebe0a2a749": "2026-11-10",
 "lever:spotify:19c12e29-b6d4-4d97-9053-48238fb7c381": "2026-10-23",
@@ -124127,6 +124136,7 @@
 "workday:broadcom:R027605": "2026-11-03",
 "workday:broadcom:R027610": "2026-11-03",
 "workday:broadcom:R027612-2": "2026-11-11",
+"workday:broadcom:R027613": "2026-11-27",
 "workday:broadcom:R027615": "2026-11-02",
 "workday:broadcom:R027617": "2026-11-02",
 "workday:broadcom:R027620": "2026-11-03",
@@ -150788,9 +150798,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 74,
-"date": "2026-11-26",
-"usd": 0.006501
+"calls": 1,
+"date": "2026-11-27",
+"usd": 7.1e-05
 },
 "years": {
 "amazon:10583340": [
