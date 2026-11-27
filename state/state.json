@@ -85424,7 +85424,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 85
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -85669,7 +85669,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 111
 },
 "Intro": {
 "alerted": false,
@@ -86089,7 +86089,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 90
+"typical": 80
 },
 "Middesk": {
 "alerted": false,
@@ -86395,7 +86395,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 742,
+"streak": 743,
 "typical": 1
 },
 "Oklo": {
@@ -86841,7 +86841,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 525,
+"streak": 526,
 "typical": 5
 },
 "Quora": {
@@ -86907,7 +86907,7 @@
 "Red Hat": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 21
 },
 "Reddit": {
 "alerted": false,
@@ -87022,7 +87022,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 555
+"typical": 556
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -87082,7 +87082,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 191
+"typical": 192
 },
 "Salient": {
 "alerted": false,
@@ -87182,7 +87182,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 710,
+"streak": 711,
 "typical": 39
 },
 "Short Story": {
@@ -87278,7 +87278,7 @@
 "Snappr": {
 "alerted": false,
 "streak": 0,
-"typical": 19
+"typical": 20
 },
 "Snowflake": {
 "alerted": false,
@@ -87838,7 +87838,7 @@
 "Waymo": {
 "alerted": false,
 "streak": 0,
-"typical": 356
+"typical": 354
 },
 "Wealthfront": {
 "alerted": false,
@@ -107437,6 +107437,7 @@
 "greenhouse:rocketlab:8202975003": "2026-11-13",
 "greenhouse:rocketlab:8203418003": "2026-11-13",
 "greenhouse:rocketlab:8203624003": "2026-11-20",
+"greenhouse:rocketlab:8203626003": "2026-11-27",
 "greenhouse:rocketlab:8203628003": "2026-11-27",
 "greenhouse:rocketlab:8203630003": "2026-11-27",
 "greenhouse:rocketlab:8203634003": "2026-11-16",
@@ -111759,7 +111760,9 @@
 "jibe:careers.na.panasonic.com:50272": "2026-11-18",
 "jibe:careers.na.panasonic.com:50335": "2026-10-30",
 "jibe:careers.na.panasonic.com:50367": "2026-11-03",
+"jibe:careers.na.panasonic.com:50420": "2026-11-27",
 "jibe:careers.na.panasonic.com:50458": "2026-10-30",
+"jibe:careers.na.panasonic.com:50462": "2026-11-27",
 "jibe:careers.na.panasonic.com:50504": "2026-11-13",
 "jibe:careers.na.panasonic.com:50558": "2026-11-04",
 "jibe:careers.na.panasonic.com:50559": "2026-11-03",
@@ -111779,6 +111782,7 @@
 "jibe:careers.na.panasonic.com:51073": "2026-11-13",
 "jibe:careers.na.panasonic.com:51095": "2026-11-19",
 "jibe:careers.na.panasonic.com:51116": "2026-10-29",
+"jibe:careers.na.panasonic.com:51120": "2026-11-27",
 "jibe:careers.na.panasonic.com:51239": "2026-10-29",
 "jibe:careers.na.panasonic.com:51282": "2026-11-02",
 "jibe:careers.na.panasonic.com:51295": "2026-11-02",
@@ -111799,6 +111803,7 @@
 "jibe:careers.na.panasonic.com:51773": "2026-11-13",
 "jibe:careers.na.panasonic.com:51774": "2026-11-17",
 "jibe:careers.na.panasonic.com:51793": "2026-10-31",
+"jibe:careers.na.panasonic.com:51795": "2026-11-27",
 "jibe:careers.na.panasonic.com:51835": "2026-10-29",
 "jibe:careers.na.panasonic.com:51836": "2026-10-29",
 "jibe:careers.na.panasonic.com:51847": "2026-11-23",
@@ -113010,6 +113015,7 @@
 "lever:shieldai:eef58bde-5309-4a1c-8719-c7deb45f0254": "2026-11-12",
 "lever:shieldai:fccc8e32-00d4-416f-bfbf-9705a3415cc5": "2026-11-12",
 "lever:snaplogic:bff31334-0cec-4fc4-8eeb-4d49a116615f": "2026-11-21",
+"lever:snappr:64b33c41-a919-42c5-9632-e10a76157667": "2026-11-27",
 "lever:snappr:ad70765a-383b-4953-895d-74b8b647a839": "2026-11-27",
 "lever:snappr:eea70981-77e0-494b-ab66-8bab21632fa6": "2026-11-03",
 "lever:spotify:01b41b49-7d43-4933-9ba7-06ebe0a2a749": "2026-11-10",
@@ -130722,11 +130728,13 @@
 "workday:intel:JR0289426": "2026-11-25",
 "workday:intel:JR0289427": "2026-11-25",
 "workday:intel:JR0289430": "2026-11-25",
+"workday:intel:JR0289433": "2026-11-27",
 "workday:intel:JR0289437": "2026-11-25",
 "workday:intel:JR0289438": "2026-11-25",
 "workday:intel:JR0289441": "2026-11-25",
 "workday:intel:JR0289442": "2026-11-25",
 "workday:intel:JR0289443": "2026-11-25",
+"workday:intel:JR0289444": "2026-11-27",
 "workday:intel:JR0289445": "2026-11-27",
 "workday:intel:JR0289447-1": "2026-11-26",
 "workday:intel:JR0289449": "2026-11-20",
@@ -140840,6 +140848,7 @@
 "workday:salesforce:JR368547": "2026-11-20",
 "workday:salesforce:JR368548-1": "2026-11-17",
 "workday:salesforce:JR368552": "2026-11-24",
+"workday:salesforce:JR368557": "2026-11-27",
 "workday:salesforce:JR368561": "2026-11-17",
 "workday:salesforce:JR368573": "2026-11-25",
 "workday:salesforce:JR368576": "2026-11-25",
@@ -147289,6 +147298,7 @@
 "workday:wf:R-589530": "2026-11-25",
 "workday:wf:R-589533": "2026-11-25",
 "workday:wf:R-589539": "2026-11-25",
+"workday:wf:R-589542": "2026-11-27",
 "workday:wf:R-589544": "2026-11-25",
 "workday:wf:R-589549-1": "2026-11-25",
 "workday:wf:R-589554": "2026-11-25",
