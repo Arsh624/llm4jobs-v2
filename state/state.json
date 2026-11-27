@@ -49572,6 +49572,13 @@
 },
 "2026-11-01"
 ],
+"rescue:oracle_hcm:enterpriseplatform.dell.com:R290006": [
+{
+"note": "Principal roles require extensive experience.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:152899": [
 {
 "note": "Requires significant experience in ML engineering.",
@@ -84162,7 +84169,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 159
+"typical": 160
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -84377,7 +84384,7 @@
 "Coupa": {
 "alerted": false,
 "streak": 0,
-"typical": 40
+"typical": 41
 },
 "Coursera": {
 "alerted": false,
@@ -84998,7 +85005,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 109
+"typical": 110
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -85788,7 +85795,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 97
+"typical": 96
 },
 "NVIDIA": {
 "alerted": false,
@@ -85969,7 +85976,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 710,
+"streak": 711,
 "typical": 1
 },
 "Oklo": {
@@ -86415,7 +86422,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 493,
+"streak": 494,
 "typical": 5
 },
 "Quora": {
@@ -86566,7 +86573,7 @@
 "Riot Games": {
 "alerted": false,
 "streak": 0,
-"typical": 199
+"typical": 198
 },
 "Ripple Labs": {
 "alerted": false,
@@ -86656,7 +86663,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 209
+"typical": 208
 },
 "Salient": {
 "alerted": false,
@@ -86756,7 +86763,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 678,
+"streak": 679,
 "typical": 39
 },
 "Short Story": {
@@ -86792,7 +86799,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3047
+"typical": 3049
 },
 "SimplyInsured": {
 "alerted": false,
@@ -116311,6 +116318,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:R287647": "2026-11-20",
 "oracle_hcm:enterpriseplatform.dell.com:R288068": "2026-11-01",
 "oracle_hcm:enterpriseplatform.dell.com:R288420": "2026-10-29",
+"oracle_hcm:enterpriseplatform.dell.com:R290006": "2026-11-27",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:139578": "2026-11-04",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:147707": "2026-11-09",
 "oracle_hcm:iaziqy.fa.ocs.oraclecloud.com:149797": "2026-10-26",
@@ -125898,6 +125906,7 @@
 "workday:capitalone:R1006572": "2026-11-27",
 "workday:capitalone:R1006574": "2026-11-27",
 "workday:capitalone:R1006576": "2026-11-27",
+"workday:capitalone:R1006578": "2026-11-27",
 "workday:capitalone:R225512-1": "2026-11-02",
 "workday:capitalone:R225766-1": "2026-11-04",
 "workday:capitalone:R232943-1": "2026-11-12",
@@ -127524,6 +127533,7 @@
 "workday:hp:3170649-1": "2026-11-12",
 "workday:hp:3170651-1": "2026-11-02",
 "workday:hp:3170653-2": "2026-11-18",
+"workday:hp:3170655-1": "2026-11-27",
 "workday:hp:3170660-1": "2026-11-05",
 "workday:hp:3170665-1": "2026-11-25",
 "workday:hp:3170670-1": "2026-11-11",
@@ -131150,6 +131160,7 @@
 "workday:mastercard:R-292886-1": "2026-10-29",
 "workday:mastercard:R-292913": "2026-11-02",
 "workday:mastercard:R-292929": "2026-10-29",
+"workday:mastercard:R-292939-1": "2026-11-27",
 "workday:mastercard:R-292949": "2026-10-29",
 "workday:mastercard:R-292997": "2026-10-29",
 "workday:mastercard:R-293009": "2026-10-29",
@@ -150944,9 +150955,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 7,
+"calls": 8,
 "date": "2026-11-27",
-"usd": 0.000485
+"usd": 0.000553
 },
 "years": {
 "amazon:10583340": [
