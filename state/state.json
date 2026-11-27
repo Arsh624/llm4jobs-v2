@@ -4470,6 +4470,16 @@
 },
 "2026-11-18"
 ],
+"amazon:10608779|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3+ years of professional experience.",
+"us_ok": true
+},
+"2026-11-27"
+],
 "amazon:10608802|v3|73908d": [
 {
 "chance": 2,
@@ -5689,6 +5699,16 @@
 "us_ok": true
 },
 "2026-10-26"
+],
+"ashby:astera:e9cd3171-fa3f-44ec-af69-7dedeeac02b5|v3|73908d": [
+{
+"chance": 7,
+"level": "entry",
+"min_years": 0,
+"note": "Targets new grads; hands-on experience preferred but not mandatory.",
+"us_ok": true
+},
+"2026-11-27"
 ],
 "ashby:astera:ebc8e7a5-9eb2-466a-8091-6e581d76a77a|v3|73908d": [
 {
@@ -19820,6 +19840,16 @@
 },
 "2026-11-27"
 ],
+"greenhouse:stripe:8421091|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3 years of experience or a Master's degree.",
+"us_ok": true
+},
+"2026-11-27"
+],
 "greenhouse:sumologic:8318216|v3|73908d": [
 {
 "chance": 2,
@@ -25966,6 +25996,13 @@
 "senior": true
 },
 "2026-11-10"
+],
+"rescue:ashby:kraken.com:9a798851-3fb0-42ff-9b0c-4c116bfb6e47": [
+{
+"note": "Requires significant management experience.",
+"senior": true
+},
+"2026-11-27"
 ],
 "rescue:ashby:kraken.com:b441c2d2-cbea-4ac9-8e7d-fdf999c0f1d1": [
 {
@@ -84181,7 +84218,7 @@
 "Astera Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 43
+"typical": 44
 },
 "Astranis": {
 "alerted": false,
@@ -84921,7 +84958,7 @@
 "ElevenLabs": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 109
 },
 "EliseAI": {
 "alerted": false,
@@ -85317,7 +85354,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 129
+"typical": 130
 },
 "HUD": {
 "alerted": false,
@@ -85557,7 +85594,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 107
+"typical": 108
 },
 "Intro": {
 "alerted": false,
@@ -85692,7 +85729,7 @@
 "Kraken": {
 "alerted": false,
 "streak": 0,
-"typical": 96
+"typical": 97
 },
 "Krea": {
 "alerted": false,
@@ -86283,7 +86320,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 731,
+"streak": 732,
 "typical": 1
 },
 "Oklo": {
@@ -86729,7 +86766,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 514,
+"streak": 515,
 "typical": 5
 },
 "Quora": {
@@ -86910,7 +86947,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 553
+"typical": 552
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -86935,7 +86972,7 @@
 "Rubrik": {
 "alerted": false,
 "streak": 0,
-"typical": 224
+"typical": 232
 },
 "Runpod": {
 "alerted": false,
@@ -86970,7 +87007,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 192
 },
 "Salient": {
 "alerted": false,
@@ -87070,7 +87107,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 699,
+"streak": 700,
 "typical": 39
 },
 "Short Story": {
@@ -87301,7 +87338,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 765
+"typical": 766
 },
 "Stuut": {
 "alerted": false,
@@ -88594,6 +88631,7 @@
 "amazon:10608502": "2026-11-19",
 "amazon:10608536": "2026-11-19",
 "amazon:10608631": "2026-11-18",
+"amazon:10608779": "2026-11-27",
 "amazon:10608789": "2026-11-19",
 "amazon:10608802": "2026-11-18",
 "amazon:10608809": "2026-11-18",
@@ -89204,6 +89242,7 @@
 "ashby:astera:da1f2782-4125-4161-ad86-ff87d8445802": "2026-11-12",
 "ashby:astera:e1de781c-d06b-43be-8f1a-358db2507e33": "2026-11-12",
 "ashby:astera:e26a9337-518d-4dfa-b07d-48fdad33f026": "2026-11-13",
+"ashby:astera:e9cd3171-fa3f-44ec-af69-7dedeeac02b5": "2026-11-27",
 "ashby:astera:ebc8e7a5-9eb2-466a-8091-6e581d76a77a": "2026-11-11",
 "ashby:astera:f54b342a-b634-472e-b3e1-19970430ae53": "2026-10-26",
 "ashby:astro-mechanica:06ecc8a2-5153-4257-8e54-eb9326a31982": "2026-11-02",
@@ -91298,6 +91337,7 @@
 "ashby:kraken.com:88890cf1-24c5-40a1-9d5d-b6b99b208c1f": "2026-11-06",
 "ashby:kraken.com:91a866e7-f6a2-4901-9dea-214996889d8c": "2026-11-12",
 "ashby:kraken.com:932fa767-7a6d-45bb-807b-48f881b53aeb": "2026-11-12",
+"ashby:kraken.com:9a798851-3fb0-42ff-9b0c-4c116bfb6e47": "2026-11-27",
 "ashby:kraken.com:9cdd4c99-0f19-4886-aa13-ca0327cec800": "2026-11-03",
 "ashby:kraken.com:9da43df9-f1f9-420f-ac96-3b8b70e63b1e": "2026-10-29",
 "ashby:kraken.com:a647a9bc-d730-4042-a874-d2be586b5984": "2026-11-04",
@@ -105877,6 +105917,7 @@
 "greenhouse:onemedical:8418154": "2026-11-25",
 "greenhouse:onemedical:8418155": "2026-11-25",
 "greenhouse:onemedical:8418171": "2026-11-25",
+"greenhouse:onemedical:8421166": "2026-11-27",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -107486,6 +107527,7 @@
 "greenhouse:rubrik:8359500": "2026-11-12",
 "greenhouse:rubrik:8360551": "2026-11-17",
 "greenhouse:rubrik:8365152": "2026-11-26",
+"greenhouse:rubrik:8365198": "2026-11-27",
 "greenhouse:rubrik:8365286": "2026-11-12",
 "greenhouse:rubrik:8366954": "2026-11-09",
 "greenhouse:rubrik:8367390": "2026-11-15",
@@ -107562,6 +107604,7 @@
 "greenhouse:rubrik:8403268": "2026-11-23",
 "greenhouse:rubrik:8405566": "2026-11-26",
 "greenhouse:rubrik:8406183": "2026-11-23",
+"greenhouse:rubrik:8406397": "2026-11-27",
 "greenhouse:rubrik:8407738": "2026-11-23",
 "greenhouse:rubrik:8407739": "2026-11-23",
 "greenhouse:rubrik:8407753": "2026-11-23",
@@ -108629,6 +108672,7 @@
 "greenhouse:stripe:8417797": "2026-11-25",
 "greenhouse:stripe:8419418": "2026-11-26",
 "greenhouse:stripe:8421000": "2026-11-27",
+"greenhouse:stripe:8421091": "2026-11-27",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
@@ -116010,6 +116054,8 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351391": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351399": "2026-11-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351412": "2026-11-25",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351413": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351414": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351422": "2026-11-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351467": "2026-11-25",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351471": "2026-11-25",
@@ -116059,15 +116105,29 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351684": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351685": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351686": "2026-11-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351687": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351689": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351691": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351698": "2026-11-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351699": "2026-11-26",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351704": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351705": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351709": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351710": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351711": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351713": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351714": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351715": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351716": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351719": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351720": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351723": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351724": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351726": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351727": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351728": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351730": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351732": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351735": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351736": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351737": "2026-11-27",
@@ -116089,9 +116149,13 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351767": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351768": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351769": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351770": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351771": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351773": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:351775": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351780": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351781": "2026-11-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:351782": "2026-11-27",
 "oracle_hcm:enterpriseplatform.dell.com:291082": "2026-11-06",
 "oracle_hcm:enterpriseplatform.dell.com:291349": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:291459": "2026-11-03",
@@ -129793,6 +129857,7 @@
 "workday:intel:JR0288158": "2026-10-21",
 "workday:intel:JR0288159": "2026-10-20",
 "workday:intel:JR0288166": "2026-11-09",
+"workday:intel:JR0288167": "2026-11-27",
 "workday:intel:JR0288170": "2026-10-20",
 "workday:intel:JR0288173": "2026-10-20",
 "workday:intel:JR0288176-1": "2026-10-20",
@@ -140279,6 +140344,7 @@
 "workday:salesforce:JR366764": "2026-11-10",
 "workday:salesforce:JR366778": "2026-11-03",
 "workday:salesforce:JR366779": "2026-11-05",
+"workday:salesforce:JR366780": "2026-11-27",
 "workday:salesforce:JR366784": "2026-11-11",
 "workday:salesforce:JR366785": "2026-11-06",
 "workday:salesforce:JR366791": "2026-11-13",
@@ -140800,6 +140866,7 @@
 "workday:salesforce:JR369734-1": "2026-11-27",
 "workday:salesforce:JR369736": "2026-11-27",
 "workday:salesforce:JR369742": "2026-11-27",
+"workday:salesforce:JR369746": "2026-11-27",
 "workday:salesforce:JR369750": "2026-11-27",
 "workday:tmobile:REQ330669": "2026-11-27",
 "workday:tmobile:REQ339040-1": "2026-11-17",
@@ -147052,6 +147119,7 @@
 "workday:wf:R-589517": "2026-11-25",
 "workday:wf:R-589519": "2026-11-25",
 "workday:wf:R-589522": "2026-11-25",
+"workday:wf:R-589523": "2026-11-27",
 "workday:wf:R-589524": "2026-11-25",
 "workday:wf:R-589530": "2026-11-25",
 "workday:wf:R-589533": "2026-11-25",
@@ -148030,6 +148098,7 @@
 "amazon|software development engineer annapurna labs libnvme": "2026-11-25",
 "amazon|software development engineer app performance mobile app foundations": "2026-11-02",
 "amazon|software development engineer audible ai voice production": "2026-10-29",
+"amazon|software development engineer aurora control plane": "2026-11-27",
 "amazon|software development engineer autonomous ai security": "2026-11-19",
 "amazon|software development engineer autonomous fleet services": "2026-11-02",
 "amazon|software development engineer aws": "2026-10-21",
@@ -148555,6 +148624,7 @@
 "astera labs|full stack robotics ai engineer": "2026-10-26",
 "astera labs|mechatronics engineer": "2026-10-26",
 "astera labs|post si electrical validation engineer": "2026-11-21",
+"astera labs|research scientist viral and molecular tools": "2026-11-27",
 "astera labs|research specialist experimental neuroscience": "2026-11-11",
 "astranis|electrical engineer sdr hardware": "2026-10-30",
 "astranis|hardware test engineer": "2026-11-06",
@@ -151548,9 +151618,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 51,
+"calls": 55,
 "date": "2026-11-27",
-"usd": 0.003799
+"usd": 0.004474
 },
 "years": {
 "amazon:10583340": [
