@@ -19810,6 +19810,16 @@
 },
 "2026-11-24"
 ],
+"greenhouse:stripe:8421000|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2 years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-27"
+],
 "greenhouse:sumologic:8318216|v3|73908d": [
 {
 "chance": 2,
@@ -84746,7 +84756,7 @@
 "Databricks": {
 "alerted": false,
 "streak": 0,
-"typical": 888
+"typical": 887
 },
 "Datafold": {
 "alerted": false,
@@ -85302,12 +85312,12 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 84
+"typical": 85
 },
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 130
+"typical": 129
 },
 "HUD": {
 "alerted": false,
@@ -85802,7 +85812,7 @@
 "LinkedIn": {
 "alerted": false,
 "streak": 0,
-"typical": 133
+"typical": 132
 },
 "Liquid AI": {
 "alerted": false,
@@ -85857,7 +85867,7 @@
 "Lyft": {
 "alerted": false,
 "streak": 0,
-"typical": 144
+"typical": 143
 },
 "Mach9": {
 "alerted": false,
@@ -85967,7 +85977,7 @@
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 140
+"typical": 130
 },
 "Middesk": {
 "alerted": false,
@@ -86273,7 +86283,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 730,
+"streak": 731,
 "typical": 1
 },
 "Oklo": {
@@ -86304,7 +86314,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 347
+"typical": 348
 },
 "OneSchema": {
 "alerted": false,
@@ -86619,7 +86629,7 @@
 "Prime Intellect": {
 "alerted": false,
 "streak": 0,
-"typical": 36
+"typical": 35
 },
 "Probook": {
 "alerted": false,
@@ -86719,7 +86729,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 513,
+"streak": 514,
 "typical": 5
 },
 "Quora": {
@@ -86975,7 +86985,7 @@
 "Samsara": {
 "alerted": false,
 "streak": 0,
-"typical": 292
+"typical": 293
 },
 "Samsung Research America": {
 "alerted": false,
@@ -87060,7 +87070,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 698,
+"streak": 699,
 "typical": 39
 },
 "Short Story": {
@@ -87141,7 +87151,7 @@
 "Slingshot AI": {
 "alerted": false,
 "streak": 0,
-"typical": 5
+"typical": 6
 },
 "SnapLogic": {
 "alerted": false,
@@ -87291,7 +87301,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 764
+"typical": 765
 },
 "Stuut": {
 "alerted": false,
@@ -87351,7 +87361,7 @@
 "T-Mobile": {
 "alerted": false,
 "streak": 0,
-"typical": 182
+"typical": 183
 },
 "TENEX.AI": {
 "alerted": false,
@@ -87806,7 +87816,7 @@
 "Zillow": {
 "alerted": false,
 "streak": 0,
-"typical": 17
+"typical": 18
 },
 "Zimperium": {
 "alerted": false,
@@ -87866,7 +87876,7 @@
 "eBay": {
 "alerted": false,
 "streak": 0,
-"typical": 37
+"typical": 38
 },
 "fal": {
 "alerted": false,
@@ -93592,6 +93602,7 @@
 "ashby:slingshotai:4ea817c5-d422-4811-a1f9-afb0aaf097d1": "2026-10-29",
 "ashby:slingshotai:5828f9cd-9a3d-410c-9d75-25e9cca47d7f": "2026-11-05",
 "ashby:slingshotai:5da53245-e3ec-4772-85f7-773a76a147ce": "2026-10-28",
+"ashby:slingshotai:f46131a5-7fae-4c32-a345-16b75ec9c01b": "2026-11-27",
 "ashby:snapmagic:8cabd497-935c-4c1b-b0c4-1d2ba8ea7c36": "2026-11-19",
 "ashby:snapmagic:d06f6752-1110-4708-9d80-8cfaf73795fe": "2026-11-21",
 "ashby:snowflake:01d1b85c-978f-4ca5-92fc-35e9a53c2add": "2026-11-26",
@@ -108617,6 +108628,7 @@
 "greenhouse:stripe:8417785": "2026-11-25",
 "greenhouse:stripe:8417797": "2026-11-25",
 "greenhouse:stripe:8419418": "2026-11-26",
+"greenhouse:stripe:8421000": "2026-11-27",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
@@ -112535,6 +112547,7 @@
 "jibe:jobs.booking.com:32163": "2026-11-25",
 "jibe:jobs.booking.com:32164": "2026-11-27",
 "jibe:jobs.booking.com:32168": "2026-11-24",
+"jibe:jobs.booking.com:32172": "2026-11-27",
 "lever:acceldata:5c7ab303-e504-4d13-9bb0-f90181dbc5cb": "2026-10-29",
 "lever:acceldata:5ccb4d08-ba03-416c-82d4-38f253df4e6c": "2026-11-06",
 "lever:acceldata:7a30be80-bb12-47b5-af62-e9cac23b1907": "2026-11-11",
@@ -126929,6 +126942,7 @@
 "workday:ebay:R0077604-1": "2026-11-26",
 "workday:ebay:R0077610": "2026-11-25",
 "workday:ebay:R0077612": "2026-11-25",
+"workday:ebay:R0077623": "2026-11-27",
 "workday:ebay:R0077630": "2026-11-26",
 "workday:ebay:R0077632": "2026-11-20",
 "workday:ebay:R0077651": "2026-11-25",
@@ -140787,6 +140801,7 @@
 "workday:salesforce:JR369736": "2026-11-27",
 "workday:salesforce:JR369742": "2026-11-27",
 "workday:salesforce:JR369750": "2026-11-27",
+"workday:tmobile:REQ330669": "2026-11-27",
 "workday:tmobile:REQ339040-1": "2026-11-17",
 "workday:tmobile:REQ346692": "2026-10-22",
 "workday:tmobile:REQ347177-1": "2026-10-27",
@@ -146939,6 +146954,7 @@
 "workday:wf:R-589172": "2026-11-23",
 "workday:wf:R-589176": "2026-11-23",
 "workday:wf:R-589178": "2026-11-25",
+"workday:wf:R-589180": "2026-11-27",
 "workday:wf:R-589181": "2026-11-25",
 "workday:wf:R-589182": "2026-11-23",
 "workday:wf:R-589185": "2026-11-24",
@@ -147054,6 +147070,7 @@
 "workday:wf:R-589604": "2026-11-26",
 "workday:wf:R-589605": "2026-11-26",
 "workday:wf:R-589655": "2026-11-27",
+"workday:wf:R-589664": "2026-11-27",
 "workday:workday:JR-0102943-2": "2026-11-16",
 "workday:workday:JR-0103983": "2026-10-28",
 "workday:workday:JR-0105160": "2026-10-28",
@@ -147604,6 +147621,7 @@
 "workday:zillow:P751420-1": "2026-10-29",
 "workday:zillow:P751486": "2026-10-30",
 "workday:zillow:P751502-2": "2026-11-05",
+"workday:zillow:P751517": "2026-11-27",
 "workday:zillow:P751529-1": "2026-11-12",
 "workday:zillow:P751533-1": "2026-11-03",
 "workday:zillow:P751554": "2026-11-03",
@@ -151105,6 +151123,7 @@
 "stripe|software engineer core technology": "2026-11-23",
 "stripe|software engineer experimental projects": "2026-11-24",
 "stripe|software engineer full stack": "2026-10-29",
+"stripe|software engineer full stack atlas": "2026-11-27",
 "stripe|software engineer resource automation": "2026-10-22",
 "stripe|technical operations engineer": "2026-10-27",
 "stripe|technical operations engineer revenue": "2026-11-17",
@@ -151529,9 +151548,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 50,
+"calls": 51,
 "date": "2026-11-27",
-"usd": 0.003629
+"usd": 0.003799
 },
 "years": {
 "amazon:10583340": [
