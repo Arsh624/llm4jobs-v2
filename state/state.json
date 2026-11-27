@@ -68000,6 +68000,13 @@
 },
 "2026-10-29"
 ],
+"rescue:workday:salesforce:JR361286": [
+{
+"note": "Requires significant experience in analytics.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:workday:salesforce:JR361297": [
 {
 "note": "Requires significant design experience.",
@@ -84680,7 +84687,7 @@
 "Cohere": {
 "alerted": false,
 "streak": 0,
-"typical": 122
+"typical": 120
 },
 "CoinTracker": {
 "alerted": false,
@@ -85371,7 +85378,7 @@
 "HPE / Juniper Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 132
+"typical": 133
 },
 "HUD": {
 "alerted": false,
@@ -85426,7 +85433,7 @@
 "Headway": {
 "alerted": false,
 "streak": 0,
-"typical": 88
+"typical": 87
 },
 "Hebbia": {
 "alerted": false,
@@ -85776,7 +85783,7 @@
 "Lam Research": {
 "alerted": false,
 "streak": 0,
-"typical": 20
+"typical": 10
 },
 "Laminar": {
 "alerted": false,
@@ -85956,7 +85963,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 83
+"typical": 84
 },
 "MatX": {
 "alerted": false,
@@ -86026,12 +86033,12 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 210
+"typical": 211
 },
 "Microsoft": {
 "alerted": false,
 "streak": 0,
-"typical": 120
+"typical": 110
 },
 "Middesk": {
 "alerted": false,
@@ -86337,7 +86344,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 735,
+"streak": 736,
 "typical": 1
 },
 "Oklo": {
@@ -86368,7 +86375,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 348
+"typical": 353
 },
 "OneSchema": {
 "alerted": false,
@@ -86783,7 +86790,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 518,
+"streak": 519,
 "typical": 5
 },
 "Quora": {
@@ -87024,7 +87031,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 189
+"typical": 190
 },
 "Salient": {
 "alerted": false,
@@ -87124,7 +87131,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 703,
+"streak": 704,
 "typical": 39
 },
 "Short Story": {
@@ -87475,7 +87482,7 @@
 "Tenstorrent": {
 "alerted": false,
 "streak": 0,
-"typical": 154
+"typical": 153
 },
 "Terranova": {
 "alerted": false,
@@ -87799,7 +87806,8 @@
 },
 "Wells Fargo": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(0 bytes read)",
+"streak": 1,
 "typical": 300
 },
 "Wingspan": {
@@ -88780,6 +88788,7 @@
 "amazon:10615130": "2026-11-26",
 "amazon:10615132": "2026-11-26",
 "amazon:10615936": "2026-11-27",
+"amazon:10615996": "2026-11-27",
 "ashby:1x:0ac33259-1b12-447c-95a3-d2d0c6b1a996": "2026-11-12",
 "ashby:1x:0eb854f8-97f7-43a0-8818-f138178586f8": "2026-11-23",
 "ashby:1x:1147901f-b444-4473-825f-21d12e435bc1": "2026-11-12",
@@ -105761,6 +105770,7 @@
 "greenhouse:onemedical:8360412": "2026-11-06",
 "greenhouse:onemedical:8362989": "2026-11-07",
 "greenhouse:onemedical:8367384": "2026-11-09",
+"greenhouse:onemedical:8370859": "2026-11-27",
 "greenhouse:onemedical:8371992": "2026-11-10",
 "greenhouse:onemedical:8371997": "2026-11-10",
 "greenhouse:onemedical:8371999": "2026-11-10",
@@ -105950,6 +105960,10 @@
 "greenhouse:onemedical:8421173": "2026-11-27",
 "greenhouse:onemedical:8421287": "2026-11-27",
 "greenhouse:onemedical:8421288": "2026-11-27",
+"greenhouse:onemedical:8421332": "2026-11-27",
+"greenhouse:onemedical:8421334": "2026-11-27",
+"greenhouse:onemedical:8421336": "2026-11-27",
+"greenhouse:onemedical:8421348": "2026-11-27",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -110857,6 +110871,7 @@
 "jibe:careers.amd.com:97838": "2026-11-20",
 "jibe:careers.amd.com:97839": "2026-11-17",
 "jibe:careers.amd.com:97843": "2026-11-10",
+"jibe:careers.amd.com:97844": "2026-11-27",
 "jibe:careers.amd.com:97847": "2026-11-19",
 "jibe:careers.amd.com:97849": "2026-11-21",
 "jibe:careers.amd.com:97850": "2026-11-21",
@@ -131409,6 +131424,7 @@
 "workday:mastercard:R-281572": "2026-10-29",
 "workday:mastercard:R-281599": "2026-10-30",
 "workday:mastercard:R-281899": "2026-11-12",
+"workday:mastercard:R-282023": "2026-11-27",
 "workday:mastercard:R-282261-1": "2026-10-29",
 "workday:mastercard:R-282264": "2026-10-30",
 "workday:mastercard:R-282280": "2026-10-29",
@@ -134781,6 +134797,7 @@
 "workday:micron:JR117243": "2026-11-12",
 "workday:micron:JR117244": "2026-11-15",
 "workday:micron:JR117245": "2026-11-15",
+"workday:micron:JR117257-1": "2026-11-27",
 "workday:micron:JR117258-1": "2026-11-16",
 "workday:micron:JR117259": "2026-11-16",
 "workday:micron:JR117262": "2026-11-17",
@@ -139485,6 +139502,7 @@
 "workday:salesforce:JR361222": "2026-11-04",
 "workday:salesforce:JR361231-1": "2026-11-05",
 "workday:salesforce:JR361238": "2026-10-21",
+"workday:salesforce:JR361286": "2026-11-27",
 "workday:salesforce:JR361288-1": "2026-10-20",
 "workday:salesforce:JR361292-1": "2026-10-30",
 "workday:salesforce:JR361293-1": "2026-10-30",
@@ -151666,9 +151684,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 57,
+"calls": 58,
 "date": "2026-11-27",
-"usd": 0.004798
+"usd": 0.00487
 },
 "years": {
 "amazon:10583340": [
