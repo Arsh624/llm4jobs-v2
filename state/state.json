@@ -25103,6 +25103,13 @@
 },
 "2026-11-16"
 ],
+"rescue:ashby:cohere:d24de9b2-35b6-456a-843e-a9e01d2facf2": [
+{
+"note": "Requires significant program management experience.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:ashby:cohere:dca93d1a-9ab8-442b-aa76-950595e8b9c3": [
 {
 "note": "Requires significant management experience.",
@@ -84707,7 +84714,7 @@
 "Cohere": {
 "alerted": false,
 "streak": 0,
-"typical": 120
+"typical": 121
 },
 "CoinTracker": {
 "alerted": false,
@@ -85117,7 +85124,7 @@
 "Faire": {
 "alerted": false,
 "streak": 0,
-"typical": 73
+"typical": 71
 },
 "Fandom": {
 "alerted": false,
@@ -85393,7 +85400,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 85
+"typical": 86
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -85773,7 +85780,7 @@
 "Kraken": {
 "alerted": false,
 "streak": 0,
-"typical": 98
+"typical": 97
 },
 "Krea": {
 "alerted": false,
@@ -86364,7 +86371,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 738,
+"streak": 739,
 "typical": 1
 },
 "Oklo": {
@@ -86395,7 +86402,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 361
+"typical": 372
 },
 "OneSchema": {
 "alerted": false,
@@ -86810,7 +86817,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 521,
+"streak": 522,
 "typical": 5
 },
 "Quora": {
@@ -87151,7 +87158,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 706,
+"streak": 707,
 "typical": 39
 },
 "Short Story": {
@@ -87382,7 +87389,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 770
+"typical": 771
 },
 "Stuut": {
 "alerted": false,
@@ -87727,7 +87734,7 @@
 "Vercel": {
 "alerted": false,
 "streak": 0,
-"typical": 86
+"typical": 85
 },
 "Verifone": {
 "alerted": false,
@@ -89856,6 +89863,7 @@
 "ashby:cohere:c4192057-43fa-45c9-a40e-6f29131bf11d": "2026-11-16",
 "ashby:cohere:cb981ecd-a161-482c-8d8e-5f19bb6e7fdd": "2026-10-31",
 "ashby:cohere:d164d567-58d9-42fc-9e14-68d1dd2cb5a7": "2026-11-13",
+"ashby:cohere:d24de9b2-35b6-456a-843e-a9e01d2facf2": "2026-11-27",
 "ashby:cohere:d28fbc03-cb09-49da-84b9-e12c16182695": "2026-11-06",
 "ashby:cohere:d5cc437c-2397-4c1a-9d12-3a2bf64d98ea": "2026-11-17",
 "ashby:cohere:dc881634-ca66-46e5-90ff-43ad83080de2": "2026-11-09",
@@ -105793,6 +105801,7 @@
 "greenhouse:onemedical:8370859": "2026-11-27",
 "greenhouse:onemedical:8370877": "2026-11-27",
 "greenhouse:onemedical:8370883": "2026-11-27",
+"greenhouse:onemedical:8370886": "2026-11-27",
 "greenhouse:onemedical:8371992": "2026-11-10",
 "greenhouse:onemedical:8371997": "2026-11-10",
 "greenhouse:onemedical:8371999": "2026-11-10",
@@ -105965,8 +105974,14 @@
 "greenhouse:onemedical:8412054": "2026-11-23",
 "greenhouse:onemedical:8412057": "2026-11-23",
 "greenhouse:onemedical:8412487": "2026-11-23",
+"greenhouse:onemedical:8414523": "2026-11-27",
 "greenhouse:onemedical:8414750": "2026-11-24",
 "greenhouse:onemedical:8414770": "2026-11-24",
+"greenhouse:onemedical:8415023": "2026-11-27",
+"greenhouse:onemedical:8415029": "2026-11-27",
+"greenhouse:onemedical:8415034": "2026-11-27",
+"greenhouse:onemedical:8415050": "2026-11-27",
+"greenhouse:onemedical:8415064": "2026-11-27",
 "greenhouse:onemedical:8417388": "2026-11-25",
 "greenhouse:onemedical:8417393": "2026-11-25",
 "greenhouse:onemedical:8417396": "2026-11-25",
@@ -105992,6 +106007,11 @@
 "greenhouse:onemedical:8421365": "2026-11-27",
 "greenhouse:onemedical:8421369": "2026-11-27",
 "greenhouse:onemedical:8421374": "2026-11-27",
+"greenhouse:onemedical:8421416": "2026-11-27",
+"greenhouse:onemedical:8421417": "2026-11-27",
+"greenhouse:onemedical:8421418": "2026-11-27",
+"greenhouse:onemedical:8421419": "2026-11-27",
+"greenhouse:onemedical:8421420": "2026-11-27",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -108751,6 +108771,7 @@
 "greenhouse:stripe:8421263": "2026-11-27",
 "greenhouse:stripe:8421367": "2026-11-27",
 "greenhouse:stripe:8421387": "2026-11-27",
+"greenhouse:stripe:8421413": "2026-11-27",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
@@ -128271,6 +128292,7 @@
 "workday:hp:3171590-1": "2026-11-27",
 "workday:hp:3171594-1": "2026-11-27",
 "workday:hp:3171596-1": "2026-11-27",
+"workday:hp:3171605-1": "2026-11-27",
 "workday:hp:HPOC3157316": "2026-11-25",
 "workday:hp:IST0010-2": "2026-10-30",
 "workday:hp:IST0053": "2026-11-05",
@@ -147233,6 +147255,7 @@
 "workday:wf:R-589604": "2026-11-26",
 "workday:wf:R-589605": "2026-11-26",
 "workday:wf:R-589655": "2026-11-27",
+"workday:wf:R-589660": "2026-11-27",
 "workday:wf:R-589664": "2026-11-27",
 "workday:wf:R-589669": "2026-11-27",
 "workday:wf:R-589672": "2026-11-27",
@@ -151717,9 +151740,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 60,
+"calls": 61,
 "date": "2026-11-27",
-"usd": 0.005215
+"usd": 0.005286
 },
 "years": {
 "amazon:10583340": [
