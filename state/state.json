@@ -58126,6 +58126,13 @@
 },
 "2026-11-23"
 ],
+"rescue:workday:capitalone:R1006571-1": [
+{
+"note": "Lead roles typically require more experience.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:workday:capitalone:R232943-1": [
 {
 "note": "Principal roles typically require extensive experience.",
@@ -61710,6 +61717,13 @@
 },
 "2026-11-25"
 ],
+"rescue:workday:mastercard:R-289611": [
+{
+"note": "Lead role typically requires more experience.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:workday:mastercard:R-289668": [
 {
 "note": "Requires significant technical expertise and leadership.",
@@ -61996,6 +62010,13 @@
 "senior": true
 },
 "2026-11-02"
+],
+"rescue:workday:mastercard:R-293572": [
+{
+"note": "Requires significant experience in software engineering.",
+"senior": true
+},
+"2026-11-27"
 ],
 "rescue:workday:mastercard:R-293579": [
 {
@@ -63893,6 +63914,13 @@
 "senior": true
 },
 "2026-10-31"
+],
+"rescue:workday:micron:JR115910": [
+{
+"note": "Requires extensive experience and expertise.",
+"senior": true
+},
+"2026-11-27"
 ],
 "rescue:workday:micron:JR115911": [
 {
@@ -84106,7 +84134,7 @@
 "Box": {
 "alerted": false,
 "streak": 0,
-"typical": 126
+"typical": 128
 },
 "Brain Co": {
 "alerted": false,
@@ -84211,7 +84239,7 @@
 "Capital One": {
 "alerted": false,
 "streak": 0,
-"typical": 106
+"typical": 107
 },
 "CaptivateIQ": {
 "alerted": false,
@@ -84336,7 +84364,7 @@
 "Cloudflare": {
 "alerted": false,
 "streak": 0,
-"typical": 530
+"typical": 531
 },
 "Cloudinary": {
 "alerted": false,
@@ -84646,7 +84674,7 @@
 "Elastic": {
 "alerted": false,
 "streak": 0,
-"typical": 375
+"typical": 370
 },
 "Electric Air": {
 "alerted": false,
@@ -85362,7 +85390,7 @@
 "KLA": {
 "alerted": false,
 "streak": 0,
-"typical": 27
+"typical": 28
 },
 "Kaizen Labs": {
 "alerted": false,
@@ -85637,7 +85665,7 @@
 "Mastercard": {
 "alerted": false,
 "streak": 0,
-"typical": 77
+"typical": 79
 },
 "MatX": {
 "alerted": false,
@@ -85707,7 +85735,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 185
+"typical": 187
 },
 "Microsoft": {
 "alerted": false,
@@ -85837,7 +85865,7 @@
 "NTT DATA": {
 "alerted": false,
 "streak": 0,
-"typical": 79
+"typical": 77
 },
 "NVIDIA": {
 "alerted": false,
@@ -85898,7 +85926,7 @@
 "Netskope": {
 "alerted": false,
 "streak": 0,
-"typical": 125
+"typical": 124
 },
 "Neuralink": {
 "alerted": false,
@@ -86018,7 +86046,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 715,
+"streak": 716,
 "typical": 1
 },
 "Oklo": {
@@ -86158,7 +86186,8 @@
 },
 "Palo Alto Networks": {
 "alerted": false,
-"streak": 0,
+"reason": "IncompleteRead: IncompleteRead(356630 bytes read)",
+"streak": 1,
 "typical": 1228
 },
 "Panasonic North America": {
@@ -86414,7 +86443,7 @@
 "Pure Storage": {
 "alerted": false,
 "streak": 0,
-"typical": 398
+"typical": 401
 },
 "Pylon": {
 "alerted": false,
@@ -86464,7 +86493,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 498,
+"streak": 499,
 "typical": 5
 },
 "Quora": {
@@ -86705,7 +86734,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 172
+"typical": 175
 },
 "Salient": {
 "alerted": false,
@@ -86805,7 +86834,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 683,
+"streak": 684,
 "typical": 39
 },
 "Short Story": {
@@ -86841,7 +86870,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3050
+"typical": 3051
 },
 "SimplyInsured": {
 "alerted": false,
@@ -87581,7 +87610,7 @@
 "Zscaler": {
 "alerted": false,
 "streak": 0,
-"typical": 387
+"typical": 385
 },
 "Zuora": {
 "alerted": false,
@@ -101350,6 +101379,7 @@
 "greenhouse:cloudflare:8411224": "2026-11-24",
 "greenhouse:cloudflare:8412125": "2026-11-24",
 "greenhouse:cloudflare:8413294": "2026-11-27",
+"greenhouse:cloudflare:8414193": "2026-11-27",
 "greenhouse:cloudflare:8414218": "2026-11-26",
 "greenhouse:cloudflare:8415399": "2026-11-25",
 "greenhouse:cloudflare:8416549": "2026-11-26",
@@ -106224,10 +106254,13 @@
 "greenhouse:purestorage:8405725": "2026-11-24",
 "greenhouse:purestorage:8406055": "2026-11-26",
 "greenhouse:purestorage:8407038": "2026-11-20",
+"greenhouse:purestorage:8410564": "2026-11-27",
+"greenhouse:purestorage:8410582": "2026-11-27",
 "greenhouse:purestorage:8412378": "2026-11-23",
 "greenhouse:purestorage:8414694": "2026-11-24",
 "greenhouse:purestorage:8416315": "2026-11-26",
 "greenhouse:purestorage:8416917": "2026-11-25",
+"greenhouse:purestorage:8418417": "2026-11-27",
 "greenhouse:purestorage:8418629": "2026-11-26",
 "greenhouse:purestorage:8419019": "2026-11-26",
 "greenhouse:quantifind:8306623": "2026-10-26",
@@ -113390,6 +113423,7 @@
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24877": "2026-11-04",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24878": "2026-11-16",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24879": "2026-11-17",
+"oracle_hcm:edel.fa.us2.oraclecloud.com:24880": "2026-11-27",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24881": "2026-11-23",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24882": "2026-11-09",
 "oracle_hcm:edel.fa.us2.oraclecloud.com:24886": "2026-11-05",
@@ -115751,6 +115785,7 @@
 "oracle_hcm:enterpriseplatform.dell.com:294297": "2026-11-01",
 "oracle_hcm:enterpriseplatform.dell.com:294368": "2026-10-29",
 "oracle_hcm:enterpriseplatform.dell.com:294441": "2026-11-01",
+"oracle_hcm:enterpriseplatform.dell.com:294442": "2026-11-27",
 "oracle_hcm:enterpriseplatform.dell.com:294531": "2026-11-26",
 "oracle_hcm:enterpriseplatform.dell.com:294594": "2026-11-03",
 "oracle_hcm:enterpriseplatform.dell.com:294891": "2026-11-20",
@@ -125976,6 +126011,7 @@
 "workday:capitalone:R1006542-1": "2026-11-25",
 "workday:capitalone:R1006553": "2026-11-25",
 "workday:capitalone:R1006567": "2026-11-26",
+"workday:capitalone:R1006571-1": "2026-11-27",
 "workday:capitalone:R1006572": "2026-11-27",
 "workday:capitalone:R1006574": "2026-11-27",
 "workday:capitalone:R1006576": "2026-11-27",
@@ -130336,6 +130372,7 @@
 "workday:kla:2643783": "2026-11-26",
 "workday:kla:2643784": "2026-11-25",
 "workday:kla:2643785": "2026-11-26",
+"workday:kla:2643795": "2026-11-27",
 "workday:kla:2644045": "2026-11-25",
 "workday:kla:2644050": "2026-11-26",
 "workday:kla:2644051": "2026-11-26",
@@ -130999,6 +131036,7 @@
 "workday:mastercard:R-289580": "2026-11-27",
 "workday:mastercard:R-289594-1": "2026-10-29",
 "workday:mastercard:R-289610-1": "2026-11-25",
+"workday:mastercard:R-289611": "2026-11-27",
 "workday:mastercard:R-289613": "2026-10-29",
 "workday:mastercard:R-289618": "2026-10-29",
 "workday:mastercard:R-289642": "2026-10-29",
@@ -131305,6 +131343,7 @@
 "workday:mastercard:R-293532": "2026-11-10",
 "workday:mastercard:R-293555-1": "2026-10-29",
 "workday:mastercard:R-293556": "2026-10-29",
+"workday:mastercard:R-293572": "2026-11-27",
 "workday:mastercard:R-293576-1": "2026-10-29",
 "workday:mastercard:R-293579": "2026-11-03",
 "workday:mastercard:R-293582": "2026-11-25",
@@ -133872,6 +133911,7 @@
 "workday:micron:JR115899": "2026-10-31",
 "workday:micron:JR115905": "2026-10-23",
 "workday:micron:JR115907": "2026-11-02",
+"workday:micron:JR115910": "2026-11-27",
 "workday:micron:JR115911": "2026-11-16",
 "workday:micron:JR115914": "2026-11-18",
 "workday:micron:JR115918": "2026-11-04",
@@ -135431,6 +135471,7 @@
 "workday:nvidia:JR2014047": "2026-11-06",
 "workday:nvidia:JR2014055": "2026-11-05",
 "workday:nvidia:JR2014056": "2026-11-03",
+"workday:nvidia:JR2014087": "2026-11-27",
 "workday:nvidia:JR2014105": "2026-10-27",
 "workday:nvidia:JR2014108": "2026-10-28",
 "workday:nvidia:JR2014127": "2026-10-21",
@@ -139958,6 +139999,7 @@
 "workday:salesforce:JR367622-2": "2026-11-06",
 "workday:salesforce:JR367623": "2026-11-06",
 "workday:salesforce:JR367625-1": "2026-11-20",
+"workday:salesforce:JR367636": "2026-11-27",
 "workday:salesforce:JR367643-1": "2026-11-10",
 "workday:salesforce:JR367647-1": "2026-11-10",
 "workday:salesforce:JR367650": "2026-11-10",
@@ -140251,6 +140293,7 @@
 "workday:salesforce:JR369052-1": "2026-11-24",
 "workday:salesforce:JR369057-1": "2026-11-25",
 "workday:salesforce:JR369066-1": "2026-11-20",
+"workday:salesforce:JR369106": "2026-11-27",
 "workday:salesforce:JR369117": "2026-11-20",
 "workday:salesforce:JR369122": "2026-11-25",
 "workday:salesforce:JR369123": "2026-11-23",
@@ -151056,9 +151099,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 14,
+"calls": 18,
 "date": "2026-11-27",
-"usd": 0.000946
+"usd": 0.001226
 },
 "years": {
 "amazon:10583340": [
