@@ -44804,6 +44804,13 @@
 },
 "2026-11-06"
 ],
+"rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:336075": [
+{
+"note": "Requires extensive experience and technical knowledge.",
+"senior": true
+},
+"2026-11-27"
+],
 "rescue:oracle_hcm:eeho.fa.us2.oraclecloud.com:336133": [
 {
 "note": "Requires significant experience and technical leadership.",
@@ -84286,7 +84293,7 @@
 "Astera Labs": {
 "alerted": false,
 "streak": 0,
-"typical": 44
+"typical": 42
 },
 "Astranis": {
 "alerted": false,
@@ -84536,7 +84543,7 @@
 "Cadence Design Systems": {
 "alerted": false,
 "streak": 0,
-"typical": 35
+"typical": 36
 },
 "Calm": {
 "alerted": false,
@@ -84831,7 +84838,7 @@
 "Crusoe": {
 "alerted": false,
 "streak": 0,
-"typical": 302
+"typical": 301
 },
 "Curri": {
 "alerted": false,
@@ -85001,7 +85008,7 @@
 "EarnIn": {
 "alerted": false,
 "streak": 0,
-"typical": 26
+"typical": 25
 },
 "Earnest": {
 "alerted": false,
@@ -85662,7 +85669,7 @@
 "Intel": {
 "alerted": false,
 "streak": 0,
-"typical": 108
+"typical": 109
 },
 "Intro": {
 "alerted": false,
@@ -85992,7 +85999,7 @@
 "Marvell": {
 "alerted": false,
 "streak": 0,
-"typical": 41
+"typical": 42
 },
 "Mashgin": {
 "alerted": false,
@@ -86388,7 +86395,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 741,
+"streak": 742,
 "typical": 1
 },
 "Oklo": {
@@ -86529,7 +86536,7 @@
 "Palo Alto Networks": {
 "alerted": false,
 "streak": 0,
-"typical": 1224
+"typical": 1223
 },
 "Panasonic North America": {
 "alerted": false,
@@ -86834,7 +86841,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 524,
+"streak": 525,
 "typical": 5
 },
 "Quora": {
@@ -87015,7 +87022,7 @@
 "Rocket Lab": {
 "alerted": false,
 "streak": 0,
-"typical": 554
+"typical": 555
 },
 "Rocket Lawyer": {
 "alerted": false,
@@ -87075,7 +87082,7 @@
 "Salesforce": {
 "alerted": false,
 "streak": 0,
-"typical": 190
+"typical": 191
 },
 "Salient": {
 "alerted": false,
@@ -87175,7 +87182,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 709,
+"streak": 710,
 "typical": 39
 },
 "Short Story": {
@@ -107431,6 +107438,7 @@
 "greenhouse:rocketlab:8203418003": "2026-11-13",
 "greenhouse:rocketlab:8203624003": "2026-11-20",
 "greenhouse:rocketlab:8203628003": "2026-11-27",
+"greenhouse:rocketlab:8203630003": "2026-11-27",
 "greenhouse:rocketlab:8203634003": "2026-11-16",
 "greenhouse:rocketlab:8203637003": "2026-11-20",
 "greenhouse:rocketlab:8203732003": "2026-11-16",
@@ -114096,6 +114104,7 @@
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336039": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336050": "2026-11-06",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336072": "2026-10-27",
+"oracle_hcm:eeho.fa.us2.oraclecloud.com:336075": "2026-11-27",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336121": "2026-10-20",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336127": "2026-10-26",
 "oracle_hcm:eeho.fa.us2.oraclecloud.com:336133": "2026-11-03",
@@ -130718,6 +130727,7 @@
 "workday:intel:JR0289441": "2026-11-25",
 "workday:intel:JR0289442": "2026-11-25",
 "workday:intel:JR0289443": "2026-11-25",
+"workday:intel:JR0289445": "2026-11-27",
 "workday:intel:JR0289447-1": "2026-11-26",
 "workday:intel:JR0289449": "2026-11-20",
 "workday:intel:JR0289454": "2026-11-25",
@@ -131276,6 +131286,7 @@
 "workday:marvell:2604906": "2026-11-20",
 "workday:marvell:2604907": "2026-11-04",
 "workday:marvell:2604911": "2026-10-23",
+"workday:marvell:2604933": "2026-11-27",
 "workday:marvell:2604942": "2026-10-29",
 "workday:marvell:2604948": "2026-11-03",
 "workday:marvell:2604950": "2026-10-27",
@@ -140984,6 +140995,7 @@
 "workday:salesforce:JR369515": "2026-11-24",
 "workday:salesforce:JR369519": "2026-11-24",
 "workday:salesforce:JR369520": "2026-11-27",
+"workday:salesforce:JR369522": "2026-11-27",
 "workday:salesforce:JR369559": "2026-11-24",
 "workday:salesforce:JR369564": "2026-11-27",
 "workday:salesforce:JR369566": "2026-11-27",
@@ -147255,6 +147267,7 @@
 "workday:wf:R-589412": "2026-11-25",
 "workday:wf:R-589425-1": "2026-11-25",
 "workday:wf:R-589436": "2026-11-27",
+"workday:wf:R-589449": "2026-11-27",
 "workday:wf:R-589451": "2026-11-25",
 "workday:wf:R-589459-1": "2026-11-25",
 "workday:wf:R-589465": "2026-11-25",
@@ -151777,9 +151790,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 63,
+"calls": 64,
 "date": "2026-11-27",
-"usd": 0.005524
+"usd": 0.005591
 },
 "years": {
 "amazon:10583340": [
