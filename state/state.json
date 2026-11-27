@@ -57965,6 +57965,13 @@
 },
 "2026-11-18"
 ],
+"rescue:workday:capitalone:R1006111": [
+{
+"note": "Contract role likely entry-level.",
+"senior": false
+},
+"2026-11-27"
+],
 "rescue:workday:capitalone:R1006120-1": [
 {
 "note": "Manager roles typically require more experience.",
@@ -83567,7 +83574,7 @@
 "Agoda": {
 "alerted": false,
 "streak": 0,
-"typical": 332
+"typical": 334
 },
 "Ai2": {
 "alerted": false,
@@ -84177,7 +84184,7 @@
 "ChargePoint": {
 "alerted": false,
 "streak": 0,
-"typical": 38
+"typical": 39
 },
 "Chariot": {
 "alerted": false,
@@ -84963,7 +84970,7 @@
 "HP": {
 "alerted": false,
 "streak": 0,
-"typical": 104
+"typical": 105
 },
 "HPE / Juniper Networks": {
 "alerted": false,
@@ -85623,7 +85630,7 @@
 "Micron": {
 "alerted": false,
 "streak": 0,
-"typical": 248
+"typical": 249
 },
 "Microsoft": {
 "alerted": false,
@@ -85934,7 +85941,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 703,
+"streak": 704,
 "typical": 1
 },
 "Oklo": {
@@ -86380,7 +86387,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 486,
+"streak": 487,
 "typical": 5
 },
 "Quora": {
@@ -86721,7 +86728,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 671,
+"streak": 672,
 "typical": 39
 },
 "Short Story": {
@@ -86757,7 +86764,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3055
+"typical": 3057
 },
 "SimplyInsured": {
 "alerted": false,
@@ -125690,6 +125697,7 @@
 "workday:capitalone:R1006104-1": "2026-11-18",
 "workday:capitalone:R1006108-1": "2026-11-19",
 "workday:capitalone:R1006109-1": "2026-11-18",
+"workday:capitalone:R1006111": "2026-11-27",
 "workday:capitalone:R1006114-1": "2026-11-19",
 "workday:capitalone:R1006117-1": "2026-11-18",
 "workday:capitalone:R1006119-1": "2026-11-23",
@@ -127055,6 +127063,7 @@
 "workday:hp:3168928-1": "2026-10-28",
 "workday:hp:3168932-1": "2026-11-06",
 "workday:hp:3168949-1": "2026-11-10",
+"workday:hp:3168951-2": "2026-11-27",
 "workday:hp:3168957-1": "2026-11-06",
 "workday:hp:3168960-1": "2026-11-06",
 "workday:hp:3168963-1": "2026-11-06",
@@ -127985,6 +127994,7 @@
 "workday:hpe:1213886-2": "2026-11-26",
 "workday:hpe:1213898": "2026-11-02",
 "workday:hpe:1213909-2": "2026-11-06",
+"workday:hpe:1213928-2": "2026-11-27",
 "workday:hpe:1213945-2": "2026-11-11",
 "workday:hpe:1213951-2": "2026-11-23",
 "workday:hpe:1213971-2": "2026-10-29",
@@ -133489,6 +133499,7 @@
 "workday:micron:JR115035": "2026-10-21",
 "workday:micron:JR115037": "2026-10-28",
 "workday:micron:JR115039-1": "2026-10-30",
+"workday:micron:JR115040": "2026-11-27",
 "workday:micron:JR115041": "2026-11-16",
 "workday:micron:JR115042": "2026-10-29",
 "workday:micron:JR115043-1": "2026-11-16",
@@ -150848,9 +150859,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 2,
+"calls": 3,
 "date": "2026-11-27",
-"usd": 0.000137
+"usd": 0.000208
 },
 "years": {
 "amazon:10583340": [
