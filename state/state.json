@@ -19860,6 +19860,26 @@
 },
 "2026-11-27"
 ],
+"greenhouse:stripe:8421367|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 2,
+"note": "Requires 2 years of experience in multiple areas.",
+"us_ok": true
+},
+"2026-11-27"
+],
+"greenhouse:stripe:8421387|v3|73908d": [
+{
+"chance": 2,
+"level": "mid",
+"min_years": 3,
+"note": "Requires 3 years of experience, not entry-level.",
+"us_ok": true
+},
+"2026-11-27"
+],
 "greenhouse:sumologic:8318216|v3|73908d": [
 {
 "chance": 2,
@@ -86344,7 +86364,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 736,
+"streak": 737,
 "typical": 1
 },
 "Oklo": {
@@ -86375,7 +86395,7 @@
 "One Medical": {
 "alerted": false,
 "streak": 0,
-"typical": 353
+"typical": 361
 },
 "OneSchema": {
 "alerted": false,
@@ -86790,7 +86810,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 519,
+"streak": 520,
 "typical": 5
 },
 "Quora": {
@@ -87131,7 +87151,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 704,
+"streak": 705,
 "typical": 39
 },
 "Short Story": {
@@ -87167,7 +87187,7 @@
 "SimplifyJobs (new grad list)": {
 "alerted": false,
 "streak": 0,
-"typical": 3047
+"typical": 3046
 },
 "SimplyInsured": {
 "alerted": false,
@@ -87362,7 +87382,7 @@
 "Stripe": {
 "alerted": false,
 "streak": 0,
-"typical": 768
+"typical": 770
 },
 "Stuut": {
 "alerted": false,
@@ -87806,8 +87826,7 @@
 },
 "Wells Fargo": {
 "alerted": false,
-"reason": "IncompleteRead: IncompleteRead(0 bytes read)",
-"streak": 1,
+"streak": 0,
 "typical": 300
 },
 "Wingspan": {
@@ -105771,6 +105790,8 @@
 "greenhouse:onemedical:8362989": "2026-11-07",
 "greenhouse:onemedical:8367384": "2026-11-09",
 "greenhouse:onemedical:8370859": "2026-11-27",
+"greenhouse:onemedical:8370877": "2026-11-27",
+"greenhouse:onemedical:8370883": "2026-11-27",
 "greenhouse:onemedical:8371992": "2026-11-10",
 "greenhouse:onemedical:8371997": "2026-11-10",
 "greenhouse:onemedical:8371999": "2026-11-10",
@@ -105964,6 +105985,12 @@
 "greenhouse:onemedical:8421334": "2026-11-27",
 "greenhouse:onemedical:8421336": "2026-11-27",
 "greenhouse:onemedical:8421348": "2026-11-27",
+"greenhouse:onemedical:8421351": "2026-11-27",
+"greenhouse:onemedical:8421352": "2026-11-27",
+"greenhouse:onemedical:8421353": "2026-11-27",
+"greenhouse:onemedical:8421365": "2026-11-27",
+"greenhouse:onemedical:8421369": "2026-11-27",
+"greenhouse:onemedical:8421374": "2026-11-27",
 "greenhouse:ooma:5260619007": "2026-10-22",
 "greenhouse:ooma:5260983007": "2026-10-26",
 "greenhouse:ooma:5265718007": "2026-10-20",
@@ -108721,6 +108748,8 @@
 "greenhouse:stripe:8421000": "2026-11-27",
 "greenhouse:stripe:8421091": "2026-11-27",
 "greenhouse:stripe:8421263": "2026-11-27",
+"greenhouse:stripe:8421367": "2026-11-27",
+"greenhouse:stripe:8421387": "2026-11-27",
 "greenhouse:sumologic:8288761": "2026-10-28",
 "greenhouse:sumologic:8302961": "2026-10-20",
 "greenhouse:sumologic:8305881": "2026-10-22",
@@ -147204,6 +147233,7 @@
 "workday:wf:R-589605": "2026-11-26",
 "workday:wf:R-589655": "2026-11-27",
 "workday:wf:R-589664": "2026-11-27",
+"workday:wf:R-589669": "2026-11-27",
 "workday:workday:JR-0102943-2": "2026-11-16",
 "workday:workday:JR-0103983": "2026-10-28",
 "workday:workday:JR-0105160": "2026-10-28",
@@ -151259,6 +151289,7 @@
 "stripe|software engineer experimental projects": "2026-11-24",
 "stripe|software engineer full stack": "2026-10-29",
 "stripe|software engineer full stack atlas": "2026-11-27",
+"stripe|software engineer reporting platform": "2026-11-27",
 "stripe|software engineer resource automation": "2026-10-22",
 "stripe|technical operations engineer": "2026-10-27",
 "stripe|technical operations engineer revenue": "2026-11-17",
@@ -151684,9 +151715,9 @@
 "zuru|business analyst": "2026-11-16"
 },
 "usage": {
-"calls": 58,
+"calls": 60,
 "date": "2026-11-27",
-"usd": 0.00487
+"usd": 0.005215
 },
 "years": {
 "amazon:10583340": [
