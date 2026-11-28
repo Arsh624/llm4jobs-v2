@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-28T09:03:16+00:00",
+ "run_at": "2026-11-28T09:31:04+00:00",
  "sources": {
   "1X Technologies": {
    "type": "ashby",
@@ -1508,8 +1508,8 @@
   },
   "HP": {
    "type": "workday",
-   "jobs": 0,
-   "error": "TimeoutError: The read operation timed out"
+   "jobs": 60,
+   "error": null
   },
   "HPE / Juniper Networks": {
    "type": "workday",
@@ -2303,8 +2303,8 @@
   },
   "NVIDIA": {
    "type": "workday",
-   "jobs": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "jobs": 280,
+   "error": null
   },
   "Nabis": {
    "type": "greenhouse",
@@ -3168,7 +3168,7 @@
   },
   "Samsara": {
    "type": "greenhouse",
-   "jobs": 294,
+   "jobs": 297,
    "error": null
   },
   "Samsung Research America": {
@@ -3868,8 +3868,8 @@
   },
   "Visa": {
    "type": "workday",
-   "jobs": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "jobs": 15,
+   "error": null
   },
   "Vitalize": {
    "type": "ashby",
