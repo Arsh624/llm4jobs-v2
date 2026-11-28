@@ -84028,9 +84028,8 @@
 },
 "Adobe": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 7
+"streak": 0,
+"typical": 4
 },
 "Affirm": {
 "alerted": false,
@@ -84284,9 +84283,8 @@
 },
 "Arrowstreet Capital": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 28
+"streak": 0,
+"typical": 14
 },
 "Artie": {
 "alerted": false,
@@ -84720,9 +84718,8 @@
 },
 "Cisco": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 8
+"streak": 0,
+"typical": 3
 },
 "ClassDojo": {
 "alerted": false,
@@ -85111,9 +85108,8 @@
 },
 "Etsy": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 3
+"streak": 0,
+"typical": 2
 },
 "Eudia": {
 "alerted": false,
@@ -85457,16 +85453,15 @@
 "typical": 85
 },
 "HP": {
-"alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"alerted": true,
+"reason": "TimeoutError: The read operation timed out",
+"streak": 4,
 "typical": 85
 },
 "HPE / Juniper Networks": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 135
+"streak": 0,
+"typical": 108
 },
 "HUD": {
 "alerted": false,
@@ -85716,7 +85711,7 @@
 "Intuit": {
 "alerted": false,
 "streak": 0,
-"typical": 598
+"typical": 596
 },
 "Invert": {
 "alerted": false,
@@ -85850,14 +85845,12 @@
 },
 "Kyndryl": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 0,
 "typical": 12
 },
 "Kyndryl Early Careers": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 0,
 "typical": 30
 },
 "LTSE": {
@@ -86007,9 +86000,8 @@
 },
 "Lumentum": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 27
+"streak": 0,
+"typical": 22
 },
 "Luminai": {
 "alerted": false,
@@ -86118,9 +86110,8 @@
 },
 "Microchip Technology": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 8
+"streak": 0,
+"typical": 5
 },
 "Micron": {
 "alerted": false,
@@ -86235,7 +86226,7 @@
 "Motive": {
 "alerted": false,
 "streak": 0,
-"typical": 192
+"typical": 191
 },
 "Mutiny": {
 "alerted": false,
@@ -86258,9 +86249,9 @@
 "typical": 66
 },
 "NVIDIA": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 280
 },
 "NXP Semiconductors": {
@@ -86437,7 +86428,7 @@
 "Offstream": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 764,
+"streak": 765,
 "typical": 1
 },
 "Oklo": {
@@ -86883,7 +86874,7 @@
 "Quip": {
 "alerted": true,
 "reason": "HTTPError: HTTP Error 404: Not Found",
-"streak": 547,
+"streak": 548,
 "typical": 5
 },
 "Quora": {
@@ -86948,9 +86939,8 @@
 },
 "Red Hat": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 21
+"streak": 0,
+"typical": 14
 },
 "Reddit": {
 "alerted": false,
@@ -87225,7 +87215,7 @@
 "Shield AI": {
 "alerted": true,
 "reason": "returned 0 jobs (usually ~39)",
-"streak": 732,
+"streak": 733,
 "typical": 39
 },
 "Short Story": {
@@ -87839,9 +87829,9 @@
 "typical": 28
 },
 "Visa": {
-"alerted": false,
+"alerted": true,
 "reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
+"streak": 4,
 "typical": 29
 },
 "Vitalize": {
@@ -87901,9 +87891,8 @@
 },
 "Wells Fargo": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 300
+"streak": 0,
+"typical": 194
 },
 "Wingspan": {
 "alerted": false,
@@ -87932,9 +87921,8 @@
 },
 "Workday": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 59
+"streak": 0,
+"typical": 24
 },
 "World Labs": {
 "alerted": false,
@@ -87973,9 +87961,8 @@
 },
 "Zillow": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 18
+"streak": 0,
+"typical": 12
 },
 "Zimperium": {
 "alerted": false,
@@ -88034,9 +88021,8 @@
 },
 "eBay": {
 "alerted": false,
-"reason": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"streak": 3,
-"typical": 38
+"streak": 0,
+"typical": 26
 },
 "fal": {
 "alerted": false,
